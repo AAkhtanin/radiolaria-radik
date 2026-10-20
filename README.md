@@ -1,5 +1,33 @@
 # Radik informational task console
 
+<!-- RADIK_STAGE04_PUBLICATION_START -->
+## Radik — an answer is only the beginning
+
+**Capability, not authority.**
+
+You ask an AI to compare two sets of service terms. It answers. Then one provider changes a promise, you move to another question, and you close the application. When you return, what should remain: the last conversation, or the task and the work already done?
+
+**Radik is an interactive application built on Radiolaria.** It connects supported document tasks to model reasoning, native execution and task memory. The model can contribute an answer or a plan; it does not control the decisions that permit execution. The task retains its sources, results and conditions for reuse.
+
+In the accepted Stage 4 runs, that distinction becomes visible:
+
+**The exception stays an exception.** Radik explains fictional support terms without turning an unspecified call price into free calls. Two bounded follow-up steps run without another model call. After a different task, it returns to the right saved result. [Follow Fern and Linden](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-terms).
+
+**A changed promise does not erase unchanged work.** Alder changes its response commitment from one working day to three. Radik recomputes the affected branch and feeds the exact saved Birch material into the new result. [Inspect the source-change run](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-change).
+
+**A new process starts; old authority does not restart with it.** The first process closes normally. A second reads the saved Moss result without a model call, keeps the original expiry and applies fresh checks. [Follow the restart](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-restart).
+
+[**Explore the application and supported tasks**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/TRY_RADIK.md) · [**Read the audit log**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/AUDIT_LOG.md) · [**Check the evidence**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/VERIFY.md) · [**Read with your AI assistant**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml)
+
+**Current preview:** Stage 4 is [accepted](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/WALKER_STAGE04_ACCEPTANCE_20261020.md) for the dynamic informational application profile. The terms are fictional; model calls and native execution are real. Independent-owner exchange and general external actions are later Radik integrations, not features claimed for this preview. Radiolaria's reference scope is documented separately.
+
+The code is here to study, test and develop further. Start with a supported task and an inspectable result. The [reading guide](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md) explains the route; the records let you challenge it.
+<!-- RADIK_STAGE04_PUBLICATION_END -->
+
+## Historical engineering notes — before Stage 4 acceptance
+
+These notes preserve the engineering state before Stage 4 was accepted. Their status statements are historical; the accepted Stage 4 scope and current reading route appear above.
+
 Radik is an owned application on public Radiolaria P, preserved at commit
 `800f38c3407b3f4ec93dc943c977ffeecb614881`. The current engineering passage is
 `review/normal_session_g2e_passage`. Its A source candidate introduces explicit
@@ -107,31 +135,5 @@ See [task behavior](docs/dynamic_tasks.md) and the
 returns retain their original identities; they confer no current permission.
 Russian owner instructions and delivery reports are external return material.
 The existing archive builder/exporter supplies the verified return pairs.
-
-The earlier engineering notes above retain their historical wording. The accepted Stage 4 scope and current reading route are recorded below.
-
-<!-- RADIK_STAGE04_PUBLICATION_START -->
-## Radik — an answer is only the beginning
-
-**Capability, not authority.**
-
-You ask an AI to compare two sets of service terms. It answers. Then one provider changes a promise, you move to another question, and you close the application. When you return, what should remain: the last conversation, or the task and the work already done?
-
-**Radik is an interactive application built on Radiolaria.** It connects supported document tasks to model reasoning, native execution and task memory. The model can contribute an answer or a plan; it does not control the decisions that permit execution. The task retains its sources, results and conditions for reuse.
-
-In the accepted Stage 4 runs, that distinction becomes visible:
-
-**The exception stays an exception.** Radik explains fictional support terms without turning an unspecified call price into free calls. Two bounded follow-up steps run without another model call. After a different task, it returns to the right saved result. [Follow Fern and Linden](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-terms).
-
-**A changed promise does not erase unchanged work.** Alder changes its response commitment from one working day to three. Radik recomputes the affected branch and feeds the exact saved Birch material into the new result. [Inspect the source-change run](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-change).
-
-**A new process starts; old authority does not restart with it.** The first process closes normally. A second reads the saved Moss result without a model call, keeps the original expiry and applies fresh checks. [Follow the restart](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md#scene-restart).
-
-[**Explore the application and supported tasks**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/TRY_RADIK.md) · [**Read the audit log**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/AUDIT_LOG.md) · [**Check the evidence**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/VERIFY.md) · [**Read with your AI assistant**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml)
-
-**Current preview:** Stage 4 is [accepted](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/WALKER_STAGE04_ACCEPTANCE_20261020.md) for the dynamic informational application profile. The terms are fictional; model calls and native execution are real. Independent-owner exchange and general external actions are later Radik integrations, not features claimed for this preview. Radiolaria's reference scope is documented separately.
-
-The code is here to study, test and develop further. Start with a supported task and an inspectable result. The [reading guide](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md) explains the route; the records let you challenge it.
-<!-- RADIK_STAGE04_PUBLICATION_END -->
 
 Radik code is distributed under the GNU Affero General Public License, version 3 only (AGPL-3.0-only), the same license as the Radiolaria reference implementation. See [LICENSE](LICENSE). Existing notices for third-party code and other materials remain applicable; see [the reference rights notice](https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/radiolaria_os_v01/RIGHTS.md).
