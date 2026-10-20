@@ -1,0 +1,74 @@
+{
+  "schema": "radik.p31.independent_actual_acceptance_review.v01",
+  "reviewer": "/root/p31_actual_reviewer",
+  "reviewed_at_utc": "2026-10-20T15:22:25.548412+00:00",
+  "status": "ACCEPTED_P31_FULL_OWNER_SCENARIO",
+  "accepted_run": "OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34",
+  "owner_admission_sha256": "e4267980357428df66b73e176c203abd12d051412981baa2a5ad95d087da44bd",
+  "owner_admission_consumed": true,
+  "retry_authorized": false,
+  "source_identity_sha256": "ea4a2dc46ddb9ca24b92c10c2c1d968471b0247e155d24249e60796eab9adfe0",
+  "source_pin_count": 160,
+  "evidence_review_refs": [
+    {
+      "path": "review/g2e_successor_passage/p31_actual_acceptance/identity_accounting_review.json",
+      "sha256": "2d58699506ede2a82e7fb168c530303e71aa10e314c572e33d90c1eb42ecf236",
+      "size_bytes": 68305
+    },
+    {
+      "path": "review/g2e_successor_passage/p31_actual_acceptance/native_consumer_review.json",
+      "sha256": "2025e2b385f4e13889e344e5d985deeddd1080cc479bfb329402a1c58a3c9691",
+      "size_bytes": 33834
+    },
+    {
+      "path": "review/g2e_successor_passage/p31_actual_acceptance/memory_control_restart_review.json",
+      "sha256": "50b15bbc2af08ddd801282870479b6bcaa6d5630c08e3da0694b4b90cbda8407",
+      "size_bytes": 30209
+    },
+    {
+      "path": "review/g2e_successor_passage/p31_actual_acceptance/input_memory_primary_refs.json",
+      "sha256": "9d0b575ce58b4bed7b0ac1edac27662cafd4d395e14f0a9c71cce9d37e08a8e2",
+      "size_bytes": 7159
+    }
+  ],
+  "actual_user_result": "A explains eligibility, holiday exception, urgent-response scope and unstated prices; B verifies a supplied claim from3documents, distinguishing contradiction from omission; C verifies the held-out4document candidate; A and C memory remain correctly scoped.",
+  "source_semantic_limitation": "Accepted finite fixture reasoning and exact citation/consumer bindings, not external truth or universal ability. C retains ENTAILMENT_REQUIRES_REVIEW.",
+  "full_route": {
+    "commands": 20,
+    "real_processes": 2,
+    "child_exit_codes": [
+      0,
+      0
+    ],
+    "reaped": [
+      true,
+      true
+    ],
+    "primary_failure": null,
+    "new_started_closed_rounds": 9,
+    "new_completed_role_calls": 9,
+    "console_counted": [
+      35,
+      44
+    ],
+    "exam_counted": 16,
+    "original_UNKNOWNs_preserved": 3,
+    "native_E_calls": 0,
+    "SAVE_effects": 0
+  },
+  "timings": {
+    "full_wall_seconds": 1327.948490167,
+    "cumulative_native_seconds": 1106.578535916,
+    "children_process_cpu_seconds": 1180.356847,
+    "shared_deadline_seconds": 7800
+  },
+  "maintenance_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/maintenance.json",
+    "sha256": "c1cc044c4a840543be4e8963305cb218218731e48d8031de71f98f0c62a570de",
+    "size_bytes": 1257
+  },
+  "runtime_source_changed_this_passage": false,
+  "no_new_provider_AUTH_model_SAVE_or_owner_command": true,
+  "Stage04_composite_ref": "review/g2e_successor_passage/p31_actual_acceptance/stage04_composite_acceptance.json",
+  "dossier_review": "Separate final editorial readback; no runtime authority is granted."
+}

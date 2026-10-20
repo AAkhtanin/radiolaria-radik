@@ -1,0 +1,68 @@
+{
+  "schema": "radik.direct_plan_protocol_references.v01",
+  "retrieved_at_utc": "2026-10-13",
+  "sources": [
+    {
+      "name": "sign-in",
+      "url": "https://developers.openai.com/siwc/token-sharing-open-source/sign-in",
+      "body_basis": "Exact rendered main-content lines returned by official-page retrieval; not raw HTML bytes.",
+      "rendered_body_sha256": "a25cf88ac44f8071b9339b21eeba42094afba118e2591c8d6490480e3d209d3a",
+      "rendered_body_bytes": 10174
+    },
+    {
+      "name": "models-and-inference",
+      "url": "https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference",
+      "body_basis": "Exact rendered main-content lines returned by official-page retrieval; not raw HTML bytes.",
+      "rendered_body_sha256": "d2a134d87277e2f18451a12d22174da941f15be24f9efb28678da39ca2fa06ea",
+      "rendered_body_bytes": 4871
+    },
+    {
+      "name": "preview-limitations",
+      "url": "https://developers.openai.com/siwc/token-sharing-open-source/preview-limitations",
+      "body_basis": "Exact rendered main-content lines returned by official-page retrieval; not raw HTML bytes.",
+      "rendered_body_sha256": "e2ffe4e9a95d359f43e4a970e21a23ea515a5f05c89617def8d8eb0cdab48218",
+      "rendered_body_bytes": 2887
+    },
+    {
+      "name": "token-reference",
+      "url": "https://developers.openai.com/siwc/token-sharing-open-source/token-reference",
+      "body_basis": "Exact rendered main-content lines returned by official-page retrieval; not raw HTML bytes.",
+      "rendered_body_sha256": "86d867aba39735f9a918cf45bf469616c310b74c6e670ee31c2659d041ce2fd5",
+      "rendered_body_bytes": 3576
+    },
+    {
+      "name": "profiles-and-sessions",
+      "url": "https://developers.openai.com/siwc/token-sharing-open-source/profiles-and-sessions",
+      "body_basis": "Exact rendered main-content lines returned by official-page retrieval; not raw HTML bytes.",
+      "rendered_body_sha256": "e7f5417138dcb8714265e6f204ca9c506cfe08bf80c1993baf566aadbf3e6787",
+      "rendered_body_bytes": 6188
+    },
+    {
+      "name": "responses-streaming-events",
+      "url": "https://developers.openai.com/api/reference/resources/responses/streaming-events",
+      "body_basis": "Exact selected rendered main-content sentences returned by official-page retrieval; short excerpt only, not raw HTML or a full page hash.",
+      "rendered_excerpt_path": "review/direct_plan_passage/protocol_sources/responses-streaming-events_excerpt.txt",
+      "rendered_body_sha256": "82955b2a73353dadc02c8cca694ce70d27b668216ac90e4a0d1687284e4355f5",
+      "rendered_body_bytes": 118,
+      "implemented_facts": [
+        "A successful response has a response.completed event with the response object and sequence number.",
+        "Text delta/done events identify an item and content position; the completed output contains the final text.",
+        "The completion example also exposes reasoning_effort; missing telemetry does not imply the requested effort."
+      ]
+    },
+    {
+      "name": "responses-create-parameter-profile",
+      "url": "https://developers.openai.com/api/reference/resources/responses/methods/create",
+      "body_basis": "Exact selected parameter-schema lines returned by official-page search retrieval; short excerpt only, not raw HTML or a full page hash. Direct page open exceeded the web renderer content-length limit.",
+      "rendered_excerpt_path": "review/direct_plan_passage/protocol_sources/responses-create-parameter-profile_excerpt.txt",
+      "rendered_body_sha256": "0a233e7072570235eaf1072c69082da8d4eb5d4af4143cad42e0624005174798",
+      "rendered_body_bytes": 101,
+      "implemented_facts": [
+        "The public Responses effort enum includes high; individual models need not accept every effort value.",
+        "The public service tier enum includes default; returned service_tier reports the mode actually used and may differ from the request.",
+        "This generic API parameter profile establishes legal requested fields, not own-plan account entitlement or model-specific acceptance."
+      ]
+    }
+  ],
+  "scope": "Official SIWC public protocol facts only; no auth/model request performed"
+}

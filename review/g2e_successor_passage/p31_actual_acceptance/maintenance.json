@@ -1,0 +1,19 @@
+{
+  "schema": "radik.stage04.maintenance.v01",
+  "id": "MAINT-P31-CLEANUP-STOP-NS",
+  "status": "OPEN_NONBLOCKING_MAINTENANCE",
+  "source_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py",
+    "sha256": "74f6e95859ddea92a1cea10adb8d0bfd1fb00dc4061812dd8ff543404cc59c6a",
+    "size_bytes": 71786
+  },
+  "source_selectors": [
+    "supervise exception handler and inner finally at lines867-877",
+    "outer finally at lines935-938"
+  ],
+  "cause": "Driver/monitor exception does not persist deadline.stop_ns before first bounded cleanup. If the child remains unreaped after SIGKILL, outer finally may start a second nominal20-second cleanup with a new stop time, up to40 nominalseconds instead of declared30.",
+  "actual_scope": "Both actual children exit0/reaped with no signal/primary failure; the exceptional branch was neither exercised nor fixed.",
+  "safety_scope": "No retry, second operation or unlocking a live child is authorized. Normal deadline-stop already preserves stop_ns.",
+  "future_closure": "Separate approved source change must retain one shared cleanup stop instant and verify exception plus unreaped-after-kill against one30-second total budget.",
+  "changed_now": false
+}

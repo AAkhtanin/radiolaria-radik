@@ -1,0 +1,24 @@
+{
+  "schema": "radik.p31.actual_return_prepare_source_review.v01",
+  "generated_at_utc": "2026-10-20T15:16:25.405530+00:00",
+  "reviewer": "/root",
+  "wrapper_author": "/root/p31_reference_mapper",
+  "status": "ACCEPTED_EXACT_FINITE_PACKAGING_SOURCE_FOR_READ_ONLY_DATA_PREFLIGHT_AND_ONE_PREPARE",
+  "source_pins": {
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/package_return.py": "0eb5a9bb2f8cadef875c1584f1a883b63d2621e466914b0e6e6521821fc4d81a",
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/CONTRACT.md": "a951a524f4f83760d9963e6dfa2d19a956d0c123eeed664aee6413f6200e72c3",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "review/transport/radik_local_operator.py": "217a013f5ada2f246959be3a432f4303f3c950b1f74fc2d244d833cd0eaded58"
+  },
+  "review_basis": "Read full P30 predecessor and exact complete diff plus complete P31 contract. Only finite constants/paths/admission markers and explicit raw/closed/XML capacity changed. Existing publisher and operator SHA256 unchanged.",
+  "boundaries": {
+    "imports": "Python standard library only; no application/native modules",
+    "preflight": "Verify finite selected payload hashes, public path and unchanged secret predicate; no archive build",
+    "prepare": "One exclusive descriptor creation only after materials finalization",
+    "build": "Separate final independent exact-descriptor admission required",
+    "operator": "Never start/restart; existing delivery only",
+    "source_reference": "No changes or runtime imports",
+    "runtime_execution": false,
+    "new_owner_operation": false
+  }
+}

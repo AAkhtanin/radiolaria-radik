@@ -1,0 +1,234 @@
+{
+  "content": {
+    "criterion": "Use all three documents to assess the supplied candidate, distinguishing payment and receipt conditions, the opened-goods exception and the unresolved return-postage cost.",
+    "drs_hit_is_authority": false,
+    "drs_record_is_truth": false,
+    "drs_reuse_candidate_is_action_permission": false,
+    "intent": "Verify the proposed delivery and returns statement for fictional Store Linden.",
+    "kind": "accepted_dynamic_result",
+    "meaning_key": "d1016c2b6d470b48ca93761a115b54f302213e98945b152e925e1171b7e36f23",
+    "record": {
+      "artifact_pointers": [
+        {
+          "access_policy_id": "radik:owned_accepted_document_memory",
+          "allowed_use_classes": [
+            "OPEN_ONE_ARTIFACT"
+          ],
+          "byte_length": 54152,
+          "content_sha256": "3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+          "creates_authority": false,
+          "creates_permission": false,
+          "forbidden_use_classes": [],
+          "media_type": "application/json",
+          "object_reference": "3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+          "payload_read_permitted": true,
+          "pointer_id": "drsart_v01:52a68324873495fc127685c82ea045d839b609b734f9e85658d6216989b6396a",
+          "pointer_version": "v0.1",
+          "sensitivity_class": "INTERNAL",
+          "storage_class": "LOCAL_DOCUMENT",
+          "summary_read_permitted": true
+        }
+      ],
+      "authority_envelope": {
+        "action_permission_present": false,
+        "authority_class": "ROOT_ACCEPTED_WORK",
+        "authority_envelope_id": "drsauth_v01:1fd67c9822c0735bec3f6bda3eb94f216f3c53a6ec18cebb5dcfcf9f3f2125e1",
+        "authority_envelope_version": "v0.1",
+        "authority_scope_fingerprint": "a519fd9e8b6d7e099a648eb677bcb9633f68133ec66828935ec1460082944bf4",
+        "creates_authority": false,
+        "creates_permission": false,
+        "owning_local_root_id": "root:radik:dynamic_memory",
+        "recording_component": "radik:document_memory",
+        "root_acceptance_state": "ACCEPTED_WORK",
+        "source_root_decision_hash": "6c0579a2efc6ebfb95b79b8a9f8e55c577cfc79d0399795532e0477ea6ec2b78",
+        "source_root_decision_id": "dc4b0d32b93d08a4a3301920bac58f43bd40eae833b7482899627aaec199ec29",
+        "source_root_decision_input_id": "ef720ed7a2e2a75296f6318343f1cb0f89542b3e07d6fc5c59cb24093e167605"
+      },
+      "conflict_hints": [],
+      "content_fingerprint": "3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+      "creates_authority": false,
+      "creates_permission": false,
+      "lineage_edges": [],
+      "local_reference_kernel_scope": "LOCAL_REFERENCE_KERNEL",
+      "meaning_record_id": "drsmeaning_v01:d5402c0302c21bd6619cc0b1fe25a89a6e4295b60710702a55b62991dc202ccf",
+      "meaning_record_version": "v0.1",
+      "memory_pointers": [],
+      "persistent_lifecycle_state": "ACTIVE",
+      "policy_version": "radik.dynamic.memory.v01",
+      "predecessor_record_id": null,
+      "recording_component": "radik:document_memory",
+      "resonance_reason": "Actual accepted document Work; new current eligibility and independent descent required.",
+      "reuse_policy_class": "CONTEXT_ONLY",
+      "risk_hints": [],
+      "safe_summary": "Accepted document Work result. The exact profile result, source bindings and original Root provenance are in the controlled local artifact. Current eligibility and fresh Root descent are required.",
+      "schema_versions": [
+        "radik.dynamic.memory.v01"
+      ],
+      "semantic_address": {
+        "address_profile_version": "v0.1",
+        "domain": "RADIK_DOCUMENT",
+        "intent_class": "context_lookup",
+        "meaning_schema_id": "radik.dynamic.memory",
+        "meaning_schema_version": "v01",
+        "namespace": "radik",
+        "semantic_address_id": "drsaddr_v01:84841425198232099b939d5aa47c1298deadbe8e52b6d47c305d5555294fa7eb",
+        "subject_class": "accepted_dynamic_document_result"
+      },
+      "semantic_tags": [
+        "document",
+        "accepted_result"
+      ],
+      "source_reference_ids": [
+        "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+        "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+        "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+        "42893ca81df4e204dbf1bd4a719750de8b2d378a594a48294bf0d2919d8b6292",
+        "c73ebaad32176c46b6539093a3d4816931bbd890b6f7e7c843274e7987e0330e"
+      ],
+      "supersession_reason": null,
+      "time_envelope": {
+        "ct_context_anchor": 1792505502,
+        "et_observed_at": 1792505502,
+        "freshness_policy_id": "freshness:radik:document_memory",
+        "kt_as_of": 1792505502,
+        "pt_created_at": 1792505502,
+        "source_observed_at": 1792505502,
+        "source_reported_at": 1792505502,
+        "system_ingested_at": 1792505502,
+        "system_verified_at": 1792505502,
+        "time_envelope_id": "drstime_v01:bd1ae69e58f727aa87a722fcf6098ae06a6ca8e98fd8179f2e0b11c6c5918029",
+        "time_envelope_version": "v0.1",
+        "ttl_seconds": 7058,
+        "valid_from": 1792505502,
+        "valid_to": 1792512560
+      }
+    },
+    "root_final_ref": "dc4b0d32b93d08a4a3301920bac58f43bd40eae833b7482899627aaec199ec29",
+    "semantic_keys": [
+      "document",
+      "accepted_result"
+    ],
+    "topic_id": "document_conditions",
+    "worldstate": {
+      "meaning": {
+        "criterion": "Use all three documents to assess the supplied candidate, distinguishing payment and receipt conditions, the opened-goods exception and the unresolved return-postage cost.",
+        "goal": "Verify the proposed delivery and returns statement for fictional Store Linden.",
+        "profile": "verify",
+        "sources": [
+          {
+            "revision": 1,
+            "sha256": "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+            "source_ref": "radik:source:8afcaf42368b2e3458b5fa81982f9a65"
+          },
+          {
+            "revision": 1,
+            "sha256": "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+            "source_ref": "radik:source:8e45d120bc3d6b9048a1b291846d0986"
+          },
+          {
+            "revision": 1,
+            "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+            "source_ref": "radik:source:d81584eaff4e7c25fce743e6d9e17623"
+          }
+        ],
+        "supplied_candidate_sha256": "6cda21aa3dfb5cf531f70df72a40d862c231a191a7245ae7470b436476f54a67",
+        "topic": "document_conditions",
+        "version": "radik.dynamic.meaning.v01"
+      },
+      "meaning_key": "d1016c2b6d470b48ca93761a115b54f302213e98945b152e925e1171b7e36f23",
+      "policy": "radik.dynamic.memory.v01",
+      "sources": [
+        {
+          "revision": 1,
+          "sha256": "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+          "source_ref": "radik:source:8afcaf42368b2e3458b5fa81982f9a65"
+        },
+        {
+          "revision": 1,
+          "sha256": "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+          "source_ref": "radik:source:8e45d120bc3d6b9048a1b291846d0986"
+        },
+        {
+          "revision": 1,
+          "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+          "source_ref": "radik:source:d81584eaff4e7c25fce743e6d9e17623"
+        }
+      ]
+    },
+    "worldstate_ref": "a519fd9e8b6d7e099a648eb677bcb9633f68133ec66828935ec1460082944bf4",
+    "writeback_root": {
+      "conflict_set_ids": [],
+      "decision": "ACCEPT",
+      "decision_id": "dc4b0d32b93d08a4a3301920bac58f43bd40eae833b7482899627aaec199ec29",
+      "decision_input_id": "ef720ed7a2e2a75296f6318343f1cb0f89542b3e07d6fc5c59cb24093e167605",
+      "effect_requested": false,
+      "final_output_created": false,
+      "hard_failure_reasons": [],
+      "missing_evidence_refs": [],
+      "permission_created": false,
+      "prior_decision_id": null,
+      "reason_code": "validated_candidate_accepted",
+      "root_commit_created": true,
+      "selected_candidate_id": "memory_write:3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+      "target_root_id": "root:radik:dynamic_memory",
+      "transaction_id": "memory_writeback:3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+      "transition_decision": {
+        "abi_major_version": 1,
+        "actor_role": "gt",
+        "attempted_effect": "CREATE_ROOT_DECISION",
+        "decision": "RETURN_TO_ROOT",
+        "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+        "matched": true,
+        "missing_guards": [],
+        "reason_code": "gt_advisory_returns_to_root",
+        "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+        "required_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "root_commit_present": false,
+        "root_commit_required": true,
+        "rule_id": "gt_advisory_to_root_decision",
+        "satisfied_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "source_artifact_type": "GTAdvisoryReport",
+        "source_lifecycle_state": "VALIDATED",
+        "target_artifact_type": "RootDecision"
+      }
+    }
+  },
+  "domain": "RADIK_DOCUMENT",
+  "layer": "work",
+  "provenance": {
+    "created_by": "radik:document_memory",
+    "request_id": "radik-task:6d8691de6c194e59a8711c6cfbf988d5",
+    "trace_refs": [
+      {
+        "trace_id": "radik:dynamic_result:4a103bc4dd1f07de92cc8c94548a9bd9c3f933cd0e805680c374e7c03e152647"
+      }
+    ]
+  },
+  "record_id": "drsmeaning_v01:d5402c0302c21bd6619cc0b1fe25a89a6e4295b60710702a55b62991dc202ccf",
+  "status": "active",
+  "time_envelope": {
+    "ct_session_anchor": "radik-task:6d8691de6c194e59a8711c6cfbf988d5",
+    "et_observed_at": "2026-10-20T14:11:42+00:00",
+    "freshness_class": "static",
+    "kt_asof": "2026-10-20T14:11:42+00:00",
+    "pt_created_at": "2026-10-20T14:11:42+00:00",
+    "ttl_seconds": 7058,
+    "valid_from": "2026-10-20T14:11:42+00:00",
+    "valid_to": "2026-10-20T16:09:20+00:00"
+  },
+  "trace_refs": [
+    {
+      "kind": "local_drs_resolver",
+      "trace_id": "trace:drsmeaning_v01:d5402c0302c21bd6619cc0b1fe25a89a6e4295b60710702a55b62991dc202ccf"
+    }
+  ],
+  "type": "radik_accepted_dynamic_result_v01"
+}

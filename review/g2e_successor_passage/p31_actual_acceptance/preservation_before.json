@@ -1,0 +1,29 @@
+{
+  "schema": "radik.p31.acceptance_preservation_baseline.v01",
+  "generated_at_utc": "2026-10-20T15:11:33.679967+00:00",
+  "engineering_lock": {
+    "held_by": "/root",
+    "session_id": 49629,
+    "inode": 281961598,
+    "availability_checked_once": true
+  },
+  "files": {
+    "config/model_policy.json": {
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    "state/model_turns.json": {
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    "config/console_model_policy.json": {
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    "state/console_model_turns.json": {
+      "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+      "size_bytes": 110730
+    }
+  },
+  "runtime_execution": false
+}

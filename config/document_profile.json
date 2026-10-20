@@ -1,0 +1,56 @@
+{
+  "status": "APPLICATION_CANDIDATE_NOT_LIVE_ADMITTED",
+  "profile": "radik_two_documents_v01",
+  "what": {
+    "supported_inputs": [
+      "UTF-8 text",
+      "Markdown",
+      "JSON treated as document data"
+    ],
+    "input_count": 2,
+    "max_input_bytes_each": 16384,
+    "max_result_bytes": 8192,
+    "max_claims": 8,
+    "max_quote_bytes_each": 512,
+    "supported_requests": [
+      "COMPARE_TWO_DOCUMENTS",
+      "UPDATE_AFTER_SOURCE_CHANGE"
+    ],
+    "separate_effect": "SAVE_OUTPUT",
+    "result_criterion": "Useful source-grounded comparison with exact permitted source ID, raw-byte hash/revision and UTF-8 byte spans; unestablished conclusions marked UNCERTAIN."
+  },
+  "how": {
+    "reference": "immutable published P; public lower-level APIs only",
+    "semantic_transport": "Owned fresh-role bounded Codex stdio candidate outside PURE; initialize remains blocked.",
+    "pure_inputs": "validated source bytes and closed semantic proposals explicitly passed as native typed fields",
+    "pure_outputs": "source-bound extraction/comparison fields; no hidden I/O or provider calls",
+    "retention": "actual E source/plan/D return mapping plus same-task native Work historical result; composition proof required",
+    "save": "owned local reference MOCK_CONSEQUENTIAL capability, current Root packet before Host/Firewall writer, exact readback",
+    "deployment": "independent exact-source review and behavior exam; trusted launcher pins before imports; observe/admit exact already-loaded functions afterwards"
+  },
+  "policy": {
+    "source_allowlist": "explicit owner logical IDs and approved local inputs; model/DRS cannot choose paths or URLs",
+    "source_currentness": "raw bytes/hash and current revision checked at every dependent use and action",
+    "safe_target_pattern": "^[a-z0-9_]{1,32}\\.txt$",
+    "save_directory": "output/",
+    "reject_symlinks": true,
+    "reject_path_traversal": true,
+    "permissions_from_memory": false,
+    "documents_are_instructions": false,
+    "max_model_calls_in_native_work": 0,
+    "max_provider_calls_in_native_E": 0,
+    "automatic_retry": false,
+    "crash_authority_restoration": false
+  },
+  "limits_and_boundaries": {
+    "model_access": "NOT_CONFIRMED",
+    "runtime_calls_authorized": 16,
+    "runtime_admission": "NOT_ADMITTED",
+    "host_administrator_isolation": "NOT_CLAIMED",
+    "arbitrary_document_secret_sanitization": "NOT_CLAIMED",
+    "production_file_transaction": "NOT_CLAIMED",
+    "service_restart_recovery": "DEFERRED",
+    "full_A_to_H_acceptance": "NOT_RUN",
+    "shared_turn_attempt_ceiling": 16
+  }
+}

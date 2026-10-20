@@ -1,0 +1,61 @@
+{
+  "schema": "radik.p31.final_descriptor_independent_review.v01",
+  "reviewer": "/root/p31_reference_mapper",
+  "reviewed_at_utc": "2026-10-20T15:33:32.125953+00:00",
+  "status": "BLOCKED_ONE_REQUIRED_NAVIGATION_MEMBER_MISSING",
+  "missing_navigation": [
+    {
+      "source_id": "RADIK-P31-RESIDUAL",
+      "archive_member": "evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_consumer_matrix_v03.json",
+      "expected_sha256": "2af1045cc50ee1d283f0f218d79feb6cacf49f497f611e1096d5cb49985cd6de",
+      "expected_bytes": 24832
+    }
+  ],
+  "scope": "Independent data verification only. Root independently accepts adapter source; this record does not self-accept reviewer-authored wrapper or award runtime semantics.",
+  "descriptor_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_inputs.json",
+    "sha256": "2a147f185f07906e2cbbc49d024d7b3945abe796b3658837c936fdb75a39e28e",
+    "size_bytes": 433722
+  },
+  "prospective_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/prospective_final_payload_review.json",
+    "sha256": "a06a2c3a0320985c2f1e14b44b11a5268730dcc4c98bac14975a698dac7b7997",
+    "size_bytes": 166355
+  },
+  "independent_dossier_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/dossier_independent_readback.json",
+    "sha256": "e59b6265a7dd9cfa132459d5ab549cfe1a62dd259a12f5ed7af8de8a54f96df4",
+    "size_bytes": 30357
+  },
+  "checks": {
+    "all_505_project_and_5_external_refs_exact": "PASS",
+    "all_502_prospective_project_refs_unchanged": "PASS",
+    "all_5_external_refs_unchanged": "PASS",
+    "exact_three_added_data_files": [
+      "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_materials.json",
+      "review/g2e_successor_passage/p31_actual_acceptance/dossier_independent_readback.json",
+      "review/g2e_successor_passage/p31_actual_acceptance/prospective_final_payload_review.json"
+    ],
+    "94_evidence_archive_links_hashes_bytes_selectors": "PASS",
+    "four_external_owner_handoff_archive_links": "PASS",
+    "local_narrative_XML_links_and_fragments": "PASS",
+    "160_logical_runtime_pins_to_exact_archived_payload_aliases": "PASS",
+    "155_packaging_code_source_pins_match_classifier": "PASS",
+    "materials_descriptor_inventory_no_duplicates_or_cycles": "PASS",
+    "new_JSON_and_descriptor_unchanged_public_secret_predicate": "PASS",
+    "known_copy_and_raw_JSON_scope_from_preserved_review": "UNCHANGED"
+  },
+  "counts": {
+    "selected_members": 510,
+    "final_members_with_reserved_metadata": 513,
+    "selected_bytes": 83844324,
+    "runtime_source_aliases": 160,
+    "packaging_code_source_pins": 155,
+    "canonical_evidence_routes": 94,
+    "owner_handoff_routes": 4,
+    "local_narrative_XML_links": 44
+  },
+  "no_package_app_native_model_provider_AUTH_SAVE_E_execution": true,
+  "build_authority": "Only root may independently issue exact final build certificate. No build executed by this reviewer.",
+  "final_delivery_verified": false
+}

@@ -1,0 +1,43 @@
+{
+  "accepted_scope": [
+    "Actual unchanged supervisor two-process loop refuses second spawn at the original shared operation deadline after first synthetic child is reaped.",
+    "Actual bounded_cleanup uses INTERRUPT at0,TERMINATE at10,KILL at15 seconds and at most20 virtual seconds; both fake reap success and cleanup-unconfirmed outcomes are checked."
+  ],
+  "all_required_controls_passed": false,
+  "application_native_AUTH_provider_SAVE_calls": 0,
+  "classification": "SYNTHETIC_SUPERVISOR_CONTROL_ONLY",
+  "code_pins": {
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py": "8eb7c5440ec4e6a261bcfd807bd0d800a4997b297d00f15ef6bdbe509a1c0a37",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py": "74f6e95859ddea92a1cea10adb8d0bfd1fb00dc4061812dd8ff543404cc59c6a",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/shared_clock_preparation_v02.py": "ead614b0e7de3dc946faa76d97a6aa761c675534a5548cbbc65663a120c691ff"
+  },
+  "not_credited": [
+    "Real two-console restart",
+    "Ordinary application semantics",
+    "Model output semantics",
+    "Final owner execution or Stage04 completion"
+  ],
+  "owner_execution_authorized": false,
+  "production_guard_count": 169,
+  "production_guards_unchanged": true,
+  "real_OS_children": 0,
+  "real_wall_seconds": 0.030101042,
+  "receipt_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/timer_actual/SHARED_CLOCK_V02/fixture_project/run/receipt.json",
+    "sha256": "b1f8fe32b2dbb3f773cd835c3378da599b587476358f0d4c81da08e5ba3f8c82",
+    "size_bytes": 3842
+  },
+  "result_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/timer_actual/SHARED_CLOCK_V02/result.json",
+    "sha256": "d67a62c123fe2504b4b4f80f73dde7d631d3887e35d362c32de8c02cf42e5aef",
+    "size_bytes": 2650
+  },
+  "reviewer": "/root/s04_reviewer",
+  "schema": "radik.independent.p31.shared_clock_result_review.v01",
+  "source_review_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/shared_clock_source_review_v02.json",
+    "sha256": "2be08f8d0fd6c60a1d1b70a141481622eacc854facdaf7d3c18b83bd54c400d0",
+    "size_bytes": 41924
+  },
+  "status": "PASS_FOCUSED_SHARED_DEADLINE_AND_SYNTHETIC_CLEANUP_CONTROLS"
+}

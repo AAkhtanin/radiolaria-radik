@@ -1,0 +1,19 @@
+{
+  "schema": "radik.p31.primary_traversal_scope_note.v01",
+  "author": "/root",
+  "generated_at_utc": "2026-10-20T15:25:04.373040+00:00",
+  "scope": "Interpretation of preserved broad reference traversal only; no new behavior verdict.",
+  "historical_reference_counts": {
+    "stale_historical_logical_refs": 15,
+    "outside_project_ref_not_traversed": 1
+  },
+  "meaning": "Broad traversal reached prior draft/source-history metadata. Stale installed/state/input refs there are historical, not failures of the new actual command readbacks. Exact current160pins and relevant actual producer/consumer refs pass the separate independent identity, native, memory and actual reviews. Historical task-state preimage resolves through the explicit original_actual preserved bytes; current state is never overwritten.",
+  "authoritative_current_reviews": [
+    "identity_accounting_review.json",
+    "native_consumer_review.json",
+    "memory_control_restart_review.json",
+    "independent_actual_acceptance_review.json",
+    "stage04_composite_acceptance.json"
+  ],
+  "runtime_execution": false
+}

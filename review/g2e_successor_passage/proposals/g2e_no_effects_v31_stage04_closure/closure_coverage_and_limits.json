@@ -1,0 +1,380 @@
+{
+  "schema": "radik.p31.closure_coverage_and_limits.v01",
+  "status": "SOURCE_COVERAGE_UNION_AND_MEASURED_LIMITS_RECORDED",
+  "author": "/root/s04_runtime_author",
+  "classification": "ENGINEERING_REPORT_ONLY_NOT_INDEPENDENT_ACCEPTANCE_OR_EXECUTION_ADMISSION",
+  "source_identity_sha256": "ea4a2dc46ddb9ca24b92c10c2c1d968471b0247e155d24249e60796eab9adfe0",
+  "source_pin_count": 160,
+  "Stage04_complete": false,
+  "owner_execution_authorized": false,
+  "original_ORDINARY_V03_complete": false,
+  "coverage_basis": "A union of independently accepted, bounded SOURCE observations over the same frozen application source. The stopped ORDINARY_V03 execution remains stopped; successful separate C/R2 evidence supplies remaining consumers without rewriting V03 as a successful full-route receipt.",
+  "credited_or_observed_components": [
+    {
+      "component": "A1 through A4",
+      "state": "INDEPENDENTLY_ACCEPTED_SOURCE_CONSUMERS_ONLY",
+      "review_ref_key": "partial_A_review",
+      "observations": [
+        "A1 uses one approved current source and actual native PURE Work, application Root and memory writeback, with three inert role fixtures.",
+        "A2 completes revision_audit1 for exceptions. A3 skips revision_audit2 under its false conditions guard. Neither continuation changes task/source identity or adds a role attempt.",
+        "A4 exposes the full native EXHAUSTED return with reason work_task_revision_exhausted, retains A3's accepted result and dispatches no new Work or role.",
+        "Four distinct started grants have exact durable closure witnesses."
+      ]
+    },
+    {
+      "component": "B1, B2, A5 and A6",
+      "state": "INDEPENDENTLY_ACCEPTED_SOURCE_CONSUMERS_ONLY",
+      "review_ref_key": "partial_B_memory_cancel_review",
+      "observations": [
+        "B1 verifies the supplied candidate against three current sources, retains unknown/contradiction material and adds three inert role fixtures.",
+        "B2 consumes the actual unknowns revision with revision_audit1 SKIPPED_GUARD_FALSE and zero new role attempts.",
+        "A5 consumes the exact historical A1 producer record and payload under current eligibility, a fresh Root and completed memory0 Work. It preserves original accepted_at, bounds valid_to and adds no role attempt.",
+        "A6 cancellation, refused rerun and result readback retain the accepted A5 result. The actual cancelled-task guard refuses before a grant: zero new grant, Work or role.",
+        "Together with A1-A4, the accepted V03 prefix supplies seven closed started rounds and six inert role attempts."
+      ]
+    },
+    {
+      "component": "Full focused post-controls",
+      "state": "INDEPENDENTLY_ACCEPTED_FIVE_FOCUSED_SOURCE_CONTROLS",
+      "actual_ref_keys": [
+        "controls_outer_result",
+        "controls_full_consumer_witness"
+      ],
+      "outer_wall_seconds": 296.65301583427936,
+      "cases": [
+        "CANCELLED_ORDINARY_RUN_PREGRANT",
+        "MISSING_MEMORY_ORDINARY_NO_FALLBACK",
+        "EXPIRED_MEMORY_ORDINARY_REAL_CLOCK_NO_FALLBACK",
+        "LEXICAL_RUN_TASK_PREBEGIN_EXCEPTION_CLOSURE",
+        "SOURCE_SUCCESSOR_INTERRUPTION_NO_AUTHORITY_RESTORATION"
+      ],
+      "boundary": "BOUNDARY_V03 exited zero and reaped its one copied child. The full witness reports PASS_FOCUSED_COPIED_CONSUMERS, unchanged model accounting and zero provider, Work and E calls. The named pre-begin exception is a separate isolated control; it does not manufacture a grant for the ordinary cancellation case.",
+      "measurement_limit": "The earlier 180-second controls attempt is preserved as a timeout. A separately admitted 360-second process completed the unchanged controls in 296.653 seconds; this did not alter application policy or the future owner's limits.",
+      "review_ref_key": "controls_independent_review"
+    },
+    {
+      "component": "Shared operation clock and cleanup",
+      "state": "INDEPENDENTLY_ACCEPTED_SYNTHETIC_SUPERVISOR_CONTROL",
+      "observations": [
+        "The exact current supervisor refuses the second spawn when the original shared deadline has expired after the first synthetic child is reaped.",
+        "Exact bounded_cleanup issues INTERRUPT at zero, TERMINATE at ten and KILL at fifteen virtual seconds, with successful reap and unconfirmed-cleanup branches bounded by twenty virtual seconds.",
+        "The new control used no OS child or application/native/AUTH/provider/SAVE call. Existing unchanged P28 timer and real-child cleanup evidence retains its separate source-bound credit.",
+        "The synthetic clock control supplies supervisor wiring only. The separately accepted actual C/R2 consumers supply ordinary two-process memory semantics."
+      ],
+      "review_ref_keys": [
+        "shared_clock_review",
+        "retained_timer_runner_review_v02"
+      ]
+    },
+    {
+      "component": "V03 failure preservation and copied public operation close",
+      "state": "INDEPENDENTLY_ACCEPTED_COPIED_PUBLIC_FAILED_CLOSE_ONLY",
+      "review_ref_keys": [
+        "v03_supervision_review",
+        "copied_close_review"
+      ],
+      "actual_ref_key": "copied_close_result",
+      "observations": [
+        "V03 reached its fixed 1200-second engineering ceiling, represented to the supervisor as OWNER_INTERRUPT. The exact child received INT and TERM, exited -15 and was reaped. The outer result took 1210.119879542 seconds including cleanup.",
+        "V03's partial C task is FAILED and its round is closed, with no active task or attempt. Its idle normal-operation marker remains in the original evidence; process reap is not semantic operation closure.",
+        "BOUNDARY_V04 copied the exact stopped snapshot and called the existing public normal_session.close_operation(failed=True) under the copied canonical lock. It produced FAILED_OR_UNKNOWN and removed its matching copied ACTIVE pointer in 1.592303333 seconds.",
+        "The copied close left all 41 ledger attempts, task histories, the closed C round and every other admitted copied file unchanged. It created no operation, grant, role, Work or E call. The original V03 snapshot remains immutable.",
+        "This closes failed history; it restores no permission and reuses no CLOSED grant."
+      ]
+    },
+    {
+      "component": "Fresh C and true-restart R2",
+      "state": "INDEPENDENTLY_ACCEPTED_REMAINING_C_AND_TRUE_RESTART_SOURCE_CONSUMERS",
+      "actual_ref_keys": [
+        "remaining_outer_result",
+        "remaining_receipt",
+        "remaining_scenario"
+      ],
+      "review_ref_key": "remaining_C_restart_review",
+      "outer_wall_seconds": 796.2854603752494,
+      "observations": [
+        "A fresh ordinary held-out C TaskSpec follows selected B with four current sources, exact supplied candidate, changed goal/criterion and a distinct actual dependency identity. B specification, results and prior history remain exact, with one legitimate TASK_SELECTED append.",
+        "C1 performs actual native PURE Work, Root and memory writeback with candidate_id=None, packet_id=None, zero native provider/effects and exactly three inert role attempts. Its fixture answer is not accepted as real model semantics.",
+        "The first child exits zero and is reaped with its operation EXITED. The second child has a new PID and operation, empty controllers and the identical saved full TaskStore. Both share the original start/deadline; the second launch binds the first reaped receipt.",
+        "R2 consumes the exact C1 record, payload, historical proposal/business/result identity and time through fresh eligibility, descent, Host initialization, Root decisions and memory0 PURE Work. It preserves original accepted_at/source hashes and does not extend validity, dispatch a role or fall back to cold work.",
+        "The task-derived logical owning_root_id remains stable by design. Fresh authority is established by the new process, empty controller state, Host initialization and fresh Root/descent decisions; no claim of a unique logical root label is made.",
+        "Both new grants and operations close with ledger count 44. The 1610 input snapshot files and 169 production guards remain unchanged. The earlier interrupted C task remains preserved historical evidence."
+      ]
+    }
+  ],
+  "accounting": {
+    "future_whole_owner_route": {
+      "first_process_started_rounds": 8,
+      "first_process_maximum_real_role_attempts": 9,
+      "second_process_started_rounds": 1,
+      "second_process_real_role_attempts": 0,
+      "whole_success_started_rounds": 9,
+      "whole_success_real_role_attempts": 9,
+      "cold_role_allowance_per_A_B_C": 3,
+      "continuation_memory_exhaustion_refusal_role_allowance": 0,
+      "ordinary_cancel_grants": 0,
+      "native_Work_provider_budget": 0,
+      "native_E_calls_allowed": 0,
+      "whole_success_observed": false,
+      "review_ref_key": "whole_route_accounting_review"
+    },
+    "separation": "The production driver retains and checks one unchanged ledger prefix across both children and requires nine unique started/closed rounds and nine new role rows for full success. The restricted SOURCE harness does not replace that final assertion. Source fixtures are not real model semantics, and no owner run is admitted by this engineering report.",
+    "source_positive_history_V03": {
+      "baseline_copied_role_rows": 35,
+      "V03_final_copied_role_rows": 41,
+      "V03_new_inert_role_attempts": 6,
+      "V03_physical_started_rounds": 8,
+      "V03_credited_started_rounds": 7,
+      "V03_interrupted_C_started_rounds": 1,
+      "V03_interrupted_C_new_role_attempts": 0
+    },
+    "source_positive_coverage_union": {
+      "physical_started_rounds_in_preserved_positive_history": 10,
+      "credited_route_started_rounds": 9,
+      "interrupted_C_round_retained_but_not_credited": 1,
+      "new_inert_role_attempts": 9,
+      "final_copied_role_rows": 44,
+      "new_remaining_rounds": 2,
+      "new_remaining_inert_role_attempts": 3,
+      "ordinary_cancel_grants": 0,
+      "basis": "Seven accepted V03 rounds plus independently accepted fresh C1 and R2. The earlier interrupted C remains an additional physical history row. Separate negative-control rounds are outside this positive accounting.",
+      "currently_observed_as_complete": true,
+      "original_full_route_pass": false
+    }
+  },
+  "limits_and_measurements": {
+    "future_shared_owner_operation_seconds": 7800,
+    "future_cumulative_declared_native_seconds": 3600,
+    "future_per_model_response_seconds": 600,
+    "future_cleanup_seconds": 30,
+    "cleanup_schedule_seconds": {
+      "interrupt_grace": 10,
+      "terminate_grace": 5,
+      "kill_wait": 5
+    },
+    "clock_contract": "The owner operation starts before installation. Both ordinary children inherit that same monotonic start, deadline and UTC anchor. Native time accumulates across declared spans in both children; provider spans are excluded. The second process does not renew either clock. The per-response bound comes from the unchanged normal-session policy.",
+    "intersecting_bounds": "Nine responses at their full 600-second ceiling would consume 5400 seconds, leaving at most 2400 other seconds under the total 7800-second ceiling. The native and total ceilings intersect; a caller is not entitled to the sum of all maxima. Any earlier refusal or exhausted boundary stops without retry.",
+    "historical_P30": {
+      "acceptance_ref_keys": [
+        "P30_actual_acceptance",
+        "P30_independent_acceptance"
+      ],
+      "owner_wall_seconds": 2599.659387333,
+      "actual_E_enter_exit_seconds": 2124.583643084,
+      "cumulative_declared_native_seconds": 2483.051726499,
+      "native_seconds_outside_E": 358.468083415,
+      "interpretation": "These are distinct historical wall/span measurements for the accepted selective E scenario. E is not repeated in P31 and is forbidden in the future A/B/C/R command."
+    },
+    "V03_source_observations": {
+      "raw_event_ref_key": "V03_child_stdout",
+      "A_cold_command_seconds": 335.694106833,
+      "B_cold_command_seconds": 439.735874833,
+      "A_D_baseline_interval_seconds": 123.677547709,
+      "B_D_baseline_interval_seconds": 133.749233042,
+      "interval_definition": "Cold command durations run from the preceding completed task-setup event to the completed run event. D baseline intervals run from DYNAMIC_INFORMATIONAL_BASELINE_START to DYNAMIC_INFORMATIONAL_BASELINE_READY.",
+      "double_counting_rule": "The roughly 336-second A and 440-second B command totals already include their D baseline intervals. The roughly 124-second A baseline must not be added again.",
+      "baseline_semantics": "The accepted automatic prepare_source_continuation path remains unchanged. It constructs and validates a genuine D baseline after a cold result; this is preparation, not E and not a substitute for selective delta.",
+      "no_duration_promise": "These measured historical and source-fixture costs support retaining bounded headroom. They do not predict future model latency or guarantee completion before a ceiling. No in-flight timeout or application TTL was extended."
+    },
+    "completed_SOURCE_coverage_cost_estimate": {
+      "classification": "DERIVED_FROM_TWO_OBSERVED_SEGMENTS_NOT_ONE_OBSERVED_FULL_ROUTE",
+      "prefix_ref_key": "V03_child_stdout",
+      "prefix_cutoff": {
+        "stage": "CONSOLE_COMMAND_COMPLETED",
+        "command": "result",
+        "command_sequence": 13,
+        "event_sequence": 124,
+        "at_monotonic_ns": 7502739050852833,
+        "elapsed_wall_ns": 1090746667042
+      },
+      "prefix_through_A6_RESULT_seconds": 1090.746667042,
+      "remaining_outer_ref_key": "remaining_outer_result",
+      "entire_successful_remaining_outer_seconds": 796.2854603752494,
+      "measured_segment_sum_seconds": 1887.0321274172495,
+      "nine_response_ceilings_seconds": 5400,
+      "segment_sum_plus_nine_response_ceilings_seconds": 7287.032127417249,
+      "headroom_under_7800_seconds": 512.9678725827506,
+      "headroom_if_also_reserving_30_cleanup_seconds": 482.9678725827506,
+      "method": "The prefix ends at the durable A6_RESULT completion event before B re-selection and interrupted C. The entire successful separate tail includes fresh setup, B selection, C1, both process closures and R2. Additional tail setup and already observed fixture phase costs are retained, then all nine 600-second real-response ceilings are added without subtracting fixture time.",
+      "exclusions": "The original interrupted C wait and its cleanup are excluded from this completed-coverage estimate. Historical P30 E and separate controls/cleanup exams are not future route work. D baseline intervals already lie inside the measured cold commands and are not added twice.",
+      "interpretation": "This is a conservative comparison against these measured SOURCE segments, not a proven upper bound for a future run. Inert fixture timing differs from actual model latency and output-dependent validation cost. All ceilings intersect, and source measurements cannot guarantee future duration or successful semantic completion."
+    },
+    "declared_native_coverage_comparison": {
+      "prefix_native_seconds": 1027.856308712,
+      "prefix_reconstruction": {
+        "native_span_start_ns": 7501661189794416,
+        "cutoff_event_ns": 7502739050852833,
+        "closed_PROVIDER_phase_span_count": 16,
+        "excluded_PROVIDER_phase_ns": 50004749705,
+        "open_PROVIDER_phase_at_cutoff": false,
+        "computed_native_ns": 1027856308712
+      },
+      "remaining_receipt_native_ns": 713171209957,
+      "remaining_receipt_native_seconds": 713.171209957,
+      "remaining_closed_native_spans": true,
+      "remaining_open_provider_span": false,
+      "segment_sum_native_seconds": 1741.027518669,
+      "headroom_under_3600_seconds": 1858.972481331,
+      "method": "Prefix native time is derived from the raw declared ordinary_scenario span through event124, subtracting the 16 fully closed PROVIDER-labelled intervals under the unchanged timer contract. Tail native time is the final receipt counter across both children. Phase-span counts are not model-role counts or external provider-call counts.",
+      "limit": "The summed measurement belongs to two accepted SOURCE segments. It is not one full-route native counter and does not predict future content-dependent native cost."
+    },
+    "remaining_child_event_measurements": {
+      "reference_keys": [
+        "remaining_child_1_stdout",
+        "remaining_child_2_stdout"
+      ],
+      "C1_completed_seconds": 626.8605615,
+      "R1_FINAL_seconds": 640.4560675,
+      "second_process_READY_seconds": 683.253407208,
+      "R2_completed_seconds": 780.65857,
+      "R2_EXIT_completed_seconds": 794.967541958,
+      "second_FINAL_seconds": 795.04147725,
+      "receipt_elapsed_seconds": 795.110154458,
+      "outer_elapsed_seconds": 796.2854603752494,
+      "interpretation": "Child events, receipt finalization and outer harness completion use distinct explicit endpoints. Supervisor-observed arrivals can follow the child event by polling/readback delay."
+    }
+  },
+  "pending_owner_admission_shape_review": {
+    "template_ref_key": "pending_owner_template",
+    "shape_observation_only": true,
+    "status_is_pending": true,
+    "owner_execution_authorized_is_false": true,
+    "rehearsal_result_review_ref_is_null": true,
+    "template_pins_equal_manifest_160_pins": true,
+    "argv_is_exact_ordinary_console": true,
+    "automatic_retry_is_false": true,
+    "model_observation_after_handoff_is_false": true,
+    "required_final_edit": "The final independent result/admission record must explicitly accept the SOURCE coverage union and separate C/R2 restart evidence. Its wording must not imply that ORDINARY_V03 completed or that the union was one uninterrupted full run. Replace the pending result reference only with the independently accepted composite review, after required readbacks and fresh lock/preservation checks.",
+    "no_admission_from_this_review": true
+  },
+  "completion_requirements": [
+    "The separately authored composite SOURCE review must bind the accepted A/B, controls, copied-close, C/R2 and timing evidence, preserving the coverage-union classification.",
+    "Keep all earlier stopped attempts, interrupted C, copied failed-operation close and timing failures in the return evidence.",
+    "Issue a distinct exact future owner admission and one Terminal command only after composite SOURCE review. Future real model/output semantics and final Stage04 acceptance remain subsequent judgments.",
+    "After command handoff, perform no model observation of the owner run."
+  ],
+  "reference_base": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/",
+  "references": {
+    "partial_A_review": {
+      "relative_path": "rehearsal_v03_partial_A_review.json",
+      "sha256": "18b99ae64d6bd9fdd1f3cb7f2e882ee47a5e4daef6be9fa5061aa3ceebbb661a",
+      "size_bytes": 34354
+    },
+    "partial_B_memory_cancel_review": {
+      "relative_path": "rehearsal_v03_partial_B_memory_cancel_review.json",
+      "sha256": "c97621e449899ca9dc664f8f3fdff4a2ae93109461a4d48e6fe3516b80adbef0",
+      "size_bytes": 12403
+    },
+    "controls_outer_result": {
+      "relative_path": "rehearsal_actual/BOUNDARY_V03/result.json",
+      "sha256": "cafb1e8ecf87aef4152b5454b37dc7a2b4a41c920644c2ac69131e3eb5dd7713",
+      "size_bytes": 2142
+    },
+    "controls_full_consumer_witness": {
+      "relative_path": "rehearsal_actual/BOUNDARY_V03/controls/source_under_test/workspace/owner_documents/review/p28_entry/ebaec67ea82b06bc8d4ca6bd/ordinary_focused_controls_f468d0a2599aa42ce614ba4cbd076919c5d51a1a6440b1410283baf7c335b6ef.json",
+      "sha256": "f468d0a2599aa42ce614ba4cbd076919c5d51a1a6440b1410283baf7c335b6ef",
+      "size_bytes": 1525758
+    },
+    "shared_clock_review": {
+      "relative_path": "shared_clock_result_review.json",
+      "sha256": "d0f8f9561a32ddcd28a5da42e4b3a5cc9ea7a329ea8c77344aab024bb3c80913",
+      "size_bytes": 2395
+    },
+    "v03_supervision_review": {
+      "relative_path": "v03_supervision_preservation_review.json",
+      "sha256": "ddffd4462aadd3610f520852deb9550969f5f7c779c87fd63556c628f3238707",
+      "size_bytes": 12676
+    },
+    "copied_close_review": {
+      "relative_path": "copied_public_close_result_review.json",
+      "sha256": "11b8322cfc29c0a36a72fd0714ffdb04b05b0331c6d99631397254c968e472b4",
+      "size_bytes": 2895
+    },
+    "copied_close_result": {
+      "relative_path": "rehearsal_actual/BOUNDARY_V04/result.json",
+      "sha256": "cc2455ef3a9440b5339cd1e4bfe679a4e0d58a17a8ca07612a498985c0e6588e",
+      "size_bytes": 3039
+    },
+    "whole_route_accounting_review": {
+      "relative_path": "whole_route_source_accounting_review.json",
+      "sha256": "66036060d1332c46be1c0f611f369bcd2d65e2d116d41f5fba3fe48a41dcd3d2",
+      "size_bytes": 3355
+    },
+    "pending_owner_template": {
+      "relative_path": "owner_admission_template_pending.json",
+      "sha256": "445e07d946889d6f421b4413a4182250775959aafe8a3a3ca970daefe6a5921b",
+      "size_bytes": 28962
+    },
+    "V03_child_stdout": {
+      "relative_path": "rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "sha256": "6df82f9d1a1de155205d9ee9f9269e415a3a66a6f3a7178f9ae60555620d9e9f",
+      "size_bytes": 86350
+    },
+    "runtime_source_review": {
+      "relative_path": "runtime_source_review.json",
+      "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+      "size_bytes": 116601
+    },
+    "ordinary_profile_manifest": {
+      "relative_path": "ordinary_profile_manifest.json",
+      "sha256": "99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc",
+      "size_bytes": 68382
+    },
+    "P30_actual_acceptance": {
+      "project_relative_path": "review/g2e_successor_passage/p30_actual_acceptance/actual_acceptance.json",
+      "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+      "size_bytes": 13402
+    },
+    "P30_independent_acceptance": {
+      "project_relative_path": "review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+      "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+      "size_bytes": 48958
+    },
+    "retained_timer_runner_review_v02": {
+      "relative_path": "runner_timer_independent_review_v02.json",
+      "sha256": "a5876df69ee2c66d12988798b2eab82ac331eae36f7525d0ed5a863356dd80c9",
+      "size_bytes": 8158
+    },
+    "controls_independent_review": {
+      "relative_path": "focused_controls_result_review.json",
+      "sha256": "73002a2037cd7fde84be62e4eac634b4bf11a3df70b38ae22e67df951994f608",
+      "size_bytes": 14869
+    },
+    "remaining_C_restart_review": {
+      "relative_path": "remaining_C_restart_result_review.json",
+      "sha256": "e4a1c4ecd5ed4b3ecc302f37e82ca230679b25ead4a919ff098982bfbe10da27",
+      "size_bytes": 12212
+    },
+    "remaining_outer_result": {
+      "relative_path": "rehearsal_actual/ORDINARY_V04/result.json",
+      "sha256": "49f11de7ca335c72b6b3ec8b97c21be9505a1d14cedf831dbd50250b13a4f6e4",
+      "size_bytes": 1319
+    },
+    "remaining_receipt": {
+      "relative_path": "rehearsal_actual/ORDINARY_V04/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_branch_runs/ORDINARY_V04/receipt.json",
+      "sha256": "ebb38938378546ee8aa4fc87462eece28f7c142b813937c22006613ce70bacb0",
+      "size_bytes": 13275
+    },
+    "remaining_scenario": {
+      "relative_path": "rehearsal_actual/ORDINARY_V04/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_branch_runs/ORDINARY_V04/scenario_result.json",
+      "sha256": "b2f4531848b273b267b36600b34f9acadd5eb7ea79065be00428d748df7b8cbd",
+      "size_bytes": 4375
+    },
+    "remaining_child_1_stdout": {
+      "relative_path": "rehearsal_actual/ORDINARY_V04/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_branch_runs/ORDINARY_V04/process_1/child_stdout.raw",
+      "sha256": "7e15cb2a8d37e2bb7bdcf53a01a8d17d068181be11cf89b8629cc9d1fe7a8821",
+      "size_bytes": 28211
+    },
+    "remaining_child_2_stdout": {
+      "relative_path": "rehearsal_actual/ORDINARY_V04/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_branch_runs/ORDINARY_V04/process_2/child_stdout.raw",
+      "sha256": "38deb76b4a4e21a3d50e2f89bc7784d99706b5bb1f5c339ad9f880f89ec93a9a",
+      "size_bytes": 12846
+    }
+  },
+  "preserved_draft_ref": {
+    "relative_path": "closure_coverage_and_limits_draft.json",
+    "sha256": "28f9d22d39c4d102d830e610578c795de1a6375a1c3e0f397a117f1ffcb2f086",
+    "size_bytes": 17105
+  },
+  "independent_composite_acceptance_provided_by_this_report": false
+}

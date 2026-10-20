@@ -1,0 +1,689 @@
+{
+  "schema": "radik.p31.dossier_evidence_preservation.v01",
+  "mappings": [
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_acceptance.json",
+        "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+        "size_bytes": 13402
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/actual_acceptance.json",
+        "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+        "size_bytes": 13402
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+        "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+        "size_bytes": 48958
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+        "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+        "size_bytes": 48958
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/p30_actual_acceptance/native_consumer_review.json",
+        "sha256": "c019ab55c6bec8241a45e52d730d89512767a8d3a16f3dd140e840af8e214dbe",
+        "size_bytes": 131371
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/native_consumer_review.json",
+        "sha256": "c019ab55c6bec8241a45e52d730d89512767a8d3a16f3dd140e840af8e214dbe",
+        "size_bytes": 131371
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/reference_navigation.json",
+        "sha256": "32184df2fdfad40c8fdd917d634fe8e49a35700d8007f6c967ea255621f44dc6",
+        "size_bytes": 107166
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p31_actual_acceptance/reference_navigation.json",
+        "sha256": "32184df2fdfad40c8fdd917d634fe8e49a35700d8007f6c967ea255621f44dc6",
+        "size_bytes": 107166
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v21_import_and_scoped_benchmark/benchmark_measured_summary.json",
+        "sha256": "5fb9b4fcc2ce85dd3525a2fbbd709e9179d1c7b6aebf7f69a33fd08eafa8db54",
+        "size_bytes": 4073
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v21_import_and_scoped_benchmark/benchmark_measured_summary.json",
+        "sha256": "5fb9b4fcc2ce85dd3525a2fbbd709e9179d1c7b6aebf7f69a33fd08eafa8db54",
+        "size_bytes": 4073
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_review.json",
+        "sha256": "a120d6ce2f8c9d352217a0816e5f7fb6f20a8bec8915703276d11a52a562d02a",
+        "size_bytes": 24361
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_review.json",
+        "sha256": "a120d6ce2f8c9d352217a0816e5f7fb6f20a8bec8915703276d11a52a562d02a",
+        "size_bytes": 24361
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+        "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+        "size_bytes": 3722
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+        "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+        "size_bytes": 3722
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/closure_coverage_and_limits.json",
+        "sha256": "5dc0f165b008513eee420a52cb8b2fec787a590758ba321283676d912d385bbd",
+        "size_bytes": 24961
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/closure_coverage_and_limits.json",
+        "sha256": "5dc0f165b008513eee420a52cb8b2fec787a590758ba321283676d912d385bbd",
+        "size_bytes": 24961
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_stage04_result_review.json",
+        "sha256": "13059caa7cce425f72077a2764073c9098b8c270488324e39be1f8445c3d9961",
+        "size_bytes": 51565
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_stage04_result_review.json",
+        "sha256": "13059caa7cce425f72077a2764073c9098b8c270488324e39be1f8445c3d9961",
+        "size_bytes": 51565
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json",
+        "sha256": "99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc",
+        "size_bytes": 68382
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json",
+        "sha256": "99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc",
+        "size_bytes": 68382
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/receipt.json",
+        "sha256": "fe0ee504c62056af27b14091d01b3059ca71628d7a7ef2db7e75dbdf9dc28767",
+        "size_bytes": 21927
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/receipt.json",
+        "sha256": "fe0ee504c62056af27b14091d01b3059ca71628d7a7ef2db7e75dbdf9dc28767",
+        "size_bytes": 21927
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/reservation_outcome.json",
+        "sha256": "a05326f4f161e142d473a936f96b0c9a2c258dfba13ca80b04312889ce02713f",
+        "size_bytes": 1370
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/reservation_outcome.json",
+        "sha256": "a05326f4f161e142d473a936f96b0c9a2c258dfba13ca80b04312889ce02713f",
+        "size_bytes": 1370
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/scenario_result.json",
+        "sha256": "ed15d5373fe91b14fd96df3493c95bf734e3177f8acfa679e12e4c166a70a5aa",
+        "size_bytes": 12900
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/scenario_result.json",
+        "sha256": "ed15d5373fe91b14fd96df3493c95bf734e3177f8acfa679e12e4c166a70a5aa",
+        "size_bytes": 12900
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_01_A_SETUP.json",
+        "sha256": "3e780b447caa6447503423f841d90bcb7028373132709270912c72cd2cfe6235",
+        "size_bytes": 416
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_01_A_SETUP.json",
+        "sha256": "3e780b447caa6447503423f841d90bcb7028373132709270912c72cd2cfe6235",
+        "size_bytes": 416
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_02_A1.json",
+        "sha256": "50b2834d40fe43d10b77b7ff6c7162b4d2c6cc6180a8fc99ea24f5dfcef9496b",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_02_A1.json",
+        "sha256": "50b2834d40fe43d10b77b7ff6c7162b4d2c6cc6180a8fc99ea24f5dfcef9496b",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_03_A2.json",
+        "sha256": "5adb174432a0a8ea2449ba26fd5ec77b806c82bce64edd9a572555c05f4c8ade",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_03_A2.json",
+        "sha256": "5adb174432a0a8ea2449ba26fd5ec77b806c82bce64edd9a572555c05f4c8ade",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_04_A3.json",
+        "sha256": "8bf1caabf71a11e795dd951a2ff74a63f1d38a1e397a25082da07992026a8a27",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_04_A3.json",
+        "sha256": "8bf1caabf71a11e795dd951a2ff74a63f1d38a1e397a25082da07992026a8a27",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_05_A4.json",
+        "sha256": "cd9d0348dceb7f67d8038de712f65b683498748845842ecd50f30171a576f513",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_05_A4.json",
+        "sha256": "cd9d0348dceb7f67d8038de712f65b683498748845842ecd50f30171a576f513",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_06_B_SETUP.json",
+        "sha256": "858e115e3f2c314d8e36a07ff5413e44b2ada3e99782fc72e07a56091969cbe1",
+        "size_bytes": 416
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_06_B_SETUP.json",
+        "sha256": "858e115e3f2c314d8e36a07ff5413e44b2ada3e99782fc72e07a56091969cbe1",
+        "size_bytes": 416
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_07_B1.json",
+        "sha256": "ef7c3788170faf7b149a086a31808e23b251ecba5763c605aacb7f109eba01c4",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_07_B1.json",
+        "sha256": "ef7c3788170faf7b149a086a31808e23b251ecba5763c605aacb7f109eba01c4",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_08_B2.json",
+        "sha256": "8925079dfb5ae1cb68d4fe78638efab8cd564bb8f06a1c9b65f92ebe006f8d27",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_08_B2.json",
+        "sha256": "8925079dfb5ae1cb68d4fe78638efab8cd564bb8f06a1c9b65f92ebe006f8d27",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_09_A_SELECT.json",
+        "sha256": "2a42d646e9f5c8f658b4d29c6172e0bf4e23378a8cb8882076ddbb94ab548af5",
+        "size_bytes": 417
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_09_A_SELECT.json",
+        "sha256": "2a42d646e9f5c8f658b4d29c6172e0bf4e23378a8cb8882076ddbb94ab548af5",
+        "size_bytes": 417
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_10_A5.json",
+        "sha256": "ae14f6ef5143888a635f9f79b337b84eaa5b90a1e1dd9bc967d0f418637c33b7",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_10_A5.json",
+        "sha256": "ae14f6ef5143888a635f9f79b337b84eaa5b90a1e1dd9bc967d0f418637c33b7",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_11_A6_CANCEL.json",
+        "sha256": "87236f636c0962049ca05db85dc96742a3c96b94d8a89a42d4903b1b8de83bc6",
+        "size_bytes": 418
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_11_A6_CANCEL.json",
+        "sha256": "87236f636c0962049ca05db85dc96742a3c96b94d8a89a42d4903b1b8de83bc6",
+        "size_bytes": 418
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_12_A6_REFUSAL.json",
+        "sha256": "e3747c07c607a99fef7264f8fd635d060303922a67d9eff5839cd98d97a29a2e",
+        "size_bytes": 417
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_12_A6_REFUSAL.json",
+        "sha256": "e3747c07c607a99fef7264f8fd635d060303922a67d9eff5839cd98d97a29a2e",
+        "size_bytes": 417
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_13_A6_RESULT.json",
+        "sha256": "df5e566b7435bc28f47e07038a4baf286b207a65d38f7db8d9e8fdde82bdd298",
+        "size_bytes": 418
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_13_A6_RESULT.json",
+        "sha256": "df5e566b7435bc28f47e07038a4baf286b207a65d38f7db8d9e8fdde82bdd298",
+        "size_bytes": 418
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_14_B_SELECT.json",
+        "sha256": "06c95a6a0a01e327ec9fc7d1179bd8e238dc9c735f0df219324c46b8640af6cf",
+        "size_bytes": 417
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_14_B_SELECT.json",
+        "sha256": "06c95a6a0a01e327ec9fc7d1179bd8e238dc9c735f0df219324c46b8640af6cf",
+        "size_bytes": 417
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_15_C_SETUP.json",
+        "sha256": "96dbb25df76a1a2cf449251851e918478c3e12a6b2087c372a61c7deb58ca453",
+        "size_bytes": 416
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_15_C_SETUP.json",
+        "sha256": "96dbb25df76a1a2cf449251851e918478c3e12a6b2087c372a61c7deb58ca453",
+        "size_bytes": 416
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_16_C1.json",
+        "sha256": "b28f99ad72da84efb88477b0d9dba020b93b879790557da0631fa0c39eaea702",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_16_C1.json",
+        "sha256": "b28f99ad72da84efb88477b0d9dba020b93b879790557da0631fa0c39eaea702",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_17_R1.json",
+        "sha256": "c7003d78d4f14dd4efe96c59b77539b267f1aa5faf21ee477ef8ef3f8fb5f189",
+        "size_bytes": 406
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_17_R1.json",
+        "sha256": "c7003d78d4f14dd4efe96c59b77539b267f1aa5faf21ee477ef8ef3f8fb5f189",
+        "size_bytes": 406
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_18_R2_SELECT.json",
+        "sha256": "8bedb210437c2540fb5d04413cbcde2d26072e040583f5e4cd17f8d8e3a21428",
+        "size_bytes": 418
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_18_R2_SELECT.json",
+        "sha256": "8bedb210437c2540fb5d04413cbcde2d26072e040583f5e4cd17f8d8e3a21428",
+        "size_bytes": 418
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_19_R2.json",
+        "sha256": "72e2189ebce270ef6afca45e54b653881cce39e93f80038db1a980cd3f3865db",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_19_R2.json",
+        "sha256": "72e2189ebce270ef6afca45e54b653881cce39e93f80038db1a980cd3f3865db",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_20_R2_EXIT.json",
+        "sha256": "e4e5f6321e18e27739bd542b19849756ac082212fac33a75745b9c51967080c1",
+        "size_bytes": 411
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/step_20_R2_EXIT.json",
+        "sha256": "e4e5f6321e18e27739bd542b19849756ac082212fac33a75745b9c51967080c1",
+        "size_bytes": 411
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+        "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+        "size_bytes": 116601
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+        "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+        "size_bytes": 116601
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stream_console_continuation_passage/actual_observation_review.json",
+        "sha256": "dd01ffc08542c45133d8c82dde16966b3408afc5b3b6b57f7d73ad8a271f0659",
+        "size_bytes": 11493
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stream_console_continuation_passage/actual_observation_review.json",
+        "sha256": "dd01ffc08542c45133d8c82dde16966b3408afc5b3b6b57f7d73ad8a271f0659",
+        "size_bytes": 11493
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stream_console_continuation_passage/mechanical_result_review.json",
+        "sha256": "aa50e8ca510e7758370a75b0f35a656cb5fdcead5abdf7d587cbb9f3f292daa6",
+        "size_bytes": 67610
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stream_console_continuation_passage/mechanical_result_review.json",
+        "sha256": "aa50e8ca510e7758370a75b0f35a656cb5fdcead5abdf7d587cbb9f3f292daa6",
+        "size_bytes": 67610
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46.json",
+        "sha256": "4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46",
+        "size_bytes": 418938
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46.json",
+        "sha256": "4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46",
+        "size_bytes": 418938
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+        "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+        "size_bytes": 427740
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+        "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+        "size_bytes": 427740
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7.json",
+        "sha256": "d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7",
+        "size_bytes": 333845
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7.json",
+        "sha256": "d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7",
+        "size_bytes": 333845
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+        "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+        "size_bytes": 552873
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+        "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+        "size_bytes": 552873
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+        "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+        "size_bytes": 364155
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+        "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+        "size_bytes": 364155
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+        "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+        "size_bytes": 339422
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+        "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+        "size_bytes": 339422
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474.json",
+        "sha256": "52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474",
+        "size_bytes": 459753
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474.json",
+        "sha256": "52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474",
+        "size_bytes": 459753
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347.json",
+        "sha256": "546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347",
+        "size_bytes": 459226
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347.json",
+        "sha256": "546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347",
+        "size_bytes": 459226
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e.json",
+        "sha256": "593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e",
+        "size_bytes": 458953
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e.json",
+        "sha256": "593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e",
+        "size_bytes": 458953
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853.json",
+        "sha256": "59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853",
+        "size_bytes": 467673
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853.json",
+        "sha256": "59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853",
+        "size_bytes": 467673
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077.json",
+        "sha256": "5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077",
+        "size_bytes": 473294
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077.json",
+        "sha256": "5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077",
+        "size_bytes": 473294
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2.json",
+        "sha256": "68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2",
+        "size_bytes": 315680
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2.json",
+        "sha256": "68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2",
+        "size_bytes": 315680
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+        "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+        "size_bytes": 370789
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+        "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+        "size_bytes": 370789
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786.json",
+        "sha256": "9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786",
+        "size_bytes": 217476
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786.json",
+        "sha256": "9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786",
+        "size_bytes": 217476
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+        "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+        "size_bytes": 551713
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+        "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+        "size_bytes": 551713
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4.json",
+        "sha256": "c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4",
+        "size_bytes": 461651
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4.json",
+        "sha256": "c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4",
+        "size_bytes": 461651
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518.json",
+        "sha256": "c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518",
+        "size_bytes": 458953
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518.json",
+        "sha256": "c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518",
+        "size_bytes": 458953
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+        "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+        "size_bytes": 452164
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+        "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+        "size_bytes": 452164
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257.json",
+        "sha256": "d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257",
+        "size_bytes": 458893
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257.json",
+        "sha256": "d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257",
+        "size_bytes": 458893
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e.json",
+        "sha256": "fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e",
+        "size_bytes": 408910
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e.json",
+        "sha256": "fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e",
+        "size_bytes": 408910
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+        "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+        "size_bytes": 283029
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+        "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+        "size_bytes": 283029
+      }
+    }
+  ]
+}

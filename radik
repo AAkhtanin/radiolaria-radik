@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+RADIK_PROJECT_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$RADIK_PROJECT_ROOT/.venv/bin/python" -B "$RADIK_PROJECT_ROOT/config/launch.py" "$@"

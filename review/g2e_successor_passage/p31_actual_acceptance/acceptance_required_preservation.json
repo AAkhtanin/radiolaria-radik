@@ -1,0 +1,37 @@
+{
+  "schema": "radik.p31.acceptance_required_preservation.v01",
+  "mappings": [
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v02.json",
+        "sha256": "b4df310a49585c709572fb39f1268a49817d23c2b9874fe59403df5a58a6dbcf",
+        "size_bytes": 36217
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v02.json",
+        "sha256": "b4df310a49585c709572fb39f1268a49817d23c2b9874fe59403df5a58a6dbcf",
+        "size_bytes": 36217
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+        "size_bytes": 39252
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+        "size_bytes": 39252
+      }
+    }
+  ],
+  "historical_logical_current_mismatches": [
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "expected_sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+      "current_sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be"
+    }
+  ],
+  "policy": "Historical mutable refs are not overwritten or copied as if current. Their explicitly preserved snapshot refs are separately bound by independent acceptance. Runtime source aliases use the exact source_payload_map."
+}

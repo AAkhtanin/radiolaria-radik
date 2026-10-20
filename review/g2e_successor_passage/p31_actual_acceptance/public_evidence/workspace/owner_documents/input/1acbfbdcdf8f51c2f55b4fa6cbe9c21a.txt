@@ -1,0 +1,1 @@
+Moss holds pickup orders for three working days after the ready notice. Collection after that period requires a written extension; without it the order is cancelled.

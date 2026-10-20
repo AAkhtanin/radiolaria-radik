@@ -1,0 +1,122 @@
+{
+  "schema": "radik.p31.reference_scope_review.v01",
+  "reviewer": "/root/p31_actual_reviewer",
+  "collector_scope": "Broad preliminary graph included preparation history. Direct current actual references were all separately checked before interpretation.",
+  "current_actual_direct_ref_mismatches": 0,
+  "historical_observations": [
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+      "pointer": "/predecessor_state/activation/original_ref",
+      "logical_path": "state/application_profile.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical installed/state preimage; current production legitimately upgraded or appended. Exact preserved original_actual copy is the historical witness."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+      "pointer": "/predecessor_state/install/original_ref",
+      "logical_path": "state/application_profile_install.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical installed/state preimage; current production legitimately upgraded or appended. Exact preserved original_actual copy is the historical witness."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+      "pointer": "/predecessor_state/ledger/original_ref",
+      "logical_path": "state/console_model_turns.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical installed/state preimage; current production legitimately upgraded or appended. Exact preserved original_actual copy is the historical witness."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+      "pointer": "/predecessor_state/tasks/original_ref",
+      "logical_path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical installed/state preimage; current production legitimately upgraded or appended. Exact preserved original_actual copy is the historical witness."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+      "pointer": "/checked_installed_source_bindings/8",
+      "logical_path": "app/runtime.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical P30 installed pin; current P31 changed entry/runtime source is independently admitted and checked at current160pins."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+      "pointer": "/checked_installed_source_bindings/11",
+      "logical_path": "app/ordinary_entry.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical P30 installed pin; current P31 changed entry/runtime source is independently admitted and checked at current160pins."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+      "pointer": "/checked_installed_source_bindings/12",
+      "logical_path": "config/launch.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical P30 installed pin; current P31 changed entry/runtime source is independently admitted and checked at current160pins."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+      "pointer": "/checked_installed_source_bindings/13",
+      "logical_path": "config/application_profile_gate.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical P30 installed pin; current P31 changed entry/runtime source is independently admitted and checked at current160pins."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_consumer_matrix_v03.json",
+      "pointer": "/owner_request_ref",
+      "logical_path": "/Users/admin/Downloads/RADIK_STAGE04_CLOSURE_PACKAGE_RU.md",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "External earlier owner-instruction path was not recursively followed by project-only collector; no runtime actual evidence depends on that unresolved collector traversal."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/source_history/owner_source_review_v01.json",
+      "pointer": "/runtime_source_review_ref",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical certificate points to its then-current live metadata path; preserved source_history certificate remains historical; current actual uses current pinned runtime certificate."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_provenance.json",
+      "pointer": "/ab_unchanged_ref",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/tasks_ab_draft.json",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_provenance.json",
+      "pointer": "/general_wiring_frozen_refs/0",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_provenance.json",
+      "pointer": "/general_wiring_frozen_refs/1",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/after/app/runtime.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_provenance.json",
+      "pointer": "/general_wiring_frozen_refs/2",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/after/app/ordinary_entry.py",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs.json",
+      "pointer": "/tasks/A/documents/0",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/a_service.txt",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    },
+    {
+      "parent": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs.json",
+      "pointer": "/tasks/B/documents/2",
+      "logical_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_costs.txt",
+      "classification": "HISTORICAL_SCOPE_NOT_CURRENT_ACTUAL_FAILURE",
+      "explanation": "Historical preparation/draft logical path now contains later admitted bytes; not a direct reference of the accepted actual."
+    }
+  ],
+  "actual_review": "independent_actual_acceptance_review.json",
+  "historical_bytes_not_rewritten": true
+}

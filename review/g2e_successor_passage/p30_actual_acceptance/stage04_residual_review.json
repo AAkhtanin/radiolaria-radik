@@ -1,0 +1,690 @@
+{
+  "Stage04_complete": false,
+  "created_at_utc": "2026-10-20T10:54:36.310867+00:00",
+  "credit_rule": "Equal unchanged callback source permits reuse of accepted local semantics. A different controller/dispatcher/normal-session path requires its specific new consumer witness; historical actual and synthetic controls are never silently promoted to current ordinary runtime acceptance.",
+  "current_source_comparison_to_accepted_normal_review": [
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/dynamic_work.py",
+        "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "size_bytes": 20198
+      },
+      "historical_normal_review_sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543"
+    },
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/task_spec.py",
+        "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+        "size_bytes": 5066
+      },
+      "historical_normal_review_sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53"
+    },
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/memory.py",
+        "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+        "size_bytes": 43331
+      },
+      "historical_normal_review_sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43"
+    },
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/dynamic_semantics.py",
+        "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+        "size_bytes": 17051
+      },
+      "historical_normal_review_sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed"
+    },
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/dynamic_control.py",
+        "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+        "size_bytes": 6732
+      },
+      "historical_normal_review_sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c"
+    },
+    {
+      "byte_identical": true,
+      "current_ref": {
+        "path": "app/dynamic_temporal.py",
+        "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+        "size_bytes": 1898
+      },
+      "historical_normal_review_sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac"
+    },
+    {
+      "byte_identical": false,
+      "current_ref": {
+        "path": "app/dynamic_native.py",
+        "sha256": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+        "size_bytes": 64693
+      },
+      "historical_normal_review_sha256": "e99da5f0419e2b8a7a25c4e2c1214ea65a819e71a13edbbf5c153833b44cb732"
+    },
+    {
+      "byte_identical": false,
+      "current_ref": {
+        "path": "app/dynamic_roles.py",
+        "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+        "size_bytes": 24398
+      },
+      "historical_normal_review_sha256": "b151f3b6fe044219fad8e7ae045e568aa402a56b0723dd2470119de63573838f"
+    },
+    {
+      "byte_identical": false,
+      "current_ref": {
+        "path": "app/runtime.py",
+        "sha256": "25501bb868bb7f862adf775997980904f53e27b01688b9732f03d7a3558094f8",
+        "size_bytes": 40905
+      },
+      "historical_normal_review_sha256": "138b4cc941ede1687c8d7e46e2c1836c1fbcacb2f24e1cf83db7d36f79bdca3e"
+    },
+    {
+      "byte_identical": false,
+      "current_ref": {
+        "path": "app/task_store.py",
+        "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+        "size_bytes": 30541
+      },
+      "historical_normal_review_sha256": "884d8298a96e38821178b843ecdf3ef0abd9e06282e8de645e95625d8ee267ca"
+    },
+    {
+      "byte_identical": false,
+      "current_ref": {
+        "path": "app/normal_session.py",
+        "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+        "size_bytes": 35778
+      },
+      "historical_normal_review_sha256": "dd14d31915bc28ae224b060f358ec4656287a68bcde670bfdeb1816320e347ff"
+    }
+  ],
+  "execution_authorized": false,
+  "full_minimal_stand_complete": false,
+  "matrix": [
+    {
+      "credit": [
+        {
+          "pointer": "/migration",
+          "ref": "stage04_review",
+          "scope": "Accepted isolated preserving migration and actual historical three-row baseline; source identity remains historical."
+        },
+        {
+          "pointer": "/normal_session_findings",
+          "ref": "normal_review",
+          "scope": "Copied actual15 preserving v04 to v05; explicit durable round scopes; original UNKNOWNs retained."
+        },
+        {
+          "ref": "p30_focused_review",
+          "scope": "Accepted preserving P29-to-P30 installation controls; no historical reset."
+        },
+        {
+          "ref": "task_state",
+          "scope": "Actual P30 startup appends interruption of the prior P29 task and retains its prior five history rows."
+        }
+      ],
+      "id": "S4-01",
+      "requirement": "Preserve historical accounting, task provenance and consumed permissions through source succession.",
+      "residual": "No new general preservation audit. Fresh package needs exact prefix checks only for state it actually advances; P30 actual accounting is reconciled by the separate actual review."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/held_out",
+          "ref": "stage04_review",
+          "scope": "Accepted three-source held-out verify, six Work items, three extractors and second-source audit; synthetic role products, actual native consumers."
+        },
+        {
+          "pointer": "/accepted_steps",
+          "ref": "actual153122_review",
+          "scope": "Actual A compare, B explain, A memory, C supplied-candidate verify; all short, calls 3/3/0/3."
+        },
+        {
+          "pointer": "/business_cases",
+          "ref": "p27_review",
+          "scope": "One-source explain, two-source compare, four-source verify genuine PURE Work with synthetic role products; three-source current graph only."
+        },
+        {
+          "pointer": "/task_spec",
+          "ref": "p30_scenario",
+          "scope": "Current ordinary profile actual two-source compare, decomposed route."
+        },
+        {
+          "pointer": "/cases/2/observations",
+          "ref": "stage04_result",
+          "scope": "Accepted isolated ambiguous_intent_dispatch=false; distinct changed-criterion/candidate/revision meaning keys; interrupted origin change refused. These are TaskStore/intake boundaries, not a new current ordinary intake consumer."
+        }
+      ],
+      "id": "S4-02",
+      "requirement": "Different compare/explain/verify intentions and supplied-candidate verification; two topics, clarification and distinct actual reads.",
+      "residual": "Current selected-profile ordinary entry still lacks a compact finite coverage record for explain/verify and remaining 1/3/4-source compositions. Credit old supported semantics and held-out input; examine only changed request/provenance/dispatcher and new topology obligations. A full twelve-way profile/source-count Cartesian campaign is not justified without a distinct branch.",
+      "semantic_scope_boundary": {
+        "basis": [
+          "criteria /cases/3",
+          "stage04_owner_scope section4 (lines193-199), acceptance criteria (lines295-296)"
+        ],
+        "credit": "The accepted changed-meaning-key and origin-refusal controls above are retained. Actual153122 includes distinct A/B/C tasks, but is not automatically a current ordinary semantic-change/predecessor transition.",
+        "requirement": "A changed goal or criterion outside the original TaskSpec must be accepted as a new intake/task with predecessor reference; U2 must not rewrite its original intent/BSEP.",
+        "residual": "Resolve the exact current ordinary new-intake/predecessor consumer and its refusal when presented as same-task revision in the finite missing-branch table. Do not label the old control untested or infer current coverage solely from separate historical task creation."
+      }
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/native_execution",
+          "ref": "stage04_review",
+          "scope": "Accepted actual native U2 expansion3 then contraction2 with audit SKIPPED_GUARD_FALSE; two-child nested D, synthetic roles/clock."
+        },
+        {
+          "pointer": "/native_scenario_findings",
+          "ref": "normal_review",
+          "scope": "D_EXCEPTIONS then D_CONDITIONS on one live Host; completed PURE counts3 then2. Current dynamic_work callback bytes are identical."
+        },
+        {
+          "ref": "actual191707_review",
+          "scope": "Actual D_EXCEPTIONS zero-call revision and nested U1 child/parent consumers; focus_conditions not observed."
+        },
+        {
+          "pointer": "/business_verification/audit_expansion",
+          "ref": "p27_review",
+          "scope": "Genuine business audit expansion and retained parent consumption; synthetic products, native E absent."
+        }
+      ],
+      "id": "S4-03",
+      "requirement": "Optional expansion/contraction and valid conditions change actual native dispatch; exact child and predecessor outputs reach parents.",
+      "residual": "Current ordinary selected-profile continue conditions/reduction needs its own round binding, selected prior claim, skipped audit and accepted parent/Root witness. Do not repeat generic boolean/native guard campaigns or relabel accepted historical contraction as missing."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/native_scenario_findings",
+          "ref": "normal_review",
+          "scope": "Accepted independent nested N_UNKNOWNS: actual native Work and fresh review/Root, synthetic role products and clock."
+        },
+        {
+          "ref": "business_callbacks_source",
+          "scope": "Unchanged revision_audit and execute_business callbacks constrain unknown/contradiction claim kinds and actual prior claim membership."
+        }
+      ],
+      "id": "S4-04a",
+      "requirement": "review_unknowns consumes qualifying actual prior claims on the same task without rewriting the origin.",
+      "residual": "Actual provider-produced claim selection and current ordinary NATIVE_CONTINUE grant/controller/Root coupling for review_unknowns remain unobserved. Missing eligible claim kinds must stay an explicit outcome, never be relabeled by the harness."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/native_execution",
+          "ref": "stage04_review",
+          "scope": "Two native revisions, compute32 to28 to25, revision2 to1 to0; third EXHAUSTED/work_task_revision_exhausted."
+        },
+        {
+          "pointer": "/negative_observations/scope_origin_and_round_global_limits",
+          "ref": "stage04_review",
+          "scope": "Accepted copied-state accounting controls, not all current native resource exhaustion."
+        },
+        {
+          "pointer": "/native_scenario_findings",
+          "ref": "normal_review",
+          "scope": "Accepted third revision refusal, zero new native dispatch/provider reservation."
+        },
+        {
+          "pointer": "/normal_session_findings",
+          "ref": "normal_review",
+          "scope": "Memory-only reserve refusal; cross-task/operation, closed/replayed/orphan grants, active UNKNOWN and missing task state controls."
+        },
+        {
+          "pointer": "/exact_six_refusals",
+          "ref": "p27_review",
+          "scope": "Closed successor, changed retained claims, two changed sources and duplicate/partial index refusals."
+        }
+      ],
+      "id": "S4-04b/S4-08",
+      "requirement": "Revision/resource exhaustion and task/round/global accounting refuse without replenishment or hidden dispatch.",
+      "residual": "Current ordinary revision-exhausted branch must preserve accepted results, close its zero-call slot and refuse later dispatch. Target only changed round/controller resource boundaries with finite copied-state or one live branch evidence; do not spend real calls to reach a global million-attempt ceiling."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/whole_scenario_status",
+          "ref": "p30_scenario",
+          "scope": "Saved actual declares PASS_FIRST_SELECTIVE_OWNER_SCENARIO; complete linked new native and business evidence is being independently reviewed in this same acceptance passage."
+        },
+        {
+          "ref": "p30_receipt",
+          "scope": "Exit0, reaped, no primary, E closed, FINAL success; elapsed2599.659387333 seconds."
+        }
+      ],
+      "id": "S4-05",
+      "requirement": "Selective changed-source native E with Pair1/Pair2, retained native child and separately retained business output consumed by new parent.",
+      "residual": "No repeat of P30 full E for Stage04 coverage. Accepted P30 exact two-source/decomposed delta is reused. Other finite source topologies remain limited to their own historical/synthetic coverage; do not promote full closure to selective reuse or generalize one graph to every graph."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/accepted_steps",
+          "ref": "actual153122_review",
+          "scope": "Accepted actual connected A/B/A/C, A memory zero calls and original accepted_at/valid_to."
+        },
+        {
+          "pointer": "/normal_session_findings",
+          "ref": "normal_review",
+          "scope": "Accepted genuine memory consumer after copied failed operation under controlled clock; no current wall-clock eligibility inferred."
+        },
+        {
+          "pointer": "/memory_readback_ref",
+          "ref": "p30_scenario",
+          "scope": "New delta memory write/readback references; exact same-process current acceptance belongs to the separate P30 actual review."
+        }
+      ],
+      "id": "S4-06",
+      "requirement": "A-to-B-to-A qualified memory; write, eligibility, Root descent and actual zero-model consumption under original clocks.",
+      "residual": "Current selected-profile memory consumer after a real process restart still needs observation, without a cold fallback or TTL renewal. Historical memory, new P30 same-process readback and process-restart memory are distinct credits."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/cases/2",
+          "ref": "stage04_result",
+          "scope": "Accepted TaskStore cancellation and persisted history fixture; no provider remote-cancel claim."
+        },
+        {
+          "pointer": "/negative_observations/tool_before_terminal",
+          "ref": "stage04_review",
+          "scope": "UNKNOWN fixture preserves active occupancy and blocks future dispatch."
+        },
+        {
+          "ref": "task_store_source",
+          "scope": "Current cancel interrupts local source successor; active task requires a receipt; future-only cancellation event."
+        }
+      ],
+      "id": "S4-07a",
+      "requirement": "Cancel prevents future dispatch, preserves already accepted output and does not pretend to cancel an uncertain remote request.",
+      "residual": "Current ordinary cancel command with selected-profile grant/source-successor state needs a bounded observation showing result retained, task cancelled and future run refused before reserve. This is not new AUTH, remote cancellation or SAVE."
+    },
+    {
+      "credit": [
+        {
+          "pointer": "/normal_session_findings",
+          "ref": "normal_review",
+          "scope": "Copied-state crash-before/after-TaskStore controls and reopened memory; old scope never resumes."
+        },
+        {
+          "pointer": "/journal",
+          "ref": "p27_review",
+          "scope": "Object reopen and five-stage journal accepted, explicitly not OS restart."
+        },
+        {
+          "pointer": "/functional_controls/2",
+          "ref": "p28_review",
+          "scope": "A separate owned child restart_read exits0/reaped; synthetic AUTH/inert harness and read/history only, not fresh current memory Work."
+        },
+        {
+          "ref": "task_state",
+          "scope": "P30 actual new process closes historical orphan P29 task with PROCESS_RESTART_INTERRUPTED seq50; current task ends COMPLETED, active task is null."
+        }
+      ],
+      "id": "S4-07b",
+      "requirement": "True process restart preserves history and requires fresh current eligibility/preparation; serialized data restores no native authority.",
+      "residual": "A normal closed process followed by a distinct process must select an eligible same-profile record, create fresh intake/Root/Work memory consumer and retain original clocks. Closed Host, E context, source-successor token and grant must not revive. If a later E is desired, fresh lawful preparation is required; this package need not run E."
+    },
+    {
+      "credit": [
+        {
+          "ref": "actual153122_review",
+          "scope": "Historical actual linked useful short chain; consumed recovery operation only."
+        },
+        {
+          "ref": "p28_review",
+          "scope": "Accepted isolated ordinary-entry/effective-boundary wiring; external AUTH/HTTP synthetic."
+        },
+        {
+          "ref": "p30_receipt",
+          "scope": "Actual ordinary owner command clean exit0 and child closure."
+        },
+        {
+          "pointer": "/body/status",
+          "ref": "p30_final_readback",
+          "scope": "OWNER_SCENARIO_COMPLETED under exact P30 profile."
+        },
+        {
+          "pointer": "/cases/0/explicit_settings_change_without_counter_reset",
+          "ref": "stage04_result",
+          "scope": "Accepted explicit settings change preserving counter/history in isolated accounting. Current ordinary command coupling is a distinct consumer, and only changed dependencies need examination."
+        },
+        {
+          "pointer": "/cases/2/observations/ambiguous_intent_dispatch",
+          "ref": "stage04_result",
+          "scope": "Accepted ambiguity causes no dispatch; reuse this predicate evidence before selecting any new ordinary clarification observation."
+        }
+      ],
+      "id": "S4-09",
+      "requirement": "Useful ordinary owner operation, readable task/status/memory, clean exit and one automatically delivered result.",
+      "residual": "P30 owner scenario is one real ordinary dispatcher path; it does not alone observe interactive task clarification/select/cancel/settings/history/memory loop across a restart. Close these specific ordinary UI/lifecycle branches in one package, reusing already accepted actual output and source controls. Delivery of this acceptance return is a separate exporter receipt, not a runtime completion condition."
+    }
+  ],
+  "method": "Read-only source and stored JSON/raw-byte inspection with SHA256 and size checks. No application imports, native validators/formatters, D/E/Work/model/provider/AUTH/SAVE/owner execution; no task, ledger, profile, passport or prior evidence mutation.",
+  "next_package": {
+    "acceptance": "Each row closes only on a producer, predicate and actual current consumer witness or an already accepted unchanged applicable proof. The source profile, requested scope, budgets and time limits must be concretely reviewed before any future command is offered. This passage grants no command and performs no new execution.",
+    "failure": "Any missing eligible provider claim, expiry, current model/authority refusal or contradictory raw evidence remains an explicit row outcome; no automatic rerun, scope reduction or silent repair.",
+    "name": "One finite Stage04 ordinary-lifecycle closure package",
+    "parts": [
+      {
+        "part": 1,
+        "result": "A source-bound finite branch table and one independent admission for the whole package.",
+        "work": "Resolve ordinary profile/1-4 source and short/decomposed/nested branch equivalence against existing credits; freeze the finite missing cases, code/inputs and allowed model/operation budgets before any execution. Preserve all P29/P30/UNKNOWN history; no production profile edit is implied. Include changed semantic scope to new intake/predecessor and the already accepted ambiguity/settings controls explicitly; do not assume they require fresh tests without a current consumer gap."
+      },
+      {
+        "part": 2,
+        "result": "New current-branch observations only, with exact grant/history and no extra reserve after refusal.",
+        "work": "One isolated focused cohort for current normal-round cancellation, exhaustion and source-successor interruption boundaries. Use real admitted predicates/callbacks with explicitly labelled finite synthetic data where necessary; retain prior native tests without rerunning their campaigns."
+      },
+      {
+        "part": 3,
+        "result": "One observable owner scenario covers the missing actual ordinary consumer branches.",
+        "work": "A linked bounded ordinary sequence selects the remaining admissible explain/verify/source composition coverage; performs eligible exceptions/conditions contraction and unknowns continuation, proves cumulative revision refusal, task cancellation and preserved results. It must consume actual prior output/claim kinds and retain separate native/business/Root evidence; no fabricated model labels. Integrate status/history/clarification/settings only where current branch coverage is absent. Group into one package and one future owner entry, not one owner instruction per short check."
+      },
+      {
+        "part": 4,
+        "result": "Two separately identified closed processes and a fresh zero-provider memory consumer in the successor process, followed by one result archive.",
+        "work": "Create eligible material within the future package if old clocks have expired; close the first process normally and have the reviewed supervisor start one fresh process. Reconcile durable prefixes, refuse old live-context continuation, then perform explicit memory-only fresh eligibility/Root descent/PURE consumption without TTL renewal or cold fallback. Preserve old task and operation evidence; new process may not restore E authority. Export complete new witnesses and independent conclusions once."
+      }
+    ],
+    "reuse": [
+      "P30 native E and exact selective two-source chain; no full E repetition.",
+      "Historical actual153122/191707 role/native consumers and accepted finite native controls.",
+      "Exact unchanged dynamic_work, task_spec, memory, semantics, control and temporal source; re-review only changed executable dependencies and current ordinary consumers."
+    ],
+    "status": "PROPOSAL_ONLY_NOT_EXECUTED_OR_ADMITTED"
+  },
+  "p30_observed_boundary": {
+    "owner_operation_id": "42abee1a-3219-44b2-8068-bf1192b5e156",
+    "previous_task_interruption": {
+      "event": {
+        "at": 1792487633,
+        "kind": "PROCESS_RESTART_INTERRUPTED",
+        "sequence": 50
+      },
+      "task_id": "radik-task:ea5fdd75effd4016b166b22e85d1cf35"
+    },
+    "receipt_elapsed_wall_seconds": 2599.659387333,
+    "run_id": "daa3d0e38486",
+    "scope": "Structural P30 final/status linkage only in this matrix; separate native and actual reviews establish the detailed new consumer acceptance.",
+    "status": "COMPLETED",
+    "task_id": "radik-task:ade2e65cb7d24a1a907d48f86bdb8e27",
+    "task_status": "COMPLETED",
+    "whole_scenario_status": "PASS_FIRST_SELECTIVE_OWNER_SCENARIO"
+  },
+  "passport_changed": false,
+  "plan_basis": {
+    "basis": "The master plan is retained as planning evidence, with the explicit Stage04 owner scope and fixed S4-01 through S4-09 criteria. No new execution authority is inferred from old commands in either master-plan chronology.",
+    "exclusions": [
+      {
+        "basis": [
+          "master_plan lines78-84,94,122-126",
+          "updated_master_plan hop3/hop4/hop8",
+          "stage04_owner_scope section1"
+        ],
+        "mechanism": "SAVE",
+        "placement": "Historical single scoped SAVE belongs hop3 and was accepted before the explicit Stage04 task. Stage04 is bounded informational/no-new-effects. The complete integrated lawful current-policy save relation recurs in hop8.",
+        "qualification": "Do not demand a new SAVE for P30 acceptance, reopen CLOSED quota or call SAVE an entirely unimplemented later-stage capability. The source remainder phrase SAVE ... later stages is an abbreviated boundary, not the full historical plan."
+      },
+      {
+        "basis": [
+          "master_plan lines106-112",
+          "updated_master_plan lines318-324"
+        ],
+        "mechanism": "External DRS",
+        "placement": "Hop6: independent peer/Root, disclosure, signed body, current STATUS and local consumer."
+      },
+      {
+        "basis": [
+          "master_plan lines114-120",
+          "updated_master_plan lines326-332"
+        ],
+        "mechanism": "U3",
+        "placement": "Hop7: task-derived missing finite PURE capability, independent admission, same-task use and warm reuse."
+      },
+      {
+        "basis": [
+          "master_plan lines57,122-128",
+          "updated_master_plan lines334-340"
+        ],
+        "mechanism": "U4 / full minimal conformance",
+        "placement": "Hop8 integrated applicability and complete producer/validator/consumer relations. U4 definition is retained from plan hop1 coverage correction; P30 is not universality acceptance."
+      },
+      {
+        "basis": [
+          "master_plan lines96-104",
+          "stage04_owner_scope section1"
+        ],
+        "mechanism": "Broader qualified memory/experience",
+        "placement": "Hop5: supersession/conflict/quarantine, G3 outcome/GT history and G4 finite allocation. Stage04 restart and current memory acceptance remains a prerequisite explicitly assigned to Stage04."
+      }
+    ],
+    "passport_interpretation": "The governing master plan points to the pinned current architecture lock and current scoped contracts. It explicitly marks the old human passport and strategic expansion map historical_reference/current_authority=false; this review does not revive their retired runtime names or rewrite their scope.",
+    "primary_stage04_sections": {
+      "criteria": "casesS4-01 throughS4-09",
+      "master_plan": "lines86-94",
+      "updated_master_plan": "lines298-306"
+    }
+  },
+  "refs": {
+    "actual153122_review": {
+      "path": "review/normal_session_g2e_passage/actual_behavior_review.json",
+      "sha256": "36294e13095a65ad93022bc542a4bf9609888e2cd1e3382d77c0ab68494b5dd7",
+      "size_bytes": 89692
+    },
+    "actual191707_review": {
+      "path": "review/g2e_successor_passage/actual_behavior_review.json",
+      "sha256": "4f830587b72d58c487e204efc0e2a0cbfe4cf52c98e99cb7c8d194542d7d0aed",
+      "size_bytes": 26456
+    },
+    "architecture_lock": {
+      "path": "source/reference/specs/current_architecture_lock_v01.md",
+      "sha256": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682",
+      "size_bytes": 33255
+    },
+    "business_callbacks_source": {
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    "controller_source": {
+      "path": "app/dynamic_native.py",
+      "sha256": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+      "size_bytes": 64693
+    },
+    "criteria": {
+      "path": "review/stage04_dynamic_passage/acceptance_criteria.json",
+      "sha256": "253c856182bde54bd0be6b31e9990e3855bfa06cb6482c21eeae49212315655d",
+      "size_bytes": 3667
+    },
+    "current_owner_request": {
+      "path": "/Users/admin/Downloads/RADIK_P30_ACTUAL_ACCEPTANCE_RU.md",
+      "sha256": "f8604397b6a295b8dff733127abdb2d3180a67f04db2acc368ad46f484153826",
+      "size_bytes": 9081
+    },
+    "master_plan": {
+      "path": "/Users/admin/Downloads/RADIK_MASTER_PLAN_RU.txt",
+      "sha256": "8f6073d3027f486dfd45193497920618c7d89c5d708b0152904b346e42d54335",
+      "size_bytes": 38496
+    },
+    "memory_source": {
+      "path": "app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "size_bytes": 43331
+    },
+    "normal_native_inventory": {
+      "path": "review/normal_session_g2e_passage/offline_attempts/NORMAL_SESSION_V03/public_native_scenario/full_witness_inventory.json",
+      "sha256": "84381ebc61b36b0dbc54923ad782bae10cb367b13eff83071ea43c6078560f6c",
+      "size_bytes": 40106
+    },
+    "normal_result": {
+      "path": "review/normal_session_g2e_passage/offline_attempts/NORMAL_SESSION_V03/result.json",
+      "sha256": "c96483beea05f02fdf44648b4d7f2e0b7cd2e9e5b01bb595f7d326eaf4fc3fd7",
+      "size_bytes": 949161
+    },
+    "normal_review": {
+      "path": "review/normal_session_g2e_passage/mechanical_result_review.json",
+      "sha256": "98d84a35dbbad2a79da0ea7a8b1c9891952394a227f5dcced532359c72464ae2",
+      "size_bytes": 167647
+    },
+    "normal_round_inventory": {
+      "path": "review/normal_session_g2e_passage/offline_attempts/NORMAL_SESSION_V03/public_normal_session/full_witness_inventory.json",
+      "sha256": "4830f5b210e7923444ec4f8ac42f7803b20de1c88299411156ecaa1cfe40646b",
+      "size_bytes": 50177
+    },
+    "normal_session_source": {
+      "path": "app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    "ordinary_entry_source": {
+      "path": "app/ordinary_entry.py",
+      "sha256": "12cfb70813405fc460ef48bb41b32a55d5d44e7ac50d9a2dafe28fe2c0e6245b",
+      "size_bytes": 20439
+    },
+    "owner_scenario_source": {
+      "path": "app/owner_scenario.py",
+      "sha256": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+      "size_bytes": 30119
+    },
+    "p27_applicability": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/STAGE04_EVIDENCE_APPLICABILITY_REVIEW.json",
+      "sha256": "4f745fd740d90e398d7d1a999a789ccc8fa7d06a306e172bf03cf1c68284dbd3",
+      "size_bytes": 21453
+    },
+    "p27_four_source": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_4_verify.json",
+      "sha256": "4187c4d67e2b819565c0a031e43495528176e3eb5b9add24b9654a34cc9c03d8",
+      "size_bytes": 397128
+    },
+    "p27_journal": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_fixture.json",
+      "sha256": "f3183cac7ce1c6500841643968335ee770621427b3389a56ad8fe200db4757ad",
+      "size_bytes": 6022
+    },
+    "p27_one_source": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_1_explain.json",
+      "sha256": "b3c07330548ef42afd0c0906c01cddf7563330caa7f8b9911fd5c6292fa5bab0",
+      "size_bytes": 171854
+    },
+    "p27_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v02.json",
+      "sha256": "b4df310a49585c709572fb39f1268a49817d23c2b9874fe59403df5a58a6dbcf",
+      "size_bytes": 36217
+    },
+    "p27_two_source": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_2_compare.json",
+      "sha256": "244db1f219a7dc0b91000b5551bd6c250626fe730652fa2ecc157a9c73c8f702",
+      "size_bytes": 313955
+    },
+    "p28_restart_stdout": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_actual/ENTRY_V03/restart_read_stdout.txt",
+      "sha256": "9404929b08a27a07441bd10cec05267fbca7bf0feaea59352cef5ab412c935e1",
+      "size_bytes": 2329
+    },
+    "p28_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/focused_result_review.json",
+      "sha256": "8c87e260879ab1b6e9415a86f61e0fb519d6b7fcbe0c33d6284c2a3507b4a6e3",
+      "size_bytes": 44911
+    },
+    "p30_final_readback": {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+      "sha256": "d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea",
+      "size_bytes": 1580
+    },
+    "p30_focused_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/focused_result_review.json",
+      "sha256": "b4412281f486dacb11abe11d8548ef9a8676f9309bb22aa9ec0082f5fe590aae",
+      "size_bytes": 32143
+    },
+    "p30_profile": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+      "sha256": "9c2fa1df2d581b4d542dd1aaa9fb65cdcc047dff2a35d14ba92ec39db4cf7c8a",
+      "size_bytes": 63030
+    },
+    "p30_receipt": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+      "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+      "size_bytes": 3722
+    },
+    "p30_scenario": {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    "p30_stdout": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/child_stdout.raw",
+      "sha256": "32a972330fb75b5c314395a2ba1076b16eabe8905bfc2a38308948930048e403",
+      "size_bytes": 121156
+    },
+    "runtime_source": {
+      "path": "app/runtime.py",
+      "sha256": "25501bb868bb7f862adf775997980904f53e27b01688b9732f03d7a3558094f8",
+      "size_bytes": 40905
+    },
+    "source_successor_source": {
+      "path": "app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+      "size_bytes": 10775
+    },
+    "stage04_native_U2": {
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_U2_ACTUAL_TRIGGER_AND_GUARD_REFUSALS.json",
+      "sha256": "76ba128ad236aa8f19529817acfbedc2c1aabef19aedf0a09067f4c8d8e33f65",
+      "size_bytes": 672332
+    },
+    "stage04_native_memory": {
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_MEMORY_RESTART_AND_FINITE_NEGATIVES.json",
+      "sha256": "4326962a2e5e754e7501943768b26afa23ae2d0249cd3f6b0ee77e7c3d9c4c41",
+      "size_bytes": 271846
+    },
+    "stage04_native_profiles": {
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_PROFILES_OPTIONAL_AND_NATIVE_NESTED.json",
+      "sha256": "7bf911d2708883c6275e9c4bfd93ba2334817932954bcb53426aa3325a58f00b",
+      "size_bytes": 675136
+    },
+    "stage04_owner_scope": {
+      "path": "/Users/admin/Downloads/RADIK_STAGE04_DYNAMIC_TASKS_RU.txt",
+      "sha256": "b98e7f8b4bae3bc90658e4616296470d3f3b02544352890303610cc86f28e007",
+      "size_bytes": 33964
+    },
+    "stage04_result": {
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/result.json",
+      "sha256": "4ec8e88a83a1c7a7025d7f3951090888c0440e9d84fe009d173fcd01a5c71194",
+      "size_bytes": 1707885
+    },
+    "stage04_review": {
+      "path": "review/stage04_dynamic_passage/mechanical_result_review.json",
+      "sha256": "d34a1a195771d74d8e665d758ed658739f793de5310d85dd0992bbce7e355572",
+      "size_bytes": 74577
+    },
+    "task_spec_source": {
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    "task_state": {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+      "size_bytes": 39252
+    },
+    "task_store_source": {
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    "updated_master_plan": {
+      "path": "/Users/admin/Downloads/RADIK_MASTER_PLAN_RU (1).txt",
+      "sha256": "02bfd4946e6c694475a05c6fe5fe56a39e70af8995083fe63bf24b93c86489c7",
+      "size_bytes": 146215
+    }
+  },
+  "reviewer": "/root/p30_stage04_reviewer",
+  "schema": "radik.independent.p30_stage04_residual_review.v01",
+  "status": "READ_ONLY_STAGE04_RESIDUAL_MAP_WITH_PRIOR_ACCEPTED_CREDITS"
+}

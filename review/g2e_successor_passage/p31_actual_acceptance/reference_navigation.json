@@ -1,0 +1,2283 @@
+{
+  "schema_version": "radik.p31.reference_navigation.v01",
+  "generated_at_utc": "2026-10-20T15:12:31.365287+00:00",
+  "author": "independent navigation subagent p31_reference_mapper",
+  "scope": "Targeted read-only documentation navigation; no runtime imports, experiments, model/provider/AUTH/SAVE calls or reference/application edits. This is not a new reference audit or runtime acceptance.",
+  "basis": {
+    "repository": "AAkhtanin/hedgehog-os",
+    "commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+    "tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+    "git_head_and_tree_observed_equal": true,
+    "worktree_clean_observed": true,
+    "all_selected_reference_raw_bytes_equal_pinned_git_blobs": true
+  },
+  "status_rules": [
+    "Reference Gates and Radik Stages are separate numbering systems.",
+    "Dated closure/status bridges qualify historical preparation NOT_CLOSED/PENDING strings; do not rewrite history.",
+    "Pinned P establishes only its recorded reference scope, not later remote publication status.",
+    "The updated master is not a duplicate: AUTH and narrow Stage03 acceptance supersede its earlier history; P30/P31 supersede earlier dynamic/E/restart gaps only for their accepted scopes.",
+    "P31 SOURCE coverage is a union of V03 prefix and V04 C/restart, not a successful original full fixture route. Current P31 actual verdict is composed by independent actual review, not awarded by this map.",
+    "Source/controlled/actual-native/actual-provider evidence remain distinct; planned or reference capability is not Radik integration."
+  ],
+  "sources": [
+    {
+      "id": "REF-LOCK",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "specs/current_architecture_lock_v01.md",
+      "bytes": 33255,
+      "sha256": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682",
+      "selectors": [
+        "## 3. Canonical current runtime",
+        "## 4. Component authority boundaries",
+        "## 5. MultiRoot law",
+        "## 6. Action/effect law",
+        "## 7. Memory/time/reuse law",
+        "## Whole Gate 2: Current Closure Transition"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/specs/current_architecture_lock_v01.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G1",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/domain_neutral_reference_kernel_gate1_checkpoint_v01.md",
+      "bytes": 7010,
+      "sha256": "1ba33b760172b918789b1def0975c7180594fb969314af8ed66fcbfd167ef1e6",
+      "selectors": [
+        "checkpoint_status: CLOSED_PASS",
+        "## 1. Closure Verdict",
+        "## 2. Commit Lineage"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/domain_neutral_reference_kernel_gate1_checkpoint_v01.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G2",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/consolidated_gate2_gauntlet_g2_f_checkpoint_v01.md",
+      "bytes": 23648,
+      "sha256": "87eb4c5c6bd68244a9de713502e556c149baab9a4a8dfbcaa4a839a884ee314c",
+      "selectors": [
+        "## Layers A Through F",
+        "## Closure Boundary"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/consolidated_gate2_gauntlet_g2_f_checkpoint_v01.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-OVERLAY",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "release/current_status_overlay_v01.json",
+      "bytes": 159825,
+      "sha256": "fbe67d69fe51ee50ae118accf7a0b694189ee083774564d19a68432d43f8b2d6",
+      "selectors": [
+        "/g2f_closure_transition/gate2_status",
+        "/g2f_closure_transition/g2f_status",
+        "/universality_admission_v01/current_status",
+        "/universality_current_registration_v01"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/release/current_status_overlay_v01.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G3",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate3_closure_v01/CLOSURE_ACCEPTANCE.json",
+      "bytes": 1096,
+      "sha256": "69279fd9fb4b3f7eb96a04ba30d65a69b5627e5bfe69c1d013c3b3c190720d73",
+      "selectors": [
+        "/status",
+        "/scope",
+        "/limits"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate3_closure_v01/CLOSURE_ACCEPTANCE.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G4",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate4_reference_v01/README.md",
+      "bytes": 5726,
+      "sha256": "c3c141a3f0dc2ab3f0c0ed6eb0ca2a633900a3929c0ae132d432c420006fa70c",
+      "selectors": [
+        "## Status and identity",
+        "## Reduced scope and deferred programme",
+        "## The two causal comparisons"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate4_reference_v01/README.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G5",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate5_reference_v01/README.md",
+      "bytes": 5131,
+      "sha256": "0e1b38b7ab7e23e81b8a7d304eb0cf1964fa49882272c25c343c9bf7500ef075",
+      "selectors": [
+        "## What remains distinct",
+        "## Publication state"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate5_reference_v01/README.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G5-STATUS",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate5_reference_v01/publication_status_v01.json",
+      "bytes": 1811,
+      "sha256": "475a7cce1bba118c00a36e802c433e93077f98ceeecb2fd4742936731f13d582",
+      "selectors": [
+        "/G55L",
+        "/G54D",
+        "/G54D1",
+        "/R19",
+        "/gate5_closed_at_authoring",
+        "/effective_status_rule"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate5_reference_v01/publication_status_v01.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G54B1",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/g54b1_authoring_case_v01/README.md",
+      "bytes": 2609,
+      "sha256": "a5c4e09868b4decc1962d29e42e63674fd3d5de47d00bac36b0fa802bd9e56d8",
+      "selectors": [
+        "INCOMPLETE"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/g54b1_authoring_case_v01/README.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G6-MATRIX",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/gate6_reference_v01/acceptance_matrix.json",
+      "bytes": 309004,
+      "sha256": "7cc4568a5ef8d0a438baa039219ff39119d8b67dbe84a4f9ca901aeb7d1fb4c9",
+      "selectors": [
+        "/rows/38",
+        "/rows/39",
+        "/rows/52",
+        "/rows/53",
+        "/gate6",
+        "/gate6a_ready"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/gate6_reference_v01/acceptance_matrix.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G6-B6",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/radiolaria_os_v01/release/B6_STATUS.md",
+      "bytes": 1223,
+      "sha256": "70704cb2736515d7ffa174a612b17aca6022c068b16b1491fbb475ae96c8cbcf",
+      "selectors": [
+        "# Final-Bytes Preparation Status"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/radiolaria_os_v01/release/B6_STATUS.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-U-CONTRACT",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/common_action_and_dynamic_composition_contract_v01.md",
+      "bytes": 89306,
+      "sha256": "7f747d14065c11e6194fce94aabcd107693e7d27cd75c5558c37cef0a0a3092d",
+      "selectors": [
+        "## 13. Assigned Acceptance Matrix (No Runtime PASS Yet)",
+        "## 10. U2 Same-Task Continuation",
+        "## 11. U3 Missing Pure Code, Admission and Local DRS",
+        "## V05 Retained PLAN and Execution Amendment"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/common_action_and_dynamic_composition_contract_v01.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-U-CHECKPOINT",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/common_action_and_dynamic_composition_checkpoint_v01.md",
+      "bytes": 24546,
+      "sha256": "fd708a885e0635e9f82bb8baad212f9cbd6db363888a8ae380893a718201e5e9",
+      "selectors": [
+        "## Obligation Matrix",
+        "### Retained-work RW01-RW08",
+        "## Limits and Current Authority",
+        "## Recorded M16 Chronology and Its Limit"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/common_action_and_dynamic_composition_checkpoint_v01.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-NEEDLES",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/passport_geometry_root_needles.md",
+      "bytes": 28736,
+      "sha256": "347ca55f3074106836c6646992cfdc18a2afefede199df1c1d2f9a4c6525cf70",
+      "selectors": [
+        "## Needles",
+        "### Lateral Marennya",
+        "### Upward UP"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/passport_geometry_root_needles.md",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G5-READER",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate5_reference_v01/GATE5_REFERENCE_READER_V01.xml",
+      "bytes": 8988,
+      "sha256": "20105aa146900f895b777b6012fd276535b01d0801e6e64ce6f3f3d73b00fec3",
+      "selectors": [
+        "/radiolaria_reader"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate5_reference_v01/GATE5_REFERENCE_READER_V01.xml",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G5-CLAIMS",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate5_reference_v01/claims_evidence.json",
+      "bytes": 461856,
+      "sha256": "61417372cdae00d9a911e617aca070e5a3356469181a8e67e92dae681b6239ad",
+      "selectors": [
+        "/claims"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate5_reference_v01/claims_evidence.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G5-INDEX",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate5_reference_v01/READER_INDEX.json",
+      "bytes": 173456,
+      "sha256": "5a53888114cf9ebced84255712ffba5d6a415fd7ba35dd178a5abc2c00042979",
+      "selectors": [
+        "/routes",
+        "/claim_routes",
+        "/complete_set_requires"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate5_reference_v01/READER_INDEX.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G3-CLAIMS",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate3_closure_v01/CLAIM_TO_EVIDENCE.json",
+      "bytes": 7196,
+      "sha256": "4606fa05ecb1c12aef33e48cf0e1ef2a06b5d155f56b4aaabf437ca3fbcb2a97",
+      "selectors": [
+        "/0"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate3_closure_v01/CLAIM_TO_EVIDENCE.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "REF-G4-CLAIMS",
+      "evidence_class": "specification/planning",
+      "origin_kind": "PINNED_REFERENCE_DOCUMENT",
+      "path": "docs/showcase/gate4_reference_v01/presentation/claim_evidence_matrix_v01.json",
+      "bytes": 111516,
+      "sha256": "bdfd4aca8c32195bf2e90a3ee56bfd9c7fb1bfb5539c497e1a637c8c2c1868d7",
+      "selectors": [
+        "/claims",
+        "/provenance_rules"
+      ],
+      "availability": "LOCAL_BYTES_READ",
+      "repository": "AAkhtanin/hedgehog-os",
+      "basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+      "basis_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+      "pinned_url": "https://github.com/AAkhtanin/hedgehog-os/blob/800f38c3407b3f4ec93dc943c977ffeecb614881/docs/showcase/gate4_reference_v01/presentation/claim_evidence_matrix_v01.json",
+      "publication_access": "REPOSITORY_ACCESS_MAY_BE_REQUIRED",
+      "git_blob_bytes_equal": true
+    },
+    {
+      "id": "PLAN-ORIGINAL",
+      "path": "RADIK_MASTER_PLAN_RU.txt",
+      "origin_kind": "EXTERNAL_OWNER_PLANNING_OR_ACCEPTANCE_REQUEST",
+      "evidence_class": "specification/planning",
+      "bytes": 38496,
+      "sha256": "8f6073d3027f486dfd45193497920618c7d89c5d708b0152904b346e42d54335",
+      "selectors": [
+        "14 October 2026 historical plan",
+        "3. Eight stages",
+        "5. After the minimal stand"
+      ],
+      "availability": "EXTERNAL_LOCAL_BYTES_READ",
+      "publishable_application_member": false,
+      "interpretation": "Original Russian bytes are evidence; dates and historical statuses are not current runtime authority."
+    },
+    {
+      "id": "PLAN-UPDATED",
+      "path": "RADIK_MASTER_PLAN_RU (1).txt",
+      "origin_kind": "EXTERNAL_OWNER_PLANNING_OR_ACCEPTANCE_REQUEST",
+      "evidence_class": "specification/planning",
+      "bytes": 146215,
+      "sha256": "02bfd4946e6c694475a05c6fe5fe56a39e70af8995083fe63bf24b93c86489c7",
+      "selectors": [
+        "lines 222-260: Stage01/02 and updated Stage03 heading",
+        "lines 298-340: Stages04-08",
+        "lines 354-358: after-minimal scope",
+        "lines 97-108: accepted fixed actual and real local SAVE"
+      ],
+      "availability": "EXTERNAL_LOCAL_BYTES_READ",
+      "publishable_application_member": false,
+      "interpretation": "Original Russian bytes are evidence; dates and historical statuses are not current runtime authority."
+    },
+    {
+      "id": "OWNER-P31",
+      "path": "RADIK_P31_ACTUAL_STAGE04_ACCEPTANCE_RU.md",
+      "origin_kind": "EXTERNAL_OWNER_PLANNING_OR_ACCEPTANCE_REQUEST",
+      "evidence_class": "specification/planning",
+      "bytes": 46343,
+      "sha256": "817d245e0e95dd79035941c4ab681d529b3453fd83eb6cdcbc446a1af44b180b",
+      "selectors": [
+        "Revision 2",
+        "Reference Gates and Radik Stages map",
+        "U1-U4 and cognitive obligations"
+      ],
+      "availability": "EXTERNAL_LOCAL_BYTES_READ",
+      "publishable_application_member": false,
+      "interpretation": "Original Russian bytes are evidence; dates and historical statuses are not current runtime authority."
+    },
+    {
+      "id": "OWNER-S4",
+      "path": "RADIK_STAGE04_DYNAMIC_TASKS_RU.txt",
+      "origin_kind": "EXTERNAL_OWNER_PLANNING_OR_ACCEPTANCE_REQUEST",
+      "evidence_class": "specification/planning",
+      "bytes": 33964,
+      "sha256": "b98e7f8b4bae3bc90658e4616296470d3f3b02544352890303610cc86f28e007",
+      "selectors": [
+        "Stage04 original requirements"
+      ],
+      "availability": "EXTERNAL_LOCAL_BYTES_READ",
+      "publishable_application_member": false,
+      "interpretation": "Original Russian bytes are evidence; dates and historical statuses are not current runtime authority."
+    },
+    {
+      "id": "RADIK-P30-ACCEPTANCE",
+      "evidence_class": "source review",
+      "origin_kind": "RADIK_ACCEPTED_REVIEW",
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_acceptance.json",
+      "bytes": 13402,
+      "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+      "selectors": [
+        "/status",
+        "/separate_consumer_claims",
+        "/limitations"
+      ],
+      "availability": "LOCAL_BYTES_READ"
+    },
+    {
+      "id": "RADIK-P30-NATIVE",
+      "evidence_class": "source review",
+      "origin_kind": "RADIK_ACCEPTED_REVIEW",
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/native_consumer_review.json",
+      "bytes": 131371,
+      "sha256": "c019ab55c6bec8241a45e52d730d89512767a8d3a16f3dd140e840af8e214dbe",
+      "selectors": [
+        "/native_E",
+        "/business_parent",
+        "/memory",
+        "/checks"
+      ],
+      "availability": "LOCAL_BYTES_READ"
+    },
+    {
+      "id": "RADIK-P31-SOURCE",
+      "evidence_class": "source review",
+      "origin_kind": "RADIK_ACCEPTED_REVIEW",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_stage04_result_review.json",
+      "bytes": 51565,
+      "sha256": "13059caa7cce425f72077a2764073c9098b8c270488324e39be1f8445c3d9961",
+      "selectors": [
+        "/coverage_classification",
+        "/residual_coverage",
+        "/retained_credit_refs",
+        "/Stage04_complete"
+      ],
+      "availability": "LOCAL_BYTES_READ"
+    },
+    {
+      "id": "RADIK-P31-RESIDUAL",
+      "evidence_class": "source review",
+      "origin_kind": "RADIK_ACCEPTED_REVIEW",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_consumer_matrix_v03.json",
+      "bytes": 24832,
+      "sha256": "2af1045cc50ee1d283f0f218d79feb6cacf49f497f611e1096d5cb49985cd6de",
+      "selectors": [],
+      "availability": "LOCAL_BYTES_READ"
+    }
+  ],
+  "reference_gates": [
+    {
+      "id": "REF-GATE-01",
+      "name": "Domain-neutral reference kernel",
+      "status": "CLOSED_PASS",
+      "scope": "Integrity/replay, SemanticWork, ABI and causal consumption, Root/Firewall, MultiRoot and conformance. No production certification.",
+      "evidence": [
+        {
+          "source_id": "REF-G1",
+          "selector": "## 1. Closure Verdict"
+        }
+      ],
+      "radik_relation": "Architectural foundation used throughout Radik; not Radik Stage01 or a new P31 execution."
+    },
+    {
+      "id": "REF-GATE-02",
+      "name": "Lifecycle, reuse, routing, bounded fractal Work and selective recomputation",
+      "status": "CLOSED_PASS",
+      "scope": "A-F accepted bounded integration. A lifecycle/revocation; B DRS/reuse; C independent Root-reviewed route; D bounded Work; E selective recompute/preservation; F consolidated thread.",
+      "evidence": [
+        {
+          "source_id": "REF-G2",
+          "selector": "## Layers A Through F"
+        },
+        {
+          "source_id": "REF-OVERLAY",
+          "selector": "/g2f_closure_transition/gate2_status"
+        },
+        {
+          "source_id": "REF-LOCK",
+          "selector": "## Whole Gate 2: Current Closure Transition"
+        }
+      ],
+      "radik_relation": "Applicable mechanisms credited to Stage04 through exact Radik consumers; whole reference campaign not rerun."
+    },
+    {
+      "id": "REF-GATE-03",
+      "name": "Outcome feedback and qualified experience",
+      "status": "CLOSED_PASS_AGREED_SCOPE",
+      "scope": "Accepted source-bound feedback/calibration/history/current advisory use. One model/four calls, captured repair, synthetic/mock effects and unsupported full native graph replay remain explicit limits.",
+      "evidence": [
+        {
+          "source_id": "REF-G3",
+          "selector": "/status"
+        },
+        {
+          "source_id": "REF-G3",
+          "selector": "/limits"
+        }
+      ],
+      "radik_relation": "Full Radik feedback/GT-history consumer integration targets Stage05; existing time/DRS use is already present."
+    },
+    {
+      "id": "REF-GATE-04",
+      "name": "Finite multi-Root strategy and actual work allocation",
+      "status": "ACCEPTED_REDUCED_ENGINEERING_SCOPE",
+      "scope": "Controlled PRICE_FIRST/COMFORT_FIRST and fixed-total 4/3 to 3/4 allocation. No payment/booking; full mathematics and LGT excluded.",
+      "evidence": [
+        {
+          "source_id": "REF-G4",
+          "selector": "## Status and identity"
+        },
+        {
+          "source_id": "REF-G4",
+          "selector": "## Reduced scope and deferred programme"
+        }
+      ],
+      "radik_relation": "Finite accepted strategy/allocation targets Stage05; larger mathematical programme remains separate after-minimal work."
+    },
+    {
+      "id": "REF-GATE-05",
+      "name": "External DRS, independent owners and finite independent authoring",
+      "status": "HETEROGENEOUS_RECORDED_SUBCAMPAIGN_STATUS",
+      "subcampaign_statuses": {
+        "G54B1": "INCOMPLETE",
+        "G54D": "INITIAL_PLUS_THREE_INCOMPLETE",
+        "G54D1": "ACCEPTED_UNDER_EXPLICIT_FOURTH_CORRECTION_IN_RESTORED_CONTINUATION",
+        "G55L": "COMPLETE",
+        "R19": "COMPLETE",
+        "G56_documentation_at_authoring": "PREPARED_FOR_INDEPENDENT_REVIEW",
+        "R20_and_final_R21_at_authoring": "PENDING_G56_PUBLICATION",
+        "gate5_closed_at_authoring": false
+      },
+      "scope": "External disclosure/body/STATUS/currentness/consumer and history/restart; synthetic football and native mock booking; finite authoring with explicit correction lineage.",
+      "evidence": [
+        {
+          "source_id": "REF-G5"
+        },
+        {
+          "source_id": "REF-G5-STATUS"
+        },
+        {
+          "source_id": "REF-G54B1"
+        }
+      ],
+      "radik_relation": "External peer integration targets Stage06. Radik does not inherit closure by replaying a name or need reproduce every domain demo."
+    },
+    {
+      "id": "REF-GATE-06",
+      "name": "Technical reference package and publication/reader preparation",
+      "status": "TECHNICAL_A_ACCEPTED_PUBLICATION_B6_PREPARATION_SEPARATE",
+      "scope": "B6 records accepted A 2e965ecb18e545e428380eb8e9aa5a7037a388be and tree 59a43cc0da470886804aab6c9af87fe17dfbd685. Full Gate6 closure not claimed in pinned B6; four approved programme deferments remain open.",
+      "evidence": [
+        {
+          "source_id": "REF-G6-B6"
+        },
+        {
+          "source_id": "REF-G6-MATRIX"
+        }
+      ],
+      "radik_relation": "Documentation precedent and explicit outstanding obligations; not Radik Stage06 and not an instruction to publish."
+    }
+  ],
+  "radik_stages": [
+    {
+      "id": "RADIK-STAGE-01",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Canonical semantics and separated role contexts",
+      "status": "HISTORICAL_SOURCE_AND_CONTROLLED_ACCEPTANCE_WITH_LATER_LIVE_CREDITS",
+      "scope": "SOURCE080854 accepted canonical chain; later P30 actual separately credits current model/Root/native consumers. Historical controlled evidence is not relabelled as live.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "RADIK-P30-ACCEPTANCE"
+        }
+      ],
+      "closure_criterion": "Accepted source/controlled chain, and each claimed later live relation tied to its own operation."
+    },
+    {
+      "id": "RADIK-STAGE-02",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Own authorization and normal reuse/refresh",
+      "status": "HISTORICAL_ACTUAL_AUTH_ACCEPTED",
+      "scope": "AUTH093853 accepted; current grant eligibility remains checked on each future operation. No fresh AUTH in this passage.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "closure_criterion": "Exact historical accepted AUTH receipt and current independent applicability; no token/permission revival."
+    },
+    {
+      "id": "RADIK-STAGE-03",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Fixed live work and basic console",
+      "status": "ACCEPTED_LIMITED_PROFILE",
+      "scope": "Fixed cold/warm/delta and one real local-file reference/mock SAVE accepted. That SAVE is not full external production effect lifecycle.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "closure_criterion": "Useful fixed document result, native consumers, exact SAVE receipt/readback, and qualified basic-console admission."
+    },
+    {
+      "id": "RADIK-STAGE-04",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Dynamic tasks, bounded continuation, selective E and restart",
+      "status": "COMPOSITE_P30_AND_P31_ACCEPTANCE_HANDLED_BY_CURRENT_DOSSIER",
+      "scope": "P30 actual selective E and delta-memory-reuse accepted; P31 SOURCE has coverage union, not one full successful fixture route. Current P31 actual review establishes any new final verdict; this navigation map does not self-accept runtime.",
+      "evidence": [
+        {
+          "source_id": "OWNER-S4"
+        },
+        {
+          "source_id": "RADIK-P30-ACCEPTANCE"
+        },
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "closure_criterion": "Every applicable original S4 criterion linked to independently accepted producer/validator/actual-consumer evidence, with P30 E credited without rerun."
+    },
+    {
+      "id": "RADIK-STAGE-05",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Time, eligible memory and qualified experience influence work",
+      "status": "FUTURE_INTEGRATION_WITH_EXISTING_MEMORY_CREDITS",
+      "scope": "P30 delta-memory-reuse and P31 task/restart facts are retained; still integrate G3 feedback/GT, finite G4 strategy/allocation, conflicts/quarantine and actual lesson consumers.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G3"
+        },
+        {
+          "source_id": "REF-G4"
+        },
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "closure_criterion": "Prospective expectation before outcome; scorable outcome updates qualified history; later real Work choice/review/allocation changes under current Root and HardMask."
+    },
+    {
+      "id": "RADIK-STAGE-06",
+      "numbering_system": "RADIK_STAGES",
+      "name": "External DRS and independent peer",
+      "status": "FUTURE_INTEGRATION",
+      "scope": "Separate Root/state/keys, disclosure, signed body, current STATUS/revision/revocation and actual local consumer; no SuperRoot.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G5"
+        }
+      ],
+      "closure_criterion": "Peer result changes receiver work; disclosure refusal keeps body closed; revision/revocation/expiry/rollback after restart fence current use; history retained."
+    },
+    {
+      "id": "RADIK-STAGE-07",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Acquire a missing finite pure capability through U3",
+      "status": "FUTURE_INTEGRATION",
+      "scope": "Task-derived absence, controlled candidate, independent finite admission and same-task use; warm need discovery and readmission without generation.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ],
+      "closure_criterion": "Actual missing need, exact finite oracle/resource negatives, downstream guest-result consumption and warm generator_calls=0, without arbitrary Python/plugin installation."
+    },
+    {
+      "id": "RADIK-STAGE-08",
+      "numbering_system": "RADIK_STAGES",
+      "name": "Connected full minimal-stand examination",
+      "status": "FUTURE_INTEGRATION",
+      "scope": "Applicable U1-U4, memory/experience/peer/capability and current effects in one bounded user workflow. Stage04 does not imply FULL_MINIMAL_STAND.",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ],
+      "closure_criterion": "Actual connected workflow and applicable positive/refusal consumer matrix; current packet/Host/Firewall effect path; independent FULL_MINIMAL_STAND acceptance."
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "MECH-U1",
+      "status": "partial",
+      "statement": "Common typed composition and actual field consumption are applied within Stage04; general action lifecycle and all M obligations are not closed by D/E alone.",
+      "obligation_ids": [
+        "U-OBL-M01",
+        "U-OBL-M02",
+        "U-OBL-M03",
+        "U-OBL-M04",
+        "U-OBL-M05",
+        "U-OBL-M06",
+        "U-OBL-M07",
+        "U-OBL-M08",
+        "U-OBL-M09",
+        "U-OBL-M10",
+        "U-OBL-M11",
+        "U-OBL-M12",
+        "U-OBL-M13",
+        "U-OBL-M14",
+        "U-OBL-M15",
+        "U-OBL-M16",
+        "U-OBL-M17",
+        "U-OBL-M18"
+      ],
+      "target_stage": "RADIK-STAGE-08"
+    },
+    {
+      "id": "MECH-U2",
+      "status": "partial",
+      "statement": "Same task from actual prior results, immutable origin/BSEP and cumulative budgets. Stage04 A/B continuation is separate from new goal C; final actual conclusion belongs to current acceptance.",
+      "obligation_ids": [
+        "U-OBL-R01",
+        "U-OBL-R02",
+        "U-OBL-R03"
+      ],
+      "target_stage": "RADIK-STAGE-04_WITH_EFFECT_HISTORY_SCOPE_IN_STAGE08"
+    },
+    {
+      "id": "MECH-U3",
+      "status": "deferred",
+      "statement": "Missing finite pure capability candidate, independent admission, same-task consumer and warm need discovery/readmission, without generator call warm.",
+      "obligation_ids": [
+        "U-OBL-R04",
+        "U-OBL-R05",
+        "U-OBL-R06",
+        "U-OBL-R07",
+        "U-OBL-R08",
+        "U-OBL-R09"
+      ],
+      "target_stage": "RADIK-STAGE-07"
+    },
+    {
+      "id": "MECH-U4",
+      "status": "partial",
+      "statement": "Integrated composition/conformance, retained D/E and selective preservation; reference obligations are individually mapped and not inherited from the U4 name.",
+      "obligation_ids": [
+        "U-OBL-M18",
+        "U-OBL-R10",
+        "U-OBL-RW01",
+        "U-OBL-RW02",
+        "U-OBL-RW03",
+        "U-OBL-RW04",
+        "U-OBL-RW05",
+        "U-OBL-RW06",
+        "U-OBL-RW07",
+        "U-OBL-RW08"
+      ],
+      "target_stage": "RADIK-STAGE-08"
+    }
+  ],
+  "common_action_obligations": [
+    {
+      "id": "U-OBL-M01",
+      "reference_obligation_id": "M01",
+      "source_requirement": "Legacy bytes/IDs/receipts/replay equal frozen baseline; reject altered history",
+      "reference_scope": "U1 compatibility",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 884: row M01"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M01"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Legacy bytes/IDs/receipts/replay equal frozen baseline; reject altered history; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M02",
+      "reference_obligation_id": "M02",
+      "source_requirement": "Native payment/playback/other nonpayment actually consume typed parameters and produce bound outputs",
+      "reference_scope": "U1 common lifecycle",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 885: row M02"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M02"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Native payment/playback/other nonpayment actually consume typed parameters and produce bound outputs; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M03",
+      "reference_obligation_id": "M03",
+      "source_requirement": "Legacy then native AND native then legacy same proven intent cannot execute twice",
+      "reference_scope": "shared consumption",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 886: row M03"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M03"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Legacy then native AND native then legacy same proven intent cannot execute twice; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M04",
+      "reference_obligation_id": "M04",
+      "source_requirement": "One and four instances execute; coherent fifth target/scope expansion rejects",
+      "reference_scope": "target parameterization, not novel program",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 887: row M04"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M04"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "One and four instances execute; coherent fifth target/scope expansion rejects; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M05",
+      "reference_obligation_id": "M05",
+      "source_requirement": "Independent Roots accept locally; cross-fed candidate/Root/permission rejects",
+      "reference_scope": "no SuperRoot",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 888: row M05"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M05"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Independent Roots accept locally; cross-fed candidate/Root/permission rejects; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M06",
+      "reference_obligation_id": "M06",
+      "source_requirement": "Rebuilt valid changed parameters/target/adapter rejected by accepted semantics, not stale hash",
+      "reference_scope": "Root/executor binding",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 889: row M06"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M06"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Rebuilt valid changed parameters/target/adapter rejected by accepted semantics, not stale hash; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M07",
+      "reference_obligation_id": "M07",
+      "source_requirement": "Accepted pre-start revoke blocks at valid TTL; unchanged positive at same time executes; history replay remains valid",
+      "reference_scope": "ordering",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 890: row M07"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M07"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Accepted pre-start revoke blocks at valid TTL; unchanged positive at same time executes; history replay remains valid; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M08",
+      "reference_obligation_id": "M08",
+      "source_requirement": "Task-supplied old snapshot/stale revision cannot become live state; explicit historical inspection allowed",
+      "reference_scope": "current host",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 891: row M08"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M08"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Current task state, fresh Root/Host memory and cancellation boundaries in S4; generalized action state remains Stage08.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Task-supplied old snapshot/stale revision cannot become live state; explicit historical inspection allowed; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M09",
+      "reference_obligation_id": "M09",
+      "source_requirement": "Repeated/uncertain attempts cannot revive consumption; proven non-start control distinguished",
+      "reference_scope": "no free retry",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 892: row M09"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M09"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Exhaustion/cancel and preservation controls in S4; full action uncertain-history lifecycle remains Stage08.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Repeated/uncertain attempts cannot revive consumption; proven non-start control distinguished; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M10",
+      "reference_obligation_id": "M10",
+      "source_requirement": "Actual admission checks code/callable/contract; wrong/missing result or changed implementation has no success",
+      "reference_scope": "typed execution",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 893: row M10"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M10"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Actual pinned PURE callbacks, input/output consumers in informational S4; finite generated-code admission remains Stage07.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        },
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Actual admission checks code/callable/contract; wrong/missing result or changed implementation has no success; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M11",
+      "reference_obligation_id": "M11",
+      "source_requirement": "Native nonpayment E dependency change causes actual minimal/complete recompute and invalidation; unaffected bytes persist",
+      "reference_scope": "later C/E integration",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 894: row M11"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M11"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Accepted P30 NO_EFFECTS selective E and actual retained business consumer; action-bearing native nonpayment lifecycle is a separate future obligation.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Native nonpayment E dependency change causes actual minimal/complete recompute and invalidation; unaffected bytes persist; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M12",
+      "reference_obligation_id": "M12",
+      "source_requirement": "Two different programs execute different operations and actual field bindings in one handler",
+      "reference_scope": "composition, not labels",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 895: row M12"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M12"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Different informational compare/explain/verify programs and fields in S4 scope.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        },
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Two different programs execute different operations and actual field bindings in one handler; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M13",
+      "reference_obligation_id": "M13",
+      "source_requirement": "Mandatory producer removal/replacement blocks downstream/effect despite plausible final supplied answer",
+      "reference_scope": "causal necessity",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 896: row M13"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M13"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Applicable supplied-result/field/preservation refusals credited only through S4 retained source bindings.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Mandatory producer removal/replacement blocks downstream/effect despite plausible final supplied answer; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M14",
+      "reference_obligation_id": "M14",
+      "source_requirement": "Cycle/type/unknown capability/budget fail; false guard is skipped and missing/nonboolean blocks",
+      "reference_scope": "finite language",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 897: row M14"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M14"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Applicable finite typing, guards and cumulative resource controls credited in S4.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Cycle/type/unknown capability/budget fail; false guard is skipped and missing/nonboolean blocks; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M15",
+      "reference_obligation_id": "M15",
+      "source_requirement": "Required D source-bound completion changes consumer readiness; missing/wrong-context/blocked D rejects",
+      "reference_scope": "U0 is supporting CONTROL evidence only",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 898: row M15"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M15"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "P30 actual native D/E and source-bound reviewed current informational consumer; no blanket action permission.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Required D source-bound completion changes consumer readiness; missing/wrong-context/blocked D rejects; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M16",
+      "reference_obligation_id": "M16",
+      "source_requirement": "Freeze common code; held-out structure/input/adapter runs via unchanged predicates with actual new work",
+      "reference_scope": "portability",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 899: row M16"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M16"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Held-out C structure/input source chronology and current common consumer; no arbitrary unseen-domain claim.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Freeze common code; held-out structure/input/adapter runs via unchanged predicates with actual new work; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M17",
+      "reference_obligation_id": "M17",
+      "source_requirement": "Controlled versus authorized live proposal provenance, raw/canonical influence on actual operations",
+      "reference_scope": "no fabricated model autonomy",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 900: row M17"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M17"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Actual provider P30 and controlled P31 SOURCE labels remain separate; current P31 actual is accepted separately.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-ACCEPTANCE"
+        },
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Controlled versus authorized live proposal provenance, raw/canonical influence on actual operations; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-M18",
+      "reference_obligation_id": "M18",
+      "source_requirement": "Frozen focused meanings and F24 harness preserved; fresh modified-source regression and exact governance",
+      "reference_scope": "no old PASS carryover",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 901: row M18"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / M18"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Applicable source/actual credits retained; connected full minimal-stand integration not inferred.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Frozen focused meanings and F24 harness preserved; fresh modified-source regression and exact governance; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R01",
+      "reference_obligation_id": "R01",
+      "source_requirement": "Real intermediate/capability-loss trigger yields same-task bounded revision",
+      "reference_scope": "U2 continuation",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 902: row R01"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R01"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Same-task bounded actual-prior-result continuation with immutable origin/BSEP; C is a separate accepted task.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Real intermediate/capability-loss trigger yields same-task bounded revision; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R02",
+      "reference_obligation_id": "R02",
+      "source_requirement": "Cumulative children/model/compute/revision budgets never reset; explicit exhaustion",
+      "reference_scope": "U2 budget",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 903: row R02"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R02"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Cumulative budgets and explicit third-revision EXHAUSTED in S4; no replenishment or extra dispatch.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Cumulative children/model/compute/revision budgets never reset; explicit exhaustion; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R03",
+      "reference_obligation_id": "R03",
+      "source_requirement": "Completed effects/history remain immutable; resume needs current permission",
+      "reference_scope": "U2 currentness",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 904: row R03"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R03"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Historical results/permissions and CLOSED SAVE preserved; P31 is information-only and does not execute resumed effects.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Completed effects/history remain immutable; resume needs current permission; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R04",
+      "reference_obligation_id": "R04",
+      "source_requirement": "Cold catalogue/DRS absence proved before task-derived missing need candidate",
+      "reference_scope": "U3 necessity",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 905: row R04"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R04"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Cold catalogue/DRS absence proved before task-derived missing need candidate; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R05",
+      "reference_obligation_id": "R05",
+      "source_requirement": "Actual exact-code/resource/finite-domain admission, no hidden implementation/self-PASS/human repair",
+      "reference_scope": "U3 admission",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 906: row R05"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R05"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Actual exact-code/resource/finite-domain admission, no hidden implementation/self-PASS/human repair; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R06",
+      "reference_obligation_id": "R06",
+      "source_requirement": "Same task consumes actual new implementation output through same handler",
+      "reference_scope": "U3 causal use",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 907: row R06"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R06"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Same task consumes actual new implementation output through same handler; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R07",
+      "reference_obligation_id": "R07",
+      "source_requirement": "Need-based local search, retrieve and SAME admission, no supplied hash shortcut",
+      "reference_scope": "U3 memory",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 908: row R07"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R07"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Need-based local search, retrieve and SAME admission, no supplied hash shortcut; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R08",
+      "reference_obligation_id": "R08",
+      "source_requirement": "Fresh warm task observes zero generator calls; policy/freshness revalidated",
+      "reference_scope": "U3 reuse",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 909: row R08"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R08"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Fresh warm task observes zero generator calls; policy/freshness revalidated; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R09",
+      "reference_obligation_id": "R09",
+      "source_requirement": "Changed/stale/wrong DRS package fails with coherent positive neighbor",
+      "reference_scope": "U3 refusal",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 910: row R09"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R09"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "deferred",
+      "radik_credit": "No current Radik claim for this full reference obligation; named reference evidence is not Radik integration.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-07",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Changed/stale/wrong DRS package fails with coherent positive neighbor; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-R10",
+      "reference_obligation_id": "R10",
+      "source_requirement": "Deterministic fixtures and actual authorized live model evidence separately attributed",
+      "reference_scope": "all claims",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CONTRACT",
+          "selector": "line 911: row R10"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "## Obligation Matrix / R10"
+        }
+      ],
+      "reference_status": "RECORDED_BOUNDED_IMPLEMENTATION_EVIDENCE_WITH_HISTORICAL_AT_AUTHORING_ADMISSION_STATUS",
+      "radik_integration_status": "partial",
+      "radik_credit": "Controlled fixture, actual native and actual provider provenance independently attributed.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-ACCEPTANCE"
+        },
+        {
+          "source_id": "RADIK-P31-SOURCE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_FOR_REMAINING_GENERAL_SCOPE",
+      "dependency": "Exact applicable profile, current Root/Host and independent consumer review; no historical permission transfer.",
+      "closure_criterion": "Deterministic fixtures and actual authorized live model evidence separately attributed; prove the applicable Radik consumer with exact source and primary evidence."
+    },
+    {
+      "id": "U-OBL-RW01",
+      "reference_obligation_id": "RW01",
+      "source_requirement": "RW01-RW04 grouped requirement: actual four public E combinations native/legacy x selected child0/child1, with actual supplied D/E validations; neither diagnostic prior attempts nor only child1 suffice.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "deferred",
+      "radik_credit": "P30 informational E is credited separately; no claim that every reference encoding/selection/action combination ran in Radik.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly.",
+      "individual_subdivision": "The checkpoint groups these four IDs; this map does not invent a per-ID native/legacy/child allocation."
+    },
+    {
+      "id": "U-OBL-RW02",
+      "reference_obligation_id": "RW02",
+      "source_requirement": "RW01-RW04 grouped requirement: actual four public E combinations native/legacy x selected child0/child1, with actual supplied D/E validations; neither diagnostic prior attempts nor only child1 suffice.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "deferred",
+      "radik_credit": "P30 informational E is credited separately; no claim that every reference encoding/selection/action combination ran in Radik.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly.",
+      "individual_subdivision": "The checkpoint groups these four IDs; this map does not invent a per-ID native/legacy/child allocation."
+    },
+    {
+      "id": "U-OBL-RW03",
+      "reference_obligation_id": "RW03",
+      "source_requirement": "RW01-RW04 grouped requirement: actual four public E combinations native/legacy x selected child0/child1, with actual supplied D/E validations; neither diagnostic prior attempts nor only child1 suffice.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "deferred",
+      "radik_credit": "P30 informational E is credited separately; no claim that every reference encoding/selection/action combination ran in Radik.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly.",
+      "individual_subdivision": "The checkpoint groups these four IDs; this map does not invent a per-ID native/legacy/child allocation."
+    },
+    {
+      "id": "U-OBL-RW04",
+      "reference_obligation_id": "RW04",
+      "source_requirement": "RW01-RW04 grouped requirement: actual four public E combinations native/legacy x selected child0/child1, with actual supplied D/E validations; neither diagnostic prior attempts nor only child1 suffice.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "deferred",
+      "radik_credit": "P30 informational E is credited separately; no claim that every reference encoding/selection/action combination ran in Radik.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly.",
+      "individual_subdivision": "The checkpoint groups these four IDs; this map does not invent a per-ID native/legacy/child allocation."
+    },
+    {
+      "id": "U-OBL-RW05",
+      "reference_obligation_id": "RW05",
+      "source_requirement": "Complete original bundle/outputs remain public-valid and unchanged; coherent altered retained semantic/source/context controls refuse.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "partial",
+      "radik_credit": "P30 actual native retention and separate business parent consumption in the accepted informational profile; this does not establish all four native/legacy x selected-child combinations.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly."
+    },
+    {
+      "id": "U-OBL-RW06",
+      "reference_obligation_id": "RW06",
+      "source_requirement": "Retained slot has actual START/FINISH, +1 wall and net0 parallel, no child allocation/refund; duplicate and namespace controls refuse.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "partial",
+      "radik_credit": "P30 actual native retention and separate business parent consumption in the accepted informational profile; this does not establish all four native/legacy x selected-child combinations.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly."
+    },
+    {
+      "id": "U-OBL-RW07",
+      "reference_obligation_id": "RW07",
+      "source_requirement": "Actual parent consumes retained and newly computed results in canonical slots; equality and coherent substitute controls bind actual result.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "partial",
+      "radik_credit": "P30 actual native retention and separate business parent consumption in the accepted informational profile; this does not establish all four native/legacy x selected-child combinations.",
+      "evidence": [
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly."
+    },
+    {
+      "id": "U-OBL-RW08",
+      "reference_obligation_id": "RW08",
+      "source_requirement": "Actual packet-dependent invalidation and final review; historical result is no fresh permission.",
+      "reference_evidence": [
+        {
+          "source_id": "REF-U-CHECKPOINT",
+          "selector": "### Retained-work RW01-RW08"
+        }
+      ],
+      "reference_status": "RECORDED_U4_SOURCE_BOUND_EVIDENCE_NOT_RERUN",
+      "radik_integration_status": "deferred",
+      "radik_credit": "P30 informational E is credited separately; no claim that every reference encoding/selection/action combination ran in Radik.",
+      "evidence": [],
+      "target_stage": "RADIK-STAGE-08_APPLICABILITY_RECONCILIATION",
+      "dependency": "Separate the accepted NO_EFFECTS informational source context from consequential invocation/packet scope.",
+      "closure_criterion": "For each applicable combination, exact source-bound primary producer, current validation and actual downstream consumer; mark nonapplicable scope explicitly."
+    }
+  ],
+  "deferred": [
+    {
+      "id": "DEFER-REF-N1-18",
+      "source_requirement": "Factory candidate-only",
+      "reason": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-G6-MATRIX"
+        },
+        {
+          "source_id": "REF-G6-B6"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "reference_obligation_id": "N1-18",
+      "exact_reference_row": {
+        "acceptance": "PENDING_EXACT_INDEPENDENT_PACKAGE_REVIEW",
+        "accepted_scope_profile": "Accepted bounded reference",
+        "basis": "See per-binding original/successor profile; never a new whole-tree runtime execution",
+        "binding": [
+          {
+            "case_ids": [
+              "tests/test_gate6_reference_adversarial_v01.py::test_persisted_drs_descent_cannot_supply_permission",
+              "tests/test_gate6_reference_adversarial_v01.py::test_current_candidate_admission_does_not_self_install"
+            ],
+            "resource": "r/fresh/DIRECT/DIRECT/direct_phases.json",
+            "scope": "Actual three phases for each listed node; source pins in original receipt"
+          },
+          {
+            "resource": "review/ACTIVE_PROMPT.txt",
+            "scope": "Section 4 explicitly retains program-specific deferments"
+          }
+        ],
+        "disposition": "APPROVED_DEFERMENT",
+        "id": "N1-18",
+        "implementation_sources": [
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_contract_v01.md",
+            "sha256": "138f77869fed786a219d5ad0ac6313d8a82fafd33e975f4f32057371a58960b5"
+          }
+        ],
+        "limitations": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+        "obligation": "Factory candidate-only",
+        "remaining": "Program-specific work remains deferred, not passed.",
+        "scope_disposition": "GENERIC_NONPROMOTION_RETAINED_FACTORY_REFLECTION_TRANSFER_PROGRAMS_DEFERRED",
+        "source_section": "Master v2.1 N1"
+      },
+      "reference_selector": "/rows/38",
+      "reference_disposition": "APPROVED_DEFERMENT"
+    },
+    {
+      "id": "DEFER-REF-N1-19",
+      "source_requirement": "Marennya/UP quarantine-first",
+      "reason": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-G6-MATRIX"
+        },
+        {
+          "source_id": "REF-G6-B6"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "reference_obligation_id": "N1-19",
+      "exact_reference_row": {
+        "acceptance": "PENDING_EXACT_INDEPENDENT_PACKAGE_REVIEW",
+        "accepted_scope_profile": "Accepted bounded reference",
+        "basis": "See per-binding original/successor profile; never a new whole-tree runtime execution",
+        "binding": [
+          {
+            "case_ids": [
+              "tests/test_gate6_reference_adversarial_v01.py::test_persisted_drs_descent_cannot_supply_permission",
+              "tests/test_gate6_reference_adversarial_v01.py::test_current_candidate_admission_does_not_self_install"
+            ],
+            "resource": "r/fresh/DIRECT/DIRECT/direct_phases.json",
+            "scope": "Actual three phases for each listed node; source pins in original receipt"
+          },
+          {
+            "resource": "review/ACTIVE_PROMPT.txt",
+            "scope": "Section 4 explicitly retains program-specific deferments"
+          }
+        ],
+        "disposition": "APPROVED_DEFERMENT",
+        "id": "N1-19",
+        "implementation_sources": [
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_contract_v01.md",
+            "sha256": "138f77869fed786a219d5ad0ac6313d8a82fafd33e975f4f32057371a58960b5"
+          }
+        ],
+        "limitations": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+        "obligation": "Marennya/UP quarantine-first",
+        "remaining": "Program-specific work remains deferred, not passed.",
+        "scope_disposition": "GENERIC_NONPROMOTION_RETAINED_FACTORY_REFLECTION_TRANSFER_PROGRAMS_DEFERRED",
+        "source_section": "Master v2.1 N1"
+      },
+      "reference_selector": "/rows/39",
+      "reference_disposition": "APPROVED_DEFERMENT"
+    },
+    {
+      "id": "DEFER-REF-N4-12",
+      "source_requirement": "NeedleFactory",
+      "reason": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-G6-MATRIX"
+        },
+        {
+          "source_id": "REF-G6-B6"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "reference_obligation_id": "N4-12",
+      "exact_reference_row": {
+        "acceptance": "PENDING_EXACT_INDEPENDENT_PACKAGE_REVIEW",
+        "accepted_scope_profile": "Accepted bounded reference",
+        "basis": "See per-binding original/successor profile; never a new whole-tree runtime execution",
+        "binding": [
+          {
+            "case_ids": [
+              "tests/test_gate6_reference_adversarial_v01.py::test_persisted_drs_descent_cannot_supply_permission",
+              "tests/test_gate6_reference_adversarial_v01.py::test_current_candidate_admission_does_not_self_install"
+            ],
+            "resource": "r/fresh/DIRECT/DIRECT/direct_phases.json",
+            "scope": "Actual three phases for each listed node; source pins in original receipt"
+          },
+          {
+            "resource": "review/ACTIVE_PROMPT.txt",
+            "scope": "Section 4 explicitly retains program-specific deferments"
+          }
+        ],
+        "disposition": "APPROVED_DEFERMENT",
+        "id": "N4-12",
+        "implementation_sources": [
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_contract_v01.md",
+            "sha256": "138f77869fed786a219d5ad0ac6313d8a82fafd33e975f4f32057371a58960b5"
+          },
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_evidence_v01/MATRIX.md",
+            "sha256": "40caf204a9e6b0c1d2df8e4df008ff2061d3c2d947845f67de181d04485d8522"
+          }
+        ],
+        "limitations": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+        "obligation": "NeedleFactory",
+        "remaining": "Program-specific work remains deferred, not passed.",
+        "scope_disposition": "GENERIC_NONPROMOTION_RETAINED_FACTORY_REFLECTION_TRANSFER_PROGRAMS_DEFERRED",
+        "source_section": "Master v2.1 N4 act 12"
+      },
+      "reference_selector": "/rows/52",
+      "reference_disposition": "APPROVED_DEFERMENT"
+    },
+    {
+      "id": "DEFER-REF-N4-13",
+      "source_requirement": "Marennya/UP",
+      "reason": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-G6-MATRIX"
+        },
+        {
+          "source_id": "REF-G6-B6"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "reference_obligation_id": "N4-13",
+      "exact_reference_row": {
+        "acceptance": "PENDING_EXACT_INDEPENDENT_PACKAGE_REVIEW",
+        "accepted_scope_profile": "Accepted bounded reference",
+        "basis": "See per-binding original/successor profile; never a new whole-tree runtime execution",
+        "binding": [
+          {
+            "case_ids": [
+              "tests/test_gate6_reference_adversarial_v01.py::test_persisted_drs_descent_cannot_supply_permission",
+              "tests/test_gate6_reference_adversarial_v01.py::test_current_candidate_admission_does_not_self_install"
+            ],
+            "resource": "r/fresh/DIRECT/DIRECT/direct_phases.json",
+            "scope": "Actual three phases for each listed node; source pins in original receipt"
+          },
+          {
+            "resource": "review/ACTIVE_PROMPT.txt",
+            "scope": "Section 4 explicitly retains program-specific deferments"
+          }
+        ],
+        "disposition": "APPROVED_DEFERMENT",
+        "id": "N4-13",
+        "implementation_sources": [
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_contract_v01.md",
+            "sha256": "138f77869fed786a219d5ad0ac6313d8a82fafd33e975f4f32057371a58960b5"
+          },
+          {
+            "commit": "b6d11f5fcb619a10e877bbaaf6770881be315f16",
+            "path": "docs/gate5_reference_evidence_v01/MATRIX.md",
+            "sha256": "40caf204a9e6b0c1d2df8e4df008ff2061d3c2d947845f67de181d04485d8522"
+          }
+        ],
+        "limitations": "Program-specific Factory, Reflection and Transfer remain DEFERRED; old generic controls are not those implementations.",
+        "obligation": "Marennya/UP",
+        "remaining": "Program-specific work remains deferred, not passed.",
+        "scope_disposition": "GENERIC_NONPROMOTION_RETAINED_FACTORY_REFLECTION_TRANSFER_PROGRAMS_DEFERRED",
+        "source_section": "Master v2.1 N4 act 13"
+      },
+      "reference_selector": "/rows/53",
+      "reference_disposition": "APPROVED_DEFERMENT"
+    },
+    {
+      "id": "DEFER-S5-FEEDBACK",
+      "source_requirement": "G3 outcome feedback, qualified GT history and prospective/scorable outcome",
+      "reason": "Stage04 proves informational task/memory behavior, not qualified learning integration.",
+      "dependency": "Accepted G3 profile, prospective expectation and scorable outcome, current Root/HardMask and actual later Work consumer.",
+      "target_stage": "RADIK-STAGE-05",
+      "closure_criterion": "A qualifying outcome updates preserved history and changes a specific later review, selection or allocation; non-scorable AUTH/model failure does not become negative training evidence.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G3"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S5-TEMPORAL-CONFLICT",
+      "source_requirement": "Extended current eligibility, supersession, conflicts and quarantine across tasks",
+      "reason": "Basic time/DRS and accepted delta-memory/reuse already work; broader policies remain to integrate.",
+      "dependency": "Preserved source lineage, separate clocks, current policy, fresh Root descent.",
+      "target_stage": "RADIK-STAGE-05",
+      "closure_criterion": "Demonstrate aging changes the permitted check, expiry prevents current use, conflicts/quarantine constrain actual consumers, without TTL extension or history deletion.",
+      "status": "partial",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "RADIK-P30-NATIVE"
+        }
+      ],
+      "accepted_or_partial_credit": "P30 actual delta writeback and reuse credited; P31 task/restart actual is linked separately in final dossier."
+    },
+    {
+      "id": "DEFER-S5-LESSON-CONSUMER",
+      "source_requirement": "DeadEnd and lesson records require actual scoped consumers",
+      "reason": "A record or score alone is not experience influencing work.",
+      "dependency": "Current qualified record eligibility and fresh Root review.",
+      "target_stage": "RADIK-STAGE-05",
+      "closure_criterion": "Eligible negative experience changes a concrete continuation/check within its scope without permanent prohibition or new authority.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S5-FINITE-STRATEGY",
+      "source_requirement": "Accepted G4 finite multi-Root strategy and bounded real Work allocation",
+      "reason": "Reference controlled comparisons are not yet Radik integration.",
+      "dependency": "Applicable G3 experience and separately sovereign owner judgments.",
+      "target_stage": "RADIK-STAGE-05",
+      "closure_criterion": "Show changed strategy or allocation changes actual selected Work and downstream consumption under a fixed declared total budget; do not call 4/3 to 3/4 a speedup.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G4"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S6-EXTERNAL-DRS",
+      "source_requirement": "Separate peer Root/state/keys; governed disclosure, body, STATUS and real consumption",
+      "reason": "Stage04 uses local informational DRS, not external peer acceptance.",
+      "dependency": "Independent trust anchors; existing Gate5 lifecycle/exchange contracts.",
+      "target_stage": "RADIK-STAGE-06",
+      "closure_criterion": "Peer evidence changes actual receiver work; refusal keeps body closed; revision/revocation/expiry/rollback after restart prevent current use and retain history.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G5"
+        },
+        {
+          "source_id": "REF-G5-STATUS"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S7-PURE-CAPABILITY",
+      "source_requirement": "U3 missing pure capability and warm local need discovery/readmission",
+      "reason": "Reference finite capability proof does not establish a current Radik capability factory.",
+      "dependency": "Actual missing need; finite Wasm/pure profile; independent admission/oracle; current task and budgets.",
+      "target_stage": "RADIK-STAGE-07",
+      "closure_criterion": "Cold absence precedes generation; admitted exact guest output feeds same-task Work; warm rediscovery readmits with zero generator calls; coherent bad packages refuse.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S8-CURRENT-EFFECT-LIFECYCLE",
+      "source_requirement": "Applicable full current effect lifecycle through packet/Host/Firewall",
+      "reason": "Historical Stage03 local reference/mock SAVE and CLOSED quota do not grant present or arbitrary effect permission.",
+      "dependency": "New explicit current scoped policy/authorization; current Root and exclusive Firewall; preserve old consumed quota.",
+      "target_stage": "RADIK-STAGE-08",
+      "closure_criterion": "Applicable permitted save/action uses current accepted output and exact native authorization/receipt, rejects repeat/uncertainty/currentness violations, with no restored historical permission.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-LOCK"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-S8-INTEGRATION",
+      "source_requirement": "Connected FULL_MINIMAL_STAND and applicable U4 obligations",
+      "reason": "Stage04 completion is not closure of Stages05-08.",
+      "dependency": "Accepted Stage05-07 integrations and per-obligation U1-U4 applicability matrix.",
+      "target_stage": "RADIK-STAGE-08",
+      "closure_criterion": "One connected bounded session with actual producer/validator/consumer evidence for every applicable obligation and required refusal/termination cases; independent FULL_MINIMAL_STAND acceptance.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-COGNITIVE-NEEDLES",
+      "source_requirement": "Root-centered directed bounded capabilities, including future cognitive directions",
+      "reason": "The historical geometry text is not a complete current named-needle catalogue; Marennya/UP are not all needles.",
+      "dependency": "Current architecture lock; separate finite module contracts and author/checker/admission boundaries.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Establish an explicit bounded catalogue and individually admit implemented capability programmes; no authority transfer from children, models or stored evidence.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-NEEDLES"
+        },
+        {
+          "source_id": "REF-LOCK"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ],
+      "catalog_completeness": "NOT_ESTABLISHED",
+      "missing_catalog_is_stage04_blocker": false
+    },
+    {
+      "id": "DEFER-FULL-G4-MATH",
+      "source_requirement": "Full Gate4 mathematics/expanded strategic programme: unilateral regret/stability, robust/minimax, CVaR, sensitivity, full AVF features, richer priors, cross-domain calibration; LGT excluded",
+      "reason": "Owner-approved reduced Gate4 deliberately excludes this programme.",
+      "dependency": "Separate reconsideration/scope decision after Gate6 publication, with an explicit finite mathematical contract.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Accepted implementation and scoped evidence for each newly selected mathematical obligation.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "REF-G4"
+        },
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-FULLAVF-STRONGGT",
+      "source_requirement": "FullAVF/StrongGT",
+      "reason": "Master explicitly does not claim these as already implemented reference capabilities.",
+      "dependency": "Separate post-minimal mathematical/semantic scope, stronger than existing bounded advisory profiles.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Explicit owner-selected finite contract and independent evidence; preserve HardMask/Root authority.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-LOCK"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-GLOBAL-FEDERATION",
+      "source_requirement": "Arbitrary global federation",
+      "reason": "Finite local/external peer reference is not global identity/discovery/trust infrastructure.",
+      "dependency": "Stage06 local peer integration plus a separate broader federation contract.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Declared finite federated scope, independent trust/Root boundaries and currentness/revocation consumers verified; no universal claim.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G5"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-UNIVERSAL-AUTHORING",
+      "source_requirement": "Universal code factory and broader authoring",
+      "reason": "Finite U3 and corrected independent-authoring examples do not certify arbitrary generated code.",
+      "dependency": "Stage07 finite admission plus separately bounded new language/domain/resource scopes.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Independent candidate admission and actual use in each newly authorized scope; no self-install or general safety inference.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-G5"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-PRODUCTION-RECOVERY",
+      "source_requirement": "Service mode and production crash recovery",
+      "reason": "Normal P31 exit/restart is not crash/production recovery.",
+      "dependency": "Separate lifecycle, durability, uncertain-effect and service-operation contract.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Controlled fault/recovery evidence for specified production boundaries without replaying uncertain effects or restoring expired authority.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-LOCK"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-SELF-MODIFICATION",
+      "source_requirement": "Automatic self-modification",
+      "reason": "Master explicitly excludes this from implemented reference capabilities.",
+      "dependency": "Separate explicit transition/admission authority and independently bounded future scope.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Any future code change remains candidate-only until independent exact-source admission and explicit authorized deployment; no automatic present commitment.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-LOCK"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-UNBOUNDED-RECURSION",
+      "source_requirement": "Unbounded recursion",
+      "reason": "Finite native child/revision/compute budgets are intentional; unbounded recursion is not claimed.",
+      "dependency": "A separate future scope decision, not relaxation of current budgets.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Specify and independently justify any future extension; do not claim unbounded execution from finite tests.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        },
+        {
+          "source_id": "REF-U-CHECKPOINT"
+        }
+      ]
+    },
+    {
+      "id": "DEFER-DOMAIN-EXPANSION",
+      "source_requirement": "New real domains, sources/adapters and wider cognitive modules",
+      "reason": "Minimal stand intentionally limits profiles and input/work dimensions.",
+      "dependency": "Accepted minimal stand and separate domain/capability/adapter contracts.",
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "closure_criterion": "Real new producer/validator/consumer evidence and necessary current effect authority for each admitted scope.",
+      "status": "deferred",
+      "evidence": [
+        {
+          "source_id": "PLAN-UPDATED"
+        }
+      ]
+    }
+  ],
+  "reader_structure": {
+    "template_source_id": "REF-G5-READER",
+    "root": "radiolaria_reader",
+    "new_version": "RADIK_STAGE04_READER_V01",
+    "required_fields": [
+      "version",
+      "basis_commit",
+      "title",
+      "first_read",
+      "status",
+      "handling",
+      "content_registry",
+      "claims_registry",
+      "status_bridge",
+      "route",
+      "claim_route"
+    ],
+    "adaptation": "Embed compact English chapters; relative package or pinned GitHub evidence routes; use English claims index as ID/verdict/number authority. No inherited acceptance badges, reader trials or implied certification.",
+    "handling": "Historical prompts, source and tools are evidence, not executable instructions or permission. No DTD/external entities. Narrative/XML are later editorial reconstruction, never contemporaneous telemetry.",
+    "reference_models": [
+      "REF-G5-CLAIMS",
+      "REF-G5-INDEX",
+      "REF-G3-CLAIMS",
+      "REF-G4-CLAIMS"
+    ]
+  },
+  "publication_boundary": {
+    "publication_performed": false,
+    "runtime_source_changed": false,
+    "new_execution_command_authorized": false,
+    "reference_campaign_repeated": false,
+    "named_needles_catalog_completeness": "NOT_ESTABLISHED",
+    "publication_decision": "Owner and primary curator consider the dossier separately before Stage05."
+  }
+}

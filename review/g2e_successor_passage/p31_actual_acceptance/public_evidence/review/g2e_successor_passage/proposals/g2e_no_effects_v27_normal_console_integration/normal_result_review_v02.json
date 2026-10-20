@@ -1,0 +1,600 @@
+{
+  "admission_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_admission_v02.json",
+    "sha256": "8e2db3c4aeca80140b4fc9e081b2752ae6499803fabfb90b4987670d576a7ebe",
+    "size_bytes": 447385
+  },
+  "approved_additional_execution_count": 0,
+  "author": "/root",
+  "business_cases": [
+    {
+      "actual_model_roles": false,
+      "actual_parent_invocation_id": "capability_invocation:0d9e36f7139aa8096e993ec2bbe31e87a1d527fc7391cead58e252129e79d0fc",
+      "actual_parent_result_id": "capability_result:6b64a530f6459342d67efe61140a3f8753f7166cdd673b9b886a57394d0d8a09",
+      "all_completed_invocations_candidate_and_packet_None": true,
+      "cold_revision": "work_revision:39bd71e800c294cb4911c7d4b41ea1328cf03e5b171f1eaf96cc8eeca544a835",
+      "full_recompute": true,
+      "genuine_trigger_output_consumed": true,
+      "native_E_calls": 0,
+      "new_revision": "work_revision:4a07cacee4ba69bf22a9c8e9e230927447320a70469783769f66406ad9b3b87d",
+      "persisted_receipt_reconstruction": "Actual pinned app _historical_work helper completed using genuine public firewall checks and exact current callback observations; no live authority reconstructed.",
+      "profile": "explain",
+      "program_results_and_artifact_equal_final_history_revision": true,
+      "ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_1_explain.json",
+        "sha256": "b3c07330548ef42afd0c0906c01cddf7563330caa7f8b9911fd5c6292fa5bab0",
+        "size_bytes": 171854
+      },
+      "retained_business_outputs": 0,
+      "skipped_guard_items": 0,
+      "source_count": 1,
+      "successful_PURE_invocations": 2
+    },
+    {
+      "actual_model_roles": false,
+      "actual_parent_invocation_id": "capability_invocation:19c6cc423f384cfdf448e126b9d8ec36f48285787ebefee37e3f25f26e8ea43c",
+      "actual_parent_result_id": "capability_result:810d65b1020d48ad8c7985385c84eed66ced14d5782f6e1338b2228e2ee2dbe6",
+      "all_completed_invocations_candidate_and_packet_None": true,
+      "cold_revision": "work_revision:9657b8cb2902b80971717162c65274ce2e6cbd0b31f2ee9b7eab647001d69e02",
+      "full_recompute": false,
+      "genuine_trigger_output_consumed": true,
+      "native_E_calls": 0,
+      "new_revision": "work_revision:0d7a9858f52c23c40a136e727984b2a64e8b3fc047114ee358a76052edff46df",
+      "persisted_receipt_reconstruction": "Actual pinned app _historical_work helper completed using genuine public firewall checks and exact current callback observations; no live authority reconstructed.",
+      "profile": "compare",
+      "program_results_and_artifact_equal_final_history_revision": true,
+      "ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_2_compare.json",
+        "sha256": "244db1f219a7dc0b91000b5551bd6c250626fe730652fa2ecc157a9c73c8f702",
+        "size_bytes": 313955
+      },
+      "retained_business_outputs": 1,
+      "skipped_guard_items": 1,
+      "source_count": 2,
+      "successful_PURE_invocations": 8
+    },
+    {
+      "actual_model_roles": false,
+      "actual_parent_invocation_id": "capability_invocation:dbf69e330fc5b25616eaf881455762700a38a3fb7a1a77aa68c4cfdff0047860",
+      "actual_parent_result_id": "capability_result:26ed6396150e17c064622c47e545df6a36a6a257e286088ba636af06f1d997ae",
+      "all_completed_invocations_candidate_and_packet_None": true,
+      "cold_revision": "work_revision:66c86f75a32e8c23f575d8db0e9fddc50c3d1f4311ef6ab6f9e675195c1bf2b8",
+      "full_recompute": false,
+      "genuine_trigger_output_consumed": true,
+      "native_E_calls": 0,
+      "new_revision": "work_revision:1d637ddab385316f4a3c9135877dfd39653a902d975571d3c7a5a9f96aba6c4e",
+      "persisted_receipt_reconstruction": "Actual pinned app _historical_work helper completed using genuine public firewall checks and exact current callback observations; no live authority reconstructed.",
+      "profile": "verify",
+      "program_results_and_artifact_equal_final_history_revision": true,
+      "ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_4_verify.json",
+        "sha256": "4187c4d67e2b819565c0a031e43495528176e3eb5b9add24b9654a34cc9c03d8",
+        "size_bytes": 397128
+      },
+      "retained_business_outputs": 3,
+      "skipped_guard_items": 1,
+      "source_count": 4,
+      "successful_PURE_invocations": 10
+    }
+  ],
+  "business_verification": {
+    "audit_expansion": "Cold audits were guard-skipped in both decomposed cases; fresh gate=True, fresh audit and parent all completed, and parent audit input equals actual new audit output.",
+    "authority": "Native validate_native() additionally asserted an empty action packet lifecycle/fulfillment registry; no independent full registry snapshot is claimed.",
+    "full_closure": "One-source explain replacement has exactly one new item whose actual previous input equals the genuine old short result and typed trigger.output; current source/claim branches are recomputed, previous is transition evidence only, retained count0.",
+    "guard_skipped_items": 2,
+    "outcome_shape": "Exact final program/results/artifact equal the exported last native task-history revision. Consumer parent invocation/result equal the final real Work result. All20 successful PURE invocation rows have candidate_id=None and packet_id=None.",
+    "retained": "Two-source compare and four-source verify fresh parent branch inputs equal1 and3 genuine old extraction output values respectively, with matching old invocation/result/revision IDs. Those extraction IDs do not run in the fresh program.",
+    "successful_PURE_invocations": 20,
+    "task_revisions_total": 6,
+    "verify_meaning": "Supplied candidate remains exactly A bounded local condition holds.; current criterion/profile preserved. Output keeps qualification/uncertainty and does not certify external truth."
+  },
+  "closed_result_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/result.json",
+    "sha256": "24fbc8c2ce0945d05b5e95582a19b82c48c1fcd958eb50b7232434b3cd0e701b",
+    "size_bytes": 53347
+  },
+  "closure": {
+    "child_cpu_seconds": 10.452992,
+    "child_pid": 17181,
+    "child_reaped": true,
+    "child_seconds": 10.534998415969312,
+    "exit_code": 0,
+    "expenditure_limit_seconds": 120,
+    "no_retry": true,
+    "own_lock_release_readback_ref": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/lock_release.json",
+      "sha256": "2bfae0eba6407f8d20eaa84659fa684033e32e25f3bce07eff720797da16e2ce",
+      "size_bytes": 257
+    },
+    "parent_seconds": 10.731562666594982,
+    "signals": []
+  },
+  "conclusion": "The addressed full-closure consumer and two retained business Work consumers completed with native validated actual invocations/results and exported cold/revision histories. The source-successor journal/index fixtures and six exact refusals completed. V01 copied-history/wire branches are inherited under their exact accepted refs. This is no ordinary owner/profile/effective-model-boundary or native E acceptance.",
+  "exact_six_refusals": [
+    {
+      "case": "changed_retained_claims",
+      "code": "dynamic_delta_retained_claims_changed",
+      "status": "REFUSED"
+    },
+    {
+      "case": "two_changed_approved_sources",
+      "code": "dynamic_delta_one_approved_source_required",
+      "status": "REFUSED"
+    },
+    {
+      "case": "dispatch_without_transition",
+      "code": "task_source_change_requires_explicit_successor",
+      "status": "REFUSED"
+    },
+    {
+      "case": "closed_token_reuse",
+      "code": "source_successor_closed",
+      "status": "REFUSED"
+    },
+    {
+      "case": "duplicate_index_slot",
+      "code": "normal_grant_duplicate",
+      "status": "REFUSED"
+    },
+    {
+      "case": "partial_index",
+      "code": "normal_grant_partial_index",
+      "status": "REFUSED"
+    }
+  ],
+  "final_checks": {
+    "AUTH_objects": 0,
+    "mock_counter_unchanged": true,
+    "model_provider_calls": 0,
+    "native_D_calls": 0,
+    "native_E_calls": 0,
+    "no_production_ledger_append": true,
+    "no_real_activation": true,
+    "protected_refs_unchanged": true
+  },
+  "inheritance": {
+    "history_repeated": false,
+    "old_candidate_keys125_unchanged": true,
+    "readers": "Copied current v05 ledger21/UNKNOWN3, settings and5-task canonical TaskStore history accepted only by exact V01 partial review.",
+    "wire": "Unsent exact v01/v02 request body construction and invalidversion refusal accepted only by exact V01 partial review.",
+    "wire_repeated": false
+  },
+  "inherited_completed_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V01/child/public/actual_copied_history_compatibility.json",
+      "sha256": "5fd9666c062003b621cb22f0670a609ad84ccce0ad49cb482f8a650e48c8af9e",
+      "size_bytes": 76378
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V01/child/public/normal_transport_contexts.json",
+      "sha256": "4fb4bfc43910849f0af58ac1b4360748e4b9838db3d570df5912c0679adaf3d5",
+      "size_bytes": 7964
+    }
+  ],
+  "inherited_completed_review_ref": {
+    "mode": 292,
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v01.json",
+    "sha256": "1bfe2b8f00d699e52c79b016033a47bb9fedec89a1bafc595a8258f5e45e0aa4",
+    "size_bytes": 26863
+  },
+  "journal": {
+    "OS_process_restart_performed": false,
+    "accepted_delta_is_second_result_and_later_same_source_is_third": true,
+    "canonical_previous_reference_hash_chain_exact": true,
+    "live_authority_restored": false,
+    "named_synthetic_seam": "normal_session.validate_round",
+    "object_reopen_current_dependencies_passed": true,
+    "original_dependencies_unchanged": true,
+    "ref": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_fixture.json",
+      "sha256": "f3183cac7ce1c6500841643968335ee770621427b3389a56ad8fe200db4757ad",
+      "size_bytes": 6022
+    },
+    "row_refs": [
+      {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_0.json",
+        "sha256": "4d86c76aa8e6945a93e053aa319704ded83bb7e218df93ce7bb35ff439ad3424",
+        "size_bytes": 1767
+      },
+      {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_1.json",
+        "sha256": "7077fa5d0061725b4155495008d2bb5ec52746e974173850e9fe02e7e9d8f070",
+        "size_bytes": 3204
+      },
+      {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_2.json",
+        "sha256": "e8c24c60526c77f88678971bec8210c576406bd830197849d8741e4fea0dfabf",
+        "size_bytes": 3199
+      },
+      {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_3.json",
+        "sha256": "f326f1c878b0f3304dd72153d585ec8402473a52acd554db11734e4bb506d158",
+        "size_bytes": 3308
+      },
+      {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_4.json",
+        "sha256": "1c62387ac10726c5f7f08c7ec1225ef5060a78ee117d54d460203879ae9ebe77",
+        "size_bytes": 3573
+      }
+    ],
+    "statuses": [
+      "STAGED",
+      "ROUND_LINKED",
+      "STARTED",
+      "PLANNED",
+      "ACCEPTED"
+    ],
+    "synthetic_root_result_and_operation_metadata": true,
+    "terminal_token_retired": true
+  },
+  "limitations": [
+    "Synthetic role products do not establish actual Orchestrator/Architect/Critic transport provenance or Root business acceptance.",
+    "The normal operation validator seam bypasses exactly that operation check for isolated durability data; real v02 source/profile/settings/catalog/reservation/POST/emission boundary remains separately unaccepted.",
+    "No native E, native retained-control consumer, cold native-business bridge execution or integrated ordinary source-update route occurred. Business retention is a distinct observed consumer.",
+    "One-source full closure is not selective recomputation or retained-work acceptance.",
+    "Three-source coverage is graph-only. Reopen is a new TaskStore object, not an OS process restart.",
+    "No ordinary activation, owner command, AUTH/provider/SAVE, runtime adoption or full Stage04 completion is admitted. The successful lower native preparation remains closed; no rerun is authorized."
+  ],
+  "loaded_binding": {
+    "all_actual_loaded_candidate_and_environment_pins_exact": true,
+    "all_fixed_callback_source_utf8_and_public_symbols_exact": true,
+    "callback_count": 15,
+    "count": 157,
+    "new_full_delta_callbacks": [
+      {
+        "public_symbol": "app.dynamic_delta_work.validate_inputs",
+        "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0"
+      },
+      {
+        "public_symbol": "app.dynamic_delta_work.validate_outputs",
+        "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0"
+      },
+      {
+        "public_symbol": "app.dynamic_delta_work.execute",
+        "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0"
+      }
+    ],
+    "scopes": {
+      "DISPOSABLE_CANDIDATE": 83,
+      "PINNED_EXISTING_TEST_DEPENDENCY": 73,
+      "REVIEWED_BENCHMARK_SOURCE": 1
+    }
+  },
+  "public_file_count": 54,
+  "public_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/stage_000.json",
+      "sha256": "c715ef603cbc191ea7bb937ec8123d422154cf6ad58d2b830be67bba9d62ff54",
+      "size_bytes": 129
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/loaded_callback_observations.json",
+      "sha256": "c80b42c464ec7247e19b274ab2b3554125e2b9983a157ee623a81c217800bef2",
+      "size_bytes": 976347
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/final_loader_resource_and_identity.json",
+      "sha256": "e90b61d36345c016a35ba89fabe337aed9ff05b58b57ba641cbad8af826efe3a",
+      "size_bytes": 418
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/stage_003.json",
+      "sha256": "6e3ecdc618a3b267948a5460841dd0c9b4a1e4027a1473a8f04945c59225620a",
+      "size_bytes": 119
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/accepted_document_result_0685b9b98a1dae129bd06e2a67c5d5252833411244b1ddb798a0ee22b8776808.json",
+      "sha256": "0685b9b98a1dae129bd06e2a67c5d5252833411244b1ddb798a0ee22b8776808",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/accepted_dynamic_result_f584c640494c973e118833bd6ac629839f47da7ca3930a16896d30290f0f90c9.json",
+      "sha256": "f584c640494c973e118833bd6ac629839f47da7ca3930a16896d30290f0f90c9",
+      "size_bytes": 213
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/business_retained_trigger_38d82bd4e2e673525010b7e400084536952c09b59d0f66b0cfc4a479900c37fe.json",
+      "sha256": "38d82bd4e2e673525010b7e400084536952c09b59d0f66b0cfc4a479900c37fe",
+      "size_bytes": 215
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/checked_semantic_pipeline_b8bc49c3920e5539b28ae1c5606e2ef8ea3aca6dbba9cbe5c6e42894148a1e7d.json",
+      "sha256": "b8bc49c3920e5539b28ae1c5606e2ef8ea3aca6dbba9cbe5c6e42894148a1e7d",
+      "size_bytes": 215
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/continuation_checked_semantic_pipeline_48861d68f75e6aa88dd5e283de3dfeaf199817fb097e0a8883b8719003731b3e.json",
+      "sha256": "48861d68f75e6aa88dd5e283de3dfeaf199817fb097e0a8883b8719003731b3e",
+      "size_bytes": 228
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/continuation_pre_architect_family_5ad38816d34465736306fff885073ef80ab6f7a5faa2493f28c651e59ab4b5ad.json",
+      "sha256": "5ad38816d34465736306fff885073ef80ab6f7a5faa2493f28c651e59ab4b5ad",
+      "size_bytes": 223
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_cold_dependency_declaration_bb668ad221942361b50c3f19a7b548f68da857bfac88e9cbff8f5432f2eef569.json",
+      "sha256": "bb668ad221942361b50c3f19a7b548f68da857bfac88e9cbff8f5432f2eef569",
+      "size_bytes": 225
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_cold_native_business_bridge_9f091c4ef81c7073571b57e96c9da1de555cf72004202c3d15b4881cb857c643.json",
+      "sha256": "9f091c4ef81c7073571b57e96c9da1de555cf72004202c3d15b4881cb857c643",
+      "size_bytes": 225
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_business_consumer_93f6d49ad9a01d6c9c2d3aa9196e3236ed4ade913058802539b5c501865d9d2b.json",
+      "sha256": "93f6d49ad9a01d6c9c2d3aa9196e3236ed4ade913058802539b5c501865d9d2b",
+      "size_bytes": 221
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_current_capture_3f55f706d57c6d4ada1ef9f4e2d9fc6108a4f6d10a6ba578518351c5577aaf8b.json",
+      "sha256": "3f55f706d57c6d4ada1ef9f4e2d9fc6108a4f6d10a6ba578518351c5577aaf8b",
+      "size_bytes": 219
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_current_dependency_plan_dfb5f23b43b187990ae2f7e2a63c1c0cab3a6b97f577b5dc237baea43b61e76d.json",
+      "sha256": "dfb5f23b43b187990ae2f7e2a63c1c0cab3a6b97f577b5dc237baea43b61e76d",
+      "size_bytes": 227
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_exact_nested_review_888e437318ebad8ace94cc1a74ab752e07858002e3eae9037d0a29b04e296fa5.json",
+      "sha256": "888e437318ebad8ace94cc1a74ab752e07858002e3eae9037d0a29b04e296fa5",
+      "size_bytes": 223
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_final_consumers_23da4e5f6aa6b944654915a29f0043937f4ff6d384ecce4f6b3259730b6aa03a.json",
+      "sha256": "23da4e5f6aa6b944654915a29f0043937f4ff6d384ecce4f6b3259730b6aa03a",
+      "size_bytes": 219
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_native_input_1168ff8a01df32e717dc9e133e7f56452f5a39371c6ad66159bf40639eded5cb.json",
+      "sha256": "1168ff8a01df32e717dc9e133e7f56452f5a39371c6ad66159bf40639eded5cb",
+      "size_bytes": 216
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_native_return_30cc69d8c0b5527c675d6c7f18b8d730e7c131eacfdb209636e06f277bf83773.json",
+      "sha256": "30cc69d8c0b5527c675d6c7f18b8d730e7c131eacfdb209636e06f277bf83773",
+      "size_bytes": 217
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_delta_pre_architect_family_39bb30ce781f627ddeebe6521696418d8e1922cee85909ffcdc42b4a47ec9bdf.json",
+      "sha256": "39bb30ce781f627ddeebe6521696418d8e1922cee85909ffcdc42b4a47ec9bdf",
+      "size_bytes": 224
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_informational_baseline_c2023c2ef22230ff470ce2c90c9bb4a7e6dbbea8a2e13946e98abcff9ddd42c3.json",
+      "sha256": "c2023c2ef22230ff470ce2c90c9bb4a7e6dbbea8a2e13946e98abcff9ddd42c3",
+      "size_bytes": 220
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_informational_cold_capture_cca1a42af2870db15b7244fe4ab43731867915cf457e49410fd6044a496a4cfa.json",
+      "sha256": "cca1a42af2870db15b7244fe4ab43731867915cf457e49410fd6044a496a4cfa",
+      "size_bytes": 224
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_intake_root_2d20c53a6f6e3874dd1d62e2a8e28d390b926fc6dc591b1f3d30f070608b9d24.json",
+      "sha256": "2d20c53a6f6e3874dd1d62e2a8e28d390b926fc6dc591b1f3d30f070608b9d24",
+      "size_bytes": 209
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_memory_selection_cae6421164b66bdc5f5943a18ac958c7437a89d4cd253f3eaa8f03cebb8b3661.json",
+      "sha256": "cae6421164b66bdc5f5943a18ac958c7437a89d4cd253f3eaa8f03cebb8b3661",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_native_control_119259a8f35cd0c8740e90771807a00c0ddd45c730d45c00378ac0e2c2409271.json",
+      "sha256": "119259a8f35cd0c8740e90771807a00c0ddd45c730d45c00378ac0e2c2409271",
+      "size_bytes": 212
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_native_work_7d1186012f4454949dd81529fa6e1825dccc3a2f10190bd59a9c70101c0a98f9.json",
+      "sha256": "7d1186012f4454949dd81529fa6e1825dccc3a2f10190bd59a9c70101c0a98f9",
+      "size_bytes": 209
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/dynamic_source_family_392f167cef4007e6014d4be249d4d68dc4c9eca38468525fac0cf9f8db77442e.json",
+      "sha256": "392f167cef4007e6014d4be249d4d68dc4c9eca38468525fac0cf9f8db77442e",
+      "size_bytes": 211
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/informational_current_consumption_boundary_f66cd0bc43299add3cd689813401625820ccc2a56dcaf7a76134a01ff9abe888.json",
+      "sha256": "f66cd0bc43299add3cd689813401625820ccc2a56dcaf7a76134a01ff9abe888",
+      "size_bytes": 232
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/informational_origin_5a9e4389964f465cfb7094e97d3586802855215d6fcbb7c9f256eefa5fdf4d11.json",
+      "sha256": "5a9e4389964f465cfb7094e97d3586802855215d6fcbb7c9f256eefa5fdf4d11",
+      "size_bytes": 210
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/informational_pre_e_temporal_intersection_7d87460fa9a389b4c5969bd7baaa547f20c5200534db4570ad193fe8ad0ea058.json",
+      "sha256": "7d87460fa9a389b4c5969bd7baaa547f20c5200534db4570ad193fe8ad0ea058",
+      "size_bytes": 231
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/memory_business_consumer_selection_1805f48557bd2814564cc71a098a200829ab7d5f4381c547d3c2250fe5e23638.json",
+      "sha256": "1805f48557bd2814564cc71a098a200829ab7d5f4381c547d3c2250fe5e23638",
+      "size_bytes": 224
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/native_business_history_8d11d9af1f51ed940d327bf25cc345f92fd53bc1280b970cd841a3650171d1cb.json",
+      "sha256": "8d11d9af1f51ed940d327bf25cc345f92fd53bc1280b970cd841a3650171d1cb",
+      "size_bytes": 213
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/native_d_return_226d323b4ddb65709abb651fd675555f10039bfc87ded0eeafab4caff7604664.json",
+      "sha256": "226d323b4ddb65709abb651fd675555f10039bfc87ded0eeafab4caff7604664",
+      "size_bytes": 205
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/native_e_input_family_654cb3d79a59cc698001b9bb64026b66c55d3b559e48e7b60021cd2352dc86f8.json",
+      "sha256": "654cb3d79a59cc698001b9bb64026b66c55d3b559e48e7b60021cd2352dc86f8",
+      "size_bytes": 211
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/native_e_typed_return_04812f44507e761b778f41500e7eb19dbde7218fa9110e1e5871e4281eaebf5d.json",
+      "sha256": "04812f44507e761b778f41500e7eb19dbde7218fa9110e1e5871e4281eaebf5d",
+      "size_bytes": 211
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/native_retained_d_return_c8161c409a562afb8dbd327344e5c12a5914956a047d4becf58448e17894636e.json",
+      "sha256": "c8161c409a562afb8dbd327344e5c12a5914956a047d4becf58448e17894636e",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/pending_save_packet_b539c4f1da401dba4a66e358d198364444d8d9ad256618b57a1b6f944b931b64.json",
+      "sha256": "b539c4f1da401dba4a66e358d198364444d8d9ad256618b57a1b6f944b931b64",
+      "size_bytes": 209
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/pre_architect_semantic_family_6b2e25a35a1978221dfe27a45465a1eb61d6b4d5a85311323687574a322b3a7b.json",
+      "sha256": "6b2e25a35a1978221dfe27a45465a1eb61d6b4d5a85311323687574a322b3a7b",
+      "size_bytes": 219
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inert_persist/save_receipt_readback_7f654ce6c26bacfa9f6d15617f1829e5750bfccc82b0046b735c403bb3de84ef.json",
+      "sha256": "7f654ce6c26bacfa9f6d15617f1829e5750bfccc82b0046b735c403bb3de84ef",
+      "size_bytes": 211
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/actual_persist_label_preflight.json",
+      "sha256": "f6c2d8e80a8998f8c938a510f5cf1251b43470bc24b15f7d92cef4679c6b0249",
+      "size_bytes": 16572
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/inherited_completed_controls.json",
+      "sha256": "861d69d2a46e8a1f641fee0c591f934952e4c6506ecfed9462f60ab18831faa2",
+      "size_bytes": 626
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/stage_041.json",
+      "sha256": "64af993aec6be0c1aaff9acc1f48bdd8151309e3b0ac8ec1e52e564016023617",
+      "size_bytes": 127
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_1_explain.json",
+      "sha256": "b3c07330548ef42afd0c0906c01cddf7563330caa7f8b9911fd5c6292fa5bab0",
+      "size_bytes": 171854
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_2_compare.json",
+      "sha256": "244db1f219a7dc0b91000b5551bd6c250626fe730652fa2ecc157a9c73c8f702",
+      "size_bytes": 313955
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/business_4_verify.json",
+      "sha256": "4187c4d67e2b819565c0a031e43495528176e3eb5b9add24b9654a34cc9c03d8",
+      "size_bytes": 397128
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/graph_only_3_sources.json",
+      "sha256": "710ed881170bc9fd226a2965d458482737c1098ded634e6fef67db3e151d1ca4",
+      "size_bytes": 2367
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/stage_046.json",
+      "sha256": "2386cdae24a00996ad5b12a4aad6f664dd402b69a001c45d85863bf3646254d2",
+      "size_bytes": 143
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_0.json",
+      "sha256": "4d86c76aa8e6945a93e053aa319704ded83bb7e218df93ce7bb35ff439ad3424",
+      "size_bytes": 1767
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_1.json",
+      "sha256": "7077fa5d0061725b4155495008d2bb5ec52746e974173850e9fe02e7e9d8f070",
+      "size_bytes": 3204
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_2.json",
+      "sha256": "e8c24c60526c77f88678971bec8210c576406bd830197849d8741e4fea0dfabf",
+      "size_bytes": 3199
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_3.json",
+      "sha256": "f326f1c878b0f3304dd72153d585ec8402473a52acd554db11734e4bb506d158",
+      "size_bytes": 3308
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_4.json",
+      "sha256": "1c62387ac10726c5f7f08c7ec1225ef5060a78ee117d54d460203879ae9ebe77",
+      "size_bytes": 3573
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/source_journal_fixture.json",
+      "sha256": "f3183cac7ce1c6500841643968335ee770621427b3389a56ad8fe200db4757ad",
+      "size_bytes": 6022
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/focused_refusals.json",
+      "sha256": "f24e70590a05a09d89f9dff4e128595e04f06e8740243995156bf4d9eb9df36d",
+      "size_bytes": 572
+    }
+  ],
+  "public_total_size_bytes": 1909043,
+  "receipt_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/receipt.json",
+    "sha256": "e7e2e786de8a2cebb5d82a0a439168cc67594019749b8df09216e4caa7584321",
+    "size_bytes": 510
+  },
+  "refusal_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/focused_refusals.json",
+    "sha256": "f24e70590a05a09d89f9dff4e128595e04f06e8740243995156bf4d9eb9df36d",
+    "size_bytes": 572
+  },
+  "reviewer": "/root/p20_reviewer",
+  "reviewer_execution": {
+    "candidate_imports": 0,
+    "model_provider_calls": 0,
+    "native_calls": 0
+  },
+  "schema": "radik.independent.p27_normal_focused_result_review.v02",
+  "scope": "SYNTHETIC_ROLE_PRODUCTS_REAL_PURE_BUSINESS_WORK_AND_DURABLE_COMPONENTS_ONLY",
+  "source_review_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_source_review_v02.json",
+    "sha256": "535e84bda86ced236df4c24cd6a2341e6eb64954ad90fb9870e53da28b7a2dac",
+    "size_bytes": 81957
+  },
+  "status": "P27_FOCUSED_BUSINESS_AND_JOURNAL_CONTROLS_ACCEPTED_NOT_ORDINARY_PROFILE",
+  "technical_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/launch.json",
+      "sha256": "962e0c50b4c79bfde707fbdbee3cd2828cd78c2bf4f0d7fc4853d09bd246b577",
+      "size_bytes": 716
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child_stdout.txt",
+      "sha256": "53f4e3def898964bb6368e3c017c80f46eadfb8103385b3f6e80811cf03a8c96",
+      "size_bytes": 774
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/lock_release.json",
+      "sha256": "2bfae0eba6407f8d20eaa84659fa684033e32e25f3bce07eff720797da16e2ce",
+      "size_bytes": 257
+    }
+  ],
+  "three_source_graph": {
+    "classification": "PURE_GRAPH_CHECK_NOT_NATIVE_WORK_OR_E",
+    "groups": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "native_Work_or_cell_execution_observed": false,
+    "ref": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/focused_actual/NORMAL_COMPONENTS_V02/child/public/graph_only_3_sources.json",
+      "sha256": "710ed881170bc9fd226a2965d458482737c1098ded634e6fef67db3e151d1ca4",
+      "size_bytes": 2367
+    },
+    "retained_business_work_ids": [
+      "extract1",
+      "extract2"
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "content": {
+    "criterion": "Assess each assurance using all four documents. Preserve the preordered-goods exclusion, receipt and unopened-item conditions, the photograph condition for postage, the written-extension rule, and any unstated change-of-mind cost.",
+    "drs_hit_is_authority": false,
+    "drs_record_is_truth": false,
+    "drs_reuse_candidate_is_action_permission": false,
+    "intent": "Verify the proposed dispatch, pickup and return assurances for fictional Store Moss.",
+    "kind": "accepted_dynamic_result",
+    "meaning_key": "2cc98752286f19cf3bb9731ea87fece76cdd2c9bfc25c469d0d625b6433ad455",
+    "record": {
+      "artifact_pointers": [
+        {
+          "access_policy_id": "radik:owned_accepted_document_memory",
+          "allowed_use_classes": [
+            "OPEN_ONE_ARTIFACT"
+          ],
+          "byte_length": 52254,
+          "content_sha256": "64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+          "creates_authority": false,
+          "creates_permission": false,
+          "forbidden_use_classes": [],
+          "media_type": "application/json",
+          "object_reference": "64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+          "payload_read_permitted": true,
+          "pointer_id": "drsart_v01:0c78968b3e46813debcaac1c4c8bb0a0e987ab3c0afbae41a8e3a8bd08bb8d66",
+          "pointer_version": "v0.1",
+          "sensitivity_class": "INTERNAL",
+          "storage_class": "LOCAL_DOCUMENT",
+          "summary_read_permitted": true
+        }
+      ],
+      "authority_envelope": {
+        "action_permission_present": false,
+        "authority_class": "ROOT_ACCEPTED_WORK",
+        "authority_envelope_id": "drsauth_v01:e3c77511a7fe593ac6bdb0ae6c415857b8e25d4be7264c185720bd71afcdc594",
+        "authority_envelope_version": "v0.1",
+        "authority_scope_fingerprint": "61387a1c172bd4f85bdc0954f790973aab9245b58f5de4f6f9a472336773887c",
+        "creates_authority": false,
+        "creates_permission": false,
+        "owning_local_root_id": "root:radik:dynamic_memory",
+        "recording_component": "radik:document_memory",
+        "root_acceptance_state": "ACCEPTED_WORK",
+        "source_root_decision_hash": "e2d4604bb218e078f8979195bbc9e966130ba562a69a97c9d8175354a3a0b3c5",
+        "source_root_decision_id": "2a8a8dcb7282aabbb80f2e161c6ed4548b3952260e4214466ec76bc974cdfa01",
+        "source_root_decision_input_id": "65e9da1cc6dfea3f3e41883925a9a158044956b74a1e5b62245aea197214df4a"
+      },
+      "conflict_hints": [],
+      "content_fingerprint": "64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+      "creates_authority": false,
+      "creates_permission": false,
+      "lineage_edges": [],
+      "local_reference_kernel_scope": "LOCAL_REFERENCE_KERNEL",
+      "meaning_record_id": "drsmeaning_v01:9589fe6436bf8e8e94be4895a469ff50e2723adfce4069ae8240af906d011adb",
+      "meaning_record_version": "v0.1",
+      "memory_pointers": [],
+      "persistent_lifecycle_state": "ACTIVE",
+      "policy_version": "radik.dynamic.memory.v01",
+      "predecessor_record_id": null,
+      "recording_component": "radik:document_memory",
+      "resonance_reason": "Actual accepted document Work; new current eligibility and independent descent required.",
+      "reuse_policy_class": "CONTEXT_ONLY",
+      "risk_hints": [],
+      "safe_summary": "Accepted document Work result. The exact profile result, source bindings and original Root provenance are in the controlled local artifact. Current eligibility and fresh Root descent are required.",
+      "schema_versions": [
+        "radik.dynamic.memory.v01"
+      ],
+      "semantic_address": {
+        "address_profile_version": "v0.1",
+        "domain": "RADIK_DOCUMENT",
+        "intent_class": "context_lookup",
+        "meaning_schema_id": "radik.dynamic.memory",
+        "meaning_schema_version": "v01",
+        "namespace": "radik",
+        "semantic_address_id": "drsaddr_v01:84841425198232099b939d5aa47c1298deadbe8e52b6d47c305d5555294fa7eb",
+        "subject_class": "accepted_dynamic_document_result"
+      },
+      "semantic_tags": [
+        "document",
+        "accepted_result"
+      ],
+      "source_reference_ids": [
+        "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+        "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+        "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+        "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+        "d43e5cc04b1f1cc06fccdffb63ab6ae4577424cc03db57284a8a7a4b50566e3c",
+        "6078ffb88006eb65c3900f275fe15218e4eafaa1b4c537132ea1955331639fd1"
+      ],
+      "supersession_reason": null,
+      "time_envelope": {
+        "ct_context_anchor": 1792505850,
+        "et_observed_at": 1792505850,
+        "freshness_policy_id": "freshness:radik:document_memory",
+        "kt_as_of": 1792505850,
+        "pt_created_at": 1792505850,
+        "source_observed_at": 1792505850,
+        "source_reported_at": 1792505850,
+        "system_ingested_at": 1792505851,
+        "system_verified_at": 1792505851,
+        "time_envelope_id": "drstime_v01:6d8c6454f6c8ba2f5864209124aae93562f18439f247fd5ad674ce3bcd9a56dc",
+        "time_envelope_version": "v0.1",
+        "ttl_seconds": 6710,
+        "valid_from": 1792505850,
+        "valid_to": 1792512560
+      }
+    },
+    "root_final_ref": "2a8a8dcb7282aabbb80f2e161c6ed4548b3952260e4214466ec76bc974cdfa01",
+    "semantic_keys": [
+      "document",
+      "accepted_result"
+    ],
+    "topic_id": "document_conditions",
+    "worldstate": {
+      "meaning": {
+        "criterion": "Assess each assurance using all four documents. Preserve the preordered-goods exclusion, receipt and unopened-item conditions, the photograph condition for postage, the written-extension rule, and any unstated change-of-mind cost.",
+        "goal": "Verify the proposed dispatch, pickup and return assurances for fictional Store Moss.",
+        "profile": "verify",
+        "sources": [
+          {
+            "revision": 1,
+            "sha256": "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+            "source_ref": "radik:source:0d8f720709ed713644ad7f00ba3f3b2a"
+          },
+          {
+            "revision": 1,
+            "sha256": "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+            "source_ref": "radik:source:1acbfbdcdf8f51c2f55b4fa6cbe9c21a"
+          },
+          {
+            "revision": 1,
+            "sha256": "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+            "source_ref": "radik:source:1cd494ee12d258a80d0ba62854eca58b"
+          },
+          {
+            "revision": 1,
+            "sha256": "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+            "source_ref": "radik:source:28933688e506f12e3a0a47cc06b49e21"
+          }
+        ],
+        "supplied_candidate_sha256": "cb453b4992158bfcc523e4a6c9577215771751634baaac48956859d99bd826f8",
+        "topic": "document_conditions",
+        "version": "radik.dynamic.meaning.v01"
+      },
+      "meaning_key": "2cc98752286f19cf3bb9731ea87fece76cdd2c9bfc25c469d0d625b6433ad455",
+      "policy": "radik.dynamic.memory.v01",
+      "sources": [
+        {
+          "revision": 1,
+          "sha256": "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+          "source_ref": "radik:source:0d8f720709ed713644ad7f00ba3f3b2a"
+        },
+        {
+          "revision": 1,
+          "sha256": "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+          "source_ref": "radik:source:1acbfbdcdf8f51c2f55b4fa6cbe9c21a"
+        },
+        {
+          "revision": 1,
+          "sha256": "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+          "source_ref": "radik:source:1cd494ee12d258a80d0ba62854eca58b"
+        },
+        {
+          "revision": 1,
+          "sha256": "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+          "source_ref": "radik:source:28933688e506f12e3a0a47cc06b49e21"
+        }
+      ]
+    },
+    "worldstate_ref": "61387a1c172bd4f85bdc0954f790973aab9245b58f5de4f6f9a472336773887c",
+    "writeback_root": {
+      "conflict_set_ids": [],
+      "decision": "ACCEPT",
+      "decision_id": "2a8a8dcb7282aabbb80f2e161c6ed4548b3952260e4214466ec76bc974cdfa01",
+      "decision_input_id": "65e9da1cc6dfea3f3e41883925a9a158044956b74a1e5b62245aea197214df4a",
+      "effect_requested": false,
+      "final_output_created": false,
+      "hard_failure_reasons": [],
+      "missing_evidence_refs": [],
+      "permission_created": false,
+      "prior_decision_id": null,
+      "reason_code": "validated_candidate_accepted",
+      "root_commit_created": true,
+      "selected_candidate_id": "memory_write:64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+      "target_root_id": "root:radik:dynamic_memory",
+      "transaction_id": "memory_writeback:64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+      "transition_decision": {
+        "abi_major_version": 1,
+        "actor_role": "gt",
+        "attempted_effect": "CREATE_ROOT_DECISION",
+        "decision": "RETURN_TO_ROOT",
+        "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+        "matched": true,
+        "missing_guards": [],
+        "reason_code": "gt_advisory_returns_to_root",
+        "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+        "required_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "root_commit_present": false,
+        "root_commit_required": true,
+        "rule_id": "gt_advisory_to_root_decision",
+        "satisfied_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "source_artifact_type": "GTAdvisoryReport",
+        "source_lifecycle_state": "VALIDATED",
+        "target_artifact_type": "RootDecision"
+      }
+    }
+  },
+  "domain": "RADIK_DOCUMENT",
+  "layer": "work",
+  "provenance": {
+    "created_by": "radik:document_memory",
+    "request_id": "radik-task:01e87359faab4eb1a3eb11e29718aae6",
+    "trace_refs": [
+      {
+        "trace_id": "radik:dynamic_result:1a494362409f403b535c2ae6c0b21bee8126f9c5208202e747a31e83f4ff5cf6"
+      }
+    ]
+  },
+  "record_id": "drsmeaning_v01:9589fe6436bf8e8e94be4895a469ff50e2723adfce4069ae8240af906d011adb",
+  "status": "active",
+  "time_envelope": {
+    "ct_session_anchor": "radik-task:01e87359faab4eb1a3eb11e29718aae6",
+    "et_observed_at": "2026-10-20T14:17:30+00:00",
+    "freshness_class": "static",
+    "kt_asof": "2026-10-20T14:17:30+00:00",
+    "pt_created_at": "2026-10-20T14:17:30+00:00",
+    "ttl_seconds": 6710,
+    "valid_from": "2026-10-20T14:17:30+00:00",
+    "valid_to": "2026-10-20T16:09:20+00:00"
+  },
+  "trace_refs": [
+    {
+      "kind": "local_drs_resolver",
+      "trace_id": "trace:drsmeaning_v01:9589fe6436bf8e8e94be4895a469ff50e2723adfce4069ae8240af906d011adb"
+    }
+  ],
+  "type": "radik_accepted_dynamic_result_v01"
+}

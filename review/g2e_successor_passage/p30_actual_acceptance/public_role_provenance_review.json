@@ -1,0 +1,867 @@
+{
+  "basis_refs": [
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "7ab3c2fbc4cc472308d76942277343e1f127263c77e49e21af61ddf2e88ae13c",
+      "size_bytes": 87858
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    {
+      "path": "app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    }
+  ],
+  "checks": [
+    {
+      "check": "finite_public_directory_exact_file_count",
+      "status": "PASS"
+    },
+    {
+      "check": "two_catalogs",
+      "status": "PASS"
+    },
+    {
+      "check": "public_files_no_credential_fields_or_token_shapes",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "0:orchestrator:no_future_candidate_or_work",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:exact_orchestrator_and_family",
+      "status": "PASS"
+    },
+    {
+      "check": "1:architect:no_future_work",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "2:critic:exact_candidate_and_actual_work",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "3:orchestrator:no_future_candidate_or_work",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:exact_orchestrator_and_family",
+      "status": "PASS"
+    },
+    {
+      "check": "4:architect:no_future_work",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:snapshot_observation_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:wire_body_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:context_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:request_schema_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:task_context_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:completed_and_closed",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:ledger_telemetry_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:source_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:reserved_request_equal",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:http_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:catalog_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:tool_effect_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:requested_returned_unknown_distinction",
+      "status": "PASS"
+    },
+    {
+      "check": "5:critic:exact_candidate_and_actual_work",
+      "status": "PASS"
+    },
+    {
+      "check": "catalog:75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44:source_model",
+      "status": "PASS"
+    },
+    {
+      "check": "catalog:75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44:http_ref",
+      "status": "PASS"
+    },
+    {
+      "check": "catalog:77e0f6dd8175f215f2ae401d7b290d8da663c830bdcd1a4cdda0fb6359201dcf:source_model",
+      "status": "PASS"
+    },
+    {
+      "check": "catalog:77e0f6dd8175f215f2ae401d7b290d8da663c830bdcd1a4cdda0fb6359201dcf:http_ref",
+      "status": "PASS"
+    }
+  ],
+  "credential_shape_findings": [],
+  "discrepancies": [],
+  "file_count": 22,
+  "limits": [
+    "Public result records contain full request body and complete accepted proposal observations, not raw SSE bytes. Stream body/event metadata reports actual observed framing and finite event trace.",
+    "Catalog grant receipt contains public connection ID, scope and expiry only; no credentials or private logs.",
+    "Unknown resolved model and unknown provider output token cap are preserved, not inferred."
+  ],
+  "owner_operation_id": "42abee1a-3219-44b2-8068-bf1192b5e156",
+  "public_directory": "review/direct_plan_passage/transport_observations/1792487631423829000",
+  "public_refs": [
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+      "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+      "size_bytes": 2678
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_925456281ef840529975296d8b32080b.json",
+      "sha256": "616a9e47d04f08d0442ddf129394d3fadaaa0d0110abf33f3dc15f1d5cb53bc6",
+      "size_bytes": 2678
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_http_7d4d0dc806b1493e99180a40e91f7ad1.json",
+      "sha256": "b28a547ad9c6d61bb5bd0aae5da7e4ddb7c6757757ecc55ed2ba026238cb5416",
+      "size_bytes": 1367
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_http_efb7616c73344c27b9f32accf48ad680.json",
+      "sha256": "b28a547ad9c6d61bb5bd0aae5da7e4ddb7c6757757ecc55ed2ba026238cb5416",
+      "size_bytes": 1367
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_125a590073ab478bb6682dbe61e2f0b0.json",
+      "sha256": "16a699257a61363032725e2ad4ffa027bd390bad20acc5a81a76f8e8c3f05c9b",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_48c146dc510444cd9260ec3e9c8af5d1.json",
+      "sha256": "5a7d3afe49a7e38174c02626d61cf04108d70d1c9b8d64f2332e5508258a34a5",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_5d674da02d9c474c8c8f185b593e35e0.json",
+      "sha256": "362355f443001e3664781254695216dd7478acfa2c4bc5bf68f162e80e9b228e",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_6a3971908c2d4d46b67edc4c6746ba11.json",
+      "sha256": "de37b06892763712356ec429859e76e838488541b12d2ee2bed7f554044427e6",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_75881302a2fb4f77aeca2550a744eee5.json",
+      "sha256": "d02dbb68b44c3c94b28c4d2adcb8aace7c34d473a5007fc333c8f60ba4d33785",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_dce357eb4aed4acc890a90187ec6ec5a.json",
+      "sha256": "70b44726e35ededc70c7df3f458efd8fad75cd3cb31011d088ce31b6b95d303f",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_125a590073ab478bb6682dbe61e2f0b0.json",
+      "sha256": "1c7df9f58940b99ace5b01f73a29f526de7d82061e8afa2b7c8a43e72ec8982f",
+      "size_bytes": 26417
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_48c146dc510444cd9260ec3e9c8af5d1.json",
+      "sha256": "b2561e1f68ec19b9612bf416215a1e017d50652c5be2dd1cdcc5441f269f568b",
+      "size_bytes": 16267
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_5d674da02d9c474c8c8f185b593e35e0.json",
+      "sha256": "effa9ba3f411b56415f1076fc4260dfc6b2ef30f9b6f70d5781191a0ebc069f1",
+      "size_bytes": 17319
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_6a3971908c2d4d46b67edc4c6746ba11.json",
+      "sha256": "57292d4de3cf6f41315607f60dab03742b2d74580dcb35abb623632a38763b1d",
+      "size_bytes": 9574
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_75881302a2fb4f77aeca2550a744eee5.json",
+      "sha256": "b817c21e857de3397d1a46fac49c858d94a149a8dd8768aca7c85bcc2aad4683",
+      "size_bytes": 25178
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_dce357eb4aed4acc890a90187ec6ec5a.json",
+      "sha256": "f2f62d804ed971e27385741ca163e3098a8e5d33e83940af6d4f7b53a47bb2de",
+      "size_bytes": 10664
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_125a590073ab478bb6682dbe61e2f0b0.json",
+      "sha256": "b2d3fbd02389fe09c120acf55b960cf942ed821924073124c2639234207ebd7e",
+      "size_bytes": 35675
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_48c146dc510444cd9260ec3e9c8af5d1.json",
+      "sha256": "f87a72f80894098f23fece12e0967ee4788a6398acd46f391655b3eae6c354cb",
+      "size_bytes": 27075
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_5d674da02d9c474c8c8f185b593e35e0.json",
+      "sha256": "7dcdc4e08900366a3657221b58af3b7d6f13e0af0268afeebbd851d009035f96",
+      "size_bytes": 28415
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_6a3971908c2d4d46b67edc4c6746ba11.json",
+      "sha256": "a668a995295538b56b8d871b4d4954da44fe413389667ff16d1a94e1c07dd7c2",
+      "size_bytes": 18881
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_75881302a2fb4f77aeca2550a744eee5.json",
+      "sha256": "ca4a825205e81af6807f027aab333e908bde26b726df566ebadbec2278f8aa4b",
+      "size_bytes": 34427
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_dce357eb4aed4acc890a90187ec6ec5a.json",
+      "sha256": "85015f4db36bbe61c0da1d0f4b3345e5efdb4578252590d5d4cf1d710dc516e3",
+      "size_bytes": 19934
+    }
+  ],
+  "reviewer": "/root/p30_actual_native_reviewer",
+  "role_count": 6,
+  "role_evidence": [
+    {
+      "catalog_canonical_sha256": "75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+        "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+        "size_bytes": 2678
+      },
+      "context_sha256": "18753ca726a7c89cb902c048008779c76c578a73f178bafbc210d8b166266ac4",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_6a3971908c2d4d46b67edc4c6746ba11.json",
+        "sha256": "de37b06892763712356ec429859e76e838488541b12d2ee2bed7f554044427e6",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "44be0a3dd37706e2b0afc74e1deb5c52ca0a9049ac7510bff9a086494a7b50b8",
+      "product_sha256": "c547bb6133d3e624c44c2ee479e5aef0a0df246d74285bdb14ce112d0e764f1b",
+      "reservation_id": "radik-call:6a3971908c2d4d46b67edc4c6746ba11",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_6a3971908c2d4d46b67edc4c6746ba11.json",
+        "sha256": "57292d4de3cf6f41315607f60dab03742b2d74580dcb35abb623632a38763b1d",
+        "size_bytes": 9574
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_6a3971908c2d4d46b67edc4c6746ba11.json",
+        "sha256": "a668a995295538b56b8d871b4d4954da44fe413389667ff16d1a94e1c07dd7c2",
+        "size_bytes": 18881
+      },
+      "role": "orchestrator",
+      "round": "COLD",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 1554,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 436,
+        "output_tokens_details": {
+          "reasoning_tokens": 44
+        },
+        "total_tokens": 1990,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "e037073813fc0dfbe47889d850ccc40158bbde01cd9e912353ce2f116cfcc300"
+    },
+    {
+      "catalog_canonical_sha256": "75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+        "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+        "size_bytes": 2678
+      },
+      "context_sha256": "6829d1c3decd5284b8890afdaf129d7e7846ac5febb888fb03e0f8332fd80650",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_48c146dc510444cd9260ec3e9c8af5d1.json",
+        "sha256": "5a7d3afe49a7e38174c02626d61cf04108d70d1c9b8d64f2332e5508258a34a5",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "6429245a52ea00c5f7388cc7b0ce88630da8c77e098906bb32e64819a3e8a225",
+      "product_sha256": "11da254be4fddbfcf5136b09c3658b263da6a42f1d57400662151ed13ddbcaf2",
+      "reservation_id": "radik-call:48c146dc510444cd9260ec3e9c8af5d1",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_48c146dc510444cd9260ec3e9c8af5d1.json",
+        "sha256": "b2561e1f68ec19b9612bf416215a1e017d50652c5be2dd1cdcc5441f269f568b",
+        "size_bytes": 16267
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_48c146dc510444cd9260ec3e9c8af5d1.json",
+        "sha256": "f87a72f80894098f23fece12e0967ee4788a6398acd46f391655b3eae6c354cb",
+        "size_bytes": 27075
+      },
+      "role": "architect",
+      "round": "COLD",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 3840,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 796,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 4636,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "41d585e782239d65b00f3dbd0bc9d85a03a45f20a008556f37579dd6d736b50d"
+    },
+    {
+      "catalog_canonical_sha256": "75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+        "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+        "size_bytes": 2678
+      },
+      "context_sha256": "e2e30f6fb2906623d6b0c24c81b3bb7f404b3631c2a2d3eb05d20766765a101c",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_75881302a2fb4f77aeca2550a744eee5.json",
+        "sha256": "d02dbb68b44c3c94b28c4d2adcb8aace7c34d473a5007fc333c8f60ba4d33785",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "d723131fb2f861ad6411eec7ba4d92129c4011a474cdca5a89ead0f98767d9b2",
+      "product_sha256": "31d28b96dd15804825f7f3b57bfdec86e84156997de997fd3424fd629e3a1c49",
+      "reservation_id": "radik-call:75881302a2fb4f77aeca2550a744eee5",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_75881302a2fb4f77aeca2550a744eee5.json",
+        "sha256": "b817c21e857de3397d1a46fac49c858d94a149a8dd8768aca7c85bcc2aad4683",
+        "size_bytes": 25178
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_75881302a2fb4f77aeca2550a744eee5.json",
+        "sha256": "ca4a825205e81af6807f027aab333e908bde26b726df566ebadbec2278f8aa4b",
+        "size_bytes": 34427
+      },
+      "role": "critic",
+      "round": "COLD",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 6470,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 81
+        },
+        "total_tokens": 6873,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "5cbea5ca5bf7c106e18eb27084d7059685fd963ea456f1bc1a423b7126ec50b2"
+    },
+    {
+      "catalog_canonical_sha256": "75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+        "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+        "size_bytes": 2678
+      },
+      "context_sha256": "57064ebd07a2d3d681916d0b7bd086d74dc4f115e2a9119bf47235537e987dde",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_dce357eb4aed4acc890a90187ec6ec5a.json",
+        "sha256": "70b44726e35ededc70c7df3f458efd8fad75cd3cb31011d088ce31b6b95d303f",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "f3ea1a7ee03c84ebf2a05b2616dfd4a784bd63a54a72d57e807f1f64cbc7fdb0",
+      "product_sha256": "8e897650fa58857d09f73bc65a8510a9c6ce79eb615869486bd49b6b3249d696",
+      "reservation_id": "radik-call:dce357eb4aed4acc890a90187ec6ec5a",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_dce357eb4aed4acc890a90187ec6ec5a.json",
+        "sha256": "f2f62d804ed971e27385741ca163e3098a8e5d33e83940af6d4f7b53a47bb2de",
+        "size_bytes": 10664
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_dce357eb4aed4acc890a90187ec6ec5a.json",
+        "sha256": "85015f4db36bbe61c0da1d0f4b3345e5efdb4578252590d5d4cf1d710dc516e3",
+        "size_bytes": 19934
+      },
+      "role": "orchestrator",
+      "round": "INFORMATIONAL_DELTA",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 1899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 465,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 2364,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "57a782f58abb5e782a63c099f2121e2d5df24feba44de5f97893810b18cc4205"
+    },
+    {
+      "catalog_canonical_sha256": "75a4896884ec65bed08f62e7b3d588818aaaa63d125db36b090b45c0bb2b0b44",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_67b7dacdd3974eb28542f3eba1522736.json",
+        "sha256": "6ec031b04868d43d1c9d561ce520fbd7c7fbf35257ff148af4d5c545d29d901e",
+        "size_bytes": 2678
+      },
+      "context_sha256": "d3291c5d075d2f60d1eb443752d6865ffb1c46fc847e567e747307c77ea84c59",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_5d674da02d9c474c8c8f185b593e35e0.json",
+        "sha256": "362355f443001e3664781254695216dd7478acfa2c4bc5bf68f162e80e9b228e",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "8d53a1e194902b56221182162c6ee77217951ac58bb5a1657289e830a166a38b",
+      "product_sha256": "26e88b5c8d5338fb57bad7ad63e43deabac06b335b1cff9ca4b7c5e2da2dccbf",
+      "reservation_id": "radik-call:5d674da02d9c474c8c8f185b593e35e0",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_5d674da02d9c474c8c8f185b593e35e0.json",
+        "sha256": "effa9ba3f411b56415f1076fc4260dfc6b2ef30f9b6f70d5781191a0ebc069f1",
+        "size_bytes": 17319
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_5d674da02d9c474c8c8f185b593e35e0.json",
+        "sha256": "7dcdc4e08900366a3657221b58af3b7d6f13e0af0268afeebbd851d009035f96",
+        "size_bytes": 28415
+      },
+      "role": "architect",
+      "round": "INFORMATIONAL_DELTA",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 4190,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 814,
+        "output_tokens_details": {
+          "reasoning_tokens": 53
+        },
+        "total_tokens": 5004,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "4efe0369e8145d9f14968645ff19376638167aaab3b4197c37c3fdccceba7e2d"
+    },
+    {
+      "catalog_canonical_sha256": "77e0f6dd8175f215f2ae401d7b290d8da663c830bdcd1a4cdda0fb6359201dcf",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/catalog_925456281ef840529975296d8b32080b.json",
+        "sha256": "616a9e47d04f08d0442ddf129394d3fadaaa0d0110abf33f3dc15f1d5cb53bc6",
+        "size_bytes": 2678
+      },
+      "context_sha256": "8fff15744bbeb353595866fe1857466112bf1a8970f095368e05c432085a7cf2",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/http_125a590073ab478bb6682dbe61e2f0b0.json",
+        "sha256": "16a699257a61363032725e2ad4ffa027bd390bad20acc5a81a76f8e8c3f05c9b",
+        "size_bytes": 1374
+      },
+      "model_telemetry": {
+        "requested_effort": "high",
+        "requested_model": "gpt-6.1-sol",
+        "requested_service_tier": "default",
+        "resolved_effort": "high",
+        "resolved_model": "UNKNOWN",
+        "served_model": "gpt-6.1-sol"
+      },
+      "observation_sha256": "fb4126aa09fbf50bc8313bdcd5044421bc7f631fd5ffcfb4b4533cb0cadba056",
+      "product_sha256": "fb6d92d02ebd5f0a2bb6b7fab83f6e2db4f3915d3abd133c0e007893d30ba25a",
+      "reservation_id": "radik-call:125a590073ab478bb6682dbe61e2f0b0",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/reserved_125a590073ab478bb6682dbe61e2f0b0.json",
+        "sha256": "1c7df9f58940b99ace5b01f73a29f526de7d82061e8afa2b7c8a43e72ec8982f",
+        "size_bytes": 26417
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792487631423829000/result_125a590073ab478bb6682dbe61e2f0b0.json",
+        "sha256": "b2d3fbd02389fe09c120acf55b960cf942ed821924073124c2639234207ebd7e",
+        "size_bytes": 35675
+      },
+      "role": "critic",
+      "round": "INFORMATIONAL_DELTA",
+      "usage": {
+        "codex_rollout_budget_units": "UNKNOWN",
+        "input_tokens": 6752,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 425,
+        "output_tokens_details": {
+          "reasoning_tokens": 95
+        },
+        "total_tokens": 7177,
+        "unknown_fields_omitted": 1
+      },
+      "wire_body_sha256": "d0b64be111b3ddb826f41d767355673e5f14e61b82e31fb1200fdea1c0a1dec2"
+    }
+  ],
+  "run_id": "daa3d0e38486",
+  "schema": "radik.p30.public_role_provenance_review.v01",
+  "scope": "Read only public request, response projection, reserved, HTTP and catalog artifacts; no transport replay, request construction via app code, credential access or state mutation.",
+  "source_identity_sha256": "1eea665344331556b365bf7a07c5a5b8b01c91f15183cec94edadd6c0266d1da",
+  "status": "ACCEPTED_EXACT_PUBLIC_SIX_ROLE_PRODUCERS",
+  "task_id": "radik-task:ade2e65cb7d24a1a907d48f86bdb8e27",
+  "total_bytes": 286160
+}

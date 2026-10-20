@@ -1,0 +1,37 @@
+{
+  "schema": "radik.p31.return_selector_amendment_prepare_review.v02",
+  "reviewer": "/root",
+  "wrapper_author": "/root/p31_reference_mapper",
+  "reviewed_at_utc": "2026-10-20T15:35:24.589873+00:00",
+  "status": "ACCEPTED_EXACT_TWO_FILENAME_SELECTOR_AMENDMENT_FOR_ONE_V02_PREPARE",
+  "scope": "Finite return metadata only. No application/native/dossier/reference changes.",
+  "source_pins": {
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/package_return.py": "731df8506dcba5ce1b69efa041459c5faac2ba8e53c9dcb195d2db3adda864c2",
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/CONTRACT.md": "631c95cc70b46d1a3590345b287fd1f4b8ee8054e86de51bc7f3706b72ce1cf7",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "review/transport/radik_local_operator.py": "217a013f5ada2f246959be3a432f4303f3c950b1f74fc2d244d833cd0eaded58"
+  },
+  "delta": "Only MATERIALS/INPUTS filenames change; prior unsigned selector/missing member finding and source history preserved. Same unused build key.",
+  "prior_descriptor_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_inputs.json",
+    "sha256": "2a147f185f07906e2cbbc49d024d7b3945abe796b3658837c936fdb75a39e28e",
+    "size_bytes": 433722,
+    "mode": 384
+  },
+  "finding_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/final_descriptor_missing_member_review.json",
+    "sha256": "94e3485feeefcb45eb3bccd8212f93d7afbbc5c7243f80e3c2f53421eb56ceae",
+    "size_bytes": 3094,
+    "mode": 420
+  },
+  "required_added_member_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_consumer_matrix_v03.json",
+    "sha256": "2af1045cc50ee1d283f0f218d79feb6cacf49f497f611e1096d5cb49985cd6de",
+    "size_bytes": 24832,
+    "mode": 292
+  },
+  "approved_prepare_count": 1,
+  "final_build": "Separate final reviewed descriptor required.",
+  "metadata_readback_note": "An initial root lookup for the finding used the acceptance folder; actual finding is in this delivery draft folder. Read path corrected without changing evidence.",
+  "runtime_execution": false
+}

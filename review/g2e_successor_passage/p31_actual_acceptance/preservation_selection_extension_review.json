@@ -1,0 +1,555 @@
+{
+  "schema": "radik.p31.preservation_selection_extension_independent_review.v01",
+  "reviewer": "/root/p31_reference_mapper",
+  "author_of_reviewed_maps": "/root",
+  "reviewed_at_utc": "2026-10-20T15:19:19.747986+00:00",
+  "status": "PASS_EXACT_ADDITIONAL_PUBLIC_COPY_REVIEW",
+  "scope": "Supplementary exact data readback only; does not replace prior review or rerun retained controls. No application/native imports or runtime/model/provider/AUTH/SAVE operations.",
+  "prior_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/preservation_selection_review.json",
+    "sha256": "3ef65ecf8ec6ad2af09b84b74d716ffcfeac9932b55bc92048c9ac7136162675",
+    "size_bytes": 25774
+  },
+  "prior_review_unchanged": true,
+  "results": [
+    {
+      "map_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/retained_credit_preservation.json",
+        "sha256": "08cb0c918612f05591ebf8b1e312699ed1d3dfde5d94b0837764887db1271b54",
+        "size_bytes": 19358
+      },
+      "count": 31,
+      "rows": [
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+            "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+            "size_bytes": 48958
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+            "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+            "size_bytes": 48958
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_stage04_review.json",
+            "sha256": "2b9f41e179aa51da35d05b98c865e0e0bfb1e6a56a9a1fea03c0853328f5ec9e",
+            "size_bytes": 5819
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/independent_stage04_review.json",
+            "sha256": "2b9f41e179aa51da35d05b98c865e0e0bfb1e6a56a9a1fea03c0853328f5ec9e",
+            "size_bytes": 5819
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/p30_actual_acceptance/stage04_residual_review.json",
+            "sha256": "3fe75e9470e4fb7eb25b002717965be23216a6e39ef0205e0cd0fd6aa9edbe24",
+            "size_bytes": 36834
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/p30_actual_acceptance/stage04_residual_review.json",
+            "sha256": "3fe75e9470e4fb7eb25b002717965be23216a6e39ef0205e0cd0fd6aa9edbe24",
+            "size_bytes": 36834
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/normal_session_g2e_passage/actual_behavior_review.json",
+            "sha256": "36294e13095a65ad93022bc542a4bf9609888e2cd1e3382d77c0ab68494b5dd7",
+            "size_bytes": 89692
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/normal_session_g2e_passage/actual_behavior_review.json",
+            "sha256": "36294e13095a65ad93022bc542a4bf9609888e2cd1e3382d77c0ab68494b5dd7",
+            "size_bytes": 89692
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/actual_behavior_review.json",
+            "sha256": "4f830587b72d58c487e204efc0e2a0cbfe4cf52c98e99cb7c8d194542d7d0aed",
+            "size_bytes": 26456
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/actual_behavior_review.json",
+            "sha256": "4f830587b72d58c487e204efc0e2a0cbfe4cf52c98e99cb7c8d194542d7d0aed",
+            "size_bytes": 26456
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/normal_session_g2e_passage/mechanical_result_review.json",
+            "sha256": "98d84a35dbbad2a79da0ea7a8b1c9891952394a227f5dcced532359c72464ae2",
+            "size_bytes": 167647
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/normal_session_g2e_passage/mechanical_result_review.json",
+            "sha256": "98d84a35dbbad2a79da0ea7a8b1c9891952394a227f5dcced532359c72464ae2",
+            "size_bytes": 167647
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/focused_result_review.json",
+            "sha256": "8c87e260879ab1b6e9415a86f61e0fb519d6b7fcbe0c33d6284c2a3507b4a6e3",
+            "size_bytes": 44911
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/focused_result_review.json",
+            "sha256": "8c87e260879ab1b6e9415a86f61e0fb519d6b7fcbe0c33d6284c2a3507b4a6e3",
+            "size_bytes": 44911
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/focused_result_review.json",
+            "sha256": "b4412281f486dacb11abe11d8548ef9a8676f9309bb22aa9ec0082f5fe590aae",
+            "size_bytes": 32143
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/focused_result_review.json",
+            "sha256": "b4412281f486dacb11abe11d8548ef9a8676f9309bb22aa9ec0082f5fe590aae",
+            "size_bytes": 32143
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/result.json",
+            "sha256": "4ec8e88a83a1c7a7025d7f3951090888c0440e9d84fe009d173fcd01a5c71194",
+            "size_bytes": 1707885
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/result.json",
+            "sha256": "4ec8e88a83a1c7a7025d7f3951090888c0440e9d84fe009d173fcd01a5c71194",
+            "size_bytes": 1707885
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/stage04_dynamic_passage/mechanical_result_review.json",
+            "sha256": "d34a1a195771d74d8e665d758ed658739f793de5310d85dd0992bbce7e355572",
+            "size_bytes": 74577
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stage04_dynamic_passage/mechanical_result_review.json",
+            "sha256": "d34a1a195771d74d8e665d758ed658739f793de5310d85dd0992bbce7e355572",
+            "size_bytes": 74577
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_v03_partial_A_review.json",
+            "sha256": "18b99ae64d6bd9fdd1f3cb7f2e882ee47a5e4daef6be9fa5061aa3ceebbb661a",
+            "size_bytes": 34354
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_v03_partial_A_review.json",
+            "sha256": "18b99ae64d6bd9fdd1f3cb7f2e882ee47a5e4daef6be9fa5061aa3ceebbb661a",
+            "size_bytes": 34354
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_v03_partial_B_memory_cancel_review.json",
+            "sha256": "c97621e449899ca9dc664f8f3fdff4a2ae93109461a4d48e6fe3516b80adbef0",
+            "size_bytes": 12403
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_v03_partial_B_memory_cancel_review.json",
+            "sha256": "c97621e449899ca9dc664f8f3fdff4a2ae93109461a4d48e6fe3516b80adbef0",
+            "size_bytes": 12403
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_C_restart_result_review.json",
+            "sha256": "e4a1c4ecd5ed4b3ecc302f37e82ca230679b25ead4a919ff098982bfbe10da27",
+            "size_bytes": 12212
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/remaining_C_restart_result_review.json",
+            "sha256": "e4a1c4ecd5ed4b3ecc302f37e82ca230679b25ead4a919ff098982bfbe10da27",
+            "size_bytes": 12212
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_controls_result_review.json",
+            "sha256": "73002a2037cd7fde84be62e4eac634b4bf11a3df70b38ae22e67df951994f608",
+            "size_bytes": 14869
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_controls_result_review.json",
+            "sha256": "73002a2037cd7fde84be62e4eac634b4bf11a3df70b38ae22e67df951994f608",
+            "size_bytes": 14869
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/copied_public_close_result_review.json",
+            "sha256": "11b8322cfc29c0a36a72fd0714ffdb04b05b0331c6d99631397254c968e472b4",
+            "size_bytes": 2895
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/copied_public_close_result_review.json",
+            "sha256": "11b8322cfc29c0a36a72fd0714ffdb04b05b0331c6d99631397254c968e472b4",
+            "size_bytes": 2895
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_independent_review.json",
+            "sha256": "41a3bade82ab2197432ae05f40aca1d5ad662bf489b32af15a4facfb081ac268",
+            "size_bytes": 1245
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_independent_review.json",
+            "sha256": "41a3bade82ab2197432ae05f40aca1d5ad662bf489b32af15a4facfb081ac268",
+            "size_bytes": 1245
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_source_review.json",
+            "sha256": "56c57782b01206c7c3483e92b5c1ce27ed97b70398a5ff9ff92e30b636174480",
+            "size_bytes": 9752
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_source_review.json",
+            "sha256": "56c57782b01206c7c3483e92b5c1ce27ed97b70398a5ff9ff92e30b636174480",
+            "size_bytes": 9752
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+            "sha256": "4df8580041dc69de31289b0618eb5ffe73e2512a8af4f43578b2d058803bd7b1",
+            "size_bytes": 7665
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_matrix_independent_review.json",
+            "sha256": "4df8580041dc69de31289b0618eb5ffe73e2512a8af4f43578b2d058803bd7b1",
+            "size_bytes": 7665
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+            "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+            "size_bytes": 116601
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+            "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+            "size_bytes": 116601
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/shared_clock_result_review.json",
+            "sha256": "d0f8f9561a32ddcd28a5da42e4b3a5cc9ea7a329ea8c77344aab024bb3c80913",
+            "size_bytes": 2395
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/shared_clock_result_review.json",
+            "sha256": "d0f8f9561a32ddcd28a5da42e4b3a5cc9ea7a329ea8c77344aab024bb3c80913",
+            "size_bytes": 2395
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/v03_supervision_preservation_review.json",
+            "sha256": "ddffd4462aadd3610f520852deb9550969f5f7c779c87fd63556c628f3238707",
+            "size_bytes": 12676
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/v03_supervision_preservation_review.json",
+            "sha256": "ddffd4462aadd3610f520852deb9550969f5f7c779c87fd63556c628f3238707",
+            "size_bytes": 12676
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/whole_route_source_accounting_review.json",
+            "sha256": "66036060d1332c46be1c0f611f369bcd2d65e2d116d41f5fba3fe48a41dcd3d2",
+            "size_bytes": 3355
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/whole_route_source_accounting_review.json",
+            "sha256": "66036060d1332c46be1c0f611f369bcd2d65e2d116d41f5fba3fe48a41dcd3d2",
+            "size_bytes": 3355
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/BOUNDARY_V03/controls/case_result.json",
+            "sha256": "539a75dd6d87aa14d8f9fb1211e5351d11ba36207ba5aa07d1bc8fdb4a3f6836",
+            "size_bytes": 1953
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/BOUNDARY_V03/controls/case_result.json",
+            "sha256": "539a75dd6d87aa14d8f9fb1211e5351d11ba36207ba5aa07d1bc8fdb4a3f6836",
+            "size_bytes": 1953
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/BOUNDARY_V03/result.json",
+            "sha256": "cafb1e8ecf87aef4152b5454b37dc7a2b4a41c920644c2ac69131e3eb5dd7713",
+            "size_bytes": 2142
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/BOUNDARY_V03/result.json",
+            "sha256": "cafb1e8ecf87aef4152b5454b37dc7a2b4a41c920644c2ac69131e3eb5dd7713",
+            "size_bytes": 2142
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V04/result.json",
+            "sha256": "49f11de7ca335c72b6b3ec8b97c21be9505a1d14cedf831dbd50250b13a4f6e4",
+            "size_bytes": 1319
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V04/result.json",
+            "sha256": "49f11de7ca335c72b6b3ec8b97c21be9505a1d14cedf831dbd50250b13a4f6e4",
+            "size_bytes": 1319
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs.json",
+            "sha256": "aaa88eb5a5ff07074b76dad2f9cb8b87abbf25f3dec86c156022aecd9560cebc",
+            "size_bytes": 3751
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs.json",
+            "sha256": "aaa88eb5a5ff07074b76dad2f9cb8b87abbf25f3dec86c156022aecd9560cebc",
+            "size_bytes": 3751
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/a_service.txt",
+            "sha256": "2d9b815a5599e171d37ad9ed1dbf3d440fe6efa05af6d90d25ec5151a79453ea",
+            "size_bytes": 256
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/a_service.txt",
+            "sha256": "2d9b815a5599e171d37ad9ed1dbf3d440fe6efa05af6d90d25ec5151a79453ea",
+            "size_bytes": 256
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "NOT_JSON_TEXT_CREDENTIAL_MARKER_SCAN_PASS"
+        },
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_costs.txt",
+            "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+            "size_bytes": 117
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_costs.txt",
+            "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+            "size_bytes": 117
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "NOT_JSON_TEXT_CREDENTIAL_MARKER_SCAN_PASS"
+        },
+        {
+          "original_ref": {
+            "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_MEMORY_RESTART_AND_FINITE_NEGATIVES.json",
+            "sha256": "4326962a2e5e754e7501943768b26afa23ae2d0249cd3f6b0ee77e7c3d9c4c41",
+            "size_bytes": 271846
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_MEMORY_RESTART_AND_FINITE_NEGATIVES.json",
+            "sha256": "4326962a2e5e754e7501943768b26afa23ae2d0249cd3f6b0ee77e7c3d9c4c41",
+            "size_bytes": 271846
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_U2_ACTUAL_TRIGGER_AND_GUARD_REFUSALS.json",
+            "sha256": "76ba128ad236aa8f19529817acfbedc2c1aabef19aedf0a09067f4c8d8e33f65",
+            "size_bytes": 672332
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_U2_ACTUAL_TRIGGER_AND_GUARD_REFUSALS.json",
+            "sha256": "76ba128ad236aa8f19529817acfbedc2c1aabef19aedf0a09067f4c8d8e33f65",
+            "size_bytes": 672332
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_PROFILES_OPTIONAL_AND_NATIVE_NESTED.json",
+            "sha256": "7bf911d2708883c6275e9c4bfd93ba2334817932954bcb53426aa3325a58f00b",
+            "size_bytes": 675136
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/public_dynamic_native/DYNAMIC_PROFILES_OPTIONAL_AND_NATIVE_NESTED.json",
+            "sha256": "7bf911d2708883c6275e9c4bfd93ba2334817932954bcb53426aa3325a58f00b",
+            "size_bytes": 675136
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        }
+      ]
+    },
+    {
+      "map_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/identity_evidence_preservation.json",
+        "sha256": "4976d0642433d8ebee6831f0f95e28d083abd400189508fcc611cb26f1536e3d",
+        "size_bytes": 1341
+      },
+      "count": 2,
+      "rows": [
+        {
+          "original_ref": {
+            "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_input_preservation.json",
+            "sha256": "0115272d326d344fc8bf4439cfd428e4fdcd6a8c15c324b0fd0f1e459c28f3f0",
+            "size_bytes": 28448
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_input_preservation.json",
+            "sha256": "0115272d326d344fc8bf4439cfd428e4fdcd6a8c15c324b0fd0f1e459c28f3f0",
+            "size_bytes": 28448
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        },
+        {
+          "original_ref": {
+            "path": "state/live_save_quota/single_save.jsonl",
+            "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+            "size_bytes": 2865
+          },
+          "archived_ref": {
+            "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/state/live_save_quota/single_save.jsonl",
+            "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+            "size_bytes": 2865
+          },
+          "current_original_equal": true,
+          "copy_equal": true,
+          "public_predicate": "PASS_JSON"
+        }
+      ]
+    }
+  ],
+  "mapping_count": 33,
+  "mapped_bytes": 4125509,
+  "quota_observation": {
+    "states": [
+      "GRANTED",
+      "RESERVED",
+      "CLOSED"
+    ],
+    "terminal_state": "CLOSED",
+    "rows": 3,
+    "authority": "Historical consumed quota, not permission for another SAVE."
+  },
+  "review_helper_initial_stop": {
+    "cause": "The data-only helper initially attempted JSON parsing of a preserved .txt fixture; no review output or state mutation occurred.",
+    "correction": "Dispatch JSON/JSONL only by extension, inspect exact TXT bytes separately.",
+    "runtime_effects": 0
+  },
+  "all_original_and_copy_bytes_match": true,
+  "all_json_and_jsonl_passed_pinned_public_predicate": true,
+  "all_paths_exclude_private_cache_and_exam_copies": true,
+  "limits": [
+    "This review accepts integrity and inclusion of selected historical data, not a newly executed runtime result.",
+    "Exact final descriptor/member readback remains a separate final delivery review."
+  ]
+}

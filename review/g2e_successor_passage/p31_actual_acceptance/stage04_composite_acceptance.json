@@ -1,0 +1,1008 @@
+{
+  "schema": "radik.stage04.composite_acceptance.v01",
+  "reviewer": "/root/p31_actual_reviewer",
+  "reviewed_at_utc": "2026-10-20T15:23:10.173893+00:00",
+  "status": "STAGE04_CLOSED_PASS_COMPOSITE_INFORMATIONAL_SCOPE",
+  "Stage04_complete": true,
+  "basis": "Accepted P30 selective E + independently checked P31 full ordinary actual + applicable unchanged source-bound prior credits.",
+  "first_composite_exam_current_dynamic_informational_profile": true,
+  "not_first_live_call_ever": true,
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+  "source_identity_sha256": "ea4a2dc46ddb9ca24b92c10c2c1d968471b0247e155d24249e60796eab9adfe0",
+  "runtime_pin_count": 160,
+  "actual_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/independent_actual_acceptance_review.json",
+    "sha256": "a5cc3c5511d2e7a154c2a26585aedaf27df57d11b0026c8be9d74bef1cc3b599",
+    "size_bytes": 3118
+  },
+  "focused_source_review_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/focused_stage04_result_review.json",
+    "sha256": "13059caa7cce425f72077a2764073c9098b8c270488324e39be1f8445c3d9961",
+    "size_bytes": 51565
+  },
+  "prior_credit_refs": {
+    "actual153122_review": {
+      "path": "review/normal_session_g2e_passage/actual_behavior_review.json",
+      "sha256": "36294e13095a65ad93022bc542a4bf9609888e2cd1e3382d77c0ab68494b5dd7",
+      "size_bytes": 89692
+    },
+    "actual191707_review": {
+      "path": "review/g2e_successor_passage/actual_behavior_review.json",
+      "sha256": "4f830587b72d58c487e204efc0e2a0cbfe4cf52c98e99cb7c8d194542d7d0aed",
+      "size_bytes": 26456
+    },
+    "business_callbacks_source": {
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    "normal_review": {
+      "path": "review/normal_session_g2e_passage/mechanical_result_review.json",
+      "sha256": "98d84a35dbbad2a79da0ea7a8b1c9891952394a227f5dcced532359c72464ae2",
+      "size_bytes": 167647
+    },
+    "p27_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v02.json",
+      "sha256": "b4df310a49585c709572fb39f1268a49817d23c2b9874fe59403df5a58a6dbcf",
+      "size_bytes": 36217
+    },
+    "p28_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/focused_result_review.json",
+      "sha256": "8c87e260879ab1b6e9415a86f61e0fb519d6b7fcbe0c33d6284c2a3507b4a6e3",
+      "size_bytes": 44911
+    },
+    "p30_final_readback": {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+      "sha256": "d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea",
+      "size_bytes": 1580
+    },
+    "p30_focused_review": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/focused_result_review.json",
+      "sha256": "b4412281f486dacb11abe11d8548ef9a8676f9309bb22aa9ec0082f5fe590aae",
+      "size_bytes": 32143
+    },
+    "p30_receipt": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+      "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+      "size_bytes": 3722
+    },
+    "p30_scenario": {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    "stage04_result": {
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/result.json",
+      "sha256": "4ec8e88a83a1c7a7025d7f3951090888c0440e9d84fe009d173fcd01a5c71194",
+      "size_bytes": 1707885
+    },
+    "stage04_review": {
+      "path": "review/stage04_dynamic_passage/mechanical_result_review.json",
+      "sha256": "d34a1a195771d74d8e665d758ed658739f793de5310d85dd0992bbce7e355572",
+      "size_bytes": 74577
+    },
+    "task_state": {
+      "historical_logical_ref": {
+        "path": "workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+        "size_bytes": 39252
+      },
+      "preserved_bytes_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+        "size_bytes": 39252
+      }
+    },
+    "task_store_source": {
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    }
+  },
+  "P30_actual_review_refs": {
+    "actual_acceptance.json": {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_acceptance.json",
+      "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+      "size_bytes": 13402
+    },
+    "independent_acceptance_review.json": {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_acceptance_review.json",
+      "sha256": "e74f27b6bec52e202fa69fc38e5a40e1ce68a9970ddd8e087bf3eb85c0fd414a",
+      "size_bytes": 48958
+    },
+    "independent_stage04_review.json": {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_stage04_review.json",
+      "sha256": "2b9f41e179aa51da35d05b98c865e0e0bfb1e6a56a9a1fea03c0853328f5ec9e",
+      "size_bytes": 5819
+    },
+    "stage04_residual_review.json": {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/stage04_residual_review.json",
+      "sha256": "3fe75e9470e4fb7eb25b002717965be23216a6e39ef0205e0cd0fd6aa9edbe24",
+      "size_bytes": 36834
+    }
+  },
+  "unchanged_mechanism_refs": [
+    {
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    {
+      "path": "app/dynamic_native.py",
+      "sha256": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+      "size_bytes": 64693
+    },
+    {
+      "path": "app/dynamic_control.py",
+      "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+      "size_bytes": 6732
+    },
+    {
+      "path": "app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    {
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "path": "app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "path": "app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "size_bytes": 43331
+    },
+    {
+      "path": "app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+      "size_bytes": 10775
+    },
+    {
+      "path": "app/informational_document.py",
+      "sha256": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+      "size_bytes": 927
+    },
+    {
+      "path": "app/informational_core.py",
+      "sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "size_bytes": 21710
+    },
+    {
+      "path": "app/informational_control.py",
+      "sha256": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+      "size_bytes": 20911
+    },
+    {
+      "path": "app/dynamic_delta.py",
+      "sha256": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+      "size_bytes": 25737
+    },
+    {
+      "path": "app/dynamic_delta_source.py",
+      "sha256": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+      "size_bytes": 10498
+    },
+    {
+      "path": "app/dynamic_delta_graph.py",
+      "sha256": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+      "size_bytes": 4740
+    },
+    {
+      "path": "app/dynamic_delta_work.py",
+      "sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "size_bytes": 2938
+    },
+    {
+      "path": "app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    {
+      "path": "review/transport/model_scope.py",
+      "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+      "size_bytes": 15477
+    }
+  ],
+  "archives": [
+    {
+      "name": "RADIK_RETURN_20261020T111446.948102Z.tar.gz",
+      "sha256": "e31509814e8540cb82b7e3d4529b5ed757261122360b0f8d512b9c0693211dd8",
+      "size_bytes": 18893800,
+      "included_whole": false,
+      "availability": "Owner local archive, not a public download URL"
+    },
+    {
+      "name": "RADIK_RETURN_20261020T131915.603043Z.tar.gz",
+      "sha256": "4ce57ccb8911c05f75bc68f3da9b60d65952ee51d71ea3031130c8dabceaee26",
+      "size_bytes": 8631458,
+      "included_whole": false,
+      "availability": "Owner local archive, not a public download URL"
+    }
+  ],
+  "rows": [
+    {
+      "id": "S4-01",
+      "status": "ACCEPTED",
+      "statement": "Historical accounting, provenance, UNKNOWNs and CLOSED quota preserved through upgrade/restart.",
+      "P31_actual_steps": [
+        "A_SETUP",
+        "R1",
+        "R2"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786.json",
+          "sha256": "9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786",
+          "size_bytes": 217476
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+          "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+          "size_bytes": 551713
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+          "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+          "size_bytes": 427740
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "TaskStore.__init__; normal_session historical_ledger/apply_transition/finish_round; profile preserving_upgrade",
+          "current_SOURCE_coverage": "Preserving upgrade; legacy row prefixes/UNKNOWNs/results; source-successor interruption; fresh process persistence.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "controls",
+            "copied_close",
+            "supervision_preservation",
+            "C_restart"
+          ],
+          "id": "S4-01",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/migration",
+              "ref": "stage04_review",
+              "scope": "Accepted isolated preserving migration and actual historical three-row baseline; source identity remains historical."
+            },
+            {
+              "pointer": "/normal_session_findings",
+              "ref": "normal_review",
+              "scope": "Copied actual15 preserving v04 to v05; explicit durable round scopes; original UNKNOWNs retained."
+            },
+            {
+              "ref": "p30_focused_review",
+              "scope": "Accepted preserving P29-to-P30 installation controls; no historical reset."
+            },
+            {
+              "ref": "task_state",
+              "scope": "Actual P30 startup appends interruption of the prior P29 task and retains its prior five history rows."
+            }
+          ],
+          "requirement": "Preserve historical accounting, task provenance and consumed permissions through source succession.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-02",
+      "status": "ACCEPTED",
+      "statement": "Explain/verify on two finite topics and1/3/4sources; prior compare and clarification controls retained.",
+      "P31_actual_steps": [
+        "A1",
+        "B1",
+        "C1"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+          "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+          "size_bytes": 339422
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+          "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+          "size_bytes": 452164
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+          "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+          "size_bytes": 552873
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "runtime interactive task/clarify -> TaskStore.create/_clarify -> run_task -> DynamicDocumentController.run/intake/roles/native Work",
+          "current_SOURCE_coverage": "Ordinary A1 explain1/B1 verify3/C1 held-out verify4, exact source/candidate bytes and new immutable C TaskSpec after B.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A",
+            "B_memory_cancel",
+            "C_restart",
+            "heldout_independent"
+          ],
+          "id": "S4-02",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/held_out",
+              "ref": "stage04_review",
+              "scope": "Accepted three-source held-out verify, six Work items, three extractors and second-source audit; synthetic role products, actual native consumers."
+            },
+            {
+              "pointer": "/accepted_steps",
+              "ref": "actual153122_review",
+              "scope": "Actual A compare, B explain, A memory, C supplied-candidate verify; all short, calls 3/3/0/3."
+            },
+            {
+              "pointer": "/business_cases",
+              "ref": "p27_review",
+              "scope": "One-source explain, two-source compare, four-source verify genuine PURE Work with synthetic role products; three-source current graph only."
+            },
+            {
+              "pointer": "/task_spec",
+              "ref": "p30_scenario",
+              "scope": "Current ordinary profile actual two-source compare, decomposed route."
+            },
+            {
+              "pointer": "/cases/2/observations",
+              "ref": "stage04_result",
+              "scope": "Accepted isolated ambiguous_intent_dispatch=false; distinct changed-criterion/candidate/revision meaning keys; interrupted origin change refused. These are TaskStore/intake boundaries, not a new current ordinary intake consumer."
+            }
+          ],
+          "requirement": "Different compare/explain/verify intentions and supplied-candidate verification; two topics, clarification and distinct actual reads.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-03",
+      "status": "ACCEPTED",
+      "statement": "Actual guarded expansion/contraction and child-to-parent typed consumption; prior nested and missing producer/guard controls retain exact scope.",
+      "P31_actual_steps": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "C1"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+          "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+          "size_bytes": 339422
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+          "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+          "size_bytes": 364155
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+          "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+          "size_bytes": 370789
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+          "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+          "size_bytes": 452164
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+          "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+          "size_bytes": 552873
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "runtime continue -> run_task(condition) -> budget.begin_task_round NATIVE_CONTINUE -> DynamicDocumentController.revise -> dynamic_work.revision_audit/_compute",
+          "current_SOURCE_coverage": "A2 exceptions executes audit; A3 conditions skips audit under actual false guard; original goal/BSEP and prior-output bindings persist.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A"
+          ],
+          "id": "S4-03",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/native_execution",
+              "ref": "stage04_review",
+              "scope": "Accepted actual native U2 expansion3 then contraction2 with audit SKIPPED_GUARD_FALSE; two-child nested D, synthetic roles/clock."
+            },
+            {
+              "pointer": "/native_scenario_findings",
+              "ref": "normal_review",
+              "scope": "D_EXCEPTIONS then D_CONDITIONS on one live Host; completed PURE counts3 then2. Current dynamic_work callback bytes are identical."
+            },
+            {
+              "ref": "actual191707_review",
+              "scope": "Actual D_EXCEPTIONS zero-call revision and nested U1 child/parent consumers; focus_conditions not observed."
+            },
+            {
+              "pointer": "/business_verification/audit_expansion",
+              "ref": "p27_review",
+              "scope": "Genuine business audit expansion and retained parent consumption; synthetic products, native E absent."
+            }
+          ],
+          "requirement": "Optional expansion/contraction and valid conditions change actual native dispatch; exact child and predecessor outputs reach parents.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-04",
+      "status": "ACCEPTED",
+      "statement": "Zero-call U2 consumes previous output, preserves origin/BSEP, exhausts after2revisions; C creates a new intake/task/predecessor.",
+      "P31_actual_steps": [
+        "A2",
+        "A3",
+        "A4",
+        "B2",
+        "C1"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+          "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+          "size_bytes": 364155
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+          "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+          "size_bytes": 370789
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474.json",
+          "sha256": "52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474",
+          "size_bytes": 459753
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077.json",
+          "sha256": "5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077",
+          "size_bytes": 473294
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+          "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+          "size_bytes": 552873
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "runtime interactive task/clarify -> TaskStore.create/_clarify -> run_task -> DynamicDocumentController.run/intake/roles/native Work",
+          "current_SOURCE_coverage": "Ordinary A1 explain1/B1 verify3/C1 held-out verify4, exact source/candidate bytes and new immutable C TaskSpec after B.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A",
+            "B_memory_cancel",
+            "C_restart",
+            "heldout_independent"
+          ],
+          "id": "S4-02",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/held_out",
+              "ref": "stage04_review",
+              "scope": "Accepted three-source held-out verify, six Work items, three extractors and second-source audit; synthetic role products, actual native consumers."
+            },
+            {
+              "pointer": "/accepted_steps",
+              "ref": "actual153122_review",
+              "scope": "Actual A compare, B explain, A memory, C supplied-candidate verify; all short, calls 3/3/0/3."
+            },
+            {
+              "pointer": "/business_cases",
+              "ref": "p27_review",
+              "scope": "One-source explain, two-source compare, four-source verify genuine PURE Work with synthetic role products; three-source current graph only."
+            },
+            {
+              "pointer": "/task_spec",
+              "ref": "p30_scenario",
+              "scope": "Current ordinary profile actual two-source compare, decomposed route."
+            },
+            {
+              "pointer": "/cases/2/observations",
+              "ref": "stage04_result",
+              "scope": "Accepted isolated ambiguous_intent_dispatch=false; distinct changed-criterion/candidate/revision meaning keys; interrupted origin change refused. These are TaskStore/intake boundaries, not a new current ordinary intake consumer."
+            }
+          ],
+          "requirement": "Different compare/explain/verify intentions and supplied-candidate verification; two topics, clarification and distinct actual reads.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        },
+        {
+          "consumer": "Same ordinary continue consumer, review_unknowns -> dynamic_work.revision_audit -> current prior business output",
+          "current_SOURCE_coverage": "Ordinary B2 selects actual fixture-backed prior unknown claim; native revision audit is SKIPPED_GUARD_FALSE and no new role attempts.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "B_memory_cancel"
+          ],
+          "id": "S4-04a",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/native_scenario_findings",
+              "ref": "normal_review",
+              "scope": "Accepted independent nested N_UNKNOWNS: actual native Work and fresh review/Root, synthetic role products and clock."
+            },
+            {
+              "ref": "business_callbacks_source",
+              "scope": "Unchanged revision_audit and execute_business callbacks constrain unknown/contradiction claim kinds and actual prior claim membership."
+            }
+          ],
+          "requirement": "review_unknowns consumes qualifying actual prior claims on the same task without rewriting the origin.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        },
+        {
+          "consumer": "run_task outcome EXHAUSTED -> store.fail -> finally end_task_round; native revise revision cap; budget reserve refusal",
+          "current_SOURCE_coverage": "A4 full native EXHAUSTED with no dispatch; round closes and result survives. Current grants/accounting observed; unchanged resource/global/refusal predicates credited with existing exact bindings.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A",
+            "controls",
+            "whole_route_source"
+          ],
+          "id": "S4-04b/S4-08",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/native_execution",
+              "ref": "stage04_review",
+              "scope": "Two native revisions, compute32 to28 to25, revision2 to1 to0; third EXHAUSTED/work_task_revision_exhausted."
+            },
+            {
+              "pointer": "/negative_observations/scope_origin_and_round_global_limits",
+              "ref": "stage04_review",
+              "scope": "Accepted copied-state accounting controls, not all current native resource exhaustion."
+            },
+            {
+              "pointer": "/native_scenario_findings",
+              "ref": "normal_review",
+              "scope": "Accepted third revision refusal, zero new native dispatch/provider reservation."
+            },
+            {
+              "pointer": "/normal_session_findings",
+              "ref": "normal_review",
+              "scope": "Memory-only reserve refusal; cross-task/operation, closed/replayed/orphan grants, active UNKNOWN and missing task state controls."
+            },
+            {
+              "pointer": "/exact_six_refusals",
+              "ref": "p27_review",
+              "scope": "Closed successor, changed retained claims, two changed sources and duplicate/partial index refusals."
+            }
+          ],
+          "requirement": "Revision/resource exhaustion and task/round/global accounting refuse without replenishment or hidden dispatch.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-05",
+      "status": "ACCEPTED",
+      "statement": "P30 selective E with exact retained native/business siblings, Pair1/Pair2 and preservation proof; no new E.",
+      "P31_actual_steps": [],
+      "actual_evidence_refs": [],
+      "retained_residual_rows": [
+        {
+          "consumer": "P30 actual dynamic_delta native v01 + retained business output into new parent + final Root",
+          "current_SOURCE_coverage": "Accepted P30 selective E exact actual retained; this source and future route prohibit E.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [],
+          "id": "S4-05",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/whole_scenario_status",
+              "ref": "p30_scenario",
+              "scope": "Owner accepted exact P30 first selective scenario; linked native/business actual consumers were independently accepted in the completed P30 actual passage."
+            },
+            {
+              "ref": "p30_receipt",
+              "scope": "Exit0, reaped, no primary, E closed, FINAL success; elapsed2599.659387333 seconds."
+            }
+          ],
+          "requirement": "Selective changed-source native E with Pair1/Pair2, retained native child and separately retained business output consumed by new parent.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "prior_actual_native",
+        "source_review"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-06",
+      "status": "ACCEPTED",
+      "statement": "A-to-B-to-A and C memory use actual persisted payload, current eligibility/descent/Root/Work and original clocks; expiry negatives retained.",
+      "P31_actual_steps": [
+        "A5",
+        "R2"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853.json",
+          "sha256": "59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853",
+          "size_bytes": 467673
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+          "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+          "size_bytes": 427740
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "runtime run-memory -> run_task(require_memory=True) -> DynamicDocumentController.run/warm -> eligible MemoryStore Root descent and native PURE consumer",
+          "current_SOURCE_coverage": "A5 consumes eligible prior A1 rather than B; R2 reads exact C1 record/payload with original clocks, current eligibility, fresh descent/Root and memory0 Work; missing/expired memory refuses without fallback.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "B_memory_cancel",
+            "C_restart",
+            "controls"
+          ],
+          "id": "S4-06",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/accepted_steps",
+              "ref": "actual153122_review",
+              "scope": "Accepted actual connected A/B/A/C, A memory zero calls and original accepted_at/valid_to."
+            },
+            {
+              "pointer": "/normal_session_findings",
+              "ref": "normal_review",
+              "scope": "Accepted genuine memory consumer after copied failed operation under controlled clock; no current wall-clock eligibility inferred."
+            },
+            {
+              "pointer": "/memory_readback_ref",
+              "ref": "p30_scenario",
+              "scope": "New delta memory write/readback references; exact same-process current acceptance belongs to the separate P30 actual review."
+            }
+          ],
+          "requirement": "A-to-B-to-A qualified memory; write, eligibility, Root descent and actual zero-model consumption under original clocks.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-07",
+      "status": "ACCEPTED",
+      "statement": "Cancellation blocks future dispatch and preserves result; second real OS process restores information/state under fresh checks.",
+      "P31_actual_steps": [
+        "A6_CANCEL",
+        "A6_REFUSAL",
+        "A6_RESULT",
+        "R1",
+        "R2"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e.json",
+          "sha256": "593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e",
+          "size_bytes": 458953
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347.json",
+          "sha256": "546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347",
+          "size_bytes": 459226
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518.json",
+          "sha256": "c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518",
+          "size_bytes": 458953
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+          "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+          "size_bytes": 551713
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+          "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+          "size_bytes": 427740
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "runtime cancel -> TaskStore.cancel/source_successor.interrupt; later run -> TaskStore.prepare_round_sources rejects CANCELLED before begin_task_round. Separate after-grant exception -> finally abort_task_round_before_start.",
+          "current_SOURCE_coverage": "A6 pregrant cancellation preserves accepted output/history and refuses dispatch. Separate injected post-grant prebegin error proves ABORTED_BEFORE_START closure.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "B_memory_cancel",
+            "controls"
+          ],
+          "id": "S4-07a",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/cases/2",
+              "ref": "stage04_result",
+              "scope": "Accepted TaskStore cancellation and persisted history fixture; no provider remote-cancel claim."
+            },
+            {
+              "pointer": "/negative_observations/tool_before_terminal",
+              "ref": "stage04_review",
+              "scope": "UNKNOWN fixture preserves active occupancy and blocks future dispatch."
+            },
+            {
+              "ref": "task_store_source",
+              "scope": "Current cancel interrupts local source successor; active task requires a receipt; future-only cancellation event."
+            }
+          ],
+          "requirement": "Cancel prevents future dispatch, preserves already accepted output and does not pretend to cancel an uncertain remote request.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        },
+        {
+          "consumer": "config/launch.py --console -> selected ordinary_entry.run -> fresh runtime.main/store/client/Host/controller; exit -> close_operation -> child reap",
+          "current_SOURCE_coverage": "Two actual isolated ordinary OS children exit0/reap; first operation EXITED, second fresh operation and empty controller map; full store preserved at restart and same external deadline.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "C_restart",
+            "shared_clock",
+            "retained_timer"
+          ],
+          "id": "S4-07b",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/normal_session_findings",
+              "ref": "normal_review",
+              "scope": "Copied-state crash-before/after-TaskStore controls and reopened memory; old scope never resumes."
+            },
+            {
+              "pointer": "/journal",
+              "ref": "p27_review",
+              "scope": "Object reopen and five-stage journal accepted, explicitly not OS restart."
+            },
+            {
+              "pointer": "/functional_controls/2",
+              "ref": "p28_review",
+              "scope": "A separate owned child restart_read exits0/reaped; synthetic AUTH/inert harness and read/history only, not fresh current memory Work."
+            },
+            {
+              "ref": "task_state",
+              "scope": "P30 actual new process closes historical orphan P29 task with PROCESS_RESTART_INTERRUPTED seq50; current task ends COMPLETED, active task is null."
+            }
+          ],
+          "requirement": "True process restart preserves history and requires fresh current eligibility/preparation; serialized data restores no native authority.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-08",
+      "status": "ACCEPTED",
+      "statement": "Current exhaustion/cancel plus unchanged accepted child/BSEP/origin/source/memory/budget/UNKNOWN/tool/effect/migration controls.",
+      "P31_actual_steps": [
+        "A4",
+        "A6_REFUSAL"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474.json",
+          "sha256": "52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474",
+          "size_bytes": 459753
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347.json",
+          "sha256": "546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347",
+          "size_bytes": 459226
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "run_task outcome EXHAUSTED -> store.fail -> finally end_task_round; native revise revision cap; budget reserve refusal",
+          "current_SOURCE_coverage": "A4 full native EXHAUSTED with no dispatch; round closes and result survives. Current grants/accounting observed; unchanged resource/global/refusal predicates credited with existing exact bindings.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A",
+            "controls",
+            "whole_route_source"
+          ],
+          "id": "S4-04b/S4-08",
+          "prior_credit_bindings": [
+            {
+              "pointer": "/native_execution",
+              "ref": "stage04_review",
+              "scope": "Two native revisions, compute32 to28 to25, revision2 to1 to0; third EXHAUSTED/work_task_revision_exhausted."
+            },
+            {
+              "pointer": "/negative_observations/scope_origin_and_round_global_limits",
+              "ref": "stage04_review",
+              "scope": "Accepted copied-state accounting controls, not all current native resource exhaustion."
+            },
+            {
+              "pointer": "/native_scenario_findings",
+              "ref": "normal_review",
+              "scope": "Accepted third revision refusal, zero new native dispatch/provider reservation."
+            },
+            {
+              "pointer": "/normal_session_findings",
+              "ref": "normal_review",
+              "scope": "Memory-only reserve refusal; cross-task/operation, closed/replayed/orphan grants, active UNKNOWN and missing task state controls."
+            },
+            {
+              "pointer": "/exact_six_refusals",
+              "ref": "p27_review",
+              "scope": "Closed successor, changed retained claims, two changed sources and duplicate/partial index refusals."
+            }
+          ],
+          "requirement": "Revision/resource exhaustion and task/round/global accounting refuse without replenishment or hidden dispatch.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    },
+    {
+      "id": "S4-09",
+      "status": "ACCEPTED",
+      "statement": "Complete real ordinary owner route, useful results,20commands,2closedoperations and exit0/reaped; previous SOURCE return delivery verified. Current review RETURN delivery tracked separately.",
+      "P31_actual_steps": [
+        "A1",
+        "R1",
+        "R2",
+        "R2_EXIT"
+      ],
+      "actual_evidence_refs": [
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+          "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+          "size_bytes": 339422
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+          "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+          "size_bytes": 551713
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+          "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+          "size_bytes": 427740
+        },
+        {
+          "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46.json",
+          "sha256": "4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46",
+          "size_bytes": 418938
+        }
+      ],
+      "retained_residual_rows": [
+        {
+          "consumer": "ordinary runtime stdin task/clarify/select/run/continue/run-memory/cancel/result/exit dispatch plus owner supervisor EventWriter/export/readback",
+          "current_SOURCE_coverage": "Current stdin handlers, exports/readbacks, immediate step evidence, safe unexpected refusal projection and exact finite two-process supervisor are source-admitted and exercised.",
+          "current_source_binding": "EXACT_FINAL160_PIN_PROFILE_AND_INDEPENDENT_RUNTIME_SOURCE_REVIEW",
+          "current_source_witness_keys": [
+            "A",
+            "B_memory_cancel",
+            "C_restart",
+            "controls",
+            "shared_clock",
+            "whole_route_source"
+          ],
+          "id": "S4-09",
+          "prior_credit_bindings": [
+            {
+              "ref": "actual153122_review",
+              "scope": "Historical actual linked useful short chain; consumed recovery operation only."
+            },
+            {
+              "ref": "p28_review",
+              "scope": "Accepted isolated ordinary-entry/effective-boundary wiring; external AUTH/HTTP synthetic."
+            },
+            {
+              "ref": "p30_receipt",
+              "scope": "Actual ordinary owner command clean exit0 and child closure."
+            },
+            {
+              "pointer": "/body/status",
+              "ref": "p30_final_readback",
+              "scope": "OWNER_SCENARIO_COMPLETED under exact P30 profile."
+            },
+            {
+              "pointer": "/cases/0/explicit_settings_change_without_counter_reset",
+              "ref": "stage04_result",
+              "scope": "Accepted explicit settings change preserving counter/history in isolated accounting. Current ordinary command coupling is a distinct consumer, and only changed dependencies need examination."
+            },
+            {
+              "pointer": "/cases/2/observations/ambiguous_intent_dispatch",
+              "ref": "stage04_result",
+              "scope": "Accepted ambiguity causes no dispatch; reuse this predicate evidence before selecting any new ordinary clarification observation."
+            }
+          ],
+          "requirement": "Useful ordinary owner operation, readable task/status/memory, clean exit and one automatically delivered result.",
+          "historical_residual_status": "Original pending status preserved in focused source review; closed by P31 actual where required"
+        }
+      ],
+      "evidence_classes": [
+        "actual_provider",
+        "actual_native_local",
+        "source_review",
+        "controlled_synthetic"
+      ],
+      "scope_limit": "Historical controlled/source/actual evidence retains its original classification; none was rerun or promoted to a later actual."
+    }
+  ],
+  "P31_SOURCE_history_preserved": {
+    "coverage_union": true,
+    "original_ORDINARY_V03_full_route_pass": false,
+    "later_actual_does_not_rewrite_history": true
+  },
+  "maintenance_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/maintenance.json",
+    "sha256": "c1cc044c4a840543be4e8963305cb218218731e48d8031de71f98f0c62a570de",
+    "size_bytes": 1257
+  },
+  "residual_runtime_requirements": [],
+  "new_E_required": false,
+  "new_owner_command_required": false,
+  "publication": {
+    "published": false,
+    "dossier_status": "Separate final editorial readback",
+    "current_return_delivery_status": "Separate exporter receipt and independent delivery review",
+    "github_decision": "Owner and primary curator review dossier before publication"
+  },
+  "out_of_scope": [
+    "Stages05–08",
+    "General external SAVE/effect lifecycle",
+    "External DRS federation",
+    "U3 capability generation/admission",
+    "Full minimal stand/U4 composite",
+    "Broader G3/G4 experience, ranking and mathematics",
+    "Exceptional cleanup maintenance fix"
+  ],
+  "next_technical_stage": "Stage05 after owner/curator review; not authorized by this record"
+}

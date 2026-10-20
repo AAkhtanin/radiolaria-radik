@@ -1,0 +1,200 @@
+{
+  "Stage04_complete": false,
+  "actual_memory_match": {
+    "actual_material_prior_equals_saved_result_fields": true,
+    "new_root_decision_id": "2b7c5ff6caaa03f76424bb9d15cf0e29a3eb91b45b721578649ce9482f8e35c5",
+    "origin": {
+      "accepted_at": 1792498578,
+      "descent_id": "drsdescentres_v01:0a493489416ef1a07676be1f9bcd8652cbef3b80ca3c5ab154f978e3d314e522",
+      "historical_route": "short",
+      "historical_valid_to": 1792505778,
+      "meaning_key": "51c6821364ca8d4694192a9942e5ecca0c09eae6283608031cdbaf3400b2c1b6",
+      "payload_sha256": "905b8cb67c2741808482bb12afd60178b2d46b6daca344ff5cfbeb411baa5c0d",
+      "prior_task_id": "radik-task:8725b3de8db84257868e889bc51d43d5",
+      "record_id": "drsmeaning_v01:5213316c20187458b1e47c24e0942c99c83f16de7716815aae09d83f23bfbdb6",
+      "result_id": "radik:dynamic_result:bb816991a923d41cc2ffdc5ad9f08bed1af31436ec26c78da546fc1f7f76d33f",
+      "root_decision_id": "367f0ff8bca79efb2f4b28c08309b771f9d5ec7e70a72160dd58cdc16d90214d",
+      "selection_origin": {
+        "candidate_sha256": "f979a828ec9670352af343cdff3e68b595881232a65ccf1798035b395842a025",
+        "descent_id": "drsdescentres_v01:0a493489416ef1a07676be1f9bcd8652cbef3b80ca3c5ab154f978e3d314e522",
+        "descent_root_decision_id": "367f0ff8bca79efb2f4b28c08309b771f9d5ec7e70a72160dd58cdc16d90214d",
+        "evaluated_at": 1792499361,
+        "historical_accepted_at": 1792498578,
+        "historical_root_decision_id": "2b7dbea9f557ad6c0410fae1ee30506cb885be821400be042eed83afe628fc15",
+        "historical_valid_to": 1792505778,
+        "payload_sha256": "905b8cb67c2741808482bb12afd60178b2d46b6daca344ff5cfbeb411baa5c0d",
+        "record_clocks": {
+          "ct_context_anchor": 1792498578,
+          "et_observed_at": 1792498578,
+          "freshness_policy_id": "freshness:radik:document_memory",
+          "kt_as_of": 1792498578,
+          "pt_created_at": 1792498578,
+          "source_observed_at": 1792498578,
+          "source_reported_at": 1792498578,
+          "system_ingested_at": 1792498578,
+          "system_verified_at": 1792498578,
+          "time_envelope_id": "drstime_v01:106ebca3c0bae0b8b2acc0de793fcab5e76e6f52878bd5b062377f802d802d26",
+          "time_envelope_version": "v0.1",
+          "ttl_seconds": 7200,
+          "valid_from": 1792498578,
+          "valid_to": 1792505778
+        },
+        "record_id": "drsmeaning_v01:5213316c20187458b1e47c24e0942c99c83f16de7716815aae09d83f23bfbdb6",
+        "record_plain_sha256": "18ccc93b3f40af89854b9a90806e52ed98729a08076870c69cddfeaef4a8c510",
+        "record_readback_sha256": "f6c3a9b61499f9921e67e8dc424f8b42248633054b01d2c278c029b0caced29c",
+        "result_id": "radik:dynamic_result:bb816991a923d41cc2ffdc5ad9f08bed1af31436ec26c78da546fc1f7f76d33f",
+        "result_sha256": "b8f0e2cfe320325d22db410c2bb26457bd46165340e1c81547e22750b88984bc",
+        "source_scope_sha256": "52eda496cfd8dae89a06d71ff793bf45c4cf41714d2b40d625a22e6b15b0b444",
+        "version": "radik.document.memory_origin.v02"
+      },
+      "valid_to": 1792505778
+    },
+    "prior_root_decision_id": "40a904abcab080635ce10cb86a1d54e3605bf76b949a373f866bc0925f7214ca",
+    "selected_prior_result_id": "radik:dynamic_result:bb816991a923d41cc2ffdc5ad9f08bed1af31436ec26c78da546fc1f7f76d33f",
+    "selected_prior_step": "A1"
+  },
+  "all_required_controls_passed": false,
+  "cases": [
+    {
+      "attempt_delta": 3,
+      "closed_grant_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/state/normal_rounds/334714292e7845d29d2975bb5d450fca.json.closed",
+        "sha256": "90206af298bba0f7589292da8416c3bb4beef65207673b021ec6c382fc772f5f",
+        "size_bytes": 340
+      },
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_23a2894f084dfa6a8e2e62cebeae31cc49f7f9b60b07650dcffa85f81f0cbc0b.json",
+        "sha256": "23a2894f084dfa6a8e2e62cebeae31cc49f7f9b60b07650dcffa85f81f0cbc0b",
+        "size_bytes": 429197
+      },
+      "grant_ref": {
+        "path": "state/normal_rounds/334714292e7845d29d2975bb5d450fca.json",
+        "sha256": "c4c694a50e7f732ec4ae1da0621f2db7926bad1c709d8dcc31ca77af5e6e4950"
+      },
+      "label": "B1_COLD",
+      "mode": "COLD",
+      "selected_result_id": "radik:dynamic_result:784a155057b1210e231fb6aba9036f3cffffdd0a5147782e9551be19183466b9",
+      "selected_result_sha256": "88319d24491673e51db50a17f241cac4245edb9ab2abf1c9d60f260f8858b7a1",
+      "status": "COMPLETED"
+    },
+    {
+      "attempt_delta": 0,
+      "closed_grant_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/state/normal_rounds/b9fa1fd37c664c56a6f44c87e7c9d13b.json.closed",
+        "sha256": "66246f6155f1699d15950d68185dc0cf8f358f6ebe13f28bb1e5393bd58d3852",
+        "size_bytes": 340
+      },
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_5efa0539c84ee91e060aff03d7084433fea34ff02d289cfd44104ea37fc1becf.json",
+        "sha256": "5efa0539c84ee91e060aff03d7084433fea34ff02d289cfd44104ea37fc1becf",
+        "size_bytes": 456045
+      },
+      "grant_ref": {
+        "path": "state/normal_rounds/b9fa1fd37c664c56a6f44c87e7c9d13b.json",
+        "sha256": "c21e921caf025e581e2308364ab7450138308ff12c6081a5a9fa13901bebd2d2"
+      },
+      "label": "B2_UNKNOWNS",
+      "mode": "NATIVE_CONTINUE",
+      "selected_result_id": "radik:dynamic_result:c1a909bf7e08fcc3581d9ee4e32e6a0a8591cce2edf9a7702ee901eed4075f89",
+      "selected_result_sha256": "eb65c2ad9a8b2ef71a3c53baa97884035858d14a97abd358901766a094634d10",
+      "status": "COMPLETED"
+    },
+    {
+      "attempt_delta": 0,
+      "closed_grant_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/state/normal_rounds/c5ee9f50291d4844a38fc5e668377043.json.closed",
+        "sha256": "baffa48761ad19db5e5404b6549b4620d9a119cbf814beff98dc6e107eadeecb",
+        "size_bytes": 340
+      },
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_6035bd1fecdeaeca6db99cff64236a770eb0d8a63dbd959a333a20cca5339661.json",
+        "sha256": "6035bd1fecdeaeca6db99cff64236a770eb0d8a63dbd959a333a20cca5339661",
+        "size_bytes": 448956
+      },
+      "grant_ref": {
+        "path": "state/normal_rounds/c5ee9f50291d4844a38fc5e668377043.json",
+        "sha256": "4354cc7673d5fea3c684d68a994514694fabd98c1c210cea4012c3ed6c49dd55"
+      },
+      "label": "A5_CURRENT_MEMORY",
+      "mode": "MEMORY_ONLY",
+      "selected_result_id": "radik:dynamic_result:0b23257968a2b6d17135e09b52e77bac64912209d44368d92a499924b5b50630",
+      "selected_result_sha256": "112efc355fa78b36e0fddbe86b3f097d4bf0ccf5ee33392ab54a413fab801ce4",
+      "status": "COMPLETED"
+    },
+    {
+      "attempt_delta": 0,
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_b8447fc67afd6f184bdaf94b10c2096a4b1d9fbbec283c0e1c37390e0835522b.json",
+        "sha256": "b8447fc67afd6f184bdaf94b10c2096a4b1d9fbbec283c0e1c37390e0835522b",
+        "size_bytes": 440236
+      },
+      "label": "A6_CANCEL",
+      "selected_result_id": "radik:dynamic_result:0b23257968a2b6d17135e09b52e77bac64912209d44368d92a499924b5b50630",
+      "selected_result_sha256": "112efc355fa78b36e0fddbe86b3f097d4bf0ccf5ee33392ab54a413fab801ce4",
+      "status": "COMPLETED"
+    },
+    {
+      "attempt_delta": 0,
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_a8bfd494e084dcbfe8fca761adaf1f7fbe06475cd1d21c0b102e7c1e87d07851.json",
+        "sha256": "a8bfd494e084dcbfe8fca761adaf1f7fbe06475cd1d21c0b102e7c1e87d07851",
+        "size_bytes": 440511
+      },
+      "error": {
+        "code": "task_cancelled_before_dispatch",
+        "phase": "TASK_EXECUTION",
+        "primary_observed": true,
+        "primary_persistence": "IN_MEMORY_ONLY",
+        "primary_preserved": true,
+        "raw_error_recorded": false,
+        "secondary_failures": [],
+        "secondary_failures_omitted": 0,
+        "step": "INTERACTIVE_TASK",
+        "type": "ValueError"
+      },
+      "label": "A6_REFUSAL",
+      "new_grants": 0,
+      "round_observation": null,
+      "selected_result_id": "radik:dynamic_result:0b23257968a2b6d17135e09b52e77bac64912209d44368d92a499924b5b50630",
+      "selected_result_sha256": "112efc355fa78b36e0fddbe86b3f097d4bf0ccf5ee33392ab54a413fab801ce4",
+      "status": "REFUSED"
+    },
+    {
+      "attempt_delta": 0,
+      "command_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_3d4e711f6c9de514287d7ab2d51e7b364f094b54d967730f6922b22cefb46327.json",
+        "sha256": "3d4e711f6c9de514287d7ab2d51e7b364f094b54d967730f6922b22cefb46327",
+        "size_bytes": 440236
+      },
+      "label": "A6_RESULT",
+      "selected_result_id": "radik:dynamic_result:0b23257968a2b6d17135e09b52e77bac64912209d44368d92a499924b5b50630",
+      "selected_result_sha256": "112efc355fa78b36e0fddbe86b3f097d4bf0ccf5ee33392ab54a413fab801ce4",
+      "status": "COMPLETED"
+    }
+  ],
+  "do_not_replay_without_new_reason": true,
+  "external_responses": "INERT_FIXTURES_NO_MODEL_SEMANTIC_ACCEPTANCE",
+  "findings": [
+    "B1 actual verify output consumes exactly three current sources and the supplied candidate, retaining unknown/contradiction material; cold O/A/C fixtures add exactly3 rows and preserve prior history. PURE candidate_id/packet_id remain None; native provider/effect counts are zero.",
+    "B2 actual revision_audit1 is SKIPPED_GUARD_FALSE for review_unknowns with unchanged task and zero new fixture attempts.",
+    "A5 legitimately chooses actual prior A1 material, not B. Its record_id and payload SHA match the original A1 WRITEBACK producer; its actual Work material_context contains the exact prior proposal/business/result identifiers and time values. Current source list and accepted_at are preserved, valid_to is bounded, a fresh Root decision and completed memory0 are observed, with zero model attempts.",
+    "Cancellation, refused rerun and result readback all retain the A5 selected result. Current actual guard refuses task_cancelled_before_dispatch before granting a round; round_observation is None and no new attempt occurs.",
+    "Together with A1-A4 these are seven observed closed started rounds and6 new inert fixture attempts, plus zero-grant cancellation. No C/R2 or full original-route completion is credited here."
+  ],
+  "ordinary_run_complete": false,
+  "owner_execution_authorized": false,
+  "prior_A_review_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_v03_partial_A_review.json",
+    "sha256": "18b99ae64d6bd9fdd1f3cb7f2e882ee47a5e4daef6be9fa5061aa3ceebbb661a",
+    "size_bytes": 34354
+  },
+  "reviewer": "/root/s04_reviewer",
+  "schema": "radik.independent.p31.partial_source_consumer_review.v01",
+  "source_only": true,
+  "source_review_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/runtime_source_review.json",
+    "sha256": "8d097d1098ef2ead0416387379f5b70be538320cd501b438eace9167acd6f0c7",
+    "size_bytes": 116601
+  },
+  "status": "ACCEPTED_COMPLETED_B1_B2_A5_A6_SOURCE_CONSUMER_WITNESSES_ONLY"
+}

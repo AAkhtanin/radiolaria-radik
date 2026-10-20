@@ -1,0 +1,256 @@
+{
+  "Stage04_complete": false,
+  "accepted_chain": [
+    "Actual cold O/BSEP/A/PURE Work/Critic/application Root and accepted original result",
+    "One source successor on the same task/live controller with unchanged source set and route",
+    "One native E v01, Pair1 and Pair2, affected child, exact retained child not queued, native parent consumption",
+    "Distinct business parent consumes exact retained historical business bytes and new changed branch; no full recompute",
+    "Delta Critic and new application Root ACCEPT current-source result",
+    "Actual memory writeback, same-process fresh eligibility and Root descent/readback with zero new model calls",
+    "Ordinary operation EXITED, child exit0/reaped, no primary, closed spans and grants, no active attempt/task"
+  ],
+  "actual_report_ref": {
+    "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+    "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+    "size_bytes": 283029
+  },
+  "admission_sha256": "5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3",
+  "author": "/root",
+  "counters": {
+    "active_attempt_id": null,
+    "after": 35,
+    "before": 29,
+    "exam_attempts": 16,
+    "historical_attempts_serialized_byte_equal": true,
+    "new": 6,
+    "new_attempt_ids": [
+      "radik-call:6a3971908c2d4d46b67edc4c6746ba11",
+      "radik-call:48c146dc510444cd9260ec3e9c8af5d1",
+      "radik-call:75881302a2fb4f77aeca2550a744eee5",
+      "radik-call:dce357eb4aed4acc890a90187ec6ec5a",
+      "radik-call:5d674da02d9c474c8c8f185b593e35e0",
+      "radik-call:125a590073ab478bb6682dbe61e2f0b0"
+    ],
+    "old_unknowns": 3,
+    "roles": [
+      "orchestrator",
+      "architect",
+      "critic",
+      "orchestrator",
+      "architect",
+      "critic"
+    ],
+    "rounds": [
+      {
+        "close_ref": {
+          "path": "state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+          "sha256": "854cc8e2daca7b7dd19e06132acfe3d826a886c9f290263d3264da8897353695",
+          "size_bytes": 340
+        },
+        "counted": 32,
+        "grant_ref": {
+          "path": "state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+          "sha256": "a6daa628a069546a8bf1438ca521e60cea6521bc8582d226043924dd6d183eac",
+          "size_bytes": 1219
+        },
+        "mode": "COLD"
+      },
+      {
+        "close_ref": {
+          "path": "state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+          "sha256": "dcb759598c1e698141f04afe464158f1926eb3f651cb0755cab742438e9f3117",
+          "size_bytes": 340
+        },
+        "counted": 35,
+        "grant_ref": {
+          "path": "state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+          "sha256": "ff9701b0f9005da4b782310cd2021e55b39619279c5505a1f4c6ccb1d6df6013",
+          "size_bytes": 1406
+        },
+        "mode": "INFORMATIONAL_DELTA"
+      }
+    ]
+  },
+  "current_passage": {
+    "AUTH_provider_model_Work_SAVE": false,
+    "application_or_native_execution": false,
+    "full_E_retry": false,
+    "native_validator_or_formatter_execution": false,
+    "owner_command_issued": false,
+    "owner_scenario_execution": false,
+    "passport_changes": false,
+    "profile_task_ledger_changes": false
+  },
+  "discrepancies": [],
+  "effects": {
+    "PURE_candidate_and_packet_ids": null,
+    "SAVE": false,
+    "external_effects": 0,
+    "native_provider_calls": 0,
+    "work_provider_calls": 0
+  },
+  "history": {
+    "P29_failure_preserved": true,
+    "P30_success_separate": true,
+    "exam16_bytes_unchanged": true,
+    "old_29_attempt_serialized_bytes_unchanged": true,
+    "old_UNKNOWN_count": 3,
+    "old_reservations_unchanged": true
+  },
+  "independent_final_conclusion_review": "Separate independent_acceptance_review.json binds this conclusion and external owner report before packaging.",
+  "limitations": [
+    "No external truth or entailment acceptance for the fictional documents",
+    "Saved evidence restores no live Host/Root/E/SAVE authority",
+    "No Stage04 completion or all-topology generalization",
+    "Recorded resolved_model UNKNOWN is retained; requested and served telemetry are not promoted to resolved-model identity. Ledger served_model UNKNOWN remains unchanged while returned telemetry retains its recorded gpt-6.1-sol value.",
+    "Public completed output/request/SSE trace metadata is retained; raw network SSE bytes are not claimed"
+  ],
+  "manifest_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+    "sha256": "9c2fa1df2d581b4d542dd1aaa9fb65cdcc047dff2a35d14ba92ec39db4cf7c8a",
+    "size_bytes": 63030
+  },
+  "measurements": {
+    "E_enter_exit_seconds": 2124.583643084,
+    "early_checkpoint_after_E_seconds": 440.570628167,
+    "final_process_cpu_seconds": 2515.987585,
+    "interpretation": "E wall interval, accumulated native spans and process CPU are distinct measurements.",
+    "native_span_cumulative_seconds": 2483.051726499,
+    "owner_wall_seconds": 2599.659387333
+  },
+  "next_package": {
+    "acceptance": "Each row closes only on a producer, predicate and actual current consumer witness or an already accepted unchanged applicable proof. The source profile, requested scope, budgets and time limits must be concretely reviewed before any future command is offered. This passage grants no command and performs no new execution.",
+    "failure": "Any missing eligible provider claim, expiry, current model/authority refusal or contradictory raw evidence remains an explicit row outcome; no automatic rerun, scope reduction or silent repair.",
+    "name": "One finite Stage04 ordinary-lifecycle closure package",
+    "parts": [
+      {
+        "part": 1,
+        "result": "A source-bound finite branch table and one independent admission for the whole package.",
+        "work": "Resolve ordinary profile/1-4 source and short/decomposed/nested branch equivalence against existing credits; freeze the finite missing cases, code/inputs and allowed model/operation budgets before any execution. Preserve all P29/P30/UNKNOWN history; no production profile edit is implied. Include changed semantic scope to new intake/predecessor and the already accepted ambiguity/settings controls explicitly; do not assume they require fresh tests without a current consumer gap."
+      },
+      {
+        "part": 2,
+        "result": "New current-branch observations only, with exact grant/history and no extra reserve after refusal.",
+        "work": "One isolated focused cohort for current normal-round cancellation, exhaustion and source-successor interruption boundaries. Use real admitted predicates/callbacks with explicitly labelled finite synthetic data where necessary; retain prior native tests without rerunning their campaigns."
+      },
+      {
+        "part": 3,
+        "result": "One observable owner scenario covers the missing actual ordinary consumer branches.",
+        "work": "A linked bounded ordinary sequence selects the remaining admissible explain/verify/source composition coverage; performs eligible exceptions/conditions contraction and unknowns continuation, proves cumulative revision refusal, task cancellation and preserved results. It must consume actual prior output/claim kinds and retain separate native/business/Root evidence; no fabricated model labels. Integrate status/history/clarification/settings only where current branch coverage is absent. Group into one package and one future owner entry, not one owner instruction per short check."
+      },
+      {
+        "part": 4,
+        "result": "Two separately identified closed processes and a fresh zero-provider memory consumer in the successor process, followed by one result archive.",
+        "work": "Create eligible material within the future package if old clocks have expired; close the first process normally and have the reviewed supervisor start one fresh process. Reconcile durable prefixes, refuse old live-context continuation, then perform explicit memory-only fresh eligibility/Root descent/PURE consumption without TTL renewal or cold fallback. Preserve old task and operation evidence; new process may not restore E authority. Export complete new witnesses and independent conclusions once."
+      }
+    ],
+    "reuse": [
+      "P30 native E and exact selective two-source chain; no full E repetition.",
+      "Historical actual153122/191707 role/native consumers and accepted finite native controls.",
+      "Exact unchanged dynamic_work, task_spec, memory, semantics, control and temporal source; re-review only changed executable dependencies and current ordinary consumers."
+    ],
+    "status": "PROPOSAL_ONLY_NOT_EXECUTED_OR_ADMITTED"
+  },
+  "owner_operation_id": "42abee1a-3219-44b2-8068-bf1192b5e156",
+  "receipt_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+    "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+    "size_bytes": 3722
+  },
+  "reporting": {
+    "binding_journal_rows": 47,
+    "both_final_inventories_present": true,
+    "passive_consumer_files": 7,
+    "public_entrypoint": "run_continuous_delta_runtime_v01",
+    "report_files": 26,
+    "required_kinds": 19,
+    "v02_only_required": false
+  },
+  "review_refs": [
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/operation_source_ledger_review.json",
+      "sha256": "870814bee28e7abd9e797dd6a5623a9f1e24fdfc65bc364a5a8c4b0929c7f67f",
+      "size_bytes": 145450
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/independent_operation_review.json",
+      "sha256": "0eb92e2875763202d498830fd19c5d1af67a1d414b38d1801e25925f0b9c9779",
+      "size_bytes": 174695
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/native_consumer_review.json",
+      "sha256": "c019ab55c6bec8241a45e52d730d89512767a8d3a16f3dd140e840af8e214dbe",
+      "size_bytes": 131371
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/public_role_provenance_review.json",
+      "sha256": "a9845893193ba88337363b7e31dd06ad5961539635e18e1c06b88dadb9db3c93",
+      "size_bytes": 30806
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/stage04_residual_review.json",
+      "sha256": "3fe75e9470e4fb7eb25b002717965be23216a6e39ef0205e0cd0fd6aa9edbe24",
+      "size_bytes": 36834
+    }
+  ],
+  "run_id": "daa3d0e38486",
+  "schema": "radik.p30.actual_acceptance.v01",
+  "scope": "FIRST_ACTUAL_SELECTIVE_TWO_SOURCE_DECOMPOSED_COMPARE_OWNER_SCENARIO",
+  "separate_consumer_claims": {
+    "application_root": {
+      "conflict_set_ids": [],
+      "decision": "ACCEPT",
+      "decision_id": "41653988dd61a7aee839b2ed888be87c934debda5d821a946a3aa622e71dde6e",
+      "decision_input_id": "bb604b2ed9f9cc40a4f532b12dfecbff56ce6b946150aa80ef97097ebeed75bf",
+      "effect_requested": false,
+      "final_output_created": false,
+      "hard_failure_reasons": [],
+      "missing_evidence_refs": [],
+      "permission_created": false,
+      "prior_decision_id": null,
+      "reason_code": "validated_candidate_accepted",
+      "root_commit_created": true,
+      "selected_candidate_id": "dynamic:result_candidate:611d52e073ccdc2d4d4854c21441925ed7411ba818c37e4856fbf11e9c5257bf",
+      "target_root_id": "root:radik:dynamic:07190c97:3b8781f2:a8cf97dd",
+      "transaction_id": "radik:dynamic_transaction:730360835841df99a96a74e8f9f9aefa548ea56468d8a9e057ae86e22233136e",
+      "transition_decision": {
+        "abi_major_version": 1,
+        "actor_role": "gt",
+        "attempted_effect": "CREATE_ROOT_DECISION",
+        "decision": "RETURN_TO_ROOT",
+        "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+        "matched": true,
+        "missing_guards": [],
+        "reason_code": "gt_advisory_returns_to_root",
+        "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+        "required_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "root_commit_present": false,
+        "root_commit_required": true,
+        "rule_id": "gt_advisory_to_root_decision",
+        "satisfied_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "source_artifact_type": "GTAdvisoryReport",
+        "source_lifecycle_state": "VALIDATED",
+        "target_artifact_type": "RootDecision"
+      }
+    },
+    "business_parent": "Exact retained extract0 TEXT bytes plus changed branch in actual new PURE invocation/result",
+    "memory": "Fresh readback/descent of persisted material in the same process; not a new warm Work consumer after process restart",
+    "native_parent": "Native recursive control result and retained-consumption relation only; not business extraction"
+  },
+  "source_identity_sha256": "1eea665344331556b365bf7a07c5a5b8b01c91f15183cec94edadd6c0266d1da",
+  "stage04_residual_ref": {
+    "path": "review/g2e_successor_passage/p30_actual_acceptance/stage04_residual_review.json",
+    "sha256": "3fe75e9470e4fb7eb25b002717965be23216a6e39ef0205e0cd0fd6aa9edbe24",
+    "size_bytes": 36834
+  },
+  "status": "P30_ACTUAL_SCENARIO_VERIFIED_STAGE04_PARTIAL",
+  "task_id": "radik-task:ade2e65cb7d24a1a907d48f86bdb8e27"
+}

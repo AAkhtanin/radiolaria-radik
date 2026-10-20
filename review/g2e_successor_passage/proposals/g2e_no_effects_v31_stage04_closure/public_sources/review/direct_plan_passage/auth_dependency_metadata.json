@@ -1,0 +1,190 @@
+{
+  "schema": "radik.plan_auth_dependency_metadata.v01",
+  "status": "EXACT_PUBLIC_SOURCE_AND_WHEEL_METADATA_NOT_INSTALLED_RECEIPT",
+  "package": "PyJWT",
+  "version": "2.14.0",
+  "official_metadata": "https://pypi.org/pypi/PyJWT/2.14.0/json",
+  "wheel": {
+    "filename": "pyjwt-2.14.0-py3-none-any.whl",
+    "sha256": "ad0cef71c756a56e74863c2919cf0985f72decbcfcb550ee2f422e7c62b5eedc",
+    "url": "https://files.pythonhosted.org/packages/9c/97/672cb32ce0dfea44b740cb7b4f97038463b9cf7c0ead1aacf595572851d6/pyjwt-2.14.0-py3-none-any.whl",
+    "size": 32896,
+    "yanked": false,
+    "requires_python": ">=3.9",
+    "python314_classifier_observed": true,
+    "download_attempt": {
+      "exit": 6,
+      "reason": "Could not resolve host: files.pythonhosted.org",
+      "downloaded_bytes": 0
+    }
+  },
+  "offline_dependency": {
+    "root": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0",
+    "source_tag": "2.14.0",
+    "tag_object": "718bf39b0dc08abfb383e552281d2a1c2e66057e",
+    "commit": "c6fe464b356ff4b1ebc9ba62172d331a40aa27df",
+    "tag_verified": false,
+    "sources": [
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/__init__.py",
+        "source_path": "jwt/__init__.py",
+        "git_blob": "4f9b68535d0056ec71cee33c7f2881165f323fe1",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/__init__.py",
+        "sha256": "0564795b435a412848db0d678100fd138aa3096075e8cce364751c7e427d60fd",
+        "bytes": 1805,
+        "recomputed_git_blob": "4f9b68535d0056ec71cee33c7f2881165f323fe1"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/algorithms.py",
+        "source_path": "jwt/algorithms.py",
+        "git_blob": "3f350e3c2f2a4f421c73d5e441c5155fca7c4045",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/algorithms.py",
+        "sha256": "bec5299c75db1d4bd7a5f9f1c382c85fc648025715b7e522b320e161d3aeb55a",
+        "bytes": 40244,
+        "recomputed_git_blob": "3f350e3c2f2a4f421c73d5e441c5155fca7c4045"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/api_jwk.py",
+        "source_path": "jwt/api_jwk.py",
+        "git_blob": "5ee26b41d488ba426a467ffae9a204d2d53e8b1c",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/api_jwk.py",
+        "sha256": "5df9913bd4846fe7d257b9c00c39f8bc611c75f83274c98ae50338a7cb20c63f",
+        "bytes": 6328,
+        "recomputed_git_blob": "5ee26b41d488ba426a467ffae9a204d2d53e8b1c"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/api_jws.py",
+        "source_path": "jwt/api_jws.py",
+        "git_blob": "81a2ccb4795e49d4ccb0db9797e80d5444e9c6dc",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/api_jws.py",
+        "sha256": "a0c578d4e09c823afe019ed3e0b06fb184c665ff34cfe404c68229ae3272269d",
+        "bytes": 17421,
+        "recomputed_git_blob": "81a2ccb4795e49d4ccb0db9797e80d5444e9c6dc"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/api_jwt.py",
+        "source_path": "jwt/api_jwt.py",
+        "git_blob": "051ed342daf80213d03104bcbf7f825f8b7b622b",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/api_jwt.py",
+        "sha256": "88fe0067b597c726ab53a49963207822a1a8efdbc138603146bd4324600cda18",
+        "bytes": 22244,
+        "recomputed_git_blob": "051ed342daf80213d03104bcbf7f825f8b7b622b"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/exceptions.py",
+        "source_path": "jwt/exceptions.py",
+        "git_blob": "57559fc43350e21458fe270b19c2384d6652feef",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/exceptions.py",
+        "sha256": "3540f48760343221d5e94f933edfc0af4a6b9c01f1c892748ba2c7216cddf154",
+        "bytes": 2375,
+        "recomputed_git_blob": "57559fc43350e21458fe270b19c2384d6652feef"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/help.py",
+        "source_path": "jwt/help.py",
+        "git_blob": "2f42b5daf51e9ad66a50af0e46731d40d0f79973",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/help.py",
+        "sha256": "1c1dd9b2b2557254745d8fac0c7f8bbe5e4aeda7b9422746894e96c93027621b",
+        "bytes": 1784,
+        "recomputed_git_blob": "2f42b5daf51e9ad66a50af0e46731d40d0f79973"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/jwk_set_cache.py",
+        "source_path": "jwt/jwk_set_cache.py",
+        "git_blob": "f3f3ca5726ad724df43a4b5645468fe1f14ef886",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/jwk_set_cache.py",
+        "sha256": "037f79442909503c4a2e3fcce91654912e34e407837a9130ced538938c434a85",
+        "bytes": 961,
+        "recomputed_git_blob": "f3f3ca5726ad724df43a4b5645468fe1f14ef886"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/jwks_client.py",
+        "source_path": "jwt/jwks_client.py",
+        "git_blob": "4ef34cea4888baf4814ccd8b3ea57c578594558d",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/jwks_client.py",
+        "sha256": "00ba62de23c8c80d90fb1f73539a8fbf32c47a959d8d0fbaf51e46800c419ab7",
+        "bytes": 11764,
+        "recomputed_git_blob": "4ef34cea4888baf4814ccd8b3ea57c578594558d"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/py.typed",
+        "source_path": "jwt/py.typed",
+        "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/py.typed",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "recomputed_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/types.py",
+        "source_path": "jwt/types.py",
+        "git_blob": "61bfdf03415c70aac51185e6738a8fab9e6f1b01",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/types.py",
+        "sha256": "478e81927a35574f1faaec6756bef502f5bab843e2947265aa4817e8e6d9167c",
+        "bytes": 3174,
+        "recomputed_git_blob": "61bfdf03415c70aac51185e6738a8fab9e6f1b01"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/utils.py",
+        "source_path": "jwt/utils.py",
+        "git_blob": "914cb50d0361b0df016a6d3f44eade2bdf64d6e9",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/utils.py",
+        "sha256": "e4e3d4faf0b15c47a049940088e256434b6566920ec7163c172ce47684c29ac0",
+        "bytes": 4067,
+        "recomputed_git_blob": "914cb50d0361b0df016a6d3f44eade2bdf64d6e9"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/jwt/warnings.py",
+        "source_path": "jwt/warnings.py",
+        "git_blob": "8a41a36d10882888cd5398f697bc1a2a04706214",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/jwt/warnings.py",
+        "sha256": "8904ef3fe34f0d003eb6e84f86389f124611a8c520b5ef7d88e3cc25cfc32c99",
+        "bytes": 330,
+        "recomputed_git_blob": "8a41a36d10882888cd5398f697bc1a2a04706214"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/LICENSE",
+        "source_path": "LICENSE",
+        "git_blob": "fd0ecbc889c067a562b3a745c9d2d7934f87d64b",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/LICENSE",
+        "sha256": "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5",
+        "bytes": 1085,
+        "recomputed_git_blob": "fd0ecbc889c067a562b3a745c9d2d7934f87d64b"
+      },
+      {
+        "path": "review/direct_plan_passage/test_dependencies/PyJWT-2.14.0/AUTHORS.rst",
+        "source_path": "AUTHORS.rst",
+        "git_blob": "88e2b6ad752425c0c372874e5b3b7695408e7ee3",
+        "url": "https://github.com/jpadilla/pyjwt/blob/2.14.0/AUTHORS.rst",
+        "sha256": "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07",
+        "bytes": 322,
+        "recomputed_git_blob": "88e2b6ad752425c0c372874e5b3b7695408e7ee3"
+      }
+    ],
+    "source_to_wheel_byte_equivalence": "NOT_ESTABLISHED: exact publisher release version and source tag binding; owner installer must verify actual locked wheel and installed payload"
+  },
+  "setup": {
+    "venv": ".venv-plan",
+    "lock": "config/requirements-plan-auth.txt",
+    "combined_runtime_lock": "config/requirements-plan-base.txt",
+    "pip_policy": [
+      "--require-hashes",
+      "--only-binary=:all:",
+      "--no-deps"
+    ],
+    "global_mutations": false,
+    "prior_venv_mutations": false
+  },
+  "verifier_profile": {
+    "algorithms": [
+      "RS256"
+    ],
+    "PyJWKClient_used": false,
+    "unverified_payload_used": false,
+    "individual_public_RSA_JWK_validation": true,
+    "private_or_symmetric_JWK_refused": true,
+    "raw_exceptions_curated": true,
+    "token_and_JSON_byte_bounds": true
+  },
+  "author_imports": 0
+}

@@ -1,0 +1,341 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hedgehog-os.local/schemas/gt_report.schema.json",
+  "title": "GTValidator Report",
+  "type": "object",
+  "required": [
+    "gt_report_id",
+    "game_mode",
+    "candidates",
+    "decision",
+    "created_at"
+  ],
+  "properties": {
+    "gt_report_id": {
+      "$ref": "common.schema.json#/$defs/Id"
+    },
+    "request_id": {
+      "$ref": "common.schema.json#/$defs/Id"
+    },
+    "game_mode": {
+      "enum": [
+        "result_selection",
+        "marenna_game",
+        "up_game",
+        "memory_evo"
+      ]
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "candidate_type",
+          "payoff",
+          "regret",
+          "elo_before",
+          "elo_after"
+        ],
+        "properties": {
+          "candidate_id": {
+            "$ref": "common.schema.json#/$defs/Id"
+          },
+          "candidate_type": {
+            "enum": [
+              "result_proposal",
+              "memory_record",
+              "marenna_patch",
+              "up_candidate",
+              "protocol_template"
+            ]
+          },
+          "payoff": {
+            "type": "number"
+          },
+          "regret": {
+            "type": "number",
+            "minimum": 0
+          },
+          "elo_before": {
+            "type": "number"
+          },
+          "elo_after": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "decision": {
+      "enum": [
+        "accept",
+        "revise",
+        "reject",
+        "rerun",
+        "needs_user",
+        "no_update"
+      ]
+    },
+    "created_at": {
+      "$ref": "common.schema.json#/$defs/Timestamp"
+    },
+    "winner": {
+      "$ref": "common.schema.json#/$defs/Id"
+    },
+    "mix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "probability"
+        ],
+        "properties": {
+          "candidate_id": {
+            "$ref": "common.schema.json#/$defs/Id"
+          },
+          "probability": {
+            "$ref": "common.schema.json#/$defs/Score01"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "ratings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "rating_before",
+          "rating_after",
+          "expected",
+          "result"
+        ],
+        "properties": {
+          "candidate_id": {
+            "$ref": "common.schema.json#/$defs/Id"
+          },
+          "rating_before": {
+            "type": "number"
+          },
+          "rating_after": {
+            "type": "number"
+          },
+          "expected": {
+            "$ref": "common.schema.json#/$defs/Score01"
+          },
+          "result": {
+            "$ref": "common.schema.json#/$defs/Score01"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "half_life_hours": {
+      "type": "number",
+      "minimum": 0
+    },
+    "decay_rate": {
+      "type": "number",
+      "minimum": 0
+    },
+    "dominance": {
+      "enum": [
+        "none",
+        "weak",
+        "strict"
+      ]
+    },
+    "candidate_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "proposal_id",
+          "status",
+          "accepted",
+          "utility",
+          "risk_penalty",
+          "cost_penalty",
+          "robustness",
+          "status_bonus",
+          "novelty_or_reuse_bonus",
+          "payoff",
+          "regret",
+          "selection_notes"
+        ],
+        "properties": {
+          "proposal_id": {
+            "$ref": "common.schema.json#/$defs/Id"
+          },
+          "status": {
+            "$ref": "common.schema.json#/$defs/NonEmptyString"
+          },
+          "accepted": {
+            "type": "boolean"
+          },
+          "vector_id": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/Id"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "avf_final_viability": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "avf_soft_mask": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "utility": {
+            "type": "number"
+          },
+          "risk_penalty": {
+            "type": "number",
+            "minimum": 0
+          },
+          "cost_penalty": {
+            "type": "number",
+            "minimum": 0
+          },
+          "robustness": {
+            "type": "number"
+          },
+          "status_bonus": {
+            "type": "number"
+          },
+          "novelty_or_reuse_bonus": {
+            "type": "number"
+          },
+          "base_payoff_v0_1": {
+            "type": "number"
+          },
+          "vector_role_bonus": {
+            "type": "number"
+          },
+          "fallback_role_penalty": {
+            "type": "number",
+            "minimum": 0
+          },
+          "human_burden_penalty": {
+            "type": "number",
+            "minimum": 0
+          },
+          "dependency_depth_penalty": {
+            "type": "number",
+            "minimum": 0
+          },
+          "evidence_strength_bonus": {
+            "type": "number"
+          },
+          "payoff": {
+            "type": "number"
+          },
+          "regret": {
+            "type": "number",
+            "minimum": 0
+          },
+          "selection_notes": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/NonEmptyString"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "payoff_formula_version": {
+      "const": "gt_payoff_v0_2"
+    },
+    "winner_payoff": {
+      "type": "number"
+    },
+    "regret_summary": {
+      "type": "object",
+      "required": [
+        "candidate_count",
+        "max_regret",
+        "mean_regret"
+      ],
+      "properties": {
+        "candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_regret": {
+          "type": "number",
+          "minimum": 0
+        },
+        "mean_regret": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "dominated_candidate_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/Id"
+      }
+    },
+    "selection_reason": {
+      "$ref": "common.schema.json#/$defs/NonEmptyString"
+    },
+    "tie_detected": {
+      "type": "boolean"
+    },
+    "tie_candidate_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/Id"
+      }
+    },
+    "tie_break_rule": {
+      "$ref": "common.schema.json#/$defs/NonEmptyString"
+    },
+    "audit": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "audit_id": {
+          "$ref": "common.schema.json#/$defs/Id"
+        },
+        "hash": {
+          "$ref": "common.schema.json#/$defs/NonEmptyString"
+        },
+        "previous_hash": {
+          "$ref": "common.schema.json#/$defs/NonEmptyString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/NonEmptyString"
+      }
+    }
+  },
+  "additionalProperties": false
+}

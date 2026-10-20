@@ -1,0 +1,25 @@
+{
+  "author": "/root/s04_reviewer",
+  "author_acceptance": false,
+  "checks": [
+    "All eight input document references resolve to exact UTF-8 bytes.",
+    "A/B descriptor preserved from the supervisor author input draft.",
+    "C has four distinct fictional store documents, a new goal and criterion, and a deliberately contestable supplied candidate.",
+    "No expected model output, claim type override, topology or runtime permission is embedded.",
+    "C was committed after general wiring initial freeze; later generic repairs require independent review."
+  ],
+  "inputs_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs_v02.json",
+    "sha256": "3a2fd29d66d60eec6b3af107fc3208369a9322a9bb159b9445d191aea524601b",
+    "size_bytes": 3751
+  },
+  "provenance_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/held_out_input_provenance.json",
+    "sha256": "fc87bd142fdc29a2d0ad62f999da577cdb6bfc9e215314ce96d63b18be957d1e",
+    "size_bytes": 2897
+  },
+  "reviewer": "/root",
+  "schema": "radik.p31.held_out_input_independent_review.v01",
+  "semantic_acceptance": false,
+  "status": "ACCEPTED_AS_TASK_INPUT_NOT_AS_MODEL_RESULT"
+}

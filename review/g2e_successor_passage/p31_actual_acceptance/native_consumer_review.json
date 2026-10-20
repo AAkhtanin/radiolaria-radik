@@ -1,0 +1,575 @@
+{
+  "schema": "radik.p31.actual_native_consumer_review.v01",
+  "reviewer": "/root/p31_actual_reviewer",
+  "reviewed_at_utc": "2026-10-20T15:17:12.077616+00:00",
+  "status": "PASS_NATIVE_PRODUCER_CONSUMER_AND_CONTINUATIONS",
+  "method": "Read-only hashes and native data linkage, no candidate imports or recomputation. Every USED producer output is byte/value bound to consumer input; boolean guard binding separately checked against dispatched or skipped status.",
+  "rows": [
+    {
+      "step": "A1",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+        "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+        "size_bytes": 339422
+      },
+      "native_ref": {
+        "bytes": 903502,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_a65e16b4e62c06edae7eae6027fa48939a98695377bb8ced68f6713f5d70af16.json",
+        "sha256": "a65e16b4e62c06edae7eae6027fa48939a98695377bb8ced68f6713f5d70af16"
+      },
+      "task_id": "radik-task:78901239460e4736946030b069601bd8",
+      "result_id": "radik:dynamic_result:a5a78dc17ae30e84d01028b5263c23e6eb4ac3eb6e36a94e2ad38feb836d2e92",
+      "root_decision_id": "73357df7b4c613c83ec3c01d89b5e59ac649cff71c782bc8c87ab174dc1bde53",
+      "work_completed": [
+        "extract0",
+        "gate0",
+        "audit0",
+        "result0"
+      ],
+      "work_skipped": [],
+      "role_calls": 3,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "audit0",
+          "producer": "extract0",
+          "producer_result_id": "capability_result:26e7af35e575f328765d87a9b3540d5d3dca578f617d24d3d3b2caae7f2161c3",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "audit0",
+          "producer": "gate0",
+          "producer_result_id": "capability_result:bc13acaf7553bef19cbc0d16a5a4c61693005c05ddd4ecf5cdf49df0cb153e15",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract0",
+          "producer_result_id": "capability_result:26e7af35e575f328765d87a9b3540d5d3dca578f617d24d3d3b2caae7f2161c3",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "audit0",
+          "producer_result_id": "capability_result:f837b223d1b34d03282a92677a6e1b20b39511029648563c5e5827ab06340c69",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        }
+      ],
+      "statement": "Eligibility condition: Fictional Service Fern offers priority telephone support if the customer has an active annual plan.\nPublic-holiday exception: Priority telephone support is unavailable on public holidays.\nResponse commitment: Urgent requests are handled within one working day; this statement does not extend that commitment to all requests.\nUnknown call cost: The source does not specify call prices, so neither free calls nor any particular charge can be inferred."
+    },
+    {
+      "step": "A2",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+        "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+        "size_bytes": 364155
+      },
+      "native_ref": {
+        "bytes": 1111414,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_1ddc899a3c46ecc73e1dcee8a227aac5fe128fd959bce670228fd64db4b49874.json",
+        "sha256": "1ddc899a3c46ecc73e1dcee8a227aac5fe128fd959bce670228fd64db4b49874"
+      },
+      "task_id": "radik-task:78901239460e4736946030b069601bd8",
+      "result_id": "radik:dynamic_result:43e56d4b288263c62b33e0b9a4da523d2a3972259bb69edb7bb94062a88c141d",
+      "root_decision_id": "fc670b9f486e0044a33217cf2d55b58b83273becb06975e3389e78bbfd17d310",
+      "work_completed": [
+        "revision_gate1",
+        "revision_audit1",
+        "revision_result1"
+      ],
+      "work_skipped": [],
+      "role_calls": 0,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "revision_gate1",
+          "producer": "result0",
+          "producer_result_id": "capability_result:c186ad1d427921d3db5d1dc298bfe19214c4b42ec4a2d1f3fff44150116c75bf",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        },
+        {
+          "consumer": "revision_audit1",
+          "producer": "result0",
+          "producer_result_id": "capability_result:c186ad1d427921d3db5d1dc298bfe19214c4b42ec4a2d1f3fff44150116c75bf",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        },
+        {
+          "consumer": "revision_audit1",
+          "producer": "revision_gate1",
+          "producer_result_id": "capability_result:01e57bf2e79f30a3871b858802d38f815c36b05d8ba819992735ec2cabf99bdf",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "revision_result1",
+          "producer": "result0",
+          "producer_result_id": "capability_result:c186ad1d427921d3db5d1dc298bfe19214c4b42ec4a2d1f3fff44150116c75bf",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        },
+        {
+          "consumer": "revision_result1",
+          "producer": "revision_audit1",
+          "producer_result_id": "capability_result:aebac6ccea3af54f9a286c4149a8c5a1eb2133df1759bb95ab7eb64dc6f979a4",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        }
+      ],
+      "statement": "Eligibility condition: Fictional Service Fern offers priority telephone support if the customer has an active annual plan.\nPublic-holiday exception: Priority telephone support is unavailable on public holidays.\nResponse commitment: Urgent requests are handled within one working day; this statement does not extend that commitment to all requests.\nUnknown call cost: The source does not specify call prices, so neither free calls nor any particular charge can be inferred."
+    },
+    {
+      "step": "A3",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+        "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+        "size_bytes": 370789
+      },
+      "native_ref": {
+        "bytes": 1237172,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_fcb1d8fd2c54452d0817cc0630e682f7d2bcb44bdfacbec9b18f1ba940ed6709.json",
+        "sha256": "fcb1d8fd2c54452d0817cc0630e682f7d2bcb44bdfacbec9b18f1ba940ed6709"
+      },
+      "task_id": "radik-task:78901239460e4736946030b069601bd8",
+      "result_id": "radik:dynamic_result:32b002f41efca8450777063ea000dc4c147f0c97ac14f4d944c4f6ec20c08723",
+      "root_decision_id": "c594b8c820bb9f2621ab111553685180ddd2bb1b1b9ab691fed635b58508acef",
+      "work_completed": [
+        "revision_gate2",
+        "revision_result2"
+      ],
+      "work_skipped": [
+        "revision_audit2"
+      ],
+      "role_calls": 0,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "revision_gate2",
+          "producer": "revision_result1",
+          "producer_result_id": "capability_result:d530c663f3d6b8b54b647c429e746c6d090cbaeccdd2a15fac1c82aa8748aa0c",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        },
+        {
+          "consumer": "revision_audit2",
+          "producer": "revision_gate2",
+          "producer_result_id": "capability_result:149d5e9d84809243e53884341b630c8065eb5e3150f8b1155cc6fb50d003b832",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "revision_result2",
+          "producer": "revision_result1",
+          "producer_result_id": "capability_result:d530c663f3d6b8b54b647c429e746c6d090cbaeccdd2a15fac1c82aa8748aa0c",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        }
+      ],
+      "statement": "Eligibility condition: Fictional Service Fern offers priority telephone support if the customer has an active annual plan.\nPublic-holiday exception: Priority telephone support is unavailable on public holidays.\nResponse commitment: Urgent requests are handled within one working day; this statement does not extend that commitment to all requests.\nUnknown call cost: The source does not specify call prices, so neither free calls nor any particular charge can be inferred."
+    },
+    {
+      "step": "B1",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+        "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+        "size_bytes": 452164
+      },
+      "native_ref": {
+        "bytes": 961611,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/290d6d86d9612159ee927f4d74a8e3a6f3862c996078d68dc6acfda963e679c6/dynamic_native_work_e8d4309140d9e0849509a9b95068911cd47b341607f3e8edd51fcbf367cd2dd7.json",
+        "sha256": "e8d4309140d9e0849509a9b95068911cd47b341607f3e8edd51fcbf367cd2dd7"
+      },
+      "task_id": "radik-task:6d8691de6c194e59a8711c6cfbf988d5",
+      "result_id": "radik:dynamic_result:cbbc0f42b3a8d49f6183ae314361d50236d62f8218f045ee95753c7bebfd0005",
+      "root_decision_id": "de3c9903d323c81dc449edf9df0337ea1d8fc387b8e7a8c0d90412ddad7e29c3",
+      "work_completed": [
+        "extract0",
+        "extract1",
+        "extract2",
+        "gate0",
+        "audit0",
+        "result0"
+      ],
+      "work_skipped": [],
+      "role_calls": 3,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "audit0",
+          "producer": "extract0",
+          "producer_result_id": "capability_result:66bb06fa97118ca4359d585a2c6d7203d7aee57e3520e2dffd5f7b17a346b535",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "audit0",
+          "producer": "gate0",
+          "producer_result_id": "capability_result:2ef9b2755c699927cde319a21b9eb3205ada0462307fc4e850a1ef486539af37",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract0",
+          "producer_result_id": "capability_result:66bb06fa97118ca4359d585a2c6d7203d7aee57e3520e2dffd5f7b17a346b535",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract1",
+          "producer_result_id": "capability_result:5cec4385c24e3e84f1b1955e55cc4a6e9b5248e5214ed2fb0906a409712d91d1",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract2",
+          "producer_result_id": "capability_result:090658851fd2d9faffd4a2b4ddc451a9a6d243f2f188b13c776111e92a496f07",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "audit0",
+          "producer_result_id": "capability_result:baf4b5ba7ef097f2a875f5edced4a7343891bf491d6ab48cd1414e32cb129aca",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        }
+      ],
+      "statement": "The supplied candidate in the task is only partially supported. Dispatch within three working days is supported conditional on confirmed payment; public holidays do not count as working days. This concerns dispatch, not arrival. Returns within fourteen days require an available receipt, but opened sealed goods are explicitly excluded even with a receipt. The candidate's claim that such goods are accepted therefore contradicts the returns policy. The claim that Linden always pays return postage is unsupported: neither the payer nor the return-postage fee is specified, so it is not established false merely by this omission. A supported replacement is: Linden dispatches within three working days if payment is confirmed, excluding public holidays from that count; it accepts returns within fourteen days with a receipt, except for opened sealed goods; return-postage responsibility and cost remain unspecified."
+    },
+    {
+      "step": "B2",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077.json",
+        "sha256": "5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077",
+        "size_bytes": 473294
+      },
+      "native_ref": {
+        "bytes": 1131315,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/290d6d86d9612159ee927f4d74a8e3a6f3862c996078d68dc6acfda963e679c6/dynamic_native_work_09393a2f503930bf1991bfb9a18a54bbf84fc855a34badc4fd3a8f6f8796276e.json",
+        "sha256": "09393a2f503930bf1991bfb9a18a54bbf84fc855a34badc4fd3a8f6f8796276e"
+      },
+      "task_id": "radik-task:6d8691de6c194e59a8711c6cfbf988d5",
+      "result_id": "radik:dynamic_result:4a103bc4dd1f07de92cc8c94548a9bd9c3f933cd0e805680c374e7c03e152647",
+      "root_decision_id": "c73ebaad32176c46b6539093a3d4816931bbd890b6f7e7c843274e7987e0330e",
+      "work_completed": [
+        "revision_gate1",
+        "revision_result1"
+      ],
+      "work_skipped": [
+        "revision_audit1"
+      ],
+      "role_calls": 0,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "revision_gate1",
+          "producer": "result0",
+          "producer_result_id": "capability_result:a0341e2249d52a6b438d02af5f1c5db5b8e4709b55202c2bf176c1722de17653",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        },
+        {
+          "consumer": "revision_audit1",
+          "producer": "revision_gate1",
+          "producer_result_id": "capability_result:c6c2cd5aea4b0e58e691b309bf971dcfe7991cc42c50db7dc2ffb5ff9a2cadf5",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "revision_result1",
+          "producer": "result0",
+          "producer_result_id": "capability_result:a0341e2249d52a6b438d02af5f1c5db5b8e4709b55202c2bf176c1722de17653",
+          "field": "/result",
+          "reason": "used:actual_historical_output_field"
+        }
+      ],
+      "statement": "The supplied candidate in the task is only partially supported. Dispatch within three working days is supported conditional on confirmed payment; public holidays do not count as working days. This concerns dispatch, not arrival. Returns within fourteen days require an available receipt, but opened sealed goods are explicitly excluded even with a receipt. The candidate's claim that such goods are accepted therefore contradicts the returns policy. The claim that Linden always pays return postage is unsupported: neither the payer nor the return-postage fee is specified, so it is not established false merely by this omission. A supported replacement is: Linden dispatches within three working days if payment is confirmed, excluding public holidays from that count; it accepts returns within fourteen days with a receipt, except for opened sealed goods; return-postage responsibility and cost remain unspecified."
+    },
+    {
+      "step": "A5",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853.json",
+        "sha256": "59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853",
+        "size_bytes": 467673
+      },
+      "native_ref": {
+        "bytes": 875993,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_62cd21b8a1b8ae55a4153ebfa03354e1dfc59e6f4141afc4dbbfb96e9e627fa2.json",
+        "sha256": "62cd21b8a1b8ae55a4153ebfa03354e1dfc59e6f4141afc4dbbfb96e9e627fa2"
+      },
+      "task_id": "radik-task:78901239460e4736946030b069601bd8",
+      "result_id": "radik:dynamic_result:ac2201ce2048bb4a238c61a14cd38763616f120fb04d3c8e5af3dac7f524f242",
+      "root_decision_id": "ad30f6104b006a4da3eda2fe4c635462e76ccf4b0c2b14ed3de3eb6a73b473c0",
+      "work_completed": [
+        "memory0"
+      ],
+      "work_skipped": [],
+      "role_calls": 0,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [],
+      "statement": "Eligibility condition: Fictional Service Fern offers priority telephone support if the customer has an active annual plan.\nPublic-holiday exception: Priority telephone support is unavailable on public holidays.\nResponse commitment: Urgent requests are handled within one working day; this statement does not extend that commitment to all requests.\nUnknown call cost: The source does not specify call prices, so neither free calls nor any particular charge can be inferred."
+    },
+    {
+      "step": "C1",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+        "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+        "size_bytes": 552873
+      },
+      "native_ref": {
+        "bytes": 983631,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/63fc8b9ce15be15f8ef077fe94410dce21bffcb17e5fb15775ec936528e8f5d2/dynamic_native_work_a033b2880e82c12fbb99353e42cb735b2a42ccc1f597e1fd379536cf3e1f6ff5.json",
+        "sha256": "a033b2880e82c12fbb99353e42cb735b2a42ccc1f597e1fd379536cf3e1f6ff5"
+      },
+      "task_id": "radik-task:01e87359faab4eb1a3eb11e29718aae6",
+      "result_id": "radik:dynamic_result:1a494362409f403b535c2ae6c0b21bee8126f9c5208202e747a31e83f4ff5cf6",
+      "root_decision_id": "6078ffb88006eb65c3900f275fe15218e4eafaa1b4c537132ea1955331639fd1",
+      "work_completed": [
+        "extract0",
+        "extract1",
+        "extract2",
+        "extract3",
+        "gate0",
+        "result0"
+      ],
+      "work_skipped": [
+        "audit0"
+      ],
+      "role_calls": 3,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [
+        {
+          "consumer": "audit0",
+          "producer": "gate0",
+          "producer_result_id": "capability_result:cab7f73ae1a01b4e7877a067509e9820700c72b5527a0359a24f4a5baf78ced0",
+          "field": "/enabled",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract0",
+          "producer_result_id": "capability_result:2c01f55859f8c8980c023c2e14b8129ca2cfa2a4f13750ab350597147d008370",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract1",
+          "producer_result_id": "capability_result:54bcf76d5edd8cdebd674ca47e0e1811632525e4c36c5c28f733f65225534348",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract2",
+          "producer_result_id": "capability_result:6bbbfa6d148a573231ef7678531ae6c9380a8bac2cb3ce482499572a37a648f0",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        },
+        {
+          "consumer": "result0",
+          "producer": "extract3",
+          "producer_result_id": "capability_result:09c2cb5e32a025f0dfaed250688471a33a385582ff94494b3d141e3a8f6de346",
+          "field": "/material",
+          "reason": "used:actual_output_field"
+        }
+      ],
+      "statement": "Taken together, the four documents do not verify the proposed assurances. Dispatch: the documented promise is within two working days after payment confirmation, excluding preordered goods—not a guarantee of next-working-day dispatch for every paid order. Returns: the assurance about personalized goods contradicts their explicit exclusion. The policy accepts unopened goods within ten calendar days when a receipt is provided, subject to that exclusion. Postage: payment for every return is unsupported; Moss pays return postage for goods damaged in transit if photographs were recorded on delivery. Responsibility for change-of-mind return postage and its cost are unstated, so neither free returns nor a customer charge can be inferred. Pickup: indefinite holding without written approval contradicts the three-working-day holding period after the ready notice. Collection beyond that period requires a written extension; without one, the order is cancelled."
+    },
+    {
+      "step": "R2",
+      "readback_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+        "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+        "size_bytes": 427740
+      },
+      "native_ref": {
+        "bytes": 912944,
+        "classification": "PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY",
+        "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/review/task_evidence/63fc8b9ce15be15f8ef077fe94410dce21bffcb17e5fb15775ec936528e8f5d2/dynamic_native_work_a238fa4d25f4de698ebe5c4263aa742d7f24c4e898d90fd81eacaebb4d297830.json",
+        "sha256": "a238fa4d25f4de698ebe5c4263aa742d7f24c4e898d90fd81eacaebb4d297830"
+      },
+      "task_id": "radik-task:01e87359faab4eb1a3eb11e29718aae6",
+      "result_id": "radik:dynamic_result:c36499b9f5d7c7906833bf80219278e85c1fa7b62f58292d84e2b963d2860eb8",
+      "root_decision_id": "9d266962fdd78714d5821b5715ebae71d1cb49cfe6d9b4e3e40bc2085fac8c9b",
+      "work_completed": [
+        "memory0"
+      ],
+      "work_skipped": [],
+      "role_calls": 0,
+      "native_provider_calls": 0,
+      "effects": 0,
+      "actual_consumption": [],
+      "statement": "Taken together, the four documents do not verify the proposed assurances. Dispatch: the documented promise is within two working days after payment confirmation, excluding preordered goods—not a guarantee of next-working-day dispatch for every paid order. Returns: the assurance about personalized goods contradicts their explicit exclusion. The policy accepts unopened goods within ten calendar days when a receipt is provided, subject to that exclusion. Postage: payment for every return is unsupported; Moss pays return postage for goods damaged in transit if photographs were recorded on delivery. Responsibility for change-of-mind return postage and its cost are unstated, so neither free returns nor a customer charge can be inferred. Pickup: indefinite holding without written approval contradicts the three-working-day holding period after the ready notice. Collection beyond that period requires a written extension; without one, the order is cancelled."
+    }
+  ],
+  "required_primary_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/OWNER_20261020T135920_1936851b33af4ae2aeaef4ead90cbb34/scenario_result.json",
+      "sha256": "ed15d5373fe91b14fd96df3493c95bf734e3177f8acfa679e12e4c166a70a5aa",
+      "size_bytes": 12900
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786.json",
+      "sha256": "9a6ae9cc35dfbc4cdb4ab13cbf4584316d0d22fd90930f0c7ed480013f0a1786",
+      "size_bytes": 217476
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3.json",
+      "sha256": "33f3947981e8974e191ea20b14a3d473848e23e4083deeefbe41a29ea06b2bd3",
+      "size_bytes": 339422
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da.json",
+      "sha256": "1bf0ed2e04a67911b02af5aaf96e94e98d8dcb4f1f741a7f59651c8f6f2696da",
+      "size_bytes": 364155
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4.json",
+      "sha256": "82f2652d9058e6fa45f6e7eb2c5acfea2bf3c47bf5ac8bdc4197e2bbd46e8bc4",
+      "size_bytes": 370789
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474.json",
+      "sha256": "52016cc33a3fa239156d310a38824f6c36a6afc10f487f4401b6b37b909ec474",
+      "size_bytes": 459753
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2.json",
+      "sha256": "68082312e18871265e7e8a5d735fb1997293b87094a571d05a959c191985ecd2",
+      "size_bytes": 315680
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c.json",
+      "sha256": "c7435b849ba03b86868a276692491001ee4b2136e8425a0e6e0acb5f6a2f9f5c",
+      "size_bytes": 452164
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077.json",
+      "sha256": "5eb45df43b183fd9866c95e5f6e72edf38efddcb7633d3264c7c5104269d5077",
+      "size_bytes": 473294
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4.json",
+      "sha256": "c32c7833467d611f9f32a9092d1fa848e887ce39f6338307b8318b3f968673f4",
+      "size_bytes": 461651
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853.json",
+      "sha256": "59eb18422d2e48a05af16366c418c257ae2db057a37a25a5baea1fb0809fb853",
+      "size_bytes": 467673
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e.json",
+      "sha256": "593f80a2332c7de72b14325101bfa1123a21f45ea64d95a7f849cf3cd3d96c2e",
+      "size_bytes": 458953
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347.json",
+      "sha256": "546dc3714d89072056e9885eb62f13ff0783429bb79708488cf6c645ef234347",
+      "size_bytes": 459226
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518.json",
+      "sha256": "c6c75f06f405906b4613b0b30cb1e9cd88d43031fd8110e72b708d627d9bc518",
+      "size_bytes": 458953
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257.json",
+      "sha256": "d2f8397bbed074d8066b00ff17d7c50fae4302b6189b43519ceebd8e21bda257",
+      "size_bytes": 458893
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e.json",
+      "sha256": "fc631db56db02fc12aaad4c6e4fddadeca49c943ffc2f7ad90c6bdbc8a82027e",
+      "size_bytes": 408910
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85.json",
+      "sha256": "12d08a0de5876d1becf6a46f004ab132b4507c1c5dae47d43bb41dfa1b7ccf85",
+      "size_bytes": 552873
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/cb6e99aa7062ad2fcd81fc28/ordinary_console_command_a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c.json",
+      "sha256": "a35f8e8b18172b29a63b331b3ef073f9972d31c894524fcfcaf3d6743cb8046c",
+      "size_bytes": 551713
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7.json",
+      "sha256": "d3d59899c5e0d80f251b97c1345817df3863d15655c63d77e78e45304c4dffd7",
+      "size_bytes": 333845
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72.json",
+      "sha256": "b0ad84c792860c9922484f21ea73188ad55dc843d983e9701614d0d21f810d72",
+      "size_bytes": 427740
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/3a134f65fd217085e94523d3/ordinary_console_command_4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46.json",
+      "sha256": "4964918d0430d7d7f89bf0d6ad7b48468fa5a4b2955c89cc0d2175e135514e46",
+      "size_bytes": 418938
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_a65e16b4e62c06edae7eae6027fa48939a98695377bb8ced68f6713f5d70af16.json",
+      "sha256": "a65e16b4e62c06edae7eae6027fa48939a98695377bb8ced68f6713f5d70af16",
+      "size_bytes": 903502
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_1ddc899a3c46ecc73e1dcee8a227aac5fe128fd959bce670228fd64db4b49874.json",
+      "sha256": "1ddc899a3c46ecc73e1dcee8a227aac5fe128fd959bce670228fd64db4b49874",
+      "size_bytes": 1111414
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_fcb1d8fd2c54452d0817cc0630e682f7d2bcb44bdfacbec9b18f1ba940ed6709.json",
+      "sha256": "fcb1d8fd2c54452d0817cc0630e682f7d2bcb44bdfacbec9b18f1ba940ed6709",
+      "size_bytes": 1237172
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/290d6d86d9612159ee927f4d74a8e3a6f3862c996078d68dc6acfda963e679c6/dynamic_native_work_e8d4309140d9e0849509a9b95068911cd47b341607f3e8edd51fcbf367cd2dd7.json",
+      "sha256": "e8d4309140d9e0849509a9b95068911cd47b341607f3e8edd51fcbf367cd2dd7",
+      "size_bytes": 961611
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/290d6d86d9612159ee927f4d74a8e3a6f3862c996078d68dc6acfda963e679c6/dynamic_native_work_09393a2f503930bf1991bfb9a18a54bbf84fc855a34badc4fd3a8f6f8796276e.json",
+      "sha256": "09393a2f503930bf1991bfb9a18a54bbf84fc855a34badc4fd3a8f6f8796276e",
+      "size_bytes": 1131315
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/1e1546b0466d07895aacd6a0c930ecbdeec03074f70967e5b9613b7b9c56c173/dynamic_native_work_62cd21b8a1b8ae55a4153ebfa03354e1dfc59e6f4141afc4dbbfb96e9e627fa2.json",
+      "sha256": "62cd21b8a1b8ae55a4153ebfa03354e1dfc59e6f4141afc4dbbfb96e9e627fa2",
+      "size_bytes": 875993
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/63fc8b9ce15be15f8ef077fe94410dce21bffcb17e5fb15775ec936528e8f5d2/dynamic_native_work_a033b2880e82c12fbb99353e42cb735b2a42ccc1f597e1fd379536cf3e1f6ff5.json",
+      "sha256": "a033b2880e82c12fbb99353e42cb735b2a42ccc1f597e1fd379536cf3e1f6ff5",
+      "size_bytes": 983631
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/63fc8b9ce15be15f8ef077fe94410dce21bffcb17e5fb15775ec936528e8f5d2/dynamic_native_work_a238fa4d25f4de698ebe5c4263aa742d7f24c4e898d90fd81eacaebb4d297830.json",
+      "sha256": "a238fa4d25f4de698ebe5c4263aa742d7f24c4e898d90fd81eacaebb4d297830",
+      "size_bytes": 912944
+    }
+  ]
+}

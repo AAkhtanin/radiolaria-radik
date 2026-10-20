@@ -1,0 +1,6 @@
+# Auth-only addition for the separate project-owned Python 3.14 ARM64 environment.
+# Every hash names a verified public wheel; installation permits binary wheels only.
+PyJWT==2.14.0 --hash=sha256:ad0cef71c756a56e74863c2919cf0985f72decbcfcb550ee2f422e7c62b5eedc
+cryptography==48.0.0 --hash=sha256:0c558d2cdffd8f4bbb30fc7134c74d2ca9a476f830bb053074498fbc86f41ed6
+cffi==2.1.1 --hash=sha256:661c298b4821edebead0c91edd2b00374d67ad7c5a1f7a91d4442633b79d6a72
+pycparser==3.1 --hash=sha256:f09d358c840bd147b79e55f2bc494f18ea869dc897f5852a8f5766b74f787882

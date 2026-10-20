@@ -1,0 +1,195 @@
+{
+  "Stage04_complete": false,
+  "candidate_execution": false,
+  "checked_credit_refs": [
+    {
+      "key": "actual153122_review",
+      "path": "review/normal_session_g2e_passage/actual_behavior_review.json",
+      "sha256": "36294e13095a65ad93022bc542a4bf9609888e2cd1e3382d77c0ab68494b5dd7",
+      "size_bytes": 89692
+    },
+    {
+      "key": "actual191707_review",
+      "path": "review/g2e_successor_passage/actual_behavior_review.json",
+      "sha256": "4f830587b72d58c487e204efc0e2a0cbfe4cf52c98e99cb7c8d194542d7d0aed",
+      "size_bytes": 26456
+    },
+    {
+      "key": "business_callbacks_source",
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    {
+      "key": "normal_review",
+      "path": "review/normal_session_g2e_passage/mechanical_result_review.json",
+      "sha256": "98d84a35dbbad2a79da0ea7a8b1c9891952394a227f5dcced532359c72464ae2",
+      "size_bytes": 167647
+    },
+    {
+      "key": "p27_review",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v27_normal_console_integration/normal_result_review_v02.json",
+      "sha256": "b4df310a49585c709572fb39f1268a49817d23c2b9874fe59403df5a58a6dbcf",
+      "size_bytes": 36217
+    },
+    {
+      "key": "p28_review",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/focused_result_review.json",
+      "sha256": "8c87e260879ab1b6e9415a86f61e0fb519d6b7fcbe0c33d6284c2a3507b4a6e3",
+      "size_bytes": 44911
+    },
+    {
+      "key": "p30_final_readback",
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+      "sha256": "d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea",
+      "size_bytes": 1580
+    },
+    {
+      "key": "p30_focused_review",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/focused_result_review.json",
+      "sha256": "b4412281f486dacb11abe11d8548ef9a8676f9309bb22aa9ec0082f5fe590aae",
+      "size_bytes": 32143
+    },
+    {
+      "key": "p30_receipt",
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+      "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+      "size_bytes": 3722
+    },
+    {
+      "key": "p30_scenario",
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    {
+      "key": "stage04_result",
+      "path": "review/stage04_dynamic_passage/offline_attempts/STAGE04_V03/result.json",
+      "sha256": "4ec8e88a83a1c7a7025d7f3951090888c0440e9d84fe009d173fcd01a5c71194",
+      "size_bytes": 1707885
+    },
+    {
+      "key": "stage04_review",
+      "path": "review/stage04_dynamic_passage/mechanical_result_review.json",
+      "sha256": "d34a1a195771d74d8e665d758ed658739f793de5310d85dd0992bbce7e355572",
+      "size_bytes": 74577
+    },
+    {
+      "key": "task_state",
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+      "size_bytes": 39252
+    },
+    {
+      "key": "task_store_source",
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    }
+  ],
+  "checked_installed_source_bindings": [
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "size_bytes": 43331
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_semantics.py",
+      "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+      "size_bytes": 17051
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_control.py",
+      "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+      "size_bytes": 6732
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_temporal.py",
+      "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+      "size_bytes": 1898
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_native.py",
+      "sha256": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+      "size_bytes": 64693
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/runtime.py",
+      "sha256": "25501bb868bb7f862adf775997980904f53e27b01688b9732f03d7a3558094f8",
+      "size_bytes": 40905
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "app/ordinary_entry.py",
+      "sha256": "12cfb70813405fc460ef48bb41b32a55d5d44e7ac50d9a2dafe28fe2c0e6245b",
+      "size_bytes": 20439
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "config/launch.py",
+      "sha256": "06e1c0898666d998b193e9df14306b01682956ba1e78c32961d521e7b3b63926",
+      "size_bytes": 10982
+    },
+    {
+      "matches_installed_P30_pin": true,
+      "path": "config/application_profile_gate.py",
+      "sha256": "338eb57c35f3de9d9b20509b9d7b19d596abf8cf8cf613e061ae8ea058983291",
+      "size_bytes": 14123
+    }
+  ],
+  "created_at_utc": "2026-10-20T11:54:23.350679+00:00",
+  "findings": [
+    "Accepted P30 selective E is credited without another E.",
+    "Current cancellation rejects during source preparation before the grant; after-grant closure is a distinct isolated control.",
+    "A memory must match an actually accepted eligible A result under its unchanged clocks, not B.",
+    "Required current command consumers and true two-process memory consumption remain pending actual acceptance.",
+    "This review accepts the independently authored evidence map; it does not accept this reviewer-authored runtime code or execution."
+  ],
+  "matrix_author": "/root/s04_reviewer",
+  "matrix_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/residual_consumer_matrix_v03.json",
+    "sha256": "2af1045cc50ee1d283f0f218d79feb6cacf49f497f611e1096d5cb49985cd6de",
+    "size_bytes": 24832
+  },
+  "native_execution": false,
+  "provider_calls": 0,
+  "reviewer": "/root/s04_runtime_author",
+  "schema": "radik.p31.residual_matrix_independent_review.v01",
+  "status": "ACCEPTED_RESIDUAL_MAP_WITH_RUNTIME_ACCEPTANCE_PENDING"
+}

@@ -1,0 +1,201 @@
+{
+  "actual_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/result.json",
+      "sha256": "bba7e9cc88333435872e591d849a59ff59b2f6acccc65c23f1e6b8f823a4cb04",
+      "size_bytes": 660
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/case_result.json",
+      "sha256": "e1f6a5130f75a2d5f02d4a060050eeaa9f2ebd2375718192a1ad53264955828b",
+      "size_bytes": 2600
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/ordinary/receipt.json",
+      "sha256": "664317aaba12226af2d0ebcfc1d3227c9db989a7cd823581a858b11ea4272b9c",
+      "size_bytes": 14332
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "sha256": "5cb55655ca785dd82fff671b3469af77e125cb36df30cb51e3af28d1d1c0ee6e",
+      "size_bytes": 6185
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "sha256": "6df82f9d1a1de155205d9ee9f9269e415a3a66a6f3a7178f9ae60555620d9e9f",
+      "size_bytes": 86350
+    }
+  ],
+  "conclusion": "The exact copied child was interrupted at the source-exam boundary, terminated after the unchanged10-second grace, and reaped. Protected production/source bytes and the historical copied ledger prefix remain exact. The original partial exam is not a completed route. Its idle but unclosed normal operation requires an independently admitted public failed-close in another copy before any fresh operation; the original evidence must remain unchanged.",
+  "copied_profile_source_pin_count": 160,
+  "copied_source_inventory_sha256": "116c9efd448c111d4f2212dec8189ff52032a5959ce77467af6695c1b2fbda91",
+  "limitations": {
+    "cleanup_api_or_continuation_execution_authorized": false,
+    "full_Stage04_accepted": false,
+    "new_candidate_import_or_execution_performed": false,
+    "own_runtime_consumer_semantics_accepted": false,
+    "remaining_C_R2_accepted": false
+  },
+  "observations": {
+    "E_enter_event_count": 0,
+    "active_attempt": null,
+    "active_task": null,
+    "child_event_count": 142,
+    "child_exit_code": -15,
+    "child_pid": 58667,
+    "child_reaped": true,
+    "complete_steps": [
+      "A_SETUP",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "B_SETUP",
+      "B1",
+      "B2",
+      "A_SELECT",
+      "A5",
+      "A6_CANCEL",
+      "A6_REFUSAL",
+      "A6_RESULT",
+      "B_SELECT",
+      "C_SETUP"
+    ],
+    "copied_active_operation_ref": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/state/normal_session_active.json",
+      "sha256": "f9960b32dc4fd602d37642d27bc6470bba5ef7709efebbecac88e737f15346ce",
+      "size_bytes": 211
+    },
+    "copied_operation_closed": false,
+    "elapsed_outer_seconds": 1210.1198795419186,
+    "final_copied_attempts": 41,
+    "initial_copied_attempts": 35,
+    "normal_marker_removal_or_receipt_fabrication_performed": false,
+    "outer_boundary": "FIXED_1200_SECOND_SOURCE_EXAM_LIMIT_EXPOSED_TO_SUPERVISOR_AS_OWNER_INTERRUPT",
+    "partial_C_round_close_ref": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/state/normal_rounds/e6acd531482748d380f34636247075d3.json.closed",
+      "sha256": "619a9c4ffb03e999fe0c60b0f9566a23545fac13add5278595e438d08998eb38",
+      "size_bytes": 340
+    },
+    "partial_C_status": "FAILED",
+    "partial_C_task_id": "radik-task:170cf5e5dc6240358159ff076017e85a",
+    "primary": {
+      "code": "OWNER_INTERRUPT",
+      "error_class": "SupervisorStop",
+      "phase": "OWNER_TERMINAL"
+    },
+    "retained_attempt_prefix": true,
+    "second_child_started": false,
+    "signals": [
+      {
+        "action": "INTERRUPT",
+        "elapsed_wall_ns": 1199101483834
+      },
+      {
+        "action": "TERMINATE",
+        "elapsed_wall_ns": 1209129927542
+      }
+    ],
+    "stdout_eof": true,
+    "terminal_reap_does_not_imply_normal_operation_closed": true,
+    "two_process_route_completed": false
+  },
+  "protected_original_guard_count": 169,
+  "protected_original_guard_inventory_sha256": "c59e988b566b44b829bb9639c04fd35b4c6afdcd2db3a2bc9deb24ef1847468a",
+  "reviewer": "/root/s04_runtime_author",
+  "runner_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_runner.py",
+    "sha256": "6f1d065dd2be02cc26d1e282b993d2385f2bcd99cc2197ca6dcba0c0f0b83dee",
+    "size_bytes": 15645
+  },
+  "schema": "radik.independent.p31.v03_supervision_preservation.v01",
+  "scope": "ROOT_AUTHORED_EXAM_RUNNER_SUPERVISION_AND_BYTE_PRESERVATION_ONLY",
+  "source_execution_grant_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_grant_v03.json",
+    "sha256": "e21fbc157266a75d68511a6a43b3c0e5468744aae0a7d2f80cc93a1372c7eab9",
+    "size_bytes": 445242
+  },
+  "status": "STOPPED_PARTIAL_EXAM_SUPERVISION_AND_PRESERVATION_VERIFIED",
+  "verified_command_readback_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_ae575c7b523b3b3721422720f9a36a459f64385ba5b382b12bc080cff4775556.json",
+      "sha256": "ae575c7b523b3b3721422720f9a36a459f64385ba5b382b12bc080cff4775556",
+      "size_bytes": 269666
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_38f93280baca5ffb7b1d034c2ad8f14b83ccb3a2e73ad095b67b1ac67e813a58.json",
+      "sha256": "38f93280baca5ffb7b1d034c2ad8f14b83ccb3a2e73ad095b67b1ac67e813a58",
+      "size_bytes": 217476
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_1fa9a6d0c3f94daa2c31579d26b0061eca89efaeb43a06b3f446b38374414513.json",
+      "sha256": "1fa9a6d0c3f94daa2c31579d26b0061eca89efaeb43a06b3f446b38374414513",
+      "size_bytes": 327546
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_c27cb00ed2ceae1f0b8c882295c428bbf31e478b9316fabde2537c3ccfde14a8.json",
+      "sha256": "c27cb00ed2ceae1f0b8c882295c428bbf31e478b9316fabde2537c3ccfde14a8",
+      "size_bytes": 356009
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_475d06e06f227acafcd4a5b11416948d895eeae01becacc1e268c90eff78623d.json",
+      "sha256": "475d06e06f227acafcd4a5b11416948d895eeae01becacc1e268c90eff78623d",
+      "size_bytes": 363431
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_7f3bd91becf0a8652a9a044cb34de0ddd92bb02e95626ae64421ccd4d8235c19.json",
+      "sha256": "7f3bd91becf0a8652a9a044cb34de0ddd92bb02e95626ae64421ccd4d8235c19",
+      "size_bytes": 438765
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_22bb3d0c5c17c742528607d445f39cd50ae494da251fae18aacf7acba7ef87e4.json",
+      "sha256": "22bb3d0c5c17c742528607d445f39cd50ae494da251fae18aacf7acba7ef87e4",
+      "size_bytes": 311780
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_23a2894f084dfa6a8e2e62cebeae31cc49f7f9b60b07650dcffa85f81f0cbc0b.json",
+      "sha256": "23a2894f084dfa6a8e2e62cebeae31cc49f7f9b60b07650dcffa85f81f0cbc0b",
+      "size_bytes": 429197
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_5efa0539c84ee91e060aff03d7084433fea34ff02d289cfd44104ea37fc1becf.json",
+      "sha256": "5efa0539c84ee91e060aff03d7084433fea34ff02d289cfd44104ea37fc1becf",
+      "size_bytes": 456045
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_71ad28b0c24aad27fb8e7cc0db7ffdb254b00fbd3d9d2f2d094748272dcf5a55.json",
+      "sha256": "71ad28b0c24aad27fb8e7cc0db7ffdb254b00fbd3d9d2f2d094748272dcf5a55",
+      "size_bytes": 446933
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_6035bd1fecdeaeca6db99cff64236a770eb0d8a63dbd959a333a20cca5339661.json",
+      "sha256": "6035bd1fecdeaeca6db99cff64236a770eb0d8a63dbd959a333a20cca5339661",
+      "size_bytes": 448956
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_b8447fc67afd6f184bdaf94b10c2096a4b1d9fbbec283c0e1c37390e0835522b.json",
+      "sha256": "b8447fc67afd6f184bdaf94b10c2096a4b1d9fbbec283c0e1c37390e0835522b",
+      "size_bytes": 440236
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_a8bfd494e084dcbfe8fca761adaf1f7fbe06475cd1d21c0b102e7c1e87d07851.json",
+      "sha256": "a8bfd494e084dcbfe8fca761adaf1f7fbe06475cd1d21c0b102e7c1e87d07851",
+      "size_bytes": 440511
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_3d4e711f6c9de514287d7ab2d51e7b364f094b54d967730f6922b22cefb46327.json",
+      "sha256": "3d4e711f6c9de514287d7ab2d51e7b364f094b54d967730f6922b22cefb46327",
+      "size_bytes": 440236
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_4742006a03002d0c5a5101abbf7f674a0bca1d76cccf50354547ee608237f840.json",
+      "sha256": "4742006a03002d0c5a5101abbf7f674a0bca1d76cccf50354547ee608237f840",
+      "size_bytes": 439642
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/rehearsal_actual/ORDINARY_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/1a153c434e9e8023860931b4/ordinary_console_command_9a6e944ebc66ce9c6a65cda9207409ccd5235465519aeef47211c9b6624b7c38.json",
+      "sha256": "9a6e944ebc66ce9c6a65cda9207409ccd5235465519aeef47211c9b6624b7c38",
+      "size_bytes": 395646
+    }
+  ]
+}

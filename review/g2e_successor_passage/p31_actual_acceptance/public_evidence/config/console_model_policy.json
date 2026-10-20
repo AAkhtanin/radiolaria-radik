@@ -1,0 +1,18 @@
+{
+  "schema": "radik.console_model_policy.v01",
+  "active": true,
+  "scope": "console",
+  "activation_basis": "Prepared source policy only. Explicit future reviewed --console owner invocation activates the persistent scope; source preparation does not.",
+  "max_new_turn_attempts": 1000000,
+  "max_active_requests": 1,
+  "max_attempts_per_compare": 3,
+  "automatic_model_retries": 0,
+  "automatic_effect_retries": 0,
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "service_tier": null,
+  "service_tier_meaning": "ordinary provider default; no speed upgrade",
+  "native_work_max_model_calls": 0,
+  "native_e_max_provider_calls": 0,
+  "runtime_inference_gate": "Exact accepted source, effective model boundary and current per-use admission; no operational activation during engineering."
+}

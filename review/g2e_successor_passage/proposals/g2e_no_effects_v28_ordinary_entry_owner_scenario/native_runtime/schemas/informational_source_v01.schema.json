@@ -1,0 +1,697 @@
+{
+  "$defs": {
+    "InformationalCurrentRootMaterialOwnedHistoricalV02": {
+      "additionalProperties": false,
+      "properties": {
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "commitment_binding_profile": {
+          "const": "informational_original_current_commitment_v02"
+        },
+        "evaluation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_time": {
+          "type": "integer"
+        },
+        "evaluation_time_source": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "logical_time_bridge": {
+          "type": "object"
+        },
+        "observations": {
+          "items": {
+            "type": "object"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "original_current_commitments": {
+          "items": {
+            "$ref": "#/$defs/InformationalOriginalCurrentCommitmentV02"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "owning_root_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "review_profile": {
+          "$ref": "#/$defs/InformationalReviewProfileOwnedHistoricalV02"
+        },
+        "source_revision": {
+          "type": "integer"
+        },
+        "task_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "transaction_id": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "carrier_id",
+        "source_revision",
+        "task_id",
+        "transaction_id",
+        "owning_root_id",
+        "commitment_binding_profile",
+        "original_current_commitments",
+        "review_profile",
+        "evaluation_time",
+        "evaluation_time_source",
+        "evaluation_context_id",
+        "observations",
+        "logical_time_bridge"
+      ],
+      "type": "object"
+    },
+    "InformationalCurrentRootMaterialV02": {
+      "additionalProperties": false,
+      "properties": {
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "commitment_binding_profile": {
+          "const": "informational_original_current_commitment_v02"
+        },
+        "evaluation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_time": {
+          "type": "integer"
+        },
+        "evaluation_time_source": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "logical_time_bridge": {
+          "type": "object"
+        },
+        "observations": {
+          "items": {
+            "type": "object"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "original_current_commitments": {
+          "items": {
+            "$ref": "#/$defs/InformationalOriginalCurrentCommitmentV02"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "owning_root_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "review_profile": {
+          "$ref": "#/$defs/InformationalReviewProfileV01"
+        },
+        "source_revision": {
+          "type": "integer"
+        },
+        "task_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "transaction_id": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "carrier_id",
+        "source_revision",
+        "task_id",
+        "transaction_id",
+        "owning_root_id",
+        "commitment_binding_profile",
+        "original_current_commitments",
+        "review_profile",
+        "evaluation_time",
+        "evaluation_time_source",
+        "evaluation_context_id",
+        "observations",
+        "logical_time_bridge"
+      ],
+      "type": "object"
+    },
+    "InformationalCurrentRootReviewV01": {
+      "additionalProperties": false,
+      "properties": {
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_time": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "evaluation_time_source": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "observation_ids": {
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "root_input": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionInputV01"
+        },
+        "root_kernel": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionKernelV01"
+        },
+        "root_result": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionResultV01"
+        },
+        "source_revision": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "carrier_id",
+        "source_revision",
+        "evaluation_time",
+        "evaluation_time_source",
+        "evaluation_context_id",
+        "observation_ids",
+        "root_kernel",
+        "root_input",
+        "root_result"
+      ],
+      "type": "object"
+    },
+    "InformationalInvalidationV01": {
+      "additionalProperties": false,
+      "properties": {
+        "baseline_artifact_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "capture_ordinal": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "current_root_decision_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "dependency_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evaluation_time": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "evaluation_time_source": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "host_revision": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "invalidation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "observed_artifact": {
+          "$ref": "kernel_artifact_v01.schema.json"
+        },
+        "source_revision": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "invalidation_id",
+        "carrier_id",
+        "dependency_id",
+        "baseline_artifact_id",
+        "observed_artifact",
+        "observation_id",
+        "source_revision",
+        "host_revision",
+        "capture_ordinal",
+        "evaluation_time",
+        "evaluation_time_source",
+        "evaluation_context_id",
+        "current_root_decision_id"
+      ],
+      "type": "object"
+    },
+    "InformationalOriginalCurrentCommitmentV02": {
+      "additionalProperties": false,
+      "properties": {
+        "current_content_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "current_observation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "current_observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "current_time_envelope_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "dependency_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evidence_ref": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "freshness_policy_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "original_content_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "original_observation_context_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "original_observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "original_time_envelope_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_provenance_refs": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "valid_from_utc": {
+          "type": "integer"
+        },
+        "valid_to_utc": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "dependency_id",
+        "original_content_sha256",
+        "original_time_envelope_id",
+        "original_observation_id",
+        "original_observation_context_id",
+        "current_content_sha256",
+        "current_time_envelope_id",
+        "current_observation_id",
+        "current_observation_context_id",
+        "evidence_ref",
+        "freshness_policy_id",
+        "source_provenance_refs",
+        "valid_from_utc",
+        "valid_to_utc"
+      ],
+      "type": "object"
+    },
+    "InformationalReviewProfileOwnedHistoricalV02": {
+      "additionalProperties": false,
+      "properties": {
+        "domain_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "profile_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "purpose": {
+          "const": "BOUNDED_DOCUMENT_SOURCE_REVIEW_OWNED_HISTORICAL_FORMATTER_V02"
+        },
+        "review_subject": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "profile_id",
+        "domain_id",
+        "review_subject",
+        "purpose"
+      ],
+      "type": "object"
+    },
+    "InformationalReviewProfileV01": {
+      "additionalProperties": false,
+      "properties": {
+        "domain_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "profile_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "purpose": {
+          "const": "BOUNDED_DOCUMENT_SOURCE_REVIEW"
+        },
+        "review_subject": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "profile_id",
+        "domain_id",
+        "review_subject",
+        "purpose"
+      ],
+      "type": "object"
+    },
+    "InformationalSourceCarrierOwnedHistoricalV02": {
+      "additionalProperties": false,
+      "properties": {
+        "authority_kind": {
+          "const": "INFORMATIONAL"
+        },
+        "baseline_report_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "baseline_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "bsep_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "dependency_candidate": {
+          "description": "Exact native type and contextual public validation remain mandatory.",
+          "type": "object"
+        },
+        "domain_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "effect_access": {
+          "const": "NONE"
+        },
+        "effect_budget": {
+          "const": 0
+        },
+        "issued_at": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "origin_invocation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "origin_observations": {
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "origin_result_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "origin_source_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "owning_root_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "permission_ref": {
+          "const": null
+        },
+        "policy_identity": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "review_profile": {
+          "$ref": "#/$defs/InformationalReviewProfileOwnedHistoricalV02"
+        },
+        "root_input": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionInputV01"
+        },
+        "root_kernel": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionKernelV01"
+        },
+        "root_result": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionResultV01"
+        },
+        "source_artifacts": {
+          "items": {
+            "$ref": "kernel_artifact_v01.schema.json"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "task_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "transaction_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "valid_to": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "version": {
+          "const": "v01"
+        }
+      },
+      "required": [
+        "carrier_id",
+        "version",
+        "authority_kind",
+        "task_id",
+        "transaction_id",
+        "owning_root_id",
+        "domain_id",
+        "review_profile",
+        "bsep_sha256",
+        "baseline_report_id",
+        "baseline_sha256",
+        "policy_identity",
+        "dependency_candidate",
+        "source_artifacts",
+        "origin_observations",
+        "origin_invocation_id",
+        "origin_result_id",
+        "origin_source_sha256",
+        "issued_at",
+        "valid_from",
+        "valid_to",
+        "root_kernel",
+        "root_input",
+        "root_result",
+        "effect_access",
+        "permission_ref",
+        "effect_budget"
+      ],
+      "type": "object"
+    },
+    "InformationalSourceCarrierV01": {
+      "additionalProperties": false,
+      "properties": {
+        "authority_kind": {
+          "const": "INFORMATIONAL"
+        },
+        "baseline_report_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "baseline_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "bsep_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "carrier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "dependency_candidate": {
+          "description": "Exact native type and contextual public validation remain mandatory.",
+          "type": "object"
+        },
+        "domain_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "effect_access": {
+          "const": "NONE"
+        },
+        "effect_budget": {
+          "const": 0
+        },
+        "issued_at": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "origin_invocation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "origin_observations": {
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "origin_result_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "origin_source_sha256": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "owning_root_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "permission_ref": {
+          "const": null
+        },
+        "policy_identity": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "review_profile": {
+          "$ref": "#/$defs/InformationalReviewProfileV01"
+        },
+        "root_input": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionInputV01"
+        },
+        "root_kernel": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionKernelV01"
+        },
+        "root_result": {
+          "$ref": "fractal_runtime_v02.schema.json#/$defs/RootDecisionResultV01"
+        },
+        "source_artifacts": {
+          "items": {
+            "$ref": "kernel_artifact_v01.schema.json"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array"
+        },
+        "task_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "transaction_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "valid_to": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "version": {
+          "const": "v01"
+        }
+      },
+      "required": [
+        "carrier_id",
+        "version",
+        "authority_kind",
+        "task_id",
+        "transaction_id",
+        "owning_root_id",
+        "domain_id",
+        "review_profile",
+        "bsep_sha256",
+        "baseline_report_id",
+        "baseline_sha256",
+        "policy_identity",
+        "dependency_candidate",
+        "source_artifacts",
+        "origin_observations",
+        "origin_invocation_id",
+        "origin_result_id",
+        "origin_source_sha256",
+        "issued_at",
+        "valid_from",
+        "valid_to",
+        "root_kernel",
+        "root_input",
+        "root_result",
+        "effect_access",
+        "permission_ref",
+        "effect_budget"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://hedgehog.local/schemas/informational_source_v01.schema.json",
+  "$ref": "#/$defs/InformationalSourceCarrierV01",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate informational document source successor commitment v0.2",
+  "version": "v0.2"
+}

@@ -1,0 +1,317 @@
+{
+  "schema": "radik.p31.actual_input_memory_preservation.v01",
+  "mappings": [
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/18ce2b747804cf7bc2f16ca8b3f29ec6.txt",
+        "sha256": "2d9b815a5599e171d37ad9ed1dbf3d440fe6efa05af6d90d25ec5151a79453ea",
+        "size_bytes": 256,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/18ce2b747804cf7bc2f16ca8b3f29ec6.txt",
+        "sha256": "2d9b815a5599e171d37ad9ed1dbf3d440fe6efa05af6d90d25ec5151a79453ea",
+        "size_bytes": 256
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/8afcaf42368b2e3458b5fa81982f9a65.txt",
+        "sha256": "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+        "size_bytes": 137,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/8afcaf42368b2e3458b5fa81982f9a65.txt",
+        "sha256": "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+        "size_bytes": 137
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/8e45d120bc3d6b9048a1b291846d0986.txt",
+        "sha256": "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+        "size_bytes": 142,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/8e45d120bc3d6b9048a1b291846d0986.txt",
+        "sha256": "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+        "size_bytes": 142
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/d81584eaff4e7c25fce743e6d9e17623.txt",
+        "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+        "size_bytes": 117,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/d81584eaff4e7c25fce743e6d9e17623.txt",
+        "sha256": "4e6faca9780ff2edb95e75b900180c97289057edbe17f882a0fd5acef7aa1d3d",
+        "size_bytes": 117
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/0d8f720709ed713644ad7f00ba3f3b2a.txt",
+        "sha256": "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+        "size_bytes": 151,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/0d8f720709ed713644ad7f00ba3f3b2a.txt",
+        "sha256": "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+        "size_bytes": 151
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/1acbfbdcdf8f51c2f55b4fa6cbe9c21a.txt",
+        "sha256": "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+        "size_bytes": 166,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/1acbfbdcdf8f51c2f55b4fa6cbe9c21a.txt",
+        "sha256": "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+        "size_bytes": 166
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/1cd494ee12d258a80d0ba62854eca58b.txt",
+        "sha256": "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+        "size_bytes": 169,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/1cd494ee12d258a80d0ba62854eca58b.txt",
+        "sha256": "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+        "size_bytes": 169
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/input/28933688e506f12e3a0a47cc06b49e21.txt",
+        "sha256": "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+        "size_bytes": 159,
+        "kind": "ACTUAL_SOURCE_BYTES"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/input/28933688e506f12e3a0a47cc06b49e21.txt",
+        "sha256": "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+        "size_bytes": 159
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8.json",
+        "sha256": "64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+        "size_bytes": 52254,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8.json",
+        "sha256": "64a9825b6dcf59b55d8479d0a2d6c36239c9c8fe0ee9cc43ce97e3a227bb2af8",
+        "size_bytes": 52254
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/27f9167b80e730cae27f6f831ab7434f64282a0bdaa4ad26f81b51de0e67ecc2.json",
+        "sha256": "27f9167b80e730cae27f6f831ab7434f64282a0bdaa4ad26f81b51de0e67ecc2",
+        "size_bytes": 43046,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/27f9167b80e730cae27f6f831ab7434f64282a0bdaa4ad26f81b51de0e67ecc2.json",
+        "sha256": "27f9167b80e730cae27f6f831ab7434f64282a0bdaa4ad26f81b51de0e67ecc2",
+        "size_bytes": 43046
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/d8d6c5a984d28ff4e4ec19da0edef30492f7a19d6ccaf85800b66b5e47dac7ce.json",
+        "sha256": "d8d6c5a984d28ff4e4ec19da0edef30492f7a19d6ccaf85800b66b5e47dac7ce",
+        "size_bytes": 60503,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/d8d6c5a984d28ff4e4ec19da0edef30492f7a19d6ccaf85800b66b5e47dac7ce.json",
+        "sha256": "d8d6c5a984d28ff4e4ec19da0edef30492f7a19d6ccaf85800b66b5e47dac7ce",
+        "size_bytes": 60503
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/f288801dc6fd5d70aacfa68eba66bbba34b8b7cdf8abf84b80a27bbd3785bd5f.json",
+        "sha256": "f288801dc6fd5d70aacfa68eba66bbba34b8b7cdf8abf84b80a27bbd3785bd5f",
+        "size_bytes": 53930,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/f288801dc6fd5d70aacfa68eba66bbba34b8b7cdf8abf84b80a27bbd3785bd5f.json",
+        "sha256": "f288801dc6fd5d70aacfa68eba66bbba34b8b7cdf8abf84b80a27bbd3785bd5f",
+        "size_bytes": 53930
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4.json",
+        "sha256": "3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+        "size_bytes": 54152,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4.json",
+        "sha256": "3a1aeb6db4ec20408db1080bc2cf8ad659325fdbab5227e797c9349b5db050d4",
+        "size_bytes": 54152
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/2dba0f0d16e33fcfe220227f2391ffe74a178dcee769b3e8287b3fb5e571ca05.json",
+        "sha256": "2dba0f0d16e33fcfe220227f2391ffe74a178dcee769b3e8287b3fb5e571ca05",
+        "size_bytes": 49594,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/2dba0f0d16e33fcfe220227f2391ffe74a178dcee769b3e8287b3fb5e571ca05.json",
+        "sha256": "2dba0f0d16e33fcfe220227f2391ffe74a178dcee769b3e8287b3fb5e571ca05",
+        "size_bytes": 49594
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/a398c06f664ab30fc02828aa4dc458af567c0f62b7a679a90e61b6c4aa2ee860.json",
+        "sha256": "a398c06f664ab30fc02828aa4dc458af567c0f62b7a679a90e61b6c4aa2ee860",
+        "size_bytes": 49403,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/a398c06f664ab30fc02828aa4dc458af567c0f62b7a679a90e61b6c4aa2ee860.json",
+        "sha256": "a398c06f664ab30fc02828aa4dc458af567c0f62b7a679a90e61b6c4aa2ee860",
+        "size_bytes": 49403
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/b96ac3f67d370033f7c35f035bcbfa3a180188c724cb5154ce2a071a8d7bde39.json",
+        "sha256": "b96ac3f67d370033f7c35f035bcbfa3a180188c724cb5154ce2a071a8d7bde39",
+        "size_bytes": 50918,
+        "kind": "ACTUAL_MEMORY_PAYLOAD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/payloads/b96ac3f67d370033f7c35f035bcbfa3a180188c724cb5154ce2a071a8d7bde39.json",
+        "sha256": "b96ac3f67d370033f7c35f035bcbfa3a180188c724cb5154ce2a071a8d7bde39",
+        "size_bytes": 50918
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7a7e41c5763374df572da65decd8e80b83aaedbb16f41aba17704364d28571e7.json",
+        "sha256": "7ad0e796044dedd277b3ceaf6a8fe52c2d0973343c5493661548167b6e8aa0e8",
+        "size_bytes": 11070,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7a7e41c5763374df572da65decd8e80b83aaedbb16f41aba17704364d28571e7.json",
+        "sha256": "7ad0e796044dedd277b3ceaf6a8fe52c2d0973343c5493661548167b6e8aa0e8",
+        "size_bytes": 11070
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d5402c0302c21bd6619cc0b1fe25a89a6e4295b60710702a55b62991dc202ccf.json",
+        "sha256": "55dcdb3269e2170e653cfc16a9fc897ae6f9e1a69815a847b74216f66824544b",
+        "size_bytes": 10442,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d5402c0302c21bd6619cc0b1fe25a89a6e4295b60710702a55b62991dc202ccf.json",
+        "sha256": "55dcdb3269e2170e653cfc16a9fc897ae6f9e1a69815a847b74216f66824544b",
+        "size_bytes": 10442
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_0608645f83a69499ce1d7de4c1cea6ecc00d3ed003e24ee2c64c31e1368d75c8.json",
+        "sha256": "8d719521f7ca99506b0c6cdfa735d0359aa0aab181b6699416b7a223ee9244c3",
+        "size_bytes": 10442,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_0608645f83a69499ce1d7de4c1cea6ecc00d3ed003e24ee2c64c31e1368d75c8.json",
+        "sha256": "8d719521f7ca99506b0c6cdfa735d0359aa0aab181b6699416b7a223ee9244c3",
+        "size_bytes": 10442
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_9589fe6436bf8e8e94be4895a469ff50e2723adfce4069ae8240af906d011adb.json",
+        "sha256": "1bff093cec434e69369d5cd3dcd7cb201b687814d13adabb23098522e70a5f5f",
+        "size_bytes": 11070,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_9589fe6436bf8e8e94be4895a469ff50e2723adfce4069ae8240af906d011adb.json",
+        "sha256": "1bff093cec434e69369d5cd3dcd7cb201b687814d13adabb23098522e70a5f5f",
+        "size_bytes": 11070
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7c256a1cc45752666ada016fd46ad92fad544f0335abce34d3cfd5d1ba36c273.json",
+        "sha256": "a6a7c8a81fcdeea996223045e9bcecdebb9c7e282a173650c01c7db3176ecb92",
+        "size_bytes": 9319,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7c256a1cc45752666ada016fd46ad92fad544f0335abce34d3cfd5d1ba36c273.json",
+        "sha256": "a6a7c8a81fcdeea996223045e9bcecdebb9c7e282a173650c01c7db3176ecb92",
+        "size_bytes": 9319
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_2de60e12ac1cbc0ed8d9abba44168156e9adfb4cf3e6a4cf008a2733e9582ea2.json",
+        "sha256": "c0ae4ca20f05b3d7fd19715fd73436a97a658dc0833c523922158237584e9a4a",
+        "size_bytes": 9319,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_2de60e12ac1cbc0ed8d9abba44168156e9adfb4cf3e6a4cf008a2733e9582ea2.json",
+        "sha256": "c0ae4ca20f05b3d7fd19715fd73436a97a658dc0833c523922158237584e9a4a",
+        "size_bytes": 9319
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_bd81b5bb5089be998269fa8a11c127a84ba095e1a07adadd3955a7258b0faca7.json",
+        "sha256": "dc48559a67d761dd15284a9532c3b48daac9ebff3af3e4102874a21e35d7fb7a",
+        "size_bytes": 9319,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_bd81b5bb5089be998269fa8a11c127a84ba095e1a07adadd3955a7258b0faca7.json",
+        "sha256": "dc48559a67d761dd15284a9532c3b48daac9ebff3af3e4102874a21e35d7fb7a",
+        "size_bytes": 9319
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d811d27ceeeecce4edac1e304f10fb25d364648a50da8bab8cca03cd214bde16.json",
+        "sha256": "7ce7342b0b0c6581aa9256f10ff3eb93185e1e59fea9af1e553c6d06bc6bf15f",
+        "size_bytes": 9319,
+        "kind": "ACTUAL_MEMORY_RECORD"
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d811d27ceeeecce4edac1e304f10fb25d364648a50da8bab8cca03cd214bde16.json",
+        "sha256": "7ce7342b0b0c6581aa9256f10ff3eb93185e1e59fea9af1e553c6d06bc6bf15f",
+        "size_bytes": 9319
+      }
+    }
+  ]
+}

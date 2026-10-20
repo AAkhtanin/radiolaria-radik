@@ -1,0 +1,109 @@
+{
+  "Stage05_started": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "composite_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/stage04_composite_acceptance.json",
+    "sha256": "698f5b70d1c0cafb46c61e5c51cb8735dbce8ba8740542817200b24d6e97f88f",
+    "size_bytes": 49976
+  },
+  "data_selection": "V01 missing navigation member identified before any build. V02 includes its exact bytes and preserves unused V01 selector/source/finding. No descriptor, reservation, prior archive or actual evidence overwritten.",
+  "delivery_scope": "Existing owner-started operator only; no restart or repack on uncertainty. External delivery and final lock release require independent delivered pair readback.",
+  "dossier_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/dossier_independent_readback.json",
+    "sha256": "e59b6265a7dd9cfa132459d5ab549cfe1a62dd259a12f5ed7af8de8a54f96df4",
+    "size_bytes": 30357
+  },
+  "independent_actual_review_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/independent_actual_acceptance_review.json",
+    "sha256": "a5cc3c5511d2e7a154c2a26585aedaf27df57d11b0026c8be9d74bef1cc3b599",
+    "size_bytes": 3118
+  },
+  "independent_descriptor_review_record": {
+    "build_authority": "Separate root exact-descriptor certificate required; this data review grants no execution.",
+    "checks": {
+      "160_runtime_source_aliases": "UNCHANGED_FROM_V01_PASS",
+      "94_primary_evidence_routes_and_selectors": "UNCHANGED_FROM_V01_PASS",
+      "all_added_and_changed_raw_bytes_sizes_modes": "PASS",
+      "dossier_and_actual_bytes": "UNCHANGED",
+      "finite_added_refs": 8,
+      "five_external_refs": "UNCHANGED",
+      "four_owner_handoff_and_other_navigation_routes": "UNCHANGED_FROM_V01_PASS; residual route now present",
+      "missing_residual_matrix_exact_navigation_member": "RESOLVED",
+      "new_JSON_materials_and_descriptor_public_predicate": "PASS",
+      "old_505_project_refs": "503 unchanged; exactly root-admitted adapter/contract changed and original bytes preserved",
+      "original_unsigned_descriptor_materials_and_finding": "PRESERVED_NO_BUILD_OR_RESERVATION_RESET",
+      "removed_refs": 0
+    },
+    "counts": {
+      "final_members": 521,
+      "packaging_code_source_pins": 156,
+      "runtime_source_aliases": 160,
+      "selected_bytes": 84509165,
+      "selected_members": 518
+    },
+    "descriptor_ref": {
+      "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_inputs_v02.json",
+      "sha256": "d5f8d38cfdb4c07393e2603a5edbecd51c0e9a9c2d15807ab0e9e98535fb9a3c",
+      "size_bytes": 439420
+    },
+    "final_delivery_verified": false,
+    "materials_ref": {
+      "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_materials_v02.json",
+      "sha256": "117052c59051b5b8e0e4bfac3b3f40242dc669f19d452c087590635aeb1a83ad",
+      "size_bytes": 169378
+    },
+    "no_package_or_runtime_execution": true,
+    "preserved_V01_descriptor_ref": {
+      "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_inputs.json",
+      "sha256": "2a147f185f07906e2cbbc49d024d7b3945abe796b3658837c936fdb75a39e28e",
+      "size_bytes": 433722
+    },
+    "preserved_V01_finding_ref": {
+      "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/final_descriptor_missing_member_review.json",
+      "sha256": "94e3485feeefcb45eb3bccd8212f93d7afbbc5c7243f80e3c2f53421eb56ceae",
+      "size_bytes": 3094
+    },
+    "reviewed_at_utc": "2026-10-20T15:37:11.290211+00:00",
+    "reviewer": "/root/p31_reference_mapper",
+    "root_source_admission_ref": {
+      "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/prepare_source_review_v02.json",
+      "sha256": "a48191047f133379be5fe7e49390d1570cf9bc04ddcd34a0d48e31d9d713ce23",
+      "size_bytes": 2278
+    },
+    "schema": "radik.p31.final_descriptor_independent_review.v02",
+    "scope": "Narrow data amendment review against complete V01 payload readback. No self-acceptance of author-written adapter; exact two-line source amendment is independently admitted by root.",
+    "status": "PASS_EXACT_V02_DESCRIPTOR_REQUIRED_MEMBER_RESOLVED"
+  },
+  "independent_descriptor_review_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/final_descriptor_review_v02.json",
+    "sha256": "aeb6cdc3e0e3efc753a821d2c6d89201a0012966728248c1ba808bdae4dbbd84",
+    "size_bytes": 2930
+  },
+  "preparation_review_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/prepare_source_review_v02.json",
+    "sha256": "a48191047f133379be5fe7e49390d1570cf9bc04ddcd34a0d48e31d9d713ce23",
+    "size_bytes": 2278
+  },
+  "publication_authorized": false,
+  "return_inputs_ref": {
+    "path": "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/return_inputs_v02.json",
+    "sha256": "d5f8d38cfdb4c07393e2603a5edbecd51c0e9a9c2d15807ab0e9e98535fb9a3c",
+    "size_bytes": 439420
+  },
+  "reviewed_at_utc": "2026-10-20T15:37:54.689071+00:00",
+  "reviewer": "/root",
+  "runtime_authority_granted": false,
+  "schema": "radik.p31.actual_stage04_return_build_review.v02",
+  "scope": "ACTUAL_P31_STAGE04_COMPOSITE_ACCEPTANCE_AND_EVIDENCE_DOSSIER",
+  "single_build_key": "p31_actual_stage04_acceptance",
+  "source_pins": {
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/CONTRACT.md": "631c95cc70b46d1a3590345b287fd1f4b8ee8054e86de51bc7f3706b72ce1cf7",
+    "review/g2e_successor_passage/delivery_drafts/p31_actual_stage04_acceptance_v01/package_return.py": "731df8506dcba5ce1b69efa041459c5faac2ba8e53c9dcb195d2db3adda864c2",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "review/transport/radik_local_operator.py": "217a013f5ada2f246959be3a432f4303f3c950b1f74fc2d244d833cd0eaded58"
+  },
+  "source_review": "Full predecessor source plus exact successor diff reviewed; final V02 changes only two metadata filenames. No application imports, effects, model/provider/AUTH or native operation. Existing immutable publisher/operator retained.",
+  "status": "ACCEPTED_FOR_ONE_P31_ACTUAL_STAGE04_ACCEPTANCE_RETURN",
+  "wrapper_author": "/root/p31_reference_mapper"
+}

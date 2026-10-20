@@ -1,0 +1,15 @@
+{
+  "schema": "radik.plan_bootstrap_identity.v01",
+  "python_version": [
+    3,
+    14,
+    5
+  ],
+  "base_prefix": "/opt/homebrew/opt/python@3.14/Frameworks/Python.framework/Versions/3.14",
+  "base_executable": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "base_executable_sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+  "ensurepip_wheel": "/opt/homebrew/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ensurepip/_bundled/pip-26.1.1-py3-none-any.whl",
+  "ensurepip_wheel_sha256": "05affe76d33ca672df661dd2b39ff715294be6c331a3a9fde971fe7171cfe827",
+  "scope": "Read-only exact existing interpreter/bundled installer identity; no setup/global update",
+  "venv_home": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin"
+}

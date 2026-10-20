@@ -1,0 +1,2226 @@
+{
+  "actual_scenario_status": "COMPLETED",
+  "actual_task_status": "COMPLETED",
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "console_attempts_after": 35,
+  "console_attempts_before": 29,
+  "discrepancies": [],
+  "evidence_refs": [
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/operation_source_ledger_review.json",
+      "sha256": "870814bee28e7abd9e797dd6a5623a9f1e24fdfc65bc364a5a8c4b0929c7f67f",
+      "size_bytes": 145450
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+      "sha256": "e6c5ffdd6c025c1dda7b9982a2d867423a79d4513b3c3870bfc528134a8d6b4c",
+      "size_bytes": 3722
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/reservation_outcome.json",
+      "sha256": "1040cc05eb74dfa993586a6fd45e8220199f568fc7e4a1005670d7365ce31e00",
+      "size_bytes": 1360
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/launch.json",
+      "sha256": "4455b7823f25b29023c6ec67f2a3e109942faf160f31b0f40141200eb5e1059e",
+      "size_bytes": 2225
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+      "sha256": "52b9546e65f4716ed1d46e6861c0dd49f8a3e5f7f6306021ad6db9067e2cbdfa",
+      "size_bytes": 1252
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_admission.json",
+      "sha256": "5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3",
+      "size_bytes": 29633
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/runtime_source_review.json",
+      "sha256": "7e32f9eb09bc223ac05f4b57a88edfca292af5a985b1a073b293498f1d51f41a",
+      "size_bytes": 78994
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_v02.py",
+      "sha256": "131015d2f8654b3e5a5e0b2ef7ab427e0ebf66d7564f771b7b4aff2633936438",
+      "size_bytes": 49818
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/child_stdout.raw",
+      "sha256": "32a972330fb75b5c314395a2ba1076b16eabe8905bfc2a38308948930048e403",
+      "size_bytes": 121156
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000000.json",
+      "sha256": "8ba54343b78ac8573413db63bd06f56b58517d7d017635ef8491c2352d698361",
+      "size_bytes": 1275
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000001.json",
+      "sha256": "c2cf81f9c58d3a3014c9f0c0fa81c905422bae6234752e08f02ba78131aa960f",
+      "size_bytes": 2798
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000002.json",
+      "sha256": "2cf0f1aac8e109248dc318dd109e8f73111a1e09c1d339663eab36bb9dd46c2b",
+      "size_bytes": 113720
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000003.json",
+      "sha256": "1b78276bbf94d4e181f01cd68e665e3d6e3995322d32c3f188987e7555fc50b5",
+      "size_bytes": 115084
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000004.json",
+      "sha256": "4d01f14d3b1a7974ea06bc1c34aa3e3e63ee9e5cb5f7bc3dd066d2cf78e7b22e",
+      "size_bytes": 115409
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_current_capture_9d9d7abf0b66acde7324ff2ef0db6d69807b1ccf20dc8d23889777ee1afeadb8.json",
+      "sha256": "9d9d7abf0b66acde7324ff2ef0db6d69807b1ccf20dc8d23889777ee1afeadb8",
+      "size_bytes": 2301630
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_child.json",
+      "sha256": "29c2dd656cd22558f99f621d2ac9b292b26c26ec025ad35292fcdc1b5a04f41d",
+      "size_bytes": 132312
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_child.json",
+      "sha256": "cf8d14445874c9c9b34069b917a426625938cf06941a379606f5c68121bbea1a",
+      "size_bytes": 16568
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_child.json",
+      "sha256": "bc17b18533b6a3e907c511ab6231c59c42f0c39d94b1dd33aeb6d43fa3231206",
+      "size_bytes": 13076
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_child.json",
+      "sha256": "d2b35cda8d5f46f9f6695cd7b3fa14c0a42ddab0f76947cf96ae518a3f5e804b",
+      "size_bytes": 150039
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_child.json",
+      "sha256": "b995d040da040d5e19e5c9d193d3d34956b2fbba22d212d3d9281b54eea3c024",
+      "size_bytes": 13391
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_parent.json",
+      "sha256": "eddd51cace944f8dc1f3f2d1da68a6933b9fe01799b452fe5e1cecd3afbd143d",
+      "size_bytes": 161133
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_parent.json",
+      "sha256": "4d880ae9e85cce18c56b9df1925050b24dceda203ed794f703222531bce6cf62",
+      "size_bytes": 28095
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_parent.json",
+      "sha256": "0772d3b2f79d92ed2e3049b90adf21377fe9363db9bbc1db2aa1f668ec9dc7cc",
+      "size_bytes": 17009
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_parent.json",
+      "sha256": "8da386a6542e929e6020a447c3bcf40a6b05cf743ded0b27a1f6d8c62b27a8cc",
+      "size_bytes": 183498
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_parent.json",
+      "sha256": "f0be257c1633d59b3f064d41b894211579f38a57e00e1c92ee7e7966d2ead555",
+      "size_bytes": 18474
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_complete_results_reports.json",
+      "sha256": "ee847fac09843aa933b01e0325228cfca0673bd62fa61f5abb55091fdcc697d3",
+      "size_bytes": 12913464
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_runtime_report_validation.json",
+      "sha256": "93971b85db476e9a58ef46169b2e79f267cb7a00d163e7105f07f8ba0bdaf5c2",
+      "size_bytes": 12944585
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_a.json",
+      "sha256": "86a75071d39cf01a7dffc8926dcdf063de9e1199ec7f1f77ba75467d9c5429ac",
+      "size_bytes": 12934970
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_b.json",
+      "sha256": "a92993b0f85194e000891db53f05cf24cb7c61b991794576e801f2a31601b057",
+      "size_bytes": 16340510
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_c.json",
+      "sha256": "11cc7ff567997f0b481f4d7d7f9de37ca469159d571f99f3f621cb2d70adf0f0",
+      "size_bytes": 16343047
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_abi_validation.json",
+      "sha256": "5e296a218127c68b0cc105b024a6eeb1504f59d00d8e14131c2146733d3b4cd1",
+      "size_bytes": 16343025
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_causal_validation.json",
+      "sha256": "794e8077fa7e4cae5c589e5b537d1fe0eac61ea29a81adf2d9b0d896e1d4f3e9",
+      "size_bytes": 13029043
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_terminal_validation.json",
+      "sha256": "4333bda4d559589c8d2511ec8f8879215477ff08d5b8502ff39a8feab8266892",
+      "size_bytes": 2917
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_preservation_validation.json",
+      "sha256": "580f6917b735176c723de6e9692fd2068702fe2c1c4ee408149852b6381c559b",
+      "size_bytes": 101885
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_structural_validation.json",
+      "sha256": "a7f2dba30a7d973a232b966568051343b6c6014c877564e16931e16dbfef9cd8",
+      "size_bytes": 12671
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_context_validation.json",
+      "sha256": "04e6d78acb05cb8105fefc5c9da1e8702edb4d5d871c77be7e7ac9978c4305b2",
+      "size_bytes": 16802
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_trace_validation.json",
+      "sha256": "ef854dc4ffbfc3db1064eca3db8888f1207bff2c5bfb301df451103a52c70fba",
+      "size_bytes": 6331
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_runtime_report_validation.json",
+      "sha256": "a1eab808aa195d32246ef54aa2d783b0410a203f4fe9310b48e4a6ae535e5723",
+      "size_bytes": 8606
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_inner_final_validation.json",
+      "sha256": "cf1681478b4caf640a3aa467286b4ad0ba381d30f1aa369f9d1fb93b1eb2f821",
+      "size_bytes": 14553274
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_native_return_c448694ff764cfa97e24a2f4d402804df24332f0856d516fff1aa4b37e6461c6.json",
+      "sha256": "c448694ff764cfa97e24a2f4d402804df24332f0856d516fff1aa4b37e6461c6",
+      "size_bytes": 14557116
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000005.json",
+      "sha256": "e16f331eec4a7b7570f4445f0bc0114b35fe7f24fb8df1cfab27c293a787897d",
+      "size_bytes": 282469
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+      "sha256": "d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea",
+      "size_bytes": 1580
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_source_history_boundary_8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0.json",
+      "sha256": "8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0",
+      "size_bytes": 118107
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_loader_schema_callback_origins_8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5.json",
+      "sha256": "8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5",
+      "size_bytes": 669926
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_native_report_writer_preflight_826d2ee4e4dde39e182707e22676833d105614a02991813f5a9f108a02268635.json",
+      "sha256": "826d2ee4e4dde39e182707e22676833d105614a02991813f5a9f108a02268635",
+      "size_bytes": 314
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_operation_closed_daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a.json",
+      "sha256": "daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a",
+      "size_bytes": 257
+    },
+    {
+      "path": "state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+      "sha256": "9c4273aa4b5cfa063156380f2bb84ca119814d0e621e7c832760ee9645ceaa19",
+      "size_bytes": 435
+    },
+    {
+      "path": "state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+      "sha256": "18b013459561d1c7ed9fc57bb5c025a2ecfbde7d52305c68125f78fb3609c5ea",
+      "size_bytes": 1403
+    },
+    {
+      "path": "workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+      "sha256": "4663b162eea3bb5c2ecc0da5d15aedb32320301e5bab628169398573e865004b",
+      "size_bytes": 283029
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+      "sha256": "9c2fa1df2d581b4d542dd1aaa9fb65cdcc047dff2a35d14ba92ec39db4cf7c8a",
+      "size_bytes": 63030
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/installation_receipt.json",
+      "sha256": "6fb9a32a5104cf27121b189bd10b808ba0155f80b1db097f48380e0f98270875",
+      "size_bytes": 1536
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "size_bytes": 85
+    },
+    {
+      "path": "app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "path": "app/codex_transport.py",
+      "sha256": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6",
+      "size_bytes": 40498
+    },
+    {
+      "path": "app/console_continuation.py",
+      "sha256": "48f8fb2e8c31eb64a1f161b0ada6fbf4295d3f0165f0236108e2d3267ef9d626",
+      "size_bytes": 103192
+    },
+    {
+      "path": "app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+      "size_bytes": 34050
+    },
+    {
+      "path": "app/controller.py",
+      "sha256": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a",
+      "size_bytes": 25597
+    },
+    {
+      "path": "app/document_integration.py",
+      "sha256": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075",
+      "size_bytes": 3897
+    },
+    {
+      "path": "app/document_temporal.py",
+      "sha256": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382",
+      "size_bytes": 2220
+    },
+    {
+      "path": "app/dynamic_control.py",
+      "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+      "size_bytes": 6732
+    },
+    {
+      "path": "app/dynamic_delta.py",
+      "sha256": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+      "size_bytes": 25737
+    },
+    {
+      "path": "app/dynamic_delta_graph.py",
+      "sha256": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+      "size_bytes": 4740
+    },
+    {
+      "path": "app/dynamic_delta_source.py",
+      "sha256": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+      "size_bytes": 10498
+    },
+    {
+      "path": "app/dynamic_delta_work.py",
+      "sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "size_bytes": 2938
+    },
+    {
+      "path": "app/dynamic_native.py",
+      "sha256": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+      "size_bytes": 64693
+    },
+    {
+      "path": "app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "path": "app/dynamic_semantics.py",
+      "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+      "size_bytes": 17051
+    },
+    {
+      "path": "app/dynamic_temporal.py",
+      "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+      "size_bytes": 1898
+    },
+    {
+      "path": "app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    {
+      "path": "app/evidence.py",
+      "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+      "size_bytes": 1707
+    },
+    {
+      "path": "app/informational_control.py",
+      "sha256": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+      "size_bytes": 20911
+    },
+    {
+      "path": "app/informational_core.py",
+      "sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "size_bytes": 21710
+    },
+    {
+      "path": "app/informational_document.py",
+      "sha256": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+      "size_bytes": 927
+    },
+    {
+      "path": "app/informational_material.py",
+      "sha256": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb",
+      "size_bytes": 5177
+    },
+    {
+      "path": "app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "size_bytes": 4307
+    },
+    {
+      "path": "app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "size_bytes": 43331
+    },
+    {
+      "path": "app/native_authority.py",
+      "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+      "size_bytes": 40597
+    },
+    {
+      "path": "app/native_document.py",
+      "sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "size_bytes": 107036
+    },
+    {
+      "path": "app/native_report_observer.py",
+      "sha256": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321",
+      "size_bytes": 28998
+    },
+    {
+      "path": "app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+      "size_bytes": 8996
+    },
+    {
+      "path": "app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    {
+      "path": "app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "app/ordinary_entry.py",
+      "sha256": "12cfb70813405fc460ef48bb41b32a55d5d44e7ac50d9a2dafe28fe2c0e6245b",
+      "size_bytes": 20439
+    },
+    {
+      "path": "app/ordinary_rehearsal.py",
+      "sha256": "eabf395fdd8ff1c249cdd392c921566eab2ec77cb1be3eafbbfe8e025444e9f8",
+      "size_bytes": 8231
+    },
+    {
+      "path": "app/owner_scenario.py",
+      "sha256": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+      "size_bytes": 30119
+    },
+    {
+      "path": "app/plan_auth.py",
+      "sha256": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783",
+      "size_bytes": 50844
+    },
+    {
+      "path": "app/proposal.py",
+      "sha256": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+      "size_bytes": 753
+    },
+    {
+      "path": "app/runtime.py",
+      "sha256": "25501bb868bb7f862adf775997980904f53e27b01688b9732f03d7a3558094f8",
+      "size_bytes": 40905
+    },
+    {
+      "path": "app/save_quota.py",
+      "sha256": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+      "size_bytes": 15084
+    },
+    {
+      "path": "app/semantic_membrane.py",
+      "sha256": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+      "size_bytes": 8173
+    },
+    {
+      "path": "app/source_admission.py",
+      "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+      "size_bytes": 12934
+    },
+    {
+      "path": "app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+      "size_bytes": 10775
+    },
+    {
+      "path": "app/stage04_diagnostics.py",
+      "sha256": "e436c2868e797bb9b139aa596aac7a5ff6465f8ecab9436ee0f7e2210781eaa7",
+      "size_bytes": 101536
+    },
+    {
+      "path": "app/stage04_native_scenario.py",
+      "sha256": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83",
+      "size_bytes": 15712
+    },
+    {
+      "path": "app/stream_observation.py",
+      "sha256": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+      "size_bytes": 25801
+    },
+    {
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    {
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "path": "config/application_profile_gate.py",
+      "sha256": "338eb57c35f3de9d9b20509b9d7b19d596abf8cf8cf613e061ae8ea058983291",
+      "size_bytes": 14123
+    },
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "config/launch.py",
+      "sha256": "06e1c0898666d998b193e9df14306b01682956ba1e78c32961d521e7b3b63926",
+      "size_bytes": 10982
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/native_profile_loader.py",
+      "sha256": "b0dc201cea5ef143e59b692e35d5f70c1e77f7131246af6b3f28cbe26b97f7f0",
+      "size_bytes": 3015
+    },
+    {
+      "path": "config/normal_session_policy.json",
+      "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+      "size_bytes": 524
+    },
+    {
+      "path": "config/requirements-plan-auth.txt",
+      "sha256": "ec54f0f0c92ca38c765d549cf18ff66290ab1c97126a2028657928c14b34af31",
+      "size_bytes": 546
+    },
+    {
+      "path": "config/requirements-plan-base.txt",
+      "sha256": "ed980ab39e698253b5c38d488a81ec5d9a046d6d1ef5ae1896c9bd9eaf3d9e97",
+      "size_bytes": 988
+    },
+    {
+      "path": "config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "review/dependencies/inventory.json",
+      "sha256": "e69324b7b44341fc001518bfaa96d9c0d7fe2e3228eb8c3730e9e336400fe557",
+      "size_bytes": 5250
+    },
+    {
+      "path": "review/direct_plan_passage/auth_dependency_metadata.json",
+      "sha256": "634e7675f6568e4763a3dea92ca1e14b69c1ca34002e072749acde644790f123",
+      "size_bytes": 9082
+    },
+    {
+      "path": "review/direct_plan_passage/bootstrap_identity.json",
+      "sha256": "e8a24d947ca3a1a4cc69784fd5864b725ebe6c31f94102a3a76eb208e2124eea",
+      "size_bytes": 869
+    },
+    {
+      "path": "review/direct_plan_passage/protocol_references.json",
+      "sha256": "5a57122af814c5e37b60d0f3eb8fb2bb208847741d179b305f8ab07c483a7da6",
+      "size_bytes": 4171
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+      "sha256": "7fc4a4f0492edbc5e8cb0545f0f9170cb54cfa1eb7a7313742fa345312d065e4",
+      "size_bytes": 14403
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+      "sha256": "277f2e8117b53447ef35c8cee4284eb26ca688a6f918b4366b5cea8524fc00d7",
+      "size_bytes": 25554
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+      "sha256": "fe0967fa976283619fbcaf3f19d3fb52ad8286353f8c9db6d36c8883ac5c195c",
+      "size_bytes": 11984
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+      "sha256": "45eeb6c19d5b27df665e0547fcc34ba9b9445e7c3ea1bb0e011daa7abd32231b",
+      "size_bytes": 15364
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+      "sha256": "91ba5b4f719519d66074a1b5f680c59259faaa4d682fbdde8c4197f9262f0df8",
+      "size_bytes": 22477
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+      "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+      "size_bytes": 29523
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+      "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+      "size_bytes": 792178
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+      "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+      "size_bytes": 32601
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+      "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+      "size_bytes": 18116
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+      "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+      "size_bytes": 57747
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+      "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+      "size_bytes": 3888
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+      "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+      "size_bytes": 48485
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "size_bytes": 157202
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+      "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+      "size_bytes": 57213
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+      "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+      "size_bytes": 3830
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+      "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+      "size_bytes": 35826
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+      "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+      "size_bytes": 54293
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+      "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+      "size_bytes": 30908
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+      "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+      "size_bytes": 38035
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+      "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+      "size_bytes": 21496
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+      "sha256": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f",
+      "size_bytes": 54539
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+      "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+      "size_bytes": 24063
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+      "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+      "size_bytes": 43017
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+      "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+      "size_bytes": 76437
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138",
+      "size_bytes": 574821
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+      "size_bytes": 3996
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+      "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+      "size_bytes": 128809
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+      "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+      "size_bytes": 293681
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+      "sha256": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c",
+      "size_bytes": 967599
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+      "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+      "size_bytes": 48487
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+      "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+      "size_bytes": 52804
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+      "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+      "size_bytes": 43352
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+      "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+      "size_bytes": 31043
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+      "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+      "size_bytes": 58880
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+      "sha256": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6",
+      "size_bytes": 146346
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+      "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+      "size_bytes": 15364
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+      "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+      "size_bytes": 53552
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+      "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+      "size_bytes": 30549
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+      "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+      "size_bytes": 18910
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+      "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+      "size_bytes": 50900
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+      "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+      "size_bytes": 4052
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+      "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+      "size_bytes": 14728
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+      "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+      "size_bytes": 17449
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+      "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+      "size_bytes": 974
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+      "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+      "size_bytes": 11394
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "size_bytes": 61617
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+      "sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2",
+      "size_bytes": 5858
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+      "sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd",
+      "size_bytes": 2703
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+      "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+      "size_bytes": 2711
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+      "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+      "size_bytes": 4583
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+      "sha256": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4",
+      "size_bytes": 142221
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+      "sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+      "sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742",
+      "size_bytes": 50293
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+      "sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29",
+      "size_bytes": 5829
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+      "sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c",
+      "size_bytes": 4442
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+      "sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468",
+      "size_bytes": 79878
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+      "sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1",
+      "size_bytes": 1635
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+      "sha256": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2",
+      "size_bytes": 404077
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+      "sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6",
+      "size_bytes": 8515
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+      "sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d",
+      "size_bytes": 59314
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+      "sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3",
+      "size_bytes": 7732
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+      "sha256": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5",
+      "size_bytes": 17635
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+      "sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9",
+      "size_bytes": 1762
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+      "sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7",
+      "size_bytes": 7381
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+      "sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909",
+      "size_bytes": 3774
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+      "sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01",
+      "size_bytes": 4774
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+      "size_bytes": 31692
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+      "size_bytes": 357296
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+      "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+      "size_bytes": 32082
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+      "sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb",
+      "size_bytes": 3804
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+      "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+      "size_bytes": 2522
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+      "sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e",
+      "size_bytes": 14505
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+      "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+      "size_bytes": 13903
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+      "sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2",
+      "size_bytes": 830
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+      "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+      "size_bytes": 1333
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+      "sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df",
+      "size_bytes": 4432
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+      "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+      "size_bytes": 4160
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+      "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+      "size_bytes": 14114
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+      "sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e",
+      "size_bytes": 3492
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+      "sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d",
+      "size_bytes": 752380
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+      "sha256": "25b7ad48287fa0478b7115f3fe0dc8752c3e2c2eef46b1a7e475f0b6341a5cae",
+      "size_bytes": 38279
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+      "sha256": "6acc55d6987e6f3a3d58e707f28d2f940b71f4ed270fd31cbc8ecacbe40e8187",
+      "size_bytes": 47240
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+      "sha256": "bf48bc125d881da15be32841c01d8717bc1df2aa1b9ebf02c9ee8edee03f37e9",
+      "size_bytes": 10036
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+      "sha256": "02e19d553e124137085c9f34da859861fb62033551e2f299d3ecd34d27c684b2",
+      "size_bytes": 18598
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+      "sha256": "8eb7c5440ec4e6a261bcfd807bd0d800a4997b297d00f15ef6bdbe509a1c0a37",
+      "size_bytes": 14929
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+      "sha256": "84a0bbc4c0cba614b8821dd4e405d48fdc620c97608914f239a4a59a591fea31",
+      "size_bytes": 15483
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/activate_profile.py",
+      "sha256": "8da9b34301123cab2dc052f12b272fab68f86f0b91bc8d57c0334c4efe28c13a",
+      "size_bytes": 21435
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/predecessor_install_state.json",
+      "sha256": "f9b944ff22741cf4f2f08c3b262546aa7f2f749d9c94a5fce629fe870c198811",
+      "size_bytes": 40108
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+      "sha256": "c3fd6357365384e508c8031d47ad81ff65c62a107a6d4a097ac75bdda6ea86c2",
+      "size_bytes": 30812
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    },
+    {
+      "path": "review/transport/direct_plan_gate.py",
+      "sha256": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6",
+      "size_bytes": 33498
+    },
+    {
+      "path": "review/transport/model_scope.py",
+      "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+      "size_bytes": 15477
+    },
+    {
+      "path": "review/transport/owner_failure_report.py",
+      "sha256": "049680da7271b0db473a634300535914946bfd8e263f9525ba7ffddc3aa3736c",
+      "size_bytes": 3852
+    },
+    {
+      "path": "review/transport/plan_dependencies.py",
+      "sha256": "740eda10b97c2e080e5b967c623bba54e3e6b8770aba9b559175aedf2ead3caa",
+      "size_bytes": 23311
+    },
+    {
+      "path": "review/transport/radik_owner_start.py",
+      "sha256": "7c8319014d6166d06dbf44817dfd9743a94e2e332ec07b605fd7883511a35b2e",
+      "size_bytes": 143813
+    },
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "7ab3c2fbc4cc472308d76942277343e1f127263c77e49e21af61ddf2e88ae13c",
+      "size_bytes": 87858
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/console_model_turns.json",
+      "sha256": "8ca67d083d6e8441628fa1a584afda991b05ab2ca9a41ec00fe61156dd97c909",
+      "size_bytes": 72056
+    },
+    {
+      "path": "state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+      "sha256": "a6daa628a069546a8bf1438ca521e60cea6521bc8582d226043924dd6d183eac",
+      "size_bytes": 1219
+    },
+    {
+      "path": "state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+      "sha256": "854cc8e2daca7b7dd19e06132acfe3d826a886c9f290263d3264da8897353695",
+      "size_bytes": 340
+    },
+    {
+      "path": "state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+      "sha256": "ff9701b0f9005da4b782310cd2021e55b39619279c5505a1f4c6ccb1d6df6013",
+      "size_bytes": 1406
+    },
+    {
+      "path": "state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+      "sha256": "dcb759598c1e698141f04afe464158f1926eb3f651cb0755cab742438e9f3117",
+      "size_bytes": 340
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+      "sha256": "af36a28303743d347db2c08977bc39bf14cc937b6d20ed0ef884f844aebc0768",
+      "size_bytes": 1312
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+      "sha256": "4b9691c6452ca2adf1a401185e5eb887ffaee213ff512b5db993dfc2b1acefd1",
+      "size_bytes": 1264
+    },
+    {
+      "path": "state/normal_operations/ae80d51e264e4a0ba34016b1890b1a93.json.closed",
+      "sha256": "1200cec56f06aba64d58f689190ec81d53328ec616583fa7cbec976581030f65",
+      "size_bytes": 446
+    },
+    {
+      "path": "state/normal_rounds/8f0b2be977c84fad966c07bb0ea99dc6.json.closed",
+      "sha256": "3cf22aa00103a0250c3382c0343ad1644d1714793a511ddaac784f9cf418f06d",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+      "sha256": "07d90bb907139b1004674b5acfcbb1dabdf73b40789bc19a35518cea757a2606",
+      "size_bytes": 4238
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+      "sha256": "5724365bab2c30dadc7effe08ef68f867985fb81a4e194a1aab9492e43e32d1e",
+      "size_bytes": 1466
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_preservation.json",
+      "sha256": "f8d4d5fb512e84de7e567e63154055f08ee4098b09f862f138aa338ab178f0c9",
+      "size_bytes": 100789
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+      "size_bytes": 39252
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "fdb3bca24bc8960cdd9119dabfcd11296f138b86b1fc8e56aed67a8c7f4bdde2",
+      "size_bytes": 33403
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "c5b93c6b6afc3976cac15f617c350c1d7007be83e528545b0724ad870872db99",
+      "size_bytes": 258
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "286baa5d5eb44ca36569440c58717b6812dad4f751895c356e6997d3f86ed9e4",
+      "size_bytes": 6435
+    },
+    {
+      "path": "state/normal_grant_index.json",
+      "sha256": "2f8f0ca1a7cd3dc3cea0ae65efa504741907e15dbdfea2dc1088e96523858ee2",
+      "size_bytes": 777
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_source_revisions.json",
+      "sha256": "4d1e6d37c82eb011600e9d0e6a8f1cb08bdd4b2b5c8ae88c4a5d96857dd011d6",
+      "size_bytes": 1252
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_source_successors.json",
+      "sha256": "6e6f344198488bec78ffe0198393c4c5e08c59e8d537a3242c5a0a48cfeca2e8",
+      "size_bytes": 1821
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/console_model_turns.json",
+      "sha256": "7ab3c2fbc4cc472308d76942277343e1f127263c77e49e21af61ddf2e88ae13c",
+      "size_bytes": 87858
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile.json",
+      "sha256": "c5b93c6b6afc3976cac15f617c350c1d7007be83e528545b0724ad870872db99",
+      "size_bytes": 258
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile_install.json",
+      "sha256": "286baa5d5eb44ca36569440c58717b6812dad4f751895c356e6997d3f86ed9e4",
+      "size_bytes": 6435
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_grant_index.json",
+      "sha256": "2f8f0ca1a7cd3dc3cea0ae65efa504741907e15dbdfea2dc1088e96523858ee2",
+      "size_bytes": 777
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "1c78e647f56b86751bdd884a7f0081797ea0802ddb93f2c0b5e264f9f58f635b",
+      "size_bytes": 39252
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_revisions.json",
+      "sha256": "4d1e6d37c82eb011600e9d0e6a8f1cb08bdd4b2b5c8ae88c4a5d96857dd011d6",
+      "size_bytes": 1252
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_successors.json",
+      "sha256": "6e6f344198488bec78ffe0198393c4c5e08c59e8d537a3242c5a0a48cfeca2e8",
+      "size_bytes": 1821
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/normal_session_policy.json",
+      "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+      "size_bytes": 524
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+      "sha256": "18b013459561d1c7ed9fc57bb5c025a2ecfbde7d52305c68125f78fb3609c5ea",
+      "size_bytes": 1403
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+      "sha256": "9c4273aa4b5cfa063156380f2bb84ca119814d0e621e7c832760ee9645ceaa19",
+      "size_bytes": 435
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+      "sha256": "a6daa628a069546a8bf1438ca521e60cea6521bc8582d226043924dd6d183eac",
+      "size_bytes": 1219
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+      "sha256": "854cc8e2daca7b7dd19e06132acfe3d826a886c9f290263d3264da8897353695",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+      "sha256": "ff9701b0f9005da4b782310cd2021e55b39619279c5505a1f4c6ccb1d6df6013",
+      "size_bytes": 1406
+    },
+    {
+      "path": "review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+      "sha256": "dcb759598c1e698141f04afe464158f1926eb3f651cb0755cab742438e9f3117",
+      "size_bytes": 340
+    }
+  ],
+  "exam_attempts": 16,
+  "external_registry_ids": 20,
+  "historical_refs_verified": [
+    {
+      "path": "state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+      "sha256": "af36a28303743d347db2c08977bc39bf14cc937b6d20ed0ef884f844aebc0768",
+      "size_bytes": 1312
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+      "sha256": "4b9691c6452ca2adf1a401185e5eb887ffaee213ff512b5db993dfc2b1acefd1",
+      "size_bytes": 1264
+    },
+    {
+      "path": "state/normal_operations/ae80d51e264e4a0ba34016b1890b1a93.json.closed",
+      "sha256": "1200cec56f06aba64d58f689190ec81d53328ec616583fa7cbec976581030f65",
+      "size_bytes": 446
+    },
+    {
+      "path": "state/normal_rounds/8f0b2be977c84fad966c07bb0ea99dc6.json.closed",
+      "sha256": "3cf22aa00103a0250c3382c0343ad1644d1714793a511ddaac784f9cf418f06d",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+      "sha256": "07d90bb907139b1004674b5acfcbb1dabdf73b40789bc19a35518cea757a2606",
+      "size_bytes": 4238
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+      "sha256": "5724365bab2c30dadc7effe08ef68f867985fb81a4e194a1aab9492e43e32d1e",
+      "size_bytes": 1466
+    }
+  ],
+  "limits": [
+    "This acceptance covers operation, exact installed SOURCE bindings, persisted observations and ledger/history closure. Native, business and final application Root consumer semantics require their separate independent review.",
+    "source/reference clean commit was observed by the root reviewer using read-only git and is recorded in the reviewed report; this reviewer did not repeat that git observation.",
+    "No saved evidence restores live Host/Root authority. Current task COMPLETED is distinct from an application Root ACCEPT decision. No full Stage04 completion or fresh owner execution is authorized."
+  ],
+  "loaded_callbacks": 17,
+  "loaded_native_origins": 43,
+  "measured_seconds": {
+    "E_enter_exit_seconds": 2124.583643084,
+    "early_checkpoint_after_E_seconds": 440.570628167,
+    "final_process_cpu_seconds": 2515.987585,
+    "native_span_cumulative_seconds": 2483.051726499,
+    "owner_wall_seconds": 2599.659387333
+  },
+  "method": "Independent bounded stdlib byte/JSON and serialized row comparisons. No application/native module imports, validators, formatter, D/E, AUTH, provider/model, Work, SAVE, owner operation or profile activation.",
+  "new_completed_roles": [
+    "orchestrator",
+    "architect",
+    "critic",
+    "orchestrator",
+    "architect",
+    "critic"
+  ],
+  "old_serialized_rows_byte_equal": true,
+  "operation_id": "42abee1a-3219-44b2-8068-bf1192b5e156",
+  "original_unknown_count": 3,
+  "passed_checks": [
+    "independent_author_identity",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/reservation_outcome.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/launch.json",
+    "reference:state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_admission.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/runtime_source_review.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/child_stdout.raw",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000000.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000001.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000002.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000003.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000004.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_current_capture_9d9d7abf0b66acde7324ff2ef0db6d69807b1ccf20dc8d23889777ee1afeadb8.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_complete_results_reports.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_runtime_report_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_a.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_b.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_c.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_abi_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_causal_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_terminal_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_preservation_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_structural_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_context_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_trace_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_runtime_report_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_inner_final_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_native_return_c448694ff764cfa97e24a2f4d402804df24332f0856d516fff1aa4b37e6461c6.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000005.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_source_history_boundary_8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_loader_schema_callback_origins_8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_native_report_writer_preflight_826d2ee4e4dde39e182707e22676833d105614a02991813f5a9f108a02268635.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_operation_closed_daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a.json",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/installation_receipt.json",
+    "reference:app/__init__.py",
+    "reference:app/budget.py",
+    "reference:app/codex_transport.py",
+    "reference:app/console_continuation.py",
+    "reference:app/contracts.py",
+    "reference:app/controller.py",
+    "reference:app/document_integration.py",
+    "reference:app/document_temporal.py",
+    "reference:app/dynamic_control.py",
+    "reference:app/dynamic_delta.py",
+    "reference:app/dynamic_delta_graph.py",
+    "reference:app/dynamic_delta_source.py",
+    "reference:app/dynamic_delta_work.py",
+    "reference:app/dynamic_native.py",
+    "reference:app/dynamic_roles.py",
+    "reference:app/dynamic_semantics.py",
+    "reference:app/dynamic_temporal.py",
+    "reference:app/dynamic_work.py",
+    "reference:app/evidence.py",
+    "reference:app/informational_control.py",
+    "reference:app/informational_core.py",
+    "reference:app/informational_document.py",
+    "reference:app/informational_material.py",
+    "reference:app/intake.py",
+    "reference:app/memory.py",
+    "reference:app/native_authority.py",
+    "reference:app/native_document.py",
+    "reference:app/native_report_observer.py",
+    "reference:app/normal_profile.py",
+    "reference:app/normal_session.py",
+    "reference:app/openai_plan_transport.py",
+    "reference:app/ordinary_entry.py",
+    "reference:app/ordinary_rehearsal.py",
+    "reference:app/owner_scenario.py",
+    "reference:app/plan_auth.py",
+    "reference:app/proposal.py",
+    "reference:app/runtime.py",
+    "reference:app/save_quota.py",
+    "reference:app/semantic_membrane.py",
+    "reference:app/source_admission.py",
+    "reference:app/source_successor.py",
+    "reference:app/stage04_diagnostics.py",
+    "reference:app/stage04_native_scenario.py",
+    "reference:app/stream_observation.py",
+    "reference:app/task_budget.py",
+    "reference:app/task_spec.py",
+    "reference:app/task_store.py",
+    "reference:config/application_profile_gate.py",
+    "reference:config/console_model_policy.json",
+    "reference:config/launch.py",
+    "reference:config/model_policy.json",
+    "reference:config/native_profile_loader.py",
+    "reference:config/normal_session_policy.json",
+    "reference:config/requirements-plan-auth.txt",
+    "reference:config/requirements-plan-base.txt",
+    "reference:config/task_model_policy.json",
+    "reference:review/dependencies/inventory.json",
+    "reference:review/direct_plan_passage/auth_dependency_metadata.json",
+    "reference:review/direct_plan_passage/bootstrap_identity.json",
+    "reference:review/direct_plan_passage/protocol_references.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/activate_profile.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/predecessor_install_state.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+    "reference:review/package_direct_plan_return.py",
+    "reference:review/transport/direct_plan_gate.py",
+    "reference:review/transport/model_scope.py",
+    "reference:review/transport/owner_failure_report.py",
+    "reference:review/transport/plan_dependencies.py",
+    "reference:review/transport/radik_owner_start.py",
+    "reference:state/console_model_turns.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/console_model_turns.json",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "reference:state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+    "reference:state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+    "reference:state/normal_operations/ae80d51e264e4a0ba34016b1890b1a93.json.closed",
+    "reference:state/normal_rounds/8f0b2be977c84fad966c07bb0ea99dc6.json.closed",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_preservation.json",
+    "reference:state/model_turns.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/model_turns.json",
+    "reference:workspace/owner_documents/state/dynamic_tasks.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+    "reference:state/application_profile.json",
+    "reference:state/application_profile_install.json",
+    "reference:state/normal_grant_index.json",
+    "reference:workspace/owner_documents/state/dynamic_source_revisions.json",
+    "reference:workspace/owner_documents/state/dynamic_source_successors.json",
+    "reference:app/__init__.py",
+    "reference:app/budget.py",
+    "reference:app/codex_transport.py",
+    "reference:app/console_continuation.py",
+    "reference:app/contracts.py",
+    "reference:app/controller.py",
+    "reference:app/document_integration.py",
+    "reference:app/document_temporal.py",
+    "reference:app/dynamic_control.py",
+    "reference:app/dynamic_delta.py",
+    "reference:app/dynamic_delta_graph.py",
+    "reference:app/dynamic_delta_source.py",
+    "reference:app/dynamic_delta_work.py",
+    "reference:app/dynamic_native.py",
+    "reference:app/dynamic_roles.py",
+    "reference:app/dynamic_semantics.py",
+    "reference:app/dynamic_temporal.py",
+    "reference:app/dynamic_work.py",
+    "reference:app/evidence.py",
+    "reference:app/informational_control.py",
+    "reference:app/informational_core.py",
+    "reference:app/informational_document.py",
+    "reference:app/informational_material.py",
+    "reference:app/intake.py",
+    "reference:app/memory.py",
+    "reference:app/native_authority.py",
+    "reference:app/native_document.py",
+    "reference:app/native_report_observer.py",
+    "reference:app/normal_profile.py",
+    "reference:app/normal_session.py",
+    "reference:app/openai_plan_transport.py",
+    "reference:app/ordinary_entry.py",
+    "reference:app/ordinary_rehearsal.py",
+    "reference:app/owner_scenario.py",
+    "reference:app/plan_auth.py",
+    "reference:app/proposal.py",
+    "reference:app/runtime.py",
+    "reference:app/save_quota.py",
+    "reference:app/semantic_membrane.py",
+    "reference:app/source_admission.py",
+    "reference:app/source_successor.py",
+    "reference:app/stage04_diagnostics.py",
+    "reference:app/stage04_native_scenario.py",
+    "reference:app/stream_observation.py",
+    "reference:app/task_budget.py",
+    "reference:app/task_spec.py",
+    "reference:app/task_store.py",
+    "reference:config/application_profile_gate.py",
+    "reference:config/console_model_policy.json",
+    "reference:config/launch.py",
+    "reference:config/model_policy.json",
+    "reference:config/native_profile_loader.py",
+    "reference:config/normal_session_policy.json",
+    "reference:config/requirements-plan-auth.txt",
+    "reference:config/requirements-plan-base.txt",
+    "reference:config/task_model_policy.json",
+    "reference:review/dependencies/inventory.json",
+    "reference:review/direct_plan_passage/auth_dependency_metadata.json",
+    "reference:review/direct_plan_passage/bootstrap_identity.json",
+    "reference:review/direct_plan_passage/protocol_references.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/activate_profile.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_v02.py",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/predecessor_install_state.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+    "reference:review/package_direct_plan_return.py",
+    "reference:review/transport/direct_plan_gate.py",
+    "reference:review/transport/model_scope.py",
+    "reference:review/transport/owner_failure_report.py",
+    "reference:review/transport/plan_dependencies.py",
+    "reference:review/transport/radik_owner_start.py",
+    "reference:state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+    "reference:state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+    "reference:state/normal_operations/ae80d51e264e4a0ba34016b1890b1a93.json.closed",
+    "reference:state/normal_rounds/8f0b2be977c84fad966c07bb0ea99dc6.json.closed",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+    "reference:state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+    "outcome_receipt_binding",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/launch.json",
+    "receipt_launch_binding",
+    "reference:state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+    "launch_reservation_binding",
+    "exact_consumed_admission",
+    "one_use_reservation_single_run",
+    "admitted_supervisor_source",
+    "receipt_successful_closed_conditions",
+    "outcome_closed_child_identity",
+    "all_221_event_sequences",
+    "single_run_event_identity",
+    "raw_final_exact_success",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+    "entry_final_closed_owner",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_source_history_boundary_8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_loader_schema_callback_origins_8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_native_report_writer_preflight_826d2ee4e4dde39e182707e22676833d105614a02991813f5a9f108a02268635.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_operation_closed_daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_operation_closed_daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a.json",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "run_id_derived_through_final_operation_close",
+    "scenario_completed_status",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000000.json",
+    "snapshot_same_run:4",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000001.json",
+    "snapshot_same_run:5",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000002.json",
+    "snapshot_same_run:35",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000003.json",
+    "snapshot_same_run:36",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000004.json",
+    "snapshot_same_run:37",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_current_capture_9d9d7abf0b66acde7324ff2ef0db6d69807b1ccf20dc8d23889777ee1afeadb8.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_child.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_parent.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_complete_results_reports.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_runtime_report_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_a.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_b.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_c.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_abi_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_causal_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_terminal_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_preservation_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_structural_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_context_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_trace_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_runtime_report_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_inner_final_validation.json",
+    "reference:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_native_return_c448694ff764cfa97e24a2f4d402804df24332f0856d516fff1aa4b37e6461c6.json",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000005.json",
+    "snapshot_same_run:218",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+    "snapshot_same_run:219",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+    "event_readbacks_exact_34",
+    "seven_exact_ordered_snapshots",
+    "reference:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+    "last_snapshot_equals_final_report_bytes",
+    "reference:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+    "all_158_source_pins_match_manifest",
+    "profile_manifest_bound_to_operation_and_entry",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_source_history_boundary_8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0.json",
+    "reference:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_loader_schema_callback_origins_8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5.json",
+    "source_boundary_real_exact_pins",
+    "source_identity_bound",
+    "source_boundary_initial_counters",
+    "real_loader_origin_status",
+    "loaded_origin_counts",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+    "observed_origin_pin:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+    "observed_callback_source:app.dynamic_work.validate_inputs",
+    "observed_callback_source:app.dynamic_work.validate_outputs",
+    "observed_callback_source:app.dynamic_delta_work.validate_inputs",
+    "observed_callback_source:app.dynamic_delta_work.validate_outputs",
+    "observed_callback_source:app.dynamic_delta_work.execute",
+    "observed_callback_source:app.informational_core.validate_source_inputs_v26",
+    "observed_callback_source:app.informational_core.validate_source_outputs_v26",
+    "observed_callback_source:app.informational_core.execute_source_digest_v26",
+    "observed_callback_source:app.native_document.validate_pure_inputs",
+    "observed_callback_source:app.native_document.validate_pure_outputs",
+    "observed_callback_source:app.native_document.execute_extraction",
+    "observed_callback_source:app.native_document.execute_comparison",
+    "observed_callback_source:hedgehog.work_execution_host_v01.capture_current_informational_source_v01",
+    "observed_callback_source:hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_span_v01",
+    "observed_callback_source:hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_phase_v01",
+    "observed_callback_source:hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_consumer_v01",
+    "observed_callback_source:hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_progress_v01",
+    "ledger_29_to_35",
+    "all_29_original_serialized_rows_unchanged",
+    "three_unknowns_preserved",
+    "cold_three_delta_three_completed_roles",
+    "new_role_operation_task_identity",
+    "current_no_active_attempt_exact_ledger_head",
+    "new_attempt_chain_exact",
+    "new_attempt_round_scope:0",
+    "new_attempt_round_scope:1",
+    "new_attempt_round_scope:2",
+    "new_attempt_round_scope:3",
+    "new_attempt_round_scope:4",
+    "new_attempt_round_scope:5",
+    "operation_closed_no_active_pointer",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "round_closed:COLD",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "round_closed:INFORMATIONAL_DELTA",
+    "legacy_exam_exact_16_bytes_unchanged",
+    "task_completed_and_not_active",
+    "prior_task_history_preserved_with_single_restart_interruption",
+    "historical_pins_from_predecessor_exact",
+    "reference:state/console_model_turns.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/console_model_turns.json",
+    "state_original_snapshot_byte_equal:state/console_model_turns.json",
+    "reference:state/model_turns.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/model_turns.json",
+    "state_original_snapshot_byte_equal:state/model_turns.json",
+    "reference:state/application_profile.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile.json",
+    "state_original_snapshot_byte_equal:state/application_profile.json",
+    "reference:state/application_profile_install.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile_install.json",
+    "state_original_snapshot_byte_equal:state/application_profile_install.json",
+    "reference:state/normal_grant_index.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_grant_index.json",
+    "state_original_snapshot_byte_equal:state/normal_grant_index.json",
+    "reference:workspace/owner_documents/state/dynamic_tasks.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_tasks.json",
+    "state_original_snapshot_byte_equal:workspace/owner_documents/state/dynamic_tasks.json",
+    "reference:workspace/owner_documents/state/dynamic_source_revisions.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_revisions.json",
+    "state_original_snapshot_byte_equal:workspace/owner_documents/state/dynamic_source_revisions.json",
+    "reference:workspace/owner_documents/state/dynamic_source_successors.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_successors.json",
+    "state_original_snapshot_byte_equal:workspace/owner_documents/state/dynamic_source_successors.json",
+    "reference:config/model_policy.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/model_policy.json",
+    "state_original_snapshot_byte_equal:config/model_policy.json",
+    "reference:config/console_model_policy.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/console_model_policy.json",
+    "state_original_snapshot_byte_equal:config/console_model_policy.json",
+    "reference:config/normal_session_policy.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/normal_session_policy.json",
+    "state_original_snapshot_byte_equal:config/normal_session_policy.json",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "state_original_snapshot_byte_equal:state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "reference:state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "state_original_snapshot_byte_equal:state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "state_original_snapshot_byte_equal:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "reference:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "state_original_snapshot_byte_equal:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "state_original_snapshot_byte_equal:state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "reference:state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "reference:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "state_original_snapshot_byte_equal:state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "seventeen_public_state_copies",
+    "single_E_closed_and_no_open_spans",
+    "all_duration_measurements_exact",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/operation_source_ledger_review.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/receipt.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/reservation_outcome.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/launch.json",
+    "unchanged_during_review:state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_admission.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/runtime_source_review.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/child_stdout.raw",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000000.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000001.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000002.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000003.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000004.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_current_capture_9d9d7abf0b66acde7324ff2ef0db6d69807b1ccf20dc8d23889777ee1afeadb8.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_child.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_child.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_child.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_child.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_child.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_proposal_report_parent.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_post_vv_report_parent.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_gt_report_parent.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_pre_result_report_parent.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_cell_result_report_parent.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_complete_results_reports.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_runtime_report_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_a.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_b.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_stage_validation_stage_d_c.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_abi_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_causal_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/d_terminal_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_preservation_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_structural_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_result_context_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_trace_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_runtime_report_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/native_e_owner_E_c75770ba0a26b6b63cf173db17917b56/public_reports/e_inner_final_validation.json",
+    "unchanged_during_review:workspace/owner_documents/review/task_evidence/07190c973b8781f2a8cf97ddc71b7d6b6c36de812f981b176cb3ce96bca40b95/dynamic_delta_native_return_c448694ff764cfa97e24a2f4d402804df24332f0856d516fff1aa4b37e6461c6.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000005.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.snapshots/000006.json",
+    "unchanged_during_review:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_entry_result_d1e80517a82723897254a5375de6088981cd72a4b9f19f875d1d3da08fed2cea.json",
+    "unchanged_during_review:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_source_history_boundary_8e52f37e733611dbe3a351d188a8dc8d950bca9bf06755006e950af9c6aa49d0.json",
+    "unchanged_during_review:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_loader_schema_callback_origins_8557b807055f4cbbe8702b45b5e20dc69eda26be3f03621e9ea1ed77209bc5d5.json",
+    "unchanged_during_review:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_native_report_writer_preflight_826d2ee4e4dde39e182707e22676833d105614a02991813f5a9f108a02268635.json",
+    "unchanged_during_review:workspace/owner_documents/review/p28_entry/e9887860e70b879c87a25527/ordinary_operation_closed_daf9d2905f0d8233248fa9c043a49ff0fca5316a948715d1b50e18842298987a.json",
+    "unchanged_during_review:state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "unchanged_during_review:state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "unchanged_during_review:workspace/owner_documents/review/stage04_actual_runs/daa3d0e38486.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/owner_terminal_runs/OWNER_20261020T091341_9e9b3f1c9653422bb065c482ba1c1b56/installation_receipt.json",
+    "unchanged_during_review:app/__init__.py",
+    "unchanged_during_review:app/budget.py",
+    "unchanged_during_review:app/codex_transport.py",
+    "unchanged_during_review:app/console_continuation.py",
+    "unchanged_during_review:app/contracts.py",
+    "unchanged_during_review:app/controller.py",
+    "unchanged_during_review:app/document_integration.py",
+    "unchanged_during_review:app/document_temporal.py",
+    "unchanged_during_review:app/dynamic_control.py",
+    "unchanged_during_review:app/dynamic_delta.py",
+    "unchanged_during_review:app/dynamic_delta_graph.py",
+    "unchanged_during_review:app/dynamic_delta_source.py",
+    "unchanged_during_review:app/dynamic_delta_work.py",
+    "unchanged_during_review:app/dynamic_native.py",
+    "unchanged_during_review:app/dynamic_roles.py",
+    "unchanged_during_review:app/dynamic_semantics.py",
+    "unchanged_during_review:app/dynamic_temporal.py",
+    "unchanged_during_review:app/dynamic_work.py",
+    "unchanged_during_review:app/evidence.py",
+    "unchanged_during_review:app/informational_control.py",
+    "unchanged_during_review:app/informational_core.py",
+    "unchanged_during_review:app/informational_document.py",
+    "unchanged_during_review:app/informational_material.py",
+    "unchanged_during_review:app/intake.py",
+    "unchanged_during_review:app/memory.py",
+    "unchanged_during_review:app/native_authority.py",
+    "unchanged_during_review:app/native_document.py",
+    "unchanged_during_review:app/native_report_observer.py",
+    "unchanged_during_review:app/normal_profile.py",
+    "unchanged_during_review:app/normal_session.py",
+    "unchanged_during_review:app/openai_plan_transport.py",
+    "unchanged_during_review:app/ordinary_entry.py",
+    "unchanged_during_review:app/ordinary_rehearsal.py",
+    "unchanged_during_review:app/owner_scenario.py",
+    "unchanged_during_review:app/plan_auth.py",
+    "unchanged_during_review:app/proposal.py",
+    "unchanged_during_review:app/runtime.py",
+    "unchanged_during_review:app/save_quota.py",
+    "unchanged_during_review:app/semantic_membrane.py",
+    "unchanged_during_review:app/source_admission.py",
+    "unchanged_during_review:app/source_successor.py",
+    "unchanged_during_review:app/stage04_diagnostics.py",
+    "unchanged_during_review:app/stage04_native_scenario.py",
+    "unchanged_during_review:app/stream_observation.py",
+    "unchanged_during_review:app/task_budget.py",
+    "unchanged_during_review:app/task_spec.py",
+    "unchanged_during_review:app/task_store.py",
+    "unchanged_during_review:config/application_profile_gate.py",
+    "unchanged_during_review:config/console_model_policy.json",
+    "unchanged_during_review:config/launch.py",
+    "unchanged_during_review:config/model_policy.json",
+    "unchanged_during_review:config/native_profile_loader.py",
+    "unchanged_during_review:config/normal_session_policy.json",
+    "unchanged_during_review:config/requirements-plan-auth.txt",
+    "unchanged_during_review:config/requirements-plan-base.txt",
+    "unchanged_during_review:config/task_model_policy.json",
+    "unchanged_during_review:review/dependencies/inventory.json",
+    "unchanged_during_review:review/direct_plan_passage/auth_dependency_metadata.json",
+    "unchanged_during_review:review/direct_plan_passage/bootstrap_identity.json",
+    "unchanged_during_review:review/direct_plan_passage/protocol_references.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/activate_profile.py",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/predecessor_install_state.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+    "unchanged_during_review:review/package_direct_plan_return.py",
+    "unchanged_during_review:review/transport/direct_plan_gate.py",
+    "unchanged_during_review:review/transport/model_scope.py",
+    "unchanged_during_review:review/transport/owner_failure_report.py",
+    "unchanged_during_review:review/transport/plan_dependencies.py",
+    "unchanged_during_review:review/transport/radik_owner_start.py",
+    "unchanged_during_review:state/console_model_turns.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/console_model_turns.json",
+    "unchanged_during_review:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "unchanged_during_review:state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "unchanged_during_review:state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "unchanged_during_review:state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed",
+    "unchanged_during_review:state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+    "unchanged_during_review:state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+    "unchanged_during_review:state/normal_operations/ae80d51e264e4a0ba34016b1890b1a93.json.closed",
+    "unchanged_during_review:state/normal_rounds/8f0b2be977c84fad966c07bb0ea99dc6.json.closed",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_preservation.json",
+    "unchanged_during_review:state/model_turns.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/state/model_turns.json",
+    "unchanged_during_review:workspace/owner_documents/state/dynamic_tasks.json",
+    "unchanged_during_review:review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+    "unchanged_during_review:state/application_profile.json",
+    "unchanged_during_review:state/application_profile_install.json",
+    "unchanged_during_review:state/normal_grant_index.json",
+    "unchanged_during_review:workspace/owner_documents/state/dynamic_source_revisions.json",
+    "unchanged_during_review:workspace/owner_documents/state/dynamic_source_successors.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/console_model_turns.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/model_turns.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/application_profile_install.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_grant_index.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_tasks.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_revisions.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/workspace/owner_documents/state/dynamic_source_successors.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/model_policy.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/console_model_policy.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/config/normal_session_policy.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_operations/42abee1a321944b28068bf1192b5e156.json.closed",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/3c7fb20194c2434189828936d0d73247.json.closed",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json",
+    "unchanged_during_review:review/g2e_successor_passage/p30_actual_acceptance/actual_state/state/normal_rounds/e482163445924d67ab23b10754d63a56.json.closed"
+  ],
+  "primary_failure": null,
+  "public_state_copies_verified": 17,
+  "raw_final_line": 411,
+  "receipt_status": "CHILD_CLOSED_REVIEW_REQUIRED",
+  "reviewed_author": "/root",
+  "reviewed_report_ref": {
+    "path": "review/g2e_successor_passage/p30_actual_acceptance/operation_source_ledger_review.json",
+    "sha256": "870814bee28e7abd9e797dd6a5623a9f1e24fdfc65bc364a5a8c4b0929c7f67f",
+    "size_bytes": 145450
+  },
+  "reviewer": "/root/p30_actual_return_author",
+  "run_id": "daa3d0e38486",
+  "schema": "radik.p30.independent_operation_source_ledger_review.v01",
+  "schema_resources": 33,
+  "source_manifest_pins_verified": 158,
+  "status": "ACCEPTED_COMPLETED_OWNER_OPERATION_SOURCE_AND_LEDGER_BINDINGS",
+  "task_id": "radik-task:ade2e65cb7d24a1a907d48f86bdb8e27",
+  "whole_scenario_status": "PASS_FIRST_SELECTIVE_OWNER_SCENARIO"
+}

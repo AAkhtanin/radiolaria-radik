@@ -1,0 +1,165 @@
+{
+  "schema": "radik.p31.reference_navigation_independent_readback.v01",
+  "reviewer": "/root",
+  "author": "/root/p31_reference_mapper",
+  "status": "ACCEPTED_PINNED_REFERENCE_NAVIGATION_AND_SCOPE_SEPARATION",
+  "generated_at_utc": "2026-10-20T15:19:41.135704+00:00",
+  "navigation_ref": {
+    "path": "review/g2e_successor_passage/p31_actual_acceptance/reference_navigation.json",
+    "sha256": "32184df2fdfad40c8fdd917d634fe8e49a35700d8007f6c967ea255621f44dc6",
+    "size_bytes": 107166
+  },
+  "sources_checked": [
+    {
+      "id": "REF-LOCK",
+      "sha256": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682",
+      "bytes": 33255
+    },
+    {
+      "id": "REF-G1",
+      "sha256": "1ba33b760172b918789b1def0975c7180594fb969314af8ed66fcbfd167ef1e6",
+      "bytes": 7010
+    },
+    {
+      "id": "REF-G2",
+      "sha256": "87eb4c5c6bd68244a9de713502e556c149baab9a4a8dfbcaa4a839a884ee314c",
+      "bytes": 23648
+    },
+    {
+      "id": "REF-OVERLAY",
+      "sha256": "fbe67d69fe51ee50ae118accf7a0b694189ee083774564d19a68432d43f8b2d6",
+      "bytes": 159825
+    },
+    {
+      "id": "REF-G3",
+      "sha256": "69279fd9fb4b3f7eb96a04ba30d65a69b5627e5bfe69c1d013c3b3c190720d73",
+      "bytes": 1096
+    },
+    {
+      "id": "REF-G4",
+      "sha256": "c3c141a3f0dc2ab3f0c0ed6eb0ca2a633900a3929c0ae132d432c420006fa70c",
+      "bytes": 5726
+    },
+    {
+      "id": "REF-G5",
+      "sha256": "0e1b38b7ab7e23e81b8a7d304eb0cf1964fa49882272c25c343c9bf7500ef075",
+      "bytes": 5131
+    },
+    {
+      "id": "REF-G5-STATUS",
+      "sha256": "475a7cce1bba118c00a36e802c433e93077f98ceeecb2fd4742936731f13d582",
+      "bytes": 1811
+    },
+    {
+      "id": "REF-G54B1",
+      "sha256": "a5c4e09868b4decc1962d29e42e63674fd3d5de47d00bac36b0fa802bd9e56d8",
+      "bytes": 2609
+    },
+    {
+      "id": "REF-G6-MATRIX",
+      "sha256": "7cc4568a5ef8d0a438baa039219ff39119d8b67dbe84a4f9ca901aeb7d1fb4c9",
+      "bytes": 309004
+    },
+    {
+      "id": "REF-G6-B6",
+      "sha256": "70704cb2736515d7ffa174a612b17aca6022c068b16b1491fbb475ae96c8cbcf",
+      "bytes": 1223
+    },
+    {
+      "id": "REF-U-CONTRACT",
+      "sha256": "7f747d14065c11e6194fce94aabcd107693e7d27cd75c5558c37cef0a0a3092d",
+      "bytes": 89306
+    },
+    {
+      "id": "REF-U-CHECKPOINT",
+      "sha256": "fd708a885e0635e9f82bb8baad212f9cbd6db363888a8ae380893a718201e5e9",
+      "bytes": 24546
+    },
+    {
+      "id": "REF-NEEDLES",
+      "sha256": "347ca55f3074106836c6646992cfdc18a2afefede199df1c1d2f9a4c6525cf70",
+      "bytes": 28736
+    },
+    {
+      "id": "REF-G5-READER",
+      "sha256": "20105aa146900f895b777b6012fd276535b01d0801e6e64ce6f3f3d73b00fec3",
+      "bytes": 8988
+    },
+    {
+      "id": "REF-G5-CLAIMS",
+      "sha256": "61417372cdae00d9a911e617aca070e5a3356469181a8e67e92dae681b6239ad",
+      "bytes": 461856
+    },
+    {
+      "id": "REF-G5-INDEX",
+      "sha256": "5a53888114cf9ebced84255712ffba5d6a415fd7ba35dd178a5abc2c00042979",
+      "bytes": 173456
+    },
+    {
+      "id": "REF-G3-CLAIMS",
+      "sha256": "4606fa05ecb1c12aef33e48cf0e1ef2a06b5d155f56b4aaabf437ca3fbcb2a97",
+      "bytes": 7196
+    },
+    {
+      "id": "REF-G4-CLAIMS",
+      "sha256": "bdfd4aca8c32195bf2e90a3ee56bfd9c7fb1bfb5539c497e1a637c8c2c1868d7",
+      "bytes": 111516
+    },
+    {
+      "id": "PLAN-ORIGINAL",
+      "sha256": "8f6073d3027f486dfd45193497920618c7d89c5d708b0152904b346e42d54335",
+      "bytes": 38496
+    },
+    {
+      "id": "PLAN-UPDATED",
+      "sha256": "02bfd4946e6c694475a05c6fe5fe56a39e70af8995083fe63bf24b93c86489c7",
+      "bytes": 146215
+    },
+    {
+      "id": "OWNER-P31",
+      "sha256": "817d245e0e95dd79035941c4ab681d529b3453fd83eb6cdcbc446a1af44b180b",
+      "bytes": 46343
+    },
+    {
+      "id": "OWNER-S4",
+      "sha256": "b98e7f8b4bae3bc90658e4616296470d3f3b02544352890303610cc86f28e007",
+      "bytes": 33964
+    },
+    {
+      "id": "RADIK-P30-ACCEPTANCE",
+      "sha256": "3d160b61de203f87356e630be2192e5a7a8e4c7b6c07ee58f568a789dded7db8",
+      "bytes": 13402
+    },
+    {
+      "id": "RADIK-P30-NATIVE",
+      "sha256": "c019ab55c6bec8241a45e52d730d89512767a8d3a16f3dd140e840af8e214dbe",
+      "bytes": 131371
+    },
+    {
+      "id": "RADIK-P31-SOURCE",
+      "sha256": "13059caa7cce425f72077a2764073c9098b8c270488324e39be1f8445c3d9961",
+      "bytes": 51565
+    },
+    {
+      "id": "RADIK-P31-RESIDUAL",
+      "sha256": "2af1045cc50ee1d283f0f218d79feb6cacf49f497f611e1096d5cb49985cd6de",
+      "bytes": 24832
+    }
+  ],
+  "scope": "Targeted document navigation and exact source bytes only. Reference Gate status is pinned historical scope, separate from Radik actual. No reference campaigns or application imports.",
+  "checked": [
+    "six Gates separated from eight Radik stages",
+    "36 common-action obligation rows preserve grouped reference obligations",
+    "four exact Gate6 deferrals retained as deferred",
+    "21 future entries carry source, dependency and closure criterion",
+    "FullAVF/StrongGT, expanded strategy/federation/authoring, production recovery and self-modification are not credited by Stage04",
+    "named needle catalog completeness NOT_ESTABLISHED; no manufactured names or Stage04 blocker",
+    "historical source/runtime paths not instructions or live authority"
+  ],
+  "initial_data_readback_error": {
+    "kind": "FileNotFoundError",
+    "cause": "Reviewer temporary script initially interpreted one project review source as an external Downloads path. Corrected source-kind selection; no source or evidence bytes changed.",
+    "runtime_impact": "NONE"
+  },
+  "runtime_acceptance": "Separate P31 actual and composite independent review required"
+}

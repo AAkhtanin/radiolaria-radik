@@ -1,0 +1,699 @@
+{
+  "files": {
+    "demo/work_composition_mock_capabilities_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/demo/work_composition_mock_capabilities_v01.py",
+        "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+        "size_bytes": 29523
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py"
+    },
+    "hedgehog/__init__.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py"
+    },
+    "hedgehog/action_commit_packet_v02.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/action_commit_packet_v02.py",
+        "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+        "size_bytes": 792178
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py"
+    },
+    "hedgehog/avf_v02.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/avf_v02.py",
+        "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+        "size_bytes": 32601
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py"
+    },
+    "hedgehog/capability_admission_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/capability_admission_v01.py",
+        "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+        "size_bytes": 18116
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py"
+    },
+    "hedgehog/context_packets.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/context_packets.py",
+        "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+        "size_bytes": 57747
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py"
+    },
+    "hedgehog/drs.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/drs.py",
+        "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+        "size_bytes": 3888
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py"
+    },
+    "hedgehog/drs_g2b_compatibility_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/drs_g2b_compatibility_v01.py",
+        "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+        "size_bytes": 48485
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py"
+    },
+    "hedgehog/drs_memory_resolution_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+        "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+        "size_bytes": 157202
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py"
+    },
+    "hedgehog/drs_semantic_address_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/drs_semantic_address_v01.py",
+        "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+        "size_bytes": 57213
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py"
+    },
+    "hedgehog/evidence/__init__.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/evidence/__init__.py",
+        "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+        "size_bytes": 3830
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py"
+    },
+    "hedgehog/evidence/external_anchor_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/evidence/external_anchor_v01.py",
+        "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+        "size_bytes": 35826
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py"
+    },
+    "hedgehog/evidence/sealed_evidence_profile_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/evidence/sealed_evidence_profile_v01.py",
+        "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+        "size_bytes": 54293
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py"
+    },
+    "hedgehog/evidence/sealed_package_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/evidence/sealed_package_v01.py",
+        "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+        "size_bytes": 30908
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py"
+    },
+    "hedgehog/evidence/sealed_replay_evidence_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/evidence/sealed_replay_evidence_v01.py",
+        "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+        "size_bytes": 38035
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py"
+    },
+    "hedgehog/gt_validator.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/gt_validator.py",
+        "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+        "size_bytes": 21496
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py"
+    },
+    "hedgehog/informational_source_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v20_scoped_validation_cost/after/hedgehog/informational_source_v01.py",
+        "sha256": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f",
+        "size_bytes": 54539
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py"
+    },
+    "hedgehog/kernel/__init__.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/__init__.py",
+        "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+        "size_bytes": 24063
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py"
+    },
+    "hedgehog/kernel/abi_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/abi_v01.py",
+        "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+        "size_bytes": 43017
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py"
+    },
+    "hedgehog/kernel/conformance_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/conformance_v01.py",
+        "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+        "size_bytes": 76437
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py"
+    },
+    "hedgehog/kernel/continuous_delta_runtime_v01.py": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/hedgehog/kernel/continuous_delta_runtime_v01.py",
+        "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138",
+        "size_bytes": 574821
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py"
+    },
+    "hedgehog/kernel/diagnostic_telemetry_v01.py": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/hedgehog/kernel/diagnostic_telemetry_v01.py",
+        "sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+        "size_bytes": 3996
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py"
+    },
+    "hedgehog/kernel/effect_firewall_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/effect_firewall_v01.py",
+        "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+        "size_bytes": 128809
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py"
+    },
+    "hedgehog/kernel/execution_mode_router_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/execution_mode_router_v01.py",
+        "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+        "size_bytes": 293681
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py"
+    },
+    "hedgehog/kernel/fractal_runtime_v02.py": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/hedgehog/kernel/fractal_runtime_v02.py",
+        "sha256": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c",
+        "size_bytes": 967599
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py"
+    },
+    "hedgehog/kernel/integrity_replay_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/integrity_replay_v01.py",
+        "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+        "size_bytes": 48487
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py"
+    },
+    "hedgehog/kernel/multiroot_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/multiroot_v01.py",
+        "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+        "size_bytes": 52804
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py"
+    },
+    "hedgehog/kernel/root_decision_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/root_decision_v01.py",
+        "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+        "size_bytes": 43352
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py"
+    },
+    "hedgehog/kernel/root_signer_isolation_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/root_signer_isolation_v01.py",
+        "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+        "size_bytes": 31043
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py"
+    },
+    "hedgehog/kernel/semantic_work_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/semantic_work_v01.py",
+        "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+        "size_bytes": 58880
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py"
+    },
+    "hedgehog/kernel/transition_registry_v01.py": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/hedgehog/kernel/transition_registry_v01.py",
+        "sha256": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6",
+        "size_bytes": 146346
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py"
+    },
+    "hedgehog/kernel/trust_model_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/trust_model_v01.py",
+        "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+        "size_bytes": 15364
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py"
+    },
+    "hedgehog/kernel/work_composition_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+        "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+        "size_bytes": 89168
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py"
+    },
+    "hedgehog/local_drs_resolver.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/local_drs_resolver.py",
+        "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+        "size_bytes": 53552
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py"
+    },
+    "hedgehog/local_drs_v02.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/local_drs_v02.py",
+        "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+        "size_bytes": 30549
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py"
+    },
+    "hedgehog/post_vv.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/post_vv.py",
+        "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+        "size_bytes": 18910
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py"
+    },
+    "hedgehog/reuse_certificate_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/reuse_certificate_v01.py",
+        "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+        "size_bytes": 50900
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py"
+    },
+    "hedgehog/reuse_gate.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/reuse_gate.py",
+        "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+        "size_bytes": 4052
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py"
+    },
+    "hedgehog/semantic_reasoning_adapter.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/semantic_reasoning_adapter.py",
+        "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+        "size_bytes": 14728
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py"
+    },
+    "hedgehog/structured_rationale.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/structured_rationale.py",
+        "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+        "size_bytes": 17449
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py"
+    },
+    "hedgehog/time_model.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/time_model.py",
+        "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+        "size_bytes": 974
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py"
+    },
+    "hedgehog/wasm_pure_worker_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/hedgehog/wasm_pure_worker_v01.py",
+        "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+        "size_bytes": 11394
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py"
+    },
+    "hedgehog/work_execution_host_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v20_scoped_validation_cost/after/hedgehog/work_execution_host_v01.py",
+        "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+        "size_bytes": 61617
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py"
+    },
+    "schemas/attractor_packet.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/attractor_packet.schema.json",
+        "sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2",
+        "size_bytes": 5858
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json"
+    },
+    "schemas/candidate_vector.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/candidate_vector.schema.json",
+        "sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd",
+        "size_bytes": 2703
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json"
+    },
+    "schemas/capability_admission_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/capability_admission_v01.schema.json",
+        "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+        "size_bytes": 2711
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json"
+    },
+    "schemas/common.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/common.schema.json",
+        "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+        "size_bytes": 4583
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json"
+    },
+    "schemas/continuous_delta_runtime_v01.schema.json": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/schemas/continuous_delta_runtime_v01.schema.json",
+        "sha256": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4",
+        "size_bytes": 142221
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json"
+    },
+    "schemas/drs_meaning_record_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/drs_meaning_record_v01.schema.json",
+        "sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c",
+        "size_bytes": 23992
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json"
+    },
+    "schemas/drs_memory_resolution_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/drs_memory_resolution_v01.schema.json",
+        "sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742",
+        "size_bytes": 50293
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json"
+    },
+    "schemas/drs_record.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/drs_record.schema.json",
+        "sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29",
+        "size_bytes": 5829
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json"
+    },
+    "schemas/drs_semantic_address_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/drs_semantic_address_v01.schema.json",
+        "sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c",
+        "size_bytes": 4442
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json"
+    },
+    "schemas/execution_mode_router_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/execution_mode_router_v01.schema.json",
+        "sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468",
+        "size_bytes": 79878
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json"
+    },
+    "schemas/final_output.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/final_output.schema.json",
+        "sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1",
+        "size_bytes": 1635
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json"
+    },
+    "schemas/fractal_runtime_v02.schema.json": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/schemas/fractal_runtime_v02.schema.json",
+        "sha256": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2",
+        "size_bytes": 404077
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json"
+    },
+    "schemas/gate3_adversary_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/gate3_adversary_v01.schema.json",
+        "sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6",
+        "size_bytes": 8515
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json"
+    },
+    "schemas/gate4_reference_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/gate4_reference_v01.schema.json",
+        "sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d",
+        "size_bytes": 59314
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json"
+    },
+    "schemas/gt_report.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/gt_report.schema.json",
+        "sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3",
+        "size_bytes": 7732
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json"
+    },
+    "schemas/informational_source_v01.schema.json": {
+      "origin_ref": {
+        "mode": 420,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/after/schemas/informational_source_v01.schema.json",
+        "sha256": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5",
+        "size_bytes": 17635
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json"
+    },
+    "schemas/intent.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/intent.schema.json",
+        "sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9",
+        "size_bytes": 1762
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json"
+    },
+    "schemas/kernel_artifact_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/kernel_artifact_v01.schema.json",
+        "sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7",
+        "size_bytes": 7381
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json"
+    },
+    "schemas/marenna_record.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/marenna_record.schema.json",
+        "sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909",
+        "size_bytes": 3774
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json"
+    },
+    "schemas/needle.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/needle.schema.json",
+        "sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01",
+        "size_bytes": 4774
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json"
+    },
+    "schemas/outcome_feedback_g34_predictive_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+        "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+        "size_bytes": 31692
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json"
+    },
+    "schemas/outcome_feedback_g35_sources_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/outcome_feedback_g35_sources_v01.schema.json",
+        "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+        "size_bytes": 357296
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json"
+    },
+    "schemas/outcome_feedback_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/outcome_feedback_v01.schema.json",
+        "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+        "size_bytes": 32082
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json"
+    },
+    "schemas/plan_graph.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/plan_graph.schema.json",
+        "sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb",
+        "size_bytes": 3804
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json"
+    },
+    "schemas/result_proposal.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/result_proposal.schema.json",
+        "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+        "size_bytes": 2522
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json"
+    },
+    "schemas/reuse_certificate_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/reuse_certificate_v01.schema.json",
+        "sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e",
+        "size_bytes": 14505
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json"
+    },
+    "schemas/semantic_work_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/semantic_work_v01.schema.json",
+        "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+        "size_bytes": 13903
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json"
+    },
+    "schemas/temporal_query.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/temporal_query.schema.json",
+        "sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2",
+        "size_bytes": 830
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json"
+    },
+    "schemas/time_envelope.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/time_envelope.schema.json",
+        "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+        "size_bytes": 1333
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json"
+    },
+    "schemas/up_record.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/up_record.schema.json",
+        "sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df",
+        "size_bytes": 4432
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json"
+    },
+    "schemas/vv_report.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/vv_report.schema.json",
+        "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+        "size_bytes": 4160
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json"
+    },
+    "schemas/work_composition_v01.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/work_composition_v01.schema.json",
+        "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+        "size_bytes": 14114
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json"
+    },
+    "schemas/world_state.schema.json": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/schemas/world_state.schema.json",
+        "sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e",
+        "size_bytes": 3492
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json"
+    },
+    "tests/test_continuous_delta_runtime_g2_e_v01.py": {
+      "origin_ref": {
+        "mode": 292,
+        "path": "source/reference/tests/test_continuous_delta_runtime_g2_e_v01.py",
+        "sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d",
+        "size_bytes": 752380
+      },
+      "overlay_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py"
+    }
+  },
+  "schema": "radik.p28.native_overlay_origins.v01",
+  "status": "BYTE_IDENTICAL_ACCEPTED_NATIVE_CLOSURE"
+}

@@ -1,0 +1,428 @@
+{
+  "absent_or_not_reached": [
+    "E_V02_FINAL_VALIDATION: not produced by the actual v01 API; no substitute PASS should be manufactured.",
+    "Report inventory and observer inventory: not published due to required-kind mismatch. Original report attempted/failure/budget snapshot and missing kind field are not recoverable as original records.",
+    "Post-observer DYNAMIC_NATIVE_E_RETURN event and closed E phase.",
+    "Revised business Work, delta critic, final business Root, final memory writeback and complete owner scenario. The TaskStore active task remains historical RUNNING while the process is closed; no engineering cleanup is authorized by this review."
+  ],
+  "actual_native_return": {
+    "FrozenMapping_projection_normalizations": 245,
+    "all_recorded_g2e_validation_reports_PASS": true,
+    "direct_raw_projection_equal": false,
+    "final_native_Root_decision": "ACCEPT",
+    "full_current_capture_ordinal": 1,
+    "full_current_capture_ref": {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/dynamic_delta_current_capture_02a131623d0cd31a560e83604cb15e205b30720fd0ea5ee5e34bc8f26a4268de.json",
+      "sha256": "02a131623d0cd31a560e83604cb15e205b30720fd0ea5ee5e34bc8f26a4268de",
+      "size_bytes": 2301552
+    },
+    "inference_boundary": "Saved actual v01 return is proven by its durable app record and exact caller lexical order after actual run, native-return validation/current consumption and before observer exit. It is not inferred merely from the E_INNER checkpoint. No v02 wrapper execution is claimed.",
+    "inner_final_ref": {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_inner_final_validation.json",
+      "sha256": "8ee422458f3243f258ed00f93c131d185c4df1d48792e200eb2621666bb8e984",
+      "size_bytes": 14551970
+    },
+    "native_consumer": {
+      "affected_cell": "frchildcell_v02:76964ad44b830b7567e38848302d47e772fb4603acb0c4d566fcc838a3503ed1",
+      "native_E": "PASS",
+      "native_retained_consumer": "PASS",
+      "parent_result_id": "frcellresult_v02:95913e15aeabacf07e57dcebd5bb7380221e1c301443b5e32b318d17ef4366bd",
+      "retained_cell": "frchildcell_v02:adbb2b69a1d1cc6e3cebc07a42c9fb258a923140f262704a706a9194e6d1c42e",
+      "retained_consumption_ref": "frretained_consumption:5251b769bbac44b8bfbd4eeb010df3474771bc67128ceb171a2fc0c934f52791",
+      "retained_result_sha256": "bcbdeb7892c77f9b793b194e23f61d2ca8c8a9ff7b763c10a3da1b5a7a1e790b"
+    },
+    "native_input_ref": {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/dynamic_delta_native_input_c19e1bf41ef4a1d626f589824f46de2ef8fa1668967c133fb59d0f084bbd21cc.json",
+      "sha256": "c19e1bf41ef4a1d626f589824f46de2ef8fa1668967c133fb59d0f084bbd21cc",
+      "size_bytes": 1246148
+    },
+    "native_model_provider_network_real_world_effect_counts": {
+      "model_calls": 0,
+      "network_calls": 0,
+      "provider_calls": 0,
+      "real_world_effects_count": 0
+    },
+    "native_plan_one_affected_cell": true,
+    "normalization_is_not_object_or_authority_reconstruction": true,
+    "parent_result_matches_consumer": true,
+    "projection_correspondence": "PASS_AFTER_SOURCE_DERIVED_FROZEN_MAPPING_ITEMS_TO_MAPPING_PROJECTION",
+    "raw_ref": {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/dynamic_delta_native_return_a7f5d5fa5abfffcfdec8b280b61235a1d40dcfa0d1f2395981defeda01a8785a.json",
+      "sha256": "a7f5d5fa5abfffcfdec8b280b61235a1d40dcfa0d1f2395981defeda01a8785a",
+      "size_bytes": 14556570
+    },
+    "retained_cell_not_queued": true,
+    "retained_result_digest_and_consumed_result_match_baseline": true,
+    "source_context_and_delta_match_saved_input": true
+  },
+  "application_native_AUTH_provider_model_SAVE_execution_authorized": false,
+  "author": "/root",
+  "automatic_retry": false,
+  "capacity_bounds": {
+    "comment": "No limit increase is supported by this actual. Exact final attempted/failure/budget snapshots were not persisted; derived counts do not replace absent original telemetry.",
+    "largest_report_bytes": 16341704,
+    "new_budget_snapshot_written": false,
+    "per_file_limit_bytes": 67108864,
+    "raw_reports_plus_passive_bodies_bytes": 155332065,
+    "shared_limit_bytes": 3221225472
+  },
+  "closure": {
+    "CPU_last_is_not_CPU_stoppage_proof": true,
+    "child_exit_code": 2,
+    "child_pid": 49278,
+    "child_reaped": true,
+    "e_phase_exit_recorded": false,
+    "elapsed_wall_seconds": 2489.930435584,
+    "primary_failure": {
+      "code": "REQUIRED_OUTPUT_MISSING",
+      "error_class": "RequiredNativeWitnessLoss",
+      "phase": "REQUIRED_WITNESS_AVAILABILITY"
+    },
+    "secondary_failures": [
+      {
+        "code": "ordinary_entry_failure",
+        "error_class": "KeyboardInterrupt",
+        "phase": "ORDINARY_SCENARIO"
+      }
+    ],
+    "signals": [
+      {
+        "action": "INTERRUPT",
+        "elapsed_wall_ns": 2487339864000
+      }
+    ],
+    "status": "STOPPED_NO_RETRY"
+  },
+  "consumed_admission_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_admission.json",
+    "sha256": "056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a",
+    "size_bytes": 29499
+  },
+  "continuation_assessment": {
+    "Stage04_COMPLETE": false,
+    "full_owner_completion": "The ordinary post-E business/critic/Root/memory suffix was not executed. A complete fresh ordinary owner trial is still necessary if end-to-end application completion is required; the ended process cannot resume from saved authority. This review does not grant or run that trial.",
+    "native_actual_reuse": "The saved v01 native return supports a separate historical native acceptance review. No fresh Host/Root/currentness may be restored from JSON.",
+    "reporting_repair": "A source-reviewed short reporting replay on saved projections or explicitly labelled nominal synthetic fixtures is sufficient to prove the reporting repair; no D/E repeat is needed for that proof."
+  },
+  "first_unavailable_event": {
+    "at_monotonic_ns": 7485492886634500,
+    "child_pid": 49278,
+    "component": "REPORT_INVENTORY",
+    "e_call_id": "owner_E_efe940c5ef406fbe58a996ef277961f4",
+    "elapsed_main_thread_cpu_ns": 2409075355708,
+    "elapsed_process_cpu_ns": 2409126392000,
+    "elapsed_wall_ns": 2487307781584,
+    "failure": {
+      "code": "REQUIRED_OUTPUT_MISSING",
+      "error_class": "RequiredNativeWitnessLoss",
+      "phase": "REQUIRED_WITNESS_AVAILABILITY"
+    },
+    "kind": "REQUIRED_WITNESS_UNAVAILABLE",
+    "operation_started_ns": 7483005578852916,
+    "phase": "E",
+    "run_binding": "8ea3a5842f7636ff4b08bf4a99e0bef88c6c35e72b16f4c4a0c2f36b79c0d8f2",
+    "schema": "radik.p28.owner_event.v01",
+    "sequence": 205
+  },
+  "model_history": {
+    "active_attempt_id": null,
+    "ledger_attempts": 29,
+    "legacy_exam_attempts": 16,
+    "new_completed_roles": [
+      "orchestrator",
+      "architect",
+      "critic",
+      "orchestrator",
+      "architect"
+    ],
+    "no_new_attempts_by_review": true
+  },
+  "nominal_registry_ref": {
+    "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/nominal_registry.json",
+    "sha256": "1a16319ab6839b680c8afb9468ca67781094d40bc31db45e3b858c28bd14acfa",
+    "size_bytes": 18263
+  },
+  "original_input_preservation_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_input_preservation.json",
+    "sha256": "7c558038270036e54298f421b1d70acb7e2517f9ea708140776f5ec8c62b4328",
+    "size_bytes": 1148
+  },
+  "original_inventory_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_evidence_inventory.json",
+    "sha256": "ffcaf10388c47eb2a4512ff7069e83863633f7b9b9f90799300f51a8e8a9f6c3",
+    "size_bytes": 73287
+  },
+  "original_preservation_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/original_actual_preservation.json",
+    "sha256": "f8d4d5fb512e84de7e567e63154055f08ee4098b09f862f138aa338ab178f0c9",
+    "size_bytes": 100789
+  },
+  "passive_bodies": 7,
+  "passive_inventory_ref": {
+    "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_consumers/inventory.json",
+    "sha256": "31f93996da1dd04ef5afd4d91d02a6cb88e1c16f1e210fe7d84cb44ee55a3c09",
+    "size_bytes": 1708
+  },
+  "passive_total_verified_bytes": 38863054,
+  "precise_cause": {
+    "actual_outer_bundle": "ContinuousDeltaExecutionBundleV01",
+    "actual_public_entrypoint": "run_continuous_delta_runtime_v01",
+    "actual_report_inventory_expected_kind_count": 20,
+    "classification": "CALLEE_VERSION_REQUIRED_REPORT_SET_MISMATCH",
+    "component_recorded_in_original_event": "REPORT_INVENTORY",
+    "kind_recorded_in_original_failure_event": false,
+    "mechanism": "The complete observer path finished all seven passive consumers, then its report finish required every global KINDS member, including a report emitted only by public run_continuous_delta_runtime_v02. The actual caller invokes v01. Report finish raised before persisting report inventory; observer inventory therefore was not published either.",
+    "not_a_factory_or_IO_or_size_failure": "No earlier required-output loss was emitted; all 19 v01 kinds and seven passive bodies are present. The sole unattemptable v02 kind is established by exact loaded source and finite saved report coverage, not recorded as a historical attempted-kind field.",
+    "primary_consumer_site": "P18 proof_reports.py ProducedReports.finish lines392-396",
+    "saved_report_kinds": 19,
+    "sole_source_derived_unavailable_kind": "E_V02_FINAL_VALIDATION"
+  },
+  "preservation_verification": {
+    "additional_current_input_raw_copies": 2,
+    "additional_input_raw_bytes": 568,
+    "all_bytes_SHA_size_mode": "PASS",
+    "installed_P29_SHA_size_mode": "PASS",
+    "installed_P29_pins_after": 157,
+    "original_and_copy_bytes": 188077312,
+    "original_and_copy_files": 163,
+    "originals_written": 0
+  },
+  "report_file_count": 26,
+  "report_raw_bytes": 116469011,
+  "reusable_actual_scope": [
+    "Cold genuine O/A/Work/C/Root and accepted cold memory material.",
+    "Fresh delta O/A proposals and full pre-E current capture/input.",
+    "Completed actual native v01 D/E reports, Pair1/Pair2, preservation, strict-subset retained-consumption relations and saved v01 bundle with app native-consumer PASS.",
+    "Original raw receipts, reservations, loaded-source provenance and stopped lifecycle."
+  ],
+  "reviewer": "/root/p20_reviewer",
+  "run_refs": [
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/receipt.json",
+      "sha256": "07d90bb907139b1004674b5acfcbb1dabdf73b40789bc19a35518cea757a2606",
+      "size_bytes": 4238
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/reservation_outcome.json",
+      "sha256": "5724365bab2c30dadc7effe08ef68f867985fb81a4e194a1aab9492e43e32d1e",
+      "size_bytes": 1466
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/launch.json",
+      "sha256": "736196449d8f06479b4fad31a7b6929dfe287884857a555ad8128a576d7fa833",
+      "size_bytes": 2234
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/installation_receipt.json",
+      "sha256": "f5ac237449b00c74e542d412712f5d382c2c2629503e343f3a6cd3632451d646",
+      "size_bytes": 1555
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/owner_terminal_runs/OWNER_20261020T070152_65b10788487f4b378e7015de6768df12/child_stdout.raw",
+      "sha256": "166eb1c7d661b324496436a49671f1fc621a6d0b95d56ccc50d6a261ca11d174",
+      "size_bytes": 113492
+    }
+  ],
+  "saved_report_kind_counts": {
+    "D_ABI_VALIDATION": 1,
+    "D_CAUSAL_VALIDATION": 1,
+    "D_CELL_GT_REPORT": 2,
+    "D_CELL_POST_VV_REPORT": 2,
+    "D_CELL_PRE_RESULT_REPORT": 2,
+    "D_CELL_PROPOSAL_REPORT": 2,
+    "D_CELL_RESULT_REPORT": 2,
+    "D_COMPLETE_RESULTS_REPORTS": 1,
+    "D_RUNTIME_REPORT_VALIDATION": 1,
+    "D_STAGE_VALIDATION": 3,
+    "D_TERMINAL_VALIDATION": 1,
+    "E_BINDING_VALIDATION": 47,
+    "E_INNER_FINAL_VALIDATION": 1,
+    "E_PAIR2_CORE": 1,
+    "E_PRESERVATION_VALIDATION": 1,
+    "E_RESULT_CONTEXT_VALIDATION": 1,
+    "E_RESULT_STRUCTURAL_VALIDATION": 1,
+    "E_RUNTIME_REPORT_VALIDATION": 1,
+    "E_TRACE_VALIDATION": 1
+  },
+  "saved_report_refs": [
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_abi_validation.json",
+      "sha256": "559328f30254aeba469a4fb8172adeff626e7d85a1facb90c1a9cf85ecbed379",
+      "size_bytes": 16341682
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_causal_validation.json",
+      "sha256": "e41fde5bfdcb34e37228da59971551ef1bc6bed4f67593b32f921698f56065cd",
+      "size_bytes": 13027817
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_gt_report_child.json",
+      "sha256": "9fcb661ae60a7e31d3c5bc917edef7f926c6c5012d8e01d284758dc17864fa9e",
+      "size_bytes": 12318
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_gt_report_parent.json",
+      "sha256": "0e719893c3cfd8db9ea84506d479275b9ed6d03ffc853e5910ad19b40fc5bc9d",
+      "size_bytes": 16251
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_post_vv_report_child.json",
+      "sha256": "f4e4bb466e9b55629f968c0c65e8b546486ac0f37d82bf7dda593b8eefdffcf7",
+      "size_bytes": 15810
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_post_vv_report_parent.json",
+      "sha256": "dd4ef7302c8bdacc8c43167e236a34bc02f151c79f0c37affa080e92c176bef4",
+      "size_bytes": 27337
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_pre_result_report_child.json",
+      "sha256": "5d95247f185f51832e7159b7915fd7a387183ce53b1b9e5cb9a49ea29c1fb147",
+      "size_bytes": 149242
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_pre_result_report_parent.json",
+      "sha256": "f977799231186e159c2c7fdae1a15a7a3f0605f22699d31e34679efbe3c682b5",
+      "size_bytes": 182701
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_proposal_report_child.json",
+      "sha256": "e288d1f2133545373bbf2bab20af1748f5d10adf9c6f2a16c37b6d436cbb4bd9",
+      "size_bytes": 131515
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_proposal_report_parent.json",
+      "sha256": "9fd37dfbcbbd29691122db2bfb7218fb70a13fc5c96eca8a292b9c2e4064a591",
+      "size_bytes": 160336
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_result_report_child.json",
+      "sha256": "11be22dc4ace1304655d92d50f402ea273223f1dc84bb4ba68e93a2f313a0ba3",
+      "size_bytes": 12633
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_cell_result_report_parent.json",
+      "sha256": "8e7fd81b6eee2d1dbcef7ecec0c1d3d67312e7dd24c06973f8c8b37e9371ff13",
+      "size_bytes": 17716
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_complete_results_reports.json",
+      "sha256": "ea6d65e3743b3a59d0a420a8972aea1d36ed719a0e5a8eea417d6a62d134ddf6",
+      "size_bytes": 12912238
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_runtime_report_validation.json",
+      "sha256": "ed0fc9f78d53e7f7088cbde7a3f074b4190909e2e7db268d2624e4c8e3af21e0",
+      "size_bytes": 12943359
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_stage_validation_stage_d_a.json",
+      "sha256": "b049ae205669fff0de2692da6f6de2fd5943793163ed6de509af8a0ee6cd3506",
+      "size_bytes": 12933744
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_stage_validation_stage_d_b.json",
+      "sha256": "211b176da89fa821174f811c6bfe93955e21f72471a9d903865d7eba20eecaac",
+      "size_bytes": 16339167
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_stage_validation_stage_d_c.json",
+      "sha256": "ea2de4d72f50c3ec8232638d77d29753606ec9dcdb15c583498787d9c34c3083",
+      "size_bytes": 16341704
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/d_terminal_validation.json",
+      "sha256": "fe08b64569a59241a29d1eee60d027bb2628ec1ffe9c2613478fe024766641b4",
+      "size_bytes": 2159
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_binding_validation.jsonl",
+      "sha256": "a94eb3e5b4324aa28d2b820c6164090105074ebd2209640a5262929b4a218f7c",
+      "size_bytes": 168989
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_inner_final_validation.json",
+      "sha256": "8ee422458f3243f258ed00f93c131d185c4df1d48792e200eb2621666bb8e984",
+      "size_bytes": 14551970
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_pair2_core.json",
+      "sha256": "c11b3af8e3648dc5b695267c8744cf2d3d4677baebd41b7d203d0c2ed4d48cfb",
+      "size_bytes": 37818
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_preservation_validation.json",
+      "sha256": "dddec032a1317ff83b03554880096fbb6a4338b379364ddddedb5d4d34e00fda",
+      "size_bytes": 101127
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_result_context_validation.json",
+      "sha256": "e9aa76e2cd90c273aa6558c046aeb1f5e39bc96b8fa9e74fa60169207c8174f3",
+      "size_bytes": 16044
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_result_structural_validation.json",
+      "sha256": "89a6764dc8f79e3db8f2788a651245bbd5fa8eac534d4ccb4f3f55f631f26985",
+      "size_bytes": 11913
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_runtime_report_validation.json",
+      "sha256": "3a34366951641d08823649e6c890eb3b7372689a7febf7b67e4b0ef0b6b4fd32",
+      "size_bytes": 7848
+    },
+    {
+      "path": "workspace/owner_documents/review/task_evidence/2dc6a27be93d374f6b2505e083fac665fbccceaa96e4bd357f3ccbb966e3aeab/native_e_owner_E_efe940c5ef406fbe58a996ef277961f4/public_reports/e_trace_validation.json",
+      "sha256": "d9cb0a2d858a75205cc25802837605b10f1bc4d22f1a0cc04ac8a3b56ce6dc35",
+      "size_bytes": 5573
+    }
+  ],
+  "schema": "radik.independent.p30.original_actual_review.v01",
+  "source_refs": [
+    {
+      "path": "app/native_report_observer.py",
+      "sha256": "bde151f740919512f508f0eb264d539c4734e3021c9d6fef6a0bb35c98448ee9",
+      "size_bytes": 21298
+    },
+    {
+      "path": "app/dynamic_delta.py",
+      "sha256": "abcc7303ae079c8f4ce8f940e756d66e6215df5e98553d413fb49cbf2f3274dc",
+      "size_bytes": 25648
+    },
+    {
+      "path": "app/native_authority.py",
+      "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+      "size_bytes": 40597
+    },
+    {
+      "path": "app/evidence.py",
+      "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+      "size_bytes": 1707
+    },
+    {
+      "path": "config/native_profile_loader.py",
+      "sha256": "b0dc201cea5ef143e59b692e35d5f70c1e77f7131246af6b3f28cbe26b97f7f0",
+      "size_bytes": 3015
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+      "sha256": "277f2e8117b53447ef35c8cee4284eb26ca688a6f918b4366b5cea8524fc00d7",
+      "size_bytes": 25554
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+      "sha256": "7fc4a4f0492edbc5e8cb0545f0f9170cb54cfa1eb7a7313742fa345312d065e4",
+      "size_bytes": 14403
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+      "sha256": "fe0967fa976283619fbcaf3f19d3fb52ad8286353f8c9db6d36c8883ac5c195c",
+      "size_bytes": 11984
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138",
+      "size_bytes": 574821
+    }
+  ],
+  "status": "CONFIRMED_REPORT_ROUTE_MISMATCH_WITH_SAVED_ACTUAL_V01_NATIVE_RETURN_PARTIAL_OWNER"
+}

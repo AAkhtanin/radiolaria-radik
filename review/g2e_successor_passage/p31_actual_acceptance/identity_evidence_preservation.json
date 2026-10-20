@@ -1,0 +1,30 @@
+{
+  "schema": "radik.p31.identity_evidence_preservation.v01",
+  "mappings": [
+    {
+      "original_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_input_preservation.json",
+        "sha256": "0115272d326d344fc8bf4439cfd428e4fdcd6a8c15c324b0fd0f1e459c28f3f0",
+        "size_bytes": 28448
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/original_input_preservation.json",
+        "sha256": "0115272d326d344fc8bf4439cfd428e4fdcd6a8c15c324b0fd0f1e459c28f3f0",
+        "size_bytes": 28448
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/live_save_quota/single_save.jsonl",
+        "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+        "size_bytes": 2865
+      },
+      "archived_ref": {
+        "path": "review/g2e_successor_passage/p31_actual_acceptance/public_evidence/state/live_save_quota/single_save.jsonl",
+        "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+        "size_bytes": 2865
+      }
+    }
+  ],
+  "runtime_sources": "160 runtime members included at source_payload_map exact archive paths; logical source aliases are not duplicate files."
+}

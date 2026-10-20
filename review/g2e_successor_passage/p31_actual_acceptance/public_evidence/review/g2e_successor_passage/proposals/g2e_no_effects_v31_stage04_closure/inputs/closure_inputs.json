@@ -1,0 +1,70 @@
+{
+  "held_out_C_reviewer": "/root/s04_reviewer",
+  "schema": "radik.stage04.closure_inputs.v01",
+  "tasks": {
+    "A": {
+      "criterion": "State separately the eligibility condition, the public-holiday exception, the response commitment and the unknown call cost, each grounded in its exact source text.",
+      "documents": [
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/a_service.txt",
+          "sha256": "848d26987a680ebdca9fc3a5f12d7e090bf7e4c2c0ed6fcb3054afd159922f10",
+          "size_bytes": 251
+        }
+      ],
+      "goal": "Explain the support terms of fictional Service Fern.",
+      "profile": "explain",
+      "supplied_candidate": null
+    },
+    "B": {
+      "criterion": "Use all three documents to assess the supplied candidate, distinguishing payment and receipt conditions, the opened-goods exception and the unresolved return-postage cost.",
+      "documents": [
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_delivery.txt",
+          "sha256": "e8f04981a32900de6d02f1c3cef627c406d6d1238b004dadcee885a086514ab9",
+          "size_bytes": 142
+        },
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_returns.txt",
+          "sha256": "cdd6ef12305402852984507f24d3bfd596c9f08cfc865d92198f7728a952c51c",
+          "size_bytes": 137
+        },
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/b_costs.txt",
+          "sha256": "aa0c5e1d381905df6ffa033a1c3e55487c2f79356573ff2510249ddeda5eaae8",
+          "size_bytes": 112
+        }
+      ],
+      "goal": "Verify the proposed delivery and returns statement for fictional Store Linden.",
+      "profile": "verify",
+      "supplied_candidate": "Linden dispatches after confirmed payment within three working days, accepts opened sealed goods with a receipt within fourteen days, and always pays return postage."
+    },
+    "C": {
+      "criterion": "Assess each assurance using all four documents. Preserve the preordered-goods exclusion, receipt and unopened-item conditions, the photograph condition for postage, the written-extension rule, and any unstated change-of-mind cost.",
+      "documents": [
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/c_dispatch.txt",
+          "sha256": "a02f43aab523ededf0db12d40ae418bff230148f999ec9e78242e9ef1774f937",
+          "size_bytes": 151
+        },
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/c_returns.txt",
+          "sha256": "d96d147cf44be9d8659376c7b6e947249661dc8fe57becada5a7e3527fa413a6",
+          "size_bytes": 159
+        },
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/c_postage.txt",
+          "sha256": "ee83552cc14d12e0a086d156cb20ed6fd2206eed0bcc619c0fac3e0727706015",
+          "size_bytes": 169
+        },
+        {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/c_collection.txt",
+          "sha256": "b1d3b56f8f5fd1541e6a7c88876683fa7b367d9e3a844c29a58df89cb0cbe07a",
+          "size_bytes": 166
+        }
+      ],
+      "goal": "Verify the proposed dispatch, pickup and return assurances for fictional Store Moss.",
+      "profile": "verify",
+      "supplied_candidate": "Moss dispatches every paid order by the next working day, accepts personalized goods back within ten calendar days with a receipt, pays postage for every return, and holds pickup orders indefinitely without written approval."
+    }
+  }
+}

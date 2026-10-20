@@ -1,0 +1,19 @@
+state/private/
+.venv-plan/
+review/direct_plan_passage/test_dependencies/
+review/direct_plan_passage/mechanical_attempts/*/private/
+review/dependencies/direct_plan/wheels/
+review/before_owner_run_fix_passage/mechanical_attempts/*/private/
+
+# Local installation, credentials, mutable user data and generated artifacts.
+/.venv/
+/.DS_Store
+__pycache__/
+*.py[cod]
+/state/
+/input/
+/logs/
+/output/
+/workspace/
+/review/returns/
+/review/direct_plan_passage/owner_start.lock

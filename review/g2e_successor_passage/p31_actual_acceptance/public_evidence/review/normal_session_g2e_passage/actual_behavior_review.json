@@ -1,0 +1,972 @@
+{
+  "acceptance_applies_only_to_executed_SOURCE85e": true,
+  "accepted_steps": [
+    {
+      "accepted_at": 1792164500,
+      "action": "A_COLD",
+      "actual_PURE_Work": 1,
+      "current_Root_decision_id": "b82957b457b949a705c94431a20a0cde4b6df24ac9224a4fe472ad56f5a1f19e",
+      "native_route": "short",
+      "new_model_calls": 3,
+      "result_id": "radik:dynamic_result:904cc7f33020ca1cc0b0c162d64dca0422d518879e356f4a80846c6c43d6b56d",
+      "task_id": "radik-task:e9cc324eaee541138a186f92caa53ad8",
+      "valid_to": 1792171700
+    },
+    {
+      "accepted_at": 1792164583,
+      "action": "B_COLD",
+      "actual_PURE_Work": 1,
+      "current_Root_decision_id": "fee514d4a85b63320ee992b140f8af63d3c27a811bddb53afe54ce6ae8b7a4b8",
+      "native_route": "short",
+      "new_model_calls": 3,
+      "result_id": "radik:dynamic_result:0d7572adeeb235f345696e79f6274d3e20da7f9e1001f022240f9e9f539b0e6d",
+      "task_id": "radik-task:c97e94b6b2124ca78bacb043af38d3fe",
+      "valid_to": 1792171783
+    },
+    {
+      "accepted_at": 1792164500,
+      "action": "A_CURRENT_MEMORY",
+      "actual_PURE_Work": 1,
+      "current_Root_decision_id": "ab78e87edb58d145dd6a6d8b2c1c04cd94baef49b30a37e7f0f19676e2d918d0",
+      "native_route": "short",
+      "new_model_calls": 0,
+      "result_id": "radik:dynamic_result:2f5ba2ef7430d2bff85a8de4a1ea8ceaed1ec270c7f0cbe0ed1ea29781f583b3",
+      "task_id": "radik-task:e9cc324eaee541138a186f92caa53ad8",
+      "valid_to": 1792171700
+    },
+    {
+      "accepted_at": 1792164677,
+      "action": "C_VERIFY",
+      "actual_PURE_Work": 1,
+      "current_Root_decision_id": "ceb20894d8bd65de457e3ba30e0959782639ad9ffecddce825b90cd95dcb0208",
+      "native_route": "short",
+      "new_model_calls": 3,
+      "result_id": "radik:dynamic_result:505419cb6ca3590d8b27d323a4573a35c368cba2efde4ee219b0f4d4a8a13553",
+      "task_id": "radik-task:c66f2f978ba842029d2407c81924338c",
+      "valid_to": 1792171877
+    }
+  ],
+  "actual_evidence_pins": {
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/connected_result.json": "405452b4b2cc34be28f805d286ba9ae743b40a7ee3c49442f2019caae178169c",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_budget_activation.json": "0b6c1f83a9e92c2eaeffa73cee9d90757d9ec701fb69fb72b4ecae0d77ad0cdd",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_continuation_073219.json": "f17bb3460fe86f9b1e3e4928ed4f97093b971cc3d51a386c81774d679e22d9ab",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_continuations/0adde1226bdd47f18eb14ca89a1e93ea.json": "5710f38b7f2e0586e816a4cc4a3f5b7f6d75bb0c29a97386e24552a88f3c23b6",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_continuations/72ff1b3723314961b6d5a067d24f9a50.json": "041d61d345e1adf7ec7972b09720ddda93a9bf92cc4211856c6b6d3942b17194",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_model_turns.json": "d267670356e77dc5fdc18e81c3e2a0e1a124f74fb60c994655b504914b7669ed",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_stage04_committed.json": "b7768e0e144cdca717bcd623eca18761097a3d91309a7926fd96e0c02f2e19f3",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/console_stage04_transition.json": "1af1aac09309f216159455fda96dd28a705a2df9c0c10db37c4d3ac56ac82979",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/model_turns.json": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/owner_state.json": "6d6ebd9b927eea8930d35d7a2bc77f8959c3dd5b4e69acb30085382123a41793",
+    "review/normal_session_g2e_passage/actual_evidence/actual_owner/task_model_settings.json": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+    "review/normal_session_g2e_passage/actual_evidence/actual_sources/3c02aa364044a8c18a855990acf99770.txt": "36d9fd6ff7564b9464603151edb0e77be22ed8d14723dc50b552b5c2a0874a81",
+    "review/normal_session_g2e_passage/actual_evidence/actual_sources/bdd0db29862cdf1b8cf0e8d0e488add8.txt": "38020aa2c4bf36a82fd2862d4db3292fb40e203183ca9673123a05e7e441727e",
+    "review/normal_session_g2e_passage/actual_evidence/actual_sources/f13e2cc60156292aa2c6855d26548099.txt": "2d98ea23003f3782ad0fa8968f7cf8c3568bca819dbd699f1e2a632f126db35d",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_results/c66f2f978ba842029d2407c81924338c-92ecece1da7fe3b5692ca0133634e4f22e33a1dd8cee0d5f83dd45f3a18358ac.json": "92ecece1da7fe3b5692ca0133634e4f22e33a1dd8cee0d5f83dd45f3a18358ac",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_results/c97e94b6b2124ca78bacb043af38d3fe-2843babf1cb374740f58dbb746650f715e1a251c09c1de15f5446e45b79facec.json": "2843babf1cb374740f58dbb746650f715e1a251c09c1de15f5446e45b79facec",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_results/e9cc324eaee541138a186f92caa53ad8-3ea6cbb044a20b6ac12e39eee4b7fbbfa475f041f71d8dfce62166a8660ebc4a.json": "3ea6cbb044a20b6ac12e39eee4b7fbbfa475f041f71d8dfce62166a8660ebc4a",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_results/e9cc324eaee541138a186f92caa53ad8-adf79ceae42ec170801bdf8f51ce019cf016eae7ebde34a47f36a6ea46a97541.json": "adf79ceae42ec170801bdf8f51ce019cf016eae7ebde34a47f36a6ea46a97541",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_state/dynamic_source_revisions.json": "ab11fbedf47682b5a937f969b67debce9797f7dee828d915b70ad67d49a1a9bf",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_state/dynamic_tasks.json": "19ae27d33f14980a3060d0011f55670db336f0f3d001ce4cbec615dfd9a9c61e",
+    "review/normal_session_g2e_passage/actual_evidence/actual_task_state/owned_effect_policy.json": "8c168be984a6b8ab7463a2d6ec9a004ab14be3475cc92b0180c7d81ec4a540e9",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/catalog_d751c3e175c04438b487122636c1cb27.json": "0a7873b6a0d5c8258a7fcd0a005243065d7e461c387e9303209fbd5a2d38ace3",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/catalog_http_c093e716132c4cadb30fd2113d3cc91e.json": "0d57f9dd7d0a18ec7f9306ce61ea87a76b13c0d3ca16b5057f79a7321f25f947",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_612c3c937f0d4dd88753f69ad6e46169.json": "a77da74149bb635f48ec05e4a2bf96493ef9da3558b295eb74e83ae42afb3b59",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_6982c15ead3741bcb9af2a1cd27b3dfe.json": "4846a064e1d8fec0a231137efb1011594796934b2c5821ec855dddf7b3b7b551",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_a6c23c72fadb4658803eb6b1dd7186d7.json": "dd4019f36c2bbf2686f6edc6ea50e7943b71ea9ece7afde3f1768c6b3626d635",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_aa915151c66340358e01c41358578878.json": "165e055efc8b5e87a0406f3762157e520f3fd866eca95c1bacd5b7646378226c",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_ca4ea2d075324c3c8a8fdc2e042df2b1.json": "199978efefe231fa3dd2260b7da35a4d2b522cd825e5c5aafc4cdb78d35a2e21",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_cc1615600af24c9abeb215dbdc892024.json": "5785215e5607e07c15b93af3d996d2fbf3f392b58f806c17e573d080a21f956b",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_e13570099f0042ff81bedf8e81585085.json": "333e06edf21eee14c2035a579c737ff382dfbebbaaeb1a3857c062018a387e75",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_e4d9295addd24a0a88ba4137d3af5e3d.json": "e623147bcfe2ff4721e67183ebaf4c5758aaf0826181ed9939e1e13389e5fbfb",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/http_e6826ff8a64d4a319a00aabc6ef571cc.json": "68d31eb87e04238d16720aba5a8522e6b6e246cf22df409adac76cb9841a4f81",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_612c3c937f0d4dd88753f69ad6e46169.json": "af9a9eb6de3b2ba7ce04561d603ed5f0f3e04065d33233302de9cdfc56f11f8d",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_6982c15ead3741bcb9af2a1cd27b3dfe.json": "f9e410201cb76773f5732848da540e5a885ee9087efb96207f68f5abfdffce96",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_a6c23c72fadb4658803eb6b1dd7186d7.json": "1ab961b8eb6edbd837c81b47d28b18611edfb6125488d1a5fb84ca3c288bc3b0",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_aa915151c66340358e01c41358578878.json": "1b02d38988e8f1f3d95a8c75fb526dbf99b19ffa8f38f96f4008c768a68a247b",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_ca4ea2d075324c3c8a8fdc2e042df2b1.json": "d26b7a7edcae2e20601994989ccd16d83d12bb3a006a7dbf0b405da2c5c015c1",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_cc1615600af24c9abeb215dbdc892024.json": "455736437c700a0187e7ce8f4e61fa464261ef02c52f3797357a88adbedeed10",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_e13570099f0042ff81bedf8e81585085.json": "977ccbf809681c8e412e565016f841132534a80567340fe9ee89a34367f01565",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_e4d9295addd24a0a88ba4137d3af5e3d.json": "65470cfbb7aeeb63807d40ed02d7c8bcbd3c9c7c194363b5812d846781dfd94f",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/reserved_e6826ff8a64d4a319a00aabc6ef571cc.json": "91667f9f711101e743b5fcf4a906eccdb62439667cc85ffbf1c2fc7e8773e02a",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_612c3c937f0d4dd88753f69ad6e46169.json": "f20c28821c09153af1083e6d3c1817716bfcfe7df9c4b4779b6c76c8c8e3f3e0",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_6982c15ead3741bcb9af2a1cd27b3dfe.json": "c296aae537b5951add57b6ad662901680189be6a3d2d1c4c263d7ea7688d8200",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_a6c23c72fadb4658803eb6b1dd7186d7.json": "aaac24818725a96a300acd77cc5c8e657d490fdfa05f3e92092adb10e7808d02",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_aa915151c66340358e01c41358578878.json": "6ae8615fc87d35988f4a23b836eb429c014f8254e055c395f8140d8cfc79eda2",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_ca4ea2d075324c3c8a8fdc2e042df2b1.json": "681c3314b4469dd4bd89e46221ca87f93572e7e805f345603b078d483e05f2d1",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_cc1615600af24c9abeb215dbdc892024.json": "531848e62ed981a14cc0b1ca554b49d4325ab37e9e8e782f697b1b87093c7c9a",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_e13570099f0042ff81bedf8e81585085.json": "8acce945276f07e97fc6fd06030dcd56bcbdbe2135be458999b168924cc651d2",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_e4d9295addd24a0a88ba4137d3af5e3d.json": "ce9e9e2ad9fe8f763b6af1ff70e036498185de9f82ae1ca467bb0ce67fc9e051",
+    "review/normal_session_g2e_passage/actual_evidence/actual_transport/result_e6826ff8a64d4a319a00aabc6ef571cc.json": "1e254c84ae544147bc43f7ba0f48833211866b6434275ab34aa04559a5b4c140",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/accepted_dynamic_result_294535ece3028319127ebee9f031ce4fcdcacfa28c820709cff29f8ba41e993a.json": "294535ece3028319127ebee9f031ce4fcdcacfa28c820709cff29f8ba41e993a",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/accepted_dynamic_result_7b4595c0dd0879c68a66fd83362ee48c81b6ef6b25c265e3c3f828361a3bc918.json": "7b4595c0dd0879c68a66fd83362ee48c81b6ef6b25c265e3c3f828361a3bc918",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_intake_root_6049933b3c82e0a574af50e001217669f12b666a4fb1a0cdf58d03b6e1c58f4a.json": "6049933b3c82e0a574af50e001217669f12b666a4fb1a0cdf58d03b6e1c58f4a",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_intake_root_6bae729e004cb6ec336dac5aabd2572d4138dbb0d828f15e9b1d243392fa621b.json": "6bae729e004cb6ec336dac5aabd2572d4138dbb0d828f15e9b1d243392fa621b",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_memory_selection_fb746ae870ca146740acc86a5ed12963c5e19657dee44e085df265b1268d4fcc.json": "fb746ae870ca146740acc86a5ed12963c5e19657dee44e085df265b1268d4fcc",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_native_work_5dbe1fd7e26cbf3f106695b312459c377f403c8276d9f4a4b2e1be5952cbd447.json": "5dbe1fd7e26cbf3f106695b312459c377f403c8276d9f4a4b2e1be5952cbd447",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_native_work_c308c39f83d334c264a8ee54c9267be02883fc15b0fe6fddf3d35edee546c395.json": "c308c39f83d334c264a8ee54c9267be02883fc15b0fe6fddf3d35edee546c395",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_source_family_8d1ce9f44bca9a64d076eef475b7004938f99d3ef3e88065d54dc51c34301725.json": "8d1ce9f44bca9a64d076eef475b7004938f99d3ef3e88065d54dc51c34301725",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/99658782a3132f197773694bc90e8792b70b5ddb4bd9e338a2061eb719e956f4/dynamic_source_family_df4a22c5d9a558fea141491dc0689c6de12126f066978cd223ed7837be8bb452.json": "df4a22c5d9a558fea141491dc0689c6de12126f066978cd223ed7837be8bb452",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/b93ab9d994163ca0ce009bbedb094c5d146a163bb41690143de38c8c0512d869/accepted_dynamic_result_ea275718bcc07ed40576b744beac44fa3c69897e5d68f00c4b3d62819917d899.json": "ea275718bcc07ed40576b744beac44fa3c69897e5d68f00c4b3d62819917d899",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/b93ab9d994163ca0ce009bbedb094c5d146a163bb41690143de38c8c0512d869/dynamic_intake_root_f14b812c49611f52bd284943a47fc918b04d6fa014e6981428930a7207c55cc8.json": "f14b812c49611f52bd284943a47fc918b04d6fa014e6981428930a7207c55cc8",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/b93ab9d994163ca0ce009bbedb094c5d146a163bb41690143de38c8c0512d869/dynamic_native_work_98469d801e135be5812fe56cffa9edd0af8e13fca06c8e3912c580cd8c139d8c.json": "98469d801e135be5812fe56cffa9edd0af8e13fca06c8e3912c580cd8c139d8c",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/b93ab9d994163ca0ce009bbedb094c5d146a163bb41690143de38c8c0512d869/dynamic_source_family_ae938d8caa9867f2d39110c3dc77e76297857b29ee0eea9b02224bce0a1cbb29.json": "ae938d8caa9867f2d39110c3dc77e76297857b29ee0eea9b02224bce0a1cbb29",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/e97d7ae088b1ad9b46a005a512104eea371440804b1128182943f5d9bd956d77/accepted_dynamic_result_5a895b47868c7f621dd78f0e7ff03943da0bc0f40c0fdaa76031c1ad2569733f.json": "5a895b47868c7f621dd78f0e7ff03943da0bc0f40c0fdaa76031c1ad2569733f",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/e97d7ae088b1ad9b46a005a512104eea371440804b1128182943f5d9bd956d77/dynamic_intake_root_a5c154bc731119d1f11c6f98f239ec0a4712b7232498bb9727b19d80492bebef.json": "a5c154bc731119d1f11c6f98f239ec0a4712b7232498bb9727b19d80492bebef",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/e97d7ae088b1ad9b46a005a512104eea371440804b1128182943f5d9bd956d77/dynamic_native_work_bb246ec262a8dacd7d2eebb9f6dc3fca7e2123b861f6f3ec8bb2b89f5ff57467.json": "bb246ec262a8dacd7d2eebb9f6dc3fca7e2123b861f6f3ec8bb2b89f5ff57467",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/review/task_evidence/e97d7ae088b1ad9b46a005a512104eea371440804b1128182943f5d9bd956d77/dynamic_source_family_13f2acfdcc3d38b54d49225c4a57a13ac40e81223c4676ce2dae10de215c5452.json": "13f2acfdcc3d38b54d49225c4a57a13ac40e81223c4676ce2dae10de215c5452",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/payloads/1e0bd39b80bc2b091a93607f984439ef6281307ee0b505e85c43bfc0d10ff413.json": "1e0bd39b80bc2b091a93607f984439ef6281307ee0b505e85c43bfc0d10ff413",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/payloads/2bc908a248a443c9c58c07f425132e3fb34ab2e7407fb03b6a00b2a384a243d0.json": "2bc908a248a443c9c58c07f425132e3fb34ab2e7407fb03b6a00b2a384a243d0",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/payloads/38b8639213bb1c033507ae25738342da2c1845690dd2abdc9c2d5f5d416ff687.json": "38b8639213bb1c033507ae25738342da2c1845690dd2abdc9c2d5f5d416ff687",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/payloads/e141425061f7118d1a5ebf34c9192fcfeab09f66254651fd1010b457729929d1.json": "e141425061f7118d1a5ebf34c9192fcfeab09f66254651fd1010b457729929d1",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_b95d820d0f95c69d784deadd5dd73dff800358f5537a6ddcc8cf8c1b1d02a7bb.json": "8049cda59012931e1baecd1adcc5b86b99e34c71d114475c42951d05d4debb53",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_bf1017ad07fa21dfe31ea6daceac2c0f98ade4512614f0bbb4229f3ec7b4a4b0.json": "d0027b66d632e3216ddc5d2be818da72039ff25c0fbd06d849d9dc709d4a8d31",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_c92fccd69ec173900cef3bdce0defe99d7c68b1f2167431da2667da3522fdaec.json": "780344f5ca87aae3601b327b353e83620f20a04e221043eca4bd04054684c05b",
+    "review/normal_session_g2e_passage/actual_evidence/actual_witnesses/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d24481ca37c667f544682b118739ce93e435ed24b52c0b8d567d45f5e6d3364c.json": "61b4acde3fee3657ed3abbfb6663a576077f74eea06c9fd49b77176ebfc7c36a",
+    "review/normal_session_g2e_passage/actual_evidence/report/execution_basis.json": "e448108bcb3f3d5568e6e4f24e7b23291743127c427e563f72bf3b0dfaac7434",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/actual_evidence/actual_owner/console_model_turns.json": "06ad13baf328b4d3f52522cc5171e91ee25ce7a5655d174ddb765376b961d3da",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/actual_evidence/actual_task_state/dynamic_tasks.json": "6b8c605572a2d5408ae82acd18e3cbae465dfaef8ed12becdf075175eefa1289",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/actual_evidence/actual_transport/result_0adde1226bdd47f18eb14ca89a1e93ea.json": "a1d0e87400907e8b76d092cff64f156d5821c9b5c05e5558ec911e0392986731",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/actual_evidence/reviewed_basis/review/stream_console_continuation_passage/owner_source_review.json": "26a34904199baf5ad38e9bf011552411dbcdeb4db4eacd97bd10410c6e209ac1",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/actual_evidence/reviewed_basis/review/stream_console_continuation_passage/runtime_source_review.json": "cc4258784cf2f841b83c332702096e95094255b2aa183cc001767691111e2543",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/continuation_proposal.json": "e0c8cbc1dad140434311f92e3193c9e1d70b995f71078cb499e6769bc509ffc5",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/continuation_review.json": "19d10844ea6cc6983f9175209c2de0b38e2183a69c6d6e6af344c8efc53acc18",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/owner_source_review.json": "d6b52c11f90e002b4732a37d9c076978552dd18b20a8982af1369566a6c7d819",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/runtime_source_review.json": "2fd12c34c6bfdd26ff56c795174acbcfaac4d9606576d7bee356655e366ee998",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/actual_evidence/actual_owner/console_model_turns.json": "6a30c6f0a1e514dd913050e6e79bae8096632d4d80b7630c154ef6d4d99c69e6",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/actual_evidence/actual_task_state/dynamic_tasks.json": "0a7898d0d61545f202b4a12abbfbd4b8a9888a6aede31368ec43496276bbf131",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/actual_evidence/actual_transport/result_72ff1b3723314961b6d5a067d24f9a50.json": "0e3c9dbce44aaf6c85b95e9b141d95ce7c72750a8addff2cddc27f21ddb8e11b",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/owner_source_review.json": "d6b52c11f90e002b4732a37d9c076978552dd18b20a8982af1369566a6c7d819",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/actual_evidence/reviewed_basis/review/metadata_continuation_passage/runtime_source_review.json": "2fd12c34c6bfdd26ff56c795174acbcfaac4d9606576d7bee356655e366ee998",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/console_source_review.json": "39e52d3e22c24090cb51c5b6db6df3f86b157d984f2dbf81e4b2535354445788",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/continuation_proposal.json": "866b2e12ad0f7db8d672f444e1615eb96e63cfff7fbcf55262b9bc165cf21a7f",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/continuation_review.json": "d4cb1bbb7dcb64fabb3ca6b8fb527ba302ed0a3b6e562df6203a7d78ef7c8bce",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/current_source_admission.json": "3387c0af660d003fe9651ff6469548aa536a5b9bc235fe7e3c04ed1753974f2c",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/live_return_source_review.json": "40b1ee6ef65e041ab8ae3e91c0d8df5bfda0ca56b7d3edc4cdd71d609921d96c",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/mechanical_result_review.json": "fb4a3e1101c7c6e360957a70d2e157653d762f358dbda5eb0ba7a3aac2f47c4a",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/owner_source_review.json": "8fc0e88f08286143df7d56bc8d74f38fce077984ba3eded28bd4a38dc37232d7",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/real_execution_review.json": "d024f4efb07a62b90f20f613a4c7babf87dcefa1b66b2cfa85d4d609e8f91426",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/opaque_metadata_passage/runtime_source_review.json": "5a13c4d9d8fb19e1e837882e01e045967ac3d2589937100739eca3b2a5b663b6",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/stream_console_continuation_passage/continuation_proposal.json": "009cc6d52b430bcf83517acd57d793ec937d9d92687cb34f471cb36e2527d7e1",
+    "review/normal_session_g2e_passage/actual_evidence/reviewed_basis/review/stream_console_continuation_passage/continuation_review.json": "3fc7a9bde86a49b571b141cc3bb1a29f614785af145c171c696ba33d3b51a368",
+    "review/normal_session_g2e_passage/actual_evidence/writer_basis/app/stage04_diagnostics.py": "6597ea56a204979aa5d9198dc706f7a818590115767543f21ba18c46f1e64a85",
+    "review/normal_session_g2e_passage/actual_evidence/writer_basis/review/package_direct_plan_return.py": "8fb47430225368495a19758083856af9520073a5658eae96bb1d7b3fb895e604",
+    "review/normal_session_g2e_passage/actual_evidence/writer_basis/review/transport/owner_failure_report.py": "dff8a57f6effa00d40e535b7bbc00703848320d80d01d023ae6049448abdd217"
+  },
+  "archive": {
+    "Downloads_path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261016T153122.435020Z.tar.gz",
+    "bytes": 562657,
+    "local_and_Downloads_pair_verified": true,
+    "manifest_sha256": "a01dd1346159f01e2231ed6b644f6849109d611d54cad71d4120e798423b1a76",
+    "members": 107,
+    "path": "review/returns/RADIK_RETURN_20261016T153122.435020Z.tar.gz",
+    "payloads": 106,
+    "sha256": "7b37bc9541416c1514cafa7034c85fd8f2be09c9722e04d73df94658660f1057"
+  },
+  "baseline_review_sha256": "1e420b0fbaeb2e954dc00b162c77e551d0aed07c5a5cbe9377e6706cd8ead9e8",
+  "canonical_reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "canonical_reference_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+  "cloud_curator_review_scope": "User reports source inspection plus independent hash/span/order/linkage checks; no full kernel replay because jsonschema was unavailable. No kernel execution is attributed to that review.",
+  "connected_result_ref": {
+    "path": "review/normal_session_g2e_passage/actual_evidence/actual_owner/connected_result.json",
+    "sha256": "405452b4b2cc34be28f805d286ba9ae743b40a7ee3c49442f2019caae178169c"
+  },
+  "executed_source": {
+    "SOURCE140101_sha256": "3b6cd595227ca620dbfa3741418cc9365e223c16de78b461c9387f7a6b8f97c0",
+    "auth_source_identity_sha256": "8a7d8114da21802f7459d26ef0e48014b951d21f094e772903af193d118df5a7",
+    "runtime_pins": {
+      "app/__init__.py": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "app/budget.py": "0e6b1946bbe4c0ad18d99f7b100f13ea39dc40fd8dd37e248020748e9056e848",
+      "app/console_continuation.py": "8e990e43c443d6d87d61ff1385fa9634b1290b6730dd7ff2aab2fa77113e6dd6",
+      "app/contracts.py": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+      "app/controller.py": "5bc1009b215b2989d13b4ec115fa407edadd103be10314374eeb663cdebddf51",
+      "app/dynamic_control.py": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+      "app/dynamic_native.py": "7d6f5c31ea593d1553723e47251ead5a18492cbcea077228339604c287d9e58b",
+      "app/dynamic_roles.py": "b151f3b6fe044219fad8e7ae045e568aa402a56b0723dd2470119de63573838f",
+      "app/dynamic_semantics.py": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+      "app/dynamic_temporal.py": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+      "app/dynamic_work.py": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "app/evidence.py": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+      "app/intake.py": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "app/memory.py": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "app/native_authority.py": "701cd41e60b63209270b509669b24cba9f002cc8796e2c5bfa8a6228bd678639",
+      "app/native_document.py": "b2de73f3b468043308cce8ff99c8730495baa54aa5c29ccc576cfacac1ae2bb8",
+      "app/openai_plan_transport.py": "258f814efd42f78e6d8ef16d7305dcd533125db3f58a9c1265ffe62ea7d2ef12",
+      "app/plan_auth.py": "ac183f3493eb6411e35c93bac30de7c69bd9d3d8d72f026cecc1716e7e963687",
+      "app/proposal.py": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+      "app/runtime.py": "e83508a8e5daefe8914911a4764fe45f6a133f4f1a5d9e659d40a7c494ee161f",
+      "app/save_quota.py": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+      "app/semantic_membrane.py": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+      "app/source_admission.py": "426d61ff0be2fc646b3cbfdc152b397ab942917b29e3e0ad318395bb2d16e9b2",
+      "app/stage04_diagnostics.py": "6597ea56a204979aa5d9198dc706f7a818590115767543f21ba18c46f1e64a85",
+      "app/stream_observation.py": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+      "app/task_budget.py": "8a7d8ae7a7fbdc5d3cb5a29e0e1c19fd3baecd629df6766d240a362517c1a067",
+      "app/task_spec.py": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "app/task_store.py": "a19a411eb2b0d2fba8ce4947276475a6774b96ebbcd0e5fd8d535fdf008fb333",
+      "config/console_model_policy.json": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "config/launch.py": "46a80f4f0d0885c5a9faa24d50e3fdbd5b0290eb049e6b88599aa547999335ae",
+      "config/model_policy.json": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "config/requirements-plan-auth.txt": "ec54f0f0c92ca38c765d549cf18ff66290ab1c97126a2028657928c14b34af31",
+      "config/requirements-plan-base.txt": "ed980ab39e698253b5c38d488a81ec5d9a046d6d1ef5ae1896c9bd9eaf3d9e97",
+      "config/task_model_policy.json": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "radik": "00508a5aaeb4bb9a8d96ff429f61eaca1d7c3d480baf854cc30aab455df8b514",
+      "review/dependencies/inventory.json": "e69324b7b44341fc001518bfaa96d9c0d7fe2e3228eb8c3730e9e336400fe557",
+      "review/direct_plan_passage/auth_dependency_metadata.json": "634e7675f6568e4763a3dea92ca1e14b69c1ca34002e072749acde644790f123",
+      "review/direct_plan_passage/bootstrap_identity.json": "e8a24d947ca3a1a4cc69784fd5864b725ebe6c31f94102a3a76eb208e2124eea",
+      "review/direct_plan_passage/protocol_references.json": "5a57122af814c5e37b60d0f3eb8fb2bb208847741d179b305f8ab07c483a7da6",
+      "review/live_exam_document.py": "f1c5bb3ca75a7c9004fd53db130df018baa88a56beb2100cf14a0a22c65c1642",
+      "review/package_direct_plan_return.py": "8fb47430225368495a19758083856af9520073a5658eae96bb1d7b3fb895e604",
+      "review/transport/direct_plan_gate.py": "0256ab622ac1b596bdb147e113048ab8725b3269294468e61636beeab086b5e2",
+      "review/transport/model_scope.py": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+      "review/transport/owner_failure_report.py": "dff8a57f6effa00d40e535b7bbc00703848320d80d01d023ae6049448abdd217",
+      "review/transport/plan_dependencies.py": "740eda10b97c2e080e5b967c623bba54e3e6b8770aba9b559175aedf2ead3caa",
+      "review/transport/radik_owner_start.py": "77cb8bca4cbd2741af0537775dc792f1b0bbfeec4b66b4e540a3b04e7cbc4875",
+      "source/reference/docs/common_action_and_dynamic_composition_checkpoint_v01.md": "fd708a885e0635e9f82bb8baad212f9cbd6db363888a8ae380893a718201e5e9",
+      "source/reference/docs/common_action_and_dynamic_composition_contract_v01.md": "7f747d14065c11e6194fce94aabcd107693e7d27cd75c5558c37cef0a0a3092d",
+      "source/reference/hedgehog/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source/reference/hedgehog/action_commit_packet_v02.py": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+      "source/reference/hedgehog/avf_v02.py": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+      "source/reference/hedgehog/capability_admission_v01.py": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+      "source/reference/hedgehog/context_packets.py": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+      "source/reference/hedgehog/domains/__init__.py": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8",
+      "source/reference/hedgehog/domains/airline/__init__.py": "cc46b98e70deb6ea9b8eb5ea184cda638ce7365a1870e5074d2dfc837dab9cf8",
+      "source/reference/hedgehog/domains/airline/outcome_feedback_adapter_v01.py": "fda3fa3dd7ffc5fbbe87ed7e424699d765e1a37058c805cff19761b984734575",
+      "source/reference/hedgehog/domains/airline/semantic_to_contract_binding_v01.py": "6b9f34433cae8ef0435ea1456820fd4f7e300a2a6c9a2d389c77c3db008be4a6",
+      "source/reference/hedgehog/domains/airline/semantic_to_contract_causal_runtime_v01.py": "3693ae3d5b15d16bfa23f7d3ebf40bb64a0aa9f245847a1d0d09eae431458e98",
+      "source/reference/hedgehog/domains/airline/ticket_purchase_corridor_runtime_v01.py": "0e9864fb499f378edeeb8300b785a8de69af2fbcb51ad4039d9306e182adb0eb",
+      "source/reference/hedgehog/domains/airline/ticket_purchase_corridor_v01.py": "5bf787130b370da4c58918ef4a65de29aa7c017a59d9fc491ad5c4ee66a50e3b",
+      "source/reference/hedgehog/domains/airline/transaction_artifact_ledger_collector_v01.py": "af7dc4da6ce1185688447d96747516a521084ec7c749c8490ea92f3ee65264c4",
+      "source/reference/hedgehog/domains/airline/transaction_artifact_ledger_v01.py": "3e9cdcd6d3c411b4dfab598d4b62b5648dcf071d4bf15e8297e3d4144aa831bf",
+      "source/reference/hedgehog/domains/ephemeral_workspace/__init__.py": "f1eba5acd64fe400ab325106031e2d90f963ddb2df0e33f43eb4cc0d95b00e1f",
+      "source/reference/hedgehog/domains/ephemeral_workspace/capability_registry_v01.py": "c76070da03489e0e9ec8c3784f61520ef2866ebd7a5eaf6d9470e369500e11a3",
+      "source/reference/hedgehog/domains/ephemeral_workspace/contracts_v01.py": "9e2a69ed5c02ae9c8febfe2d3064a967598e21c61d80eecd84fd08efad093c9b",
+      "source/reference/hedgehog/domains/ephemeral_workspace/evidence_v01.py": "792736b91f2a3fa264613fa6bc1bea60e4370fd8ba7f56c427fc0323f39ca1c7",
+      "source/reference/hedgehog/domains/ephemeral_workspace/kernel_adapter_v01.py": "15f1243f5dd0d1d798267c48359622983b99387f5b15df2b081620b7516ae1ee",
+      "source/reference/hedgehog/domains/ephemeral_workspace/local_services_v01.py": "1abe5cd160a9ae7475334f2b396057366ab4a7c477a7ea62288c702018f1c1a3",
+      "source/reference/hedgehog/domains/ephemeral_workspace/media_continuation_v01.py": "8728b7a47740736bb3d7145acb874fa1e545614e4adf3d1dd94e4230ea4d0210",
+      "source/reference/hedgehog/domains/ephemeral_workspace/media_v01.py": "87e2388ceab077e330c144cf3d730341e5a44fdc51131d7aa0969ad490b6d7fa",
+      "source/reference/hedgehog/domains/ephemeral_workspace/memory_adapter_v01.py": "ce4944c25a03ac4ca0d2d2c3eb1b3c68ac0d5f2dd012a31a7705642b4a3ba569",
+      "source/reference/hedgehog/domains/ephemeral_workspace/outcome_feedback_adapter_v01.py": "a46a0e422a36d65673df229116d2137c14efd7cf7c90552c703b55ec00e77099",
+      "source/reference/hedgehog/domains/ephemeral_workspace/semantic_adapter_v01.py": "ef42d7529134d9c7f9908dac0ddb08a62d1d9d2a838b1baf38c58316b468dfce",
+      "source/reference/hedgehog/domains/ephemeral_workspace/semantic_roles_v01.py": "1d1e8162df04f300143659022d067941413918bd6afe9702b7a08f701a9eb56d",
+      "source/reference/hedgehog/domains/ephemeral_workspace/session_runtime_v01.py": "d3841d5f6faa4dd9e8c9db6373658366d1cc89ae54b0826351de64095276c5cc",
+      "source/reference/hedgehog/domains/landslide_sentinel/__init__.py": "3cbfd0a8d204091544a848ae417615837dec904f3d48135126a4eef53457f9b5",
+      "source/reference/hedgehog/domains/landslide_sentinel/capability_registry_v01.py": "2542479dddc7485cb1e2220fac51dd59849d571054c1c912b3be3dbd58b0dd28",
+      "source/reference/hedgehog/domains/landslide_sentinel/contracts_v01.py": "bd6bb60cee50a5ef3bdc9d2a79216a3f4c0685fe09cd5dc2837623cb166aa226",
+      "source/reference/hedgehog/domains/landslide_sentinel/events_v01.py": "e1502016a2ddf63b0464dd72ee52a5caefa666327f50036c3c84d045ed9e18be",
+      "source/reference/hedgehog/domains/landslide_sentinel/evidence_v01.py": "0f015f1d876afde74aa9323c49c682f54b8c3042b2e38886235e860e7a170b27",
+      "source/reference/hedgehog/domains/landslide_sentinel/incident_policy_v01.py": "9ea35362d3f3c7341dc05d4db0a4a5c3bc089bb63512e85d5018c8ea5e290947",
+      "source/reference/hedgehog/domains/landslide_sentinel/kernel_adapter_v01.py": "9f9c63e8edb6ae441e30275ae5b9131c711b71648b650d22606aae818ac22521",
+      "source/reference/hedgehog/domains/landslide_sentinel/monitoring_runtime_v01.py": "5c1f36976661ae83b49086aad35652761bd550aab51cd8a4e1287af5d6e04003",
+      "source/reference/hedgehog/domains/landslide_sentinel/outbox_v01.py": "c6ed19e959908400e76942aa8e5e20c02c0b4fb662655576025188ae49860f2e",
+      "source/reference/hedgehog/domains/landslide_sentinel/outcome_feedback_adapter_v01.py": "886199bd3ca337463027490fa8d126bc08af12e2144b9d57d52d4f11449ca8b4",
+      "source/reference/hedgehog/domains/landslide_sentinel/semantic_adapter_v01.py": "6fac1601e171b56548bdc49c5c9a197a9c2305d1e3bddf1c12404d00830ae8aa",
+      "source/reference/hedgehog/domains/supplier_water_filter/__init__.py": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0",
+      "source/reference/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6",
+      "source/reference/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc",
+      "source/reference/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe",
+      "source/reference/hedgehog/domains/supplier_water_filter/outcome_feedback_adapter_v01.py": "e64d0e5b20eb576b8edfe60ff25ab8ee720011b9da61a69d2bb117a246f1aca2",
+      "source/reference/hedgehog/domains/testflix/__init__.py": "65d25f90889210a6de7ee1d89290e5f3fed0672cd40139287c08b807030c4acf",
+      "source/reference/hedgehog/domains/testflix/contracts_v01.py": "cafe20c56049985bf4031104343f9f068d1e3fe989fbf8c132f47adb2826ef0b",
+      "source/reference/hedgehog/domains/testflix/evidence_v01.py": "3106f3e3459a4585385f170579f4a166f3aad4e330502711394a8be947d589ae",
+      "source/reference/hedgehog/domains/testflix/kernel_adapter_v01.py": "1444d89f426658949cc0b0c2fae234943cef4454777981a89cff444327412eae",
+      "source/reference/hedgehog/domains/testflix/lifecycle_v01.py": "9acf70b4a811c9ec34f7b4e7a580bee6fe25001f39bb2c3042e87378bb72cb2b",
+      "source/reference/hedgehog/domains/testflix/live_semantic_adapter_v01.py": "6a1b6d8286a986dc4459c2ea5dea999e0ed49e3784cc253c4ca05a5405b45bec",
+      "source/reference/hedgehog/domains/testflix/mock_world_v01.py": "929d9d64f87551ae53e598075a11f175b42c7a8b4daf47ab95af103233b6ab32",
+      "source/reference/hedgehog/domains/testflix/outcome_feedback_adapter_v01.py": "c979f15b8dc093a9924060efc5db05917ccf20c86d55b1a50b738ac4fa25bde6",
+      "source/reference/hedgehog/domains/testflix/semantic_adapter_v01.py": "a20b22edbf26e536c3403d9dabe05fd22ea82cbe0210bb87eaada25f47b5c7e5",
+      "source/reference/hedgehog/domains/testflix/semantic_roles_v01.py": "7855b9d9011307cd79512fec2c10672b96b5d71dccd09b87a5cf88314dccc736",
+      "source/reference/hedgehog/drs.py": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+      "source/reference/hedgehog/drs_g2b_compatibility_v01.py": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+      "source/reference/hedgehog/drs_memory_resolution_v01.py": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "source/reference/hedgehog/drs_semantic_address_v01.py": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+      "source/reference/hedgehog/evidence/__init__.py": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+      "source/reference/hedgehog/evidence/external_anchor_v01.py": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+      "source/reference/hedgehog/evidence/sealed_evidence_profile_v01.py": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+      "source/reference/hedgehog/evidence/sealed_package_v01.py": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+      "source/reference/hedgehog/evidence/sealed_replay_evidence_v01.py": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+      "source/reference/hedgehog/gate3_mechanism_v01.py": "ef6bb77e245aea411cd0f400496a25c9f1002007b8021c15232b3229ffc856f8",
+      "source/reference/hedgehog/gt_validator.py": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+      "source/reference/hedgehog/kernel/__init__.py": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+      "source/reference/hedgehog/kernel/abi_v01.py": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+      "source/reference/hedgehog/kernel/conformance_v01.py": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+      "source/reference/hedgehog/kernel/continuous_delta_runtime_v01.py": "879abad289ebae13b65cd0d2c5858e89f55fb059fecb111cde61d37f575a6af0",
+      "source/reference/hedgehog/kernel/effect_firewall_v01.py": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+      "source/reference/hedgehog/kernel/execution_mode_router_v01.py": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+      "source/reference/hedgehog/kernel/fractal_runtime_v02.py": "ac946801b15c7464dd228034f64f0849c9567a71328ba50f3df314fe433dd0ba",
+      "source/reference/hedgehog/kernel/integrity_replay_v01.py": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+      "source/reference/hedgehog/kernel/multiroot_v01.py": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+      "source/reference/hedgehog/kernel/root_decision_v01.py": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+      "source/reference/hedgehog/kernel/root_signer_isolation_v01.py": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+      "source/reference/hedgehog/kernel/semantic_work_v01.py": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+      "source/reference/hedgehog/kernel/transition_registry_v01.py": "16d2d3c31004bccc3064c74290bad4a7303669b63c428cebf6be8763574ae0ca",
+      "source/reference/hedgehog/kernel/trust_model_v01.py": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+      "source/reference/hedgehog/kernel/work_composition_v01.py": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "source/reference/hedgehog/local_drs_resolver.py": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+      "source/reference/hedgehog/local_drs_v02.py": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+      "source/reference/hedgehog/outcome_calibration_v01.py": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079",
+      "source/reference/hedgehog/outcome_feedback_consumer_v01.py": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+      "source/reference/hedgehog/outcome_feedback_history_v01.py": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+      "source/reference/hedgehog/outcome_feedback_v01.py": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13",
+      "source/reference/hedgehog/post_vv.py": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+      "source/reference/hedgehog/reuse_certificate_v01.py": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+      "source/reference/hedgehog/reuse_gate.py": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+      "source/reference/hedgehog/semantic_reasoning_adapter.py": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+      "source/reference/hedgehog/structured_rationale.py": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+      "source/reference/hedgehog/time_model.py": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+      "source/reference/hedgehog/wasm_pure_worker_v01.py": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+      "source/reference/hedgehog/work_execution_host_v01.py": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b",
+      "source/reference/schemas/capability_admission_v01.schema.json": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+      "source/reference/schemas/common.schema.json": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+      "source/reference/schemas/result_proposal.schema.json": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+      "source/reference/schemas/time_envelope.schema.json": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+      "source/reference/schemas/vv_report.schema.json": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+      "source/reference/schemas/work_composition_v01.schema.json": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+      "source/reference/specs/current_architecture_lock_v01.md": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682",
+      "source/reference/specs/document_authority_index_v01.json": "346c9bb839abc5c24f4bf55a02d46f6dae45ec87e9008ae48918aaa6a8b91d48"
+    },
+    "source_identity_sha256": "85e561f6c30aa29d25f6b1c7a3be151f6fcee20bbeb9e6ba74c21210ad559fbc",
+    "source_resolution": {
+      "app/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/app/__init__.py",
+        "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76"
+      },
+      "app/budget.py": {
+        "path": "review/normal_session_g2e_passage/before/app/budget.py",
+        "sha256": "0e6b1946bbe4c0ad18d99f7b100f13ea39dc40fd8dd37e248020748e9056e848"
+      },
+      "app/console_continuation.py": {
+        "path": "review/normal_session_g2e_passage/before/app/console_continuation.py",
+        "sha256": "8e990e43c443d6d87d61ff1385fa9634b1290b6730dd7ff2aab2fa77113e6dd6"
+      },
+      "app/contracts.py": {
+        "path": "review/normal_session_g2e_passage/before/app/contracts.py",
+        "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b"
+      },
+      "app/controller.py": {
+        "path": "review/normal_session_g2e_passage/before/app/controller.py",
+        "sha256": "5bc1009b215b2989d13b4ec115fa407edadd103be10314374eeb663cdebddf51"
+      },
+      "app/dynamic_control.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_control.py",
+        "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c"
+      },
+      "app/dynamic_native.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_native.py",
+        "sha256": "7d6f5c31ea593d1553723e47251ead5a18492cbcea077228339604c287d9e58b"
+      },
+      "app/dynamic_roles.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_roles.py",
+        "sha256": "b151f3b6fe044219fad8e7ae045e568aa402a56b0723dd2470119de63573838f"
+      },
+      "app/dynamic_semantics.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_semantics.py",
+        "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed"
+      },
+      "app/dynamic_temporal.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_temporal.py",
+        "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac"
+      },
+      "app/dynamic_work.py": {
+        "path": "review/normal_session_g2e_passage/before/app/dynamic_work.py",
+        "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543"
+      },
+      "app/evidence.py": {
+        "path": "review/normal_session_g2e_passage/before/app/evidence.py",
+        "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410"
+      },
+      "app/intake.py": {
+        "path": "review/normal_session_g2e_passage/before/app/intake.py",
+        "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74"
+      },
+      "app/memory.py": {
+        "path": "review/normal_session_g2e_passage/before/app/memory.py",
+        "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43"
+      },
+      "app/native_authority.py": {
+        "path": "review/normal_session_g2e_passage/before/app/native_authority.py",
+        "sha256": "701cd41e60b63209270b509669b24cba9f002cc8796e2c5bfa8a6228bd678639"
+      },
+      "app/native_document.py": {
+        "path": "review/normal_session_g2e_passage/before/app/native_document.py",
+        "sha256": "b2de73f3b468043308cce8ff99c8730495baa54aa5c29ccc576cfacac1ae2bb8"
+      },
+      "app/openai_plan_transport.py": {
+        "path": "review/normal_session_g2e_passage/before/app/openai_plan_transport.py",
+        "sha256": "258f814efd42f78e6d8ef16d7305dcd533125db3f58a9c1265ffe62ea7d2ef12"
+      },
+      "app/plan_auth.py": {
+        "path": "review/normal_session_g2e_passage/before/app/plan_auth.py",
+        "sha256": "ac183f3493eb6411e35c93bac30de7c69bd9d3d8d72f026cecc1716e7e963687"
+      },
+      "app/proposal.py": {
+        "path": "review/normal_session_g2e_passage/before/app/proposal.py",
+        "sha256": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f"
+      },
+      "app/runtime.py": {
+        "path": "review/normal_session_g2e_passage/before/app/runtime.py",
+        "sha256": "e83508a8e5daefe8914911a4764fe45f6a133f4f1a5d9e659d40a7c494ee161f"
+      },
+      "app/save_quota.py": {
+        "path": "review/normal_session_g2e_passage/before/app/save_quota.py",
+        "sha256": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901"
+      },
+      "app/semantic_membrane.py": {
+        "path": "review/normal_session_g2e_passage/before/app/semantic_membrane.py",
+        "sha256": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99"
+      },
+      "app/source_admission.py": {
+        "path": "review/normal_session_g2e_passage/before/app/source_admission.py",
+        "sha256": "426d61ff0be2fc646b3cbfdc152b397ab942917b29e3e0ad318395bb2d16e9b2"
+      },
+      "app/stage04_diagnostics.py": {
+        "path": "review/normal_session_g2e_passage/before/app/stage04_diagnostics.py",
+        "sha256": "6597ea56a204979aa5d9198dc706f7a818590115767543f21ba18c46f1e64a85"
+      },
+      "app/stream_observation.py": {
+        "path": "review/normal_session_g2e_passage/before/app/stream_observation.py",
+        "sha256": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6"
+      },
+      "app/task_budget.py": {
+        "path": "review/normal_session_g2e_passage/before/app/task_budget.py",
+        "sha256": "8a7d8ae7a7fbdc5d3cb5a29e0e1c19fd3baecd629df6766d240a362517c1a067"
+      },
+      "app/task_spec.py": {
+        "path": "review/normal_session_g2e_passage/before/app/task_spec.py",
+        "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53"
+      },
+      "app/task_store.py": {
+        "path": "review/normal_session_g2e_passage/before/app/task_store.py",
+        "sha256": "a19a411eb2b0d2fba8ce4947276475a6774b96ebbcd0e5fd8d535fdf008fb333"
+      },
+      "config/console_model_policy.json": {
+        "path": "review/normal_session_g2e_passage/before/config/console_model_policy.json",
+        "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31"
+      },
+      "config/launch.py": {
+        "path": "review/normal_session_g2e_passage/before/config/launch.py",
+        "sha256": "46a80f4f0d0885c5a9faa24d50e3fdbd5b0290eb049e6b88599aa547999335ae"
+      },
+      "config/model_policy.json": {
+        "path": "review/normal_session_g2e_passage/before/config/model_policy.json",
+        "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7"
+      },
+      "config/requirements-plan-auth.txt": {
+        "path": "review/normal_session_g2e_passage/before/config/requirements-plan-auth.txt",
+        "sha256": "ec54f0f0c92ca38c765d549cf18ff66290ab1c97126a2028657928c14b34af31"
+      },
+      "config/requirements-plan-base.txt": {
+        "path": "review/normal_session_g2e_passage/before/config/requirements-plan-base.txt",
+        "sha256": "ed980ab39e698253b5c38d488a81ec5d9a046d6d1ef5ae1896c9bd9eaf3d9e97"
+      },
+      "config/task_model_policy.json": {
+        "path": "review/normal_session_g2e_passage/before/config/task_model_policy.json",
+        "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53"
+      },
+      "radik": {
+        "path": "review/normal_session_g2e_passage/before/radik",
+        "sha256": "00508a5aaeb4bb9a8d96ff429f61eaca1d7c3d480baf854cc30aab455df8b514"
+      },
+      "review/dependencies/inventory.json": {
+        "path": "review/normal_session_g2e_passage/before/review/dependencies/inventory.json",
+        "sha256": "e69324b7b44341fc001518bfaa96d9c0d7fe2e3228eb8c3730e9e336400fe557"
+      },
+      "review/direct_plan_passage/auth_dependency_metadata.json": {
+        "path": "review/normal_session_g2e_passage/before/review/direct_plan_passage/auth_dependency_metadata.json",
+        "sha256": "634e7675f6568e4763a3dea92ca1e14b69c1ca34002e072749acde644790f123"
+      },
+      "review/direct_plan_passage/bootstrap_identity.json": {
+        "path": "review/normal_session_g2e_passage/before/review/direct_plan_passage/bootstrap_identity.json",
+        "sha256": "e8a24d947ca3a1a4cc69784fd5864b725ebe6c31f94102a3a76eb208e2124eea"
+      },
+      "review/direct_plan_passage/protocol_references.json": {
+        "path": "review/normal_session_g2e_passage/before/review/direct_plan_passage/protocol_references.json",
+        "sha256": "5a57122af814c5e37b60d0f3eb8fb2bb208847741d179b305f8ab07c483a7da6"
+      },
+      "review/live_exam_document.py": {
+        "path": "review/normal_session_g2e_passage/before/review/live_exam_document.py",
+        "sha256": "f1c5bb3ca75a7c9004fd53db130df018baa88a56beb2100cf14a0a22c65c1642"
+      },
+      "review/package_direct_plan_return.py": {
+        "path": "review/normal_session_g2e_passage/before/review/package_direct_plan_return.py",
+        "sha256": "8fb47430225368495a19758083856af9520073a5658eae96bb1d7b3fb895e604"
+      },
+      "review/transport/direct_plan_gate.py": {
+        "path": "review/normal_session_g2e_passage/before/review/transport/direct_plan_gate.py",
+        "sha256": "0256ab622ac1b596bdb147e113048ab8725b3269294468e61636beeab086b5e2"
+      },
+      "review/transport/model_scope.py": {
+        "path": "review/normal_session_g2e_passage/before/review/transport/model_scope.py",
+        "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6"
+      },
+      "review/transport/owner_failure_report.py": {
+        "path": "review/normal_session_g2e_passage/before/review/transport/owner_failure_report.py",
+        "sha256": "dff8a57f6effa00d40e535b7bbc00703848320d80d01d023ae6049448abdd217"
+      },
+      "review/transport/plan_dependencies.py": {
+        "path": "review/normal_session_g2e_passage/before/review/transport/plan_dependencies.py",
+        "sha256": "740eda10b97c2e080e5b967c623bba54e3e6b8770aba9b559175aedf2ead3caa"
+      },
+      "review/transport/radik_owner_start.py": {
+        "path": "review/normal_session_g2e_passage/before/review/transport/radik_owner_start.py",
+        "sha256": "77cb8bca4cbd2741af0537775dc792f1b0bbfeec4b66b4e540a3b04e7cbc4875"
+      },
+      "source/reference/docs/common_action_and_dynamic_composition_checkpoint_v01.md": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/docs/common_action_and_dynamic_composition_checkpoint_v01.md",
+        "sha256": "fd708a885e0635e9f82bb8baad212f9cbd6db363888a8ae380893a718201e5e9"
+      },
+      "source/reference/docs/common_action_and_dynamic_composition_contract_v01.md": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/docs/common_action_and_dynamic_composition_contract_v01.md",
+        "sha256": "7f747d14065c11e6194fce94aabcd107693e7d27cd75c5558c37cef0a0a3092d"
+      },
+      "source/reference/hedgehog/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source/reference/hedgehog/action_commit_packet_v02.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/action_commit_packet_v02.py",
+        "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac"
+      },
+      "source/reference/hedgehog/avf_v02.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/avf_v02.py",
+        "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616"
+      },
+      "source/reference/hedgehog/capability_admission_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/capability_admission_v01.py",
+        "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda"
+      },
+      "source/reference/hedgehog/context_packets.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/context_packets.py",
+        "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32"
+      },
+      "source/reference/hedgehog/domains/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/__init__.py",
+        "sha256": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8"
+      },
+      "source/reference/hedgehog/domains/airline/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/__init__.py",
+        "sha256": "cc46b98e70deb6ea9b8eb5ea184cda638ce7365a1870e5074d2dfc837dab9cf8"
+      },
+      "source/reference/hedgehog/domains/airline/outcome_feedback_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/outcome_feedback_adapter_v01.py",
+        "sha256": "fda3fa3dd7ffc5fbbe87ed7e424699d765e1a37058c805cff19761b984734575"
+      },
+      "source/reference/hedgehog/domains/airline/semantic_to_contract_binding_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/semantic_to_contract_binding_v01.py",
+        "sha256": "6b9f34433cae8ef0435ea1456820fd4f7e300a2a6c9a2d389c77c3db008be4a6"
+      },
+      "source/reference/hedgehog/domains/airline/semantic_to_contract_causal_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/semantic_to_contract_causal_runtime_v01.py",
+        "sha256": "3693ae3d5b15d16bfa23f7d3ebf40bb64a0aa9f245847a1d0d09eae431458e98"
+      },
+      "source/reference/hedgehog/domains/airline/ticket_purchase_corridor_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/ticket_purchase_corridor_runtime_v01.py",
+        "sha256": "0e9864fb499f378edeeb8300b785a8de69af2fbcb51ad4039d9306e182adb0eb"
+      },
+      "source/reference/hedgehog/domains/airline/ticket_purchase_corridor_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/ticket_purchase_corridor_v01.py",
+        "sha256": "5bf787130b370da4c58918ef4a65de29aa7c017a59d9fc491ad5c4ee66a50e3b"
+      },
+      "source/reference/hedgehog/domains/airline/transaction_artifact_ledger_collector_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/transaction_artifact_ledger_collector_v01.py",
+        "sha256": "af7dc4da6ce1185688447d96747516a521084ec7c749c8490ea92f3ee65264c4"
+      },
+      "source/reference/hedgehog/domains/airline/transaction_artifact_ledger_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/airline/transaction_artifact_ledger_v01.py",
+        "sha256": "3e9cdcd6d3c411b4dfab598d4b62b5648dcf071d4bf15e8297e3d4144aa831bf"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/__init__.py",
+        "sha256": "f1eba5acd64fe400ab325106031e2d90f963ddb2df0e33f43eb4cc0d95b00e1f"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/capability_registry_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/capability_registry_v01.py",
+        "sha256": "c76070da03489e0e9ec8c3784f61520ef2866ebd7a5eaf6d9470e369500e11a3"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/contracts_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/contracts_v01.py",
+        "sha256": "9e2a69ed5c02ae9c8febfe2d3064a967598e21c61d80eecd84fd08efad093c9b"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/evidence_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/evidence_v01.py",
+        "sha256": "792736b91f2a3fa264613fa6bc1bea60e4370fd8ba7f56c427fc0323f39ca1c7"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/kernel_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/kernel_adapter_v01.py",
+        "sha256": "15f1243f5dd0d1d798267c48359622983b99387f5b15df2b081620b7516ae1ee"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/local_services_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/local_services_v01.py",
+        "sha256": "1abe5cd160a9ae7475334f2b396057366ab4a7c477a7ea62288c702018f1c1a3"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/media_continuation_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/media_continuation_v01.py",
+        "sha256": "8728b7a47740736bb3d7145acb874fa1e545614e4adf3d1dd94e4230ea4d0210"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/media_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/media_v01.py",
+        "sha256": "87e2388ceab077e330c144cf3d730341e5a44fdc51131d7aa0969ad490b6d7fa"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/memory_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/memory_adapter_v01.py",
+        "sha256": "ce4944c25a03ac4ca0d2d2c3eb1b3c68ac0d5f2dd012a31a7705642b4a3ba569"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/outcome_feedback_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/outcome_feedback_adapter_v01.py",
+        "sha256": "a46a0e422a36d65673df229116d2137c14efd7cf7c90552c703b55ec00e77099"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/semantic_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/semantic_adapter_v01.py",
+        "sha256": "ef42d7529134d9c7f9908dac0ddb08a62d1d9d2a838b1baf38c58316b468dfce"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/semantic_roles_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/semantic_roles_v01.py",
+        "sha256": "1d1e8162df04f300143659022d067941413918bd6afe9702b7a08f701a9eb56d"
+      },
+      "source/reference/hedgehog/domains/ephemeral_workspace/session_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/ephemeral_workspace/session_runtime_v01.py",
+        "sha256": "d3841d5f6faa4dd9e8c9db6373658366d1cc89ae54b0826351de64095276c5cc"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/__init__.py",
+        "sha256": "3cbfd0a8d204091544a848ae417615837dec904f3d48135126a4eef53457f9b5"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/capability_registry_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/capability_registry_v01.py",
+        "sha256": "2542479dddc7485cb1e2220fac51dd59849d571054c1c912b3be3dbd58b0dd28"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/contracts_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/contracts_v01.py",
+        "sha256": "bd6bb60cee50a5ef3bdc9d2a79216a3f4c0685fe09cd5dc2837623cb166aa226"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/events_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/events_v01.py",
+        "sha256": "e1502016a2ddf63b0464dd72ee52a5caefa666327f50036c3c84d045ed9e18be"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/evidence_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/evidence_v01.py",
+        "sha256": "0f015f1d876afde74aa9323c49c682f54b8c3042b2e38886235e860e7a170b27"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/incident_policy_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/incident_policy_v01.py",
+        "sha256": "9ea35362d3f3c7341dc05d4db0a4a5c3bc089bb63512e85d5018c8ea5e290947"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/kernel_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/kernel_adapter_v01.py",
+        "sha256": "9f9c63e8edb6ae441e30275ae5b9131c711b71648b650d22606aae818ac22521"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/monitoring_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/monitoring_runtime_v01.py",
+        "sha256": "5c1f36976661ae83b49086aad35652761bd550aab51cd8a4e1287af5d6e04003"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/outbox_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/outbox_v01.py",
+        "sha256": "c6ed19e959908400e76942aa8e5e20c02c0b4fb662655576025188ae49860f2e"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/outcome_feedback_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/outcome_feedback_adapter_v01.py",
+        "sha256": "886199bd3ca337463027490fa8d126bc08af12e2144b9d57d52d4f11449ca8b4"
+      },
+      "source/reference/hedgehog/domains/landslide_sentinel/semantic_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/landslide_sentinel/semantic_adapter_v01.py",
+        "sha256": "6fac1601e171b56548bdc49c5c9a197a9c2305d1e3bddf1c12404d00830ae8aa"
+      },
+      "source/reference/hedgehog/domains/supplier_water_filter/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/supplier_water_filter/__init__.py",
+        "sha256": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0"
+      },
+      "source/reference/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+        "sha256": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6"
+      },
+      "source/reference/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+        "sha256": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc"
+      },
+      "source/reference/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+        "sha256": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe"
+      },
+      "source/reference/hedgehog/domains/supplier_water_filter/outcome_feedback_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/supplier_water_filter/outcome_feedback_adapter_v01.py",
+        "sha256": "e64d0e5b20eb576b8edfe60ff25ab8ee720011b9da61a69d2bb117a246f1aca2"
+      },
+      "source/reference/hedgehog/domains/testflix/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/__init__.py",
+        "sha256": "65d25f90889210a6de7ee1d89290e5f3fed0672cd40139287c08b807030c4acf"
+      },
+      "source/reference/hedgehog/domains/testflix/contracts_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/contracts_v01.py",
+        "sha256": "cafe20c56049985bf4031104343f9f068d1e3fe989fbf8c132f47adb2826ef0b"
+      },
+      "source/reference/hedgehog/domains/testflix/evidence_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/evidence_v01.py",
+        "sha256": "3106f3e3459a4585385f170579f4a166f3aad4e330502711394a8be947d589ae"
+      },
+      "source/reference/hedgehog/domains/testflix/kernel_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/kernel_adapter_v01.py",
+        "sha256": "1444d89f426658949cc0b0c2fae234943cef4454777981a89cff444327412eae"
+      },
+      "source/reference/hedgehog/domains/testflix/lifecycle_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/lifecycle_v01.py",
+        "sha256": "9acf70b4a811c9ec34f7b4e7a580bee6fe25001f39bb2c3042e87378bb72cb2b"
+      },
+      "source/reference/hedgehog/domains/testflix/live_semantic_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/live_semantic_adapter_v01.py",
+        "sha256": "6a1b6d8286a986dc4459c2ea5dea999e0ed49e3784cc253c4ca05a5405b45bec"
+      },
+      "source/reference/hedgehog/domains/testflix/mock_world_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/mock_world_v01.py",
+        "sha256": "929d9d64f87551ae53e598075a11f175b42c7a8b4daf47ab95af103233b6ab32"
+      },
+      "source/reference/hedgehog/domains/testflix/outcome_feedback_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/outcome_feedback_adapter_v01.py",
+        "sha256": "c979f15b8dc093a9924060efc5db05917ccf20c86d55b1a50b738ac4fa25bde6"
+      },
+      "source/reference/hedgehog/domains/testflix/semantic_adapter_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/semantic_adapter_v01.py",
+        "sha256": "a20b22edbf26e536c3403d9dabe05fd22ea82cbe0210bb87eaada25f47b5c7e5"
+      },
+      "source/reference/hedgehog/domains/testflix/semantic_roles_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/domains/testflix/semantic_roles_v01.py",
+        "sha256": "7855b9d9011307cd79512fec2c10672b96b5d71dccd09b87a5cf88314dccc736"
+      },
+      "source/reference/hedgehog/drs.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/drs.py",
+        "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4"
+      },
+      "source/reference/hedgehog/drs_g2b_compatibility_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/drs_g2b_compatibility_v01.py",
+        "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1"
+      },
+      "source/reference/hedgehog/drs_memory_resolution_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/drs_memory_resolution_v01.py",
+        "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8"
+      },
+      "source/reference/hedgehog/drs_semantic_address_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/drs_semantic_address_v01.py",
+        "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20"
+      },
+      "source/reference/hedgehog/evidence/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/evidence/__init__.py",
+        "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b"
+      },
+      "source/reference/hedgehog/evidence/external_anchor_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/evidence/external_anchor_v01.py",
+        "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994"
+      },
+      "source/reference/hedgehog/evidence/sealed_evidence_profile_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/evidence/sealed_evidence_profile_v01.py",
+        "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37"
+      },
+      "source/reference/hedgehog/evidence/sealed_package_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/evidence/sealed_package_v01.py",
+        "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53"
+      },
+      "source/reference/hedgehog/evidence/sealed_replay_evidence_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/evidence/sealed_replay_evidence_v01.py",
+        "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3"
+      },
+      "source/reference/hedgehog/gate3_mechanism_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/gate3_mechanism_v01.py",
+        "sha256": "ef6bb77e245aea411cd0f400496a25c9f1002007b8021c15232b3229ffc856f8"
+      },
+      "source/reference/hedgehog/gt_validator.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/gt_validator.py",
+        "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd"
+      },
+      "source/reference/hedgehog/kernel/__init__.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/__init__.py",
+        "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1"
+      },
+      "source/reference/hedgehog/kernel/abi_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/abi_v01.py",
+        "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31"
+      },
+      "source/reference/hedgehog/kernel/conformance_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/conformance_v01.py",
+        "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f"
+      },
+      "source/reference/hedgehog/kernel/continuous_delta_runtime_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/continuous_delta_runtime_v01.py",
+        "sha256": "879abad289ebae13b65cd0d2c5858e89f55fb059fecb111cde61d37f575a6af0"
+      },
+      "source/reference/hedgehog/kernel/effect_firewall_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/effect_firewall_v01.py",
+        "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd"
+      },
+      "source/reference/hedgehog/kernel/execution_mode_router_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/execution_mode_router_v01.py",
+        "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4"
+      },
+      "source/reference/hedgehog/kernel/fractal_runtime_v02.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/fractal_runtime_v02.py",
+        "sha256": "ac946801b15c7464dd228034f64f0849c9567a71328ba50f3df314fe433dd0ba"
+      },
+      "source/reference/hedgehog/kernel/integrity_replay_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/integrity_replay_v01.py",
+        "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be"
+      },
+      "source/reference/hedgehog/kernel/multiroot_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/multiroot_v01.py",
+        "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff"
+      },
+      "source/reference/hedgehog/kernel/root_decision_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/root_decision_v01.py",
+        "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c"
+      },
+      "source/reference/hedgehog/kernel/root_signer_isolation_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/root_signer_isolation_v01.py",
+        "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8"
+      },
+      "source/reference/hedgehog/kernel/semantic_work_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/semantic_work_v01.py",
+        "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1"
+      },
+      "source/reference/hedgehog/kernel/transition_registry_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/transition_registry_v01.py",
+        "sha256": "16d2d3c31004bccc3064c74290bad4a7303669b63c428cebf6be8763574ae0ca"
+      },
+      "source/reference/hedgehog/kernel/trust_model_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/trust_model_v01.py",
+        "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d"
+      },
+      "source/reference/hedgehog/kernel/work_composition_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/kernel/work_composition_v01.py",
+        "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+      },
+      "source/reference/hedgehog/local_drs_resolver.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/local_drs_resolver.py",
+        "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4"
+      },
+      "source/reference/hedgehog/local_drs_v02.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/local_drs_v02.py",
+        "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af"
+      },
+      "source/reference/hedgehog/outcome_calibration_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/outcome_calibration_v01.py",
+        "sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079"
+      },
+      "source/reference/hedgehog/outcome_feedback_consumer_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/outcome_feedback_consumer_v01.py",
+        "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938"
+      },
+      "source/reference/hedgehog/outcome_feedback_history_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/outcome_feedback_history_v01.py",
+        "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6"
+      },
+      "source/reference/hedgehog/outcome_feedback_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/outcome_feedback_v01.py",
+        "sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13"
+      },
+      "source/reference/hedgehog/post_vv.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/post_vv.py",
+        "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3"
+      },
+      "source/reference/hedgehog/reuse_certificate_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/reuse_certificate_v01.py",
+        "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c"
+      },
+      "source/reference/hedgehog/reuse_gate.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/reuse_gate.py",
+        "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584"
+      },
+      "source/reference/hedgehog/semantic_reasoning_adapter.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/semantic_reasoning_adapter.py",
+        "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6"
+      },
+      "source/reference/hedgehog/structured_rationale.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/structured_rationale.py",
+        "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03"
+      },
+      "source/reference/hedgehog/time_model.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/time_model.py",
+        "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba"
+      },
+      "source/reference/hedgehog/wasm_pure_worker_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/wasm_pure_worker_v01.py",
+        "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae"
+      },
+      "source/reference/hedgehog/work_execution_host_v01.py": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/hedgehog/work_execution_host_v01.py",
+        "sha256": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b"
+      },
+      "source/reference/schemas/capability_admission_v01.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/capability_admission_v01.schema.json",
+        "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0"
+      },
+      "source/reference/schemas/common.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/common.schema.json",
+        "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880"
+      },
+      "source/reference/schemas/result_proposal.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/result_proposal.schema.json",
+        "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382"
+      },
+      "source/reference/schemas/time_envelope.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/time_envelope.schema.json",
+        "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424"
+      },
+      "source/reference/schemas/vv_report.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/vv_report.schema.json",
+        "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854"
+      },
+      "source/reference/schemas/work_composition_v01.schema.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/schemas/work_composition_v01.schema.json",
+        "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0"
+      },
+      "source/reference/specs/current_architecture_lock_v01.md": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/specs/current_architecture_lock_v01.md",
+        "sha256": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682"
+      },
+      "source/reference/specs/document_authority_index_v01.json": {
+        "path": "review/normal_session_g2e_passage/before/source/reference/specs/document_authority_index_v01.json",
+        "sha256": "346c9bb839abc5c24f4bf55a02d46f6dae45ec87e9008ae48918aaa6a8b91d48"
+      }
+    }
+  },
+  "historical_auth_source_identity_sha256": "8a7d8114da21802f7459d26ef0e48014b951d21f094e772903af193d118df5a7",
+  "historical_source_identity_sha256": "85e561f6c30aa29d25f6b1c7a3be151f6fcee20bbeb9e6ba74c21210ad559fbc",
+  "independent_checks": [
+    "All106 manifest entries/raw hashes/sizes and both archive/checksum pairs verified.104 exact public members are captured; the2original Russian owner texts remain in the original archive.",
+    "All first6 attempt objects are unchanged;9 new COMPLETED attempts have exact operation/run and O/A/C order, request-body/context/wire hashes, terminal/usage/final role acceptance. Requested and saved returned model/effort/tier are gpt-6.1-sol/high/default; underlying resolved_model remains UNKNOWN.",
+    "All9 streams retain730-byte metadata hash174cbeb4d2581bf98313ee06c5e29910ae7c523ffe7cd4f9ed2d7c1e39228559 and789-byte auxiliary observations, with successful role products. No reconstruction of historically unobserved nested metadata is claimed.",
+    "Four distinct current Root ACCEPT decisions and four short PURE Work results are evidenced. Exact native artifacts/invocations/results and input/output validation evidence hash-join to consumed accepted projections/business outputs; current callback source_utf8 hashes agree with recorded implementation035e90. All quoted UTF-8 spans independently match the actual source bytes.",
+    "Four WRITEBACK events match exact archived record canonical readback hashes and raw payload hashes/outcome bodies. A memory selection/descent uses only its ownc92fccd69ec173900cef3bdce0defe99d7c68b1f2167431da2667da3522fdaec/2bc908a248a443c9c58c07f425132e3fb34ab2e7407fb03b6a00b2a384a243d0; accepted_at1792164500/valid_to1792171700 are unchanged and its Root is fresh. B/C meaning keys differ and their searches select no foreign record.",
+    "Task specs and all prior histories remain prefixes. A has5 lifetime starts/2accepted results, B/C each1start/result; ROUNDv02 predecessor and memory output refs resolve to exact retained raw task files and accepted history.",
+    "Actual final ledger15/exam16/cumulative31 is idle, all3old remote UNKNOWN records remain UNKNOWN, all3receipts bind the retained chain, and quota remains CLOSED. No nested/U2/E/SAVE or restart behavior is established by this short-chain run."
+  ],
+  "independent_local_review_method": "Read-only exact saved source/data/hash/span/order/linkage/native producer-consumer joins; no candidate application imports or full kernel replay.",
+  "manifest": {
+    "path": "review/normal_session_g2e_passage/actual_archive_manifest.json",
+    "sha256": "a01dd1346159f01e2231ed6b644f6849109d611d54cad71d4120e798423b1a76"
+  },
+  "model_boundary": {
+    "effort": "high",
+    "new_AUTH_or_provider_probe": false,
+    "requested_model": "gpt-6.1-sol",
+    "resolved_model": "UNKNOWN",
+    "returned_model_claim": "gpt-6.1-sol",
+    "service_tier": "default"
+  },
+  "native_E_status": "BLOCKED_PUBLIC_CONTRACT",
+  "new_candidate_behavior_accepted": false,
+  "new_engineering_actual_ACK_AUTH_catalog_model_retrieve_cancel_SAVE_calls": 0,
+  "not_proven": [
+    "actual_nested",
+    "actual_decomposed",
+    "actual_U2",
+    "actual_E_or_selective_delta",
+    "actual_restart",
+    "actual_SAVE",
+    "ordinary_normal_session_beyond_consumed_recovery",
+    "external_truth_or_semantic_entailment"
+  ],
+  "operation_id": "6a21bdd8-6e67-4a06-9484-5a8d9a8cc8ea",
+  "reviewer": "/root/semantic_continuation_reviewer",
+  "run_id": "82b8fb88197e",
+  "schema": "radik.independent.normal_session_g2e_actual_behavior_review.v01",
+  "scope": "ACTUAL_82B8FB88197E_A_COLD_B_COLD_A_CURRENT_MEMORY_C_VERIFY_ONLY",
+  "selective_delta_accepted": false,
+  "stage04_complete": false,
+  "status": "ACTUAL_CONNECTED_INFORMATIONAL_SHORT_CHAIN_ACCEPTED"
+}

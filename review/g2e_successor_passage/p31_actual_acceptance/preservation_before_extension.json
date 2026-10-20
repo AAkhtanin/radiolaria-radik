@@ -1,0 +1,37 @@
+{
+  "schema": "radik.p31.supplementary_state_preservation.v01",
+  "generated_at_utc": "2026-10-20T15:13:43.152326+00:00",
+  "scope": "Additional relevant public task/memory/quota state. Read while engineering lock held; application never executed by this review.",
+  "files": [
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+      "size_bytes": 61959
+    },
+    {
+      "path": "workspace/owner_documents/state/owned_effect_policy.json",
+      "sha256": "8c168be984a6b8ab7463a2d6ec9a004ab14be3475cc92b0180c7d81ec4a540e9",
+      "size_bytes": 141
+    },
+    {
+      "path": "workspace/owner_documents/state/checkpoint.json",
+      "sha256": "844190eec6e27e105fa700529d17b8db7f1c290b92a2f63c3a444d6a6d862b93",
+      "size_bytes": 162167
+    },
+    {
+      "path": "state/normal_grant_index.json",
+      "sha256": "988540fa1e822454eba2c0966450bcfd65609c60a27ed2f7565d26eb714c4cac",
+      "size_bytes": 2082
+    },
+    {
+      "path": "state/console_stage04_committed.json",
+      "sha256": "b7768e0e144cdca717bcd623eca18761097a3d91309a7926fd96e0c02f2e19f3",
+      "size_bytes": 326
+    },
+    {
+      "path": "state/normal_session_committed.json",
+      "sha256": "c6d85394579ac7628e28428b421e9072e6b5dc525037db46f807f37d6b51e36d",
+      "size_bytes": 529
+    }
+  ]
+}
