@@ -1,0 +1,100 @@
+{
+  "schema": "radik.stage05.required_observations.v1",
+  "state": "PROSPECTIVE_BEFORE_NEW_EXECUTION",
+  "accepted_stage04_commit": "41cff97fba85db8e8e4f691c37d5262d508a5483",
+  "publication_readme_only_successor": "6498c827571f50c0dde2d0f0a1d1e03d6ab6e968",
+  "requirements": [
+    {
+      "id": "S5-01",
+      "claim": "DEFER-S5-FEEDBACK",
+      "required_observation": "Prospective expectation is persisted before native Boolean observation; one eligible negative history event changes a subsequent typed Work consumer.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-02",
+      "claim": "DEFER-S5-FEEDBACK",
+      "required_observation": "Unscorable transport/AUTH/model outcome remains an audit only and leaves qualified history head unchanged.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-03",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "Aged history requires a current additional check; expired history refuses CURRENT use while retaining bytes and original TTL.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-04",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "A changed source revision cannot reuse the prior current binding; lineage and prior history remain.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-05",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "Conflict and quarantine refuse current consumption without deleting historical evidence.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-06",
+      "claim": "DEFER-S5-LESSON-CONSUMER",
+      "required_observation": "A scoped eligible negative event selects and consumes a different actual review; unrelated task receives no such prior or prohibition.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-07",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "required_observation": "HardMask forbids the highest-score excluded branch with zero native consumption.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-08",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "required_observation": "Public G4 allocation changes selected finite quanta at equal total installed budget and every selected output feeds an actual final Work consumer.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-09",
+      "claim": "OWNER-BOUNDARY",
+      "required_observation": "One ordinary console entry; finite role/native/wall budgets; primary failure and partial readbacks retained; exact child reaped before lock release.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    },
+    {
+      "id": "S5-10",
+      "claim": "SOURCE-BOUNDARY",
+      "required_observation": "Pin imports/callbacks/resources; compatible history readers preserve all existing ledger/task/reservation/UNKNOWN/CLOSED quota bytes.",
+      "source_status": "PENDING",
+      "offline_status": "PENDING",
+      "owner_actual_status": "NOT_RUN"
+    }
+  ],
+  "owner_route": "ordinary console experience command; no native E",
+  "not_claimed": [
+    "Stage05 acceptance",
+    "weight training",
+    "full AVF or Strong GT",
+    "universal memory",
+    "speedup from redistribution",
+    "Stage06",
+    "Stage07",
+    "Stage08",
+    "public Stage05 publication"
+  ]
+}

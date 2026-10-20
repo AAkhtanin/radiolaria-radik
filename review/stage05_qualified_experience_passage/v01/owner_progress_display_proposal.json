@@ -1,0 +1,41 @@
+{
+  "author": "/root/stage05_g3_contract",
+  "frozen_runtime_policy": "Do not apply until the ongoing ORDINARY_V01 is closed; preserve its source pins and raw observations.",
+  "independent_review_required_before_apply_or_execute": true,
+  "new_owner_run_required_for_display_only_change": false,
+  "owner_scenario_execution_authorized_by_this_proposal": false,
+  "proposed_diff": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+    "sha256": "b3e1e817666e6ff65c65d0ea01a74bd757805e49da69cd32b405bd464de07516",
+    "size_bytes": 2906
+  },
+  "proposed_source_sha256": "46cfcd06707a2fd7de015653fd16954510c52a989b55bdb790639873bdf7121d",
+  "replay_plan": [
+    "After ORDINARY_V01 closes, independently pin its child_stdout.raw, launch.json, receipt.json and exact referenced checkpoint JSON bytes. Preserve originals. Use only the closed recorded observation; do not relaunch any child or native/model workload.",
+    "Independently review the exact postimage and the focused stdlib replay harness. Pin all source and raw inputs before loading. The harness may AST-extract only the closed constants and progress_line into a fresh namespace, not import or execute the owner supervisor module, main(), application, native callbacks or transports.",
+    "Parse recorded event rows using the existing child schema, launch binding, child PID, operation start and sequence. Readback witnesses must pass exact path/size/SHA256 checks against the retained copy before readback_verified=True. Extracting lines for replay never advances a real deadline or opens a new operation.",
+    "For each recorded STATUS/STAGE05_CHECKPOINT, assert one exact closed-step display line after readback verification and assert the evidence SHA256 matches the retained bytes. For every recorded PHASE_ENTER/EXIT assert entered/exited, closed phase label, known span label where applicable, explicit execution-event wording and finite cumulative clock values.",
+    "Use separately labelled replay mutations only: unverified/missing readback, unknown checkpoint name, unknown span name, HEARTBEAT, arbitrary text fields and sentinel metadata. Assert no checkpoint for unverified/unknown steps, no sentinel disclosure, no HEARTBEAT progress line and no unknown span echo. Do not rewrite retained actual event bytes.",
+    "Statically verify the helper is called after existing validation and first-failure gating, and the patch does not alter timing/deadline/heartbeat/acceptance/cleanup/child dispatch code. Preserve timing source SHA256. This is a display-only replay control, not a new ordinary/native owner witness.",
+    "Persist the replay output and exact checked input/source hashes in a new exclusive result directory, plus independent review. Report covered actual rows and any unobserved phase/checkpoint branch separately; fixture coverage cannot substitute for an actual checkpoint."
+  ],
+  "schema": "radik.stage05.owner_progress_display_proposal.v01",
+  "scope": [
+    "One pure formatting helper with three closed literal sets.",
+    "One display hook after existing child, binding, sequence, event, readback, deadline and first-failure processing."
+  ],
+  "semantics_preserved": [
+    "No new imports or I/O beyond existing show().",
+    "No child argv, stdin, process, native, model, permission or acceptance changes.",
+    "No deadline.event(), semantic credit, heartbeat, status interval, receipt, retry or cleanup changes.",
+    "Unknown step names are not displayed; unknown span names are omitted. Raw evidence bodies and arbitrary event metadata are never displayed.",
+    "Checkpoint text claims only a verified saved readback. Phase enter/exit claims only an execution event. Neither implies Stage05 acceptance.",
+    "Times are cumulative: event-observed child wall/CPU, parent-monotonic native union and remaining operation time. No per-phase speedup claim."
+  ],
+  "source_reference": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+    "sha256": "6d40f985b8ef8403ba2a44525c6a2078073bdb91721b44830efe81d50da12881",
+    "size_bytes": 57407
+  },
+  "status": "SOURCE_PROPOSAL_ONLY_NOT_APPLIED_NOT_EXECUTED"
+}

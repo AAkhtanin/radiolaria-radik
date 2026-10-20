@@ -1,0 +1,163 @@
+{
+  "actual_id": "FAILURE_CAPTURE_V02",
+  "application_native_model_execution_allowed": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "exact_invocation": [
+    ".venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+    "--grant",
+    "review/stage05_qualified_experience_passage/v01/failure_capture_control_grant_v02.json",
+    "--sha256",
+    "<SHA256_OF_THIS_GRANT>"
+  ],
+  "limitations": [
+    "No recovery of original V02 sanitized text.",
+    "No fresh native/API semantic execution or actual qualified-experience success.",
+    "No persistent report byte validation is simulated as actual readback.",
+    "Synthetic filenames/pins test classifier behavior and do not attest loaded application/native code.",
+    "Historical stream event parsing/validation; its no-stream dependency is a strict None-only control adapter."
+  ],
+  "max_seconds": 30,
+  "production_guard_refs": [
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+      "size_bytes": 259
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+      "size_bytes": 6437
+    },
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+      "size_bytes": 110730
+    },
+    {
+      "path": "state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "state/owned_effect_policy.json",
+      "sha256": "de195a2d722aabbc8a8de1f7b30c0acf1e448783f897e85490b149e197b6f3e6",
+      "size_bytes": 221
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+      "sha256": "4b9691c6452ca2adf1a401185e5eb887ffaee213ff512b5db993dfc2b1acefd1",
+      "size_bytes": 1264
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+      "sha256": "52b9546e65f4716ed1d46e6861c0dd49f8a3e5f7f6306021ad6db9067e2cbdfa",
+      "size_bytes": 1252
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+      "sha256": "af36a28303743d347db2c08977bc39bf14cc937b6d20ed0ef884f844aebc0768",
+      "size_bytes": 1312
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/e4267980357428df66b73e176c203abd12d051412981baa2a5ad95d087da44bd.json",
+      "sha256": "bccb691e6783036f0ed38742245057293a6558f26eaf66d537b5f680e7c1bf1a",
+      "size_bytes": 1253
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+      "size_bytes": 61959
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/ordinary_profile_manifest.json",
+      "sha256": "bf07aa8775212023add413635c4ed0554f8b4983b3540b7c0ad4783843f03dd9",
+      "size_bytes": 74128
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+      "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+      "size_bytes": 132494
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_source_review.json",
+      "sha256": "eb10d8c8e057d8a4210b84f0d4c4f57ed6054a19081630556fd04c5a3a20baf0",
+      "size_bytes": 10006
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/profile_source_admission.json",
+      "sha256": "a96db949cccc5ca6e36588b869fdeb47aa6c4283ad1f74c0b8d7b951a5c7bef5",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+      "sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+      "size_bytes": 16725
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+      "sha256": "b0801b24dab8d7ffe072d701043d95f671cb1ac7e0bceb8f2844ca60c269fa49",
+      "size_bytes": 14268
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "sha256": "4c55f3d77732a536f7106506c3803095df3194a21a05649b7ccb17fce3d0632d",
+      "size_bytes": 47666
+    }
+  ],
+  "production_writes_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_proposal.json",
+    "sha256": "bb80b4b9702e5a146c1eeccd0154d3853e49dc5c5179eb13f0031040f2ba5335",
+    "size_bytes": 7745
+  },
+  "reviewed_at_utc": "2026-10-20T22:45:52.586147+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+    "sha256": "e015109f3fb6012c030d9b8559bc8b53aeb90d8d48783ce7baa01804c6824f20",
+    "size_bytes": 26649
+  },
+  "schema": "radik.stage05.failure_capture_control_grant.v01",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_control_source_review_v02.json",
+    "sha256": "a97a9544eaf328c305caef631e60db2357ae4ac59aa5d15751d63c21a21b36f2",
+    "size_bytes": 4481
+  },
+  "status": "SOURCE_ACCEPTED_FOR_PINNED_AST_CONTROLS",
+  "supersedes_unconsumed_grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_control_grant_v01.json",
+    "sha256": "6f6137f539e242f4ed74e502ce2527a63e43f757f772a4be1206f51fafc9c1b9",
+    "size_bytes": 6086
+  },
+  "supersession_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_control_grant_v01_supersession.json",
+    "sha256": "dbc622d0e449f0d71e4e6fa56cc8af46348f275a93073df1c8ffa68e2b1c1182",
+    "size_bytes": 698
+  }
+}

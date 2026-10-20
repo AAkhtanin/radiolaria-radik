@@ -1,0 +1,50 @@
+{
+  "AUTH_calls": 0,
+  "SAVE_calls": 0,
+  "Stage05_acceptance_inferred": false,
+  "application_calls": 0,
+  "application_execution_allowed": false,
+  "approved_execution_count": 0,
+  "candidate_imports": 0,
+  "execution_authorized_by_this_record": false,
+  "native_calls": 0,
+  "owner_execution_authorized": false,
+  "pending_requirements": [
+    "Exact immutable final manifest/source review references.",
+    "Independent verification of complete copy_refs and production_guard_refs, selected single case root and seal.",
+    "One-use exact runner/argv/source/copy grant before imports; this record is not that grant."
+  ],
+  "prior_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner_source_review.json",
+    "sha256": "bbed6410aad9a7c20d45cbfa05b0ce31671c864cd07e5453af34645834d1f9ec",
+    "size_bytes": 2467
+  },
+  "provider_calls": 0,
+  "reviewed_at": "2026-10-20T22:00:10.976318+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "reviewer_modified_source": false,
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+    "sha256": "982e2995c37fc4197c33e4bd5eb0a405e060a06f2d98583674c66b2cece39713",
+    "size_bytes": 14188
+  },
+  "schema": "radik.stage05.rehearsal_runner_source_review.v02",
+  "source_findings": [
+    "Changed predecessor runner permits one ordinary copied case, experience followed by exit, and no historical Stage04 campaign or full E.",
+    "Grant and runner raw bytes are checked before any candidate import. The copied supervisor/timing sources are separately pinned.",
+    "All copies require exclusive new directories, finite unique source reference inventory, bounded bytes, symlink refusals and exact readback.",
+    "Parent audit hook denies sockets and unowned subprocesses, permits only the exact isolated console launch in registered copy roots, and confines writes to the new rehearsal directory.",
+    "Typed copied rehearsal context is required before installer activation or child fixture use. External AUTH/provider/native E/SAVE remain forbidden.",
+    "Engineering timer is 900 seconds and is passed as the supervisor interrupt condition; selected operation timing is 3000 seconds without resetting inherited clock.",
+    "Repaired outer finally issues no further signal/wait sequence after supervisor cleanup. It records reaped state and calls the reviewed release_owned_lock helper; an unreaped child retains inherited flock.",
+    "Failure paths preserve sanitized first failure, copied case result and final raw result; no automatic retry occurs.",
+    "Only MAX_SECONDS changes from 600 to 900 following the preserved measured V01 stop; all fence, copy, signal, lock and failure behavior remains byte-identical."
+  ],
+  "source_only": true,
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_COPY_SEAL_AND_ONE_USE_GRANT",
+  "targeted_delta_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+    "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+    "size_bytes": 8465
+  }
+}

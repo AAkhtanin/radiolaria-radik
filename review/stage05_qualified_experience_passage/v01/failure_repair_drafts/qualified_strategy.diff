@@ -1,0 +1,179 @@
+--- frozen885ef/qualified_strategy.py
++++ proposal/qualified_strategy.py
+@@ -5,6 +5,7 @@
+ The native Host accounts for one source gate, seven checks and one consumer.
+ No provider, action packet, model training, external truth or speedup is implied.
+ """
++from contextlib import contextmanager
+ from dataclasses import replace
+ import json
+ import time
+@@ -38,6 +39,23 @@
+ SOURCE_OPERATION = 'radik.qualified.source_gate.v01'
+ CHECK_OPERATION = 'radik.qualified.check.v01'
+ FINAL_OPERATION = 'radik.qualified.consume.v01'
++
++NATIVE_STAGES = (
++    'G4_BOOTSTRAP_ADVANCE', 'G4_BOOTSTRAP_ARTIFACT', 'G4_HISTORY',
++    'G4_ALLOCATION', 'G4_TASK_ROOT', 'G4_REVISION', 'G4_PRE_DISPATCH_PERSISTENCE',
++    'G4_ALLOCATED_ADVANCE', 'G4_ALLOCATED_ARTIFACT', 'G4_FINAL_CHECKS', 'G4_CUSTODY',
++)
++
++
++@contextmanager
++def _native_stage(stage):
++    """Attach the first bounded native boundary without replacing the error."""
++    try:
++        yield
++    except BaseException as error:
++        if getattr(error, '_radik_stage05_native_stage', None) not in NATIVE_STAGES:
++            error._radik_stage05_native_stage = stage
++        raise
+ 
+ 
+ def _lid(kind, value):
+@@ -416,71 +434,83 @@
+     def context():
+         return work.work_continuation_context_v01(host, task_id=task_id, expected_revision=host.state_revision)
+ 
+-    def advance(value):
+-        outcome = work.advance_work_program_v01(value, **common, host_map={controller.root_id: host}, continuation_context=context())
+-        require(work.validate_work_continuation_outcome_v01(outcome, context=context(), **common) == (True, ())
+-                and outcome.status == 'COMPLETED' and all(row.status == 'COMPLETED' for row in outcome.results),
+-                'qualified_native_work_return')
+-        artifact = work.work_program_result_to_artifact_v01(value, outcome.results, **common,
+-            host_map={controller.root_id: host}, continuation_context=context())
++    def advance(value, *, bootstrap=False):
++        with _native_stage('G4_BOOTSTRAP_ADVANCE' if bootstrap else 'G4_ALLOCATED_ADVANCE'):
++            outcome = work.advance_work_program_v01(value, **common, host_map={controller.root_id: host}, continuation_context=context())
++            require(work.validate_work_continuation_outcome_v01(outcome, context=context(), **common) == (True, ())
++                    and outcome.status == 'COMPLETED' and all(row.status == 'COMPLETED' for row in outcome.results),
++                    'qualified_native_work_return')
++        with _native_stage('G4_BOOTSTRAP_ARTIFACT' if bootstrap else 'G4_ALLOCATED_ARTIFACT'):
++            artifact = work.work_program_result_to_artifact_v01(value, outcome.results, **common,
++                host_map={controller.root_id: host}, continuation_context=context())
+         return outcome, artifact
+ 
+     controller.emit('QUALIFIED_ALLOCATION_START', label=label, total_native_units=TOTAL_UNITS)
+-    bootstrap, bootstrap_artifact = advance(program)
+-    snapshot = work.inspect_work_task_v01(host, task_id=task_id)
+-    require(_history(controller, experience_binding) == history, 'qualified_current_history_changed')
+-    basis = dict(profile=PROFILE, source=source, history=history, policy=authority.plain(policy),
+-        usage=authority.plain(snapshot), envelope=abi.kernel_artifact_to_plain_dict_v01(semantic)['time_envelope'],
+-        source_context=dict(bsep_packet=dict(packet_id=source_context.bsep_packet['packet_id']),
+-            original_sha256=digest(authority.plain(source_context)),
+-            parent_original_sha256=digest(authority.plain(controller.family.source_context))), owner_root=controller.root_id,
+-        custody_root=history['custody_root_id'], task_id=task_id, transaction_id=semantic.transaction_id,
+-        evaluation_time=host.current_sources.evaluation_time, definitions=definitions)
+-    budget, allocation = _allocation(basis)
+-    selected = _selected(allocation)
+-    material = dict(basis=basis, budget=budget, allocation=allocation)
+-    review_material = dict(profile=PROFILE, material_sha256=digest(material), selected=selected,
+-                           source_scope_sha256=history['source_scope_sha256'])
+-    review = authority.root_review('radik:qualified_choice:' + digest(review_material), review_material,
+-        dict(original_cap=budget['total'] == policy.max_compute_units, fixed_cost=len(selected) + 2 == TOTAL_UNITS,
+-            current_source=source == _source_material(controller), no_effect_policy=controller.current_policy()['save_allowed'] is False),
+-        controller.now(), transaction_id=semantic.transaction_id, owning_root_id=controller.root_id, task_id=task_id)
+-    require(review[2].decision == 'ACCEPT', 'qualified_allocation_root_refused')
+-    items = []
+-    for branch, ordinal in selected:
+-        items.append(work.WorkItemV01(branch + '_' + str(ordinal), definitions['check'], controller.root_id,
+-            (_literal('material', dict(source=source, branch=branch, ordinal=ordinal)),), (), (), None, None))
+-    trigger = work.build_work_revision_trigger_v01(context(), work_id='source_gate', output_field='material')
+-    inputs = [_literal('material', basis), _literal('allocation_proof', dict(budget=budget, allocation=allocation)),
+-              work.WorkInputBindingV01('previous', trigger.output)]
+-    inputs.extend(work.WorkInputBindingV01('q' + str(index), work.WorkOutputBindingV01(item.work_id, 'material', 'TEXT'))
+-                  for index, item in enumerate(items))
+-    items.append(work.WorkItemV01('final_consumer', definitions['consumer'], controller.root_id,
+-        tuple(inputs), (), tuple(item.work_id for item in items), None, None))
+-    revised = work.revise_work_program_v01(context(), previous_revision_id=program.candidate.revision_id,
+-        trigger=trigger, items=tuple(items), budget=work.WorkBudgetV01(16, 0, 0, TOTAL_UNITS - snapshot.usage.compute_units, 1), **common)
+-    controller._persist('qualified_allocation_pre_dispatch', dict(basis=basis, budget=budget, allocation=allocation,
+-        decision=authority.root_plain(review), program=revised, bootstrap=bootstrap_artifact))
++    bootstrap, bootstrap_artifact = advance(program, bootstrap=True)
++    with _native_stage('G4_HISTORY'):
++        snapshot = work.inspect_work_task_v01(host, task_id=task_id)
++        require(_history(controller, experience_binding) == history, 'qualified_current_history_changed')
++        basis = dict(profile=PROFILE, source=source, history=history, policy=authority.plain(policy),
++            usage=authority.plain(snapshot), envelope=abi.kernel_artifact_to_plain_dict_v01(semantic)['time_envelope'],
++            source_context=dict(bsep_packet=dict(packet_id=source_context.bsep_packet['packet_id']),
++                original_sha256=digest(authority.plain(source_context)),
++                parent_original_sha256=digest(authority.plain(controller.family.source_context))), owner_root=controller.root_id,
++            custody_root=history['custody_root_id'], task_id=task_id, transaction_id=semantic.transaction_id,
++            evaluation_time=host.current_sources.evaluation_time, definitions=definitions)
++    with _native_stage('G4_ALLOCATION'):
++        budget, allocation = _allocation(basis)
++        selected = _selected(allocation)
++        material = dict(basis=basis, budget=budget, allocation=allocation)
++    with _native_stage('G4_TASK_ROOT'):
++        review_material = dict(profile=PROFILE, material_sha256=digest(material), selected=selected,
++                               source_scope_sha256=history['source_scope_sha256'])
++        review = authority.root_review('radik:qualified_choice:' + digest(review_material), review_material,
++            dict(original_cap=budget['total'] == policy.max_compute_units, fixed_cost=len(selected) + 2 == TOTAL_UNITS,
++                current_source=source == _source_material(controller), no_effect_policy=controller.current_policy()['save_allowed'] is False),
++            controller.now(), transaction_id=semantic.transaction_id, owning_root_id=controller.root_id, task_id=task_id)
++        require(review[2].decision == 'ACCEPT', 'qualified_allocation_root_refused')
++    with _native_stage('G4_REVISION'):
++        items = []
++        for branch, ordinal in selected:
++            items.append(work.WorkItemV01(branch + '_' + str(ordinal), definitions['check'], controller.root_id,
++                (_literal('material', dict(source=source, branch=branch, ordinal=ordinal)),), (), (), None, None))
++        trigger = work.build_work_revision_trigger_v01(context(), work_id='source_gate', output_field='material')
++        inputs = [_literal('material', basis), _literal('allocation_proof', dict(budget=budget, allocation=allocation)),
++                  work.WorkInputBindingV01('previous', trigger.output)]
++        inputs.extend(work.WorkInputBindingV01('q' + str(index), work.WorkOutputBindingV01(item.work_id, 'material', 'TEXT'))
++                      for index, item in enumerate(items))
++        items.append(work.WorkItemV01('final_consumer', definitions['consumer'], controller.root_id,
++            tuple(inputs), (), tuple(item.work_id for item in items), None, None))
++        revision = work.revise_work_program_v01(context(), previous_revision_id=program.candidate.revision_id,
++            trigger=trigger, items=tuple(items), budget=work.WorkBudgetV01(16, 0, 0, TOTAL_UNITS - snapshot.usage.compute_units, 1), **common)
++        require(type(revision) is work.WorkContinuationOutcomeV01 and revision.status == 'ACTIVE',
++                'qualified_native_revision_not_active')
++        revised = revision.program
++    with _native_stage('G4_PRE_DISPATCH_PERSISTENCE'):
++        controller._persist('qualified_allocation_pre_dispatch', dict(basis=basis, budget=budget, allocation=allocation,
++            decision=authority.root_plain(review), program=revised, bootstrap=bootstrap_artifact))
+     outcome, artifact = advance(revised)
+-    final = next(row for row in outcome.results if row.work_id == 'final_consumer')
+-    output = json.loads(authority.values(final.result.output)['material'])
+-    require(output['consumed_units'] == DISCRETIONARY_UNITS, 'qualified_consumed_units')
+-    actual = work.inspect_work_task_v01(host, task_id=task_id)
+-    require(actual.usage.compute_units == TOTAL_UNITS and host.registry.action_packet_lifecycle_entries == ()
+-        and all(row.invocation.packet_id is None and row.invocation.candidate_id is None
+-                for row in outcome.results), 'qualified_native_accounting')
+-    require(source == _source_material(controller) and _history(controller, experience_binding) == history,
+-            'qualified_final_current_basis')
+-    final_material = dict(output=output, artifact=authority.plain(artifact), usage=authority.plain(actual),
+-                          original_basis_sha256=digest(basis))
+-    custody = authority.root_review('radik:qualified_custody:' + digest(final_material), final_material,
+-        dict(raw_source_hashes=all(digest(row['text'].encode('utf-8')) == row['sha256'] for row in controller.current()),
+-            source_scope_current=history['source_scope_sha256'] == _source_gate(source)['source_scope_sha256'],
+-            current_history=_history(controller, experience_binding) == history,
+-            no_external_sources=all(row['branch'] in BRANCHES for row in output['consumed_checks'])),
+-        controller.now(), transaction_id=semantic.transaction_id, owning_root_id=history['custody_root_id'], task_id=task_id)
+-    require(custody[2].decision == 'ACCEPT' and custody[1].target_root_id != review[1].target_root_id,
+-            'qualified_independent_custody_refused')
++    with _native_stage('G4_FINAL_CHECKS'):
++        final = next(row for row in outcome.results if row.work_id == 'final_consumer')
++        output = json.loads(authority.values(final.result.output)['material'])
++        require(output['consumed_units'] == DISCRETIONARY_UNITS, 'qualified_consumed_units')
++        actual = work.inspect_work_task_v01(host, task_id=task_id)
++        require(actual.usage.compute_units == TOTAL_UNITS and host.registry.action_packet_lifecycle_entries == ()
++            and all(row.invocation.packet_id is None and row.invocation.candidate_id is None
++                    for row in outcome.results), 'qualified_native_accounting')
++        require(source == _source_material(controller) and _history(controller, experience_binding) == history,
++                'qualified_final_current_basis')
++        final_material = dict(output=output, artifact=authority.plain(artifact), usage=authority.plain(actual),
++                              original_basis_sha256=digest(basis))
++    with _native_stage('G4_CUSTODY'):
++        custody = authority.root_review('radik:qualified_custody:' + digest(final_material), final_material,
++            dict(raw_source_hashes=all(digest(row['text'].encode('utf-8')) == row['sha256'] for row in controller.current()),
++                source_scope_current=history['source_scope_sha256'] == _source_gate(source)['source_scope_sha256'],
++                current_history=_history(controller, experience_binding) == history,
++                no_external_sources=all(row['branch'] in BRANCHES for row in output['consumed_checks'])),
++            controller.now(), transaction_id=semantic.transaction_id, owning_root_id=history['custody_root_id'], task_id=task_id)
++        require(custody[2].decision == 'ACCEPT' and custody[1].target_root_id != review[1].target_root_id,
++                'qualified_independent_custody_refused')
+     receipt = dict(profile=PROFILE, label=label, task_id=task_id, source_task_id=controller.spec.task_id,
+         budget_total=TOTAL_UNITS, consumed_units=actual.usage.compute_units, allocation=allocation,
+         actual_checks=output['consumed_checks'], final_consumer=output, history=history,

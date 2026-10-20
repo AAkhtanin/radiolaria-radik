@@ -1,0 +1,53 @@
+{
+  "application_execution_granted_by_this_record": false,
+  "author": "/root/stage05_g3_contract",
+  "candidate_imports": 0,
+  "changed_sources": [
+    {
+      "before_sha256": "babcb022599fcbb1743a9db003008867fe1e14b632782963bfe3f68ab75a8654",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "proposed_after_sha256": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8"
+    },
+    {
+      "before_sha256": "80ce5f936b123467628e159753e090d8abef1375a35dfee1341e5d0b2f1708e3",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "proposed_after_sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d"
+    },
+    {
+      "before_sha256": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "proposed_after_sha256": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f"
+    }
+  ],
+  "exact_patch_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_visibility_proposed.diff",
+    "sha256": "6eee1c98bb5a47ad72e5116d7c3cb021ba8044a9c137cffaa3fba7154924dabe",
+    "size_bytes": 14931
+  },
+  "findings": [
+    "Exact applied three-file diff matches the finite proposal and retained preimages. Only fixed diagnostic code members, one finite step, first-failure location binding, and one dynamic repr-to-literal replacement changed.",
+    "All 384 native code origins were independently checked against exact pinned six-source bytes; the sole owned addition is experience_native_causal_proof.",
+    "Exact membership projection remains unchanged. Unknown codes, dynamic payloads, tuple representations, arbitrary attributes and exception text remain sanitized.",
+    "The scenario binds TASK_EXECUTION/STAGE05_EXPERIENCE before projection and rethrows the same exception. Outer INTERACTIVE_TASK observation preserves the first finite location.",
+    "No native contracts, reference bytes, allowed effects, budgets, model boundary or installation state changed."
+  ],
+  "g4_literal_count": 48,
+  "literal_addition_count": 385,
+  "native_origin_source_count": 6,
+  "owner_execution_allowed": false,
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/preservation.json",
+    "sha256": "393c8ba5f0adbc7a214547f560f9048975378a64d87e1f1551d1eef303efc3a3",
+    "size_bytes": 3408
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_code_additions.json",
+    "sha256": "82d26a1e75429ec52a308977993d7c9693bcdc23185f4cea498ded4e3cae8830",
+    "size_bytes": 100025
+  },
+  "required_actual_control": "Pinned closed diagnostics projection controls and one separately granted isolated ordinary wiring run.",
+  "reviewed_at_utc": "2026-10-20T21:41:36.494424+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.closed_diagnostic_independent_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_PINNED_DIAGNOSTIC_AND_ISOLATED_WIRING_CONTROLS"
+}

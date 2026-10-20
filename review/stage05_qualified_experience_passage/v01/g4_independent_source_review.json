@@ -1,0 +1,62 @@
+{
+  "application_executed": false,
+  "author": "stage05_g4_contract",
+  "candidate_files": [
+    {
+      "bytes": 33644,
+      "path": "after/app/qualified_strategy.py",
+      "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad"
+    },
+    {
+      "bytes": 4716,
+      "path": "after/tests/test_qualified_strategy.py",
+      "sha256": "c79c289b3f5954b52cd48dbe8fdd486f3c9af8fd49e8fdbc235eabc1c60ed502"
+    }
+  ],
+  "examined_boundaries": [
+    "Uses sealed live G3 history binding and independently revalidates it before each native dispatch.",
+    "Public G4 integer pressure/allocation and supplied-report validators compute the seven allocated quanta.",
+    "Original enrolled native budget is nine: one source gate, seven checks, one final consumer; actual Host usage is checked.",
+    "Masked high-score external branch is excluded before allocation; no alternate authority path exists.",
+    "All seven selected outputs flow through explicit WorkOutputBindingV01 records into the final pure consumer.",
+    "Current source bytes, exact claim spans and selected quantum outputs are independently recomputed.",
+    "Task Root and source-custody Root are distinct and perform separately scoped actual public Root reviews.",
+    "Auxiliary request has a public rebuilt BSEP and current evaluation time/context; inherited family TTL is capped, never extended.",
+    "PURE invocations retain candidate_id=None and packet_id=None; budgets permit zero provider/effect calls.",
+    "No candidate import-time I/O, subprocess, dynamic import or provider/network call was found."
+  ],
+  "native_additions": [
+    {
+      "path": "hedgehog/gate4_reference_contracts_v01.py",
+      "sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42"
+    },
+    {
+      "path": "hedgehog/gate4_pressure_budget_v01.py",
+      "sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27"
+    }
+  ],
+  "native_resources": "No external schema/fixture resource is used by the selected G4 pressure/allocation path; schemas are embedded.",
+  "required_short_checks": [
+    "Run focused pure allocation/mutation tests with the accepted source inventory.",
+    "Run one source-reviewed isolated native chain with actual G3 negative feedback, cold and qualified allocation, typed descent and exact Host accounting.",
+    "Record measurements and verify finite finalization; do not interpret controls as a long owner actual."
+  ],
+  "resolved_findings": [
+    {
+      "id": "S5-G4-SOURCE-01",
+      "problem": "Auxiliary Work request must match business request and current clocks.",
+      "resolution": "The final source rebuilds request via public packet builders and supplies fresh g2a evaluation time/context."
+    }
+  ],
+  "retained_limitations": [
+    "Finite source-bound work redistribution, not speedup, model training, game equilibrium or full Gate4 closure.",
+    "Native runtime conformance and long owner acceptance are not established by this static review."
+  ],
+  "reviewer": "stage05_g3_contract",
+  "schema": "radik.stage05.independent_source_review.v01",
+  "scope": "Static source and public API wiring only; not owner actual acceptance.",
+  "source_imports_executed": false,
+  "status": "SOURCE_ALLOWED_FOR_ISOLATED_SHORT_CHECKS",
+  "tests_executed": false,
+  "unresolved_source_blockers": []
+}

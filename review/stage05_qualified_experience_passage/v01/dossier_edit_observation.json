@@ -1,0 +1,43 @@
+{
+  "schema": "radik.stage05.dossier_edit_observation.v01",
+  "scope": "LOCAL_DOCUMENTATION_ONLY",
+  "application_imports_or_execution": false,
+  "git_or_publication": false,
+  "changed_json_nodes": [
+    "/deferred/4/status",
+    "/deferred/4/stage05_progress",
+    "/deferred/5/stage05_progress",
+    "/deferred/6/status",
+    "/deferred/6/stage05_progress",
+    "/deferred/7/status",
+    "/deferred/7/stage05_progress",
+    "/reference_navigation/radik_stages/4/status",
+    "/reference_navigation/radik_stages/4/scope",
+    "/reference_navigation/radik_stages/4/stage05_evidence_refs",
+    "/evidence/94..98",
+    "/stage05_preparation"
+  ],
+  "historical_claims_unchanged": true,
+  "deferred_rows_preserved": 21,
+  "other_deferred_rows_unchanged": 17,
+  "files": {
+    "claims_evidence.json": {
+      "before_sha256": "5cd11dc66c2a566d33e872745f289459e9b24e85c3d137821b88f92e0accaf28",
+      "after_sha256": "cc74905b63f0eec06f2b59fdd5fe0bdb3cb1d3545e0d056ab9ffb374cb685cb4",
+      "after_bytes": 403201
+    },
+    "README.md": {
+      "before_sha256": "cc154a2ccf600fcae42066da073af2043a199d59e70062c9939828a199b659f4",
+      "after_sha256": "f3bce65396feb9c32112d7fdf5859e5d6eea3baeafb88c451022741bcee297cc",
+      "after_bytes": 18564
+    },
+    "READ_RADIK_STAGE04.xml": {
+      "before_sha256": "db26c693404dc4b69afa05f62a8d495cbbae5ffd260bc97d053cab5cc644dc14",
+      "after_sha256": "3d75805f6df7417ee11a29849bd9b7a8440535310138d9a42c727eb9287a88b8",
+      "after_bytes": 27765
+    }
+  },
+  "author_diff_review": "COMPLETE",
+  "new_evidence_paths_and_bytes": "VERIFIED_ALL_FIVE",
+  "xml_parse_and_obligation_count": "PASS_21"
+}

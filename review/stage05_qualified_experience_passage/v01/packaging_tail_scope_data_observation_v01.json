@@ -1,0 +1,47 @@
+{
+  "bytes": 3992130,
+  "checked_subject_pointers": [
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/contract/claims/audit/subject"
+    },
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/contract/claims/expired_high_score/subject"
+    },
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/contract/claims/verify/subject"
+    },
+    {
+      "kind": "G34_CURRENT_ROOT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject"
+    },
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/object_or_value/subject"
+    },
+    {
+      "kind": "G34_CURRENT_ROOT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/1/subject"
+    },
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/1/object_or_value/subject"
+    }
+  ],
+  "files": 50,
+  "legacy_subjects": 12,
+  "new_exact_subject_exceptions": 7,
+  "normalized_current_claims": 2,
+  "other_secret_key_hits": 0,
+  "tail_exists": true,
+  "typed_current_claims": 5
+}

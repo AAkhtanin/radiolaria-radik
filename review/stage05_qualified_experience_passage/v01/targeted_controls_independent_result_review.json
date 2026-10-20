@@ -1,0 +1,83 @@
+{
+  "application_module_imports": 0,
+  "checks": {
+    "actual_checkpoint_steps": [
+      "prospective_scenario"
+    ],
+    "all_source_input_and_production_guards_unchanged": true,
+    "default_continuation_and_stage05_opt_out_source_verified": true,
+    "new_literal_codes": 3,
+    "recorded_event_rows": 30,
+    "recorded_formatted_lines": 21,
+    "synthetic_checkpoint_cases": 8,
+    "synthetic_phase_cases": 16,
+    "synthetic_timing_cases": 10,
+    "unknown_suffix_sanitized": true
+  },
+  "elapsed_wall_seconds": 0.055428167805075645,
+  "final_runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+    "sha256": "03428b43f88f03ca303ae9c2b318348a2ecf204d40f451a38b30124c285b0977",
+    "size_bytes": 129838
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_control_grant_v01.json",
+    "sha256": "df56f6cae528d2935d0f10142b3225eb89236a95c2242428583b486dada1eae1",
+    "size_bytes": 6116
+  },
+  "limitations": [
+    "Seven missing Stage05 checkpoint branches and Stage05 phase formats are synthetic controls; no missing native witness is supplied by this replay.",
+    "Timing fixtures verify only helper selection/refusal; a new isolated ordinary run is required for full runtime wiring.",
+    "The recorded V01 2400-second remaining clock is replayed exactly; it is not represented as a new 3000-second actual."
+  ],
+  "model_calls": 0,
+  "native_work_calls": 0,
+  "owner_execution_allowed": false,
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/reservation.json",
+    "sha256": "c08b38192b9b5eff44efc0ff56a7b8d8cd8e31e49b395032b53cd9e9ef712f7b",
+    "size_bytes": 136
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+    "sha256": "bee2a17e5ee5d7e31c375a363ec1109b301bd86751626b3454c866a167197f25",
+    "size_bytes": 12394
+  },
+  "reviewed_at_utc": "2026-10-20T22:05:00.707781+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.targeted_controls_independent_result_review.v01",
+  "semantic_acceptance": false,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+      "size_bytes": 59463
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_entry.py",
+      "sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+      "size_bytes": 24648
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+      "size_bytes": 46927
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+      "size_bytes": 9310
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+      "size_bytes": 117905
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_source_review.json",
+    "sha256": "0da7da9e2a9817c2c55f1c825c90a6c8698147d87b584e32c149d4c247891a3d",
+    "size_bytes": 5397
+  },
+  "status": "PASS_TARGETED_AST_AND_RECORDED_DISPLAY_CONTROLS_ONLY"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "radik.stage05.supervisor_controls_independent_review.v01",
+  "reviewer": "/root/private_remote_controls",
+  "checked_at": "2026-10-20T21:20:35.364981+00:00",
+  "status": "ACCEPTED_SHORT_SUPERVISOR_CONTROLS",
+  "source_review_sha256": "5ba28e69bc95bd3de4735ba5fc6a2a1c97f6e3a4a8928344ce72daeed38b9dd4",
+  "result_path": "controls_actual/CLEANUP_V01/result.json",
+  "result_sha256": "bb197202963ad2dc97b09cb428320648111873dd44cc50b53177ec98b0a7c423",
+  "exact_granted_sources_still_match": true,
+  "control_count": 4,
+  "control_names": [
+    "saved_stop_instant_across_paths",
+    "expired_cleanup_does_not_restart",
+    "exact_child_signal_once_reap_then_unlock",
+    "primary_cause_survives_cleanup_failure"
+  ],
+  "elapsed_seconds": 0.2228925,
+  "observed_child_exit_code": -9,
+  "observed_child_reaped": true,
+  "signals_once": [
+    "INTERRUPT",
+    "TERMINATE",
+    "KILL"
+  ],
+  "saved_cleanup_instant_preserved": true,
+  "expired_cleanup_not_renewed": true,
+  "inherited_lock_control_basis": "Reviewed pinned runner returns PASS only after closing parent descriptor without unlock, observing blocked fresh contender, reaping exact child, and reacquiring the lock. The saved result is independently checked; reviewer did not rerun the child.",
+  "primary_cause_retained": true,
+  "application_execution_allowed": false,
+  "owner_execution_authorized": false,
+  "Stage05_acceptance_inferred": false,
+  "reviewer_executed_candidate": false,
+  "provider_calls": 0,
+  "native_calls": 0,
+  "AUTH_calls": 0,
+  "SAVE_calls": 0
+}

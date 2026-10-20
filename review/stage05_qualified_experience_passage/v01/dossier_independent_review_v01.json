@@ -1,0 +1,132 @@
+{
+  "application_imports_or_execution": false,
+  "author_observation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/dossier_edit_observation.json",
+    "sha256": "2c23025d0eb3a9f67f03a04fe292a76d64889b0d9ef5f3f839fc59ad98e3dd1c"
+  },
+  "checks": {
+    "all_row_ids_retained": true,
+    "changed_row_indices": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "deferred_rows_after": 21,
+    "deferred_rows_before": 21,
+    "historical_claims_unchanged": true,
+    "historical_evidence_prefix_unchanged": true,
+    "new_evidence_refs_verified": [
+      {
+        "id": "E-S5-G3-SOURCE",
+        "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+        "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+        "size_bytes": 6600
+      },
+      {
+        "id": "E-S5-G4-SOURCE",
+        "path": "review/stage05_qualified_experience_passage/v01/g4_independent_source_review.json",
+        "sha256": "186ce73d69c58f42f3ab368706ec66ad02fd3cdb401b9914a17e509b1a3dbe29",
+        "size_bytes": 3344
+      },
+      {
+        "id": "E-S5-UNIT-SOURCE",
+        "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/source_admission.json",
+        "sha256": "1e18c2739e94ca2af66f3641450cf5b66c8b974154905b8588dea4dfab4ed48b",
+        "size_bytes": 1354
+      },
+      {
+        "id": "E-S5-UNIT",
+        "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+        "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+        "size_bytes": 9875
+      },
+      {
+        "id": "E-S5-UNIT-REVIEW",
+        "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+        "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+        "size_bytes": 1155
+      }
+    ],
+    "new_text_english": true,
+    "original_requirements_dependencies_closure_criteria_preserved": true,
+    "unchanged_rows": 17,
+    "unrelated_json_nodes_unchanged": true,
+    "xml_obligation_count": 21,
+    "xml_well_formed": true
+  },
+  "findings": [],
+  "limitations": [
+    "No application or native source was imported or executed.",
+    "This review grants no owner execution, publication or Stage05 semantic acceptance."
+  ],
+  "owner_actual_accepted": false,
+  "pending_source_binding_note": {
+    "changed_sources": [
+      {
+        "before_sha256": "babcb022599fcbb1743a9db003008867fe1e14b632782963bfe3f68ab75a8654",
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+        "proposed_after_sha256": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8"
+      },
+      {
+        "before_sha256": "80ce5f936b123467628e159753e090d8abef1375a35dfee1341e5d0b2f1708e3",
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+        "proposed_after_sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d"
+      },
+      {
+        "before_sha256": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+        "proposed_after_sha256": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f"
+      }
+    ],
+    "detail": "The three-file diagnostic delta changes runtime source identity. Its refreshed source review/manifest belongs to the separate independent reviewer. The five dossier evidence references remain immutable historical source/unit observations; this documentation review does not treat their prior pins as current runtime admission.",
+    "status": "DIAGNOSTIC_DELTA_REQUIRES_INDEPENDENT_SOURCE_BINDING"
+  },
+  "publication_authorized": false,
+  "reviewed_at": "2026-10-20T21:45:09.944965+00:00",
+  "reviewed_files": [
+    {
+      "added_cyrillic_lines": 0,
+      "after_sha256": "cc74905b63f0eec06f2b59fdd5fe0bdb3cb1d3545e0d056ab9ffb374cb685cb4",
+      "after_size_bytes": 403201,
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/dossier_before/claims_evidence.json",
+        "sha256": "5cd11dc66c2a566d33e872745f289459e9b24e85c3d137821b88f92e0accaf28",
+        "size_bytes": 392899
+      },
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json"
+    },
+    {
+      "added_cyrillic_lines": 0,
+      "after_sha256": "f3bce65396feb9c32112d7fdf5859e5d6eea3baeafb88c451022741bcee297cc",
+      "after_size_bytes": 18564,
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/dossier_before/README.md",
+        "sha256": "cc154a2ccf600fcae42066da073af2043a199d59e70062c9939828a199b659f4",
+        "size_bytes": 15378
+      },
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/README.md"
+    },
+    {
+      "added_cyrillic_lines": 0,
+      "after_sha256": "3d75805f6df7417ee11a29849bd9b7a8440535310138d9a42c727eb9287a88b8",
+      "after_size_bytes": 27765,
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/dossier_before/READ_RADIK_STAGE04.xml",
+        "sha256": "db26c693404dc4b69afa05f62a8d495cbbae5ffd260bc97d053cab5cc644dc14",
+        "size_bytes": 25880
+      },
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml"
+    }
+  ],
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.dossier_independent_review.v01",
+  "scope": "THREE_DOSSIER_FILES_ONLY",
+  "scope_findings": [
+    "The four Stage05 obligations are partial only. SOURCE review and eleven pure unit methods, including nine source-defined mutation subtests without separate receipts, do not establish native Work consumption or closure.",
+    "Ordinary native rehearsal remains PENDING and owner actual remains NOT_RUN in JSON, XML and README. Existing Stage04 acceptance and all other deferred directions retain their original scope.",
+    "The pure4/3-to3/4 computation is explicitly not speedup or native Host consumption; model quality, external truth, Stage06-08 and expanded G4 claims remain excluded."
+  ],
+  "stage05_closure_established": false,
+  "status": "ACCEPTED_LOCAL_DOCUMENTATION_SOURCE_AND_PURE_UNIT_SCOPE"
+}

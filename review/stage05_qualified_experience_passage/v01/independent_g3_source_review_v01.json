@@ -1,0 +1,87 @@
+{
+  "schema": "radik.stage05.independent_g3_source_review.v01",
+  "reviewer": "stage05_g4_contract_peer",
+  "reviewed_candidate_pins": {
+    "app/qualified_experience.py": {
+      "sha256": "e32661b2a43b921a2e7ff121363691414b9a0d5fe3b415faab02246625925a13",
+      "bytes": 47467
+    },
+    "app/qualified_experience_work.py": {
+      "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "bytes": 4819
+    },
+    "app/qualified_experience_scenario.py": {
+      "sha256": "d0aa3b292b0433fc2456b669a3d85370720bbdacceb57552be0c1ff0fac1a330",
+      "bytes": 6406
+    },
+    "app/runtime.py": {
+      "sha256": "afdbe59aa9e9bf8367c28cb5cea50cdef49bac863e3db425ff0e4ee99980c9b8",
+      "bytes": 46346
+    }
+  },
+  "decision": "ACCEPTED_FOR_PINNED_SHORT_OFFLINE_NATIVE_CHECKS_ONLY",
+  "owner_actual_authorized_by_review": false,
+  "candidate_imports_or_execution_performed": false,
+  "native_reference_changed": false,
+  "reviewed_contracts": [
+    "G34_CONTROLLED_BOOLEAN_WORK_PREDICTION_V01",
+    "G34_DURABLE_SOURCE_BOUND_HISTORY_V01",
+    "G34_CURRENT_REVIEW_CONTRACT_V01",
+    "G34_CURRENT_CHECK_RECEIPT_BRIDGE_V01",
+    "DRS_CURRENT_DECISION_ELIGIBILITY"
+  ],
+  "findings": [
+    {
+      "id": "G3_SOURCE_NATIVE_ORIGIN",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Current source re-reads controller source/policy and validates actual native result; accepted object must belong to the same live controller and task."
+    },
+    {
+      "id": "G3_PROSPECTIVE_DURABILITY",
+      "status": "REPAIRED_REVIEWED",
+      "detail": "Prospective claim is file-fsynced and directory-fsynced and exact bytes read back before native Work. Separate wall nanoseconds, observation/ingest seconds and monotonic elapsed values preserve their meanings."
+    },
+    {
+      "id": "G3_PUBLIC_PROJECTION",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Predictive source closed fields and typed Work input/result correspond to pinned public profile; one native completed result and exact Boolean marker predicate feed G3, not an external task-truth label."
+    },
+    {
+      "id": "G3_COLD_CURRENT_CHECK",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Cold G3 trust recommends additional current review; source uses a correctly scoped g34:check task and original receipt bridge before selected reviewed pure Work."
+    },
+    {
+      "id": "G3_CURRENT_ELIGIBILITY",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "The ordinary pre-open consumer and retained G4 binding revalidation use native temporal query/evaluation; age, expiry, source revision and scope mismatch preserve history. Conflict/quarantine are explicit restrictive controls, not external incident claims."
+    },
+    {
+      "id": "G3_UNSCORABLE",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Controlled transport/AUTH/model-unscorable categories create no outcome event or negative history update. Owner scenario does not claim an actual transport failure."
+    },
+    {
+      "id": "SCENARIO_REASON_ARGUMENT",
+      "status": "REPAIRED_REVIEWED",
+      "detail": "Scenario now passes reason=UNSCORABLE_MODEL_RESPONSE."
+    },
+    {
+      "id": "SCENARIO_CAUSAL_ASSERTIONS",
+      "status": "OWNER_HANDOFF_REQUIRES_FINISH",
+      "detail": "Before handing off owner command, scenario must check ELIGIBLE negative feedback, verify-to-audit operation change, equal total budgets, 4/3-to-3/4 actual consumed checks and exact linked history identifiers; current source records these but does not assert them."
+    }
+  ],
+  "execution_conditions": [
+    "Pin complete changed executable dependency closure before import",
+    "Use isolated synthetic finalized HTTP controller fixture with real current epoch, never owner AUTH/model/SAVE",
+    "Use one short ordinary DynamicDocumentController run, not historical multi-case Stage04 campaign",
+    "Independent reviewer must assess actual narrow test outputs before owner handoff"
+  ],
+  "limitations": [
+    "No owner actual",
+    "No new Stage04 or full E acceptance",
+    "No self-review of qualified_strategy author code",
+    "No external physical truth, model calibration or universal memory claim"
+  ]
+}

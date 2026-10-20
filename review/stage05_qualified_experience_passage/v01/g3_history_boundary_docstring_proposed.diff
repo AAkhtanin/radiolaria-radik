@@ -1,0 +1,11 @@
+--- a/review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py
++++ b/review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py
+@@ -130,7 +130,7 @@
+ 
+ 
+ def validate_strategy_history(controller, selection):
+-    """Revalidate actual custody and fresh history before every G4 consumption."""
++    """Revalidate live custody and history at an explicit G4 boundary."""
+     require(type(selection) is ExperienceBinding and selection._seal is _SEAL
+         and selection._controller is controller, 'experience_binding_origin')
+     context = selection._context

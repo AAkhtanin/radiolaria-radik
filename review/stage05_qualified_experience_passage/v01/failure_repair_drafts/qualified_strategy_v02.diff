@@ -1,0 +1,37 @@
+--- proposal_v01/qualified_strategy.py
++++ proposal_v02/qualified_strategy.py
+@@ -53,8 +53,14 @@
+     try:
+         yield
+     except BaseException as error:
+-        if getattr(error, '_radik_stage05_native_stage', None) not in NATIVE_STAGES:
+-            error._radik_stage05_native_stage = stage
++        try:
++            existing = getattr(error, '_radik_stage05_native_stage', None)
++            if type(stage) is str and stage in NATIVE_STAGES and not (
++                    type(existing) is str and existing in NATIVE_STAGES):
++                error._radik_stage05_native_stage = stage
++        except BaseException:
++            # Diagnostic annotation must never replace the original exception.
++            pass
+         raise
+ 
+ 
+@@ -488,7 +494,7 @@
+         revised = revision.program
+     with _native_stage('G4_PRE_DISPATCH_PERSISTENCE'):
+         controller._persist('qualified_allocation_pre_dispatch', dict(basis=basis, budget=budget, allocation=allocation,
+-            decision=authority.root_plain(review), program=revised, bootstrap=bootstrap_artifact))
++            decision=authority.root_plain(review), program=revised, revision_outcome=revision, bootstrap=bootstrap_artifact))
+     outcome, artifact = advance(revised)
+     with _native_stage('G4_FINAL_CHECKS'):
+         final = next(row for row in outcome.results if row.work_id == 'final_consumer')
+@@ -515,7 +521,7 @@
+         budget_total=TOTAL_UNITS, consumed_units=actual.usage.compute_units, allocation=allocation,
+         actual_checks=output['consumed_checks'], final_consumer=output, history=history,
+         task_root=authority.root_plain(review), custody_root=authority.root_plain(custody),
+-        bootstrap=bootstrap_artifact, artifact=artifact, program=revised, results=outcome.results,
++        bootstrap=bootstrap_artifact, artifact=artifact, program=revised, revision_outcome=revision, results=outcome.results,
+         host_history=work.inspect_work_task_history_v01(context()), usage=actual,
+         seconds=time.monotonic() - start, provider_calls=0, effects=0,
+         claim='FINITE_REAL_WORK_REDISTRIBUTION_NOT_SPEEDUP')

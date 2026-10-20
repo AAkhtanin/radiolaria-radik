@@ -1,0 +1,78 @@
+{
+  "acceptance_boundary": "This reviews the synthetic control runner only. It does not self-accept authored G4 application logic, grant execution, restore original V02 text, establish native qualified consumption or close Stage05.",
+  "application_modules_imported": false,
+  "control_author": "/root/stage05_g3_contract",
+  "controls_source_review": {
+    "annotation_scope": "Five synthetic exception cases verify original identity under getter/setter failure, hostile equality, nested stages and unknown requested stage; application source independently reviewed by G3 peer.",
+    "frame_scope": "Synthetic declared coordinates only;32retained/128traversed bound, foreign coordinates omitted, parent field/path/hash binding and first primary preservation.",
+    "precedence_scope": "Two synthetic phase failures and four extracted catch modes; persistence/event functions are controlled callbacks, not actual file-report readback.",
+    "revision_scope": "AST-only public outcome type/ACTIVE dominance, program extraction, two complete-outcome receipts and persist-before-advance ordering."
+  },
+  "extracted_functions_executed": false,
+  "finding": {
+    "covered_path": "All present synthetic error values have absent stream_event; project_stream_event(None) fails its first type check before touching the omitted stream globals. Tested codes do not select the memory-code branch.",
+    "id": "DIAGNOSTICS_EXTRACTED_GLOBALS_INCOMPLETE",
+    "missing_memory_constant": "MEMORY_WRITEBACK_CODES",
+    "required_resolution": "Either include the finite full helper closure or narrow and document the extracted control branch without claiming full diagnostics namespace closure.",
+    "stream_scope": "The extracted full project_stream_event function refers to20 missing stream constants/helpers/aliases."
+  },
+  "io_review": {
+    "deadline": "Elapsed30-second assertion is post-check, not a signal-enforced wall deadline; fixed reviewed finite controls do not contain an unbounded loop.",
+    "network_process_calls": "None in reviewed selected AST bodies; audit rejects sockets and listed process entry points.",
+    "reads": "Exact own runner/proposal/grant, six pinned reviewed source files and bounded production guards; no application/native import. Source pin verifier rejects symlinks, nonregular/multilink files and files over2MiB.",
+    "writes": "One new case directory with exclusive reservation.json and result.json; source bodies have no other mutation calls."
+  },
+  "literal_preflight": {
+    "all_present_in_closed_registry": true,
+    "classification": "AST_ONLY_NOT_RUNTIME_PROJECTION_OBSERVATION",
+    "exact_distinct_count": 237,
+    "literal_set_sha256": "493817d7fa8ab156959cdeacc55c4d9ecfd3bb3afde2e55fc182b8101c196aed",
+    "own_additional_codes": 2,
+    "per_module": {
+      "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py": 169,
+      "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py": 69
+    }
+  },
+  "native_work_executed": false,
+  "owner_actual": false,
+  "reviewed_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+      "sha256": "91d8f60282a7904b9e7f01300b3a93242eb6c93e80f834e4894a9a16b2307bf3",
+      "size_bytes": 26097
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "size_bytes": 64203
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+      "size_bytes": 14592
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+      "size_bytes": 125698
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "size_bytes": 61617
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.failure_capture_controls_peer_source_review.v01",
+  "status": "SOURCE_REVIEWED_PENDING_EXTRACTED_DEPENDENCY_SCOPE_RESOLUTION"
+}

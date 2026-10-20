@@ -1,0 +1,192 @@
+{
+  "G4_scope": "The selected G4 task/custody Root adapter uses subject radik:documents, which already matches the old exception. G4 history carries the G3 custody report, so any future additional subjects still require actual exact-pointer inspection.",
+  "V01": {
+    "G3_G4_actual": "NOT_REACHED_BY_V01; new witness shapes below are source-derived, not actual.",
+    "all_hits_existing_public_claim_exception": true,
+    "file_count": 12,
+    "file_refs": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+        "sha256": "e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04",
+        "size_bytes": 343666
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+        "sha256": "3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406",
+        "size_bytes": 21171
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_loader_schema_callback_origins_f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c.json",
+        "sha256": "f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c",
+        "size_bytes": 865824
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_source_history_boundary_fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2.json",
+        "sha256": "fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2",
+        "size_bytes": 121994
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/partial_result_6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813.json",
+        "sha256": "6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813",
+        "size_bytes": 1015
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+        "sha256": "2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816",
+        "size_bytes": 2094
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/stopped_result_c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f.json",
+        "sha256": "c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f",
+        "size_bytes": 1322
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/accepted_dynamic_result_fdfd4f773f2901e810ba702c6f50c52b7dcf499996bfd39dc62d98e542cbe75c.json",
+        "sha256": "fdfd4f773f2901e810ba702c6f50c52b7dcf499996bfd39dc62d98e542cbe75c",
+        "size_bytes": 35788
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_cold_dependency_declaration_bc69133fe1d5013b77fabbdc24dbaa52603dc60c7516f08498a8cb840957c6a5.json",
+        "sha256": "bc69133fe1d5013b77fabbdc24dbaa52603dc60c7516f08498a8cb840957c6a5",
+        "size_bytes": 19964
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_intake_root_5af9795b395d960b2ac34b18485bd73e555ea3352bf76376d9d0ade2f790d609.json",
+        "sha256": "5af9795b395d960b2ac34b18485bd73e555ea3352bf76376d9d0ade2f790d609",
+        "size_bytes": 14746
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_native_work_1eafb1e02572ce1065f4c15e5bac8b9e7a2895b778f4bf3badf263c6848ca5f6.json",
+        "sha256": "1eafb1e02572ce1065f4c15e5bac8b9e7a2895b778f4bf3badf263c6848ca5f6",
+        "size_bytes": 778014
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_source_family_29d7aecfe2f292bf844d790b1c9037ed71d7dc2c8d8619b210e34e7b1b998f6d.json",
+        "sha256": "29d7aecfe2f292bf844d790b1c9037ed71d7dc2c8d8619b210e34e7b1b998f6d",
+        "size_bytes": 57498
+      }
+    ],
+    "scope": "Only newly created public JSON files under three copied witness directories, excluding starting-copy entries.",
+    "secret_key_hits": [
+      {
+        "existing_exception_matches": true,
+        "file_ref": {
+          "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_source_family_29d7aecfe2f292bf844d790b1c9037ed71d7dc2c8d8619b210e34e7b1b998f6d.json",
+          "sha256": "29d7aecfe2f292bf844d790b1c9037ed71d7dc2c8d8619b210e34e7b1b998f6d",
+          "size_bytes": 57498
+        },
+        "json_pointer": "/body/route_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+        "key": "subject",
+        "public_subject": "radik:documents"
+      },
+      {
+        "existing_exception_matches": true,
+        "file_ref": {
+          "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_intake_root_5af9795b395d960b2ac34b18485bd73e555ea3352bf76376d9d0ade2f790d609.json",
+          "sha256": "5af9795b395d960b2ac34b18485bd73e555ea3352bf76376d9d0ade2f790d609",
+          "size_bytes": 14746
+        },
+        "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+        "key": "subject",
+        "public_subject": "radik:documents"
+      },
+      {
+        "existing_exception_matches": true,
+        "file_ref": {
+          "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/accepted_dynamic_result_fdfd4f773f2901e810ba702c6f50c52b7dcf499996bfd39dc62d98e542cbe75c.json",
+          "sha256": "fdfd4f773f2901e810ba702c6f50c52b7dcf499996bfd39dc62d98e542cbe75c",
+          "size_bytes": 35788
+        },
+        "json_pointer": "/body/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+        "key": "subject",
+        "public_subject": "radik:documents"
+      },
+      {
+        "existing_exception_matches": true,
+        "file_ref": {
+          "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/6987468db7a8190ca4d7fe9e9a5d59958ac333487b13eb1a59950b8347b86bb1/dynamic_cold_dependency_declaration_bc69133fe1d5013b77fabbdc24dbaa52603dc60c7516f08498a8cb840957c6a5.json",
+          "sha256": "bc69133fe1d5013b77fabbdc24dbaa52603dc60c7516f08498a8cb840957c6a5",
+          "size_bytes": 19964
+        },
+        "json_pointer": "/body/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+        "key": "subject",
+        "public_subject": "radik:documents"
+      },
+      {
+        "existing_exception_matches": true,
+        "file_ref": {
+          "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+          "sha256": "e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04",
+          "size_bytes": 343666
+        },
+        "json_pointer": "/body/selected_result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+        "key": "subject",
+        "public_subject": "radik:documents"
+      }
+    ],
+    "total_bytes": 2263096
+  },
+  "V02_observed": false,
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "74266b2fb3bd0a0cb63cb0c9b3de61588b880234dd3a92bb84fc4442f26eb5f2",
+    "size_bytes": 5041
+  },
+  "application_execution": false,
+  "application_imports": false,
+  "available_export_path_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/export_selection_draft.json",
+    "sha256": "c64e5359aa53fa1c5244cc5f5d20fd6d394cb4711dd23321c6cc87e00a740cec",
+    "size_bytes": 211099
+  },
+  "draft_duplicate_paths": [],
+  "draft_noncanonical_paths": [],
+  "draft_path_count": 183,
+  "exact_reference_duplicate_scope": [
+    "exact() verifies bounded stable raw bytes, owner-scope path, regular single-link file, size and SHA256. It does not enforce uniqueness of source references; repeated exact source files at distinct archive names are currently allowed.",
+    "writer_refs enforces a set of the two exact writer paths; repeated identical writer refs are redundant but not an authority expansion. Conflicting hashes cannot both verify.",
+    "Archive uniqueness is raw string uniqueness only. Noncanonical aliases a//b and a/./b can denote the same extraction target as a/b; empty names are not explicitly rejected. Final selection must contain canonical nonempty names, or a minimal canonical-name require should be added before reservation.",
+    "JSON privacy scanning is selected by archive suffix, not source suffix. Final selection must retain original .json/.jsonl suffixes. A minimal source/archive format-binding require prevents extension-based omission of scanning.",
+    "The current 183-path export draft contains no duplicates or noncanonical names. It is not the final RETURN selection, so final packaging acceptance is still required."
+  ],
+  "final_return_selection_available": false,
+  "minimal_optional_scope_hardening": [
+    "require(type(name) is str and name not in ('', '.') and name == Path(name).as_posix(), 'return_selection_archive_canonical')",
+    "If Path(row['path']).suffix is .json or .jsonl, require path.suffix equals that original suffix before scanning."
+  ],
+  "new_controls_executed": false,
+  "other_keys": "No other SECRET_KEYS were found in the twelve new public V01 witnesses. No generic exemption for headers, host_id, client_id, nonce, identity or transport fields is proposed.",
+  "packaging_grant_issued": false,
+  "preserved_witness_bytes": true,
+  "proposed_treatment_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposal.json",
+    "sha256": "b4ada8526b7df092e3a659c4bca6dc4c54a566906fd9aabc498b605a6be4db83",
+    "size_bytes": 4088
+  },
+  "publisher_execution": false,
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.packaging_compatibility_source_review.v01",
+  "source_derived_future_conflicts": [
+    {
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "location": "Qualified consumer contract claims and current Root object_or_value descriptions.",
+      "reason": "Exact eleven-field advisory subject dictionary is a native semantic scope, but the old guard rejects any such subject key."
+    },
+    {
+      "kind": "G34_CURRENT_ROOT_CLAIM",
+      "location": "current_review/input/root_review_packet/synthesis_proposal/normalized_claims/*/subject",
+      "reason": "Public deterministic claim subject verify or audit is the native candidate identity; it is not in the old fixed subject set."
+    },
+    {
+      "kind": "G34_HISTORY_ROOT_CLAIM",
+      "location": "recording_root/input/root_review_packet/synthesis_proposal/normalized_claims/*/subject",
+      "reason": "Public deterministic history claim subject is the 64-hex snapshot identity; the old guard accepts only DRS addresses or five fixed labels."
+    }
+  ],
+  "status": "PRELIMINARY_SOURCE_AND_CLOSED_V01_DATA_REVIEW_NOT_FINAL_PAYLOAD_ACCEPTANCE"
+}

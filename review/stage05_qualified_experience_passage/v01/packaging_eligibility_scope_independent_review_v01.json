@@ -1,0 +1,26 @@
+{
+  "actual_scope": "No ELIGIBILITY_V01 future file or result approved. This review covers only source scope; closed actual bytes and subject fields need separate classification.",
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "8c9509f3adc5a9c97b373e66fbe9b52dfdedfde269a661192c037d017d98dbb2",
+    "size_bytes": 13529
+  },
+  "application_native_publisher_execution": false,
+  "author": "/root",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v05/build_return.py",
+    "sha256": "33009af054bc10a30272334e9c52e9d66dbe691bc554eb76b5cca5154e5df8d2",
+    "size_bytes": 13473
+  },
+  "delta": "Adds only exact offline_actual/ELIGIBILITY_V01/work/ prefix to the existing finite tuple. Every other byte is unchanged.",
+  "preserved": "Exact file/hash/size, JSON pointer/value/body hashes, three public shapes, recursive nested scan, original raw bytes, canonical paths, independent final inventory and one-use packaging grant remain unchanged.",
+  "prior_review": {
+    "path": "review/stage05_qualified_experience_passage/v01/packaging_tail_scope_independent_review_v01.json",
+    "sha256": "68da7ac75a1222e7055504fc216860c9675bf0545329d4f9412afd59efe26d29",
+    "size_bytes": 4032
+  },
+  "public_publication_authorized": false,
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.packaging_eligibility_scope_independent_review.v01",
+  "status": "ONE_LITERAL_PREFIX_SOURCE_DELTA_REVIEWED_NOT_PACKAGING_GRANT"
+}

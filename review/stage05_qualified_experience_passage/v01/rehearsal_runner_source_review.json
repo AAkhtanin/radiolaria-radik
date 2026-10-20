@@ -1,0 +1,39 @@
+{
+  "schema": "radik.stage05.rehearsal_runner_source_review.v01",
+  "reviewer": "/root/private_remote_controls",
+  "reviewed_at": "2026-10-20T21:26:38.543090+00:00",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_COPY_SEAL_AND_ONE_USE_GRANT",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+    "sha256": "0f2c77a57347d038ed3d311a3fbbe2a8b12f3d874ec25a62ebb4347cad6a4554",
+    "size_bytes": 14188
+  },
+  "source_only": true,
+  "execution_authorized_by_this_record": false,
+  "approved_execution_count": 0,
+  "application_execution_allowed": false,
+  "owner_execution_authorized": false,
+  "source_findings": [
+    "Changed predecessor runner permits one ordinary copied case, experience followed by exit, and no historical Stage04 campaign or full E.",
+    "Grant and runner raw bytes are checked before any candidate import. The copied supervisor/timing sources are separately pinned.",
+    "All copies require exclusive new directories, finite unique source reference inventory, bounded bytes, symlink refusals and exact readback.",
+    "Parent audit hook denies sockets and unowned subprocesses, permits only the exact isolated console launch in registered copy roots, and confines writes to the new rehearsal directory.",
+    "Typed copied rehearsal context is required before installer activation or child fixture use. External AUTH/provider/native E/SAVE remain forbidden.",
+    "Engineering timer is 600 seconds and is passed as the supervisor interrupt condition; selected operation timing remains 2400 seconds without resetting inherited clock.",
+    "Repaired outer finally issues no further signal/wait sequence after supervisor cleanup. It records reaped state and calls the reviewed release_owned_lock helper; an unreaped child retains inherited flock.",
+    "Failure paths preserve sanitized first failure, copied case result and final raw result; no automatic retry occurs."
+  ],
+  "pending_requirements": [
+    "Exact immutable final manifest/source review references.",
+    "Independent verification of complete copy_refs and production_guard_refs, selected single case root and seal.",
+    "One-use exact runner/argv/source/copy grant before imports; this record is not that grant."
+  ],
+  "reviewer_modified_source": false,
+  "candidate_imports": 0,
+  "application_calls": 0,
+  "provider_calls": 0,
+  "native_calls": 0,
+  "AUTH_calls": 0,
+  "SAVE_calls": 0,
+  "Stage05_acceptance_inferred": false
+}

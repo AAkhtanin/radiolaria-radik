@@ -1,0 +1,85 @@
+{
+  "application_native_model_execution_allowed": false,
+  "findings": [
+    "The entire stdlib runner was read independently. It compiles only named top-level constants and pure helper functions from exact source bytes; application, native consumers and supervisor main are not imported or invoked.",
+    "All five changed source files, six retained raw inputs and final source review are re-read and pinned before extraction. The original 30 event rows and readback bytes remain unmodified.",
+    "Replay distinguishes the single actually observed prospective checkpoint from separately labelled synthetic display branches. It grants no native acceptance or progress credit.",
+    "Timing selection uses only a synthetic namespace and in-memory launch fixture. Legacy fallback and six binding/source/clock/process mutations are checked without starting a process.",
+    "Static checks retain default continuation preparation and exactly one Stage05 False opt-out, None-before-measurement count, and first-step binding. Three exact diagnostic codes and a lookalike negative are projected.",
+    "The audit fence denies network/process/private reads and writes outside a new exclusive result directory. Guards are rechecked afterward; the loop is finite and has a30-second control ceiling."
+  ],
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_proposal.json",
+    "sha256": "dc036fbd1a947e2328600cca300806107bf2c7158f4090718ee85c10308eac14",
+    "size_bytes": 5335
+  },
+  "recorded_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "sha256": "aa5e2c1270c0b53af5c8ff80251409f7d64052b06ad85772bc4a2a3e4393b7ba",
+      "size_bytes": 16244
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "sha256": "69007a92e36eaa6103eb4107bf0e23e49c356ab84295c7c6beb27bb57cbafa27",
+      "size_bytes": 499
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "sha256": "f0e4e984bff56b4b26bfa697248a02ed686807e2e4fae6bf6a8dfd3c880c9b23",
+      "size_bytes": 2789
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "sha256": "e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04",
+      "size_bytes": 343666
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "sha256": "3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406",
+      "size_bytes": 21171
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "sha256": "2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816",
+      "size_bytes": 2094
+    }
+  ],
+  "reviewed_at_utc": "2026-10-20T22:03:17.712540+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/targeted_controls.py",
+    "sha256": "6cee48422840e9eaf2a6518f7418ffafd346b797c629c509967ae084262fb33e",
+    "size_bytes": 25869
+  },
+  "schema": "radik.stage05.targeted_controls_independent_source_review.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+      "size_bytes": 59463
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_entry.py",
+      "sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+      "size_bytes": 24648
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+      "size_bytes": 46927
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+      "size_bytes": 9310
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+      "size_bytes": 117905
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_AST_AND_RECORDED_REPLAY",
+  "whole_application_module_import_allowed": false
+}

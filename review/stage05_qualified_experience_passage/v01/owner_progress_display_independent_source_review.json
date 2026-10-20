@@ -1,0 +1,36 @@
+{
+  "application_or_owner_execution_allowed": false,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+    "sha256": "6d40f985b8ef8403ba2a44525c6a2078073bdb91721b44830efe81d50da12881",
+    "size_bytes": 57407
+  },
+  "closed_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+    "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+    "size_bytes": 39071
+  },
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+    "sha256": "b3e1e817666e6ff65c65d0ea01a74bd757805e49da69cd32b405bd464de07516",
+    "size_bytes": 2906
+  },
+  "expected_after_sha256": "46cfcd06707a2fd7de015653fd16954510c52a989b55bdb790639873bdf7121d",
+  "findings": [
+    "All eight closed checkpoint names and five Stage05 phase spans match the source scenario. The helper prints only finite labels, hash and cumulative numeric timing values.",
+    "Checkpoint lines require an already verified readback; phase lines claim only an execution event. No acceptance, deadline or heartbeat credit is added.",
+    "The hook follows exact event sequence/binding validation, readback verification, deadline event processing and first-failure gating. It leaves child dispatch, stdin, timer predicates, control witnesses and cleanup unchanged.",
+    "The retained V01 source and native observations must remain preserved; this proposed formatter cannot retroactively validate missing G3/G4 consumer execution."
+  ],
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposal.json",
+    "sha256": "925d32697791a862af5d5c169099c9836f7da9aaf26c5bceeafd259dad9ec980",
+    "size_bytes": 4194
+  },
+  "required_actual_control": "Separate pinned AST-only formatter replay over retained V01 event rows; no supervisor main, child, native Work, provider or application execution.",
+  "reviewed_at_utc": "2026-10-20T21:53:27.202619+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_progress_display_independent_source_review.v01",
+  "source_application_allowed": true,
+  "status": "PROPOSED_DISPLAY_ONLY_DELTA_ACCEPTED_FOR_APPLICATION_AFTER_CLOSED_V01"
+}

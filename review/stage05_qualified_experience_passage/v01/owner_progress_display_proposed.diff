@@ -1,0 +1,57 @@
+--- a/review/stage05_qualified_experience_passage/v01/owner_terminal.py
++++ b/review/stage05_qualified_experience_passage/v01/owner_terminal.py
+@@ -59,6 +59,42 @@
+     except Exception:
+         # Display loss must not prevent the already-owned child's closure.
+         pass
++
++
++STAGE05_CHECKPOINTS = frozenset((
++    'prospective_scenario', 'ordinary_accepted_result', 'cold_allocated_work',
++    'qualified_feedback', 'qualified_allocated_work', 'causal_chain_verified',
++    'unscorable_audit_control', 'current_eligibility_controls',
++))
++DISPLAY_PHASES = frozenset((
++    'BOOTSTRAP', 'SETUP', 'INTAKE', 'PROVIDER', 'NATIVE', 'PERSISTENCE', 'FINALIZATION',
++))
++DISPLAY_SPANS = frozenset((
++    'ordinary_bootstrap', 'ordinary_scenario', 'stage05_cold_decision',
++    'stage05_prospective_feedback', 'stage05_subsequent_work',
++    'stage05_unscorable_control', 'stage05_eligibility_controls',
++))
++
++
++def progress_line(row, *, readback_verified, native_ns, remaining_ns):
++    """Format validated events only; this grants no progress or acceptance credit."""
++    kind = row.get('kind')
++    label = None
++    if kind == 'STATUS' and row.get('stage') == 'STAGE05_CHECKPOINT':
++        step = row.get('step')
++        if not readback_verified or type(step) is not str or step not in STAGE05_CHECKPOINTS:
++            return None
++        label = 'Checkpoint read back: '+step+'; evidence_sha256='+row['readback_ref']['sha256']
++    elif kind in ('PHASE_ENTER', 'PHASE_EXIT') and row.get('phase') in DISPLAY_PHASES:
++        span = row.get('span_id')
++        name = row['phase']+('/'+span if span in DISPLAY_SPANS else '')
++        label = 'Phase '+('entered: ' if kind == 'PHASE_ENTER' else 'exited: ')+name
++        label += '; execution event only'
++    if label is None:
++        return None
++    return label+'; total wall=%.3f s, CPU=%.3f s, native=%.3f s, remaining=%.3f s.'%(
++        row['elapsed_wall_ns']/1e9, row['elapsed_process_cpu_ns']/1e9,
++        native_ns/1e9, max(0, remaining_ns)/1e9)
+ 
+ 
+ def token(value):
+@@ -628,6 +664,11 @@
+                             sub['readbacks'].append(ref);sub['last_readback_ref']=ref;verified = True
+                         deadline.event(row,observed_ns=time.monotonic_ns(),readback_verified=verified)
+                         if receipt['primary_failure'] is not None:continue
++                        display_now = time.monotonic_ns()
++                        progress = progress_line(row, readback_verified=verified,
++                            native_ns=deadline.native_used_ns(display_now),
++                            remaining_ns=deadline.deadline_ns-display_now)
++                        if progress is not None:show(progress)
+                         stage = row.get('stage')
+                         if kind == 'STATUS' and stage == 'CONSOLE_READY':
+                             require(verified,'terminal_console_ready_readback')

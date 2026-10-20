@@ -1,0 +1,65 @@
+{
+  "schema": "radik.stage05.integration_source_review.v02",
+  "reviewer": "/root/private_remote_controls",
+  "reviewed_at": "2026-10-20T21:23:58.236824+00:00",
+  "status": "SOURCE_ACCEPTED_PENDING_AGGREGATE_ADMISSION_AND_ISOLATED_WIRING",
+  "candidate_pins": {
+    "app/qualified_experience_scenario.py": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+    "app/runtime.py": "5a26a0a26acedd6099e1c97a27dccb8c787823411190194e26e072af56f8721d",
+    "app/ordinary_entry.py": "5342c866d94c645ac206b27a5e482438d271bc8145792d013244f181334c2c01",
+    "app/dynamic_native.py": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+    "app/stage04_diagnostics.py": "babcb022599fcbb1743a9db003008867fe1e14b632782963bfe3f68ab75a8654"
+  },
+  "reviewer_modified_source": false,
+  "application_execution_authorized": false,
+  "owner_execution_authorized": false,
+  "candidate_imports": 0,
+  "findings": [
+    {
+      "id": "SCENARIO_CAUSAL_ASSERTIONS",
+      "status": "REPAIRED_SOURCE_REVIEWED",
+      "detail": "Checks prospective claim/event/capture order, ELIGIBLE observed zero, exact outcome-to-history and current Work references, cold absent versus qualified current history, negative prior, changed actual selected operation and unchanged source scope. The checks use actual emitted G3/G4 fields and do not manufacture feedback or execution results."
+    },
+    {
+      "id": "FINITE_ALLOCATION_CONSUMPTION",
+      "status": "SOURCE_REVIEWED",
+      "detail": "Requires equal installed and consumed nine-unit budgets, actual 4/3 to 3/4 checks, additional absolute_word_audit and current G3 consumed Work/history linkage; zero provider/effect counts are required."
+    },
+    {
+      "id": "UNSCORABLE_BOUNDARY",
+      "status": "SOURCE_REVIEWED",
+      "detail": "Controlled unscorable category is explicitly not claimed as an actual transport failure; NO_UPDATE and unchanged qualified history are required."
+    },
+    {
+      "id": "STAGE05_ORDINARY_CLOCK_MISMATCH",
+      "status": "REPAIRED_SOURCE_REVIEWED",
+      "detail": "Entry uses pinned timing.LIMITS operation_seconds for inherited and direct paths and binds started_utc plus that limit to client. Runtime consumes the supplied deadline; current Stage05 bound is 2400 seconds."
+    },
+    {
+      "id": "STAGE05_CONTROLLER_DEADLINE_NARROWING",
+      "status": "SOURCE_REVIEWED",
+      "detail": "Controller constructor now accepts only positive narrowing no later than the existing opened_at+7800 cap. Existing downstream now<operation_deadline and min/reuse validity checks remain unchanged; no existing validity or historical TTL is extended."
+    },
+    {
+      "id": "ORDINARY_CALLBACK_CLOSURE",
+      "status": "SOURCE_REVIEWED",
+      "detail": "All nine new named callback functions exist; ordinary entry observes their loaded source using existing public native callback observer and compares each source SHA with finite manifest pin."
+    },
+    {
+      "id": "DIAGNOSTIC_PROJECTION",
+      "status": "SOURCE_REVIEWED",
+      "detail": "Only fixed ASCII diagnostic identifiers are added; original identifiers and existing closed projection logic remain."
+    }
+  ],
+  "new_fixed_diagnostic_identifiers": 126,
+  "review_scope": "Exact root-authored scenario and ordinary integration deltas plus changed controller deadline dependency. G3/G4 implementations and installation/gate safety require their separate independent peer reviews and exact aggregate source inventory.",
+  "required_next_checks": [
+    "One source-admitted isolated ordinary wiring pass using synthetic HTTP model fixtures and real finite native Work, with zero external AUTH/model/SAVE.",
+    "Independent actual readback before any owner command or owner admission."
+  ],
+  "Stage05_acceptance_inferred": false,
+  "provider_calls": 0,
+  "native_calls": 0,
+  "AUTH_calls": 0,
+  "SAVE_calls": 0
+}

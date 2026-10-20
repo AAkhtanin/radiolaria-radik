@@ -1,0 +1,639 @@
+--- review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/before/claims_evidence.json
++++ review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/after/claims_evidence.json
+@@ -3921,6 +3921,310 @@
+       "provenance_class": "editorial_interpretation",
+       "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
+       "scope": "Independent review accepts pure data boundaries only; native Work and owner actual remain unobserved."
++    },
++    {
++      "id": "E-S5-COLD-G4-NATIVE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G4_bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G4_bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355.json",
++      "bytes": 18447,
++      "sha256": "bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual cold G4 allocation summary; complete native witnesses are retained by the tail review."
++    },
++    {
++      "id": "E-S5-CURRENT-G3-NATIVE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
++      "bytes": 192883,
++      "sha256": "e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual current qualified G3 source-condition audit consumer."
++    },
++    {
++      "id": "E-S5-FAILURE-CAPTURE-SOURCE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/failure_capture_root_source_review_v04.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/failure_capture_root_source_review_v04.json",
++      "bytes": 2229,
++      "sha256": "92596bf0d58cd8c0db1b726073cb61da27d0e8a54add0bea58e4d8a32d0053e9",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "source_review",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent source review of bounded primary failure capture."
++    },
++    {
++      "id": "E-S5-G3-COLD-ACTUAL",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
++      "bytes": 144100,
++      "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual cold G3 consumer from the stopped ordinary rehearsal; no completed ordinary G4 path."
++    },
++    {
++      "id": "E-S5-G4-BOOTSTRAP",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
++      "bytes": 12306,
++      "sha256": "0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Focused direct fresh native bootstrap only; does not reproduce the stopped ordinary route."
++    },
++    {
++      "id": "E-S5-G4-BOOTSTRAP-REVIEW",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
++      "bytes": 5886,
++      "sha256": "194a544c72bbea43e3ed63d305cca8edc4205603ddd11f3128b903fc255669ae",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "editorial_interpretation",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent review of direct PURE bootstrap only."
++    },
++    {
++      "id": "E-S5-G4-FRESHNESS-CORRECTION",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
++      "bytes": 6070,
++      "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "source_review",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Append-only correction: current gates apply at selection/bootstrap/final boundaries, not per quantum."
++    },
++    {
++      "id": "E-S5-G4-REVISION-SOURCE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
++      "bytes": 4810,
++      "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "source_review",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent review of public ACTIVE revision outcome/program binding and diagnostic annotation."
++    },
++    {
++      "id": "E-S5-PROSPECTIVE-NATIVE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/feedback_b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/feedback_b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772.json",
++      "bytes": 64944,
++      "sha256": "b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual prospective native source-predicate observation and ELIGIBLE qualified history."
++    },
++    {
++      "id": "E-S5-QUALIFIED-G4-NATIVE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G4_ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G4_ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e.json",
++      "bytes": 19146,
++      "sha256": "ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual qualified G4 allocation summary; complete native witnesses are retained by the tail review."
++    },
++    {
++      "id": "E-S5-RESTRICTION-SOURCE",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
++      "bytes": 4449,
++      "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "source_review",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent source review of the exact public MeaningRecord builder argument repair."
++    },
++    {
++      "id": "E-S5-TAIL-REVIEW",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
++      "bytes": 98522,
++      "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "editorial_interpretation",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent review of actual fresh-memory G3/G4 phases and retained later control stop; no owner-route acceptance."
++    },
++    {
++      "id": "E-S5-V02-REVIEW",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
++      "bytes": 40339,
++      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "editorial_interpretation",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent review of stopped ordinary cold rehearsal; original sanitized G4 primary reason remains unrecovered."
++    },
++    {
++      "id": "E-S5-ELIGIBILITY-REVIEW",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
++      "bytes": 5246,
++      "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "editorial_interpretation",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent review of fresh current native eligibility, explicit offline clocks/restrictions and unscorable controls only."
++    },
++    {
++      "id": "E-S5-FAILURE-CONTROLS-REVIEW",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
++      "bytes": 3218,
++      "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "editorial_interpretation",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Independent synthetic AST-helper review only; no historical stream validation or real persisted-readback acceptance."
++    },
++    {
++      "id": "E-S5-ELIGIBILITY-ACTUAL",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
++      "bytes": 15033,
++      "sha256": "6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Fresh current-controller native eligibility fixture; no repeated G4 or owner/model route."
++    },
++    {
++      "id": "E-S5-ELIGIBILITY-CONTROLS",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
++      "bytes": 33920,
++      "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Native eligibility refusals with explicit offline clock/restriction inputs, not externally observed events."
++    },
++    {
++      "id": "E-S5-UNSCORABLE-ACTUAL",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
++      "bytes": 1137,
++      "sha256": "999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "actual_native_local",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Actual unscorable NO_UPDATE with original history and head preserved."
++    },
++    {
++      "id": "E-S5-FAILURE-CONTROLS",
++      "repository": "RadiolariaRadik",
++      "original_repository_path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
++      "relative_path": "../../../stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
++      "bytes": 3150,
++      "sha256": "f8cb6a4299852e099e5fe0a0962010adb5608d448193fb44a873459d86737157",
++      "selector": {
++        "type": "json_pointer",
++        "value": ""
++      },
++      "observation_id": "STAGE05-LOCAL-FOCUSED-NATIVE-V01",
++      "provenance_class": "controlled_synthetic",
++      "availability": "LOCAL_WORKSPACE_RETAINED_NOT_PUBLISHED",
++      "scope": "Synthetic AST helper controls only, including 237 exact native literal cases; no application/native import."
+     }
+   ],
+   "coverage": [
+@@ -5048,8 +5352,8 @@
+         "id": "RADIK-STAGE-05",
+         "numbering_system": "RADIK_STAGES",
+         "name": "Time, eligible memory and qualified experience influence work",
+-        "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
+-        "scope": "P30/P31 memory credits remain accepted. Local Stage05 G3/G4 source review and eleven pure unit methods are recorded separately; ordinary native rehearsal is pending and the owner scenario is NOT_RUN. The four Stage05 obligations remain partial; Stage05 is not closed.",
++        "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
++        "scope": "P30/P31 memory credits remain accepted. Local source/unit evidence and focused fresh-current native G3/G4 consumers and eligibility controls are independently reviewed. The ordinary cold rehearsal stopped; the separate owner scenario remains NOT_RUN. All four Stage05 obligations remain partial and Stage05 is not closed.",
+         "evidence": [
+           {
+             "source_id": "PLAN-UPDATED"
+@@ -5070,7 +5374,26 @@
+           "E-S5-G4-SOURCE",
+           "E-S5-UNIT-SOURCE",
+           "E-S5-UNIT",
+-          "E-S5-UNIT-REVIEW"
++          "E-S5-UNIT-REVIEW",
++          "E-S5-COLD-G4-NATIVE",
++          "E-S5-CURRENT-G3-NATIVE",
++          "E-S5-FAILURE-CAPTURE-SOURCE",
++          "E-S5-G3-COLD-ACTUAL",
++          "E-S5-G4-BOOTSTRAP",
++          "E-S5-G4-BOOTSTRAP-REVIEW",
++          "E-S5-G4-FRESHNESS-CORRECTION",
++          "E-S5-G4-REVISION-SOURCE",
++          "E-S5-PROSPECTIVE-NATIVE",
++          "E-S5-QUALIFIED-G4-NATIVE",
++          "E-S5-RESTRICTION-SOURCE",
++          "E-S5-TAIL-REVIEW",
++          "E-S5-V02-REVIEW",
++          "E-S5-ELIGIBILITY-REVIEW",
++          "E-S5-FAILURE-CONTROLS-REVIEW",
++          "E-S5-ELIGIBILITY-ACTUAL",
++          "E-S5-ELIGIBILITY-CONTROLS",
++          "E-S5-UNSCORABLE-ACTUAL",
++          "E-S5-FAILURE-CONTROLS"
+         ]
+       },
+       {
+@@ -6324,21 +6647,43 @@
+         }
+       ],
+       "stage05_progress": {
+-        "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
+-        "source_scope": "Reviewed public G3 adapter persists and reads back a prospective expectation before its scoped raw-source-marker verification, binds native outcome/history contracts and excludes unscorable transport, AUTH and model categories from negative history.",
+-        "unit_scope": "Pure controls checked marker-result bytes, source identity, durable prospective readback/collision and unscorable NO_UPDATE with unchanged in-memory history.",
+-        "remaining": "Observe and independently review prospective expectation, actual native outcome, qualified history and later Work consumption in the ordinary current-state path.",
++        "closure": "NOT_ESTABLISHED",
+         "evidence_refs": [
+           "E-S5-G3-SOURCE",
+           "E-S5-G4-SOURCE",
+           "E-S5-UNIT-SOURCE",
+           "E-S5-UNIT",
+-          "E-S5-UNIT-REVIEW"
+-        ],
+-        "ordinary_native_rehearsal": "PENDING",
++          "E-S5-UNIT-REVIEW",
++          "E-S5-V02-REVIEW",
++          "E-S5-G3-COLD-ACTUAL",
++          "E-S5-G4-BOOTSTRAP",
++          "E-S5-G4-BOOTSTRAP-REVIEW",
++          "E-S5-G4-REVISION-SOURCE",
++          "E-S5-G4-FRESHNESS-CORRECTION",
++          "E-S5-FAILURE-CAPTURE-SOURCE",
++          "E-S5-TAIL-REVIEW",
++          "E-S5-PROSPECTIVE-NATIVE",
++          "E-S5-CURRENT-G3-NATIVE",
++          "E-S5-COLD-G4-NATIVE",
++          "E-S5-QUALIFIED-G4-NATIVE",
++          "E-S5-RESTRICTION-SOURCE",
++          "E-S5-ELIGIBILITY-REVIEW",
++          "E-S5-FAILURE-CONTROLS-REVIEW",
++          "E-S5-ELIGIBILITY-ACTUAL",
++          "E-S5-ELIGIBILITY-CONTROLS",
++          "E-S5-UNSCORABLE-ACTUAL",
++          "E-S5-FAILURE-CONTROLS"
++        ],
++        "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
++        "native_scope": "Fresh-memory native tail retained prospective expectation before the actual zero-valued source predicate, committed ELIGIBLE qualified history, then consumed its -62500000 prior in a current Root-reviewed changed Work operation. Full cold ordinary console completion and owner acceptance remain unobserved. A separate focused fresh observation and current-control run verified unscorable NO_UPDATE with original history and head preserved.",
++        "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+         "owner_actual": "NOT_RUN",
+-        "closure": "NOT_ESTABLISHED",
+-        "publication": "LOCAL_ONLY"
++        "publication": "LOCAL_ONLY",
++        "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
++        "source_scope": "Reviewed public G3 adapter persists and reads back a prospective expectation before its scoped raw-source-marker verification, binds native outcome/history contracts and excludes unscorable transport, AUTH and model categories from negative history.",
++        "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
++        "unit_scope": "Pure controls checked marker-result bytes, source identity, durable prospective readback/collision and unscorable NO_UPDATE with unchanged in-memory history.",
++        "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+       }
+     },
+     {
+@@ -6359,21 +6704,43 @@
+       ],
+       "accepted_or_partial_credit": "P30 actual delta writeback and reuse credited; P31 task/restart actual is linked separately in final dossier.",
+       "stage05_progress": {
+-        "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
+-        "source_scope": "Reviewed current descriptor eligibility precedes history opening and is rechecked before consumption; source revision/scope, max-age, expiry, restrictive conflict/quarantine and original validity remain explicit.",
+-        "unit_scope": "Pure controls reject changed source bytes, revision and observation identity. Native temporal, conflict and quarantine consumers have no new actual credit from this unit suite.",
+-        "remaining": "Observe native current-decision refusals for age, expiry, source revision, unrelated scope, conflict and quarantine without extending TTL or deleting history.",
++        "closure": "NOT_ESTABLISHED",
+         "evidence_refs": [
+           "E-S5-G3-SOURCE",
+           "E-S5-G4-SOURCE",
+           "E-S5-UNIT-SOURCE",
+           "E-S5-UNIT",
+-          "E-S5-UNIT-REVIEW"
+-        ],
+-        "ordinary_native_rehearsal": "PENDING",
++          "E-S5-UNIT-REVIEW",
++          "E-S5-V02-REVIEW",
++          "E-S5-G3-COLD-ACTUAL",
++          "E-S5-G4-BOOTSTRAP",
++          "E-S5-G4-BOOTSTRAP-REVIEW",
++          "E-S5-G4-REVISION-SOURCE",
++          "E-S5-G4-FRESHNESS-CORRECTION",
++          "E-S5-FAILURE-CAPTURE-SOURCE",
++          "E-S5-TAIL-REVIEW",
++          "E-S5-PROSPECTIVE-NATIVE",
++          "E-S5-CURRENT-G3-NATIVE",
++          "E-S5-COLD-G4-NATIVE",
++          "E-S5-QUALIFIED-G4-NATIVE",
++          "E-S5-RESTRICTION-SOURCE",
++          "E-S5-ELIGIBILITY-REVIEW",
++          "E-S5-FAILURE-CONTROLS-REVIEW",
++          "E-S5-ELIGIBILITY-ACTUAL",
++          "E-S5-ELIGIBILITY-CONTROLS",
++          "E-S5-UNSCORABLE-ACTUAL",
++          "E-S5-FAILURE-CONTROLS"
++        ],
++        "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
++        "native_scope": "Fresh memory eligibility and Root descent preserved original accepted_at/valid_to. After the retained tail stopped at controlled conflict-record construction, a narrowly repaired public constructor was independently reviewed and a separate fresh current-controller run passed age300, expiry, source-revision mismatch, unrelated-task, conflict and quarantine refusals before Work. Explicit evaluation clocks are offline controls, not elapsed wall time; original records and head remain preserved, with no TTL extension or restored permission.",
++        "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+         "owner_actual": "NOT_RUN",
+-        "closure": "NOT_ESTABLISHED",
+-        "publication": "LOCAL_ONLY"
++        "publication": "LOCAL_ONLY",
++        "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
++        "source_scope": "Reviewed current descriptor eligibility precedes history opening and is rechecked before consumption; source revision/scope, max-age, expiry, restrictive conflict/quarantine and original validity remain explicit.",
++        "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
++        "unit_scope": "Pure controls reject changed source bytes, revision and observation identity; separate focused native receipts establish the temporal and restrictive refusals within the stated fixture scope.",
++        "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+       }
+     },
+     {
+@@ -6390,21 +6757,43 @@
+         }
+       ],
+       "stage05_progress": {
+-        "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
+-        "source_scope": "Reviewed sealed live history binding selects verification or additional source-condition audit through native current review and retains a separate current source-custody Root.",
+-        "unit_scope": "Pure controls distinguish verification and audit output, reject plain-JSON binding substitution and preserve unscorable history. A changed native Work consumer is not yet observed.",
+-        "remaining": "Show that one eligible negative source predicate changes actual scoped Work with linked outcome/history/decision/result identifiers, and does not transfer to an unrelated task.",
++        "closure": "NOT_ESTABLISHED",
+         "evidence_refs": [
+           "E-S5-G3-SOURCE",
+           "E-S5-G4-SOURCE",
+           "E-S5-UNIT-SOURCE",
+           "E-S5-UNIT",
+-          "E-S5-UNIT-REVIEW"
+-        ],
+-        "ordinary_native_rehearsal": "PENDING",
++          "E-S5-UNIT-REVIEW",
++          "E-S5-V02-REVIEW",
++          "E-S5-G3-COLD-ACTUAL",
++          "E-S5-G4-BOOTSTRAP",
++          "E-S5-G4-BOOTSTRAP-REVIEW",
++          "E-S5-G4-REVISION-SOURCE",
++          "E-S5-G4-FRESHNESS-CORRECTION",
++          "E-S5-FAILURE-CAPTURE-SOURCE",
++          "E-S5-TAIL-REVIEW",
++          "E-S5-PROSPECTIVE-NATIVE",
++          "E-S5-CURRENT-G3-NATIVE",
++          "E-S5-COLD-G4-NATIVE",
++          "E-S5-QUALIFIED-G4-NATIVE",
++          "E-S5-RESTRICTION-SOURCE",
++          "E-S5-ELIGIBILITY-REVIEW",
++          "E-S5-FAILURE-CONTROLS-REVIEW",
++          "E-S5-ELIGIBILITY-ACTUAL",
++          "E-S5-ELIGIBILITY-CONTROLS",
++          "E-S5-UNSCORABLE-ACTUAL",
++          "E-S5-FAILURE-CONTROLS"
++        ],
++        "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
++        "native_scope": "In the fresh-memory native tail, eligible negative source-predicate history changed actual Work from source_verification to source_condition_audit under current Root review; exact feedback, history, prior and consumer identifiers are retained. No cross-task transfer or owner-route closure is inferred. Separate focused native controls refused unrelated-task use, source revision mismatch, conflict and quarantine before Work.",
++        "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+         "owner_actual": "NOT_RUN",
+-        "closure": "NOT_ESTABLISHED",
+-        "publication": "LOCAL_ONLY"
++        "publication": "LOCAL_ONLY",
++        "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
++        "source_scope": "Reviewed sealed live history binding selects verification or additional source-condition audit through native current review and retains a separate current source-custody Root.",
++        "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
++        "unit_scope": "Pure controls distinguish verification and audit output, reject plain-JSON binding substitution and preserve unscorable history; separate native receipts below establish actual consumption.",
++        "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+       }
+     },
+     {
+@@ -6424,21 +6813,43 @@
+         }
+       ],
+       "stage05_progress": {
+-        "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
+-        "source_scope": "Reviewed app-specific bounded profile uses existing public G4 pressure/allocation validators, distinct task and custody Root decisions, an original total of nine units, seven finite check outputs and a typed final consumer. It is not the stock Airline consumer or a new G4 implementation.",
+-        "unit_scope": "Pure allocation/consumer controls checked 4/3-to-3/4 redistribution, high-score HardMask exclusion and count/output/omission/scope/budget mutation refusals. These are pure computations, not Host execution receipts.",
+-        "remaining": "Observe actual native consumption of the selected checks and final consumer with the same declared total budget and independently review both Root assessments; claim redistribution, not speedup.",
++        "closure": "NOT_ESTABLISHED",
+         "evidence_refs": [
+           "E-S5-G3-SOURCE",
+           "E-S5-G4-SOURCE",
+           "E-S5-UNIT-SOURCE",
+           "E-S5-UNIT",
+-          "E-S5-UNIT-REVIEW"
+-        ],
+-        "ordinary_native_rehearsal": "PENDING",
++          "E-S5-UNIT-REVIEW",
++          "E-S5-V02-REVIEW",
++          "E-S5-G3-COLD-ACTUAL",
++          "E-S5-G4-BOOTSTRAP",
++          "E-S5-G4-BOOTSTRAP-REVIEW",
++          "E-S5-G4-REVISION-SOURCE",
++          "E-S5-G4-FRESHNESS-CORRECTION",
++          "E-S5-FAILURE-CAPTURE-SOURCE",
++          "E-S5-TAIL-REVIEW",
++          "E-S5-PROSPECTIVE-NATIVE",
++          "E-S5-CURRENT-G3-NATIVE",
++          "E-S5-COLD-G4-NATIVE",
++          "E-S5-QUALIFIED-G4-NATIVE",
++          "E-S5-RESTRICTION-SOURCE",
++          "E-S5-ELIGIBILITY-REVIEW",
++          "E-S5-FAILURE-CONTROLS-REVIEW",
++          "E-S5-ELIGIBILITY-ACTUAL",
++          "E-S5-ELIGIBILITY-CONTROLS",
++          "E-S5-UNSCORABLE-ACTUAL",
++          "E-S5-FAILURE-CONTROLS"
++        ],
++        "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
++        "native_scope": "Both revised native programs completed 9 compute units, with 7 actual selected check outputs consumed by their final consumer and distinct task/custody Roots. Counts changed quotation 4 / qualification 3 to quotation 3 / qualification 4 at the same cap; original complete ACTIVE outcomes and programs are retained. Selection/bootstrap and final current-history/source gates apply to the bounded snapshot computation; per-quantum revalidation or cancellation is not claimed.",
++        "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+         "owner_actual": "NOT_RUN",
+-        "closure": "NOT_ESTABLISHED",
+-        "publication": "LOCAL_ONLY"
++        "publication": "LOCAL_ONLY",
++        "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
++        "source_scope": "Reviewed app-specific bounded profile uses existing public G4 pressure/allocation validators, distinct task and custody Root decisions, an original total of nine units, seven finite check outputs and a typed final consumer. It is not the stock Airline consumer or a new G4 implementation. A separately reviewed correction unwraps the public ACTIVE revision outcome to its program and retains both values; the original sanitized stop remains unresolved.",
++        "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
++        "unit_scope": "Pure allocation/consumer controls checked 4/3-to-3/4 redistribution, high-score HardMask exclusion and count/output/omission/scope/budget mutation refusals. These are pure computations, not Host execution receipts.",
++        "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+       }
+     },
+     {
+@@ -7288,11 +7699,11 @@
+   ],
+   "stage05_preparation": {
+     "schema": "radik.stage05.local_dossier_update.v01",
+-    "updated_at_utc": "2026-10-20T21:39:30.637063+00:00",
+-    "status": "SOURCE_REVIEWED_PURE_UNIT_CHECKED_NATIVE_PENDING",
++    "updated_at_utc": "2026-10-20T22:50:58.767785+00:00",
++    "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
+     "publication": "LOCAL_ONLY",
+     "owner_actual": "NOT_RUN",
+-    "ordinary_native_rehearsal": "PENDING",
++    "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+     "stage05_closure": "NOT_ESTABLISHED",
+     "original_stage04_acceptance": "UNCHANGED",
+     "deferred_row_count": 21,
+@@ -7307,7 +7718,26 @@
+       "E-S5-G4-SOURCE",
+       "E-S5-UNIT-SOURCE",
+       "E-S5-UNIT",
+-      "E-S5-UNIT-REVIEW"
++      "E-S5-UNIT-REVIEW",
++      "E-S5-COLD-G4-NATIVE",
++      "E-S5-CURRENT-G3-NATIVE",
++      "E-S5-FAILURE-CAPTURE-SOURCE",
++      "E-S5-G3-COLD-ACTUAL",
++      "E-S5-G4-BOOTSTRAP",
++      "E-S5-G4-BOOTSTRAP-REVIEW",
++      "E-S5-G4-FRESHNESS-CORRECTION",
++      "E-S5-G4-REVISION-SOURCE",
++      "E-S5-PROSPECTIVE-NATIVE",
++      "E-S5-QUALIFIED-G4-NATIVE",
++      "E-S5-RESTRICTION-SOURCE",
++      "E-S5-TAIL-REVIEW",
++      "E-S5-V02-REVIEW",
++      "E-S5-ELIGIBILITY-REVIEW",
++      "E-S5-FAILURE-CONTROLS-REVIEW",
++      "E-S5-ELIGIBILITY-ACTUAL",
++      "E-S5-ELIGIBILITY-CONTROLS",
++      "E-S5-UNSCORABLE-ACTUAL",
++      "E-S5-FAILURE-CONTROLS"
+     ],
+     "pure_units": {
+       "test_methods": 11,
+@@ -7319,10 +7749,26 @@
+       "native_Work_executions": 0
+     },
+     "limits": [
+-      "Source review and pure tests do not establish the ordinary native causal chain.",
+-      "Owner evidence must separately connect prospective expectation, actual outcome, eligibility, qualified history, current decision and actual Work consumption.",
+-      "No speedup, weight training, external truth, universal memory, full G4 mathematics or Stage06-08 acceptance is claimed.",
+-      "Stage05 material remains local; no branch push, public publication or merge is implied by this update."
+-    ]
++      "Focused native evidence uses a fresh current-controller memory descent and pinned raw source reader; it is not one completed ordinary console or owner route.",
++      "The stopped ordinary V02 primary G4 error remains sanitized and unrecovered. The later tail control stop and its focused repair are retained separately.",
++      "Temporal and restrictive cases use explicit offline evaluation clocks and controlled descriptor states, not elapsed wall time or external events; original history and validity remain unchanged.",
++      "G4 currentness gates apply at selection/bootstrap and final acceptance boundaries, not before every quantum. Actual 4/3-to-3/4 redistribution under the same nine-unit cap is not a speedup.",
++      "Synthetic failure controls establish bounded AST helper behavior only; they do not validate historical streams or actual persistent witness readback.",
++      "Owner evidence must separately connect prospective expectation, actual outcome, eligibility, qualified history, current decision and actual Work under a verified effective model boundary.",
++      "No weight training, external truth, universal memory, full G4 mathematics or Stage06-08 acceptance is claimed. Stage05 remains local; no publication, owner execution or closure is implied."
++    ],
++    "focused_native_tail": "G3_G4_PHASES_ACCEPTED_LATER_RESTRICTION_CONTROL_STOPPED",
++    "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY",
++    "failure_capture_controls": "PASS_SYNTHETIC_AST_HELPERS_ONLY",
++    "timing_qualification": {
++      "cleanup_seconds": 30,
++      "limits_changed": false,
++      "max_role_attempts": 3,
++      "native_cumulative_seconds": 900,
++      "owner_end_to_end_measured": false,
++      "owner_operation_seconds": 3000,
++      "qualification": "Composite engineering evidence from distinct admitted runs, not a completed ordinary owner scenario.",
++      "role_attempt_seconds": 600
++    }
+   }
+ }

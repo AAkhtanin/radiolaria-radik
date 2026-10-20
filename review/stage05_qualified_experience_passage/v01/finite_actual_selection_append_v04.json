@@ -1,0 +1,421 @@
+{
+  "bytes": 3992130,
+  "count": 50,
+  "files": [
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "publication_authorized": false,
+      "sha256": "194a544c72bbea43e3ed63d305cca8edc4205603ddd11f3128b903fc255669ae",
+      "size_bytes": 5886
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/copy_inventory.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/copy_inventory.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/copy_inventory.json",
+      "publication_authorized": false,
+      "sha256": "813e20cd88e7238ff80fd907b69d47b111298a811050ae83c818527b92ada58c",
+      "size_bytes": 167261
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/source_admission.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/source_admission.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/source_admission.json",
+      "publication_authorized": false,
+      "sha256": "5e496a27dee706980fe9b138112c895a808c7bc666a50151dfa34608d2a82c40",
+      "size_bytes": 291632
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_artifact_6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_artifact_6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_artifact_6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93.json",
+      "publication_authorized": false,
+      "sha256": "6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93",
+      "size_bytes": 6871
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_outcome_43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_outcome_43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_outcome_43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a.json",
+      "publication_authorized": false,
+      "sha256": "43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a",
+      "size_bytes": 18143
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/callback_admissions_b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/callback_admissions_b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/callback_admissions_b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e.json",
+      "publication_authorized": false,
+      "sha256": "b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e",
+      "size_bytes": 315263
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_19eea12f03498816e8a287cea00ee55df3b2e1bc9a2624035b2a5df988929cbd.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_19eea12f03498816e8a287cea00ee55df3b2e1bc9a2624035b2a5df988929cbd.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_19eea12f03498816e8a287cea00ee55df3b2e1bc9a2624035b2a5df988929cbd.json",
+      "publication_authorized": false,
+      "sha256": "19eea12f03498816e8a287cea00ee55df3b2e1bc9a2624035b2a5df988929cbd",
+      "size_bytes": 11727
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_31955ead49fa4691848b20b57ecbbe9325e66f22db4f918a40dcd974eaa74e06.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_31955ead49fa4691848b20b57ecbbe9325e66f22db4f918a40dcd974eaa74e06.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_31955ead49fa4691848b20b57ecbbe9325e66f22db4f918a40dcd974eaa74e06.json",
+      "publication_authorized": false,
+      "sha256": "31955ead49fa4691848b20b57ecbbe9325e66f22db4f918a40dcd974eaa74e06",
+      "size_bytes": 11814
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_342e5e7c2b2fba4c2219f6e1883f638ff74181450756be55eecf814354d8dd07.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_342e5e7c2b2fba4c2219f6e1883f638ff74181450756be55eecf814354d8dd07.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_342e5e7c2b2fba4c2219f6e1883f638ff74181450756be55eecf814354d8dd07.json",
+      "publication_authorized": false,
+      "sha256": "342e5e7c2b2fba4c2219f6e1883f638ff74181450756be55eecf814354d8dd07",
+      "size_bytes": 10956
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_3a22fc9af49e134ec2425969558f2250286ecbee3cf9c0c281e15e8acd668d71.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_3a22fc9af49e134ec2425969558f2250286ecbee3cf9c0c281e15e8acd668d71.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_3a22fc9af49e134ec2425969558f2250286ecbee3cf9c0c281e15e8acd668d71.json",
+      "publication_authorized": false,
+      "sha256": "3a22fc9af49e134ec2425969558f2250286ecbee3cf9c0c281e15e8acd668d71",
+      "size_bytes": 11133
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_63114915f96ecc7ccec6da916b930eea74d946abad52b26f74c63f71eab43eaf.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_63114915f96ecc7ccec6da916b930eea74d946abad52b26f74c63f71eab43eaf.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_63114915f96ecc7ccec6da916b930eea74d946abad52b26f74c63f71eab43eaf.json",
+      "publication_authorized": false,
+      "sha256": "63114915f96ecc7ccec6da916b930eea74d946abad52b26f74c63f71eab43eaf",
+      "size_bytes": 10906
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_690ef74f42ba2fcd72b876f9e52ffa078429159b450ed37bd0c5f1a7a07017e4.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_690ef74f42ba2fcd72b876f9e52ffa078429159b450ed37bd0c5f1a7a07017e4.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_690ef74f42ba2fcd72b876f9e52ffa078429159b450ed37bd0c5f1a7a07017e4.json",
+      "publication_authorized": false,
+      "sha256": "690ef74f42ba2fcd72b876f9e52ffa078429159b450ed37bd0c5f1a7a07017e4",
+      "size_bytes": 11453
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_71d2e3bf9393f7a17d5950605dec09de0fcd812923dbd6115cddf610cefe1f32.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_71d2e3bf9393f7a17d5950605dec09de0fcd812923dbd6115cddf610cefe1f32.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_71d2e3bf9393f7a17d5950605dec09de0fcd812923dbd6115cddf610cefe1f32.json",
+      "publication_authorized": false,
+      "sha256": "71d2e3bf9393f7a17d5950605dec09de0fcd812923dbd6115cddf610cefe1f32",
+      "size_bytes": 11178
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_8372a2b59829da33b247b154545856fc6d66ac689e48192a2ca182dc90be313a.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_8372a2b59829da33b247b154545856fc6d66ac689e48192a2ca182dc90be313a.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_8372a2b59829da33b247b154545856fc6d66ac689e48192a2ca182dc90be313a.json",
+      "publication_authorized": false,
+      "sha256": "8372a2b59829da33b247b154545856fc6d66ac689e48192a2ca182dc90be313a",
+      "size_bytes": 11012
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_87916237548c0df944056c99c54688bea22f078ebe6961713c6b0681ad8cf872.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_87916237548c0df944056c99c54688bea22f078ebe6961713c6b0681ad8cf872.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_87916237548c0df944056c99c54688bea22f078ebe6961713c6b0681ad8cf872.json",
+      "publication_authorized": false,
+      "sha256": "87916237548c0df944056c99c54688bea22f078ebe6961713c6b0681ad8cf872",
+      "size_bytes": 9099
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c6709133a63e95f972319c4d8badb1b212686f317b1056de71d29eb6b80f31d2.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c6709133a63e95f972319c4d8badb1b212686f317b1056de71d29eb6b80f31d2.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c6709133a63e95f972319c4d8badb1b212686f317b1056de71d29eb6b80f31d2.json",
+      "publication_authorized": false,
+      "sha256": "c6709133a63e95f972319c4d8badb1b212686f317b1056de71d29eb6b80f31d2",
+      "size_bytes": 10387
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c89cf4aac4516d22699a816ff31d07b1972877fd347d91c84a933207a84029ae.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c89cf4aac4516d22699a816ff31d07b1972877fd347d91c84a933207a84029ae.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_c89cf4aac4516d22699a816ff31d07b1972877fd347d91c84a933207a84029ae.json",
+      "publication_authorized": false,
+      "sha256": "c89cf4aac4516d22699a816ff31d07b1972877fd347d91c84a933207a84029ae",
+      "size_bytes": 10454
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_fc81fbea693be74cb2f901e4b266b88324595563477d245764f4fd8c31f3bb61.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_fc81fbea693be74cb2f901e4b266b88324595563477d245764f4fd8c31f3bb61.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_fc81fbea693be74cb2f901e4b266b88324595563477d245764f4fd8c31f3bb61.json",
+      "publication_authorized": false,
+      "sha256": "fc81fbea693be74cb2f901e4b266b88324595563477d245764f4fd8c31f3bb61",
+      "size_bytes": 9151
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_ffa773b28939e5442dc2bbc9cea473f6ae24b3ddbd29179a96b6faec555cb400.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_ffa773b28939e5442dc2bbc9cea473f6ae24b3ddbd29179a96b6faec555cb400.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/checkpoint_ffa773b28939e5442dc2bbc9cea473f6ae24b3ddbd29179a96b6faec555cb400.json",
+      "publication_authorized": false,
+      "sha256": "ffa773b28939e5442dc2bbc9cea473f6ae24b3ddbd29179a96b6faec555cb400",
+      "size_bytes": 11101
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/final_native_state_febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/final_native_state_febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/final_native_state_febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa.json",
+      "publication_authorized": false,
+      "sha256": "febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa",
+      "size_bytes": 25263
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/pre_dispatch_3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/pre_dispatch_3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/pre_dispatch_3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a.json",
+      "publication_authorized": false,
+      "sha256": "3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a",
+      "size_bytes": 27203
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+      "publication_authorized": false,
+      "sha256": "0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8",
+      "size_bytes": 12306
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/source_root_2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba.json",
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/source_root_2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/source_root_2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba.json",
+      "publication_authorized": false,
+      "sha256": "2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba",
+      "size_bytes": 13874
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "publication_authorized": false,
+      "sha256": "7c8e93a32505cbe8558a28369af9aec0f115d00b64da05b076bb2bf53727e675",
+      "size_bytes": 21556
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "publication_authorized": false,
+      "sha256": "c687145414629f7b3b3e7bd4bc498e7c649d8461a546e8486834ea88e7a02d1e",
+      "size_bytes": 499
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "publication_authorized": false,
+      "sha256": "95a2a16ad279159f728dd53bc9808d11e98eeda53e29f0ed484967448dcc4b9e",
+      "size_bytes": 2783
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "publication_authorized": false,
+      "sha256": "67e34e6ffff9b95862cd582842f4c87123c620a854a284d6b38c43e45ef8cabf",
+      "size_bytes": 4923
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/input/7f1b0200b32932b8deb2788adf3c0395.txt",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/input/7f1b0200b32932b8deb2788adf3c0395.txt",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/input/7f1b0200b32932b8deb2788adf3c0395.txt",
+      "publication_authorized": false,
+      "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+      "size_bytes": 436
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/output/8c2cc842c7f347d9a7863bf05ed70267-b966272c1ed4737fa16faedbe3bf6a428eaa7fef186cb44b734685a2b8a96336.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/output/8c2cc842c7f347d9a7863bf05ed70267-b966272c1ed4737fa16faedbe3bf6a428eaa7fef186cb44b734685a2b8a96336.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/output/8c2cc842c7f347d9a7863bf05ed70267-b966272c1ed4737fa16faedbe3bf6a428eaa7fef186cb44b734685a2b8a96336.json",
+      "publication_authorized": false,
+      "sha256": "b966272c1ed4737fa16faedbe3bf6a428eaa7fef186cb44b734685a2b8a96336",
+      "size_bytes": 35700
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_bfe788cecfb90af0d85c42b7827eba1c3432a1ab58fbdd3b0768efeff6f0e2aa.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_bfe788cecfb90af0d85c42b7827eba1c3432a1ab58fbdd3b0768efeff6f0e2aa.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_bfe788cecfb90af0d85c42b7827eba1c3432a1ab58fbdd3b0768efeff6f0e2aa.json",
+      "publication_authorized": false,
+      "sha256": "bfe788cecfb90af0d85c42b7827eba1c3432a1ab58fbdd3b0768efeff6f0e2aa",
+      "size_bytes": 343666
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_e0dbbfbbbd91e1c4a1e5a22de3025bbb96d1e2273c2e99ecef1b61fe8132b416.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_e0dbbfbbbd91e1c4a1e5a22de3025bbb96d1e2273c2e99ecef1b61fe8132b416.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_console_command_e0dbbfbbbd91e1c4a1e5a22de3025bbb96d1e2273c2e99ecef1b61fe8132b416.json",
+      "publication_authorized": false,
+      "sha256": "e0dbbfbbbd91e1c4a1e5a22de3025bbb96d1e2273c2e99ecef1b61fe8132b416",
+      "size_bytes": 389354
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_entry_failure_160619159210ecdcc29daf6f2c52f04b57d0a70289014f1e2b733cf0e7d67cb7.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_entry_failure_160619159210ecdcc29daf6f2c52f04b57d0a70289014f1e2b733cf0e7d67cb7.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_entry_failure_160619159210ecdcc29daf6f2c52f04b57d0a70289014f1e2b733cf0e7d67cb7.json",
+      "publication_authorized": false,
+      "sha256": "160619159210ecdcc29daf6f2c52f04b57d0a70289014f1e2b733cf0e7d67cb7",
+      "size_bytes": 20530
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_loader_schema_callback_origins_b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_loader_schema_callback_origins_b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_loader_schema_callback_origins_b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23.json",
+      "publication_authorized": false,
+      "sha256": "b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23",
+      "size_bytes": 865824
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_source_history_boundary_e3afb0fa9c02b3dd80dba914f00a720c52ae0a38590cb55db66c926e60cca4bd.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_source_history_boundary_e3afb0fa9c02b3dd80dba914f00a720c52ae0a38590cb55db66c926e60cca4bd.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_source_history_boundary_e3afb0fa9c02b3dd80dba914f00a720c52ae0a38590cb55db66c926e60cca4bd.json",
+      "publication_authorized": false,
+      "sha256": "e3afb0fa9c02b3dd80dba914f00a720c52ae0a38590cb55db66c926e60cca4bd",
+      "size_bytes": 121993
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/ordinary_accepted_result_6c850fe2343de4b13ddbc0d1aae209af0bacad5fa0be0b8b1dc57b0fe8bcf5f7.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/ordinary_accepted_result_6c850fe2343de4b13ddbc0d1aae209af0bacad5fa0be0b8b1dc57b0fe8bcf5f7.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/ordinary_accepted_result_6c850fe2343de4b13ddbc0d1aae209af0bacad5fa0be0b8b1dc57b0fe8bcf5f7.json",
+      "publication_authorized": false,
+      "sha256": "6c850fe2343de4b13ddbc0d1aae209af0bacad5fa0be0b8b1dc57b0fe8bcf5f7",
+      "size_bytes": 36455
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_3bd483b5a59b6989c96871cd9e4a5234a4a99d77647cf8650fe26619569c510a.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_3bd483b5a59b6989c96871cd9e4a5234a4a99d77647cf8650fe26619569c510a.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_3bd483b5a59b6989c96871cd9e4a5234a4a99d77647cf8650fe26619569c510a.json",
+      "publication_authorized": false,
+      "sha256": "3bd483b5a59b6989c96871cd9e4a5234a4a99d77647cf8650fe26619569c510a",
+      "size_bytes": 1018
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_ee129576973add13a22ab8d2232242b6f9b2b10a9e0203fe9f7ca203b816e64d.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_ee129576973add13a22ab8d2232242b6f9b2b10a9e0203fe9f7ca203b816e64d.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/partial_result_ee129576973add13a22ab8d2232242b6f9b2b10a9e0203fe9f7ca203b816e64d.json",
+      "publication_authorized": false,
+      "sha256": "ee129576973add13a22ab8d2232242b6f9b2b10a9e0203fe9f7ca203b816e64d",
+      "size_bytes": 1512
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/prospective_scenario_b486258eebe095633ced52d2946bf90b8adf94ef72bd9b4b009f1046d8ae4b14.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/prospective_scenario_b486258eebe095633ced52d2946bf90b8adf94ef72bd9b4b009f1046d8ae4b14.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/prospective_scenario_b486258eebe095633ced52d2946bf90b8adf94ef72bd9b4b009f1046d8ae4b14.json",
+      "publication_authorized": false,
+      "sha256": "b486258eebe095633ced52d2946bf90b8adf94ef72bd9b4b009f1046d8ae4b14",
+      "size_bytes": 2094
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+      "publication_authorized": false,
+      "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+      "size_bytes": 1907
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/accepted_dynamic_result_9c788e6ed806882ee208e71b64429e00f0070f3b05aaf4bfd5204a10c2ceb627.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/accepted_dynamic_result_9c788e6ed806882ee208e71b64429e00f0070f3b05aaf4bfd5204a10c2ceb627.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/accepted_dynamic_result_9c788e6ed806882ee208e71b64429e00f0070f3b05aaf4bfd5204a10c2ceb627.json",
+      "publication_authorized": false,
+      "sha256": "9c788e6ed806882ee208e71b64429e00f0070f3b05aaf4bfd5204a10c2ceb627",
+      "size_bytes": 35788
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_intake_root_e4a325e7bffdd468ce0c43a21ebcba3890415ce288cf035be1180a87e8aff30b.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_intake_root_e4a325e7bffdd468ce0c43a21ebcba3890415ce288cf035be1180a87e8aff30b.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_intake_root_e4a325e7bffdd468ce0c43a21ebcba3890415ce288cf035be1180a87e8aff30b.json",
+      "publication_authorized": false,
+      "sha256": "e4a325e7bffdd468ce0c43a21ebcba3890415ce288cf035be1180a87e8aff30b",
+      "size_bytes": 14746
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_native_work_865898c31fd1ceb1a6e414e12e8254e4772c5a43922ceac626879be01463e4f2.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_native_work_865898c31fd1ceb1a6e414e12e8254e4772c5a43922ceac626879be01463e4f2.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_native_work_865898c31fd1ceb1a6e414e12e8254e4772c5a43922ceac626879be01463e4f2.json",
+      "publication_authorized": false,
+      "sha256": "865898c31fd1ceb1a6e414e12e8254e4772c5a43922ceac626879be01463e4f2",
+      "size_bytes": 778014
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_source_family_811306d7ff1e7c04dc257263d51ac71c668fef49b544e749151ebde6cd545899.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_source_family_811306d7ff1e7c04dc257263d51ac71c668fef49b544e749151ebde6cd545899.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9a3ed1f3c9c9ca9a62482182dcafa1d5af9175dfdea057ecda01ded06943a720/dynamic_source_family_811306d7ff1e7c04dc257263d51ac71c668fef49b544e749151ebde6cd545899.json",
+      "publication_authorized": false,
+      "sha256": "811306d7ff1e7c04dc257263d51ac71c668fef49b544e749151ebde6cd545899",
+      "size_bytes": 57498
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6.json",
+      "publication_authorized": false,
+      "sha256": "75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+      "size_bytes": 36424
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10.json",
+      "publication_authorized": false,
+      "sha256": "c3d360d05983ae1edea0cd75e90fa88448442adfc5fa65ab92e5b4552c7615a2",
+      "size_bytes": 9499
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/progress_9fef1ef761454caa6dad9799394a1ac76fb6cd7dd3079ce3958356cef2c9297d.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/progress_9fef1ef761454caa6dad9799394a1ac76fb6cd7dd3079ce3958356cef2c9297d.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/progress_9fef1ef761454caa6dad9799394a1ac76fb6cd7dd3079ce3958356cef2c9297d.json",
+      "publication_authorized": false,
+      "sha256": "9fef1ef761454caa6dad9799394a1ac76fb6cd7dd3079ce3958356cef2c9297d",
+      "size_bytes": 676
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "publication_authorized": false,
+      "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+      "size_bytes": 144100
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/reservation.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/reservation.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/reservation.json",
+      "publication_authorized": false,
+      "sha256": "a3143d0b05674ee6ace8b42deca10be88d9f7f5f05cf95768740b727ca4ddb14",
+      "size_bytes": 141
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/result.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/result.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/result.json",
+      "publication_authorized": false,
+      "sha256": "fa932f6dcffeb056c9fbf08722c5e9cb0e20ceded980ca13ea6253142f2a236a",
+      "size_bytes": 582
+    },
+    {
+      "local_return_archive_path": "actual/review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "publication_authorized": false,
+      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+      "size_bytes": 40339
+    }
+  ],
+  "limitations": [
+    "No acceptance of V02 original unknown cause.",
+    "No ordinary G4 or owner completion inferred.",
+    "Focused native tail and final source metadata are pending."
+  ],
+  "original_witness_bytes_preserved": true,
+  "publication": "LOCAL_ONLY",
+  "schema": "radik.stage05.finite_actual_selection_append.v01",
+  "selection_basis": [
+    "All20 newly created ORDINARY_V02 public workspace leaves absent from admitted copy inventory.",
+    "Exact completed V02 supervisor outputs, stream and receipt; full new G3 consumer, ordinary native Work and source/history leaves retained.",
+    "All direct bootstrap actual leaves plus exact grant, copy inventory and independent result review."
+  ],
+  "source_copies_excluded": true,
+  "status": "DRAFT_FOR_FINAL_SELECTION_REVIEW"
+}

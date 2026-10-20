@@ -1,0 +1,29 @@
+{
+  "admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_admission.json",
+    "sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+    "size_bytes": 32654
+  },
+  "command": "cd /Users/admin/Projects/RadiolariaRadik && .venv-plan/bin/python -I -S -B review/stage05_qualified_experience_passage/v01/owner_terminal.py --admission-sha256 7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+  "focused_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/focused_stage05_result_review.json",
+    "sha256": "d5dc731ad794fad19dca487aa7cafefcb02f41514898d8b3f38c87167f12bff7",
+    "size_bytes": 36967
+  },
+  "maximum_operation_plus_cleanup_seconds": 3030,
+  "no_model_observation_after_handoff": true,
+  "one_use_reservation_reset_allowed": false,
+  "receipt_paths_relative_to_created_run": [
+    "receipt.json",
+    "reservation_outcome.json",
+    "process_1/receipt.json",
+    "process_1/child_stdout.raw"
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "run_directory_pattern": "review/stage05_qualified_experience_passage/v01/owner_terminal_runs/OWNER_<UTC>_<UUID>",
+  "run_identity_created_only_when_owner_invokes": true,
+  "schema": "radik.stage05.owner_command_review.v01",
+  "static_readback_only": true,
+  "status": "READY_ONE_FUTURE_OWNER_INVOCATION_NOT_EXECUTED",
+  "working_directory": "/Users/admin/Projects/RadiolariaRadik"
+}

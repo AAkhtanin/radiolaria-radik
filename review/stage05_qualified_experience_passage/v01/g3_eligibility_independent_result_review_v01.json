@@ -1,0 +1,126 @@
+{
+  "AUTH_calls": 0,
+  "G4_repeated": false,
+  "SAVE_calls": 0,
+  "Stage05_acceptance": false,
+  "cold_qualified_G3_consumer_repeated": false,
+  "controls": {
+    "age300_refused": true,
+    "conflict_and_quarantine_refused_before_work": true,
+    "evaluation_clock_lane": "EXPLICIT_OFFLINE_CONTROL_TIMES_NOT_WALL_TIME_PASSAGE",
+    "expired_refused": true,
+    "fresh_eligible": true,
+    "original_record_and_head_preserved": true,
+    "restored_permission": false,
+    "source_revision_mismatch_refused": true,
+    "ttl_extension": false,
+    "unrelated_task_refused": true,
+    "unscorable_no_update": true
+  },
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
+      "sha256": "6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0",
+      "size_bytes": 15033
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/source_admission.json",
+      "sha256": "6ac4bcdb14fe7bc0913ea80a83bfcf7c9044e5e724cf9cb1866e50d2934a9d10",
+      "size_bytes": 292104
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/fresh_controller_e65f4aaee3d12a3b1b58ef76235252f8b16654c974a730c0e938ccba4cce8725.json",
+      "sha256": "e65f4aaee3d12a3b1b58ef76235252f8b16654c974a730c0e938ccba4cce8725",
+      "size_bytes": 53831
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/feedback_8a8aca927b267ce85d503903e49ce4b33a0545a26d27d98f57b191fc43a37bc7.json",
+      "sha256": "8a8aca927b267ce85d503903e49ce4b33a0545a26d27d98f57b191fc43a37bc7",
+      "size_bytes": 64944
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+      "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+      "size_bytes": 33920
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
+      "sha256": "999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0",
+      "size_bytes": 1137
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/events_549e68b82ad9bba0f5a9808014a1b91476df9717c18a3c725044c694a33507cf.json",
+      "sha256": "549e68b82ad9bba0f5a9808014a1b91476df9717c18a3c725044c694a33507cf",
+      "size_bytes": 2602
+    }
+  ],
+  "fresh_memory_current_root": true,
+  "historical_accepted_at_and_expiry_preserved": true,
+  "limitations": [
+    "New G3 history is based on a new prospective native observation; it is not a renewal of the original memory authority. Explicit future clocks/restrictions are labeled controls, not elapsed wall time or external events.",
+    "Together with the retained native tail, this completes the focused native evidence set. The normal owner route and model boundary remain separate; no owner execution is inferred."
+  ],
+  "loaded_module_count": 69,
+  "native_E_calls": 0,
+  "new_prospective_native_observation": {
+    "clock_order_checked": true,
+    "eligibility": "ELIGIBLE",
+    "history_ref": "4b9466abd70320d0b1c2726706126f08ae40fab3dd5885ddcb126b9a4903c573",
+    "observed_result": 0
+  },
+  "ordinary_route_acceptance": false,
+  "original_history_envelope": {
+    "ct_context_anchor": 1792536351,
+    "et_observed_at": 1792536351,
+    "freshness_policy_id": "g34:bounded_history",
+    "kt_as_of": 1792536351,
+    "pt_created_at": 1792536351,
+    "source_observed_at": 1792536351,
+    "source_reported_at": 1792536351,
+    "system_ingested_at": 1792536351,
+    "system_verified_at": 1792536351,
+    "time_envelope_id": "drstime_v01:d645227d386df44abad6e0b37f408f583968ed0ca94b2d71a65d5583d3bc7b5b",
+    "time_envelope_version": "v0.1",
+    "ttl_seconds": 899,
+    "valid_from": 1792536351,
+    "valid_to": 1792537250
+  },
+  "owner_execution_authorized": false,
+  "phases": [
+    {
+      "name": "CURRENT_RAW_SOURCE_READ",
+      "seconds": 0.00021895766258239746
+    },
+    {
+      "name": "FRESH_MEMORY_DESCENT_AND_CURRENT_NATIVE_CONTROLLER",
+      "seconds": 2.9623362505808473
+    },
+    {
+      "name": "PROSPECTIVE_G3_OBSERVATION",
+      "seconds": 1.2914121663197875
+    },
+    {
+      "name": "EXPLICIT_TEMPORAL_AND_SCOPE_CONTROLS",
+      "seconds": 1.1483283331617713
+    },
+    {
+      "name": "UNSCORABLE_AUDIT_ONLY",
+      "seconds": 0.0005121668800711632
+    }
+  ],
+  "production_guard_count": 378,
+  "production_guards_unchanged": true,
+  "real_provider_calls": 0,
+  "reviewed_at_utc": "2026-10-20T22:47:05.080891+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "root_clocks": {
+    "accepted_at": 1792534515,
+    "extended": false,
+    "fixture_started_at": 1792536347,
+    "valid_to": 1792537193
+  },
+  "schema": "radik.stage05.g3_eligibility_independent_result_review.v01",
+  "seconds": 6.192874915897846,
+  "source_copy_file_count": 336,
+  "status": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+}

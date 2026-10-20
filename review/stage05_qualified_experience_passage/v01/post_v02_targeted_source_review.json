@@ -1,0 +1,119 @@
+{
+  "Stage05_acceptance": false,
+  "application_imports": false,
+  "authors": [
+    "/root/stage05_g3_contract",
+    "/root/stage05_g4_contract"
+  ],
+  "component_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+      "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+      "size_bytes": 4810
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_root_source_review_v04.json",
+      "sha256": "92596bf0d58cd8c0db1b726073cb61da27d0e8a54add0bea58e4d8a32d0053e9",
+      "size_bytes": 2229
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+      "size_bytes": 40339
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "sha256": "194a544c72bbea43e3ed63d305cca8edc4205603ddd11f3128b903fc255669ae",
+      "size_bytes": 5886
+    }
+  ],
+  "exact_changes": [
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+        "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+        "size_bytes": 35551
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/after/app/qualified_strategy.py",
+        "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+        "size_bytes": 33644
+      }
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+        "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+        "size_bytes": 125698
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/after/app/stage04_diagnostics.py",
+        "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+        "size_bytes": 117905
+      }
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+        "sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+        "size_bytes": 14592
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/after/app/qualified_experience_scenario.py",
+        "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+        "size_bytes": 9310
+      }
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+        "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+        "size_bytes": 64203
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/owner_terminal.py",
+        "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+        "size_bytes": 59463
+      }
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+        "sha256": "b0801b24dab8d7ffe072d701043d95f671cb1ac7e0bceb8f2844ca60c269fa49",
+        "size_bytes": 14268
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/rehearsal_runner.py",
+        "sha256": "982e2995c37fc4197c33e4bd5eb0a405e060a06f2d98583674c66b2cece39713",
+        "size_bytes": 14188
+      }
+    }
+  ],
+  "execution_granted": false,
+  "findings": [
+    "The public revision API returns WorkContinuationOutcomeV01; exact ACTIVE outcome is required before dispatching revision.program, and both pre-dispatch and final receipts retain the complete outcome.",
+    "The first closed native boundary annotation survives hostile getter/setter or equality values without replacing the original exception.",
+    "Scenario preserves original error across phase measurement, persistence, capture and emission failures; parent retains the primary before attachment validation or witness readback.",
+    "Only manifest-admitted source coordinates are retained: 128 traversed frames, 32 retained frames, 16 attachments; no raw error messages, locals or external paths. These coordinates do not independently attest loaded code.",
+    "Diagnostics adds exactly 237 native literal guards and two own literal guards; no prefix expansion or dynamic text admission.",
+    "Actual V02 cause remains unknown. A successful synthetic bootstrap does not retroactively identify that cause.",
+    "Current G3/G4 temporal source checks, TTLs, PURE invocation IDs, budgets, reference code and all acceptance gates remain unchanged.",
+    "Owner main and copied ordinary runner use the same manifest-derived diagnostic path map."
+  ],
+  "native_literal_count": 237,
+  "own_literal_codes": [
+    "qualified_native_revision_not_active",
+    "stage05_failure_source_identity"
+  ],
+  "owner_execution_allowed": false,
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/reviewer_metadata_preservation.json",
+    "sha256": "0f3850401ad79ae3af6975af0c4688c37ba0b3925dd95a32af086ccf23520e4a",
+    "size_bytes": 1010
+  },
+  "remaining": "Separate one-use diagnostic helper and fresh-memory native-tail grants and actual independent reviews are required. Compositional evidence may support later owner admission; no full ordinary rerun is implied by this source record.",
+  "review_method": "Read exact preserved preimage deltas, public revision contract and applied v04 failure capture; AST parsed only. Reused unchanged source acceptance without repeating the general audit.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.post_v02_targeted_source_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_FOCUSED_CONTROLS"
+}

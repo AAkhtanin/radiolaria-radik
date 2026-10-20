@@ -1,0 +1,44 @@
+{
+  "author": "/root",
+  "findings": [
+    "Exact active timing constants remain3000 seconds operation,900 cumulative native,30 additional cleanup. Three bounded600-second role responses reserve1800 seconds; no internal model call is permitted in native Work/E.",
+    "Recorded V02 ordinary prefix340.202 seconds and cumulative native362.795 seconds establish the expensive normal route scale; raw-fixture tail23.630 and eligibility6.193 seconds establish finite remaining work on a different source reader.",
+    "The approximately10.6x cold-G3 ratio is a sizing heuristic only.900 seconds is a finite attempt cap with margin, not a measured upper bound or success guarantee for the ordinary tail.",
+    "Source/history300-second eligibility and existing context/default TTLs remain unchanged. The operation clock is freshly issued; historical clocks/quota/ledger/reservations cannot be renewed.",
+    "Expiry, validation refusal, or cap exhaustion stops once and retains partial evidence. The future Terminal must show its primary closed reason and admitted source coordinates when available."
+  ],
+  "limits": {
+    "cleanup_seconds": 30,
+    "early_checkpoint_seconds": 600,
+    "event_row_bytes": 65536,
+    "event_rows": 8192,
+    "evidence_bytes": 67108864,
+    "input_bytes": 67108864,
+    "input_count": 1024,
+    "interrupt_grace_seconds": 10,
+    "kill_wait_seconds": 5,
+    "native_seconds": 900,
+    "operation_seconds": 3000,
+    "poll_seconds": 0.05,
+    "receipt_bytes": 4194304,
+    "semantic_idle_seconds": 900,
+    "status_seconds": 30,
+    "stdout_bytes": 33554432,
+    "terminate_grace_seconds": 5
+  },
+  "owner_actual_executed": false,
+  "remaining_observation": "One future owner invocation determines full connected timing and effective model results. It is not performed or semantically accepted during engineering.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.final_timing_independent_review.v01",
+  "status": "ACCEPTED_AS_FINITE_STOP_LIMITS_NOT_COMPLETION_ESTIMATE",
+  "timing_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/timing_basis_final.json",
+    "sha256": "1d3132eb68ab6746b962ecb056555e83b1e89621e3a5d4de6b065862677ebd3d",
+    "size_bytes": 4801
+  },
+  "timing_source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+    "sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+    "size_bytes": 16725
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "author": "/root",
+  "automatic_retry": false,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "sha256": "ff533ba09b1a900a8f47cfba9b6b3009e5c35617608758194595313438f8d722",
+      "size_bytes": 2447
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+      "size_bytes": 40339
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+      "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+      "size_bytes": 98522
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/result_e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2.json",
+      "sha256": "e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2",
+      "size_bytes": 16299
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
+      "sha256": "6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0",
+      "size_bytes": 15033
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/controls_actual/CLEANUP_V01/result.json",
+      "sha256": "bb197202963ad2dc97b09cb428320648111873dd44cc50b53177ec98b0a7c423",
+      "size_bytes": 1187
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
+      "sha256": "f8cb6a4299852e099e5fe0a0962010adb5608d448193fb44a873459d86737157",
+      "size_bytes": 3150
+    }
+  ],
+  "interpretation": [
+    "Three response maxima reserve1800 seconds. The900-second cumulative native cap includes ordinary current validation and all new finite consumers.300 seconds remain for setup, persistence and normal finalization; one existing cleanup window adds at most30 seconds after stop.",
+    "The raw-fixture memory route is faster than the ordinary TaskStore route and is not an owner duration measurement. The observed cold-G3 intervals differ by about10.6 times. Applying that ratio to other phases is an engineering sizing heuristic, not an established upper bound or completion guarantee.",
+    "The900-second native cap retains more than500 seconds beyond the362.795 seconds actually observed before V02 stopped. The measured isolated tail and focused eligibility establish finite actual work and give a scale for this margin; they do not establish full ordinary tail timing.",
+    "If the ordinary path exceeds either cap, the supervisor stops once and preserves partial witnesses. No deadline extension or automatic retry is permitted. Heartbeats receive no semantic progress credit."
+  ],
+  "limits": {
+    "cleanup_seconds": 30,
+    "maximum_operation_plus_cleanup_seconds": 3030,
+    "native_seconds": 900,
+    "operation_seconds": 3000,
+    "response_seconds_per_attempt": 600,
+    "role_attempts": 3
+  },
+  "observations": {
+    "fixture_cold_g3_seconds": 2.3019873341545463,
+    "fixture_cold_g4_seconds": 5.918434042483568,
+    "fixture_fresh_controller_seconds": 3.0207584584131837,
+    "fixture_prospective_feedback_seconds": 1.2929017916321754,
+    "fixture_qualified_g3_seconds": 3.222601583227515,
+    "fixture_qualified_g4_seconds": 6.658256832510233,
+    "fixture_tail_total_seconds": 23.63001254107803,
+    "focused_eligibility_controls_seconds": 1.1483283331617713,
+    "focused_eligibility_total_seconds": 6.192874915897846,
+    "focused_unscorable_seconds": 0.0005121668800711632,
+    "ordinary_v02_accepted_checkpoint_seconds": 340.202247875,
+    "ordinary_v02_cold_g3_current_completed_seconds": 364.603826,
+    "ordinary_v02_cold_g3_interval_seconds": 24.401578125,
+    "ordinary_v02_stopped_native_seconds": 362.794662044
+  },
+  "owner_actual": "NOT_RUN",
+  "remaining_owner_observations": [
+    "Full ordinary connected post-cold timing and effective model semantic results.",
+    "New owner actual followed by independent review; source readiness is not Stage05 closure."
+  ],
+  "schema": "radik.stage05.owner_timing_basis.v01",
+  "status": "PROPOSED_FINAL_LIMITS_FOR_INDEPENDENT_REVIEW",
+  "validity": [
+    "Existing source/history validity,300-second history reuse and native Root/Host public contracts are unchanged.",
+    "The future owner operation is freshly issued with a3000-second ceiling under the existing7800-second legacy maximum; material eligibility remains an independent earlier refusal.",
+    "No historical observation, accepted_at, valid_to, quota, reservation or model ledger is renewed."
+  ]
+}

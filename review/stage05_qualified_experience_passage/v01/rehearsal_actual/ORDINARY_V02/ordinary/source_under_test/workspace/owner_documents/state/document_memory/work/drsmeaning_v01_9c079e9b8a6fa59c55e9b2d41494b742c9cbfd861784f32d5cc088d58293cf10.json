@@ -1,0 +1,212 @@
+{
+  "content": {
+    "criterion": "Separate the response commitment, support window, eligibility, holiday exception, unknown telephone charges, required account identifier and attachment limit. Do not infer missing prices.",
+    "drs_hit_is_authority": false,
+    "drs_record_is_truth": false,
+    "drs_reuse_candidate_is_action_permission": false,
+    "intent": "Explain the support conditions of fictional Service Rowan, preserving eligibility, exceptions and unknown charges.",
+    "kind": "accepted_dynamic_result",
+    "meaning_key": "687ea7c4afd690baa2bc681bb8e57032d092f68ce1fc60b86eaca89939b9238b",
+    "record": {
+      "artifact_pointers": [
+        {
+          "access_policy_id": "radik:owned_accepted_document_memory",
+          "allowed_use_classes": [
+            "OPEN_ONE_ARTIFACT"
+          ],
+          "byte_length": 36424,
+          "content_sha256": "75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+          "creates_authority": false,
+          "creates_permission": false,
+          "forbidden_use_classes": [],
+          "media_type": "application/json",
+          "object_reference": "75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+          "payload_read_permitted": true,
+          "pointer_id": "drsart_v01:cf6af2d04074fa471b130833aa410f279095687905a98cd1f7fb6f9baa8508db",
+          "pointer_version": "v0.1",
+          "sensitivity_class": "INTERNAL",
+          "storage_class": "LOCAL_DOCUMENT",
+          "summary_read_permitted": true
+        }
+      ],
+      "authority_envelope": {
+        "action_permission_present": false,
+        "authority_class": "ROOT_ACCEPTED_WORK",
+        "authority_envelope_id": "drsauth_v01:ae05785ee1b103ecea4aa5113a3843d1ce3e48cef3f5a1637b1ee638f739f740",
+        "authority_envelope_version": "v0.1",
+        "authority_scope_fingerprint": "7339442d5a0d416334c3c241953c98c91cd7f733d883b5d860467add0e517929",
+        "creates_authority": false,
+        "creates_permission": false,
+        "owning_local_root_id": "root:radik:dynamic_memory",
+        "recording_component": "radik:document_memory",
+        "root_acceptance_state": "ACCEPTED_WORK",
+        "source_root_decision_hash": "d7b9ca96604571436ba1bdc6b30c86421d6e2d80bb45f9495ef98bd64dda0973",
+        "source_root_decision_id": "a6ba9f4030a478e216e51bcdae57b238c00f0a47f11725a00601f9575ec2e11e",
+        "source_root_decision_input_id": "bcdbcb8af267cb04e829f704d8c0b3ed3bc683fd558760fbd1514660d99a11ec"
+      },
+      "conflict_hints": [],
+      "content_fingerprint": "75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+      "creates_authority": false,
+      "creates_permission": false,
+      "lineage_edges": [],
+      "local_reference_kernel_scope": "LOCAL_REFERENCE_KERNEL",
+      "meaning_record_id": "drsmeaning_v01:9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10",
+      "meaning_record_version": "v0.1",
+      "memory_pointers": [],
+      "persistent_lifecycle_state": "ACTIVE",
+      "policy_version": "radik.dynamic.memory.v01",
+      "predecessor_record_id": null,
+      "recording_component": "radik:document_memory",
+      "resonance_reason": "Actual accepted document Work; new current eligibility and independent descent required.",
+      "reuse_policy_class": "CONTEXT_ONLY",
+      "risk_hints": [],
+      "safe_summary": "Accepted document Work result. The exact profile result, source bindings and original Root provenance are in the controlled local artifact. Current eligibility and fresh Root descent are required.",
+      "schema_versions": [
+        "radik.dynamic.memory.v01"
+      ],
+      "semantic_address": {
+        "address_profile_version": "v0.1",
+        "domain": "RADIK_DOCUMENT",
+        "intent_class": "context_lookup",
+        "meaning_schema_id": "radik.dynamic.memory",
+        "meaning_schema_version": "v01",
+        "namespace": "radik",
+        "semantic_address_id": "drsaddr_v01:84841425198232099b939d5aa47c1298deadbe8e52b6d47c305d5555294fa7eb",
+        "subject_class": "accepted_dynamic_document_result"
+      },
+      "semantic_tags": [
+        "document",
+        "accepted_result"
+      ],
+      "source_reference_ids": [
+        "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+        "fd545bf85aef9f440534d03e96864d10dc23dbf03706396d560ddd711fd67c98",
+        "601fe39a88601ee2eb0f10145433931cf12093f65a5aee2d3fbcb1b534f74231"
+      ],
+      "supersession_reason": null,
+      "time_envelope": {
+        "ct_context_anchor": 1792534515,
+        "et_observed_at": 1792534515,
+        "freshness_policy_id": "freshness:radik:document_memory",
+        "kt_as_of": 1792534515,
+        "pt_created_at": 1792534515,
+        "source_observed_at": 1792534515,
+        "source_reported_at": 1792534515,
+        "system_ingested_at": 1792534515,
+        "system_verified_at": 1792534515,
+        "time_envelope_id": "drstime_v01:325331792b90b352c83f3b056946907349886c2e339e9db5a0447cee1f83cfb4",
+        "time_envelope_version": "v0.1",
+        "ttl_seconds": 2678,
+        "valid_from": 1792534515,
+        "valid_to": 1792537193
+      }
+    },
+    "root_final_ref": "a6ba9f4030a478e216e51bcdae57b238c00f0a47f11725a00601f9575ec2e11e",
+    "semantic_keys": [
+      "document",
+      "accepted_result"
+    ],
+    "topic_id": "stage05_support_evidence",
+    "worldstate": {
+      "meaning": {
+        "criterion": "Separate the response commitment, support window, eligibility, holiday exception, unknown telephone charges, required account identifier and attachment limit. Do not infer missing prices.",
+        "goal": "Explain the support conditions of fictional Service Rowan, preserving eligibility, exceptions and unknown charges.",
+        "profile": "explain",
+        "sources": [
+          {
+            "revision": 1,
+            "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+            "source_ref": "radik:source:7f1b0200b32932b8deb2788adf3c0395"
+          }
+        ],
+        "supplied_candidate_sha256": null,
+        "topic": "stage05_support_evidence",
+        "version": "radik.dynamic.meaning.v01"
+      },
+      "meaning_key": "687ea7c4afd690baa2bc681bb8e57032d092f68ce1fc60b86eaca89939b9238b",
+      "policy": "radik.dynamic.memory.v01",
+      "sources": [
+        {
+          "revision": 1,
+          "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+          "source_ref": "radik:source:7f1b0200b32932b8deb2788adf3c0395"
+        }
+      ]
+    },
+    "worldstate_ref": "7339442d5a0d416334c3c241953c98c91cd7f733d883b5d860467add0e517929",
+    "writeback_root": {
+      "conflict_set_ids": [],
+      "decision": "ACCEPT",
+      "decision_id": "a6ba9f4030a478e216e51bcdae57b238c00f0a47f11725a00601f9575ec2e11e",
+      "decision_input_id": "bcdbcb8af267cb04e829f704d8c0b3ed3bc683fd558760fbd1514660d99a11ec",
+      "effect_requested": false,
+      "final_output_created": false,
+      "hard_failure_reasons": [],
+      "missing_evidence_refs": [],
+      "permission_created": false,
+      "prior_decision_id": null,
+      "reason_code": "validated_candidate_accepted",
+      "root_commit_created": true,
+      "selected_candidate_id": "memory_write:75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+      "target_root_id": "root:radik:dynamic_memory",
+      "transaction_id": "memory_writeback:75ed1f31f84572cf4a003eb9b76b2636b82dede2de073e1a64e117ef01244fd6",
+      "transition_decision": {
+        "abi_major_version": 1,
+        "actor_role": "gt",
+        "attempted_effect": "CREATE_ROOT_DECISION",
+        "decision": "RETURN_TO_ROOT",
+        "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+        "matched": true,
+        "missing_guards": [],
+        "reason_code": "gt_advisory_returns_to_root",
+        "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+        "required_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "root_commit_present": false,
+        "root_commit_required": true,
+        "rule_id": "gt_advisory_to_root_decision",
+        "satisfied_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "source_artifact_type": "GTAdvisoryReport",
+        "source_lifecycle_state": "VALIDATED",
+        "target_artifact_type": "RootDecision"
+      }
+    }
+  },
+  "domain": "RADIK_DOCUMENT",
+  "layer": "work",
+  "provenance": {
+    "created_by": "radik:document_memory",
+    "request_id": "radik-task:8c2cc842c7f347d9a7863bf05ed70267",
+    "trace_refs": [
+      {
+        "trace_id": "radik:dynamic_result:3d519669f88035d40afb250e4827ca77de1d7113a88188de248d9156b65a8f38"
+      }
+    ]
+  },
+  "record_id": "drsmeaning_v01:9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10",
+  "status": "active",
+  "time_envelope": {
+    "ct_session_anchor": "radik-task:8c2cc842c7f347d9a7863bf05ed70267",
+    "et_observed_at": "2026-10-20T22:15:15+00:00",
+    "freshness_class": "static",
+    "kt_asof": "2026-10-20T22:15:15+00:00",
+    "pt_created_at": "2026-10-20T22:15:15+00:00",
+    "ttl_seconds": 2678,
+    "valid_from": "2026-10-20T22:15:15+00:00",
+    "valid_to": "2026-10-20T22:59:53+00:00"
+  },
+  "trace_refs": [
+    {
+      "kind": "local_drs_resolver",
+      "trace_id": "trace:drsmeaning_v01:9c079e9b8a6fa59c55e9b2d41494b742c9cbfd861784f32d5cc088d58293cf10"
+    }
+  ],
+  "type": "radik_accepted_dynamic_result_v01"
+}

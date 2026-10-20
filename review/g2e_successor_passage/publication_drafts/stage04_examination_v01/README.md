@@ -4,6 +4,8 @@ Status: **STAGE04_CLOSED_PASS_COMPOSITE_INFORMATIONAL_SCOPE**. P31's full ordina
 
 [English](README.md) · [Русский](README.ru.md) · [LLM XML](READ_RADIK_STAGE04.xml) · [Canonical claims/evidence index](claims_evidence.json)
 
+Local Stage05 addendum: **SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN**. The historical Stage04 record below remains accepted. Focused native G3/G4 consumers and eligibility controls are reviewed; the ordinary cold rehearsal stopped. Stage05 remains local, the owner scenario is **NOT_RUN**, and closure is not established.
+
 
 <a id="CH01"></a>
 ## CH01 — Intent, proposal, decision and work
@@ -86,12 +88,33 @@ The canonical index has all 20 step IDs, exact task/operation/PID, request/crite
 | RADIK-STAGE-02 | Historical actual AUTH accepted; future grant applicability remains current. |
 | RADIK-STAGE-03 | Accepted fixed live work/basic console; local-file reference/mock SAVE only. |
 | RADIK-STAGE-04 | Composite current verdict: STAGE04_CLOSED_PASS_COMPOSITE_INFORMATIONAL_SCOPE. P30 E + P31 actual + applicable prior controls. |
-| RADIK-STAGE-05 | Feedback/GT and finite strategy/allocation; current time/DRS and P30/P31 memory remain credited. |
+| RADIK-STAGE-05 | Partial local preparation: source/unit evidence and focused native G3/G4 consumers and eligibility controls reviewed. Ordinary cold rehearsal stopped; owner NOT_RUN. P30/P31 memory credits retained; no Stage05 closure. |
 | RADIK-STAGE-06 | External DRS with independent Root/state/keys and real receiver consumption. |
 | RADIK-STAGE-07 | Finite missing pure capability: candidate → independent admission → same-task use; warm discovery. |
 | RADIK-STAGE-08 | Connected full minimal stand, applicable U1–U4 and current effect lifecycle; future FULL_MINIMAL_STAND acceptance. |
 
 The [canonical map](claims_evidence.json#/reference_navigation) binds both master-plan versions and dated reference status bridges. U1 is partial typed/action lifecycle integration; U2 is accepted within the finite Stage04 continuation scope, with broader effect history retained for Stage08. U3 targets Stage07. The U1–U4 map retains 36 individually mapped M/R/RW obligations; U4 is not wholly accepted from D/E alone. The [deferred register](claims_evidence.json#/deferred) keeps 21 stable rows with requirement, dependency, target and closure criterion, including the cognitive-needle umbrella and the exact N1-18 Factory candidate-only, N1-19 Marennya/UP quarantine-first, N4-12 NeedleFactory and N4-13 Marennya/UP rows. Catalog completeness remains NOT_ESTABLISHED.
+
+## Stage05 local preparation — focused native evidence, owner not run
+
+The four Stage05 rows remain open as **partial**. Independently reviewed source uses the pinned public G3/G4 contracts. The pure suite retains its 11 passing methods and nine source-defined mutation subtests; it executed no native Work. Separate focused runs now retain actual native consumers and refusals. These are distinct evidence scopes, not one completed ordinary owner session.
+
+| Existing obligation | New limited evidence | Still required |
+|---|---|---|
+| `DEFER-S5-FEEDBACK` | A prospective source-predicate expectation precedes its actual zero-valued result, eligible history and current consumed negative prior. Unscorable evidence preserves history with NO_UPDATE. | Complete ordinary owner causal evidence and independent review under the effective model boundary. |
+| `DEFER-S5-TEMPORAL-CONFLICT` | Fresh current memory descent preserves historical clocks. Separate native controls refuse age300, expiry, source revision, unrelated task, conflict and quarantine before Work. | Owner-route review; explicit offline clocks and controlled restrictions are not elapsed wall time or external events. |
+| `DEFER-S5-LESSON-CONSUMER` | Eligible scoped history changes actual native Work from source verification to source-condition audit, with a separate source-custody Root. | Verify the complete ordinary owner route; no restored permission or permanent prohibition is inferred. |
+| `DEFER-S5-FINITE-STRATEGY` | Both native programs consume seven selected check outputs in their final consumer under the same total nine-unit cap and distinct task/custody Roots. Allocation changes from 4/3 to 3/4. | Ordinary owner integration and independent review; redistribution is not speedup or full G4 acceptance. |
+
+The stopped ordinary V02 rehearsal completed cold G3 but retained only a sanitized G4 error; its exact primary cause remains unresolved. A separate direct bootstrap passed. The fresh-memory native tail then completed cold G3/G4, prospective feedback and qualified G3/G4, before stopping in a later restrictive-control constructor. That exact constructor repair and a separate 6.192875-second eligibility/unscorable run were independently reviewed. The stopped receipts remain unchanged. The focused fixtures re-read pinned raw bytes and construct fresh current Root/Host authority; they do not establish the full TaskStore ordinary-console route.
+
+G4 uses the existing public allocator and retains the complete ACTIVE revision outcome alongside its program. Current source/history gates apply at selection/bootstrap and final acceptance boundaries; per-quantum freshness or cancellation is not claimed. Pure high-score HardMask and mutation controls retain their narrower scope. The bounded source-marker predicate makes no claim about model quality or external truth.
+
+The failure reporter has independently checked synthetic AST helpers for 237 exact native reason literals, bounded owned frames and primary-exception preservation. These controls do not validate historical stream metadata or actual persistent witness readback, and do not recover the original V02 error.
+
+The prepared limits remain 3000 seconds overall, 900 cumulative native seconds, at most three 600-second role attempts and 30 seconds for cleanup. Their basis is composite engineering evidence from distinct admitted runs, not one measured owner completion or an ETA. No TTL is extended. The owner scenario is **NOT_RUN**; Stage05 closure is **NOT_ESTABLISHED**. Existing Stage04 claims, all 21 deferred directions and the other 17 deferred rows remain preserved. Stage06–08, external federation, U3/code generation, full AVF/Strong GT, cognitive needles and expanded G4 mathematics remain outside this passage.
+
+Evidence: [unit review](../../../stage05_qualified_experience_passage/v01/unit_independent_result_review.json), [stopped ordinary review](../../../stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json), [native tail review and full consumer witnesses](../../../stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json), [focused eligibility review](../../../stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json), [synthetic reporter review](../../../stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json), and [currentness correction](../../../stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json). The [canonical progress map](claims_evidence.json#/stage05_preparation) distinguishes source, unit, native, stopped and owner scopes. No Stage05 publication or owner execution is implied.
 
 The format separates narrative from execution artifacts, following the useful discipline of [SWE-bench experiments](https://github.com/SWE-bench/experiments). Explicit subject/digest/type links are inspired by [in-toto Statement v1](https://github.com/in-toto/attestation/blob/main/spec/v1/statement.md); this XML is not such a statement. [GitHub artifact attestations](https://docs.github.com/en/actions/concepts/security/artifact-attestations) likewise separates provenance from substantive correctness. These are format references, not certifications of Radik; no signing system is added.
 

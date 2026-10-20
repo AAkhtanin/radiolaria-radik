@@ -1,0 +1,30 @@
+{
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "8c9509f3adc5a9c97b373e66fbe9b52dfdedfde269a661192c037d017d98dbb2",
+    "size_bytes": 13529
+  },
+  "author": "/root",
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/build_return.py",
+    "sha256": "ce7208d69a7e8fdc24a5cbcf4ef6a22d931784b02f68f96e9b4d992136dfc784",
+    "size_bytes": 13394
+  },
+  "findings": [
+    "Exact delta only adds the two completed, retained NATIVE_TAIL_V01/work and ELIGIBILITY_V01/work directories to the finite actual-evidence prefix tuple.",
+    "Every exception still requires exact file hash/size, JSON pointer, subject hash and containing-object hash, one of three closed public subject shapes and recursive secret scanning of the excepted value.",
+    "Canonical archive names, JSON source/archive suffix preservation, no-follow bounded reads, private source denial, reservation and original archived bytes remain unchanged.",
+    "No candidate app import, publisher execution or packaging authority is created by this source review. Exact completed payload/exception inventory and independent one-use grant remain required."
+  ],
+  "owner_execution_performed": false,
+  "packaging_execution_allowed": false,
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_independent_source_review_v02.json",
+    "sha256": "01bfad847ac788331c5c75639aed0c08ee14840c7dd9c5f73b4717eb6f8c232e",
+    "size_bytes": 3468
+  },
+  "publication_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_adapter_prefix_delta_review.v01",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_PAYLOAD_AND_ONE_USE_PACKAGING_GRANT"
+}

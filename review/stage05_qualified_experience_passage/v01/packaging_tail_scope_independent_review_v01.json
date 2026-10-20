@@ -1,0 +1,72 @@
+{
+  "author": "/root",
+  "existing_selection": {
+    "all_publication_authorized_false": true,
+    "bytes": 3992130,
+    "canonical_unique_archive_paths": true,
+    "exact_original_bytes_verified": true,
+    "files": 50,
+    "legacy_public_claim_subjects": 12,
+    "new_exact_subject_exceptions": 7,
+    "normalized_current_root_claims": 2,
+    "other_secret_key_hits_in_json_jsonl": 0,
+    "selection_status": "DRAFT_FOR_FINAL_SELECTION_REVIEW",
+    "subject_classification": "Public native claim semantics: local source-scope Root, informational domain, route/profile/policy IDs, or verify/audit claim names. None represents an authorization identity.",
+    "subject_hash_pointer_body_bindings_verified": true,
+    "typed_current_claims": 5
+  },
+  "limits": [
+    "This is not a packaging or public-push grant. Final complete selection and exact inventory still require independent final review.",
+    "NATIVE_TAIL_V01 started while this review was reading existing files. No tail file bytes or outcomes are reviewed or approved here; the future closed exact files must be appended and classified separately.",
+    "The existing50-file selection is local-only and retains failed V02 plus focused bootstrap evidence without claiming ordinary G4 or owner completion.",
+    "No application/native/publisher modules were imported or executed. Data-only SHA, JSON shape and AST comparisons were performed."
+  ],
+  "references": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/build_return.py",
+      "sha256": "ce7208d69a7e8fdc24a5cbcf4ef6a22d931784b02f68f96e9b4d992136dfc784",
+      "size_bytes": 13394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+      "sha256": "33009af054bc10a30272334e9c52e9d66dbe691bc554eb76b5cca5154e5df8d2",
+      "size_bytes": 13473
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_independent_source_review_v02.json",
+      "sha256": "01bfad847ac788331c5c75639aed0c08ee14840c7dd9c5f73b4717eb6f8c232e",
+      "size_bytes": 3468
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/finite_actual_selection_append_v04.json",
+      "sha256": "ab348096a6e155fd92d1d1a560867e4ffbf635abd000798386853a4459a3f10f",
+      "size_bytes": 43772
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/public_native_subject_exceptions_draft_v01.json",
+      "sha256": "3fefdf4ab5c86a7385da250fc87f148f3bc313a4d471d5d2f85e9068ee50727b",
+      "size_bytes": 5595
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/packaging_tail_scope_data_observation_v01.json",
+      "sha256": "78abbf1eb2612ab0deabb163ecc642b56a5e933604b8d450ce015e0ef4cb8610",
+      "size_bytes": 3100
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ],
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.packaging_tail_scope_independent_review.v01",
+  "source_delta": "Only _subject_exceptions gains the exact offline_actual/NATIVE_TAIL_V01/work/ prefix, retaining trailing slash. The two existing ORDINARY_V02 prefixes are unchanged; all other top-level AST is identical to the accepted ce7208 preimage.",
+  "status": "SOURCE_DELTA_AND_EXISTING_FINITE_SELECTION_REVIEWED_NOT_PACKAGING_GRANT",
+  "unchanged_protections": [
+    "Exact file path/hash/size and JSON pointer/value/body hashes remain mandatory.",
+    "Only the same three public G34 subject shapes qualify; nested subject values are recursively scanned.",
+    "Original raw archive bytes remain unchanged; no generic subject or prefix-based content exception.",
+    "Canonical path, no symlink/single-link bounded read, JSON suffix preservation, duplicate/reserved archive names, unused exception rejection and independent one-use packaging grant are unchanged.",
+    "Publisher exact c94aafcd bytes are unchanged."
+  ]
+}

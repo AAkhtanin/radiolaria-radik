@@ -1,0 +1,40 @@
+{
+  "application_package_imports": 0,
+  "control_count": 4,
+  "elapsed_wall_seconds": 0.06978808250278234,
+  "findings": [
+    "Exact one-use grant and raw result bind to the independently reviewed sources.",
+    "All 385 fixed new codes survive first-location binding, safe projection and actual Terminal-line formatting; three arbitrary/prefix-lookalike strings remain sanitized.",
+    "No application package or native Work was invoked; this result does not admit owner execution."
+  ],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_control_grant_v01.json",
+    "sha256": "7a7cb7872fdb3a07523120dc223c9659147438f303748345cee3efce82b7533c",
+    "size_bytes": 5722
+  },
+  "literal_codes_checked": 385,
+  "model_calls": 0,
+  "native_work_calls": 0,
+  "owner_execution_allowed": false,
+  "production_guards_unchanged": true,
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostics_actual/DIAGNOSTICS_V01/reservation.json",
+    "sha256": "5a6f208776b265ae0e82de8de448f26edf402d7fb819695677b051ba69f5393a",
+    "size_bytes": 159
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostics_actual/DIAGNOSTICS_V01/result.json",
+    "sha256": "b88511e49de759c9d009004a23132160bd26130e8f5bb15bc5c5f5d81df02b5a",
+    "size_bytes": 998
+  },
+  "reviewed_at_utc": "2026-10-20T21:43:40.133223+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.diagnostic_control_independent_result_review.v01",
+  "semantic_acceptance": false,
+  "source_pins": {
+    "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d",
+    "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f",
+    "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8"
+  },
+  "status": "PASS_CLOSED_DIAGNOSTIC_PROJECTION_ONLY"
+}

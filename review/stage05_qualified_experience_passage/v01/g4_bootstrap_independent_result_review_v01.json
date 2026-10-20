@@ -1,0 +1,139 @@
+{
+  "actual_native_results": 1,
+  "admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/source_admission.json",
+    "sha256": "5e496a27dee706980fe9b138112c895a808c7bc666a50151dfa34608d2a82c40",
+    "size_bytes": 291632
+  },
+  "callback_admission_count": 3,
+  "callback_snapshot_count": 9,
+  "callback_source_sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+  "elapsed_fixture_seconds": 0.9282131250947714,
+  "evidence_refs": {
+    "bootstrap_artifact": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_artifact_6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93.json",
+      "sha256": "6ffd87c9c4584ed538d6e06ffb0ea7323a0910a4d8f52c9665dd1fd277370d93",
+      "size_bytes": 6871
+    },
+    "bootstrap_outcome": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/bootstrap_outcome_43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a.json",
+      "sha256": "43acc80c13f4bbb1f6771d2dd2d6c132934bbac3f73c15d18830f0b8c041a38a",
+      "size_bytes": 18143
+    },
+    "callback_admissions": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/callback_admissions_b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e.json",
+      "sha256": "b566e0ecd0262c892258a9c2fb1bfc509fc6e837275d86386bbc491e96b2043e",
+      "size_bytes": 315263
+    },
+    "final_native_state": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/final_native_state_febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa.json",
+      "sha256": "febf5d3db1423a8d31b0f20f53a85afdf0235092f412e6a80d349b855c98dcaa",
+      "size_bytes": 25263
+    },
+    "pre_dispatch": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/pre_dispatch_3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a.json",
+      "sha256": "3aa80a1ea4b52d5898e0aa32718972c47127a23215c5cac66c0d6fcc96e72e0a",
+      "size_bytes": 27203
+    },
+    "source_root": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/source_root_2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba.json",
+      "sha256": "2893475701fe9ec7447c3fceb2d5bf7a0482da652f906acb536b4c3b5d49d6ba",
+      "size_bytes": 13874
+    }
+  },
+  "findings": [
+    "All56 protected loaded modules, all332 copy pins, all actual output references and three actual callback admissions match the independent grant.",
+    "Public PURE source_gate Work completed and its native continuation outcome validated; actual artifact and task usage show exactly one compute unit, zero model units and no action identifiers.",
+    "The fresh fixture Root, empty registry, source reader, semantic envelope and Host did not restore V02 controller or history authority.",
+    "Both trusted source reads occurred in the same integer second with source_revision0. This control does not cover costly ordinary CurrentSource/G3 revalidation or a moving source clock.",
+    "No G4 revision, allocation quanta, final consumer, G3 feedback/warm history or ordinary route acceptance is established. The original sanitized V02 cause remains unresolved."
+  ],
+  "loaded_module_count": 56,
+  "loaded_source_and_all_copy_pins_verified": true,
+  "model_calls": 0,
+  "native_compute_units": 1,
+  "ordinary_acceptance": false,
+  "original_V02_failure_reproduced": false,
+  "owner_execution_authorized": false,
+  "phase_measurements": [
+    {
+      "name": "CURRENT_INERT_SOURCE_READ",
+      "seconds": 0.00021670758724212646
+    },
+    {
+      "name": "FRESH_SOURCE_ROOT",
+      "seconds": 0.010024458169937134
+    },
+    {
+      "name": "ADVISORY_SOURCE_CONTEXT",
+      "seconds": 0.019835582934319973
+    },
+    {
+      "name": "EXACT_CALLBACK_ADMISSION",
+      "seconds": 0.06818537507206202
+    },
+    {
+      "name": "BUILD_CANDIDATE",
+      "seconds": 0.00994983408600092
+    },
+    {
+      "name": "MATERIALIZE",
+      "seconds": 0.011045708321034908
+    },
+    {
+      "name": "BUILD_POLICY",
+      "seconds": 0.014401624910533428
+    },
+    {
+      "name": "EXPLICIT_TRUSTED_SOURCE_READ",
+      "seconds": 0.00019349996000528336
+    },
+    {
+      "name": "FRESH_HOST",
+      "seconds": 0.041982083581388
+    },
+    {
+      "name": "ENROLL",
+      "seconds": 0.011989125050604343
+    },
+    {
+      "name": "G4_BOOTSTRAP_ADVANCE",
+      "seconds": 0.10137874912470579
+    },
+    {
+      "name": "G4_BOOTSTRAP_VALIDATE",
+      "seconds": 0.021751457825303078
+    },
+    {
+      "name": "G4_BOOTSTRAP_ARTIFACT",
+      "seconds": 0.021993374451994896
+    }
+  ],
+  "production_guard_count": 378,
+  "production_guards_unchanged": true,
+  "provider_AUTH_SAVE_E_calls": 0,
+  "pure_candidate_id": null,
+  "pure_packet_id": null,
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+    "sha256": "0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8",
+    "size_bytes": 12306
+  },
+  "reviewed_at_utc": "2026-10-20T22:33:24.956421+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.g4_bootstrap_independent_result_review.v01",
+  "semantic_acceptance": false,
+  "status": "PASS_DIRECT_PURE_BOOTSTRAP_ONLY",
+  "trusted_source_reads": [
+    {
+      "evaluation_time": 1792535521,
+      "input_sha256": "869b28b5ada8d67e91cd4a8fb555e06824c36e6ff6e9fd0d05df22fa14a726ff",
+      "source_revision": 0
+    },
+    {
+      "evaluation_time": 1792535521,
+      "input_sha256": "869b28b5ada8d67e91cd4a8fb555e06824c36e6ff6e9fd0d05df22fa14a726ff",
+      "source_revision": 0
+    }
+  ]
+}

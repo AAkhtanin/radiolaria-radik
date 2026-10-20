@@ -1,0 +1,2841 @@
+{
+  "classification": "SOURCE_ONLY_NOT_ACTUAL_CAUSE_RECOVERY",
+  "code_count": 237,
+  "codes": {
+    "capability_current_code_changed": [
+      {
+        "line": 354,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "capability_loaded_callable_origin": [
+      {
+        "line": 138,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "capability_loaded_source_code_mismatch": [
+      {
+        "line": 151,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "capability_public_callable": [
+      {
+        "line": 135,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "capability_source_origin": [
+      {
+        "line": 141,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "capability_source_utf8": [
+      {
+        "line": 145,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_current_mode": [
+      {
+        "line": 785,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 907,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_dependency_inventory": [
+      {
+        "line": 743,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_dependency_source": [
+      {
+        "line": 748,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_future_observation": [
+      {
+        "line": 750,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_not_current": [
+      {
+        "line": 805,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_origin": [
+      {
+        "line": 789,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_packet": [
+      {
+        "line": 735,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 763,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_registry": [
+      {
+        "line": 731,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_retained_material": [
+      {
+        "line": 796,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_revision": [
+      {
+        "line": 726,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_root_transaction": [
+      {
+        "line": 739,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_capture_type": [
+      {
+        "line": 783,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_common_key_inflight_closed": [
+      {
+        "line": 564,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 416,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_consequential_as_pure": [
+      {
+        "line": 949,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_current_action_not_executable": [
+      {
+        "line": 428,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_duplicate_admission": [
+      {
+        "line": 199,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_duplicate_packet_binding": [
+      {
+        "line": 206,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1106,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_duplicate_task_policy": [
+      {
+        "line": 257,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_foreign_catalogue_origin": [
+      {
+        "line": 350,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_foreign_root": [
+      {
+        "line": 191,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1103,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_already_enrolled": [
+      {
+        "line": 821,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_capture_binding": [
+      {
+        "line": 917,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_capture_not_current": [
+      {
+        "line": 926,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_capture_origin": [
+      {
+        "line": 912,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_capture_type": [
+      {
+        "line": 905,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_current_root_binding": [
+      {
+        "line": 924,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_enrollment_origin": [
+      {
+        "line": 842,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_not_enrolled": [
+      {
+        "line": 883,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_informational_origin_snapshot": [
+      {
+        "line": 852,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 824,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_initial_source_binding": [
+      {
+        "line": 276,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_install_transition_sequence": [
+      {
+        "line": 1116,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_installed_action_not_current": [
+      {
+        "line": 1132,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_legacy_typed_binding": [
+      {
+        "line": 217,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_observations_invalid": [
+      {
+        "line": 169,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 221,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_packet_admission_mismatch": [
+      {
+        "line": 1110,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 212,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_reentry_forbidden": [
+      {
+        "line": 389,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_setup_shape": [
+      {
+        "line": 193,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_source_revision_not_advanced": [
+      {
+        "line": 363,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_source_snapshot_invalid": [
+      {
+        "line": 166,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_stale_revision": [
+      {
+        "line": 391,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_start_context_invalid": [
+      {
+        "line": 378,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_task_not_configured": [
+      {
+        "line": 942,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 409,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_task_policy_tuple": [
+      {
+        "line": 251,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_task_time_not_current": [
+      {
+        "line": 370,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_time_bridge_invalid": [
+      {
+        "line": 171,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 223,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_trusted_source_regression": [
+      {
+        "line": 361,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_trusted_time_invalid": [
+      {
+        "line": 174,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_type": [
+      {
+        "line": 532,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 543,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 555,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 757,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 814,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 876,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 932,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1003,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1038,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1059,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1095,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "host_work_already_attempted": [
+      {
+        "line": 944,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_admission_exhausted": [
+      {
+        "line": 1021,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_catalogue_epoch": [
+      {
+        "line": 1018,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_catalogue_exact_membership": [
+      {
+        "line": 1015,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_drs_budget": [
+      {
+        "line": 1026,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_drs_current_permission": [
+      {
+        "line": 1010,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_drs_observation_exceeds_reservation": [
+      {
+        "line": 1048,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_generation_exhausted": [
+      {
+        "line": 1017,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_guest_foreign_task": [
+      {
+        "line": 955,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_guest_observation_count": [
+      {
+        "line": 977,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_install_membership_epoch": [
+      {
+        "line": 1069,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_install_not_pending_or_duplicate": [
+      {
+        "line": 1066,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_missing_observation_binding": [
+      {
+        "line": 1051,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_need_current_binding": [
+      {
+        "line": 1071,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_need_not_observed": [
+      {
+        "line": 1048,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_need_resolved_input": [
+      {
+        "line": 1057,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_permission_materialization": [
+      {
+        "line": 1025,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_permission_missing_item": [
+      {
+        "line": 1028,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_permission_original_policy": [
+      {
+        "line": 269,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_permission_semantic_need": [
+      {
+        "line": 1032,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_permission_tuple": [
+      {
+        "line": 260,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_reservation_kind": [
+      {
+        "line": 1029,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_revision_missing_item_binding": [
+      {
+        "line": 970,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 999,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_revision_observed_need_value": [
+      {
+        "line": 1007,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_revision_resolved_need_inputs": [
+      {
+        "line": 1005,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_stale_host_revision": [
+      {
+        "line": 1006,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 1062,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "pure_task_permission_absent": [
+      {
+        "line": 1046,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_trigger_current_membership": [
+      {
+        "line": 1097,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_trigger_predecessor": [
+      {
+        "line": 1094,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_trigger_resolution_origin": [
+      {
+        "line": 1080,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "pure_trigger_type": [
+      {
+        "line": 1092,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_action_transaction": [
+      {
+        "line": 791,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 561,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_attempt_binding": [
+      {
+        "line": 481,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_attempt_budget_exhausted": [
+      {
+        "line": 540,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_attempt_history_omitted": [
+      {
+        "line": 533,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 489,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_attempt_not_observed": [
+      {
+        "line": 581,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 474,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_binding_type": [
+      {
+        "line": 263,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_budget_exhausted": [
+      {
+        "line": 227,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_budget_type": [
+      {
+        "line": 225,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_candidate_type": [
+      {
+        "line": 217,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_catalogue_revision": [
+      {
+        "line": 223,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 235,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_catalogue_type": [
+      {
+        "line": 180,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_consumed_input_binding": [
+      {
+        "line": 471,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_consumption_shape": [
+      {
+        "line": 460,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_context_type": [
+      {
+        "line": 202,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_continuation_context_required": [
+      {
+        "line": 220,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_cycle": [
+      {
+        "line": 194,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_duplicate_definition": [
+      {
+        "line": 184,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_duplicate_id": [
+      {
+        "line": 238,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_duplicate_review": [
+      {
+        "line": 399,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_effect_not_completed": [
+      {
+        "line": 576,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_foreign_root_input": [
+      {
+        "line": 267,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_guard_not_true": [
+      {
+        "line": 469,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 479,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_guard_type": [
+      {
+        "line": 424,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 249,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_actual_field": [
+      {
+        "line": 1128,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 982,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_artifact": [
+      {
+        "line": 1124,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_context_required": [
+      {
+        "line": 259,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_current_scope": [
+      {
+        "line": 1110,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_field": [
+      {
+        "line": 1139,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_foreign_task": [
+      {
+        "line": 341,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1165,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 260,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_not_completed": [
+      {
+        "line": 1137,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_not_observed": [
+      {
+        "line": 1117,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1169,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_provenance": [
+      {
+        "line": 1121,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_revision": [
+      {
+        "line": 1113,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1135,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1167,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_source": [
+      {
+        "line": 1118,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_historical_type": [
+      {
+        "line": 1105,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_host_admission": [
+      {
+        "line": 420,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_host_root": [
+      {
+        "line": 419,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_identity": [
+      {
+        "line": 218,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_input_contract": [
+      {
+        "line": 277,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_input_contract_type": [
+      {
+        "line": 281,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_input_name": [
+      {
+        "line": 252,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_inputs_type": [
+      {
+        "line": 241,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_item_identity": [
+      {
+        "line": 240,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_item_type": [
+      {
+        "line": 236,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_literal_name": [
+      {
+        "line": 256,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_literal_value": [
+      {
+        "line": 255,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_materialization_binding": [
+      {
+        "line": 512,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 447,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_missing_output_field": [
+      {
+        "line": 356,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_missing_producer": [
+      {
+        "line": 351,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_noncompletion_cause": [
+      {
+        "line": 487,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_output_binding": [
+      {
+        "line": 265,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_output_contract": [
+      {
+        "line": 270,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_output_type": [
+      {
+        "line": 358,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_plain_type": [
+      {
+        "line": 152,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_prior_context": [
+      {
+        "line": 518,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_prior_duplicate": [
+      {
+        "line": 517,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_prior_type": [
+      {
+        "line": 516,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_producer_not_completed": [
+      {
+        "line": 353,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_program_type": [
+      {
+        "line": 509,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_pure_not_dispatched": [
+      {
+        "line": 491,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_required_parent": [
+      {
+        "line": 465,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_required_review_missing": [
+      {
+        "line": 405,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_resource_scope": [
+      {
+        "line": 244,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 274,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_context": [
+      {
+        "line": 368,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 459,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_instance": [
+      {
+        "line": 379,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_key": [
+      {
+        "line": 457,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_not_complete": [
+      {
+        "line": 370,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_not_observed": [
+      {
+        "line": 377,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_order": [
+      {
+        "line": 494,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_root_task": [
+      {
+        "line": 374,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_result_validation": [
+      {
+        "line": 373,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_results_type": [
+      {
+        "line": 445,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_bindings_shape": [
+      {
+        "line": 396,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_bundle_source": [
+      {
+        "line": 691,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_candidate_type": [
+      {
+        "line": 624,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_child_budget": [
+      {
+        "line": 707,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_exact_scope": [
+      {
+        "line": 695,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_id": [
+      {
+        "line": 246,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_identity": [
+      {
+        "line": 684,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_member": [
+      {
+        "line": 628,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_not_completed": [
+      {
+        "line": 703,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_program_context": [
+      {
+        "line": 450,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_public_validation": [
+      {
+        "line": 701,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_semantic_source_required": [
+      {
+        "line": 692,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_source_context": [
+      {
+        "line": 688,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_source_type": [
+      {
+        "line": 663,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_task": [
+      {
+        "line": 686,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_review_type": [
+      {
+        "line": 682,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_revision_identity": [
+      {
+        "line": 626,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 284,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_root_authorization_shape": [
+      {
+        "line": 789,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 558,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_semantic_artifact": [
+      {
+        "line": 203,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_semantic_authority": [
+      {
+        "line": 204,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_semantic_binding": [
+      {
+        "line": 206,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_accepted_program_changed": [
+      {
+        "line": 939,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_already_charged": [
+      {
+        "line": 1293,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_catalogue_origin": [
+      {
+        "line": 924,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_context_required": [
+      {
+        "line": 1319,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_context_type": [
+      {
+        "line": 773,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 905,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 933,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1220,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1248,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1322,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1357,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_current_program": [
+      {
+        "line": 1327,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_dispatch_context_required": [
+      {
+        "line": 1292,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 935,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      },
+      {
+        "line": 398,
+        "literal_call": "ValueError",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+          "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+        }
+      }
+    ],
+    "work_task_enrollment_policy": [
+      {
+        "line": 917,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_enrollment_type": [
+      {
+        "line": 913,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_exhausted": [
+      {
+        "line": 777,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_exhaustion_reason": [
+      {
+        "line": 1237,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_foreign_snapshot": [
+      {
+        "line": 935,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_history_omitted": [
+      {
+        "line": 1328,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_host_type": [
+      {
+        "line": 886,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_initial_materialization": [
+      {
+        "line": 919,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_initial_revision": [
+      {
+        "line": 922,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_ledger_policy": [
+      {
+        "line": 881,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_narrowed_budget": [
+      {
+        "line": 953,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_not_enrolled": [
+      {
+        "line": 879,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_original_budget": [
+      {
+        "line": 874,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_original_context": [
+      {
+        "line": 863,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 865,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_original_scope": [
+      {
+        "line": 870,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_outcome_binding": [
+      {
+        "line": 1229,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_pending_duplicate": [
+      {
+        "line": 783,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_pending_inputs": [
+      {
+        "line": 569,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_pending_item": [
+      {
+        "line": 782,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_pending_not_ready": [
+      {
+        "line": 788,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_budget": [
+      {
+        "line": 833,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_host": [
+      {
+        "line": 842,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_identity": [
+      {
+        "line": 830,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_profile": [
+      {
+        "line": 836,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_review_scope": [
+      {
+        "line": 840,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_root": [
+      {
+        "line": 832,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_scope": [
+      {
+        "line": 839,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_policy_type": [
+      {
+        "line": 829,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_predecessor": [
+      {
+        "line": 946,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1252,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_prior_unenrolled_history": [
+      {
+        "line": 918,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_reentry": [
+      {
+        "line": 908,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_remaining_budget": [
+      {
+        "line": 949,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_required_review_removed": [
+      {
+        "line": 872,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_review_accounting": [
+      {
+        "line": 1395,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_review_context": [
+      {
+        "line": 1366,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_review_execution": [
+      {
+        "line": 1390,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_review_not_observed": [
+      {
+        "line": 1214,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1333,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_review_source": [
+      {
+        "line": 1368,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1371,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_snapshot_type": [
+      {
+        "line": 1155,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_source_shape": [
+      {
+        "line": 815,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_stale_host_revision": [
+      {
+        "line": 900,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 915,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_stale_snapshot": [
+      {
+        "line": 907,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1156,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_terminal_rewrite": [
+      {
+        "line": 961,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1308,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_identity": [
+      {
+        "line": 1183,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1260,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_not_consumed": [
+      {
+        "line": 1281,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_predecessor": [
+      {
+        "line": 1181,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1259,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_refs": [
+      {
+        "line": 945,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_required": [
+      {
+        "line": 1179,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 1258,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_task_trigger_work": [
+      {
+        "line": 1262,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_trigger_refs": [
+      {
+        "line": 229,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_undeclared_input_edge": [
+      {
+        "line": 264,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ],
+    "work_unknown_edge": [
+      {
+        "line": 634,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      },
+      {
+        "line": 242,
+        "literal_call": "_require",
+        "source_ref": {
+          "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+          "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+        }
+      }
+    ]
+  },
+  "schema": "radik.stage05.failure_literal_provenance.v01"
+}

@@ -1,0 +1,90 @@
+{
+  "application_modules_imported": false,
+  "control_author": "/root/stage05_g3_contract",
+  "dependency_preflight": {
+    "explicit_controlled_external_dependency": "project_stream_event = no_stream_metadata, accepts None only",
+    "method": "AST and symbol-table inspection; no selected body compiled or executed",
+    "selected_constants": 12,
+    "selected_functions": 9,
+    "unprovided_global_names": []
+  },
+  "extracted_functions_executed": false,
+  "findings": [
+    {
+      "evidence": "MEMORY_WRITEBACK_CODES is now extracted. The historical project_stream_event body is no longer extracted; the one declared external dependency is a local controlled function that accepts only None and explicitly refuses nonempty metadata. All present synthetic exceptions are no-stream cases, and a negative nonempty-metadata control is included. No stream validation coverage is claimed.",
+      "id": "DIAGNOSTICS_EXTRACTED_GLOBALS_INCOMPLETE",
+      "status": "RESOLVED_WITH_EXPLICIT_NARROW_SCOPE"
+    },
+    {
+      "distinct_literals": 237,
+      "evidence": "AST scan matches direct literal guard arguments and direct ValueError literal calls in the exact Work/Host source pins. No native module or helper execution was performed.",
+      "id": "NATIVE_LITERAL_PREFLIGHT",
+      "own_literals": 2,
+      "registry_contains_all_native_literals": true,
+      "status": "PASS_SOURCE_ONLY"
+    },
+    {
+      "evidence": "Frame bounds/mutations, first-cause retention, native-stage hostile annotations, extracted phase/catch cleanup precedence and AST revision-witness checks are unchanged from91d8 source review.",
+      "id": "OTHER_CONTROL_LOGIC",
+      "status": "UNCHANGED_FROM_FULL_PEER_READ"
+    }
+  ],
+  "io_scope": "Unchanged: exact pinned sources/grant/proposal and finite guards; exclusive reservation/result files only in one new case directory. No application imports, native Work, model, network or process execution.",
+  "limitations": [
+    "These are synthetic helper controls and AST structure checks, not actual persisted report-file readback or an owner failure run.",
+    "The30-second condition remains a post-check elapsed assertion; this review grants no long-running execution.",
+    "Underlying G4 application source was independently reviewed by G3; this runner review is not author acceptance of G4 code."
+  ],
+  "native_work_executed": false,
+  "owner_execution_authorized": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_proposal.json",
+    "sha256": "bb80b4b9702e5a146c1eeccd0154d3853e49dc5c5179eb13f0031040f2ba5335",
+    "size_bytes": 7745
+  },
+  "reviewed_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+      "sha256": "e015109f3fb6012c030d9b8559bc8b53aeb90d8d48783ce7baa01804c6824f20",
+      "size_bytes": 26649
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "size_bytes": 64203
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+      "size_bytes": 14592
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+      "size_bytes": 125698
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "size_bytes": 61617
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.failure_capture_controls_peer_source_review.v02",
+  "status": "SOURCE_ALLOWED_FOR_SEPARATELY_GRANTED_SYNTHETIC_AST_CONTROLS",
+  "supersedes_for_current_source": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_peer_source_review_v01.json",
+    "sha256": "8ec0592af703a3c853506e0c6e5952f34d4c5b042ca479c8948894ca958dec21",
+    "size_bytes": 5054
+  }
+}

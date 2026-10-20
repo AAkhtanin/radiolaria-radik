@@ -1,0 +1,11 @@
+{
+  "application_source_changed": false,
+  "execution_count": 0,
+  "grant_path": "review/stage05_qualified_experience_passage/v01/failure_capture_control_grant_v01.json",
+  "grant_sha256": "6f6137f539e242f4ed74e502ce2527a63e43f757f772a4be1206f51fafc9c1b9",
+  "reason": "Peer source review identified omitted MEMORY_WRITEBACK_CODES and unused project_stream_event transitive dependencies in the extracted diagnostics namespace. Root confirmed the grant remains unconsumed.",
+  "replacement_grant_required": true,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.unconsumed_control_grant_hold.v01",
+  "status": "WITHDRAWN_UNCONSUMED_PENDING_EXACT_NAMESPACE_CLOSURE_REPAIR"
+}

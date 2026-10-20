@@ -1,0 +1,93 @@
+{
+  "actual_gates": [
+    {
+      "location": "qualified_strategy.run entry",
+      "source": "_history(controller, experience_binding) invokes validate_strategy_history; _source_material separately reads current sources and validates the accepted controller."
+    },
+    {
+      "location": "qualified_strategy.run Host bootstrap",
+      "source": "Explicit _CurrentSource.read_current_v01 and the public Host constructor each call the trusted reader; it checks controller.current plus _history. This is construction-time freshness, not a callback invoked by each PURE dispatch."
+    },
+    {
+      "location": "qualified_strategy.run after source_gate bootstrap, before deriving allocation",
+      "source": "The explicit _history equality check uses the actual controller clock, exact source scope/adapter closure, retained binding/report and native descriptor eligibility."
+    },
+    {
+      "location": "qualified_strategy.run task Root review",
+      "source": "The task Root checks captured source equals freshly read _source_material and current save_allowed is False. This Root clause does not itself refresh history."
+    },
+    {
+      "location": "qualified_strategy.run revised Work pass",
+      "source": "One public advance_work_program_v01 executes the finite seven checks and final consumer. PURE dispatch refreshes code admission and charges enrolled compute units. Its callbacks operate on captured material; it does not call trusted_source.read_current_v01."
+    },
+    {
+      "location": "qualified_strategy.run application acceptance after revised Work",
+      "source": "The explicit source equality plus _history equality gate runs before final_material, receipt publication and returned result. The distinct custody Root separately checks raw source hashes and _history again."
+    }
+  ],
+  "application_imports_or_execution": false,
+  "clock_and_authority_conclusion": {
+    "additional_native_dispatch_gate_proposed": false,
+    "expiry": "validate_strategy_history requires context.now <= actual controller.now < context.valid_to; for opened history it reruns the native descriptor eligibility gate including max age, checks original history_valid_to, and validates retained source/Root/report bindings. No TTL or original history bytes are extended.",
+    "limitation": "If source/history becomes ineligible during the finite pass, pure computation on captured evidence can finish before the application freshness gate rejects its current acceptance. This does not promise immediate cancellation, per-quantum freshness, transaction isolation against asynchronous external changes, or acceptance of expired output.",
+    "per_quantum_history_refresh_required_for_selected_contract": false,
+    "reason": "Qualified history is advisory input to selecting one finite snapshot-bound Work program. Each pure check consumes that captured source, while authority remains the enrolled zero-provider/zero-effect native policy. No history lookup restores a permission. Final acceptance requires current eligibility with the actual clock.",
+    "reference_changes_proposed": false
+  },
+  "correction": "Uses a sealed live G3 history binding with explicit fresh application gates at selection/bootstrap, after bootstrap before allocation, and after the finite revised Work pass before application acceptance. The native PURE dispatcher refreshes capability code admission, not the trusted source reader. Individual checks compute over the captured source material; no per-quantum source refresh or expiry cancellation is claimed.",
+  "historical_evidence_preserved": true,
+  "historical_review_not_rewritten": true,
+  "new_acceptance_scope": "This note corrects only the wording and scope of the cited source review. It does not grant execution or substitute for native or owner observations.",
+  "owner_actual_acceptance_inferred": false,
+  "proposed_docstring_only_change": {
+    "applied": false,
+    "behavior_change": false,
+    "diff": {
+      "path": "review/stage05_qualified_experience_passage/v01/g3_history_boundary_docstring_proposed.diff",
+      "sha256": "51ce3f0a9f9ce1e37e06e00e28f3a18d53b112d2ab88b0cc2c78a283ad00854b",
+      "size_bytes": 606
+    },
+    "proposed_source_sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+    "requires_independent_source_review_before_import": true,
+    "source_before": {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d",
+      "size_bytes": 47580
+    }
+  },
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.g4_source_review_correction.v01",
+  "source_logic_unchanged": true,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+      "size_bytes": 33644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d",
+      "size_bytes": 47580
+    },
+    {
+      "path": "source/reference/hedgehog/work_execution_host_v01.py",
+      "sha256": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b",
+      "size_bytes": 52262
+    },
+    {
+      "path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    }
+  ],
+  "status": "SOURCE_CORRECTION_ONLY_NO_NEW_EXECUTION_OR_ADMISSION",
+  "superseded_claim": {
+    "json_pointer": "/examined_boundaries/0",
+    "review": {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_independent_source_review.json",
+      "sha256": "186ce73d69c58f42f3ab368706ec66ad02fd3cdb401b9914a17e509b1a3dbe29",
+      "size_bytes": 3344
+    },
+    "text": "Uses sealed live G3 history binding and independently revalidates it before each native dispatch."
+  }
+}

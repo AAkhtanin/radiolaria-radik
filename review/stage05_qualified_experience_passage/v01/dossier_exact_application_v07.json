@@ -1,0 +1,30 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "before_preserved": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/before",
+  "executor": "/root/stage05_g3_contract",
+  "files": [
+    {
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    },
+    {
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/README.md",
+      "sha256": "f51f77f4eb630dcc91c3b75609516fedf6430a0c17fe343fb3dc24114ae8b838",
+      "size_bytes": 20582
+    },
+    {
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml",
+      "sha256": "0d632a1ae3700bb06018c5f9470249ba6ad6c3a7bfedf275b0fb9851faa2e320",
+      "size_bytes": 29883
+    }
+  ],
+  "public_push": false,
+  "review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/dossier_independent_review_v07.json",
+    "sha256": "2436b34f4318368b5cae356e16a7a14e8cca64ffb9ba5c7f97328f4aae352943",
+    "size_bytes": 10018
+  },
+  "schema": "radik.stage05.dossier_exact_application.v07",
+  "status": "EXACT_REVIEWED_LOCAL_DOCS_APPLIED"
+}

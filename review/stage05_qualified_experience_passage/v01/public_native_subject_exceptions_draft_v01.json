@@ -1,0 +1,88 @@
+{
+  "classification": "PUBLIC_NATIVE_MEANING_NOT_AUTH_IDENTITY",
+  "entries": [
+    {
+      "containing_object_sha256": "f8c1e5de12de8dea04927b013f996e5121a1017eb5b2333f69b12d82b8672dbc",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/contract/claims/audit/subject",
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "subject_sha256": "c7ae875e9441fde0d818ad2088feb72110fb5e8cf31530204e16bbc6310f8d65"
+    },
+    {
+      "containing_object_sha256": "08a99c9749f0abf76e14b1bca83d9a8a9f34c9caa568751ae84fad0e281c7d64",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/contract/claims/expired_high_score/subject",
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "subject_sha256": "c7ae875e9441fde0d818ad2088feb72110fb5e8cf31530204e16bbc6310f8d65"
+    },
+    {
+      "containing_object_sha256": "0c8d7026706829b48b394c0f7e3e5190a2089a6405b8ef58ce84dd14d3928118",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/contract/claims/verify/subject",
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "subject_sha256": "41a638ec0e764c73b98c7cfb4bef94f0c362de0704956f3e900de4beaa9feed9"
+    },
+    {
+      "containing_object_sha256": "f8fb1995cf6ea8fa01725f874fcfd2caa44e3acc46ec5a07724acb49ee8080bc",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "kind": "G34_CURRENT_ROOT_CLAIM",
+      "subject_sha256": "8855233a0eba693696a41cfeda5ee29b535db82a64c521658514f94aa509be3f"
+    },
+    {
+      "containing_object_sha256": "91cc02e0dbbe497851f4c9d17b8edfae4e7f6ff9408f32f58cb866abea4976ec",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/object_or_value/subject",
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "subject_sha256": "c7ae875e9441fde0d818ad2088feb72110fb5e8cf31530204e16bbc6310f8d65"
+    },
+    {
+      "containing_object_sha256": "6aa23c27c6a7417d290b04c678cc0de1bbd131eacb0f3fbc324d08fb208a35ea",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/1/subject",
+      "kind": "G34_CURRENT_ROOT_CLAIM",
+      "subject_sha256": "898c74c2eed0452b1e51e567f237c37f1caa1e52f747466d56e76e15d07dc331"
+    },
+    {
+      "containing_object_sha256": "0af9180dc300a43211c47001abf8662271b50b1d3868cdcfa4dc0c00dcea4aa5",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+        "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+        "size_bytes": 144100
+      },
+      "json_pointer": "/current_review/input/root_review_packet/synthesis_proposal/normalized_claims/1/object_or_value/subject",
+      "kind": "G34_TYPED_CURRENT_CLAIM",
+      "subject_sha256": "41a638ec0e764c73b98c7cfb4bef94f0c362de0704956f3e900de4beaa9feed9"
+    }
+  ],
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "schema": "radik.stage05.exact_public_native_subjects.v01"
+}

@@ -1,0 +1,129 @@
+{
+  "actual_id": "DIAGNOSTICS_V01",
+  "allowed_module_execution": "EXACT_PINNED_STANDALONE_DIAGNOSTICS_ONLY",
+  "application_execution_allowed": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "exact_invocation": {
+    "argv": [
+      "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+      "-I",
+      "-S",
+      "-B",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v01/diagnostic_controls.py",
+      "--grant",
+      "review/stage05_qualified_experience_passage/v01/diagnostic_control_grant_v01.json",
+      "--sha256",
+      "<SHA256_OF_THIS_GRANT>"
+    ],
+    "cwd": "/Users/admin/Projects/RadiolariaRadik"
+  },
+  "max_seconds": 30,
+  "network": "DENIED",
+  "owner_execution_allowed": false,
+  "production_guard_refs": [
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+      "size_bytes": 259
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+      "size_bytes": 6437
+    },
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+      "size_bytes": 110730
+    },
+    {
+      "path": "state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "state/owned_effect_policy.json",
+      "sha256": "de195a2d722aabbc8a8de1f7b30c0acf1e448783f897e85490b149e197b6f3e6",
+      "size_bytes": 221
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+      "sha256": "4b9691c6452ca2adf1a401185e5eb887ffaee213ff512b5db993dfc2b1acefd1",
+      "size_bytes": 1264
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+      "sha256": "52b9546e65f4716ed1d46e6861c0dd49f8a3e5f7f6306021ad6db9067e2cbdfa",
+      "size_bytes": 1252
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+      "sha256": "af36a28303743d347db2c08977bc39bf14cc937b6d20ed0ef884f844aebc0768",
+      "size_bytes": 1312
+    },
+    {
+      "path": "state/p28_owner_scenario_reservations/e4267980357428df66b73e176c203abd12d051412981baa2a5ad95d087da44bd.json",
+      "sha256": "bccb691e6783036f0ed38742245057293a6558f26eaf66d537b5f680e7c1bf1a",
+      "size_bytes": 1253
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+      "size_bytes": 61959
+    }
+  ],
+  "production_writes_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_code_additions.json",
+    "sha256": "82d26a1e75429ec52a308977993d7c9693bcdc23185f4cea498ded4e3cae8830",
+    "size_bytes": 100025
+  },
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "reviewed_at_utc": "2026-10-20T21:42:45.812290+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_controls.py",
+    "sha256": "9be25bbe795bb80d0345b4a5c9919b75e52095a753e0ad831c9d42945685ba28",
+    "size_bytes": 12282
+  },
+  "schema": "radik.stage05.diagnostic_control_grant.v01",
+  "source_delta_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/diagnostic_delta_independent_review.json",
+    "sha256": "c38b730c4937f5c2aa10e3856132319b590984d63358e5fc236eb49c4e28e1a8",
+    "size_bytes": 3156
+  },
+  "source_findings": [
+    "Exact stdlib-only runner was fully reviewed independently; source pins and proposal/native-origin bytes are checked before the sole standalone diagnostic module execution.",
+    "Scenario and G3 modules are AST-parsed only. No application package/native consumer/provider import is admitted.",
+    "Audit fence denies sockets, subprocesses and private reads and confines writes to the new exclusive DIAGNOSTICS_V01 directory.",
+    "385 fixed literals, first-step preservation, actual safe projection and Terminal line, three unknown/prefix lookalikes and unchanged source/state guards are checked; no semantic acceptance follows."
+  ],
+  "source_pins": {
+    "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d",
+    "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f",
+    "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8"
+  },
+  "status": "SOURCE_ACCEPTED_FOR_PINNED_DIAGNOSTIC_CONTROLS"
+}

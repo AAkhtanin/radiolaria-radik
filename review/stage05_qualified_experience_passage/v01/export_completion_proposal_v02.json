@@ -1,0 +1,2289 @@
+{
+  "additional_count": 49,
+  "additional_file_refs": [
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/documentation_delta_proposal_v02.json",
+      "path": "review/stage05_qualified_experience_passage/v01/documentation_delta_proposal_v02.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/documentation_delta_proposal_v02.json",
+      "publication_authorized": false,
+      "sha256": "de8f48178a83d6149232ea236226dbe415ce18e318d14c1ab2f88f2fb9488a5c",
+      "size_bytes": 5611
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/dossier_independent_review_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/dossier_independent_review_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/dossier_independent_review_v01.json",
+      "publication_authorized": false,
+      "sha256": "4cb1191567091a5c8e902ccc3854fd189bb7ba70c6b493180e83778f3d76163c",
+      "size_bytes": 6358
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "publication_authorized": false,
+      "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+      "size_bytes": 6070
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/ordinary_entry.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/ordinary_entry.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/ordinary_entry.py",
+      "publication_authorized": false,
+      "sha256": "5342c866d94c645ac206b27a5e482438d271bc8145792d013244f181334c2c01",
+      "size_bytes": 23348
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/qualified_experience_scenario.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/qualified_experience_scenario.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/qualified_experience_scenario.py",
+      "publication_authorized": false,
+      "sha256": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f",
+      "size_bytes": 9188
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/runtime.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/runtime.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/runtime.py",
+      "publication_authorized": false,
+      "sha256": "5a26a0a26acedd6099e1c97a27dccb8c787823411190194e26e072af56f8721d",
+      "size_bytes": 46581
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/stage04_diagnostics.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/stage04_diagnostics.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/stage04_diagnostics.py",
+      "publication_authorized": false,
+      "sha256": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8",
+      "size_bytes": 117778
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/ordinary_profile_manifest.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/ordinary_profile_manifest.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/ordinary_profile_manifest.json",
+      "publication_authorized": false,
+      "sha256": "a90fe41cdb9c55f9b33571d1ea4c76aff3a75a13ce1f8eb02f8e4b553cc58375",
+      "size_bytes": 74127
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_source_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_source_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_source_review.json",
+      "publication_authorized": false,
+      "sha256": "cf69329f10647d314cfe9d38eb4e2f7a82b4483f4488b3bfa673c2024ba794e0",
+      "size_bytes": 9774
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_terminal.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_terminal.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_terminal.py",
+      "publication_authorized": false,
+      "sha256": "6d40f985b8ef8403ba2a44525c6a2078073bdb91721b44830efe81d50da12881",
+      "size_bytes": 57407
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/preservation.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/preservation.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/preservation.json",
+      "publication_authorized": false,
+      "sha256": "13cd07faaa118555ef357bcf576a9a062464ac59f0c38bf85715f66d666c4fe0",
+      "size_bytes": 4752
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_metadata_draft.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_metadata_draft.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_metadata_draft.json",
+      "publication_authorized": false,
+      "sha256": "107d4969a1ffc7b5ad6eb672e86df31f9835e389f35571b28f8d807bbafd5e33",
+      "size_bytes": 76664
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_source_admission.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_source_admission.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_source_admission.json",
+      "publication_authorized": false,
+      "sha256": "436d62cf730f0fbc6976def1641d8bc622c3b74d061d54714e89d3e48a1f6c98",
+      "size_bytes": 578
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_copy_inventory_draft.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_copy_inventory_draft.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_copy_inventory_draft.json",
+      "publication_authorized": false,
+      "sha256": "1428ecb8e7350d6ebc9120715cd95602fcc4196c8569e8b6e328d3f57cd017dc",
+      "size_bytes": 875909
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_runner.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_runner.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_runner.py",
+      "publication_authorized": false,
+      "sha256": "0f2c77a57347d038ed3d311a3fbbe2a8b12f3d874ec25a62ebb4347cad6a4554",
+      "size_bytes": 14188
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/runtime_source_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/runtime_source_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/runtime_source_review.json",
+      "publication_authorized": false,
+      "sha256": "bf6aaeb08d1acc5258b2a1ac1fe8e18e6680c4a51b3f9a80495fc92945724f70",
+      "size_bytes": 128343
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/metadata_history/v02/supervisor_timing.py",
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/supervisor_timing.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/supervisor_timing.py",
+      "publication_authorized": false,
+      "sha256": "86fdba55c6162cc9beaedeb519a87cfc8ae025204b3b97986ccdea2c2e53603c",
+      "size_bytes": 16725
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/owner_progress_display_independent_source_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_independent_source_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_independent_source_review.json",
+      "publication_authorized": false,
+      "sha256": "ad96fa5565a811d0988b8c95011655642bfe3ed59aa665edc663a45277da8158",
+      "size_bytes": 2309
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/owner_progress_display_proposal.json",
+      "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposal.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposal.json",
+      "publication_authorized": false,
+      "sha256": "925d32697791a862af5d5c169099c9836f7da9aaf26c5bceeafd259dad9ec980",
+      "size_bytes": 4194
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+      "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+      "publication_authorized": false,
+      "sha256": "b3e1e817666e6ff65c65d0ea01a74bd757805e49da69cd32b405bd464de07516",
+      "size_bytes": 2906
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+      "publication_authorized": false,
+      "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+      "size_bytes": 8465
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/case_result.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/case_result.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/case_result.json",
+      "publication_authorized": false,
+      "sha256": "1ce414d6bdca6ff2c1a35527de2359cff4a1915ba6bdbc1544d2ab81338bf724",
+      "size_bytes": 2378
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "publication_authorized": false,
+      "sha256": "aa5e2c1270c0b53af5c8ff80251409f7d64052b06ad85772bc4a2a3e4393b7ba",
+      "size_bytes": 16244
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "publication_authorized": false,
+      "sha256": "69007a92e36eaa6103eb4107bf0e23e49c356ab84295c7c6beb27bb57cbafa27",
+      "size_bytes": 499
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "publication_authorized": false,
+      "sha256": "f0e4e984bff56b4b26bfa697248a02ed686807e2e4fae6bf6a8dfd3c880c9b23",
+      "size_bytes": 2789
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "publication_authorized": false,
+      "sha256": "a0a0cde5c7a1b0b3afd7ac17a5a21e1a6ea6c324cb84810aa35abd95fb9947f8",
+      "size_bytes": 5027
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/output/71d28ba47cca4d66882ad782df1f7a11-7c2bb8b93ca667eeac47bc171a0e2cece6d277ccf988ed0a05eb36454bf99512.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/output/71d28ba47cca4d66882ad782df1f7a11-7c2bb8b93ca667eeac47bc171a0e2cece6d277ccf988ed0a05eb36454bf99512.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/output/71d28ba47cca4d66882ad782df1f7a11-7c2bb8b93ca667eeac47bc171a0e2cece6d277ccf988ed0a05eb36454bf99512.json",
+      "publication_authorized": false,
+      "sha256": "7c2bb8b93ca667eeac47bc171a0e2cece6d277ccf988ed0a05eb36454bf99512",
+      "size_bytes": 35700
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "publication_authorized": false,
+      "sha256": "e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04",
+      "size_bytes": 343666
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "publication_authorized": false,
+      "sha256": "3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406",
+      "size_bytes": 21171
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_loader_schema_callback_origins_f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_loader_schema_callback_origins_f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_loader_schema_callback_origins_f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c.json",
+      "publication_authorized": false,
+      "sha256": "f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c",
+      "size_bytes": 865824
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_source_history_boundary_fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_source_history_boundary_fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_source_history_boundary_fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2.json",
+      "publication_authorized": false,
+      "sha256": "fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2",
+      "size_bytes": 121994
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/partial_result_6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/partial_result_6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/partial_result_6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813.json",
+      "publication_authorized": false,
+      "sha256": "6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813",
+      "size_bytes": 1015
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "publication_authorized": false,
+      "sha256": "2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816",
+      "size_bytes": 2094
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/stopped_result_c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/stopped_result_c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/stopped_result_c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f.json",
+      "publication_authorized": false,
+      "sha256": "c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f",
+      "size_bytes": 1322
+    },
+    {
+      "classification": "NEW_REHEARSAL_RECEIPT_OR_ERROR",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/result.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/result.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/result.json",
+      "publication_authorized": false,
+      "sha256": "03b86c8f258713cc1e811c0b91a31dc0c1dc555edef988cc138590678d54b43c",
+      "size_bytes": 580
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_grant_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_grant_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_grant_v01.json",
+      "publication_authorized": false,
+      "sha256": "1c9ec4f197eb974efd713aae69dae5a634d636c928c86f0c7d496e585a093509",
+      "size_bytes": 579557
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_runner_source_review_v02.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner_source_review_v02.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner_source_review_v02.json",
+      "publication_authorized": false,
+      "sha256": "e828f3146eb3672208cbdf114fbf624e21002f37a3e8d9371b1e75e681f2e56b",
+      "size_bytes": 3104
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_seal_ordinary_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_seal_ordinary_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_seal_ordinary_v01.json",
+      "publication_authorized": false,
+      "sha256": "e812e0ee601e554117c5cbc13ef13165ed8f475bb6fd1d837a5b81df0bc77f2e",
+      "size_bytes": 30692
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+      "publication_authorized": false,
+      "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+      "size_bytes": 39071
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/result_matrix.json",
+      "path": "review/stage05_qualified_experience_passage/v01/result_matrix.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/result_matrix.json",
+      "publication_authorized": false,
+      "sha256": "08e60935c4335b4c5ab3250b7fec675574f6a788b0cf12fa8d4562ac4b93b4e7",
+      "size_bytes": 23430
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/return_adapter_independent_source_review_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/return_adapter_independent_source_review_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/return_adapter_independent_source_review_v01.json",
+      "publication_authorized": false,
+      "sha256": "b243665e2d80151b909f2abbe9d662e0d22da2dadf4e0c2eebd11168da888774",
+      "size_bytes": 5034
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_control_grant_v01.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_control_grant_v01.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_control_grant_v01.json",
+      "publication_authorized": false,
+      "sha256": "df56f6cae528d2935d0f10142b3225eb89236a95c2242428583b486dada1eae1",
+      "size_bytes": 6116
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls.py",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls.py",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls.py",
+      "publication_authorized": false,
+      "sha256": "6cee48422840e9eaf2a6518f7418ffafd346b797c629c509967ae084262fb33e",
+      "size_bytes": 25869
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/reservation.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/reservation.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/reservation.json",
+      "publication_authorized": false,
+      "sha256": "c08b38192b9b5eff44efc0ff56a7b8d8cd8e31e49b395032b53cd9e9ef712f7b",
+      "size_bytes": 136
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+      "publication_authorized": false,
+      "sha256": "bee2a17e5ee5d7e31c375a363ec1109b301bd86751626b3454c866a167197f25",
+      "size_bytes": 12394
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+      "publication_authorized": false,
+      "sha256": "59512efe8cb4c2ab25822d8962b36d37cb5409ff3bbaea363eb881c91bf9642d",
+      "size_bytes": 3639
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls_independent_source_review.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_source_review.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_source_review.json",
+      "publication_authorized": false,
+      "sha256": "0da7da9e2a9817c2c55f1c825c90a6c8698147d87b584e32c149d4c247891a3d",
+      "size_bytes": 5397
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/targeted_controls_proposal.json",
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_proposal.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/targeted_controls_proposal.json",
+      "publication_authorized": false,
+      "sha256": "dc036fbd1a947e2328600cca300806107bf2c7158f4090718ee85c10308eac14",
+      "size_bytes": 5335
+    },
+    {
+      "classification": "LOCAL_PREPARATION_SOURCE_OR_EVIDENCE",
+      "local_return_archive_path": "source/review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "proposed_publication_path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "publication_authorized": false,
+      "sha256": "ff533ba09b1a900a8f47cfba9b6b3009e5c35617608758194595313438f8d722",
+      "size_bytes": 2447
+    }
+  ],
+  "all_108_prior_export_runtime_files_read_back": true,
+  "all_16_selected_overlay_or_evidence_paths_match": true,
+  "all_56_candidate_install_mappings_match": true,
+  "application_execution": false,
+  "application_imports": 0,
+  "closure_limits": [
+    "Direct180-file manifest routing is complete at the pinned snapshot. This is not complete standalone installation from the publication checkout.",
+    "Four frozen original_actual snapshots remain only as already selected preserving-installation evidence; no new copied old state, current ledgers, operation files or owner reservations are added.",
+    "Only fourteen individually enumerated V01 new receipts, checkpoint/error files and the new accepted cold result are proposed from source_under_test. No copied source or old state tree is selected.",
+    "A new receipt may embed its original historical boundary material; retain the receipt whole. Independent final classification must inspect its exact bytes before any archive/publication action.",
+    "The retained G3 b02603f9 pre-docstring source bytes are outside this proposal in the V01 copied source. Post-V01 review pins them; no complete historical source reconstruction is claimed.",
+    "The prior wider rehearsal closure contains live-state and historical dependencies deliberately absent from publication; the prior1303-gap list is historical, not a current completeness claim."
+  ],
+  "copy_performed": false,
+  "created_at_utc": "2026-10-20T22:09:41.832553+00:00",
+  "direct_manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/ordinary_profile_manifest.json",
+    "sha256": "2b38368bb9edb68546d00decc0617dec92e29bb1247d33a5f1228e6522a567ba",
+    "size_bytes": 74128
+  },
+  "direct_runtime_route_counts": {
+    "ACCEPTED_STAGE04_EXPORT": 108,
+    "CANDIDATE_INSTALL_MAPPING": 56,
+    "SELECTED_CANDIDATE_OR_EVIDENCE": 16
+  },
+  "direct_runtime_routes": [
+    {
+      "destination": "app/__init__.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/__init__.py",
+        "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+        "size_bytes": 85
+      }
+    },
+    {
+      "destination": "app/budget.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/budget.py",
+        "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+        "size_bytes": 63688
+      }
+    },
+    {
+      "destination": "app/codex_transport.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/codex_transport.py",
+        "sha256": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6",
+        "size_bytes": 40498
+      }
+    },
+    {
+      "destination": "app/console_continuation.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/console_continuation.py",
+        "sha256": "48f8fb2e8c31eb64a1f161b0ada6fbf4295d3f0165f0236108e2d3267ef9d626",
+        "size_bytes": 103192
+      }
+    },
+    {
+      "destination": "app/contracts.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/contracts.py",
+        "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+        "size_bytes": 34050
+      }
+    },
+    {
+      "destination": "app/controller.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/controller.py",
+        "sha256": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a",
+        "size_bytes": 25597
+      }
+    },
+    {
+      "destination": "app/document_integration.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/document_integration.py",
+        "sha256": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075",
+        "size_bytes": 3897
+      }
+    },
+    {
+      "destination": "app/document_temporal.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/document_temporal.py",
+        "sha256": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382",
+        "size_bytes": 2220
+      }
+    },
+    {
+      "destination": "app/dynamic_control.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_control.py",
+        "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+        "size_bytes": 6732
+      }
+    },
+    {
+      "destination": "app/dynamic_delta.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_delta.py",
+        "sha256": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+        "size_bytes": 25737
+      }
+    },
+    {
+      "destination": "app/dynamic_delta_graph.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_delta_graph.py",
+        "sha256": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+        "size_bytes": 4740
+      }
+    },
+    {
+      "destination": "app/dynamic_delta_source.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_delta_source.py",
+        "sha256": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+        "size_bytes": 10498
+      }
+    },
+    {
+      "destination": "app/dynamic_delta_work.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_delta_work.py",
+        "sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "size_bytes": 2938
+      }
+    },
+    {
+      "destination": "app/dynamic_native.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_native.py",
+        "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+        "size_bytes": 64736
+      }
+    },
+    {
+      "destination": "app/dynamic_roles.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_roles.py",
+        "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+        "size_bytes": 24398
+      }
+    },
+    {
+      "destination": "app/dynamic_semantics.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_semantics.py",
+        "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+        "size_bytes": 17051
+      }
+    },
+    {
+      "destination": "app/dynamic_temporal.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_temporal.py",
+        "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+        "size_bytes": 1898
+      }
+    },
+    {
+      "destination": "app/dynamic_work.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_work.py",
+        "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "size_bytes": 20198
+      }
+    },
+    {
+      "destination": "app/evidence.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/evidence.py",
+        "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+        "size_bytes": 1707
+      }
+    },
+    {
+      "destination": "app/informational_control.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/informational_control.py",
+        "sha256": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+        "size_bytes": 20911
+      }
+    },
+    {
+      "destination": "app/informational_core.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/informational_core.py",
+        "sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+        "size_bytes": 21710
+      }
+    },
+    {
+      "destination": "app/informational_document.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/informational_document.py",
+        "sha256": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+        "size_bytes": 927
+      }
+    },
+    {
+      "destination": "app/informational_material.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/informational_material.py",
+        "sha256": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb",
+        "size_bytes": 5177
+      }
+    },
+    {
+      "destination": "app/intake.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/intake.py",
+        "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+        "size_bytes": 4307
+      }
+    },
+    {
+      "destination": "app/memory.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/memory.py",
+        "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+        "size_bytes": 43331
+      }
+    },
+    {
+      "destination": "app/native_authority.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/native_authority.py",
+        "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+        "size_bytes": 40597
+      }
+    },
+    {
+      "destination": "app/native_document.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/native_document.py",
+        "sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+        "size_bytes": 107036
+      }
+    },
+    {
+      "destination": "app/native_report_observer.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/native_report_observer.py",
+        "sha256": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321",
+        "size_bytes": 28998
+      }
+    },
+    {
+      "destination": "app/normal_profile.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/normal_profile.py",
+        "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+        "size_bytes": 8996
+      }
+    },
+    {
+      "destination": "app/normal_session.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/normal_session.py",
+        "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+        "size_bytes": 35778
+      }
+    },
+    {
+      "destination": "app/openai_plan_transport.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/openai_plan_transport.py",
+        "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+        "size_bytes": 110443
+      }
+    },
+    {
+      "destination": "app/ordinary_entry.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_entry.py",
+        "sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+        "size_bytes": 24648
+      }
+    },
+    {
+      "destination": "app/ordinary_rehearsal.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_rehearsal.py",
+        "sha256": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+        "size_bytes": 10160
+      }
+    },
+    {
+      "destination": "app/owner_scenario.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/owner_scenario.py",
+        "sha256": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+        "size_bytes": 30119
+      }
+    },
+    {
+      "destination": "app/plan_auth.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/plan_auth.py",
+        "sha256": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783",
+        "size_bytes": 50844
+      }
+    },
+    {
+      "destination": "app/proposal.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/proposal.py",
+        "sha256": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+        "size_bytes": 753
+      }
+    },
+    {
+      "destination": "app/qualified_experience.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+        "sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+        "size_bytes": 47571
+      }
+    },
+    {
+      "destination": "app/qualified_experience_scenario.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+        "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+        "size_bytes": 9310
+      }
+    },
+    {
+      "destination": "app/qualified_experience_work.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_work.py",
+        "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "size_bytes": 4819
+      }
+    },
+    {
+      "destination": "app/qualified_strategy.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+        "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+        "size_bytes": 33644
+      }
+    },
+    {
+      "destination": "app/runtime.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/runtime.py",
+        "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+        "size_bytes": 46927
+      }
+    },
+    {
+      "destination": "app/save_quota.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/save_quota.py",
+        "sha256": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+        "size_bytes": 15084
+      }
+    },
+    {
+      "destination": "app/semantic_membrane.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/semantic_membrane.py",
+        "sha256": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+        "size_bytes": 8173
+      }
+    },
+    {
+      "destination": "app/source_admission.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/source_admission.py",
+        "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+        "size_bytes": 12934
+      }
+    },
+    {
+      "destination": "app/source_successor.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/source_successor.py",
+        "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+        "size_bytes": 10775
+      }
+    },
+    {
+      "destination": "app/stage04_diagnostics.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+        "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+        "size_bytes": 117905
+      }
+    },
+    {
+      "destination": "app/stage04_native_scenario.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_native_scenario.py",
+        "sha256": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83",
+        "size_bytes": 15712
+      }
+    },
+    {
+      "destination": "app/stream_observation.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stream_observation.py",
+        "sha256": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+        "size_bytes": 25801
+      }
+    },
+    {
+      "destination": "app/task_budget.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/task_budget.py",
+        "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+        "size_bytes": 24838
+      }
+    },
+    {
+      "destination": "app/task_spec.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/task_spec.py",
+        "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+        "size_bytes": 5066
+      }
+    },
+    {
+      "destination": "app/task_store.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/task_store.py",
+        "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+        "size_bytes": 30541
+      }
+    },
+    {
+      "destination": "config/application_profile_gate.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/config/application_profile_gate.py",
+        "sha256": "ba36a623778b874d932884602a50e91c95feb1523e334fe7892ded7ac9077ff7",
+        "size_bytes": 14696
+      }
+    },
+    {
+      "destination": "config/console_model_policy.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/console_model_policy.json",
+        "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+        "size_bytes": 789
+      }
+    },
+    {
+      "destination": "config/launch.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/config/launch.py",
+        "sha256": "1df09cec18dbd75d93f06b1cecdaeeb28e678a39f9af0eb7b1c66741662d797d",
+        "size_bytes": 11021
+      }
+    },
+    {
+      "destination": "config/model_policy.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/model_policy.json",
+        "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+        "size_bytes": 1173
+      }
+    },
+    {
+      "destination": "config/native_profile_loader.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/config/native_profile_loader.py",
+        "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+        "size_bytes": 3032
+      }
+    },
+    {
+      "destination": "config/normal_session_policy.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/normal_session_policy.json",
+        "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+        "size_bytes": 524
+      }
+    },
+    {
+      "destination": "config/requirements-plan-auth.txt",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/requirements-plan-auth.txt",
+        "sha256": "ec54f0f0c92ca38c765d549cf18ff66290ab1c97126a2028657928c14b34af31",
+        "size_bytes": 546
+      }
+    },
+    {
+      "destination": "config/requirements-plan-base.txt",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/requirements-plan-base.txt",
+        "sha256": "ed980ab39e698253b5c38d488a81ec5d9a046d6d1ef5ae1896c9bd9eaf3d9e97",
+        "size_bytes": 988
+      }
+    },
+    {
+      "destination": "config/task_model_policy.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "config/task_model_policy.json",
+        "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+        "size_bytes": 1281
+      }
+    },
+    {
+      "destination": "review/dependencies/inventory.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/dependencies/inventory.json",
+        "sha256": "e69324b7b44341fc001518bfaa96d9c0d7fe2e3228eb8c3730e9e336400fe557",
+        "size_bytes": 5250
+      }
+    },
+    {
+      "destination": "review/direct_plan_passage/auth_dependency_metadata.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/direct_plan_passage/auth_dependency_metadata.json",
+        "sha256": "634e7675f6568e4763a3dea92ca1e14b69c1ca34002e072749acde644790f123",
+        "size_bytes": 9082
+      }
+    },
+    {
+      "destination": "review/direct_plan_passage/bootstrap_identity.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/direct_plan_passage/bootstrap_identity.json",
+        "sha256": "e8a24d947ca3a1a4cc69784fd5864b725ebe6c31f94102a3a76eb208e2124eea",
+        "size_bytes": 869
+      }
+    },
+    {
+      "destination": "review/direct_plan_passage/protocol_references.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/direct_plan_passage/protocol_references.json",
+        "sha256": "5a57122af814c5e37b60d0f3eb8fb2bb208847741d179b305f8ab07c483a7da6",
+        "size_bytes": 4171
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py",
+        "sha256": "7fc4a4f0492edbc5e8cb0545f0f9170cb54cfa1eb7a7313742fa345312d065e4",
+        "size_bytes": 14403
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py",
+        "sha256": "277f2e8117b53447ef35c8cee4284eb26ca688a6f918b4366b5cea8524fc00d7",
+        "size_bytes": 25554
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json",
+        "sha256": "fe0967fa976283619fbcaf3f19d3fb52ad8286353f8c9db6d36c8883ac5c195c",
+        "size_bytes": 11984
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py",
+        "sha256": "45eeb6c19d5b27df665e0547fcc34ba9b9445e7c3ea1bb0e011daa7abd32231b",
+        "size_bytes": 15364
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py",
+        "sha256": "91ba5b4f719519d66074a1b5f680c59259faaa4d682fbdde8c4197f9262f0df8",
+        "size_bytes": 22477
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+        "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+        "size_bytes": 29523
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+        "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+        "size_bytes": 792178
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+        "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+        "size_bytes": 32601
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+        "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+        "size_bytes": 18116
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+        "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+        "size_bytes": 57747
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+        "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+        "size_bytes": 3888
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+        "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+        "size_bytes": 48485
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+        "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+        "size_bytes": 157202
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+        "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+        "size_bytes": 57213
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+        "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+        "size_bytes": 3830
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+        "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+        "size_bytes": 35826
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+        "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+        "size_bytes": 54293
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+        "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+        "size_bytes": 30908
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+        "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+        "size_bytes": 38035
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+        "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+        "size_bytes": 21496
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+        "sha256": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f",
+        "size_bytes": 54539
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+        "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+        "size_bytes": 24063
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+        "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+        "size_bytes": 43017
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+        "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+        "size_bytes": 76437
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+        "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138",
+        "size_bytes": 574821
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+        "sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+        "size_bytes": 3996
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+        "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+        "size_bytes": 128809
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+        "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+        "size_bytes": 293681
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+        "sha256": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c",
+        "size_bytes": 967599
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+        "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+        "size_bytes": 48487
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+        "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+        "size_bytes": 52804
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+        "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+        "size_bytes": 43352
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+        "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+        "size_bytes": 31043
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+        "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+        "size_bytes": 58880
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+        "sha256": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6",
+        "size_bytes": 146346
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+        "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+        "size_bytes": 15364
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+        "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+        "size_bytes": 89168
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+        "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+        "size_bytes": 53552
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+        "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+        "size_bytes": 30549
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+        "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+        "size_bytes": 18910
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+        "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+        "size_bytes": 50900
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+        "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+        "size_bytes": 4052
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+        "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+        "size_bytes": 14728
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+        "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+        "size_bytes": 17449
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+        "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+        "size_bytes": 974
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+        "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+        "size_bytes": 11394
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+        "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+        "size_bytes": 61617
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+        "sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2",
+        "size_bytes": 5858
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+        "sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd",
+        "size_bytes": 2703
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+        "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+        "size_bytes": 2711
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+        "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+        "size_bytes": 4583
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+        "sha256": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4",
+        "size_bytes": 142221
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+        "sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c",
+        "size_bytes": 23992
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+        "sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742",
+        "size_bytes": 50293
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+        "sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29",
+        "size_bytes": 5829
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+        "sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c",
+        "size_bytes": 4442
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+        "sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468",
+        "size_bytes": 79878
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+        "sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1",
+        "size_bytes": 1635
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+        "sha256": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2",
+        "size_bytes": 404077
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+        "sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6",
+        "size_bytes": 8515
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+        "sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d",
+        "size_bytes": 59314
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+        "sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3",
+        "size_bytes": 7732
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+        "sha256": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5",
+        "size_bytes": 17635
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+        "sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9",
+        "size_bytes": 1762
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+        "sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7",
+        "size_bytes": 7381
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+        "sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909",
+        "size_bytes": 3774
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+        "sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01",
+        "size_bytes": 4774
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+        "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+        "size_bytes": 31692
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+        "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+        "size_bytes": 357296
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+        "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+        "size_bytes": 32082
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+        "sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb",
+        "size_bytes": 3804
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+        "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+        "size_bytes": 2522
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+        "sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e",
+        "size_bytes": 14505
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+        "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+        "size_bytes": 13903
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+        "sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2",
+        "size_bytes": 830
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+        "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+        "size_bytes": 1333
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+        "sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df",
+        "size_bytes": 4432
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+        "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+        "size_bytes": 4160
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+        "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+        "size_bytes": 14114
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+        "sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e",
+        "size_bytes": 3492
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+        "sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d",
+        "size_bytes": 752380
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py",
+        "sha256": "25b7ad48287fa0478b7115f3fe0dc8752c3e2c2eef46b1a7e475f0b6341a5cae",
+        "size_bytes": 38279
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py",
+        "sha256": "6acc55d6987e6f3a3d58e707f28d2f940b71f4ed270fd31cbc8ecacbe40e8187",
+        "size_bytes": 47240
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py",
+        "sha256": "bf48bc125d881da15be32841c01d8717bc1df2aa1b9ebf02c9ee8edee03f37e9",
+        "size_bytes": 10036
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py",
+        "sha256": "02e19d553e124137085c9f34da859861fb62033551e2f299d3ecd34d27c684b2",
+        "size_bytes": 18598
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py",
+        "sha256": "8eb7c5440ec4e6a261bcfd807bd0d800a4997b297d00f15ef6bdbe509a1c0a37",
+        "size_bytes": 14929
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py",
+        "sha256": "84a0bbc4c0cba614b8821dd4e405d48fdc620c97608914f239a4a59a591fea31",
+        "size_bytes": 15483
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py",
+        "sha256": "c3fd6357365384e508c8031d47ad81ff65c62a107a6d4a097ac75bdda6ea86c2",
+        "size_bytes": 30812
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/activate_profile.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/activate_profile.py",
+        "sha256": "aedc50b554df3ede44c50c2b2380b67ecdce917e19724c84aa544a453c8b3094",
+        "size_bytes": 21349
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs_v02.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs_v02.json",
+        "sha256": "3a2fd29d66d60eec6b3af107fc3208369a9322a9bb159b9445d191aea524601b",
+        "size_bytes": 3751
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py",
+        "sha256": "74f6e95859ddea92a1cea10adb8d0bfd1fb00dc4061812dd8ff543404cc59c6a",
+        "size_bytes": 71786
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/post_controls.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/post_controls.py",
+        "sha256": "344683e3cffb804dcb3637711e2b2fd5ed7bffd3ad9843d5969bdf4e3deede98",
+        "size_bytes": 13404
+      }
+    },
+    {
+      "destination": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json",
+        "sha256": "488b34bdaf7573cdce29def7fbe3007aaa2dd24e7a9f87409a839bf7577f1b40",
+        "size_bytes": 43348
+      }
+    },
+    {
+      "destination": "review/package_direct_plan_return.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/package_direct_plan_return.py",
+        "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+        "size_bytes": 145066
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/activate_profile.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/activate_profile.py",
+        "sha256": "65f4b2da60781c419371661199bb2a4c2080f6a9d5875cd84c6a1572f352d93c",
+        "size_bytes": 20148
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/inputs/scenario.json",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/inputs/scenario.json",
+        "sha256": "8bf62e0e44a677f2aa838d2bb69291c15e7dec0846ae0632a90288b808316d67",
+        "size_bytes": 1207
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/__init__.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/__init__.py",
+        "sha256": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8",
+        "size_bytes": 67
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/__init__.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/__init__.py",
+        "sha256": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0",
+        "size_bytes": 590
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+        "sha256": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6",
+        "size_bytes": 65393
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+        "sha256": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc",
+        "size_bytes": 22566
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+        "sha256": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe",
+        "size_bytes": 62327
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py",
+        "sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27",
+        "size_bytes": 9665
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py",
+        "sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42",
+        "size_bytes": 15842
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py",
+        "sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079",
+        "size_bytes": 57704
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py",
+        "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+        "size_bytes": 29609
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py",
+        "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+        "size_bytes": 57644
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py",
+        "sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13",
+        "size_bytes": 65821
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+        "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+        "size_bytes": 59463
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/predecessor_install_state.json",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/predecessor_install_state.json",
+        "sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+        "size_bytes": 42680
+      }
+    },
+    {
+      "destination": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+      "route": "SELECTED_CANDIDATE_OR_EVIDENCE",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+        "sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+        "size_bytes": 16725
+      }
+    },
+    {
+      "destination": "review/transport/direct_plan_gate.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/review/transport/direct_plan_gate.py",
+        "sha256": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6",
+        "size_bytes": 33498
+      }
+    },
+    {
+      "destination": "review/transport/model_scope.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/transport/model_scope.py",
+        "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+        "size_bytes": 15477
+      }
+    },
+    {
+      "destination": "review/transport/owner_failure_report.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/transport/owner_failure_report.py",
+        "sha256": "049680da7271b0db473a634300535914946bfd8e263f9525ba7ffddc3aa3736c",
+        "size_bytes": 3852
+      }
+    },
+    {
+      "destination": "review/transport/plan_dependencies.py",
+      "existing_export_bytes_verified": true,
+      "route": "ACCEPTED_STAGE04_EXPORT",
+      "source_ref": {
+        "path": "review/transport/plan_dependencies.py",
+        "sha256": "740eda10b97c2e080e5b967c623bba54e3e6b8770aba9b559175aedf2ead3caa",
+        "size_bytes": 23311
+      }
+    },
+    {
+      "destination": "review/transport/radik_owner_start.py",
+      "route": "CANDIDATE_INSTALL_MAPPING",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/review/transport/radik_owner_start.py",
+        "sha256": "491a901c57bd4d992a10106e028e52842d63c583b0863f012a64f5099496707d",
+        "size_bytes": 143825
+      }
+    }
+  ],
+  "direct_runtime_unresolved": [],
+  "exclusions": [
+    "No recursive rehearsal/offline/source_under_test copying.",
+    "No copied old state, active reservations, lock files, credentials, AUTH material, .git internals, environment, bytecode or caches.",
+    "No Stage05 git commit, push, public branch, merge or release is authorized by this proposal.",
+    "No long owner operation, model/AUTH/SAVE/native E, retry, or source-reference edit."
+  ],
+  "git_commands_performed": false,
+  "groups": {
+    "new_source_reviews_and_proposals": [
+      "review/stage05_qualified_experience_passage/v01/dossier_independent_review_v01.json",
+      "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "review/stage05_qualified_experience_passage/v01/owner_progress_display_independent_source_review.json",
+      "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposal.json",
+      "review/stage05_qualified_experience_passage/v01/owner_progress_display_proposed.diff",
+      "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_runner_source_review_v02.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+      "review/stage05_qualified_experience_passage/v01/return_adapter_independent_source_review_v01.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_grant_v01.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_seal_ordinary_v01.json",
+      "review/stage05_qualified_experience_passage/v01/targeted_control_grant_v01.json",
+      "review/stage05_qualified_experience_passage/v01/targeted_controls.py",
+      "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+      "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_source_review.json",
+      "review/stage05_qualified_experience_passage/v01/targeted_controls_proposal.json",
+      "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "review/stage05_qualified_experience_passage/v01/result_matrix.json",
+      "review/stage05_qualified_experience_passage/v01/documentation_delta_proposal_v02.json"
+    ],
+    "ordinary_v01_new_receipts_and_errors": [
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/result.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/case_result.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/partial_result_6376a48c00f1adb3478acfca0565589f7150e86ac4c7305ff2d014440a7f3813.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/stopped_result_c2efaf6fcb6496f59a43763ff14be0c198ce1d201887675da9d18a80a981111f.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_loader_schema_callback_origins_f19ef1117b4a27392d71c129dba48fe666b98e80f540571dd2c375d4845cd51c.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_source_history_boundary_fe331e18c5562352b50afe914998d8ae4f6bf4274e4028a502f797715e618ff2.json",
+      "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/output/71d28ba47cca4d66882ad782df1f7a11-7c2bb8b93ca667eeac47bc171a0e2cece6d277ccf988ed0a05eb36454bf99512.json"
+    ],
+    "preserved_metadata_v02": [
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/ordinary_entry.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/qualified_experience_scenario.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/runtime.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/stage04_diagnostics.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/ordinary_profile_manifest.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_source_review.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_terminal.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/preservation.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_metadata_draft.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/profile_source_admission.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_copy_inventory_draft.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_runner.py",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/runtime_source_review.json",
+      "review/stage05_qualified_experience_passage/v01/metadata_history/v02/supervisor_timing.py"
+    ],
+    "targeted_actual": [
+      "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+      "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/reservation.json"
+    ]
+  },
+  "historical_dossier_modified": false,
+  "owner_actual": "NOT_RUN",
+  "pending_exact_files": [
+    "Independent ORDINARY_V02 result review and its named supervisor receipt, checkpoint chain, loaded-source/callback/schema witness, production guards, native G3/G4 Work artifacts and final actual result, if produced.",
+    "Final result_matrix revision with exact accepted V02 refs; preserve the current pending snapshot before revision.",
+    "Only four Stage05 dossier rows and their JSON/XML/README evidence additions after actual review; preserve all21 rows and17 unrelated statuses.",
+    "owner_admission.json and external one-command owner handoff after all required wiring evidence is accepted.",
+    "Finite return selection, independent return_packaging_review.json, new archive/checksum/readback and truthful delivery observation."
+  ],
+  "prior_selection_count": 183,
+  "prior_selection_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/export_selection_draft.json",
+    "sha256": "c64e5359aa53fa1c5244cc5f5d20fd6d394cb4711dd23321c6cc87e00a740cec",
+    "size_bytes": 211099
+  },
+  "proposed_union_count": 232,
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_gitlink": "source/reference",
+  "schema": "radik.stage05.export_completion_proposal.v02",
+  "status": "FINITE_LOCAL_SELECTION_PROPOSAL_PENDING_V02_AND_INDEPENDENT_CLASSIFICATION"
+}

@@ -1,0 +1,94 @@
+{
+  "application_imports_performed": false,
+  "checks": [
+    {
+      "evidence": "The independent review binds exactly the adapter and existing publisher and a selected inventory. Payload is limited to4096 files,64MiB per input and512MiB selected aggregate. No filesystem walk is used.",
+      "id": "FINITE_PAYLOAD",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "Each selected input is owned by the project or the exact external owner-report directory, has no forbidden private/environment/Git path component or symlink, is regular and single-link, and is read through bounded O_NOFOLLOW fd I/O. Identity uses device/inode/mode/link count/size/mtime/ctime, excluding access time, and exact digest/length are checked.",
+      "id": "READ_BOUNDARY",
+      "result": "PASS_SOURCE_AFTER_REPAIR"
+    },
+    {
+      "evidence": "Selected archive paths must be relative, contain no parent traversal or publisher-excluded component, and be unique. manifest.json and the automatically added review path are refused before the publisher reservation. JSON/JSONL pass the existing public-field exclusion check.",
+      "id": "ARCHIVE_SELECTION",
+      "result": "PASS_SOURCE_AFTER_REPAIR"
+    },
+    {
+      "evidence": "The adapter imports only standard library modules and executes only exact pinned publisher bytes in a separate module. The selected _build path constructs/verifies a tar/checksum and checks a local delivery receipt; it performs no application/native/model import, provider call, network access or Git operation.",
+      "id": "NO_APPLICATION_OR_NETWORK",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "The existing publisher writes an exclusive permanent build reservation, creates a new timestamped archive, validates complete tar manifest/hash/size contents, fsyncs, atomically publishes checksum and retains local/delivery observations. It neither overwrites prior returns nor authorizes an uncertain retry.",
+      "id": "ONE_BUILD_AND_READBACK",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "Delivery waits at most30 seconds for a local operator receipt and rechecks the actual external archive/checksum pair. Absent or invalid delivery evidence remains unconfirmed rather than being claimed delivered.",
+      "id": "DELIVERY_STATUS",
+      "result": "PASS_SOURCE"
+    }
+  ],
+  "claim_boundaries": [
+    "Packaging conveys no semantic or runtime acceptance.",
+    "No Git/public push, owner scenario, native E, effects or model execution is granted.",
+    "No archive was built or publisher executed during this review."
+  ],
+  "execution_performed": false,
+  "owner_execution_authorized": false,
+  "publication_authorized": false,
+  "publisher_executed": false,
+  "required_grant_checks": [
+    "The final independent reviewer must pin and inspect the actual selection and review metadata, including normalized nonempty archive paths, secret-free file classification, source/actual evidence scope and prior-archive identities. This source review does not choose payload files or authorize execution.",
+    "The bootstrap review file must be the expected regular owned small file with the supplied independent SHA. The adapter treats the authenticated local review as its bootstrap input.",
+    "Invoke the exact reviewed adapter with -B. Keep publisher source unchanged and use only the one independently granted local return invocation.",
+    "Payload text/raw evidence and external owner reports require classification in the finite selection; this adapter is not a general secret detector."
+  ],
+  "resolved_findings": [
+    {
+      "id": "BOUNDED_STABLE_READ",
+      "repair": "Bounded fd read with O_NOFOLLOW and stable identity excluding atime.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "RESERVED_ARCHIVE_NAMES",
+      "repair": "Reject manifest.json and the generated review archive name before the one-use publisher reservation.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "PRIVATE_SOURCE_PATHS",
+      "repair": "Reject local_operator, local_operator_private, .settings, .env and .env.* source components before reads.",
+      "status": "RESOLVED"
+    }
+  ],
+  "reviewed_at": "2026-10-20T21:45:58.998198+00:00",
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.return_adapter_independent_source_review.v01",
+  "scope": "BUILD_RETURN_ADAPTER_AND_REACHABLE_EXISTING_PUBLISHER_SOURCE",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+      "sha256": "74266b2fb3bd0a0cb63cb0c9b3de61588b880234dd3a92bb84fc4442f26eb5f2",
+      "size_bytes": 5041
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ],
+  "status": "SOURCE_ALLOWED_FOR_ONE_INDEPENDENTLY_SELECTED_LOCAL_RETURN",
+  "stdlib_imports": [
+    "argparse",
+    "hashlib",
+    "json",
+    "os",
+    "pathlib",
+    "stat",
+    "types"
+  ],
+  "unresolved_source_findings": []
+}

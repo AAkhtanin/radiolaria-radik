@@ -1,0 +1,13 @@
+{
+  "external_execution": "ONLY_FUTURE_EXPLICIT_OWNER_ADMISSION_AFTER_INDEPENDENT_SOURCE_AND_FOCUSED_REHEARSAL",
+  "historical_authority_restored": false,
+  "owner_execution_allowed": false,
+  "profile_id": "stage04_dynamic_informational_delta_v28",
+  "schema": "radik.p28.profile_source_admission.v01",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+    "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+    "size_bytes": 132494
+  },
+  "status": "SOURCE_ONLY_NO_OWNER_AUTHORITY"
+}

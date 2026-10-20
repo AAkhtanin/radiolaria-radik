@@ -1,0 +1,94 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "findings": [
+    {
+      "evidence": "The annotation getter, membership and setter are now guarded by try/except BaseException; annotation is restricted to typed closed strings; unconditional bare raise preserves the original exception. Existing recognized first stage is preserved.",
+      "id": "PRIMARY_ANNOTATION_MUST_NOT_REPLACE_ERROR",
+      "v01": "BLOCKER",
+      "v02": "RESOLVED"
+    },
+    {
+      "evidence": "Both qualified_allocation_pre_dispatch and qualified_allocation_actual retain revision_outcome=revision and program=revision.program. The exact returned status, reason, snapshot and revision results remain available.",
+      "id": "RETAIN_COMPLETE_REVISION_OUTCOME",
+      "v01": "INCOMPLETE_WITNESS",
+      "v02": "RESOLVED"
+    }
+  ],
+  "focused_controls": [
+    "AST-extract _native_stage with stdlib contextmanager: same ValueError identity, nested first recognized stage, unknown prior tag, unknown requested stage, annotation getter/setter failure and hostile equality value.",
+    "AST static selection confirms ACTIVE/type guard dominates revision.program; both receipts retain revision_outcome and pre-dispatch persist precedes advance(revised).",
+    "Separately admitted direct public native fixture may execute bootstrap followed by a triggered revision and advance(revision.program), retaining full outcome/program/usage/results. No ordinary/model prefix is required; fixture remains synthetic evidence, not owner acceptance."
+  ],
+  "imports_io": {
+    "module_executed": false,
+    "new_import": "stdlib contextlib.contextmanager",
+    "new_io": "None; existing persistence gains the full native revision_outcome field."
+  },
+  "limitations": [
+    "The V02 sanitized actual cause is not recovered or attributed to the later revision misuse.",
+    "Stage wrappers cover the explicitly named boundaries; setup and final persistence outside them remain UNKNOWN native stage but can still carry admitted traceback frames.",
+    "A bootstrap-only synthetic native pass does not establish this application seam or complete Stage05 semantics."
+  ],
+  "preserved": [
+    "No native API, kernel, ABI, budgets, catalogue, executor, clocks or source eligibility changes.",
+    "Revision creation still occurs after source bootstrap, fresh history check, allocation and task Root acceptance.",
+    "Pre-dispatch receipt remains after public revision creation and before allocated advance.",
+    "Final source/history gates, accounting9, PURE candidate_id=None/packet_id=None and independent custody Root remain unchanged.",
+    "Closed stage annotations do not confer authority and omit raw error text."
+  ],
+  "public_contract": {
+    "accepted_dispatch": "Require exact public outcome type and ACTIVE; dispatch revision.program. The public advance function validates materialized program and current continuation context again.",
+    "existing_application_example": "dynamic_native.py:700 obtains proposed, handles EXHAUSTED, then line718 advances proposed.program.",
+    "fields": [
+      "program",
+      "results",
+      "snapshot",
+      "status",
+      "reason"
+    ],
+    "reference_lines": [
+      720,
+      1246,
+      1264,
+      1288,
+      1292,
+      1314
+    ],
+    "return_type": "WorkContinuationOutcomeV01",
+    "revision_outcomes": [
+      "ACTIVE",
+      "EXHAUSTED"
+    ]
+  },
+  "references": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+      "size_bytes": 33644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_repair_drafts/qualified_strategy.py",
+      "sha256": "a8ccb165611d19d770ca32905233d721521e10e0cf60f43570c3ac27b0d9d352",
+      "size_bytes": 35219
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_repair_drafts/qualified_strategy_v02.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    }
+  ],
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.g4_targeted_revision_source_review.v01",
+  "scope": "Exact proposed v02 only, not application activation, model inference, native execution, actual Stage05 acceptance or owner execution.",
+  "status": "SOURCE_ALLOWED_FOR_ISOLATED_SHORT_CHECKS"
+}

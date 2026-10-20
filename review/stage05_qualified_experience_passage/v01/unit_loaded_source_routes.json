@@ -1,0 +1,269 @@
+{
+  "schema": "radik.stage05.unit_source_routes_draft.v01",
+  "status": "PATH_NAVIGATION_ONLY_PENDING_FINAL_SOURCE_FREEZE",
+  "result_path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+  "native_basis_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "note": "Actual bytes and pins remain in the original unit result/admissions. These paths avoid packaging duplicate source copies and do not replace independent acceptance.",
+  "routes": [
+    {
+      "module": "app",
+      "observed_path": "app/__init__.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/__init__.py"
+    },
+    {
+      "module": "app.qualified_experience",
+      "observed_path": "app/qualified_experience.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py"
+    },
+    {
+      "module": "hedgehog",
+      "observed_path": "source/reference/hedgehog/__init__.py",
+      "selected_source_path": "source/reference/hedgehog/__init__.py"
+    },
+    {
+      "module": "hedgehog.action_commit_packet_v02",
+      "observed_path": "source/reference/hedgehog/action_commit_packet_v02.py",
+      "selected_source_path": "source/reference/hedgehog/action_commit_packet_v02.py"
+    },
+    {
+      "module": "hedgehog.kernel",
+      "observed_path": "source/reference/hedgehog/kernel/__init__.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/__init__.py"
+    },
+    {
+      "module": "hedgehog.kernel.abi_v01",
+      "observed_path": "source/reference/hedgehog/kernel/abi_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/abi_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.integrity_replay_v01",
+      "observed_path": "source/reference/hedgehog/kernel/integrity_replay_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/integrity_replay_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.conformance_v01",
+      "observed_path": "source/reference/hedgehog/kernel/conformance_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/conformance_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.effect_firewall_v01",
+      "observed_path": "source/reference/hedgehog/kernel/effect_firewall_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/effect_firewall_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.root_decision_v01",
+      "observed_path": "source/reference/hedgehog/kernel/root_decision_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/root_decision_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.semantic_work_v01",
+      "observed_path": "source/reference/hedgehog/kernel/semantic_work_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/semantic_work_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.trust_model_v01",
+      "observed_path": "source/reference/hedgehog/kernel/trust_model_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/trust_model_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.transition_registry_v01",
+      "observed_path": "source/reference/hedgehog/kernel/transition_registry_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/transition_registry_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.multiroot_v01",
+      "observed_path": "source/reference/hedgehog/kernel/multiroot_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/multiroot_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.root_signer_isolation_v01",
+      "observed_path": "source/reference/hedgehog/kernel/root_signer_isolation_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/root_signer_isolation_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.execution_mode_router_v01",
+      "observed_path": "source/reference/hedgehog/kernel/execution_mode_router_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/execution_mode_router_v01.py"
+    },
+    {
+      "module": "hedgehog.kernel.fractal_runtime_v02",
+      "observed_path": "source/reference/hedgehog/kernel/fractal_runtime_v02.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/fractal_runtime_v02.py"
+    },
+    {
+      "module": "hedgehog.kernel.diagnostic_telemetry_v01",
+      "observed_path": "source/reference/hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/diagnostic_telemetry_v01.py"
+    },
+    {
+      "module": "hedgehog.post_vv",
+      "observed_path": "source/reference/hedgehog/post_vv.py",
+      "selected_source_path": "source/reference/hedgehog/post_vv.py"
+    },
+    {
+      "module": "hedgehog.time_model",
+      "observed_path": "source/reference/hedgehog/time_model.py",
+      "selected_source_path": "source/reference/hedgehog/time_model.py"
+    },
+    {
+      "module": "hedgehog.gt_validator",
+      "observed_path": "source/reference/hedgehog/gt_validator.py",
+      "selected_source_path": "source/reference/hedgehog/gt_validator.py"
+    },
+    {
+      "module": "hedgehog.avf_v02",
+      "observed_path": "source/reference/hedgehog/avf_v02.py",
+      "selected_source_path": "source/reference/hedgehog/avf_v02.py"
+    },
+    {
+      "module": "hedgehog.context_packets",
+      "observed_path": "source/reference/hedgehog/context_packets.py",
+      "selected_source_path": "source/reference/hedgehog/context_packets.py"
+    },
+    {
+      "module": "hedgehog.outcome_feedback_v01",
+      "observed_path": "source/reference/hedgehog/outcome_feedback_v01.py",
+      "selected_source_path": "source/reference/hedgehog/outcome_feedback_v01.py"
+    },
+    {
+      "module": "hedgehog.outcome_calibration_v01",
+      "observed_path": "source/reference/hedgehog/outcome_calibration_v01.py",
+      "selected_source_path": "source/reference/hedgehog/outcome_calibration_v01.py"
+    },
+    {
+      "module": "hedgehog.outcome_feedback_history_v01",
+      "observed_path": "source/reference/hedgehog/outcome_feedback_history_v01.py",
+      "selected_source_path": "source/reference/hedgehog/outcome_feedback_history_v01.py"
+    },
+    {
+      "module": "hedgehog.drs",
+      "observed_path": "source/reference/hedgehog/drs.py",
+      "selected_source_path": "source/reference/hedgehog/drs.py"
+    },
+    {
+      "module": "hedgehog.local_drs_resolver",
+      "observed_path": "source/reference/hedgehog/local_drs_resolver.py",
+      "selected_source_path": "source/reference/hedgehog/local_drs_resolver.py"
+    },
+    {
+      "module": "hedgehog.drs_semantic_address_v01",
+      "observed_path": "source/reference/hedgehog/drs_semantic_address_v01.py",
+      "selected_source_path": "source/reference/hedgehog/drs_semantic_address_v01.py"
+    },
+    {
+      "module": "hedgehog.reuse_gate",
+      "observed_path": "source/reference/hedgehog/reuse_gate.py",
+      "selected_source_path": "source/reference/hedgehog/reuse_gate.py"
+    },
+    {
+      "module": "hedgehog.kernel.work_composition_v01",
+      "observed_path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "selected_source_path": "source/reference/hedgehog/kernel/work_composition_v01.py"
+    },
+    {
+      "module": "hedgehog.work_execution_host_v01",
+      "observed_path": "source/reference/hedgehog/work_execution_host_v01.py",
+      "selected_source_path": "source/reference/hedgehog/work_execution_host_v01.py"
+    },
+    {
+      "module": "hedgehog.capability_admission_v01",
+      "observed_path": "source/reference/hedgehog/capability_admission_v01.py",
+      "selected_source_path": "source/reference/hedgehog/capability_admission_v01.py"
+    },
+    {
+      "module": "hedgehog.wasm_pure_worker_v01",
+      "observed_path": "source/reference/hedgehog/wasm_pure_worker_v01.py",
+      "selected_source_path": "source/reference/hedgehog/wasm_pure_worker_v01.py"
+    },
+    {
+      "module": "hedgehog.outcome_feedback_consumer_v01",
+      "observed_path": "source/reference/hedgehog/outcome_feedback_consumer_v01.py",
+      "selected_source_path": "source/reference/hedgehog/outcome_feedback_consumer_v01.py"
+    },
+    {
+      "module": "hedgehog.drs_memory_resolution_v01",
+      "observed_path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+      "selected_source_path": "source/reference/hedgehog/drs_memory_resolution_v01.py"
+    },
+    {
+      "module": "hedgehog.drs_g2b_compatibility_v01",
+      "observed_path": "source/reference/hedgehog/drs_g2b_compatibility_v01.py",
+      "selected_source_path": "source/reference/hedgehog/drs_g2b_compatibility_v01.py"
+    },
+    {
+      "module": "hedgehog.local_drs_v02",
+      "observed_path": "source/reference/hedgehog/local_drs_v02.py",
+      "selected_source_path": "source/reference/hedgehog/local_drs_v02.py"
+    },
+    {
+      "module": "hedgehog.reuse_certificate_v01",
+      "observed_path": "source/reference/hedgehog/reuse_certificate_v01.py",
+      "selected_source_path": "source/reference/hedgehog/reuse_certificate_v01.py"
+    },
+    {
+      "module": "app.native_authority",
+      "observed_path": "app/native_authority.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/native_authority.py"
+    },
+    {
+      "module": "hedgehog.structured_rationale",
+      "observed_path": "source/reference/hedgehog/structured_rationale.py",
+      "selected_source_path": "source/reference/hedgehog/structured_rationale.py"
+    },
+    {
+      "module": "app.contracts",
+      "observed_path": "app/contracts.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/contracts.py"
+    },
+    {
+      "module": "app.semantic_membrane",
+      "observed_path": "app/semantic_membrane.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/semantic_membrane.py"
+    },
+    {
+      "module": "app.qualified_experience_work",
+      "observed_path": "app/qualified_experience_work.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_work.py"
+    },
+    {
+      "module": "app.dynamic_roles",
+      "observed_path": "app/dynamic_roles.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_roles.py"
+    },
+    {
+      "module": "app.proposal",
+      "observed_path": "app/proposal.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/proposal.py"
+    },
+    {
+      "module": "app.task_spec",
+      "observed_path": "app/task_spec.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/task_spec.py"
+    },
+    {
+      "module": "stage05_pinned_test_qualified_experience",
+      "observed_path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/source_tests/test_qualified_experience.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/tests/test_qualified_experience.py"
+    },
+    {
+      "module": "app.qualified_strategy",
+      "observed_path": "app/qualified_strategy.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py"
+    },
+    {
+      "module": "hedgehog.gate4_reference_contracts_v01",
+      "observed_path": "source/reference/hedgehog/gate4_reference_contracts_v01.py",
+      "selected_source_path": "source/reference/hedgehog/gate4_reference_contracts_v01.py"
+    },
+    {
+      "module": "hedgehog.gate4_pressure_budget_v01",
+      "observed_path": "source/reference/hedgehog/gate4_pressure_budget_v01.py",
+      "selected_source_path": "source/reference/hedgehog/gate4_pressure_budget_v01.py"
+    },
+    {
+      "module": "stage05_pinned_test_qualified_strategy",
+      "observed_path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/source_tests/test_qualified_strategy.py",
+      "selected_source_path": "review/stage05_qualified_experience_passage/v01/after/tests/test_qualified_strategy.py"
+    }
+  ]
+}

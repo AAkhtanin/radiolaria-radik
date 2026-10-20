@@ -1,0 +1,79 @@
+{
+  "allowed_followup_scope": "A separately admitted ELIGIBILITY_V01 fixture creates a fresh accepted controller through current eligibility and Root-approved memory descent, records one new prospective native outcome/history, then exercises the repaired restriction branch and temporal/unscorable controls. It must retain the original memory expiry and perform no ordinary role prefix, G4 repetition, AUTH, provider, SAVE or E.",
+  "application_imports": false,
+  "ast_signature_check": {
+    "author_prose_count_correction": "The source has25 dataclass fields and20 public kwargs, not26/21.",
+    "dataclass_fields": 25,
+    "excluded_fields": [
+      "meaning_record_id",
+      "meaning_record_version",
+      "local_reference_kernel_scope",
+      "creates_authority",
+      "creates_permission"
+    ],
+    "public_keyword_only_parameters": 20,
+    "public_kwargs_escape": false,
+    "remaining_fields_equal_public_parameter_set": true
+  },
+  "author": "/root/stage05_g3_contract",
+  "candidate_execution": false,
+  "findings": [
+    {
+      "id": "PUBLIC_CONSTRUCTOR_KEYWORDS",
+      "observation": "Native tail retained TypeError at _descriptor_gate line412 during the first conflict restriction. It had already completed both G4 consumers; raw exception text was not retained.",
+      "repair": "Exclude those three metadata fields as well. The public constructor regenerates fixed LOCAL_REFERENCE_KERNEL/false/false values and validates the new restricted record.",
+      "source": "The original dataclass projection excluded only identity/version and supplied three builder-owned metadata fields. The public constructor accepts no kwargs for local_reference_kernel_scope, creates_authority or creates_permission.",
+      "status": "CONFIRMED_AND_ADDRESSED"
+    },
+    {
+      "evidence": "Exactly one exclusion tuple gains three names; all other candidate bytes match the reviewed preimage. No imports or I/O were added.",
+      "id": "MINIMAL_EXACT_DIFF",
+      "status": "PASS"
+    },
+    {
+      "evidence": "The original time_envelope, authority_envelope, pointers, scope, lineage and all20 public constructor values remain unchanged. Only the already-existing conflict_hints/persistent_lifecycle_state restriction changes; the store record/head is not rewritten, and eligibility still runs before consumption.",
+      "id": "ORIGINAL_CLocks_AND_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Source signature verification is AST-only. Fresh observed history and focused eligibility/unscorable controls require their separate one-use grant and actual review; prior native G4 observations are preserved without rerunning them.",
+      "id": "ACTUAL_CONTROLS_PENDING",
+      "status": "PENDING"
+    }
+  ],
+  "limitations": [
+    "This review does not attribute the earlier sanitized ORDINARY_V02 failure to this separate later eligibility-control mismatch.",
+    "No Stage05 closure, owner acceptance or publication is authorized."
+  ],
+  "observed_failure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/result_e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2.json",
+    "sha256": "e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2",
+    "size_bytes": 16299
+  },
+  "owner_execution_authorized": false,
+  "reviewed_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+      "size_bytes": 47571
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_repair_drafts/qualified_experience_restriction_v01.py",
+      "sha256": "4c55f3d77732a536f7106506c3803095df3194a21a05649b7ccb17fce3d0632d",
+      "size_bytes": 47666
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_repair_drafts/qualified_experience_restriction_v01.diff",
+      "sha256": "8c964098d1510106406e400ccb44c55d0443c5778288577c0289f0ecdb612581",
+      "size_bytes": 869
+    },
+    {
+      "path": "source/reference/hedgehog/drs_semantic_address_v01.py",
+      "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+      "size_bytes": 57213
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.g3_restriction_independent_source_review.v01",
+  "status": "SOURCE_ALLOWED_FOR_ISOLATED_FOCUSED_ELIGIBILITY_CHECK"
+}

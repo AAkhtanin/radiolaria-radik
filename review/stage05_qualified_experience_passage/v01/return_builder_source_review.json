@@ -1,0 +1,30 @@
+{
+  "application_execution_allowed": false,
+  "builder_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "findings": [
+    "The module has no top-level application import or external call when loaded under a non-main module name; top-level setup is definitions and finite constants.",
+    "The reviewed _build path creates one exclusive permanent artifact reservation and a new timestamped archive. It does not run AUTH, inference, Git, the native application or the historical source campaign.",
+    "The closed archive is fsynced and every manifest member is read back by exact size and SHA-256 before publishing its checksum atomically.",
+    "Existing return archives and reservations are not overwritten; a failed or pending build does not authorize a retry.",
+    "The delivery wait reads only the matching local delivery receipt and exact destination pair for at most thirty seconds. Missing delivery is reported as unconfirmed, not as successful delivery.",
+    "The generic builder consumes already prepared payload bytes; the separately reviewed caller must validate finite archive paths, exclusions, exact raw input pins and private-field policy before creating a reservation."
+  ],
+  "imports": "PYTHON_STDLIB_ONLY",
+  "module_import_or_execution_performed": false,
+  "network_allowed": false,
+  "packaging_execution_allowed": false,
+  "pending": [
+    "Exact pinned caller and non-main module load method.",
+    "Finite payload path/byte inventory including external owner report and no private/operator state.",
+    "One-use new kind/key reservation and exact invocation; prior archive links only if independently checked."
+  ],
+  "reviewed_at_utc": "2026-10-20T21:40:42.374368+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_builder_source_review.v01",
+  "scope": "GENERIC_BUILD_AND_DIRECT_HELPER_CLOSURE_ONLY",
+  "status": "UNCHANGED_GENERIC_BUILDER_SOURCE_REVIEWED_PENDING_EXACT_PAYLOAD_AND_INVOCATION"
+}

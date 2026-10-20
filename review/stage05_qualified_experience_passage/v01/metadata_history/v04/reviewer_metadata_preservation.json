@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/profile_metadata_draft.json",
+      "sha256": "a79905902655b4d7271c6bac1236eb8c3f83775af037748d6895c05acb90cb58",
+      "size_bytes": 76661
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/runtime_source_review.json",
+      "sha256": "618e2bae68200d1aafaa9819eefd2965e0608abe0187b1ae9e6b4b335decae9b",
+      "size_bytes": 131462
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/owner_source_review.json",
+      "sha256": "25e1718b50d12b7cfb847d78b9dceadb7361ba684ee4148fcb46f13f6d62615c",
+      "size_bytes": 10006
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/profile_source_admission.json",
+      "sha256": "44ff8abee9107df209d9963ecfcc42d9b96943818dca0ad65f2c0eed4d33fc39",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/ordinary_profile_manifest.json",
+      "sha256": "c3e39be498bf337709649d78860100dc34b2f9fb2466c811db76fc20a5df9248",
+      "size_bytes": 74128
+    }
+  ],
+  "purpose": "Preserve current source-only metadata before the one-file restrictive-descriptor repair.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.reviewer_metadata_preservation.v01"
+}

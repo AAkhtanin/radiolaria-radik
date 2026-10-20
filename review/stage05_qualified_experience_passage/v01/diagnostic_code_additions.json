@@ -1,0 +1,3580 @@
+{
+  "author": "/root/stage05_g3_contract",
+  "changed_sources": [
+    {
+      "before_sha256": "babcb022599fcbb1743a9db003008867fe1e14b632782963bfe3f68ab75a8654",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "proposed_after_sha256": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8"
+    },
+    {
+      "before_sha256": "80ce5f936b123467628e159753e090d8abef1375a35dfee1341e5d0b2f1708e3",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "proposed_after_sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d"
+    },
+    {
+      "before_sha256": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "proposed_after_sha256": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f"
+    }
+  ],
+  "code_origins": {
+    "g31_abi_context_mismatch": [
+      {
+        "lines": [
+          712
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_duplicate_json_key": [
+      {
+        "lines": [
+          119
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_feedback_invalid": [
+      {
+        "lines": [
+          705
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_feedback_source_mismatch": [
+      {
+        "lines": [
+          689
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_identity_mismatch": [
+      {
+        "lines": [
+          257,
+          270
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_invalid_input": [
+      {
+        "lines": [
+          301
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_json_invalid": [
+      {
+        "lines": [
+          136
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_json_type": [
+      {
+        "lines": [
+          129
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_lookahead": [
+      {
+        "lines": [
+          395
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_non_integer_number": [
+      {
+        "lines": [
+          125
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_noncanonical_bytes": [
+      {
+        "lines": [
+          281,
+          292
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_observation_source_mismatch": [
+      {
+        "lines": [
+          516
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_operation_binding": [
+      {
+        "lines": [
+          354
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_reference_time_expired": [
+      {
+        "lines": [
+          500
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_size_limit": [
+      {
+        "lines": [
+          84,
+          87,
+          93,
+          108,
+          131
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_source_not_admitted": [
+      {
+        "lines": [
+          347
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_source_profile_unknown": [
+      {
+        "lines": [
+          253,
+          338
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_source_relation": [
+      {
+        "lines": [
+          353
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_source_revision": [
+      {
+        "lines": [
+          356
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_structure_invalid": [
+      {
+        "lines": [
+          56
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g31_time_invalid": [
+      {
+        "lines": [
+          198,
+          217,
+          268
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_clock_binding": [
+      {
+        "lines": [
+          381
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_genesis_actual_output": [
+      {
+        "lines": [
+          582
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_duplicate_or_non_genesis": [
+      {
+        "lines": [
+          685
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_future_evidence": [
+      {
+        "lines": [
+          601
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_material": [
+      {
+        "lines": [
+          571
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_native_binding": [
+      {
+        "lines": [
+          570
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_native_consumption": [
+      {
+        "lines": [
+          584
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_native_root": [
+      {
+        "lines": [
+          575
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_native_topology": [
+      {
+        "lines": [
+          577
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_genesis_requires_reached_work": [
+      {
+        "lines": [
+          563
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_independent_native_context_required": [
+      {
+        "lines": [
+          341
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_ingest_before_capture": [
+      {
+        "lines": [
+          502
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_lookahead": [
+      {
+        "lines": [
+          382
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_native_proof_required": [
+      {
+        "lines": [
+          561
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_native_refs": [
+      {
+        "lines": [
+          385
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_new_external_store_required": [
+      {
+        "lines": [
+          668
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_persisted_payload_changed": [
+      {
+        "lines": [
+          710
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_persisted_record_changed": [
+      {
+        "lines": [
+          712
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_prospective_order": [
+      {
+        "lines": [
+          380
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g32_record_actual_root_validation": [
+      {
+        "lines": [
+          653
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_record_exact_candidate": [
+      {
+        "lines": [
+          650
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_record_independent_anchor": [
+      {
+        "lines": [
+          707
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_record_root_consumption": [
+      {
+        "lines": [
+          660
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g32_record_root_scope": [
+      {
+        "lines": [
+          657
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g33_advice_time": [
+      {
+        "lines": [
+          325,
+          326
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_advice_window": [
+      {
+        "lines": [
+          443,
+          622,
+          677,
+          1201,
+          1205
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_authority_claim": [
+      {
+        "lines": [
+          317
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_canonical_type": [
+      {
+        "lines": [
+          273
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_closed_fields": [
+      {
+        "lines": [
+          227
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_derived_type": [
+      {
+        "lines": [
+          1372
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_duplicate_json_key": [
+      {
+        "lines": [
+          263
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_duplicate_reference": [
+      {
+        "lines": [
+          217
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_evaluation_time_required": [
+      {
+        "lines": [
+          1352
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_event_batch": [
+      {
+        "lines": [
+          859
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_event_identity": [
+      {
+        "lines": [
+          471
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_event_type": [
+      {
+        "lines": [
+          547
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_evidence_lane_mismatch": [
+      {
+        "lines": [
+          873
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_feedback_source": [
+      {
+        "lines": [
+          381,
+          394,
+          553
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_feedback_type": [
+      {
+        "lines": [
+          390
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_audit": [
+      {
+        "lines": [
+          808,
+          812
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_final": [
+      {
+        "lines": [
+          846
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_identity": [
+      {
+        "lines": [
+          831
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_occurrences": [
+      {
+        "lines": [
+          803,
+          823
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_source_mismatch": [
+      {
+        "lines": [
+          1310
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_update_mismatch": [
+      {
+        "lines": [
+          1314
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_fold_updates": [
+      {
+        "lines": [
+          845
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_integer": [
+      {
+        "lines": [
+          199,
+          248
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_invalid_input": [
+      {
+        "lines": [
+          193
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_json": [
+      {
+        "lines": [
+          282
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_native_source_context": [
+      {
+        "lines": [
+          402
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_non_integer_number": [
+      {
+        "lines": [
+          269
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_noncanonical": [
+      {
+        "lines": [
+          283
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_occurrence_conflict": [
+      {
+        "lines": [
+          891,
+          1334
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_occurrence_identity": [
+      {
+        "lines": [
+          432
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_predecessor_profile": [
+      {
+        "lines": [
+          979
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_predecessor_subject": [
+      {
+        "lines": [
+          980
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_rational": [
+      {
+        "lines": [
+          336
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_reference_source_context": [
+      {
+        "lines": [
+          406
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_regret": [
+      {
+        "lines": [
+          462,
+          681
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_sample_state": [
+      {
+        "lines": [
+          675,
+          796
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_scalar_type": [
+      {
+        "lines": [
+          250
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_size_limit": [
+      {
+        "lines": [
+          235,
+          237,
+          242,
+          256
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_source_profile": [
+      {
+        "lines": [
+          373
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_subject_stream_mismatch": [
+      {
+        "lines": [
+          869
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_text": [
+      {
+        "lines": [
+          209
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_text_array": [
+      {
+        "lines": [
+          215,
+          222
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_trust_identity": [
+      {
+        "lines": [
+          1119
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_trust_source_mismatch": [
+      {
+        "lines": [
+          1370
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_trust_status": [
+      {
+        "lines": [
+          1177
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_trust_value": [
+      {
+        "lines": [
+          1107
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_unexpected_effect": [
+      {
+        "lines": [
+          467
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_unusable_trust_value": [
+      {
+        "lines": [
+          1180
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_update_identity": [
+      {
+        "lines": [
+          691
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_update_inputs": [
+      {
+        "lines": [
+          466
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_update_ref": [
+      {
+        "lines": [
+          649
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_update_source_mismatch": [
+      {
+        "lines": [
+          1349
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g33_update_time": [
+      {
+        "lines": [
+          676,
+          923,
+          981
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_actual_descent_required": [
+      {
+        "lines": [
+          535
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_additional_work_incomplete": [
+      {
+        "lines": [
+          257
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_advisory_source_mismatch": [
+      {
+        "lines": [
+          242
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_avf_base": [
+      {
+        "lines": [
+          212
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_avf_report": [
+      {
+        "lines": [
+          210
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_boolean_output": [
+      {
+        "lines": [
+          469
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_candidate_bound": [
+      {
+        "lines": [
+          188
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_candidate_keys": [
+      {
+        "lines": [
+          189
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_bundle": [
+      {
+        "lines": [
+          285
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_current_projection": [
+      {
+        "lines": [
+          282
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_native_program": [
+      {
+        "lines": [
+          283
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_native_refs_missing": [
+      {
+        "lines": [
+          284
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_numeric_substitution": [
+      {
+        "lines": [
+          290
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_causal_source_substitution": [
+      {
+        "lines": [
+          288
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_actual_input": [
+      {
+        "lines": [
+          265
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_actual_output": [
+      {
+        "lines": [
+          268
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_current_bridge": [
+      {
+        "lines": [
+          254
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_executed_task_binding": [
+      {
+        "lines": [
+          262
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_identity": [
+      {
+        "lines": [
+          251
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_item_count": [
+      {
+        "lines": [
+          261
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_operation": [
+      {
+        "lines": [
+          266
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_profile": [
+      {
+        "lines": [
+          119
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_scope": [
+      {
+        "lines": [
+          123
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_check_shape": [
+      {
+        "lines": [
+          117
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_claim_envelope_binding": [
+      {
+        "lines": [
+          454
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_claim_identity": [
+      {
+        "lines": [
+          471
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      },
+      {
+        "lines": [
+          113
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_claim_keys": [
+      {
+        "lines": [
+          108
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_claim_scope": [
+      {
+        "lines": [
+          112
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_claim_shape": [
+      {
+        "lines": [
+          107
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_claim_subject": [
+      {
+        "lines": [
+          109
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_completed_result": [
+      {
+        "lines": [
+          457,
+          459
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_contract_bound": [
+      {
+        "lines": [
+          100
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_claims": [
+      {
+        "lines": [
+          105
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_history_keys": [
+      {
+        "lines": [
+          199
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_identity": [
+      {
+        "lines": [
+          137
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_offers_no_check": [
+      {
+        "lines": [
+          249
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_profile": [
+      {
+        "lines": [
+          103
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_contract_shape": [
+      {
+        "lines": [
+          102
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_correction_instruction_binding": [
+      {
+        "lines": [
+          156
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_instruction_id": [
+      {
+        "lines": [
+          149
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_instruction_scope": [
+      {
+        "lines": [
+          148
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_instruction_shape": [
+      {
+        "lines": [
+          145
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_instruction_source": [
+      {
+        "lines": [
+          151
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_provenance": [
+      {
+        "lines": [
+          199,
+          298
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_relation_changed": [
+      {
+        "lines": [
+          296
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_shape": [
+      {
+        "lines": [
+          294
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_correction_source": [
+      {
+        "lines": [
+          200,
+          203,
+          300,
+          302
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_current_bridge_scope": [
+      {
+        "lines": [
+          194
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_bridge_time": [
+      {
+        "lines": [
+          198
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_context_changed": [
+      {
+        "lines": [
+          193
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_key": [
+      {
+        "lines": [
+          400
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_current_materials": [
+      {
+        "lines": [
+          301
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_projection": [
+      {
+        "lines": [
+          297
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_root_key": [
+      {
+        "lines": [
+          36
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_current_scope": [
+      {
+        "lines": [
+          85
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_source_invalid": [
+      {
+        "lines": [
+          83
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_current_transaction": [
+      {
+        "lines": [
+          84
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_delivery_bound": [
+      {
+        "lines": [
+          29
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descent_refused": [
+      {
+        "lines": [
+          480
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_binding": [
+      {
+        "lines": [
+          381
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_bound": [
+      {
+        "lines": [
+          377
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_finite": [
+      {
+        "lines": [
+          390
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_hash": [
+      {
+        "lines": [
+          378
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_meaning": [
+      {
+        "lines": [
+          392
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_descriptor_shape": [
+      {
+        "lines": [
+          383
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_drs_body_mismatch": [
+      {
+        "lines": [
+          431
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_body_mode": [
+      {
+        "lines": [
+          255
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_collision": [
+      {
+        "lines": [
+          328
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_descriptor_mismatch": [
+      {
+        "lines": [
+          272
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_hash": [
+      {
+        "lines": [
+          257
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_payload_mismatch": [
+      {
+        "lines": [
+          269
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_sequence": [
+      {
+        "lines": [
+          288
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_epoch_shape": [
+      {
+        "lines": [
+          258
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_evidence_type": [
+      {
+        "lines": [
+          441
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_exact_payload_open_required": [
+      {
+        "lines": [
+          481
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_execution_current_projection": [
+      {
+        "lines": [
+          335
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_execution_host_context": [
+      {
+        "lines": [
+          340
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_execution_review_substitution": [
+      {
+        "lines": [
+          343
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_execution_scope": [
+      {
+        "lines": [
+          337
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_expectation_binding": [
+      {
+        "lines": [
+          439
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_expected_predecessor": [
+      {
+        "lines": [
+          312
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_fixed_check_context": [
+      {
+        "lines": [
+          132
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_fixed_check_material": [
+      {
+        "lines": [
+          136
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_fixed_check_request": [
+      {
+        "lines": [
+          128
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_frozen_window": [
+      {
+        "lines": [
+          450
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_genesis_ancestry": [
+      {
+        "lines": [
+          280
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_head_changed_during_descent": [
+      {
+        "lines": [
+          489
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_head_fields": [
+      {
+        "lines": [
+          137,
+          139
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_head_shape": [
+      {
+        "lines": [
+          127,
+          135,
+          136
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_history_events_required": [
+      {
+        "lines": [
+          1408
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_history_write_time": [
+      {
+        "lines": [
+          178
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_immutable_body_collision": [
+      {
+        "lines": [
+          343
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_incomparable_history": [
+      {
+        "lines": [
+          1414
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_independent_correction_bytes": [
+      {
+        "lines": [
+          117
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_independent_correction_required": [
+      {
+        "lines": [
+          164
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_independent_history_store": [
+      {
+        "lines": [
+          202
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_independent_source_required": [
+      {
+        "lines": [
+          419
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_main_contract_role": [
+      {
+        "lines": [
+          124
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_mandatory_checks": [
+      {
+        "lines": [
+          104
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_masked_projection": [
+      {
+        "lines": [
+          177
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_meaning_mismatch": [
+      {
+        "lines": [
+          266
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_missing_independent_source": [
+      {
+        "lines": [
+          30
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_native_history_only": [
+      {
+        "lines": [
+          111
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_no_eligible_candidate": [
+      {
+        "lines": [
+          229
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_no_eligible_history": [
+      {
+        "lines": [
+          453
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_obligation_receipt_binding": [
+      {
+        "lines": [
+          260
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_observation_binding": [
+      {
+        "lines": [
+          470
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_opened_body_changed": [
+      {
+        "lines": [
+          540
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_bridge": [
+      {
+        "lines": [
+          534
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_context": [
+      {
+        "lines": [
+          531
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_head_changed": [
+      {
+        "lines": [
+          536
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_payload_changed": [
+      {
+        "lines": [
+          538
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_payload_source": [
+      {
+        "lines": [
+          486
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_shape": [
+      {
+        "lines": [
+          530
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_source_mismatch": [
+      {
+        "lines": [
+          543
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_opened_summary": [
+      {
+        "lines": [
+          488
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_outcome_window_expired": [
+      {
+        "lines": [
+          479
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_output_shape": [
+      {
+        "lines": [
+          467
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_payload_bound": [
+      {
+        "lines": [
+          474
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_payload_pointer_required": [
+      {
+        "lines": [
+          401
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_payload_pointer_scope": [
+      {
+        "lines": [
+          406
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_payload_root_refusal": [
+      {
+        "lines": [
+          471
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_predecessor_context": [
+      {
+        "lines": [
+          291
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_predecessor_hash": [
+      {
+        "lines": [
+          286
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_predecessor_reference": [
+      {
+        "lines": [
+          284
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_predecessor_shape": [
+      {
+        "lines": [
+          282
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_prediction_lookahead": [
+      {
+        "lines": [
+          448
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_prediction_type": [
+      {
+        "lines": [
+          436
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_prior_count": [
+      {
+        "lines": [
+          1392
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_identity": [
+      {
+        "lines": [
+          1400
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_occurrences": [
+      {
+        "lines": [
+          1395
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_profile": [
+      {
+        "lines": [
+          1387
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_sample_state": [
+      {
+        "lines": [
+          1396
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_source_mismatch": [
+      {
+        "lines": [
+          1448
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_source_profile": [
+      {
+        "lines": [
+          1398
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_type": [
+      {
+        "lines": [
+          1447
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_prior_value": [
+      {
+        "lines": [
+          1390,
+          1440
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_projection_adjusted": [
+      {
+        "lines": [
+          176
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_base": [
+      {
+        "lines": [
+          170
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_bound": [
+      {
+        "lines": [
+          154
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_bridge": [
+      {
+        "lines": [
+          159
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_candidate": [
+      {
+        "lines": [
+          166
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_history": [
+      {
+        "lines": [
+          160
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_identity": [
+      {
+        "lines": [
+          182
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_prior": [
+      {
+        "lines": [
+          171
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_profile": [
+      {
+        "lines": [
+          157
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_row_shape": [
+      {
+        "lines": [
+          164
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_rows": [
+      {
+        "lines": [
+          161
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_score": [
+      {
+        "lines": [
+          168
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_selection": [
+      {
+        "lines": [
+          180
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_shape": [
+      {
+        "lines": [
+          156
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_time": [
+      {
+        "lines": [
+          158
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_projection_type": [
+      {
+        "lines": [
+          239
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_proposal_consumption": [
+      {
+        "lines": [
+          364
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_proposal_time": [
+      {
+        "lines": [
+          367
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_read_bound": [
+      {
+        "lines": [
+          520
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_readback": [
+      {
+        "lines": [
+          366
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_record_root_mismatch": [
+      {
+        "lines": [
+          265
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_record_root_refusal": [
+      {
+        "lines": [
+          217
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_review_claim_substitution": [
+      {
+        "lines": [
+          302
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_review_contract_required": [
+      {
+        "lines": [
+          190
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_review_current_scope": [
+      {
+        "lines": [
+          300
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_review_input": [
+      {
+        "lines": [
+          32
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_root_result": [
+      {
+        "lines": [
+          71
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_root_transaction": [
+      {
+        "lines": [
+          443
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_snapshot_bound": [
+      {
+        "lines": [
+          46,
+          48
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_corrections": [
+      {
+        "lines": [
+          68
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_events": [
+      {
+        "lines": [
+          61
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_identity": [
+      {
+        "lines": [
+          69
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_profile": [
+      {
+        "lines": [
+          56
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_reference": [
+      {
+        "lines": [
+          77,
+          253
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_shape": [
+      {
+        "lines": [
+          50
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_source_mismatch": [
+      {
+        "lines": [
+          263,
+          315
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_sources": [
+      {
+        "lines": [
+          63
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_time": [
+      {
+        "lines": [
+          59
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_snapshot_updates": [
+      {
+        "lines": [
+          64
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_source_anchor_conflict": [
+      {
+        "lines": [
+          114
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_source_binding": [
+      {
+        "lines": [
+          446
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_source_bound": [
+      {
+        "lines": [
+          420
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_source_canonical": [
+      {
+        "lines": [
+          422
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_source_profile": [
+      {
+        "lines": [
+          424
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_stale_predecessor": [
+      {
+        "lines": [
+          192,
+          320
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_step_bound": [
+      {
+        "lines": [
+          1426
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g34_subject_status": [
+      {
+        "lines": [
+          173
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_typed_artifact": [
+      {
+        "lines": [
+          430
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_unauthorized_history_removal": [
+      {
+        "lines": [
+          304
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_work_advisory": [
+      {
+        "lines": [
+          352
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_incomplete": [
+      {
+        "lines": [
+          375
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_input_shape": [
+      {
+        "lines": [
+          322
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_literal_required": [
+      {
+        "lines": [
+          324
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_literal_type": [
+      {
+        "lines": [
+          326
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_material_binding": [
+      {
+        "lines": [
+          465
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g34_work_material_changed": [
+      {
+        "lines": [
+          351
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_root_refusal": [
+      {
+        "lines": [
+          345
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_work_selection": [
+      {
+        "lines": [
+          346
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py"
+      }
+    ],
+    "g34_write_before_arrival": [
+      {
+        "lines": [
+          172
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g34_write_review_substitution": [
+      {
+        "lines": [
+          316
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g35_artifact_invalid": [
+      {
+        "lines": [
+          806
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_clock_order": [
+      {
+        "lines": [
+          929
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_clock_shape": [
+      {
+        "lines": [
+          928
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_consumption_predecessor": [
+      {
+        "lines": [
+          822
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_consumption_ref": [
+      {
+        "lines": [
+          820
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_consumption_value_binding": [
+      {
+        "lines": [
+          829
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_context_bytes": [
+      {
+        "lines": [
+          949
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_context_canonical": [
+      {
+        "lines": [
+          952
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_domain_binding": [
+      {
+        "lines": [
+          925
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_facts": [
+      {
+        "lines": [
+          936
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_independent_context_required": [
+      {
+        "lines": [
+          956
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_occurrence": [
+      {
+        "lines": [
+          950,
+          960
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_profile": [
+      {
+        "lines": [
+          923
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_profile_context": [
+      {
+        "lines": [
+          958
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_record_depth": [
+      {
+        "lines": [
+          776
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_record_scalar": [
+      {
+        "lines": [
+          766,
+          788
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_record_type": [
+      {
+        "lines": [
+          761,
+          780
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_root_result": [
+      {
+        "lines": [
+          797
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_root_shape": [
+      {
+        "lines": [
+          795
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_source_revision": [
+      {
+        "lines": [
+          926
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_source_schema": [
+      {
+        "lines": [
+          921
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_source_size": [
+      {
+        "lines": [
+          730
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_tuple_shape": [
+      {
+        "lines": [
+          784
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_unexpected_effect": [
+      {
+        "lines": [
+          938
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_admission_unique": [
+      {
+        "lines": [
+          873
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_completion": [
+      {
+        "lines": [
+          818
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_input_dependency": [
+      {
+        "lines": [
+          890
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_input_type": [
+      {
+        "lines": [
+          893
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_item_capability": [
+      {
+        "lines": [
+          883
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_item_dependencies": [
+      {
+        "lines": [
+          884
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_program_input_relation": [
+      {
+        "lines": [
+          901
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_program_order": [
+      {
+        "lines": [
+          858
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_program_revision": [
+      {
+        "lines": [
+          855
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_records": [
+      {
+        "lines": [
+          815
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_result": [
+      {
+        "lines": [
+          819
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_result_envelope_relation": [
+      {
+        "lines": [
+          871
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_result_payload_relation": [
+      {
+        "lines": [
+          865
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_row_context": [
+      {
+        "lines": [
+          879
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g35_work_topology_projection": [
+      {
+        "lines": [
+          863
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py"
+      }
+    ],
+    "g36_independent_source_required": [
+      {
+        "lines": [
+          397
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py"
+      }
+    ],
+    "g36r_snapshot_review_sources": [
+      {
+        "lines": [
+          55
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py"
+      }
+    ],
+    "g4_reference:array_length": [
+      {
+        "lines": [
+          236
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:available_range": [
+      {
+        "lines": [
+          68
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:catalogue_binding": [
+      {
+        "lines": [
+          22
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:closed_keys": [
+      {
+        "lines": [
+          233
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:cold_prior_nonzero": [
+      {
+        "lines": [
+          25
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:conservation": [
+      {
+        "lines": [
+          98
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:container_limit": [
+      {
+        "lines": [
+          198
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:duplicate_id": [
+      {
+        "lines": [
+          241
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:duplicate_key": [
+      {
+        "lines": [
+          266
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:enum": [
+      {
+        "lines": [
+          228
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:independent_context_mismatch": [
+      {
+        "lines": [
+          314
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:independent_pressure_input": [
+      {
+        "lines": [
+          148
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:infeasible_minima": [
+      {
+        "lines": [
+          72
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:input_size": [
+      {
+        "lines": [
+          212,
+          214
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:integer_limit": [
+      {
+        "lines": [
+          210,
+          271
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:integer_range": [
+      {
+        "lines": [
+          245
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:invalid_json": [
+      {
+        "lines": [
+          277
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:json_type": [
+      {
+        "lines": [
+          196
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:key": [
+      {
+        "lines": [
+          202
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:kind": [
+      {
+        "lines": [
+          287
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:kind_pair": [
+      {
+        "lines": [
+          290
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:mandatory_branch": [
+      {
+        "lines": [
+          119
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:mandatory_catalogue": [
+      {
+        "lines": [
+          117
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:mandatory_material": [
+      {
+        "lines": [
+          120
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:mandatory_native_origin": [
+      {
+        "lines": [
+          116
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:non_integer": [
+      {
+        "lines": [
+          269
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:nullable_shape": [
+      {
+        "lines": [
+          226
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:numeric_profile": [
+      {
+        "lines": [
+          13
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:original_cap": [
+      {
+        "lines": [
+          142
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:original_policy_hash": [
+      {
+        "lines": [
+          109
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:original_policy_ref": [
+      {
+        "lines": [
+          106
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:owner_participant": [
+      {
+        "lines": [
+          315
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:pressure_candidates": [
+      {
+        "lines": [
+          17
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:pressure_snapshot": [
+      {
+        "lines": [
+          16
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:quota_keys": [
+      {
+        "lines": [
+          69
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:quota_order": [
+      {
+        "lines": [
+          21
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:quota_range": [
+      {
+        "lines": [
+          71
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:raw_depth": [
+      {
+        "lines": [
+          263
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:raw_size": [
+      {
+        "lines": [
+          252
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:shape_type": [
+      {
+        "lines": [
+          231
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:spending_binding": [
+      {
+        "lines": [
+          111
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:spent_exceeds_original": [
+      {
+        "lines": [
+          112
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:string_limit": [
+      {
+        "lines": [
+          207
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:string_shape": [
+      {
+        "lines": [
+          247
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:structure_limit": [
+      {
+        "lines": [
+          194
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:supplied_report_mismatch": [
+      {
+        "lines": [
+          321
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py"
+      }
+    ],
+    "g4_reference:unverified_prior": [
+      {
+        "lines": [
+          24
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ],
+    "g4_reference:weight_range": [
+      {
+        "lines": [
+          57
+        ],
+        "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py"
+      }
+    ]
+  },
+  "exclusions": [
+    "Artifact/profile identifiers are not error codes and are excluded.",
+    "Dynamic native messages carrying repr(reasons), unknown extensions and arbitrary exception text remain sanitized.",
+    "No changes to source/reference or native_runtime source.",
+    "No app files are changed by this proposal; the author does not accept the G3 change."
+  ],
+  "execution_performed": false,
+  "g3_change": "Use exact experience_native_causal_proof literal instead of concatenating repr(causal_errors). Native contracts remain unchanged.",
+  "literal_additions": [
+    "experience_native_causal_proof",
+    "g31_abi_context_mismatch",
+    "g31_duplicate_json_key",
+    "g31_feedback_invalid",
+    "g31_feedback_source_mismatch",
+    "g31_identity_mismatch",
+    "g31_invalid_input",
+    "g31_json_invalid",
+    "g31_json_type",
+    "g31_lookahead",
+    "g31_non_integer_number",
+    "g31_noncanonical_bytes",
+    "g31_observation_source_mismatch",
+    "g31_operation_binding",
+    "g31_reference_time_expired",
+    "g31_size_limit",
+    "g31_source_not_admitted",
+    "g31_source_profile_unknown",
+    "g31_source_relation",
+    "g31_source_revision",
+    "g31_structure_invalid",
+    "g31_time_invalid",
+    "g32_clock_binding",
+    "g32_genesis_actual_output",
+    "g32_genesis_duplicate_or_non_genesis",
+    "g32_genesis_future_evidence",
+    "g32_genesis_material",
+    "g32_genesis_native_binding",
+    "g32_genesis_native_consumption",
+    "g32_genesis_native_root",
+    "g32_genesis_native_topology",
+    "g32_genesis_requires_reached_work",
+    "g32_independent_native_context_required",
+    "g32_ingest_before_capture",
+    "g32_lookahead",
+    "g32_native_proof_required",
+    "g32_native_refs",
+    "g32_new_external_store_required",
+    "g32_persisted_payload_changed",
+    "g32_persisted_record_changed",
+    "g32_prospective_order",
+    "g32_record_actual_root_validation",
+    "g32_record_exact_candidate",
+    "g32_record_independent_anchor",
+    "g32_record_root_consumption",
+    "g32_record_root_scope",
+    "g33_advice_time",
+    "g33_advice_window",
+    "g33_authority_claim",
+    "g33_canonical_type",
+    "g33_closed_fields",
+    "g33_derived_type",
+    "g33_duplicate_json_key",
+    "g33_duplicate_reference",
+    "g33_evaluation_time_required",
+    "g33_event_batch",
+    "g33_event_identity",
+    "g33_event_type",
+    "g33_evidence_lane_mismatch",
+    "g33_feedback_source",
+    "g33_feedback_type",
+    "g33_fold_audit",
+    "g33_fold_final",
+    "g33_fold_identity",
+    "g33_fold_occurrences",
+    "g33_fold_source_mismatch",
+    "g33_fold_update_mismatch",
+    "g33_fold_updates",
+    "g33_integer",
+    "g33_invalid_input",
+    "g33_json",
+    "g33_native_source_context",
+    "g33_non_integer_number",
+    "g33_noncanonical",
+    "g33_occurrence_conflict",
+    "g33_occurrence_identity",
+    "g33_predecessor_profile",
+    "g33_predecessor_subject",
+    "g33_rational",
+    "g33_reference_source_context",
+    "g33_regret",
+    "g33_sample_state",
+    "g33_scalar_type",
+    "g33_size_limit",
+    "g33_source_profile",
+    "g33_subject_stream_mismatch",
+    "g33_text",
+    "g33_text_array",
+    "g33_trust_identity",
+    "g33_trust_source_mismatch",
+    "g33_trust_status",
+    "g33_trust_value",
+    "g33_unexpected_effect",
+    "g33_unusable_trust_value",
+    "g33_update_identity",
+    "g33_update_inputs",
+    "g33_update_ref",
+    "g33_update_source_mismatch",
+    "g33_update_time",
+    "g34_actual_descent_required",
+    "g34_additional_work_incomplete",
+    "g34_advisory_source_mismatch",
+    "g34_avf_base",
+    "g34_avf_report",
+    "g34_boolean_output",
+    "g34_candidate_bound",
+    "g34_candidate_keys",
+    "g34_causal_bundle",
+    "g34_causal_current_projection",
+    "g34_causal_native_program",
+    "g34_causal_native_refs_missing",
+    "g34_causal_numeric_substitution",
+    "g34_causal_source_substitution",
+    "g34_check_actual_input",
+    "g34_check_actual_output",
+    "g34_check_current_bridge",
+    "g34_check_executed_task_binding",
+    "g34_check_identity",
+    "g34_check_item_count",
+    "g34_check_operation",
+    "g34_check_profile",
+    "g34_check_scope",
+    "g34_check_shape",
+    "g34_claim_envelope_binding",
+    "g34_claim_identity",
+    "g34_claim_keys",
+    "g34_claim_scope",
+    "g34_claim_shape",
+    "g34_claim_subject",
+    "g34_completed_result",
+    "g34_contract_bound",
+    "g34_contract_claims",
+    "g34_contract_history_keys",
+    "g34_contract_identity",
+    "g34_contract_offers_no_check",
+    "g34_contract_profile",
+    "g34_contract_shape",
+    "g34_correction_instruction_binding",
+    "g34_correction_instruction_id",
+    "g34_correction_instruction_scope",
+    "g34_correction_instruction_shape",
+    "g34_correction_instruction_source",
+    "g34_correction_provenance",
+    "g34_correction_relation_changed",
+    "g34_correction_shape",
+    "g34_correction_source",
+    "g34_current_bridge_scope",
+    "g34_current_bridge_time",
+    "g34_current_context_changed",
+    "g34_current_key",
+    "g34_current_materials",
+    "g34_current_projection",
+    "g34_current_root_key",
+    "g34_current_scope",
+    "g34_current_source_invalid",
+    "g34_current_transaction",
+    "g34_delivery_bound",
+    "g34_descent_refused",
+    "g34_descriptor_binding",
+    "g34_descriptor_bound",
+    "g34_descriptor_finite",
+    "g34_descriptor_hash",
+    "g34_descriptor_meaning",
+    "g34_descriptor_shape",
+    "g34_drs_body_mismatch",
+    "g34_epoch_body_mode",
+    "g34_epoch_collision",
+    "g34_epoch_descriptor_mismatch",
+    "g34_epoch_hash",
+    "g34_epoch_payload_mismatch",
+    "g34_epoch_sequence",
+    "g34_epoch_shape",
+    "g34_evidence_type",
+    "g34_exact_payload_open_required",
+    "g34_execution_current_projection",
+    "g34_execution_host_context",
+    "g34_execution_review_substitution",
+    "g34_execution_scope",
+    "g34_expectation_binding",
+    "g34_expected_predecessor",
+    "g34_fixed_check_context",
+    "g34_fixed_check_material",
+    "g34_fixed_check_request",
+    "g34_frozen_window",
+    "g34_genesis_ancestry",
+    "g34_head_changed_during_descent",
+    "g34_head_fields",
+    "g34_head_shape",
+    "g34_history_events_required",
+    "g34_history_write_time",
+    "g34_immutable_body_collision",
+    "g34_incomparable_history",
+    "g34_independent_correction_bytes",
+    "g34_independent_correction_required",
+    "g34_independent_history_store",
+    "g34_independent_source_required",
+    "g34_main_contract_role",
+    "g34_mandatory_checks",
+    "g34_masked_projection",
+    "g34_meaning_mismatch",
+    "g34_missing_independent_source",
+    "g34_native_history_only",
+    "g34_no_eligible_candidate",
+    "g34_no_eligible_history",
+    "g34_obligation_receipt_binding",
+    "g34_observation_binding",
+    "g34_opened_body_changed",
+    "g34_opened_bridge",
+    "g34_opened_context",
+    "g34_opened_head_changed",
+    "g34_opened_payload_changed",
+    "g34_opened_payload_source",
+    "g34_opened_shape",
+    "g34_opened_source_mismatch",
+    "g34_opened_summary",
+    "g34_outcome_window_expired",
+    "g34_output_shape",
+    "g34_payload_bound",
+    "g34_payload_pointer_required",
+    "g34_payload_pointer_scope",
+    "g34_payload_root_refusal",
+    "g34_predecessor_context",
+    "g34_predecessor_hash",
+    "g34_predecessor_reference",
+    "g34_predecessor_shape",
+    "g34_prediction_lookahead",
+    "g34_prediction_type",
+    "g34_prior_count",
+    "g34_prior_identity",
+    "g34_prior_occurrences",
+    "g34_prior_profile",
+    "g34_prior_sample_state",
+    "g34_prior_source_mismatch",
+    "g34_prior_source_profile",
+    "g34_prior_type",
+    "g34_prior_value",
+    "g34_projection_adjusted",
+    "g34_projection_base",
+    "g34_projection_bound",
+    "g34_projection_bridge",
+    "g34_projection_candidate",
+    "g34_projection_history",
+    "g34_projection_identity",
+    "g34_projection_prior",
+    "g34_projection_profile",
+    "g34_projection_row_shape",
+    "g34_projection_rows",
+    "g34_projection_score",
+    "g34_projection_selection",
+    "g34_projection_shape",
+    "g34_projection_time",
+    "g34_projection_type",
+    "g34_proposal_consumption",
+    "g34_proposal_time",
+    "g34_read_bound",
+    "g34_readback",
+    "g34_record_root_mismatch",
+    "g34_record_root_refusal",
+    "g34_review_claim_substitution",
+    "g34_review_contract_required",
+    "g34_review_current_scope",
+    "g34_review_input",
+    "g34_root_result",
+    "g34_root_transaction",
+    "g34_snapshot_bound",
+    "g34_snapshot_corrections",
+    "g34_snapshot_events",
+    "g34_snapshot_identity",
+    "g34_snapshot_profile",
+    "g34_snapshot_reference",
+    "g34_snapshot_shape",
+    "g34_snapshot_source_mismatch",
+    "g34_snapshot_sources",
+    "g34_snapshot_time",
+    "g34_snapshot_updates",
+    "g34_source_anchor_conflict",
+    "g34_source_binding",
+    "g34_source_bound",
+    "g34_source_canonical",
+    "g34_source_profile",
+    "g34_stale_predecessor",
+    "g34_step_bound",
+    "g34_subject_status",
+    "g34_typed_artifact",
+    "g34_unauthorized_history_removal",
+    "g34_work_advisory",
+    "g34_work_incomplete",
+    "g34_work_input_shape",
+    "g34_work_literal_required",
+    "g34_work_literal_type",
+    "g34_work_material_binding",
+    "g34_work_material_changed",
+    "g34_work_root_refusal",
+    "g34_work_selection",
+    "g34_write_before_arrival",
+    "g34_write_review_substitution",
+    "g35_artifact_invalid",
+    "g35_clock_order",
+    "g35_clock_shape",
+    "g35_consumption_predecessor",
+    "g35_consumption_ref",
+    "g35_consumption_value_binding",
+    "g35_context_bytes",
+    "g35_context_canonical",
+    "g35_domain_binding",
+    "g35_facts",
+    "g35_independent_context_required",
+    "g35_occurrence",
+    "g35_profile",
+    "g35_profile_context",
+    "g35_record_depth",
+    "g35_record_scalar",
+    "g35_record_type",
+    "g35_root_result",
+    "g35_root_shape",
+    "g35_source_revision",
+    "g35_source_schema",
+    "g35_source_size",
+    "g35_tuple_shape",
+    "g35_unexpected_effect",
+    "g35_work_admission_unique",
+    "g35_work_completion",
+    "g35_work_input_dependency",
+    "g35_work_input_type",
+    "g35_work_item_capability",
+    "g35_work_item_dependencies",
+    "g35_work_program_input_relation",
+    "g35_work_program_order",
+    "g35_work_program_revision",
+    "g35_work_records",
+    "g35_work_result",
+    "g35_work_result_envelope_relation",
+    "g35_work_result_payload_relation",
+    "g35_work_row_context",
+    "g35_work_topology_projection",
+    "g36_independent_source_required",
+    "g36r_snapshot_review_sources",
+    "g4_reference:array_length",
+    "g4_reference:available_range",
+    "g4_reference:catalogue_binding",
+    "g4_reference:closed_keys",
+    "g4_reference:cold_prior_nonzero",
+    "g4_reference:conservation",
+    "g4_reference:container_limit",
+    "g4_reference:duplicate_id",
+    "g4_reference:duplicate_key",
+    "g4_reference:enum",
+    "g4_reference:independent_context_mismatch",
+    "g4_reference:independent_pressure_input",
+    "g4_reference:infeasible_minima",
+    "g4_reference:input_size",
+    "g4_reference:integer_limit",
+    "g4_reference:integer_range",
+    "g4_reference:invalid_json",
+    "g4_reference:json_type",
+    "g4_reference:key",
+    "g4_reference:kind",
+    "g4_reference:kind_pair",
+    "g4_reference:mandatory_branch",
+    "g4_reference:mandatory_catalogue",
+    "g4_reference:mandatory_material",
+    "g4_reference:mandatory_native_origin",
+    "g4_reference:non_integer",
+    "g4_reference:nullable_shape",
+    "g4_reference:numeric_profile",
+    "g4_reference:original_cap",
+    "g4_reference:original_policy_hash",
+    "g4_reference:original_policy_ref",
+    "g4_reference:owner_participant",
+    "g4_reference:pressure_candidates",
+    "g4_reference:pressure_snapshot",
+    "g4_reference:quota_keys",
+    "g4_reference:quota_order",
+    "g4_reference:quota_range",
+    "g4_reference:raw_depth",
+    "g4_reference:raw_size",
+    "g4_reference:shape_type",
+    "g4_reference:spending_binding",
+    "g4_reference:spent_exceeds_original",
+    "g4_reference:string_limit",
+    "g4_reference:string_shape",
+    "g4_reference:structure_limit",
+    "g4_reference:supplied_report_mismatch",
+    "g4_reference:unverified_prior",
+    "g4_reference:weight_range"
+  ],
+  "projector_behavior": "Keep exact membership checks unchanged; no prefix or pattern acceptance and no arbitrary exception text or validator tuple disclosure.",
+  "scenario_change": "Bind the first Stage05 location with observe_failure before projecting and rethrowing the original exception. Outer INTERACTIVE_TASK observation preserves that first cause.",
+  "schema": "radik.stage05.closed_diagnostic_proposal.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py",
+      "sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13",
+      "size_bytes": 65821
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py",
+      "sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079",
+      "size_bytes": 57704
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py",
+      "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+      "size_bytes": 29609
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py",
+      "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+      "size_bytes": 57644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py",
+      "sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42",
+      "size_bytes": 15842
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py",
+      "sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27",
+      "size_bytes": 9665
+    }
+  ],
+  "status": "PROPOSED_NOT_APPLIED_OR_EXECUTED",
+  "steps_added": [
+    "STAGE05_EXPERIENCE"
+  ]
+}

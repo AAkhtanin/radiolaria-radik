@@ -1,0 +1,60 @@
+{
+  "schema": "radik.stage05.metadata_pre_diagnostic_delta.v01",
+  "reason": "Preserve exact source and finalized metadata before independently reviewed closed diagnostic repair",
+  "files": [
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/profile_metadata_draft.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/profile_metadata_draft.json",
+      "sha256": "b9527c03256923deaf606c7be13cdab07f7d63833e0d1a31f76e00d227f21b8f",
+      "size_bytes": 76353
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/runtime_source_review.json",
+      "sha256": "16ebadc32d50d6b4fca06ad3cea325626a9fdf0c9fd6e93c5674d228b0003ebc",
+      "size_bytes": 127390
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/owner_source_review.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/owner_source_review.json",
+      "sha256": "226ee1cbeb2321b2687951db638c680cd0bf643bfbbfe6be4aefc929a642b0c5",
+      "size_bytes": 9219
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/profile_source_admission.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/profile_source_admission.json",
+      "sha256": "857ea4584ae0a1e171c4c1c99a3eab67b9279262e9ef992d5a4d59d41d9ca751",
+      "size_bytes": 578
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/ordinary_profile_manifest.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/ordinary_profile_manifest.json",
+      "sha256": "a46f4db3f8b517823e8d88fe2515faeec8878defdf93c0803584c9585a857462",
+      "size_bytes": 68617
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/rehearsal_copy_inventory_draft.json",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/rehearsal_copy_inventory_draft.json",
+      "sha256": "c72ebfac2d2eedb038e9794ff0e62b57e745ebf175f99fee04b55359a7ebdc39",
+      "size_bytes": 865888
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/after/app/stage04_diagnostics.py",
+      "sha256": "babcb022599fcbb1743a9db003008867fe1e14b632782963bfe3f68ab75a8654",
+      "size_bytes": 106124
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/after/app/qualified_experience.py",
+      "sha256": "80ce5f936b123467628e159753e090d8abef1375a35dfee1341e5d0b2f1708e3",
+      "size_bytes": 47603
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "preserved_path": "review/stage05_qualified_experience_passage/v01/metadata_history/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+      "size_bytes": 9089
+    }
+  ]
+}

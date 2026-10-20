@@ -1,0 +1,110 @@
+{
+  "schema": "radik.stage05.independent_g3_source_review.v02",
+  "reviewer": "stage05_g4_contract_peer",
+  "supersedes_for_candidate_admission": "independent_g3_source_review_v01.json",
+  "prior_review_preserved": true,
+  "reviewed_candidate_pins": {
+    "app/qualified_experience.py": {
+      "sha256": "80ce5f936b123467628e159753e090d8abef1375a35dfee1341e5d0b2f1708e3",
+      "bytes": 47603
+    },
+    "app/qualified_experience_work.py": {
+      "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "bytes": 4819
+    },
+    "tests/test_qualified_experience.py": {
+      "sha256": "ed95aded45835f10bf5e86568713ac1be5e6d01876eea4dcc9e58baafd876c38",
+      "bytes": 4084
+    },
+    "app/qualified_experience_scenario.py": {
+      "sha256": "e895184666402c1277c0daf3663cff1756043ca858613f1826809733a71f5464",
+      "bytes": 9089
+    },
+    "app/runtime.py": {
+      "sha256": "5a26a0a26acedd6099e1c97a27dccb8c787823411190194e26e072af56f8721d",
+      "bytes": 46581
+    }
+  },
+  "decision": "ACCEPTED_FOR_PINNED_SHORT_OFFLINE_NATIVE_CHECKS_ONLY",
+  "owner_actual_authorized_by_review": false,
+  "candidate_imports_or_execution_performed": false,
+  "native_reference_changed": false,
+  "reviewed_contracts": [
+    "G34_CONTROLLED_BOOLEAN_WORK_PREDICTION_V01",
+    "G34_DURABLE_SOURCE_BOUND_HISTORY_V01",
+    "G34_CURRENT_REVIEW_CONTRACT_V01",
+    "G34_CURRENT_CHECK_RECEIPT_BRIDGE_V01",
+    "DRS_CURRENT_DECISION_ELIGIBILITY"
+  ],
+  "findings": [
+    {
+      "id": "G3_CURRENT_NATIVE_ORIGIN",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Current approved bytes are re-read from the live accepted controller, its native result is validated, and exact task/source scope plus adapter closure are revalidated before G4 consumption. A JSON report cannot create a sealed binding."
+    },
+    {
+      "id": "G3_PROSPECTIVE_DURABILITY",
+      "status": "REPAIRED_REVIEWED",
+      "detail": "Prospective claim bytes are file-fsynced, directory-fsynced and read back before actual native Work. Native predictive feedback keeps wall nanoseconds, observation/ingest epoch seconds and monotonic elapsed time distinct."
+    },
+    {
+      "id": "G3_SCOPED_NEGATIVE",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "An actual typed PURE verification result qualifies absence of explicit unresolved raw-source markers. Unscorable AUTH, transport or model failures do not create negative events, task-outcome claims or permission."
+    },
+    {
+      "id": "G3_CAUSAL_PROOF",
+      "status": "REPAIRED_REVIEWED",
+      "detail": "Native causal proof validates bridge/advisory/semantic proposal/Work proposal/topology/actual result edges. The mandatory additional current check and its receipt edge are present exactly when the public trust projection recommends review."
+    },
+    {
+      "id": "G3_INDEPENDENT_SOURCE_CUSTODY_ROOT",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "A distinct actual custody Root reviews current source identity, accepted result and the selected actual native Work output; retained G4 bindings validate that Root result and current eligibility."
+    },
+    {
+      "id": "G3_TEMPORAL_NONTRANSFER",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Native descriptor eligibility precedes numeric history opening and runs again on consumption. Expiry, strict max-age, source revision and unrelated scope cannot restore historical permissions. Conflict/quarantine controls only restrict in-memory eligibility; original history and envelope are preserved."
+    },
+    {
+      "id": "SCENARIO_CAUSAL_ASSERTIONS",
+      "status": "REPAIRED_REVIEWED",
+      "detail": "The scenario now requires eligible negative prospective feedback, exact history and outcome identifiers, changed actual current Work, unchanged source scope, equal total and consumed budget9, actual 4/3-to-3/4 allocation, newly consumed absolute_word_audit, no extra model turns and preserved unscorable history."
+    },
+    {
+      "id": "SCENARIO_FAILURE_PERSISTENCE",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Checkpoints retain partial evidence and source references. Primary failure is projected and STOPPED_NO_RETRY is preserved; completion explicitly requires independent actual review."
+    },
+    {
+      "id": "RUNTIME_OPERATION_DEADLINE",
+      "status": "SOURCE_CONFIRMED_WITH_DEPENDENCY_REQUIREMENT",
+      "detail": "Runtime uses the actual ordinary-entry installed integer deadline bounded by opened_at+7800. The matching ordinary_entry writer and source admission are required changed executable dependencies; this review does not independently accept their entire source."
+    },
+    {
+      "id": "PURE_TEST_SCOPE",
+      "status": "SOURCE_CONFIRMED",
+      "detail": "Tests cover actual marker bytes and byte spans, non-truth scope, raw/revision/reference/extra-field rejection, exact persistence readback and collision preservation, unscorable no-update, and plain-JSON binding rejection. Their stub controller is used only for the no-native unscorable branch."
+    }
+  ],
+  "permitted_short_checks": [
+    "Import exactly pinned files and independently reviewed dependency closure only in an isolated copied application with finite admitted native source map",
+    "Run the pinned pure test_qualified_experience.py with temporary directories and no owner credentials or ledger",
+    "Use one current-clock DynamicDocumentController with three explicit synthetic finalized HTTP role responses, no actual provider or AUTH calls",
+    "Run cold and qualified native G3/G4 Work over that single accepted controller and inspect actual typed results and causal identifiers",
+    "Write only beneath the fresh isolated exam workspace; preserve real owner state, immutable reference, accepted evidence and source files"
+  ],
+  "execution_conditions": [
+    "A separate reviewer must accept the authored offline runner and whole source pin inventory before imports",
+    "Do not execute the historical Stage04 run_cases campaign or full E",
+    "No owner operation, SAVE, provider, AUTH, public publication or Stage05 acceptance is granted by this source review",
+    "Any source change invalidates the relevant exact pin and requires independent review before execution",
+    "Inspect bounded actual test outputs independently before owner handoff"
+  ],
+  "limitations": [
+    "No self-review of qualified_strategy or offline_native author code",
+    "One bounded fictional-source predicate does not establish external truth, model calibration or universal memory",
+    "No automatic cold fallback when current retained history is ineligible"
+  ]
+}

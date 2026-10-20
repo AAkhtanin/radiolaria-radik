@@ -1,0 +1,160 @@
+{
+  "application_execution_allowed": false,
+  "author": "/root_and_delegated_authors",
+  "automatic_retry": false,
+  "changed_sources": [
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/runtime.py",
+        "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+        "size_bytes": 46927
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/runtime.py",
+        "sha256": "5a26a0a26acedd6099e1c97a27dccb8c787823411190194e26e072af56f8721d",
+        "size_bytes": 46581
+      },
+      "path": "after/app/runtime.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_entry.py",
+        "sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+        "size_bytes": 24648
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/ordinary_entry.py",
+        "sha256": "5342c866d94c645ac206b27a5e482438d271bc8145792d013244f181334c2c01",
+        "size_bytes": 23348
+      },
+      "path": "after/app/ordinary_entry.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+        "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+        "size_bytes": 9310
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/qualified_experience_scenario.py",
+        "sha256": "d8d6febda09d3f63754685722d8a7f55fb3c0114272fc72d8a0fb1d0a4e8638f",
+        "size_bytes": 9188
+      },
+      "path": "after/app/qualified_experience_scenario.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+        "sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+        "size_bytes": 47571
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+        "sha256": "b02603f9e7d897d6d2e4d200658c8e1982e74ee978963f922241fa211bc61c0d",
+        "size_bytes": 47580
+      },
+      "path": "after/app/qualified_experience.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+        "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+        "size_bytes": 117905
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/after/app/stage04_diagnostics.py",
+        "sha256": "35570ccc36e42d297090b72269b67170eb1168bc7e6cde0c60259bb7d13a98b8",
+        "size_bytes": 117778
+      },
+      "path": "after/app/stage04_diagnostics.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+        "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+        "size_bytes": 59463
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/owner_terminal.py",
+        "sha256": "6d40f985b8ef8403ba2a44525c6a2078073bdb91721b44830efe81d50da12881",
+        "size_bytes": 57407
+      },
+      "path": "owner_terminal.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+        "sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+        "size_bytes": 16725
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/supervisor_timing.py",
+        "sha256": "86fdba55c6162cc9beaedeb519a87cfc8ae025204b3b97986ccdea2c2e53603c",
+        "size_bytes": 16725
+      },
+      "path": "supervisor_timing.py"
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+        "sha256": "982e2995c37fc4197c33e4bd5eb0a405e060a06f2d98583674c66b2cece39713",
+        "size_bytes": 14188
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/rehearsal_runner.py",
+        "sha256": "0f2c77a57347d038ed3d311a3fbbe2a8b12f3d874ec25a62ebb4347cad6a4554",
+        "size_bytes": 14188
+      },
+      "path": "rehearsal_runner.py"
+    }
+  ],
+  "display_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_progress_display_independent_source_review.json",
+    "sha256": "ad96fa5565a811d0988b8c95011655642bfe3ed59aa665edc663a45277da8158",
+    "size_bytes": 2309
+  },
+  "existing_TTL_renewed": false,
+  "findings": [
+    "run_task adds a strict bool prepare_continuation=True. Existing callers preserve eager preparation; only the Stage05 NO_E scenario explicitly passes False after ordinary cold Work. No source TTL, temporal minimum, native API, SAVE authority or current-source check is relaxed.",
+    "The experience command binds active_step=STAGE05_EXPERIENCE around the whole scenario and restores it in finally. Actual role-call count remains None until measured from the completed cold snapshot.",
+    "The Stage05 clock is selected only for inherited non-owner-scenario launch paths whose canonical hash, schema, source-review ref, first-process identity and inherited clocks match. Other paths retain the exact pinned legacy timer.",
+    "Supervisor adds only the reviewed closed checkpoint/phase display hook and corresponding banner; timing predicates, cleanup, lock ownership and dispatch are unchanged.",
+    "Fresh operation/native limits become 3000/900 seconds and the isolated engineering ceiling 900 seconds. The measured 300-second native prefix proves the earlier cap inadequate; remaining 72 source reads/23 quanta are static counts, not a measured speed or completion estimate. The new cap is a bounded measurement allowance.",
+    "The G3 change is only a docstring correction. G4 performs explicit current-history checks at its defined boundaries and final acceptance, not before every pure quantum. Retained historical review is corrected append-only.",
+    "Only three exact diagnostic codes are added; projector membership/sanitization behavior remains unchanged."
+  ],
+  "g4_source_freshness_correction_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+    "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+    "size_bytes": 6070
+  },
+  "native_reference_or_executor_changes": false,
+  "owner_execution_allowed": false,
+  "preserved_metadata_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v02/preservation.json",
+    "sha256": "13cd07faaa118555ef357bcf576a9a062464ac59f0c38bf85715f66d666c4fe0",
+    "size_bytes": 4752
+  },
+  "remaining_actual_requirement": "A newly pinned one-use ordinary copied run must reach the missing G3/G4 consumers and produce actual witnesses before owner admission.",
+  "required_focused_controls": [
+    "Scoped timing selection: no inherited/legacy/owner-scenario routes, valid Stage05 bound launch, mismatched launch/schema/source/clocks.",
+    "Default continuation preparation and explicit Stage05 false branch/source wiring.",
+    "All newly added diagnostic literals and first-cause step preservation.",
+    "Recorded V01 progress formatting plus separately labelled synthetic checkpoint/phase controls."
+  ],
+  "reviewed_at_utc": "2026-10-20T21:59:29.005205+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.post_v01_targeted_source_review.v01",
+  "source_modules_imported": false,
+  "status": "EXACT_TARGETED_SOURCE_ACCEPTED_PENDING_FOCUSED_CONTROLS_AND_NEW_ORDINARY_GRANT",
+  "stopped_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+    "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+    "size_bytes": 39071
+  },
+  "timing_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+    "sha256": "ff533ba09b1a900a8f47cfba9b6b3009e5c35617608758194595313438f8d722",
+    "size_bytes": 2447
+  }
+}

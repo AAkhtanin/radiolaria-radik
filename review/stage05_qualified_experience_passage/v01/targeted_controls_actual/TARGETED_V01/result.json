@@ -1,0 +1,298 @@
+{
+  "actual_owner_run": false,
+  "application_module_imports": 0,
+  "diagnostic_controls": {
+    "arbitrary_suffix_sanitized": true,
+    "preserved": [
+      "console_continuation_preparation_flag",
+      "ordinary_stage05_launch_binding",
+      "informational_insufficient_validity"
+    ],
+    "scope": "THREE_LITERAL_CODE_PROJECTIONS_ONLY",
+    "whole_diagnostic_module_imported": false
+  },
+  "display_controls": {
+    "actual_checkpoint_steps": [
+      "prospective_scenario"
+    ],
+    "actual_projection": [
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: BOOTSTRAP/ordinary_bootstrap; execution event only; total wall=1.115 s, CPU=1.036 s, native=0.000 s, remaining=2398.885 s.",
+        "readback_verified": false,
+        "sequence": 1
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: BOOTSTRAP/ordinary_bootstrap; execution event only; total wall=16.580 s, CPU=16.403 s, native=0.000 s, remaining=2383.420 s.",
+        "readback_verified": false,
+        "sequence": 2
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: NATIVE/ordinary_scenario; execution event only; total wall=16.580 s, CPU=16.403 s, native=0.000 s, remaining=2383.420 s.",
+        "readback_verified": false,
+        "sequence": 3
+      },
+      {
+        "kind": "STATUS",
+        "line": "Checkpoint read back: prospective_scenario; evidence_sha256=2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816; total wall=44.232 s, CPU=44.013 s, native=27.652 s, remaining=2355.768 s.",
+        "readback_verified": true,
+        "sequence": 6
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=76.927 s, CPU=76.670 s, native=60.347 s, remaining=2323.073 s.",
+        "readback_verified": false,
+        "sequence": 8
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=76.927 s, CPU=76.671 s, native=60.347 s, remaining=2323.073 s.",
+        "readback_verified": false,
+        "sequence": 9
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=76.927 s, CPU=76.671 s, native=60.347 s, remaining=2323.073 s.",
+        "readback_verified": false,
+        "sequence": 10
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=79.693 s, CPU=79.434 s, native=60.347 s, remaining=2320.307 s.",
+        "readback_verified": false,
+        "sequence": 11
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=107.449 s, CPU=107.150 s, native=88.103 s, remaining=2292.551 s.",
+        "readback_verified": false,
+        "sequence": 12
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=107.450 s, CPU=107.151 s, native=88.103 s, remaining=2292.550 s.",
+        "readback_verified": false,
+        "sequence": 13
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=115.470 s, CPU=115.163 s, native=96.124 s, remaining=2284.530 s.",
+        "readback_verified": false,
+        "sequence": 14
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=123.510 s, CPU=123.191 s, native=96.124 s, remaining=2276.490 s.",
+        "readback_verified": false,
+        "sequence": 15
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=178.159 s, CPU=177.755 s, native=150.773 s, remaining=2221.841 s.",
+        "readback_verified": false,
+        "sequence": 16
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=178.160 s, CPU=177.755 s, native=150.773 s, remaining=2221.840 s.",
+        "readback_verified": false,
+        "sequence": 17
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=186.364 s, CPU=185.947 s, native=158.977 s, remaining=2213.636 s.",
+        "readback_verified": false,
+        "sequence": 18
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=194.571 s, CPU=194.145 s, native=158.977 s, remaining=2205.429 s.",
+        "readback_verified": false,
+        "sequence": 19
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=274.542 s, CPU=273.981 s, native=238.948 s, remaining=2125.458 s.",
+        "readback_verified": false,
+        "sequence": 22
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=274.543 s, CPU=273.982 s, native=238.948 s, remaining=2125.457 s.",
+        "readback_verified": false,
+        "sequence": 23
+      },
+      {
+        "kind": "PHASE_ENTER",
+        "line": "Phase entered: PROVIDER; execution event only; total wall=285.187 s, CPU=284.614 s, native=249.592 s, remaining=2114.813 s.",
+        "readback_verified": false,
+        "sequence": 24
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: PROVIDER; execution event only; total wall=295.682 s, CPU=295.098 s, native=249.592 s, remaining=2104.318 s.",
+        "readback_verified": false,
+        "sequence": 25
+      },
+      {
+        "kind": "PHASE_EXIT",
+        "line": "Phase exited: NATIVE/ordinary_scenario; execution event only; total wall=346.129 s, CPU=345.470 s, native=300.039 s, remaining=2053.871 s.",
+        "readback_verified": false,
+        "sequence": 28
+      }
+    ],
+    "native_acceptance": false,
+    "native_clock": "Reconstructed from recorded phase intervals; no new execution.",
+    "recorded_rows": 30,
+    "scope": "RECORDED_V01_DISPLAY_REPLAY_AND_SEPARATE_SYNTHETIC_CONTROLS",
+    "semantic_progress_credit": false,
+    "synthetic_checkpoint_cases": [
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "causal_chain_verified"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "cold_allocated_work"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "current_eligibility_controls"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "ordinary_accepted_result"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": true,
+        "result": "PASS",
+        "step": "prospective_scenario"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "qualified_allocated_work"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "qualified_feedback"
+      },
+      {
+        "classification": "SYNTHETIC_PROJECTION_ONLY",
+        "observed_in_actual": false,
+        "result": "PASS",
+        "step": "unscorable_audit_control"
+      }
+    ],
+    "synthetic_phase_cases": 16
+  },
+  "elapsed_wall_seconds": 0.055428167805075645,
+  "model_calls": 0,
+  "native_work_calls": 0,
+  "recorded_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/child_stdout.raw",
+      "sha256": "aa5e2c1270c0b53af5c8ff80251409f7d64052b06ad85772bc4a2a3e4393b7ba",
+      "size_bytes": 16244
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+      "sha256": "69007a92e36eaa6103eb4107bf0e23e49c356ab84295c7c6beb27bb57cbafa27",
+      "size_bytes": 499
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/receipt.json",
+      "sha256": "f0e4e984bff56b4b26bfa697248a02ed686807e2e4fae6bf6a8dfd3c880c9b23",
+      "size_bytes": 2789
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_console_command_e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04.json",
+      "sha256": "e99fdbab2bb2b9708d0e23cbd545297b8b307f75e29a260894dff72731e18d04",
+      "size_bytes": 343666
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/750981206ff9350f542f3a46/ordinary_entry_failure_3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406.json",
+      "sha256": "3e42d4779f61434d87486a1418e6ed310075618e9b058c7eb6f8bc9f0d653406",
+      "size_bytes": 21171
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05/0a991bb2f2b3/prospective_scenario_2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816.json",
+      "sha256": "2621fc704969eb817e7c4bbd6ee483769a1c23d799b942d415886630856e5816",
+      "size_bytes": 2094
+    }
+  ],
+  "semantic_acceptance": false,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+      "size_bytes": 59463
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/ordinary_entry.py",
+      "sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+      "size_bytes": 24648
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+      "size_bytes": 46927
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+      "size_bytes": 9310
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+      "size_bytes": 117905
+    }
+  ],
+  "static_controls": {
+    "application_execution": false,
+    "default_continuation": true,
+    "first_failure_uses_active_step": true,
+    "initial_model_call_count": null,
+    "scope": "AST_ONLY_RUNTIME_AND_SCENARIO",
+    "stage05_only_explicit_opt_out": true,
+    "stage05_step_restored_in_finally": true
+  },
+  "status": "PASS_AST_HELPERS_RECORDED_PROJECTION_ONLY",
+  "timing_controls": {
+    "actual_launch_or_runtime": false,
+    "cases": [
+      "BOUND_STAGE05_FINAL_REVIEW_REFERENCE",
+      "PLAIN_CONSOLE_LEGACY",
+      "OLD_OWNER_PATH_LEGACY",
+      "OWNER_SCENARIO_LEGACY",
+      "REFUSED_BINDING",
+      "REFUSED_SOURCE_REVIEW",
+      "REFUSED_START_NS",
+      "REFUSED_DEADLINE_NS",
+      "REFUSED_START_UTC",
+      "REFUSED_PROCESS_INDEX"
+    ],
+    "copied_launch_basis": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/process_1/launch.json",
+    "final_source_review_reference": {
+      "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+      "sha256": "03428b43f88f03ca303ae9c2b318348a2ecf204d40f451a38b30124c285b0977",
+      "size_bytes": 129838
+    },
+    "scope": "SYNTHETIC_HELPER_FIXTURES_ONLY"
+  }
+}

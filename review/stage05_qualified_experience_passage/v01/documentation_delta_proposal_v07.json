@@ -1,0 +1,567 @@
+{
+  "allowed_changed_deferred_ids": [
+    "DEFER-S5-FEEDBACK",
+    "DEFER-S5-TEMPORAL-CONFLICT",
+    "DEFER-S5-LESSON-CONSUMER",
+    "DEFER-S5-FINITE-STRATEGY"
+  ],
+  "application_blocker": "Independent review of these exact documentation postimages before copying to the existing dossier.",
+  "applied_after_actual_only": [
+    "Append exact independent V02 review and actual consumer references without replacing retained V01 evidence.",
+    "Update only the four Stage05 rows in the existing JSON/XML and their README scope paragraph.",
+    "Keep owner_actual=NOT_RUN and closure=NOT_ESTABLISHED until the separate owner run is independently reviewed."
+  ],
+  "as_of_scope": "Focused native G3/G4 consumers and separate eligibility/unscorable controls independently reviewed; synthetic reporter controls reviewed separately; ordinary cold route stopped and owner not run.",
+  "current_dossier_basis": {
+    "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+    "sha256": "cc74905b63f0eec06f2b59fdd5fe0bdb3cb1d3545e0d056ab9ffb374cb685cb4",
+    "size_bytes": 403201
+  },
+  "historical_dossier_preserved": true,
+  "native_tail_status": "NATIVE_TAIL_V01_ACTUAL_G3_G4_CONSUMERS_REVIEWED_RESTRICTIVE_CONTROLS_STOPPED",
+  "new_evidence_ids": {
+    "E-S5-COLD-G4-NATIVE": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G4_bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355.json",
+      "sha256": "bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355",
+      "size_bytes": 18447
+    },
+    "E-S5-CURRENT-G3-NATIVE": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
+      "sha256": "e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06",
+      "size_bytes": 192883
+    },
+    "E-S5-FAILURE-CAPTURE-SOURCE": {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_root_source_review_v04.json",
+      "sha256": "92596bf0d58cd8c0db1b726073cb61da27d0e8a54add0bea58e4d8a32d0053e9",
+      "size_bytes": 2229
+    },
+    "E-S5-G3-COLD-ACTUAL": {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+      "size_bytes": 144100
+    },
+    "E-S5-G4-BOOTSTRAP": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+      "sha256": "0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8",
+      "size_bytes": 12306
+    },
+    "E-S5-G4-BOOTSTRAP-REVIEW": {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "sha256": "194a544c72bbea43e3ed63d305cca8edc4205603ddd11f3128b903fc255669ae",
+      "size_bytes": 5886
+    },
+    "E-S5-G4-FRESHNESS-CORRECTION": {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+      "size_bytes": 6070
+    },
+    "E-S5-G4-REVISION-SOURCE": {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+      "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+      "size_bytes": 4810
+    },
+    "E-S5-PROSPECTIVE-NATIVE": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/feedback_b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772.json",
+      "sha256": "b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772",
+      "size_bytes": 64944
+    },
+    "E-S5-QUALIFIED-G4-NATIVE": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G4_ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e.json",
+      "sha256": "ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e",
+      "size_bytes": 19146
+    },
+    "E-S5-RESTRICTION-SOURCE": {
+      "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+      "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+      "size_bytes": 4449
+    },
+    "E-S5-TAIL-REVIEW": {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+      "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+      "size_bytes": 98522
+    },
+    "E-S5-V02-REVIEW": {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+      "size_bytes": 40339
+    },
+    "E-S5-ELIGIBILITY-REVIEW": {
+      "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+      "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+      "size_bytes": 5246
+    },
+    "E-S5-FAILURE-CONTROLS-REVIEW": {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+      "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+      "size_bytes": 3218
+    },
+    "E-S5-ELIGIBILITY-ACTUAL": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
+      "sha256": "6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0",
+      "size_bytes": 15033
+    },
+    "E-S5-ELIGIBILITY-CONTROLS": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+      "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+      "size_bytes": 33920
+    },
+    "E-S5-UNSCORABLE-ACTUAL": {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
+      "sha256": "999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0",
+      "size_bytes": 1137
+    },
+    "E-S5-FAILURE-CONTROLS": {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
+      "sha256": "f8cb6a4299852e099e5fe0a0962010adb5608d448193fb44a873459d86737157",
+      "size_bytes": 3150
+    }
+  },
+  "new_evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+      "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+      "size_bytes": 6070
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+      "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+      "size_bytes": 8465
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+      "sha256": "bee2a17e5ee5d7e31c375a363ec1109b301bd86751626b3454c866a167197f25",
+      "size_bytes": 12394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+      "sha256": "59512efe8cb4c2ab25822d8962b36d37cb5409ff3bbaea363eb881c91bf9642d",
+      "size_bytes": 3639
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+      "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+      "size_bytes": 39071
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+      "sha256": "ff533ba09b1a900a8f47cfba9b6b3009e5c35617608758194595313438f8d722",
+      "size_bytes": 2447
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+      "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+      "size_bytes": 40339
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_bootstrap_independent_result_review_v01.json",
+      "sha256": "194a544c72bbea43e3ed63d305cca8edc4205603ddd11f3128b903fc255669ae",
+      "size_bytes": 5886
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+      "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+      "size_bytes": 4810
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_root_source_review_v04.json",
+      "sha256": "92596bf0d58cd8c0db1b726073cb61da27d0e8a54add0bea58e4d8a32d0053e9",
+      "size_bytes": 2229
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/after/app/qualified_strategy.py",
+      "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+      "size_bytes": 33644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd.json",
+      "sha256": "5fecb1d9e1c0191034254aa6c917e28e471aef2dc5d3721c6c281533a532f8cd",
+      "size_bytes": 144100
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/G4_BOOTSTRAP_V01/work/result_0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8.json",
+      "sha256": "0506e6fed222992dd30e97ec8f226d26aa5ac928aff78234539ee31cb95e95a8",
+      "size_bytes": 12306
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+      "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+      "size_bytes": 98522
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+      "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+      "size_bytes": 4449
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_peer_source_review_v02.json",
+      "sha256": "c9130201575296fac6c0467f8e1a73ed97ef885327c467a34bd16a35ca29a5e5",
+      "size_bytes": 4786
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/result_e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2.json",
+      "sha256": "e00abd0905aaf03601eeb5b9ee8de06ba7a002d932aee5b1e80564e8f58036e2",
+      "size_bytes": 16299
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/source_admission.json",
+      "sha256": "ab797130b5a73b0e53a27f3a4e031934585673d5d2c09e4badea6dca88eb54f1",
+      "size_bytes": 291771
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/copy_inventory.json",
+      "sha256": "d23411199f9c542043c949cce70c97b7d7c4592bb4263dc4204b5d1b2ffd76aa",
+      "size_bytes": 169193
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/fresh_controller_a89e27e53b326c9ac77297461e2ac6e912e8e163225042f3aa8a292c00162ac6.json",
+      "sha256": "a89e27e53b326c9ac77297461e2ac6e912e8e163225042f3aa8a292c00162ac6",
+      "size_bytes": 53831
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G3_9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa.json",
+      "sha256": "9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa",
+      "size_bytes": 144100
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G4_bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355.json",
+      "sha256": "bb04556fa560d4a964c26f7fcd3224bb0e0aa78c273da34ea03770f45a4c1355",
+      "size_bytes": 18447
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/feedback_b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772.json",
+      "sha256": "b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772",
+      "size_bytes": 64944
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
+      "sha256": "e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06",
+      "size_bytes": 192883
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G4_ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e.json",
+      "sha256": "ad93bfdf2933a53e595d274418099fc987113a4437cf6776c68c06ef71bb5d3e",
+      "size_bytes": 19146
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a.json",
+      "sha256": "0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a",
+      "size_bytes": 1165419
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358.json",
+      "sha256": "2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358",
+      "size_bytes": 412057
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807.json",
+      "sha256": "d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807",
+      "size_bytes": 1176407
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a.json",
+      "sha256": "33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a",
+      "size_bytes": 415619
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+      "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+      "size_bytes": 5246
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+      "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+      "size_bytes": 3218
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/result_6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0.json",
+      "sha256": "6ffaaf4f957b781dda48eff45e7c1ebb1d6f9a006907b2e7b77dbf261a6cc9a0",
+      "size_bytes": 15033
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+      "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+      "size_bytes": 33920
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
+      "sha256": "999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0",
+      "size_bytes": 1137
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
+      "sha256": "f8cb6a4299852e099e5fe0a0962010adb5608d448193fb44a873459d86737157",
+      "size_bytes": 3150
+    }
+  ],
+  "owner_command_omissions": [
+    "Final owner command and admission packaging are maintained by the parent passage; this documentation edit does not assert their current completion or authorize execution."
+  ],
+  "proposed_english_paragraphs": [
+    "The exact proposed README/XML postimages are authoritative for the narrative in this documentation proposal. Focused native G3/G4 consumers and separate eligibility/unscorable controls have independent actual reviews; owner remains NOT_RUN and Stage05 closure NOT_ESTABLISHED.",
+    "The stopped ordinary cold route and tail control stop remain retained. Explicit offline clocks and controlled restrictions are distinguished from wall-time passage or external events; synthetic reporter helper scope remains separate.",
+    "Prepared time limits use composite engineering evidence from distinct admitted runs, not one completed owner scenario or an ETA."
+  ],
+  "proposed_stage05_progress_by_id": {
+    "DEFER-S5-FEEDBACK": {
+      "closure": "NOT_ESTABLISHED",
+      "evidence_refs": [
+        "E-S5-G3-SOURCE",
+        "E-S5-G4-SOURCE",
+        "E-S5-UNIT-SOURCE",
+        "E-S5-UNIT",
+        "E-S5-UNIT-REVIEW",
+        "E-S5-V02-REVIEW",
+        "E-S5-G3-COLD-ACTUAL",
+        "E-S5-G4-BOOTSTRAP",
+        "E-S5-G4-BOOTSTRAP-REVIEW",
+        "E-S5-G4-REVISION-SOURCE",
+        "E-S5-G4-FRESHNESS-CORRECTION",
+        "E-S5-FAILURE-CAPTURE-SOURCE",
+        "E-S5-TAIL-REVIEW",
+        "E-S5-PROSPECTIVE-NATIVE",
+        "E-S5-CURRENT-G3-NATIVE",
+        "E-S5-COLD-G4-NATIVE",
+        "E-S5-QUALIFIED-G4-NATIVE",
+        "E-S5-RESTRICTION-SOURCE",
+        "E-S5-ELIGIBILITY-REVIEW",
+        "E-S5-FAILURE-CONTROLS-REVIEW",
+        "E-S5-ELIGIBILITY-ACTUAL",
+        "E-S5-ELIGIBILITY-CONTROLS",
+        "E-S5-UNSCORABLE-ACTUAL",
+        "E-S5-FAILURE-CONTROLS"
+      ],
+      "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
+      "native_scope": "Fresh-memory native tail retained prospective expectation before the actual zero-valued source predicate, committed ELIGIBLE qualified history, then consumed its -62500000 prior in a current Root-reviewed changed Work operation. Full cold ordinary console completion and owner acceptance remain unobserved. A separate focused fresh observation and current-control run verified unscorable NO_UPDATE with original history and head preserved.",
+      "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+      "owner_actual": "NOT_RUN",
+      "publication": "LOCAL_ONLY",
+      "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
+      "source_scope": "Reviewed public G3 adapter persists and reads back a prospective expectation before its scoped raw-source-marker verification, binds native outcome/history contracts and excludes unscorable transport, AUTH and model categories from negative history.",
+      "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
+      "unit_scope": "Pure controls checked marker-result bytes, source identity, durable prospective readback/collision and unscorable NO_UPDATE with unchanged in-memory history.",
+      "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+    },
+    "DEFER-S5-FINITE-STRATEGY": {
+      "closure": "NOT_ESTABLISHED",
+      "evidence_refs": [
+        "E-S5-G3-SOURCE",
+        "E-S5-G4-SOURCE",
+        "E-S5-UNIT-SOURCE",
+        "E-S5-UNIT",
+        "E-S5-UNIT-REVIEW",
+        "E-S5-V02-REVIEW",
+        "E-S5-G3-COLD-ACTUAL",
+        "E-S5-G4-BOOTSTRAP",
+        "E-S5-G4-BOOTSTRAP-REVIEW",
+        "E-S5-G4-REVISION-SOURCE",
+        "E-S5-G4-FRESHNESS-CORRECTION",
+        "E-S5-FAILURE-CAPTURE-SOURCE",
+        "E-S5-TAIL-REVIEW",
+        "E-S5-PROSPECTIVE-NATIVE",
+        "E-S5-CURRENT-G3-NATIVE",
+        "E-S5-COLD-G4-NATIVE",
+        "E-S5-QUALIFIED-G4-NATIVE",
+        "E-S5-RESTRICTION-SOURCE",
+        "E-S5-ELIGIBILITY-REVIEW",
+        "E-S5-FAILURE-CONTROLS-REVIEW",
+        "E-S5-ELIGIBILITY-ACTUAL",
+        "E-S5-ELIGIBILITY-CONTROLS",
+        "E-S5-UNSCORABLE-ACTUAL",
+        "E-S5-FAILURE-CONTROLS"
+      ],
+      "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
+      "native_scope": "Both revised native programs completed 9 compute units, with 7 actual selected check outputs consumed by their final consumer and distinct task/custody Roots. Counts changed quotation 4 / qualification 3 to quotation 3 / qualification 4 at the same cap; original complete ACTIVE outcomes and programs are retained. Selection/bootstrap and final current-history/source gates apply to the bounded snapshot computation; per-quantum revalidation or cancellation is not claimed.",
+      "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+      "owner_actual": "NOT_RUN",
+      "publication": "LOCAL_ONLY",
+      "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
+      "source_scope": "Reviewed app-specific bounded profile uses existing public G4 pressure/allocation validators, distinct task and custody Root decisions, an original total of nine units, seven finite check outputs and a typed final consumer. It is not the stock Airline consumer or a new G4 implementation. A separately reviewed correction unwraps the public ACTIVE revision outcome to its program and retains both values; the original sanitized stop remains unresolved.",
+      "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
+      "unit_scope": "Pure allocation/consumer controls checked 4/3-to-3/4 redistribution, high-score HardMask exclusion and count/output/omission/scope/budget mutation refusals. These are pure computations, not Host execution receipts.",
+      "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+    },
+    "DEFER-S5-LESSON-CONSUMER": {
+      "closure": "NOT_ESTABLISHED",
+      "evidence_refs": [
+        "E-S5-G3-SOURCE",
+        "E-S5-G4-SOURCE",
+        "E-S5-UNIT-SOURCE",
+        "E-S5-UNIT",
+        "E-S5-UNIT-REVIEW",
+        "E-S5-V02-REVIEW",
+        "E-S5-G3-COLD-ACTUAL",
+        "E-S5-G4-BOOTSTRAP",
+        "E-S5-G4-BOOTSTRAP-REVIEW",
+        "E-S5-G4-REVISION-SOURCE",
+        "E-S5-G4-FRESHNESS-CORRECTION",
+        "E-S5-FAILURE-CAPTURE-SOURCE",
+        "E-S5-TAIL-REVIEW",
+        "E-S5-PROSPECTIVE-NATIVE",
+        "E-S5-CURRENT-G3-NATIVE",
+        "E-S5-COLD-G4-NATIVE",
+        "E-S5-QUALIFIED-G4-NATIVE",
+        "E-S5-RESTRICTION-SOURCE",
+        "E-S5-ELIGIBILITY-REVIEW",
+        "E-S5-FAILURE-CONTROLS-REVIEW",
+        "E-S5-ELIGIBILITY-ACTUAL",
+        "E-S5-ELIGIBILITY-CONTROLS",
+        "E-S5-UNSCORABLE-ACTUAL",
+        "E-S5-FAILURE-CONTROLS"
+      ],
+      "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
+      "native_scope": "In the fresh-memory native tail, eligible negative source-predicate history changed actual Work from source_verification to source_condition_audit under current Root review; exact feedback, history, prior and consumer identifiers are retained. No cross-task transfer or owner-route closure is inferred. Separate focused native controls refused unrelated-task use, source revision mismatch, conflict and quarantine before Work.",
+      "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+      "owner_actual": "NOT_RUN",
+      "publication": "LOCAL_ONLY",
+      "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
+      "source_scope": "Reviewed sealed live history binding selects verification or additional source-condition audit through native current review and retains a separate current source-custody Root.",
+      "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
+      "unit_scope": "Pure controls distinguish verification and audit output, reject plain-JSON binding substitution and preserve unscorable history; separate native receipts below establish actual consumption.",
+      "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+    },
+    "DEFER-S5-TEMPORAL-CONFLICT": {
+      "closure": "NOT_ESTABLISHED",
+      "evidence_refs": [
+        "E-S5-G3-SOURCE",
+        "E-S5-G4-SOURCE",
+        "E-S5-UNIT-SOURCE",
+        "E-S5-UNIT",
+        "E-S5-UNIT-REVIEW",
+        "E-S5-V02-REVIEW",
+        "E-S5-G3-COLD-ACTUAL",
+        "E-S5-G4-BOOTSTRAP",
+        "E-S5-G4-BOOTSTRAP-REVIEW",
+        "E-S5-G4-REVISION-SOURCE",
+        "E-S5-G4-FRESHNESS-CORRECTION",
+        "E-S5-FAILURE-CAPTURE-SOURCE",
+        "E-S5-TAIL-REVIEW",
+        "E-S5-PROSPECTIVE-NATIVE",
+        "E-S5-CURRENT-G3-NATIVE",
+        "E-S5-COLD-G4-NATIVE",
+        "E-S5-QUALIFIED-G4-NATIVE",
+        "E-S5-RESTRICTION-SOURCE",
+        "E-S5-ELIGIBILITY-REVIEW",
+        "E-S5-FAILURE-CONTROLS-REVIEW",
+        "E-S5-ELIGIBILITY-ACTUAL",
+        "E-S5-ELIGIBILITY-CONTROLS",
+        "E-S5-UNSCORABLE-ACTUAL",
+        "E-S5-FAILURE-CONTROLS"
+      ],
+      "focused_native_tail": "NATIVE_TAIL_V01_G3_G4_ACTUAL_REVIEWED_LATER_ELIGIBILITY_CONTROL_STOPPED",
+      "native_scope": "Fresh memory eligibility and Root descent preserved original accepted_at/valid_to. After the retained tail stopped at controlled conflict-record construction, a narrowly repaired public constructor was independently reviewed and a separate fresh current-controller run passed age300, expiry, source-revision mismatch, unrelated-task, conflict and quarantine refusals before Work. Explicit evaluation clocks are offline controls, not elapsed wall time; original records and head remain preserved, with no TTL extension or restored permission.",
+      "ordinary_native_rehearsal": "ORDINARY_V02_STOPPED_AFTER_COLD_G3_G4_COMPLETION_UNOBSERVED",
+      "owner_actual": "NOT_RUN",
+      "publication": "LOCAL_ONLY",
+      "remaining": "Observe the separate ordinary owner operation and independently review its current source, effective model boundary and complete causal evidence. Focused fixture evidence does not close Stage05.",
+      "source_scope": "Reviewed current descriptor eligibility precedes history opening and is rechecked before consumption; source revision/scope, max-age, expiry, restrictive conflict/quarantine and original validity remain explicit.",
+      "status": "SOURCE_UNIT_AND_FOCUSED_NATIVE_REVIEWED_OWNER_NOT_RUN",
+      "unit_scope": "Pure controls reject changed source bytes, revision and observation identity; separate focused native receipts establish the temporal and restrictive refusals within the stated fixture scope.",
+      "focused_eligibility": "PASS_FRESH_NATIVE_ELIGIBILITY_AND_UNSCORABLE_ONLY"
+    }
+  },
+  "prospective_matrix_unchanged": true,
+  "publication": "LOCAL_ONLY",
+  "required_preservation": {
+    "historical_claims": true,
+    "historical_evidence": true,
+    "observed_deferred_count": 21,
+    "other_deferred_canonical_sha256": "9e6523e7b4bc01b9ec6d86a47cd7df81458b7f72529f2b534348a590b10add62",
+    "total_deferred_rows": 21,
+    "unchanged_other_deferred_rows": 17
+  },
+  "result_matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/result_matrix.json",
+    "sha256": "1a160b0811e2a3cdd5b03231b66fc2969ed268d3c331c2c61c3e020cc229f455",
+    "size_bytes": 51481
+  },
+  "return_omissions": [
+    "Finite return selection, independent packaging review and verified archive construction are maintained separately by the parent passage."
+  ],
+  "schema": "radik.stage05.documentation_delta_proposal.v07",
+  "status": "POSTIMAGES_READY_FOR_INDEPENDENT_REVIEW",
+  "supersedes_for_future_edit": {
+    "path": "review/stage05_qualified_experience_passage/v01/documentation_delta_proposal_v06.json",
+    "sha256": "d3e41ff48d1b3578c51415e28dd53adaf9e81a0c6f60f706afe7b3f5c2c7a1ff",
+    "size_bytes": 33107
+  },
+  "target_paths": [
+    "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+    "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/README.md",
+    "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml"
+  ],
+  "timing_qualification": {
+    "cleanup_seconds": 30,
+    "limits_changed": false,
+    "max_role_attempts": 3,
+    "native_cumulative_seconds": 900,
+    "owner_end_to_end_measured": false,
+    "owner_operation_seconds": 3000,
+    "qualification": "Composite engineering evidence from distinct admitted runs, not a completed ordinary owner scenario.",
+    "role_attempt_seconds": 600
+  },
+  "files": [
+    {
+      "target": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/before/claims_evidence.json",
+        "sha256": "cc74905b63f0eec06f2b59fdd5fe0bdb3cb1d3545e0d056ab9ffb374cb685cb4",
+        "size_bytes": 403201
+      },
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/after/claims_evidence.json",
+        "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+        "size_bytes": 429010
+      },
+      "diff": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/claims_evidence.json.diff",
+        "sha256": "2e3c18677dc111b933224b113c5319847d95a931617fa27b582b4a3bc1e83523",
+        "size_bytes": 38370
+      }
+    },
+    {
+      "target": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/README.md",
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/before/README.md",
+        "sha256": "f3bce65396feb9c32112d7fdf5859e5d6eea3baeafb88c451022741bcee297cc",
+        "size_bytes": 18564
+      },
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/after/README.md",
+        "sha256": "f51f77f4eb630dcc91c3b75609516fedf6430a0c17fe343fb3dc24114ae8b838",
+        "size_bytes": 20582
+      },
+      "diff": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/README.md.diff",
+        "sha256": "6070d4d54e545e9c5a37dc538d49755337b660d805394938aa6cdda25e62bb82",
+        "size_bytes": 11058
+      }
+    },
+    {
+      "target": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml",
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/before/READ_RADIK_STAGE04.xml",
+        "sha256": "3d75805f6df7417ee11a29849bd9b7a8440535310138d9a42c727eb9287a88b8",
+        "size_bytes": 27765
+      },
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/after/READ_RADIK_STAGE04.xml",
+        "sha256": "0d632a1ae3700bb06018c5f9470249ba6ad6c3a7bfedf275b0fb9851faa2e320",
+        "size_bytes": 29883
+      },
+      "diff": {
+        "path": "review/stage05_qualified_experience_passage/v01/documentation_drafts/v07/READ_RADIK_STAGE04.xml.diff",
+        "sha256": "4c2610405c3917fbb716008836863185b880d197c72af68c00e823f31558b6d1",
+        "size_bytes": 12984
+      }
+    }
+  ],
+  "result_matrix_note": "Read-only pin of the G3-authored final matrix; no matrix bytes changed by this documentation passage.",
+  "historical_json_guard": "Exact equality after restoring only four Stage05 progress nodes, Stage05 summary/navigation and appended evidence.",
+  "xml_guard": "21 obligations retained; other17 serialized obligation nodes exact.",
+  "peer_review_correction": "Original V02 proves no completed G4 consumer receipt; an unpersisted bootstrap Work cannot be excluded. Stage label therefore states G4 completion unobserved."
+}

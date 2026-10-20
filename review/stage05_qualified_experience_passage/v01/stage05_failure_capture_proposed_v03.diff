@@ -1,0 +1,538 @@
+--- review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py
++++ review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py
+@@ -4,6 +4,244 @@
+ exception messages, provider text and arbitrary attributes are not evidence.
+ """
+ OWNED_ERROR_CODES = frozenset({
++    'capability_current_code_changed',
++    'capability_loaded_callable_origin',
++    'capability_loaded_source_code_mismatch',
++    'capability_public_callable',
++    'capability_source_origin',
++    'capability_source_utf8',
++    'host_capture_current_mode',
++    'host_capture_dependency_inventory',
++    'host_capture_dependency_source',
++    'host_capture_future_observation',
++    'host_capture_not_current',
++    'host_capture_origin',
++    'host_capture_packet',
++    'host_capture_registry',
++    'host_capture_retained_material',
++    'host_capture_revision',
++    'host_capture_root_transaction',
++    'host_capture_type',
++    'host_common_key_inflight_closed',
++    'host_consequential_as_pure',
++    'host_current_action_not_executable',
++    'host_duplicate_admission',
++    'host_duplicate_packet_binding',
++    'host_duplicate_task_policy',
++    'host_foreign_catalogue_origin',
++    'host_foreign_root',
++    'host_informational_already_enrolled',
++    'host_informational_capture_binding',
++    'host_informational_capture_not_current',
++    'host_informational_capture_origin',
++    'host_informational_capture_type',
++    'host_informational_current_root_binding',
++    'host_informational_enrollment_origin',
++    'host_informational_not_enrolled',
++    'host_informational_origin_snapshot',
++    'host_initial_source_binding',
++    'host_install_transition_sequence',
++    'host_installed_action_not_current',
++    'host_legacy_typed_binding',
++    'host_observations_invalid',
++    'host_packet_admission_mismatch',
++    'host_reentry_forbidden',
++    'host_setup_shape',
++    'host_source_revision_not_advanced',
++    'host_source_snapshot_invalid',
++    'host_stale_revision',
++    'host_start_context_invalid',
++    'host_task_not_configured',
++    'host_task_policy_tuple',
++    'host_task_time_not_current',
++    'host_time_bridge_invalid',
++    'host_trusted_source_regression',
++    'host_trusted_time_invalid',
++    'host_type',
++    'host_work_already_attempted',
++    'pure_admission_exhausted',
++    'pure_catalogue_epoch',
++    'pure_catalogue_exact_membership',
++    'pure_drs_budget',
++    'pure_drs_current_permission',
++    'pure_drs_observation_exceeds_reservation',
++    'pure_generation_exhausted',
++    'pure_guest_foreign_task',
++    'pure_guest_observation_count',
++    'pure_install_membership_epoch',
++    'pure_install_not_pending_or_duplicate',
++    'pure_missing_observation_binding',
++    'pure_need_current_binding',
++    'pure_need_not_observed',
++    'pure_need_resolved_input',
++    'pure_permission_materialization',
++    'pure_permission_missing_item',
++    'pure_permission_original_policy',
++    'pure_permission_semantic_need',
++    'pure_permission_tuple',
++    'pure_reservation_kind',
++    'pure_revision_missing_item_binding',
++    'pure_revision_observed_need_value',
++    'pure_revision_resolved_need_inputs',
++    'pure_stale_host_revision',
++    'pure_task_permission_absent',
++    'pure_trigger_current_membership',
++    'pure_trigger_predecessor',
++    'pure_trigger_resolution_origin',
++    'pure_trigger_type',
++    'stage05_failure_source_identity',
++    'work_action_transaction',
++    'work_attempt_binding',
++    'work_attempt_budget_exhausted',
++    'work_attempt_history_omitted',
++    'work_attempt_not_observed',
++    'work_binding_type',
++    'work_budget_exhausted',
++    'work_budget_type',
++    'work_candidate_type',
++    'work_catalogue_revision',
++    'work_catalogue_type',
++    'work_consumed_input_binding',
++    'work_consumption_shape',
++    'work_context_type',
++    'work_continuation_context_required',
++    'work_cycle',
++    'work_duplicate_definition',
++    'work_duplicate_id',
++    'work_duplicate_review',
++    'work_effect_not_completed',
++    'work_foreign_root_input',
++    'work_guard_not_true',
++    'work_guard_type',
++    'work_historical_actual_field',
++    'work_historical_artifact',
++    'work_historical_context_required',
++    'work_historical_current_scope',
++    'work_historical_field',
++    'work_historical_foreign_task',
++    'work_historical_not_completed',
++    'work_historical_not_observed',
++    'work_historical_provenance',
++    'work_historical_revision',
++    'work_historical_source',
++    'work_historical_type',
++    'work_host_admission',
++    'work_host_root',
++    'work_identity',
++    'work_input_contract',
++    'work_input_contract_type',
++    'work_input_name',
++    'work_inputs_type',
++    'work_item_identity',
++    'work_item_type',
++    'work_literal_name',
++    'work_literal_value',
++    'work_materialization_binding',
++    'work_missing_output_field',
++    'work_missing_producer',
++    'work_noncompletion_cause',
++    'work_output_binding',
++    'work_output_contract',
++    'work_output_type',
++    'work_plain_type',
++    'work_prior_context',
++    'work_prior_duplicate',
++    'work_prior_type',
++    'work_producer_not_completed',
++    'work_program_type',
++    'work_pure_not_dispatched',
++    'work_required_parent',
++    'work_required_review_missing',
++    'work_resource_scope',
++    'work_result_context',
++    'work_result_instance',
++    'work_result_key',
++    'work_result_not_complete',
++    'work_result_not_observed',
++    'work_result_order',
++    'work_result_root_task',
++    'work_result_validation',
++    'work_results_type',
++    'work_review_bindings_shape',
++    'work_review_bundle_source',
++    'work_review_candidate_type',
++    'work_review_child_budget',
++    'work_review_exact_scope',
++    'work_review_id',
++    'work_review_identity',
++    'work_review_member',
++    'work_review_not_completed',
++    'work_review_program_context',
++    'work_review_public_validation',
++    'work_review_semantic_source_required',
++    'work_review_source_context',
++    'work_review_source_type',
++    'work_review_task',
++    'work_review_type',
++    'work_revision_identity',
++    'work_root_authorization_shape',
++    'work_semantic_artifact',
++    'work_semantic_authority',
++    'work_semantic_binding',
++    'work_task_accepted_program_changed',
++    'work_task_already_charged',
++    'work_task_catalogue_origin',
++    'work_task_context_required',
++    'work_task_context_type',
++    'work_task_current_program',
++    'work_task_dispatch_context_required',
++    'work_task_enrollment_policy',
++    'work_task_enrollment_type',
++    'work_task_exhausted',
++    'work_task_exhaustion_reason',
++    'work_task_foreign_snapshot',
++    'work_task_history_omitted',
++    'work_task_host_type',
++    'work_task_initial_materialization',
++    'work_task_initial_revision',
++    'work_task_ledger_policy',
++    'work_task_narrowed_budget',
++    'work_task_not_enrolled',
++    'work_task_original_budget',
++    'work_task_original_context',
++    'work_task_original_scope',
++    'work_task_outcome_binding',
++    'work_task_pending_duplicate',
++    'work_task_pending_inputs',
++    'work_task_pending_item',
++    'work_task_pending_not_ready',
++    'work_task_policy_budget',
++    'work_task_policy_host',
++    'work_task_policy_identity',
++    'work_task_policy_profile',
++    'work_task_policy_review_scope',
++    'work_task_policy_root',
++    'work_task_policy_scope',
++    'work_task_policy_type',
++    'work_task_predecessor',
++    'work_task_prior_unenrolled_history',
++    'work_task_reentry',
++    'work_task_remaining_budget',
++    'work_task_required_review_removed',
++    'work_task_review_accounting',
++    'work_task_review_context',
++    'work_task_review_execution',
++    'work_task_review_not_observed',
++    'work_task_review_source',
++    'work_task_snapshot_type',
++    'work_task_source_shape',
++    'work_task_stale_host_revision',
++    'work_task_stale_snapshot',
++    'work_task_terminal_rewrite',
++    'work_task_trigger_identity',
++    'work_task_trigger_not_consumed',
++    'work_task_trigger_predecessor',
++    'work_task_trigger_refs',
++    'work_task_trigger_required',
++    'work_task_trigger_work',
++    'work_trigger_refs',
++    'work_undeclared_input_edge',
++    'work_unknown_edge',
+     'console_continuation_preparation_flag',
+     'ordinary_stage05_launch_binding',
+     'informational_insufficient_validity',
+--- review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py
++++ review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py
+@@ -6,14 +6,85 @@
+ """
+ from contextlib import contextmanager
+ import json
++import re
+ from pathlib import Path
+ import time
+ 
+ from .contracts import digest, require
+ from .evidence import persist
+ from .native_authority import plain
++from .stage04_diagnostics import observe_failure, project_error, record_secondary
+ 
+ PREFIX = 'review/stage05_qualified_experience_passage/v01'
++
++
++STAGE05_SCENARIO_STAGES = frozenset((
++    'UNKNOWN', 'ORDINARY_TASK', 'COLD_DECISION', 'PROSPECTIVE_FEEDBACK',
++    'SUBSEQUENT_WORK', 'CAUSAL_CHECKS', 'UNSCORABLE_CONTROL',
++    'ELIGIBILITY_CONTROLS', 'FINALIZATION',
++))
++STAGE05_NATIVE_STAGES = frozenset((
++    'UNKNOWN', 'G4_BOOTSTRAP_ADVANCE', 'G4_BOOTSTRAP_ARTIFACT', 'G4_HISTORY',
++    'G4_ALLOCATION', 'G4_TASK_ROOT', 'G4_REVISION', 'G4_PRE_DISPATCH_PERSISTENCE',
++    'G4_ALLOCATED_ADVANCE', 'G4_ALLOCATED_ARTIFACT', 'G4_FINAL_CHECKS', 'G4_CUSTODY',
++))
++STAGE05_FRAME_FUNCTIONS = frozenset(('<module>', '<lambda>', '<genexpr>',
++    '<listcomp>', '<dictcomp>', '<setcomp>'))
++
++
++def diagnostic_source_pins(manifest):
++    """Use only the finite independently admitted application and native paths."""
++    result = {path: value for path, value in manifest['pins'].items() if path.endswith('.py')}
++    for item in manifest['native_files'].values():
++        path, value = item['path'], item['sha256']
++        if path.endswith('.py'):
++            require(path not in result or result[path] == value, 'stage05_failure_source_identity')
++            result[path] = value
++    require(len(result) <= 4096 and all(type(path) is str and path == Path(path).as_posix()
++        and not Path(path).is_absolute() and not any(part in ('.', '..', 'private', '.git')
++        for part in Path(path).parts) and len(path) <= 1024 and type(value) is str
++        and re.fullmatch('[0-9a-f]{64}', value) for path, value in result.items()),
++        'stage05_failure_source_identity')
++    return result
++
++
++def _failure_context(project, manifest, error, scenario_stage):
++    """Retain bounded admitted frame coordinates, never error text or frame locals."""
++    pins = diagnostic_source_pins(manifest)
++    frames = []
++    skipped = 0
++    visited = 0
++    cursor = error.__traceback__
++    while cursor is not None and visited < 128:
++        visited += 1
++        try:
++            relative = Path(cursor.tb_frame.f_code.co_filename).absolute().relative_to(project.absolute()).as_posix()
++        except (ValueError, OSError):
++            relative = None
++        if relative in pins:
++            function = cursor.tb_frame.f_code.co_name
++            if (type(function) is not str or len(function) > 96 or not
++                    (re.fullmatch('[A-Za-z_][A-Za-z0-9_]*', function)
++                     or function in STAGE05_FRAME_FUNCTIONS)):
++                function = 'UNKNOWN'
++            line = cursor.tb_lineno
++            if type(line) is int and 1 <= line <= 1000000:
++                frames.append(dict(path=relative, sha256=pins[relative], line=line, function=function))
++            else:
++                skipped += 1
++        else:
++            skipped += 1
++        cursor = cursor.tb_next
++    try:
++        native = getattr(error, '_radik_stage05_native_stage', None)
++    except BaseException:
++        native = None
++    return dict(schema='radik.stage05.failure_context.v01',
++        scenario_stage=scenario_stage if scenario_stage in STAGE05_SCENARIO_STAGES else 'UNKNOWN',
++        native_stage=native if type(native) is str and native in STAGE05_NATIVE_STAGES else 'UNKNOWN',
++        source_frames=frames[-32:], omitted_frames=max(0, len(frames)-32),
++        unadmitted_frames=skipped, traceback_truncated=cursor is not None,
++        raw_error_recorded=False, locals_recorded=False)
+ 
+ 
+ def run(*, store, run_task, controllers, client, operation, event_sink):
+@@ -52,18 +123,32 @@
+         print('Stage 5 checkpoint: '+step+'; evidence='+ref['path'], flush=True)
+         return ref
+ 
++    scenario_stage = 'ORDINARY_TASK'
++
+     @contextmanager
+     def phase(name):
++        nonlocal scenario_stage
++        scenario_stage = name.upper()
++        primary = None
+         started = time.monotonic_ns()
+         if event_sink is not None:
+             event_sink(dict(kind='PHASE_ENTER', phase='NATIVE', span_id='stage05_'+name, native=True))
+         try:
+             yield
++        except BaseException as error:
++            primary = error
++            observe_failure(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
++            raise
+         finally:
+-            if event_sink is not None:
+-                event_sink(dict(kind='PHASE_EXIT', phase='NATIVE', span_id='stage05_'+name, native=True))
+-            report.setdefault('native_phase_measurements', []).append(
+-                dict(phase=name, elapsed_wall_ns=time.monotonic_ns()-started))
++            try:
++                report.setdefault('native_phase_measurements', []).append(
++                    dict(phase=name, elapsed_wall_ns=time.monotonic_ns()-started))
++                if event_sink is not None:
++                    event_sink(dict(kind='PHASE_EXIT', phase='NATIVE', span_id='stage05_'+name, native=True))
++            except BaseException as secondary:
++                if primary is None:
++                    raise
++                record_secondary(primary, secondary, phase='TERMINAL_OUTPUT', step='STAGE05_EXPERIENCE')
+ 
+     try:
+         source = store.register_source('stage05:'+operation['run_id']+':rowan',
+@@ -97,6 +182,7 @@
+             qualified = experience.consume(controller)
+             subsequent = qualified_strategy.run(controller, qualified, label='qualified')
+         checkpoint('qualified_allocated_work', subsequent)
++        scenario_stage = 'CAUSAL_CHECKS'
+         require(feedback['feedback']['update_eligibility'] == 'ELIGIBLE'
+             and feedback['feedback']['observed_result']['value'] == 0
+             and int(feedback['clocks']['claim_wall_ns']) < int(feedback['clocks']['event_wall_ns'])
+@@ -136,6 +222,7 @@
+         with phase('eligibility_controls'):
+             eligibility = experience.eligibility_controls(controller)
+         checkpoint('current_eligibility_controls', eligibility)
++        scenario_stage = 'FINALIZATION'
+         final = client.budget.snapshot()
+         require(final['attempts'] == after_cold['attempts'] and final['active_attempt_id'] is None,
+             'stage05_native_provider_calls_forbidden')
+@@ -144,12 +231,29 @@
+         report['result_ref'] = persist(output, 'completed_result', report)
+         return report
+     except BaseException as error:
+-        from .stage04_diagnostics import project_error, observe_failure
+         observe_failure(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
+         report['status'] = 'STOPPED_NO_RETRY'
++        detail = dict(schema='radik.stage05.failure_context.v01', scenario_stage='UNKNOWN',
++            native_stage='UNKNOWN', source_frames=[], omitted_frames=0, unadmitted_frames=0,
++            traceback_truncated=False, raw_error_recorded=False, locals_recorded=False)
++        try:
++            detail = _failure_context(project, manifest, error, scenario_stage)
++        except BaseException as secondary:
++            record_secondary(error, secondary, phase='NATIVE_SNAPSHOT', step='STAGE05_EXPERIENCE')
++        report['failure_context'] = detail
+         report['primary_failure'] = project_error(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
+-        try:
+-            persist(output, 'stopped_result', report)
+-        except Exception:
+-            pass
++        ref = None
++        try:
++            ref = persist(output, 'stopped_result', report)
++        except BaseException as secondary:
++            record_secondary(error, secondary, phase='CONNECTED_REPORT_WRITE', step='STAGE05_EXPERIENCE')
++        projected = project_error(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
++        try:
++            if event_sink is not None:
++                attachment = dict(readback_ref=ref) if ref is not None else {}
++                event_sink(dict(kind='PRIMARY_FAILURE', phase='FINALIZATION', stage='STAGE05_FAILURE',
++                    failure=dict(phase='STAGE05_EXPERIENCE', error_class=projected['type'], code=projected['code']),
++                    failure_context=detail, **attachment))
++        except BaseException as secondary:
++            record_secondary(error, secondary, phase='TERMINAL_OUTPUT', step='STAGE05_EXPERIENCE')
+         raise
+--- review/stage05_qualified_experience_passage/v01/owner_terminal.py
++++ review/stage05_qualified_experience_passage/v01/owner_terminal.py
+@@ -406,6 +406,68 @@
+         receipt['secondary_failures'].append(value)
+     show(('PRIMARY_FAILURE' if primary else 'SECONDARY_FAILURE') + ' phase=' +
+         value['phase'] + ' code=' + value['code'] + ' error_class=' + value['error_class'])
++
++
++STAGE05_SCENARIO_STAGES = frozenset((
++    'UNKNOWN', 'ORDINARY_TASK', 'COLD_DECISION', 'PROSPECTIVE_FEEDBACK',
++    'SUBSEQUENT_WORK', 'CAUSAL_CHECKS', 'UNSCORABLE_CONTROL',
++    'ELIGIBILITY_CONTROLS', 'FINALIZATION',
++))
++STAGE05_NATIVE_STAGES = frozenset((
++    'UNKNOWN', 'G4_BOOTSTRAP_ADVANCE', 'G4_BOOTSTRAP_ARTIFACT', 'G4_HISTORY',
++    'G4_ALLOCATION', 'G4_TASK_ROOT', 'G4_REVISION', 'G4_PRE_DISPATCH_PERSISTENCE',
++    'G4_ALLOCATED_ADVANCE', 'G4_ALLOCATED_ARTIFACT', 'G4_FINAL_CHECKS', 'G4_CUSTODY',
++))
++STAGE05_FRAME_FUNCTIONS = frozenset(('<module>', '<lambda>', '<genexpr>',
++    '<listcomp>', '<dictcomp>', '<setcomp>'))
++
++
++def diagnostic_source_pins(manifest):
++    """Use only the finite independently admitted application and native paths."""
++    result = {path: value for path, value in manifest['pins'].items() if path.endswith('.py')}
++    for item in manifest['native_files'].values():
++        path, value = item['path'], item['sha256']
++        if path.endswith('.py'):
++            require(path not in result or result[path] == value, 'stage05_failure_source_identity')
++            result[path] = value
++    require(len(result) <= 4096 and all(type(path) is str and path == Path(path).as_posix()
++        and not Path(path).is_absolute() and not any(part in ('.', '..', 'private', '.git')
++        for part in Path(path).parts) and len(path) <= 1024 and type(value) is str
++        and re.fullmatch('[0-9a-f]{64}', value) for path, value in result.items()),
++        'stage05_failure_source_identity')
++    return result
++
++
++def stage05_failure_context(row, source_pins):
++    """Validate the exact-child attachment before displaying safe source coordinates."""
++    value = row.get('failure_context')
++    require(type(value) is dict and set(value) == {'schema', 'scenario_stage', 'native_stage',
++        'source_frames', 'omitted_frames', 'unadmitted_frames', 'traceback_truncated',
++        'raw_error_recorded', 'locals_recorded'}
++        and value['schema'] == 'radik.stage05.failure_context.v01'
++        and type(value['scenario_stage']) is str and value['scenario_stage'] in STAGE05_SCENARIO_STAGES
++        and type(value['native_stage']) is str and value['native_stage'] in STAGE05_NATIVE_STAGES
++        and value['raw_error_recorded'] is False and value['locals_recorded'] is False
++        and type(value['traceback_truncated']) is bool
++        and type(value['source_frames']) is list and len(value['source_frames']) <= 32
++        and all(type(value[key]) is int and 0 <= value[key] <= 128
++            for key in ('omitted_frames', 'unadmitted_frames')), 'terminal_stage05_failure_context')
++    frames = []
++    for frame in value['source_frames']:
++        require(type(frame) is dict and set(frame) == {'path', 'sha256', 'line', 'function'}
++            and type(frame['path']) is str and frame['path'] in source_pins
++            and type(frame['sha256']) is str and frame['sha256'] == source_pins[frame['path']]
++            and type(frame['line']) is int and 1 <= frame['line'] <= 1000000
++            and type(frame['function']) is str and len(frame['function']) <= 96
++            and (re.fullmatch('[A-Za-z_][A-Za-z0-9_]*', frame['function'])
++                or frame['function'] in STAGE05_FRAME_FUNCTIONS), 'terminal_stage05_failure_frame')
++        frames.append(dict(frame))
++    result = dict(value, source_frames=frames, event_sequence=row['sequence'],
++        reference_readback_verified=False)
++    show('STAGE05_FAILURE_CONTEXT scenario='+value['scenario_stage']+' native='+value['native_stage'])
++    for frame in frames:
++        show('SOURCE_FRAME '+frame['path']+':'+str(frame['line'])+' '+frame['function']+' sha256='+frame['sha256'])
++    return result
+ 
+ 
+ def required_witness_diagnostic(row, *, evidence_prefixes):
+@@ -656,12 +718,24 @@
+                         require(kind not in ('E_ENTER','E_EXIT') and row['phase'] != 'E','terminal_stage05_E_forbidden')
+                         if kind in ('PRIMARY_FAILURE','REQUIRED_WITNESS_UNAVAILABLE'):
+                             retain_failure(receipt,row['failure'],timing)
++                        failure_context = None
++                        if kind == 'PRIMARY_FAILURE' and row.get('stage') == 'STAGE05_FAILURE':
++                            failure_context = stage05_failure_context(row, profile['diagnostic_source_pins'])
++                            contexts = receipt.setdefault('stage05_failure_contexts', [])
++                            require(len(contexts) < 16, 'terminal_stage05_failure_context_bound')
++                            contexts.append(failure_context)
+                         verified = False;witness = None
+                         ref = row.get('readback_ref')
+                         if ref is not None:
+                             witness = json.loads(checked_reference(ref,cap=limits['evidence_bytes'],
+                                 prefixes=profile['evidence_prefixes']))
+                             sub['readbacks'].append(ref);sub['last_readback_ref']=ref;verified = True
++                            if failure_context is not None:
++                                require(type(witness) is dict and type(witness.get('body')) is dict
++                                    and witness['body'].get('failure_context') == row['failure_context'],
++                                    'terminal_stage05_failure_readback_binding')
++                                failure_context['reference_readback_verified'] = True
++                                failure_context['readback_ref'] = dict(ref)
+                         deadline.event(row,observed_ns=time.monotonic_ns(),readback_verified=verified)
+                         if receipt['primary_failure'] is not None:continue
+                         display_now = time.monotonic_ns()
+@@ -1018,7 +1092,7 @@
+             interpreter_ref=admission['interpreter_ref'],
+             evidence_prefixes=admission['evidence_prefixes'],
+             home_directory=admission.get('home_directory', str(Path.home())),
+-            scenario_inputs=scenario_inputs,
++            scenario_inputs=scenario_inputs, diagnostic_source_pins=diagnostic_source_pins(manifest),
+             rehearsal_seal_sha256=args.rehearsal_seal_sha256, launch_ref=launch_ref),
+             started_ns=STARTED_NS, lock_fd=lock_fd, launch=launch, timing=timing,
+             run=run, interrupted=lambda: interrupted[0])
+--- review/stage05_qualified_experience_passage/v01/rehearsal_runner.py
++++ review/stage05_qualified_experience_passage/v01/rehearsal_runner.py
+@@ -226,6 +226,7 @@
+                 'config/launch.py', '--console'], limits=timing.LIMITS,
+                 interpreter_ref=grant['interpreter_ref'], evidence_prefixes=['workspace/owner_documents/'],
+                 home_directory=str(root.parent), rehearsal_seal_sha256=case['rehearsal_seal_ref']['sha256'],
++                diagnostic_source_pins=module.diagnostic_source_pins(manifest),
+                 scenario_inputs=module.load_scenario_inputs(dict(scenario_input_ref=grant['scenario_input_ref']))),
+                 started_ns=started, lock_fd=lock, launch=launch, timing=timing, run=case_output,
+                 interrupted=lambda: time.monotonic() - STARTED >= MAX_SECONDS, popen=spawn)

@@ -1,0 +1,40 @@
+{
+  "actual_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+    "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+    "size_bytes": 98522
+  },
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+    "sha256": "4c55f3d77732a536f7106506c3803095df3194a21a05649b7ccb17fce3d0632d",
+    "size_bytes": 47666
+  },
+  "author": "/root/stage05_g3_contract",
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/after/app/qualified_experience.py",
+    "sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+    "size_bytes": 47571
+  },
+  "candidate_execution_by_reviewer": false,
+  "findings": [
+    "Exact one-tuple change excludes three builder-owned derived fields. Remaining 20 arguments match the pinned public build_meaning_record_v01 keyword-only parameters.",
+    "The public constructor regenerates LOCAL_REFERENCE_KERNEL/false/false metadata. It does not accept those three caller kwargs; this source contract explains the new retained TypeError location.",
+    "Original time/authority envelopes, scope, history store, native APIs, budgets and already accepted G4 paths remain unchanged. Only conflict/quarantine controlled restrictive records are rebuilt.",
+    "No original ORDINARY_V02 cause recovery or full ordinary route acceptance is claimed."
+  ],
+  "owner_execution_authorized": false,
+  "peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+    "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+    "size_bytes": 4449
+  },
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v04/reviewer_metadata_preservation.json",
+    "sha256": "22fa4e9e54726640025d35a4e337b259f9b479e72841680c571e5218901f7213",
+    "size_bytes": 1421
+  },
+  "remaining": "One fresh-memory observation followed only by eligibility/unscorable controls; no repeated G4 or full ordinary prefix.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.restriction_delta_source_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_FOCUSED_ELIGIBILITY"
+}

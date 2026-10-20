@@ -1,0 +1,48 @@
+{
+  "adapter_before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/metadata_history/v03/build_return.py",
+    "sha256": "74266b2fb3bd0a0cb63cb0c9b3de61588b880234dd3a92bb84fc4442f26eb5f2",
+    "size_bytes": 5041
+  },
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "ce7208d69a7e8fdc24a5cbcf4ef6a22d931784b02f68f96e9b4d992136dfc784",
+    "size_bytes": 13394
+  },
+  "application_imports": false,
+  "candidate_execution_performed": false,
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposed_v02.diff",
+    "sha256": "e166ed0360f28b721c6e23fc4ad6a7a7cc0702ec75dcb30f4238852e1a971ec0",
+    "size_bytes": 10103
+  },
+  "findings": [
+    "Reconstructed the V02 patch from the preserved exact preimage, checked its proposed hash, and verified the applied bytes differ only by the independently reviewed three-line JSON/JSONL suffix preservation check. AST parses without executing candidate code.",
+    "Existing bounded stable source reads and old publisher closure are retained. Public native subject exceptions are restricted to three fixed G34 shapes and two ORDINARY_V02 public evidence prefixes. Exact original file hash/size, JSON pointer, canonical subject hash and canonical containing-object hash are mandatory.",
+    "The validation view omits only these explicitly reviewed subject keys; every excepted value is recursively inspected by the unchanged publisher secret scanner. Original archived bytes are not changed.",
+    "Typed local Root syntax is exact prefix plus 24 lowercase hexadecimal characters. Canonical, nonempty archive names reject normalized aliases, absolute, excluded, duplicate and reserved names before permanent reservation. JSON/JSONL source suffixes must be preserved in archive names.",
+    "Inventory keys are unique by original source path and JSON pointer; repeated copies of that same original file may reuse a single exact exception. Every inventory entry must be consumed; this is not a per-invocation once-only claim.",
+    "No runtime, source/reference, owner authority or historical witness changes are introduced."
+  ],
+  "packaging_grant_issued": false,
+  "prior_adapter_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/return_adapter_independent_source_review_v01.json",
+    "sha256": "b243665e2d80151b909f2abbe9d662e0d22da2dadf4e0c2eebd11168da888774",
+    "size_bytes": 5034
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposal_v02.json",
+    "sha256": "56bded8cc2860ba941913b197ef032397777eea976d589f95469729617d0aaab",
+    "size_bytes": 5567
+  },
+  "public_push_authorized": false,
+  "publisher_sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+  "remaining_requirements": [
+    "After V02 closes, independently classify each actual subject occurrence and pin the exact finite exception inventory and final payload selection.",
+    "Re-read the applied adapter bytes and unchanged publisher before granting one local SOURCE/actual archive. Owner report stays external; no public push."
+  ],
+  "reviewed_at_utc": "2026-10-20T22:12:49.642023+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.public_subject_packaging_independent_source_review.v02",
+  "status": "APPLIED_SOURCE_ACCEPTED_PENDING_EXACT_ACTUAL_SELECTION_AND_GRANT"
+}

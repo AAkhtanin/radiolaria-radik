@@ -1,0 +1,14 @@
+{
+  "schema": "radik.stage05.qualified_experience_inputs.v01",
+  "command": "experience",
+  "expected_role_calls": 3,
+  "native_E_calls": 0,
+  "effects": 0,
+  "ordinary_profile": "explain",
+  "source_text": "Fictional Service Rowan provides support for active annual plans. Rowan replies to urgent requests within one working day. Support is available Monday to Friday, 08:00-16:00. Telephone support is unavailable on public holidays. The price of calls is not specified. No source establishes that telephone calls are free. Customers must keep their account identifier available. Email requests may include an attachment of at most two pages.",
+  "goal": "Explain the support conditions of fictional Service Rowan, preserving eligibility, exceptions and unknown charges.",
+  "criterion": "Separate the response commitment, support window, eligibility, holiday exception, unknown telephone charges, required account identifier and attachment limit. Do not infer missing prices.",
+  "topic": "stage05_support_evidence",
+  "stage05_acceptance": "REQUIRES_OWNER_ACTUAL_AND_INDEPENDENT_REVIEW",
+  "prospective_observation_matrix": "review/stage05_qualified_experience_passage/v01/required_observations.json"
+}

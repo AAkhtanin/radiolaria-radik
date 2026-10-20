@@ -1,0 +1,30 @@
+{
+  "added_diagnostic_evidence_count": 13,
+  "candidate_code_pin_count": 180,
+  "changed_existing_reference_count": 8,
+  "checks": [
+    "All prior 1773 exact paths were retained; only three diagnostic source files and five linked metadata files changed bytes.",
+    "Thirteen finite diagnostic proposal, independent review and preserved-preimage evidence files were added; no state/private/runtime scope expanded.",
+    "All raw sizes, hashes, unique relative paths, no-symlink/single-link constraints, file modes and byte/count bounds pass.",
+    "Existing runtime/native/historical inventories retain their assessed source scope; exact execution authority requires a separate one-use seal/grant."
+  ],
+  "copy_bytes": 126196139,
+  "copy_count": 1786,
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_copy_inventory_draft.json",
+    "sha256": "1428ecb8e7350d6ebc9120715cd95602fcc4196c8569e8b6e328d3f57cd017dc",
+    "size_bytes": 875909
+  },
+  "historical_lookup_count": 405,
+  "owner_execution_allowed": false,
+  "prior_copy_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_copy_independent_review_v01.json",
+    "sha256": "0cf17a844e4a839c8effb79529a5b77308e7c8e6349f3df1e37027fd6c15c6dd",
+    "size_bytes": 1638
+  },
+  "reviewed_at_utc": "2026-10-20T21:43:21.442597+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.rehearsal_copy_independent_review.v02",
+  "source_modules_imported": false,
+  "status": "COPY_BYTES_AND_FINAL_DIAGNOSTIC_DELTA_VERIFIED"
+}

@@ -1,0 +1,150 @@
+{
+  "author": "/root/stage05_g3_contract",
+  "control_failure_codes": [
+    "failure_control_actual_id",
+    "failure_control_annotation_replaced_primary",
+    "failure_control_annotation_swallowed_primary",
+    "failure_control_application_import",
+    "failure_control_catch_primary",
+    "failure_control_catch_swallowed_primary",
+    "failure_control_constant_scope",
+    "failure_control_deadline",
+    "failure_control_direct_primary_event",
+    "failure_control_extract_inventory",
+    "failure_control_first_stage",
+    "failure_control_frame_bound",
+    "failure_control_function_scope",
+    "failure_control_grant_path",
+    "failure_control_grant_pin",
+    "failure_control_guard_bound",
+    "failure_control_independent_grant",
+    "failure_control_native_literal_count",
+    "failure_control_native_literal_projection",
+    "failure_control_nonempty_stream_out_of_scope",
+    "failure_control_output_parent",
+    "failure_control_phase_primary",
+    "failure_control_phase_swallowed_primary",
+    "failure_control_pre_dispatch_order",
+    "failure_control_pre_readback_primary",
+    "failure_control_private_frame_disclosure",
+    "failure_control_proposal_path",
+    "failure_control_readback_binding",
+    "failure_control_readback_replaced_primary",
+    "failure_control_refusal_missing",
+    "failure_control_requires_B",
+    "failure_control_revision_outcome_guard",
+    "failure_control_revision_witness",
+    "failure_control_self_pin",
+    "failure_control_source_inventory",
+    "failure_control_source_map_alignment",
+    "failure_control_synthetic_exception_missing",
+    "failure_control_terminal_disclosure",
+    "failure_control_trace_depth",
+    "failure_control_unknown_stage",
+    "failure_control_unknown_text_disclosure",
+    "failure_control_wrong_refusal",
+    "host_task_time_not_current",
+    "targeted_control_application_import_refused",
+    "targeted_control_external_action_refused",
+    "targeted_control_mutation_refused",
+    "targeted_control_output_name",
+    "targeted_control_output_readback",
+    "targeted_control_path",
+    "targeted_control_pin_changed",
+    "targeted_control_private_read_refused",
+    "targeted_control_project_symlink",
+    "targeted_control_read_bound",
+    "targeted_control_read_stability",
+    "targeted_control_reference_shape",
+    "targeted_control_short_write",
+    "targeted_control_symlink",
+    "targeted_control_write_refused",
+    "work_task_stale_snapshot",
+    "x"
+  ],
+  "controls": [
+    "All237 Work/Host literal projections plus2 own literals; arbitrary messages remain sanitized.",
+    "Synthetic admitted/unadmitted traceback classification:32 retained/128 traversed bound, closed stages, foreign path omission; parent exact path/hash checks.",
+    "Extracted parent readback-binding branch accepts matching body and refuses mismatch; first core cause remains primary. Actual file readback function is unchanged and is not exercised.",
+    "G4 annotation retains original identity across getter/setter failure, hostile equality and nested closed boundaries; invalid requested stage is ignored.",
+    "Extracted phase context manager preserves original on PHASE_EXIT or measurement failures; extracted scenario catch preserves original on capture, persistence and event emission failures.",
+    "AST-only revision type/ACTIVE guard, revision.program selection, complete revision_outcome retention and pre-dispatch ordering."
+  ],
+  "grant_required": {
+    "actual_id": "new unique uppercase identifier",
+    "application_native_model_execution_allowed": false,
+    "approved_executor": "/root",
+    "approved_invocation_count": 1,
+    "automatic_retry": false,
+    "max_seconds": 30,
+    "production_guard_refs": "1..32 exact current public policy/state/reference guards",
+    "production_writes_allowed": false,
+    "proposal_ref": "exact this proposal ref",
+    "reviewer": "/root/private_remote_controls",
+    "runner_ref": "exact source ref",
+    "schema": "radik.stage05.failure_capture_control_grant.v01",
+    "status": "SOURCE_ACCEPTED_FOR_PINNED_AST_CONTROLS"
+  },
+  "io": {
+    "application_imports": false,
+    "network": false,
+    "process_spawn": false,
+    "raw_error_output": false,
+    "reads": "Six exact pinned source files, own exact source/proposal/grant and at most32 public production guard refs; regular single-link no-symlink files bounded2MiB each.",
+    "writes": "A new exclusive one-use failure_capture_controls_actual/<actual_id>/reservation.json and result.json only."
+  },
+  "namespace_scope": "MEMORY_WRITEBACK_CODES is now included. The historical project_stream_event decoder is not extracted; an explicitly declared no-stream dependency accepts only None and refuses nonempty values. Every synthetic error has no stream metadata. No stream-record validation coverage is claimed.",
+  "not_claimed": [
+    "No recovery of original V02 sanitized text.",
+    "No fresh native/API semantic execution or actual qualified-experience success.",
+    "No persistent report byte validation is simulated as actual readback.",
+    "Synthetic filenames/pins test classifier behavior and do not attest loaded application/native code.",
+    "Historical stream event parsing/validation; its no-stream dependency is a strict None-only control adapter."
+  ],
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+    "sha256": "e015109f3fb6012c030d9b8559bc8b53aeb90d8d48783ce7baa01804c6824f20",
+    "size_bytes": 26649
+  },
+  "schema": "radik.stage05.failure_capture_controls_proposal.v01",
+  "scope": "Compile and execute only explicitly selected AST helper definitions and two enclosed source branches. Every runtime example is synthetic; no complete application/native module import, native Work, ordinary prefix, provider call or owner scenario.",
+  "source_only_verification": "AST parsing only; no control/helper/application/native imports or executions performed by the author.",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "size_bytes": 64203
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+      "size_bytes": 14592
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+      "size_bytes": 125698
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "size_bytes": 61617
+    }
+  ],
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_REVIEW_AND_ONE_USE_GRANT",
+  "supersedes": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_control_history/v01/failure_capture_controls_proposal.json",
+    "sha256": "4741eeb730971b7facb83d867191ec92f6fa28136b6a2cd495ba1253204140f5",
+    "size_bytes": 7008
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "application_execution_allowed": false,
+  "candidate_code_pin_count": 180,
+  "candidate_modules_imported": false,
+  "checks": {
+    "absolute_evidence_bytes_unchanged": true,
+    "active_attempt": null,
+    "active_task": null,
+    "all_candidate_physical_aliases_and_preinstall_source_pins_match": true,
+    "all_historical_source_refs_match": true,
+    "all_paths_unique_relative_and_symlink_free": true,
+    "current_console_attempt_count": 44,
+    "current_consumed_reservation_count": 4,
+    "current_task_count": 11,
+    "every_raw_size_sha256_matches": true,
+    "final_profile_metadata_present": true,
+    "modes_and_byte_bounds_pass": true,
+    "private_operator_paths_excluded": true,
+    "regular_single_link_files_only": true
+  },
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_copy_inventory_draft.json",
+    "sha256": "c72ebfac2d2eedb038e9794ff0e62b57e745ebf175f99fee04b55359a7ebdc39",
+    "size_bytes": 865888
+  },
+  "historical_lookup_count": 405,
+  "owner_execution_allowed": false,
+  "pending_action": "Review the closed Stage05 diagnostic source delta and refresh only affected copy references and linked metadata before issuing the single-use rehearsal grant.",
+  "production_state_file_count": 75,
+  "reviewed_at_utc": "2026-10-20T21:38:49.280134+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.rehearsal_copy_independent_review.v01",
+  "scope": "RAW_BYTES_AND_COPY_BOUNDARIES_ONLY",
+  "status": "COPY_BYTES_VERIFIED_EXECUTION_GRANT_HELD_FOR_DIAGNOSTIC_DELTA",
+  "verified_copy_bytes": 124744699,
+  "verified_copy_count": 1773
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "radik.stage05.supervisor_source_review.v01",
+  "reviewer": "/root/private_remote_controls",
+  "status": "SOURCE_ACCEPTED_FOR_SHORT_SUPERVISOR_CONTROLS",
+  "reviewed_at": "2026-10-20T21:19:37.191981+00:00",
+  "application_execution_allowed": false,
+  "pins": {
+    "owner_terminal.py": "6d40f985b8ef8403ba2a44525c6a2078073bdb91721b44830efe81d50da12881",
+    "supervisor_timing.py": "86fdba55c6162cc9beaedeb519a87cfc8ae025204b3b97986ccdea2c2e53603c",
+    "supervisor_controls.py": "4eb413d9112ad737e9cef7b9af4e92a092af7b0beaf2f23e3dc3d92f616d6d72"
+  },
+  "allowed_entry": "supervisor_controls.py under the isolated stdlib interpreter flags -I -S -B, with the exact review SHA-256 and a new workspace name under this passage controls_actual directory",
+  "allowed_imported_helpers": {
+    "owner_terminal.py": [
+      "bounded_cleanup",
+      "release_owned_lock",
+      "retain_failure",
+      "require",
+      "show"
+    ],
+    "supervisor_timing.py": [
+      "CleanupBoundary",
+      "fallback",
+      "failure",
+      "token",
+      "require",
+      "LIMITS"
+    ]
+  },
+  "prohibited_execution": [
+    "owner_terminal.main",
+    "owner_terminal.supervise",
+    "prepare_installation",
+    "activate_profile",
+    "application/native modules",
+    "AUTH/model/provider calls",
+    "SAVE",
+    "real owner operation"
+  ],
+  "independent_source_findings": {
+    "stdlib_imports_only": true,
+    "pin_all_three_sources_before_helper_imports": true,
+    "helper_import_top_level_io": "Only clock and path-value construction; no active state, application imports, network, child creation, or installation.",
+    "persistent_cleanup_stop_and_shared_signal_ledger": true,
+    "expired_cleanup_returns_without_new_signals": true,
+    "exact_child_signalling_no_process_group_or_foreign_pid": true,
+    "bounded_ready_wait_seconds": 2,
+    "parent_descriptor_closed_with_explicit_unlock_forbidden_before_contention_check": true,
+    "child_inherited_lock_remains_held_until_exact_child_reaped": true,
+    "post_reap_contender_acquisition_and_explicit_unlock_checked": true,
+    "first_failure_retained_when_cleanup_failure_added": true,
+    "fixture_children": 1,
+    "fixture_child_fallback_sleep_seconds": 20,
+    "fixture_cleanup_grace_seconds": 0.35,
+    "fixture_emergency_kill_wait_seconds": 2,
+    "evidence_write_scope": "New exclusive controls_actual/<workspace>/ fixture, owner lock, and result.json; no production state access."
+  },
+  "resolved_review_findings": [
+    "Replaced unbounded stdout.readline() with selector readiness wait bounded at two seconds and a six-byte READY read.",
+    "Moved denied-explicit-unlock parent descriptor close before fresh contender check; after exact child reap a fresh contender acquires and verifies the allowed explicit unlock branch."
+  ],
+  "repair_author": "/root",
+  "reviewer_modified_source": false,
+  "review_method": "Read exact candidate bytes and imported helper bodies, inspect AST without importing or executing candidate modules, and pin the independently reviewed source.",
+  "candidate_modules_executed_during_review": false,
+  "application_calls": 0,
+  "native_calls": 0,
+  "AUTH_calls": 0,
+  "model_calls": 0,
+  "SAVE_calls": 0,
+  "runtime_acceptance_inferred": false,
+  "Stage05_acceptance_inferred": false
+}

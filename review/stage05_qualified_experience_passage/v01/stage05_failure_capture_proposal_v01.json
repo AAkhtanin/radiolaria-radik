@@ -1,0 +1,59 @@
+{
+  "actual_V02_primary_cause": "UNKNOWN_SANITIZED_NOT_RECOVERED",
+  "artifacts": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/stage05_failure_capture_proposed_v01.diff",
+      "sha256": "d8440e15e383dbc4f0caebec36a165e50f98a0ff9fc9d63e3d052989705f2182",
+      "size_bytes": 24394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/stage05_failure_native_literal_provenance_v01.json",
+      "sha256": "cd64f4c45848e2b749548c59aaf25d2587089e12c01c1c64f89606d5aa888db3",
+      "size_bytes": 115570
+    }
+  ],
+  "author": "/root/stage05_g3_contract",
+  "bounds": {
+    "function_characters": 96,
+    "path_characters": 1024,
+    "retained_admitted_frames": 32,
+    "source_pin_paths": 4096,
+    "traceback_nodes": 128
+  },
+  "candidates": [
+    {
+      "before_sha256": "caa7c4db7cb656957870622b3fccb636c5e0e90db90b9628387f7e56863af538",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "proposed_sha256": "779a4d659fe5f8066ae0dbc4da170bd51d1b4090bc1d502d917148315f87e8f6"
+    },
+    {
+      "before_sha256": "7e299aea6a0903818b90103c87693c40d97d33a070b93014d1cd50bfd411a738",
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "proposed_sha256": "903e2322e26354def03621c6de8ac5d47cff296b4fadac6154361234f66ce1a0"
+    },
+    {
+      "before_sha256": "c4c575f7c6d183feaac0b2b59ba9a776827487d1cb0427084b883ad22726ab76",
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "proposed_sha256": "8141f8869af610b03e67a051a348537908093af2232aeeccc1cee17bbc03d865"
+    },
+    {
+      "before_sha256": "982e2995c37fc4197c33e4bd5eb0a405e060a06f2d98583674c66b2cece39713",
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+      "proposed_sha256": "b0801b24dab8d7ffe072d701043d95f671cb1ac7e0bceb8f2844ca60c269fa49"
+    }
+  ],
+  "dependencies": "G4 author attaches only the agreed 11 closed native stages via _radik_stage05_native_stage; owner and rehearsal supervisor receive a finite source map from their admitted manifest.",
+  "first_cause": "Same original exception re-raised. PHASE_EXIT, context capture, stopped-result persistence and event emission failures are recorded as separate closed secondary projections. Parent retains primary before reading context/report.",
+  "frame_semantics": "Manifest-pinned source coordinates from the current traceback; not a separate loaded-code attestation. Unadmitted frames have counts only. No locals, source lines, raw arguments, absolute paths, exception messages or dynamic wrapper parsing.",
+  "native_literal_count": 237,
+  "proposed_controls": [
+    "AST-only scenario phase-finally precedence and identical rethrow, exact closed native codes and sentinel sanitization.",
+    "AST-only bounded synthetic traceback projection: admitted/unadmitted paths, long stack and unknown native label.",
+    "AST-only supervisor attachment projection: accepted exact hashes, rejected mismatches, unknown label/frame, readback mismatch remains secondary.",
+    "Independently reviewed focused native G4 bootstrap control is separate from these observability changes."
+  ],
+  "schema": "radik.stage05.failure_capture_proposal.v01",
+  "scope": "No runtime execution, native contract changes, timer changes, authority restoration or provider calls.",
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_REVIEW",
+  "terminal": "Only exact-child STAGE05_FAILURE with closed stage labels and manifest-matching path/hash coordinates is displayed. Durable report readback is independently verified and marked; primary cause stays visible even if that read fails."
+}

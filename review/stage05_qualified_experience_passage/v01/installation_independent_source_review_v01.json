@@ -1,0 +1,241 @@
+{
+  "active_session_present": false,
+  "authors_accept_their_own_code": false,
+  "candidate_execution_performed": false,
+  "candidate_imports_performed": false,
+  "checks": [
+    {
+      "evidence": "The installer imports only Python standard library modules. raw_candidate checks the independent source review, complete finite candidate closure, support pins, exact self identity and afterimage bytes before executing the separately named raw gate. The native loader executes only freshly re-read hash-verified mapped module bytes.",
+      "id": "SOURCE_BEFORE_IMPORT",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "Install targets are finite manifest entries under app/, config/ or review/transport/ with exact v01/after aliases. Mutable state writes are limited to installation/activation journals and their pending files. No reference, task, ledger, reservation, effect or credential write is present.",
+      "id": "WRITE_SCOPE",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "All 160 current P31 pins match. Activation, completed production install journal, 44-attempt ledger and 11-task store match saved predecessor snapshots exactly. All four consumed reservations match pinned bytes and retain one_use=true, automatic_retry=false.",
+      "id": "PREDECESSOR_BYTES",
+      "result": "PASS_READ_ONLY"
+    },
+    {
+      "evidence": "The installer requires intact predecessor code, original journals, source preimages and no active session/task/attempt before writing. It captures and compares ledger, tasks, task settings, grant index, successor state and consumed reservations before and after installation. Historical references are evidence only.",
+      "id": "HISTORY_PRESERVATION",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "The existing owner lock spans installation. An exclusive pending fence precedes reader-first replacements; config/launch.py is last. Every write is fsynced and read back. Activation and completed journal are committed only after source/state rechecks. Failure retains pending evidence and has no automatic retry or rollback.",
+      "id": "ATOMIC_ACTIVATION_FENCE",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "Production eligibility requires the exact owned production root, current independent owner admission and focused review. A copied rehearsal needs a freshly validated typed seal at the designated rehearsal path, matching source pins and production environment identity; it cannot satisfy production owner eligibility. The seal is not itself an operating-system network fence; the separately reviewed rehearsal runner and ordinary rehearsal install their explicit fences.",
+      "id": "SEPARATE_OWNER_AND_COPY",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "The finite loader bounds are expanded from77 entries/43 modules to77..128 entries/43..96 modules. Current draft contains88 native entries, each source-pinned. All77 predecessor entries preserve paths and hashes. Eleven additions equal pinned reference bytes; inherited G2E overlay remains separate and unchanged. Fresh-process admission blocks preloaded hedgehog/demo modules and unmapped imports.",
+      "id": "NATIVE_MAP",
+      "result": "PASS_SOURCE_AND_READ_ONLY"
+    },
+    {
+      "evidence": "The profile tag is deliberately retained for compatible historical state readers. Current manifest, independent reviewer and owner focused admission are Stage05-specific. Historical manifests retain their fixed accepted hashes and reviewer distinction.",
+      "id": "READER_COMPATIBILITY",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "The previously identified owner_profile_selection failure was repaired: the owner entry now selects the exact Stage05 manifest and private_remote_controls independent reviewer, matching the activation emitted by the installer.",
+      "id": "TARGETED_ENTRY_REPAIR",
+      "result": "PASS_SOURCE"
+    },
+    {
+      "evidence": "The current180-pin draft has56 installation aliases with exact postimage hashes, intact old install coverage and matching preimage pins. Every88-entry native mapping source is included in draft pins. This check does not create or admit the final ordinary manifest.",
+      "id": "DRAFT_ALIAS_CLOSURE",
+      "result": "PASS_READ_ONLY"
+    }
+  ],
+  "code_pins": {
+    "review/stage05_qualified_experience_passage/v01/activate_profile.py": "65f4b2da60781c419371661199bb2a4c2080f6a9d5875cd84c6a1572f352d93c",
+    "review/stage05_qualified_experience_passage/v01/after/config/application_profile_gate.py": "ba36a623778b874d932884602a50e91c95feb1523e334fe7892ded7ac9077ff7",
+    "review/stage05_qualified_experience_passage/v01/after/config/native_profile_loader.py": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58"
+  },
+  "consumed_reservations": [
+    {
+      "automatic_retry": false,
+      "one_use": true,
+      "reference": {
+        "path": "state/p28_owner_scenario_reservations/056211859dbdb6fe47ec4ba7f0dabc8946ccccb3c34051534d895fb7071b795a.json",
+        "sha256": "4b9691c6452ca2adf1a401185e5eb887ffaee213ff512b5db993dfc2b1acefd1",
+        "size_bytes": 1264
+      }
+    },
+    {
+      "automatic_retry": false,
+      "one_use": true,
+      "reference": {
+        "path": "state/p28_owner_scenario_reservations/5b29bfbf53c1f0cd89e18eb4b079935a729375afaf386e52703c835f181838d3.json",
+        "sha256": "52b9546e65f4716ed1d46e6861c0dd49f8a3e5f7f6306021ad6db9067e2cbdfa",
+        "size_bytes": 1252
+      }
+    },
+    {
+      "automatic_retry": false,
+      "one_use": true,
+      "reference": {
+        "path": "state/p28_owner_scenario_reservations/bbd0381ee583b053a984dde7182dc7d8a090c5260a8eaf05acba610e0b237103.json",
+        "sha256": "af36a28303743d347db2c08977bc39bf14cc937b6d20ed0ef884f844aebc0768",
+        "size_bytes": 1312
+      }
+    },
+    {
+      "automatic_retry": false,
+      "one_use": true,
+      "reference": {
+        "path": "state/p28_owner_scenario_reservations/e4267980357428df66b73e176c203abd12d051412981baa2a5ad95d087da44bd.json",
+        "sha256": "bccb691e6783036f0ed38742245057293a6558f26eaf66d537b5f680e7c1bf1a",
+        "size_bytes": 1253
+      }
+    }
+  ],
+  "limitations": [
+    "No candidate module was imported or executed for this review. All results are source reasoning or read-only byte comparisons.",
+    "This review does not authorize owner AUTH, provider calls, native E, effects, Stage05 semantic acceptance or publication.",
+    "The aggregate independent reviewer must bind the final manifest, source/auth admissions, copy inventory, fences and focused results before granting execution. The reviewed metadata remains an author draft."
+  ],
+  "metadata_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/profile_metadata_draft.json",
+    "sha256": "b9527c03256923deaf606c7be13cdab07f7d63833e0d1a31f76e00d227f21b8f",
+    "size_bytes": 76353
+  },
+  "model_or_provider_calls": 0,
+  "owner_execution_authorized": false,
+  "predecessor_manifest_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json",
+    "sha256": "99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc",
+    "size_bytes": 68382
+  },
+  "predecessor_source_pin_mismatches": [],
+  "predecessor_source_pins_checked": 160,
+  "preserving_upgrade_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/predecessor_install_state.json",
+    "sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+    "size_bytes": 42680
+  },
+  "production_mutation_authorized": false,
+  "production_state": {
+    "activation": {
+      "actual_ref": {
+        "path": "state/application_profile.json",
+        "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+        "size_bytes": 259
+      },
+      "exact_bytes_equal": true,
+      "mode": "0o600",
+      "snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/application_profile.json",
+        "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+        "size_bytes": 259
+      }
+    },
+    "install": {
+      "actual_ref": {
+        "path": "state/application_profile_install.json",
+        "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+        "size_bytes": 6437
+      },
+      "exact_bytes_equal": true,
+      "mode": "0o600",
+      "snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/application_profile_install.json",
+        "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+        "size_bytes": 6437
+      }
+    },
+    "ledger": {
+      "active_attempt_id": null,
+      "actual_ref": {
+        "path": "state/console_model_turns.json",
+        "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+        "size_bytes": 110730
+      },
+      "attempt_count": 44,
+      "exact_bytes_equal": true,
+      "mode": "0o644",
+      "snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/console_model_turns.json",
+        "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+        "size_bytes": 110730
+      }
+    },
+    "tasks": {
+      "active_task_id": null,
+      "actual_ref": {
+        "path": "workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+        "size_bytes": 61959
+      },
+      "exact_bytes_equal": true,
+      "mode": "0o644",
+      "snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+        "size_bytes": 61959
+      },
+      "task_count": 11
+    }
+  },
+  "recorded_at": "2026-10-20T21:27:12.159508+00:00",
+  "reference": {
+    "commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+    "inspection": "Read-only git HEAD, tree and tracked diff plus native addition byte comparison.",
+    "tracked_changes": [],
+    "tree": "d665994930e50c7f10d5f928d57ceb7aac758203"
+  },
+  "reference_and_owner_copy_conflicts": {
+    "conditions": [
+      "A rehearsal copy must contain exact predecessor active files and state before the preserving installer runs, together with the separately pinned candidate afterimages. Copying candidate files directly over the initial active paths would correctly fail predecessor source checks.",
+      "A new production console operation before installation changes the saved44-attempt/task snapshot and correctly fails stale predecessor validation; no state reset or snapshot rewrite is authorized by this review.",
+      "Existing relative schema resource locations are retained by preserving all77 predecessor native map entries. Newly selected G3/G4 code has no additional active relative resource requirement."
+    ],
+    "current_conflicts": []
+  },
+  "resolved_findings": [
+    {
+      "cause": "The old reader required P31 after the proposed installer activated Stage05.",
+      "id": "STAGE05_OWNER_READER_OLD_MANIFEST",
+      "location": "review/transport/radik_owner_start.py::_profile_selection",
+      "repair": "Select exact Stage05 manifest and current independent reviewer before the ordinary entry proceeds.",
+      "severity": "BLOCKING_IF_UNREPAIRED",
+      "status": "RESOLVED_IN_PINNED_READER"
+    }
+  ],
+  "reviewer": "/root/stage05_g3_contract",
+  "schema": "radik.stage05.installation_independent_source_review.v01",
+  "scope": "PINNED_INSTALLER_GATE_NATIVE_LOADER_AND_TARGETED_OWNER_READER_SOURCE_ONLY",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/activate_profile.py",
+      "sha256": "65f4b2da60781c419371661199bb2a4c2080f6a9d5875cd84c6a1572f352d93c",
+      "size_bytes": 20148
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/config/application_profile_gate.py",
+      "sha256": "ba36a623778b874d932884602a50e91c95feb1523e334fe7892ded7ac9077ff7",
+      "size_bytes": 14696
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/config/native_profile_loader.py",
+      "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+      "size_bytes": 3032
+    }
+  ],
+  "status": "SOURCE_ALLOWED_FOR_ISOLATED_SHORT_CHECKS",
+  "targeted_reader_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/after/review/transport/radik_owner_start.py",
+    "sha256": "491a901c57bd4d992a10106e028e52842d63c583b0863f012a64f5099496707d",
+    "size_bytes": 143825
+  },
+  "targeted_reader_scope": "_profile_selection and its two changed manifest/reviewer constants; unrelated inherited owner transport code is not newly accepted here.",
+  "unresolved_source_findings": []
+}

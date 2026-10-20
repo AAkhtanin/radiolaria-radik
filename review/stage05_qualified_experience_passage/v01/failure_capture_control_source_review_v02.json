@@ -1,0 +1,73 @@
+{
+  "application_native_model_execution_allowed": false,
+  "author": "/root/stage05_g3_contract",
+  "execution_granted_by_this_record": false,
+  "findings": [
+    "Only named AST helper definitions/constants and two explicitly selected enclosed branches are compiled; complete application/native modules are not imported.",
+    "Six source files are verified before extraction and after controls. All 237 native literals plus two own literals are checked, with three unknown-message sentinels refused.",
+    "Synthetic traceback frames and readback-binding dictionaries are explicitly labeled synthetic; no actual loaded callback or persistent witness verification is claimed.",
+    "Original exception identity is checked across nested annotation, hostile getter/setter/equality, phase-exit/measurement, capture, persistence and emission failures.",
+    "Native revision result shape and pre-dispatch ordering are static AST controls only; native execution remains separate.",
+    "Finite regular/no-symlink reads, exclusive reservation and two fixed output files; audit fence forbids application imports, external actions and production writes.",
+    "Thirty-second self-check and finite bounded loops provide a short diagnostic control; no retry.",
+    "The omitted MEMORY_WRITEBACK_CODES constant is now included. The unused full project_stream_event extraction is removed; its test dependency explicitly accepts only None and refuses nonempty metadata.",
+    "All runtime controls are synthetic no-stream errors. Historical stream validation is outside this exact grant. Original unconsumed v01 grant is withdrawn; no execution occurred under it."
+  ],
+  "owner_execution_allowed": false,
+  "peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_peer_source_review_v02.json",
+    "sha256": "c9130201575296fac6c0467f8e1a73ed97ef885327c467a34bd16a35ca29a5e5",
+    "size_bytes": 4786
+  },
+  "prior_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_control_source_review_v01.json",
+    "sha256": "c56dbdd451f879196503896ef909b2fbe11045336e1b6f519ace97760c9e4352",
+    "size_bytes": 3556
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_proposal.json",
+    "sha256": "bb80b4b9702e5a146c1eeccd0154d3853e49dc5c5179eb13f0031040f2ba5335",
+    "size_bytes": 7745
+  },
+  "review_method": "Read complete exact control source, imports, AST extraction and output paths. AST parsing only; no control or application imports executed by reviewer.",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls.py",
+    "sha256": "e015109f3fb6012c030d9b8559bc8b53aeb90d8d48783ce7baa01804c6824f20",
+    "size_bytes": 26649
+  },
+  "schema": "radik.stage05.failure_capture_control_source_review.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "size_bytes": 64203
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py",
+      "sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+      "size_bytes": 14592
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+      "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+      "size_bytes": 125698
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+      "size_bytes": 35551
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "size_bytes": 61617
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_PINNED_AST_CONTROLS_WITH_EXPLICIT_NO_STREAM_SCOPE"
+}

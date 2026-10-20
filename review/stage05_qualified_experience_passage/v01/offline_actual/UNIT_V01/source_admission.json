@@ -1,0 +1,21 @@
+{
+  "approved_invocations": 1,
+  "decision": "ACCEPTED_FOR_PURE_UNIT_CHECKS",
+  "owner_actual_allowed": false,
+  "review": [
+    "Independently read both unittest conversions and isolated runner, imports and I/O fence.",
+    "No new third-party dependencies. Tests preserve temporary evidence inside exclusive owned workspace.",
+    "No controller/migration call; existing pinned candidate app and native closure independently reviewed before import."
+  ],
+  "reviewer": "/root",
+  "runner_sha256": "8eddb7b2dec7b7857da3c90497a55d51251414b3624ddad4f8bd90c3aa6a8472",
+  "schema": "radik.stage05.unit_source_admission.v01",
+  "scope": "Pure predicates, native public integer allocation and supplied-result rejection; no Work/owner calls.",
+  "source_admission_sha256": "c81023da45ff55b90b7fc86b895d67190a5eb3e261d3572be8d9dcebaee23f7d",
+  "source_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_V02/source_under_test",
+  "test_pins": {
+    "test_qualified_experience.py": "510419cbf89723c6888dcc1c2a6f10ae02d624b919bb13d7a04b5be4fb3ed39c",
+    "test_qualified_strategy.py": "94ccb6576ba7bc975f866120096bda488d3c2794e13834f31706465bd6e01457"
+  },
+  "test_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/source_tests"
+}

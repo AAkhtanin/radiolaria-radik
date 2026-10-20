@@ -1,0 +1,40 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "execution_performed_by_reviewer": false,
+  "findings": [
+    "Exact full source and I/O read; final two deltas enforce TaskSpec radik-task:<32 hex> and entire 200-second interval inside unchanged historical validity.",
+    "Controller constructor defaults informational_delta=False, so NoProvider.project is not accessed. DocumentMemory creates work/payloads directories before the exact pair copy.",
+    "Actual public controller.run(require_memory=True) performs current selection, fresh Root/descent, family/Host/native Work/final Root. Missing eligibility refuses before role fallback. No controller or ExperienceBinding is restored.",
+    "The accepted_at equality follows existing warm-path historical accepted_at retention; valid_to can only narrow. Current clocks and normal eligibility checks remain active.",
+    "Same finite prior admitted interpreter/dependency route with -I -B; protected imports are pinned before exec. No -S, environment changes, real AUTH/provider, subprocess or network.",
+    "335 exact copied source/data paths; retained prior historical evidence is inert. Only isolated work may be written. Original reference remains immutable.",
+    "The tail exercises actual current cold/qualified G3, both G4 revisions/allocated Work, outcome feedback, explicit eligibility and unscorable controls; results require independent review.",
+    "The source reader reopens pinned fixture bytes rather than ordinary TaskStore validation. This is a distinct memory route and cannot certify the full cold console path or original V02 cause."
+  ],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/ordinary_profile_manifest.json",
+    "sha256": "c3e39be498bf337709649d78860100dc34b2f9fb2466c811db76fc20a5df9248",
+    "size_bytes": 74128
+  },
+  "model_execution_allowed": false,
+  "ordinary_acceptance_allowed": false,
+  "owner_actual_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_fixture.py",
+    "sha256": "aada726cce9501b0d5c600c25d3d37d5fe5255c47053db202a78179cfd7748e6",
+    "size_bytes": 18065
+  },
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+    "sha256": "618e2bae68200d1aafaa9819eefd2965e0608abe0187b1ae9e6b4b335decae9b",
+    "size_bytes": 131462
+  },
+  "schema": "radik.stage05.native_tail_fixture_source_review.v01",
+  "source_copy_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/copy_inventory.json",
+    "sha256": "d23411199f9c542043c949cce70c97b7d7c4592bb4263dc4204b5d1b2ffd76aa",
+    "size_bytes": 169193
+  },
+  "status": "SOURCE_ACCEPTED_FOR_ONE_FRESH_MEMORY_DESCENT_NATIVE_TAIL"
+}

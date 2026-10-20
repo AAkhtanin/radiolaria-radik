@@ -1,0 +1,35 @@
+{
+  "schema": "radik.stage05.prospective_revised_timing_basis.v01",
+  "status": "PROPOSED_PENDING_INDEPENDENT_REVIEW_AND_COMPLETE_WIRING_MEASUREMENT",
+  "measured_run": {
+    "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+    "sha256": "a0a0cde5c7a1b0b3afd7ac17a5a21e1a6ea6c324cb84810aa35abd95fb9947f8",
+    "size_bytes": 5027
+  },
+  "measurements": {
+    "cold_result_accepted_wall_seconds": 321.114671584,
+    "cold_memory_readback_wall_seconds": 323.89596175,
+    "stopped_wall_seconds": 346.24909825,
+    "stopped_native_seconds": 300.158740665,
+    "one_actual_pure_work_wall_seconds": 0.24350025
+  },
+  "removed_unrequested_step": "Stage05 no longer prepares the G2-E continuation context after cold acceptance. Normal commands retain the preparation by default.",
+  "remaining_unmeasured_work": {
+    "explicit_current_source_reads": 72,
+    "new_hosts": 7,
+    "pure_work_quanta": 23,
+    "qualification": "Static candidate count, not a measured per-read cost or completion estimate. Each read retains current task/history validation."
+  },
+  "proposed_limits": {
+    "operation_seconds": 3000,
+    "native_seconds": 900,
+    "role_attempts": 3,
+    "response_seconds_per_attempt": 600,
+    "cleanup_seconds": 30,
+    "engineering_rehearsal_seconds": 900
+  },
+  "budget_explanation": "Three role response maxima total1800 seconds;900 cumulative native seconds include current validation and bounded new consumers;300 seconds remain for setup, persistence and normal finalization. A single additional cleanup window is at most30 seconds after a stop, so the outer operation plus cleanup ceiling is3030 seconds. The native cap leaves about600 seconds beyond the measured300-second ordinary prefix for23 quanta and72 current reads. This is a conservative measurement ceiling; completion and phase costs remain unproven until the next isolated source rehearsal.",
+  "validity": "No reference, existing actual, source TTL, history300-second eligibility, default900-second newly issued native context or accepted material is renewed. Existing ORDINARY_V01 remains stopped. A fresh future operation may narrow the unchanged legacy7800-second operation maximum to3000; material eligibility still fails closed independently.",
+  "owner_actual_started": false,
+  "automatic_retry": false
+}

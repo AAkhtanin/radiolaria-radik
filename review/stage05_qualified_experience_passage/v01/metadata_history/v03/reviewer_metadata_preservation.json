@@ -1,0 +1,27 @@
+{
+  "files": {
+    "ordinary_profile_manifest.json": {
+      "sha256": "2b38368bb9edb68546d00decc0617dec92e29bb1247d33a5f1228e6522a567ba",
+      "size_bytes": 74128
+    },
+    "owner_source_review.json": {
+      "sha256": "f6459cb24ad115cd81657461456b13926af73ef469fa3ae80a49dc9dc406d0d1",
+      "size_bytes": 10017
+    },
+    "profile_metadata_draft.json": {
+      "sha256": "89bf19d99079797ad118e2a6fca4bba068130aa006bf01327480c52f70ab0fc9",
+      "size_bytes": 76661
+    },
+    "profile_source_admission.json": {
+      "sha256": "4a596e6930c4aa996a11183faf0ccfea1cf22d79358870af9a419d9ead41b50d",
+      "size_bytes": 578
+    },
+    "runtime_source_review.json": {
+      "sha256": "03428b43f88f03ca303ae9c2b318348a2ecf204d40f451a38b30124c285b0977",
+      "size_bytes": 129838
+    }
+  },
+  "purpose": "Preserve source-only reviewer metadata before the post-ORDINARY_V02 targeted repair refresh.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.reviewer_metadata_preservation.v01"
+}

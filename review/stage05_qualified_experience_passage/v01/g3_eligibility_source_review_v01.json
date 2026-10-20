@@ -1,0 +1,41 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/copy_inventory.json",
+    "sha256": "998288e60e1e52bb8a56541cc769ffb7d8920bcabdbd0355e2d05c0f589a0deb",
+    "size_bytes": 169047
+  },
+  "execution_performed_by_reviewer": false,
+  "findings": [
+    "Read exact derivative source against full admitted tail helper. Only identity/schema, narrowed90-second cap and work sequence changed.",
+    "Same current raw byte checks and genuine require_memory=True selection/descent create a fresh controller. Historical accepted_at/expiry stay unchanged; entire90-second interval must fit the original window.",
+    "One new prospective native observation creates fresh history before the exact current eligibility branch. G4 and cold/qualified G3 consumers are not repeated.",
+    "Temporal, mismatched-scope, conflict/quarantine and unscorable controls remain explicitly controlled cases; original records/head are preserved.",
+    "Same pinned imports, accepted -I -B interpreter/dependency route and fenced exclusive workspace. No role fallback, provider, AUTH, E, SAVE or production activation."
+  ],
+  "ordinary_acceptance_allowed": false,
+  "owner_actual_allowed": false,
+  "prior_runner_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_source_review_v01.json",
+    "sha256": "9f38c7420f92540de808752452e8e02a40ba334d074ae22d1083c747fb3e42f7",
+    "size_bytes": 2833
+  },
+  "repair_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_delta_review_v01.json",
+    "sha256": "12a2fe4ade0093f91dce9e19c015985029a0aa355e855d3f238d1d436daa5a6d",
+    "size_bytes": 2357
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_fixture.py",
+    "sha256": "f19987374f4fc827bec6360e415e0f36d261f11966c439340e1a81a9e8243582",
+    "size_bytes": 17304
+  },
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+    "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+    "size_bytes": 132494
+  },
+  "schema": "radik.stage05.g3_eligibility_fixture_source_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_ONE_FRESH_NATIVE_ELIGIBILITY_PASS"
+}

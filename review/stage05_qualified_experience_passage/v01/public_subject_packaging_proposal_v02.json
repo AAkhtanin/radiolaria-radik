@@ -1,0 +1,111 @@
+{
+  "adapter_before": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "74266b2fb3bd0a0cb63cb0c9b3de61588b880234dd3a92bb84fc4442f26eb5f2",
+    "size_bytes": 5041
+  },
+  "adapter_proposed_sha256": "fd011d66281c2c593b3c32f722be9f8a11b524638a209d1702c8162796ffb8c9",
+  "applied": false,
+  "author": "/root/stage05_g3_contract",
+  "compatibility_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/packaging_compatibility_source_review_v01.json",
+    "sha256": "0763c1a4739182dbff98e2e788a1118a7ec9767c28db93b541012bca0137f541",
+    "size_bytes": 13527
+  },
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposed_v02.diff",
+    "sha256": "e166ed0360f28b721c6e23fc4ad6a7a7cc0702ec75dcb30f4238852e1a971ec0",
+    "size_bytes": 10103
+  },
+  "exception_reuse_scope": "Inventory entries are unique per original source path plus exact JSON pointer. The same source file may appear under multiple distinct canonical archive paths; re-scanning that exact original file uses the same pinned exception identity. All listed exception identities must be consumed at least once; unused and duplicate inventory entries refuse. No per-invocation once-only claim is made.",
+  "execution_performed": false,
+  "inventory": {
+    "classification": "PUBLIC_NATIVE_MEANING_NOT_AUTH_IDENTITY",
+    "containing_object_sha256": "SHA256 of canonical JSON for the containing original dictionary.",
+    "created": false,
+    "entry_fields": [
+      "file_ref",
+      "json_pointer",
+      "subject_sha256",
+      "containing_object_sha256",
+      "kind"
+    ],
+    "fields": [
+      "schema",
+      "classification",
+      "publisher_ref",
+      "entries"
+    ],
+    "file_ref_fields": [
+      "path",
+      "sha256",
+      "size_bytes"
+    ],
+    "json_pointer": "RFC6901 pointer to the exact subject field in the complete original JSON document.",
+    "kinds": [
+      "G34_TYPED_CURRENT_CLAIM",
+      "G34_CURRENT_ROOT_CLAIM",
+      "G34_HISTORY_ROOT_CLAIM"
+    ],
+    "path": "review/stage05_qualified_experience_passage/v01/public_native_subject_exceptions.json",
+    "requires": "Closed actual ORDINARY_V02 evidence, exact source file hashes and independent packaging review.",
+    "schema": "radik.stage05.exact_public_native_subjects.v01",
+    "subject_sha256": "SHA256 of canonical JSON for the subject value."
+  },
+  "packaging_grant_issued": false,
+  "preserved_prior_diff": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposed.diff",
+    "sha256": "e74f7cf9dcb5141395ae0f49d0df477449994a96e493c10e83bcf26d13bc8fb3",
+    "size_bytes": 9594
+  },
+  "preserved_prior_proposal": {
+    "path": "review/stage05_qualified_experience_passage/v01/public_subject_packaging_proposal.json",
+    "sha256": "b4ada8526b7df092e3a659c4bca6dc4c54a566906fd9aabc498b605a6be4db83",
+    "size_bytes": 4088
+  },
+  "publisher_unchanged": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "schema": "radik.stage05.public_subject_packaging_proposal.v02",
+  "security_properties": [
+    "No general subject exemption, publisher change, source schema change, witness omission, extension renaming or raw-byte rewriting.",
+    "Only two finite V02 copied public evidence prefixes are eligible; file SHA256 and size, exact pointer, subject hash and containing object hash are required.",
+    "Existing publisher scans a validation-only copy after explicitly bound public subject fields are omitted from that view. Every omitted value is recursively scanned separately. Original payload bytes are unchanged.",
+    "All other secret keys remain rejected. Duplicate inventory entries and unused entries refuse before publisher reservation. The inventory itself is archived.",
+    "Repeated copies of the same exact source under different archive names do not authorize new exceptions; the exception identity remains original source path plus exact pointer."
+  ],
+  "source_contract_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+      "sha256": "8a9fe0fcc47d3c6a64e1bd9d76439217dc02a22ca3bd2036809af2fd3125fcbc",
+      "size_bytes": 47571
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_strategy.py",
+      "sha256": "885ef359a4b08c873f681b690e8641a73ef9743473ca5aac496ebdc995be65ad",
+      "size_bytes": 33644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/after/app/dynamic_semantics.py",
+      "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+      "size_bytes": 17051
+    },
+    {
+      "path": "source/reference/hedgehog/outcome_feedback_consumer_v01.py",
+      "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+      "size_bytes": 29609
+    },
+    {
+      "path": "source/reference/hedgehog/outcome_feedback_history_v01.py",
+      "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+      "size_bytes": 57644
+    }
+  ],
+  "status": "SOURCE_PROPOSAL_ONLY_PENDING_ACTUAL_V02_INVENTORY",
+  "v02_tightenings": [
+    "Archive paths must be strings, nonempty, not dot, and equal their canonical POSIX form; existing absolute, forbidden, reserved and duplicate archive-name refusal remains.",
+    "Typed G3 local Root is exactly root:radik:experience: plus24lowerhex; extra root segments are refused."
+  ]
+}
