@@ -1,0 +1,88 @@
+{
+  "I_O": {
+    "effects": false,
+    "network": "DENIED",
+    "reads": [
+      "Finite admitted copy inventory and guards",
+      "Exact original V02 public historical_evidence_refs, at most16",
+      "Pinned interpreter and approved Python environment",
+      "Parent supervisor reservation"
+    ],
+    "subprocess": "DENIED_IN_CHILD",
+    "writes": [
+      "New case copy only",
+      "New case work only"
+    ]
+  },
+  "approved_executor_requested": "/root",
+  "author": "/root/stage05_g3_contract",
+  "automatic_retry": false,
+  "candidate_executed": false,
+  "case": "TASKSTORE_REMAINDER_V01",
+  "cost_basis": {
+    "interpretation": "One fresh normal COLD task and a small current consumer replace the prior two-task full scenario.830 is a bounded ceiling, not an ETA or authority extension.",
+    "source_analysis_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_cost_analysis.json",
+      "sha256": "f2358ad73a061c68347baa86242c26448b29ad5a40a68d537dced8d1e855a365",
+      "size_bytes": 5924
+    }
+  },
+  "deadline": "Adopts the exact parent monotonic start, never a fresh900 interval. Parent SIGINT is BaseException and writes a small first-stop receipt before application unwinding; parent still terminates/kills/reaps independently.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_fixture_v01.diff",
+    "sha256": "efe29480efecaf71d9e4891b72f95978958a920b76d5ae43b87499426549b1db",
+    "size_bytes": 29565
+  },
+  "exact_plan": [
+    "Verify one-use independent grant, parent original reservation clock, exact source/import closure and copied preconditions.",
+    "Install the unchanged admitted profile into the one newly sealed copied current44-attempt/11-task state.",
+    "Open one real current normal operation; use genuine RehearsalAuth and unmodified OpenAIPlanTransport with the inert typed HTTP producer. No real AUTH or provider traffic.",
+    "Read and hash original V02 public witness bytes as inert evidence only. No memory, captures, controllers or bindings are reconstructed.",
+    "Register Alder source and one distinct real TaskStore task, admit one COLD three-role round, run the actual current controller and accepted result.",
+    "Execute QualifiedExperience.consume for the fresh task, requiring current no-history prior0, actual mandatory PURE check, selected PURE Work, Root and custody receipts.",
+    "Register changed bytes under the same logical source key. The actual source reader must show incremented revision and exact new raw SHA; qualified_strategy.run with the prior live binding must refuse dynamic_current_sources_changed before native dispatch.",
+    "Recheck original historical bytes, old44 ledger rows, old11 tasks, exact3 synthetic roles and no native provider attempts. Persist complete current consumer and refusal witnesses.",
+    "Close client/normal operation and release copied lock with bounded cleanup; preserve first failure before expensive failure context/cleanup. The independent parent owns termination/reap and final receipt."
+  ],
+  "grant_fields_added": {
+    "actual_id": "TASKSTORE_REMAINDER_V01",
+    "historical_accepted_result_ref": "A member of historical_evidence_refs containing wrapped ordinary_accepted_result f6ab7b4...",
+    "historical_evidence_refs": "1\u201316 exact public original V02 owner_documents refs; never imported into live stores",
+    "outer_supervisor_ref": "Exact separately reviewed taskstore_remainder_supervisor.py",
+    "schema": "radik.stage05.taskstore_remainder_grant.v01",
+    "status": "SOURCE_ACCEPTED_FOR_TARGETED_TASKSTORE_REMAINDER"
+  },
+  "import_closure": "Same admitted app/config/review finder and88-file native map as prior current typed transport fixture. New child itself is a separately reviewed executable; no legacy helpers or external package additions.",
+  "initial_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/taskstore_remainder_fixture_initial_v01.py",
+    "sha256": "43ac070863c37fd509af8238d4747a8b5b72d37424c9b94e873da54704332bd5",
+    "size_bytes": 35979
+  },
+  "invocation_count_requested": 1,
+  "outer_limits": {
+    "cleanup_seconds": 30,
+    "final_seconds": 40,
+    "total_seconds": 900,
+    "work_seconds": 830
+  },
+  "predecessor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "23a8a37f3d974957b2e4a6a896013b49b2e74b631f17dc436a869762343582b6",
+    "size_bytes": 29586
+  },
+  "reviewer_requested": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_fixture.py",
+    "sha256": "8c33ba6c8eb8e7496ba62d72cf3bfeba1571a5f67fdd62ee1cb36140bddb30c5",
+    "size_bytes": 37142
+  },
+  "schema": "radik.stage05.taskstore_remainder_source_proposal.v01",
+  "scope_limits": [
+    "Not a live foreign-capture rejection test; foreign V02 bytes remain inert and absent from this instance.",
+    "Not a complete owner scenario or full ordinary CLI actual.",
+    "No repeat of retained cold/qualified G4, feedback, aged, root-negative or diagnostic controls.",
+    "No memory validity extension, old controller restoration, source-reader substitution, transport bypass or authority reconstruction."
+  ],
+  "source_scope": "Fixture only. No application, gate, native reference, runtime manifest or production guard changed.",
+  "status": "SOURCE_PROPOSED_REQUIRES_INDEPENDENT_REVIEW"
+}

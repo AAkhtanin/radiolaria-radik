@@ -1,0 +1,127 @@
+{
+  "accepted_limited_controls": {
+    "historical_unknown_failure_recovered": false,
+    "synthetic_native_input_reason_projections": 12,
+    "unknown_projection_sanitized": true
+  },
+  "actual_id": "TASKSTORE_SEAM_V01",
+  "actual_scope": {
+    "G3_G4_aged_unrelated_revision_credit": false,
+    "candidate_application_entered": true,
+    "catalog_preflight_entered": true,
+    "copied_ledger_exact_original_44_rows": true,
+    "full_ordinary_CLI": false,
+    "new_failed_task_count": 1,
+    "new_role_attempts": 0,
+    "new_task_results": 0,
+    "old_11_tasks_unchanged": true,
+    "ordinary_task_accepted": false,
+    "owner_actual": false,
+    "real_provider_AUTH_E_SAVE": 0
+  },
+  "automatic_retry_allowed": false,
+  "candidate_execution_performed_by_reviewer": false,
+  "catalog_failure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V01/ordinary/source_under_test/review/finalized_observations/catalog_failure_e0a156282c664243b7ffa54ff30e92bf.json",
+    "sha256": "80b2517998e967172c16fc3fcdccce86e092c83e6ac3e82afa9d72402c3b8804",
+    "size_bytes": 1488
+  },
+  "closure": {
+    "all_observation_hashes_verified": true,
+    "authorized_postclosure_changes_with_exact_preimages": [
+      "review/stage05_qualified_experience_passage/v02/build_return.py",
+      "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py"
+    ],
+    "current_unchanged_guard_count": 457,
+    "deadline_renewed": false,
+    "guard_unchanged_at_actual_closure": true,
+    "lock_released": true,
+    "no_spawned_child": "Fixture runs in the completed tool process; subprocess operations are denied.",
+    "normal_operation_closed_readback": true,
+    "original_budget_seconds": 900,
+    "post_result_readback_seconds": 77.691736625,
+    "production_guard_count": 459,
+    "result_wall_seconds_including_preparation": 77.691155417,
+    "tool_exit_code": 1
+  },
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work/completion.json",
+    "sha256": "f39a84872a8116e15c3c386ee6e52e347d2485218bc085e72ba25da9810ea4a5",
+    "size_bytes": 502
+  },
+  "evidence_preserved": true,
+  "failure_event_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work/004_event.json",
+    "sha256": "8a8d1306b3f0e15fb86e23e197dff980fde392ea2078e9085eea67448491323b",
+    "size_bytes": 1505
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_grant.json",
+    "sha256": "85257ebb63e7e1e6c1a967368734fd82ddf38049eb1d5a5e167a3c0754ea9705",
+    "size_bytes": 643117
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_invocation_receipt.json",
+    "sha256": "9c3fd34663f2a5fed9e58284389904e3caf2d3a6293acbdee44facc49c30b6da",
+    "size_bytes": 4173
+  },
+  "loaded_source_check": {
+    "all_reported_rows_match_exact_manifest_and_copied_bytes": true,
+    "final_native_callback_inventory": "NOT_REACHED",
+    "rows_verified": 39
+  },
+  "next_action": "Separately review the exact typed transport fixture delta and grant a fresh bounded copy only after pinning it.",
+  "normal_operation_close_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V01/ordinary/source_under_test/state/normal_operations/f2723b01717c4c1ba6c6e44711e9dde6.json.closed",
+    "sha256": "22c30126d7c0f27a507872f21eed3fec9aea513f0ab3928505595c99dcc43166",
+    "size_bytes": 446
+  },
+  "observed_primary": {
+    "HTTP_response": "NOT_OBSERVED",
+    "catalog_wall_seconds": 0.003156624734401703,
+    "code": "plan_catalog_network_or_tls_failure",
+    "exception_type": "PlanTransportError",
+    "outer_result_stage_unknown_does_not_replace_first_event_stage": true,
+    "raw_inner_exception": "NOT_RETAINED",
+    "scenario_stage": "ORDINARY_TASK",
+    "source_frames": [
+      {
+        "function": "run",
+        "line": 165,
+        "path": "app/qualified_experience_scenario.py",
+        "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007"
+      },
+      {
+        "function": "run",
+        "line": 583,
+        "path": "app/dynamic_native.py",
+        "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9"
+      },
+      {
+        "function": "propose",
+        "line": 1619,
+        "path": "app/openai_plan_transport.py",
+        "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2"
+      },
+      {
+        "function": "preflight",
+        "line": 1598,
+        "path": "app/openai_plan_transport.py",
+        "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2"
+      }
+    ]
+  },
+  "owner_execution_authorized": false,
+  "prior_review_correction": "The prior fixture review missed the independent typed-auth gate in _send. An overridden inert connection does not satisfy that gate. This append-only review corrects the source assessment without altering the old grant or actual.",
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work/result.json",
+    "sha256": "2eaa14ea8cd08f0efc47a0b6321e3d9d5f3d5303e8e474b1a2cb5ab3842d0a38",
+    "size_bytes": 8760
+  },
+  "reviewed_at_utc": "2026-10-21T06:20:16.134531+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.taskstore_seam_result_review.v01",
+  "source_proven_defect": "The admitted legacy wire supplied SimpleNamespace auth. The current transport _send recognizes exact RehearsalAuth only; its alternate branch requires external-owner authority and rejects a sealed rehearsal copy before connection.connect. The generic preflight handler maps this branch to the observed outer code. The original inner exception was not retained and is not claimed recovered.",
+  "stage05_closure": "NOT_ESTABLISHED",
+  "status": "STOPPED_BEFORE_FIRST_ROLE_NO_NATIVE_CONSUMER_CREDIT"
+}

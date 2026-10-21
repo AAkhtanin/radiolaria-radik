@@ -1,0 +1,45 @@
+{
+  "author": "/root",
+  "automatic_retry": false,
+  "changed_fields": "Only four snapshot_ref.path values v01/original_actual to v02/original_actual.",
+  "copied_snapshots": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile.json",
+      "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+      "size_bytes": 259
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile_install.json",
+      "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+      "size_bytes": 6437
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/console_model_turns.json",
+      "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+      "size_bytes": 110730
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+      "size_bytes": 61959
+    }
+  ],
+  "current_installed_predecessor": "P31_UNCHANGED",
+  "failure": "profile_gate_upgrade_snapshot_binding",
+  "failure_stage": "PRE_CHILD_INSTALLATION",
+  "new_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json",
+    "sha256": "1c4a060559f6f2a7a96094253701d2a94ab02e3848cce2828ef4a88fa89c6827",
+    "size_bytes": 42680
+  },
+  "old_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_snapshot_path_repair/predecessor_install_state.json",
+    "sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+    "size_bytes": 42680
+  },
+  "original_refs_and_modes_unchanged": true,
+  "owner_execution_allowed": false,
+  "schema": "radik.stage05.snapshot_path_repair.v01",
+  "snapshot_bytes_unchanged": true,
+  "source_gate_not_weakened": true
+}

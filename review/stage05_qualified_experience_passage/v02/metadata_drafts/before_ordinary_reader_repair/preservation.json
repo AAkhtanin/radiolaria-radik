@@ -1,0 +1,38 @@
+{
+  "by": "/root/private_remote_controls",
+  "created_at_utc": "2026-10-21T05:51:54.875950+00:00",
+  "files": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/profile_metadata_draft.json",
+      "sha256": "1920a3843362c78e908e6089f24a016da04524cdae9b6ef01fe16c8978f85519",
+      "size_bytes": 126702
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/runtime_source_review.json",
+      "sha256": "9c77d5cb650de1e4254416adf7c7bcbf091661054fc9fabd8e9e58dcc0bf44b2",
+      "size_bytes": 111358
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/owner_source_review.json",
+      "sha256": "4e31337ab3bb6b3c0591c9651338abca4cb1d816f4764bfdac8f0e148cd5269b",
+      "size_bytes": 10013
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/profile_source_admission.json",
+      "sha256": "6357af63cdc5382bda7a85399b330f632375fb31d9854b4f3e6dc7a5f682263e",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/ordinary_profile_manifest.json",
+      "sha256": "51223115ef28fd4896a5810e732a3907dee5c588f11a22f993d2e38a08a64a8d",
+      "size_bytes": 74128
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_ordinary_reader_repair/copy_inventory_final.json",
+      "sha256": "a1466e28b54388d37b794e78720db46380ba02edade2f55b26e51ac274bb4000",
+      "size_bytes": 585255
+    }
+  ],
+  "reason": "Preserve exact pre-repair source metadata and COMPLETION_V03 bindings before three independently reviewed application changes.",
+  "schema": "radik.stage05.metadata_preservation.v01"
+}

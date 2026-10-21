@@ -1,0 +1,75 @@
+{
+  "after": {
+    "bytes": 55595,
+    "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py",
+    "sha256": "955b12330f48756260a091ef1a7b137874e3b4f574afa4219f68ea7e50f48396"
+  },
+  "before": {
+    "bytes": 47666,
+    "path": "review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py",
+    "sha256": "4c55f3d77732a536f7106506c3803095df3194a21a05649b7ccb17fce3d0632d"
+  },
+  "design": [
+    "Only max-age ineligibility with original validity and arithmetic TTL still valid may proceed to a new check; old prior stays absent.",
+    "The exact native age refusal includes drs_temporal_hard_gate_failed and drs_required_evidence_missing because this query requires TIME_FITNESS. Every other native eligibility gate must pass.",
+    "The existing public cold trust contract requires actual additional typed PURE Work, then a fresh Root decision and actual selected Work. No new observation or usable history is manufactured.",
+    "The optional history-only control clock cannot go backwards or open eligible history. Actual current Root and Work keep the current controller clock.",
+    "Real-time aged history enters the same branch without the control argument. Expired, conflict, quarantine and other refusal reasons continue to stop before Work.",
+    "History snapshots hash only HEAD, writer lock and exact epoch/descriptor/payload/DRS files named by this instance retained live captures; they reconstruct no authority.",
+    "No history outcome references are reported as consumed when no history was opened."
+  ],
+  "diff": {
+    "bytes": 13277,
+    "path": "review/stage05_qualified_experience_passage/v02/aged_consumer_proposal_v01.diff",
+    "sha256": "409990fa6a6fb5a3533aa28a135ba4617ff9f93cd8e5be7134794f7c1548e1ad"
+  },
+  "io_changes": {
+    "effect_calls": 0,
+    "network": false,
+    "provider_calls": 0,
+    "reads": "Finite retained native history files, at most eight live captured epochs; each file <=1048576 bytes.",
+    "writes": "Existing immutable evidence persistence, plus aged_consumer_control report; no history mutation."
+  },
+  "limitations": [
+    "Control clock does not assert 300 seconds of actual elapsed wall time.",
+    "This source proposal does not accept Stage05 or the owner scenario.",
+    "Old v01 evidence, reviews, pins, admission and reservation are unchanged."
+  ],
+  "new_error_codes": [
+    "experience_aged_check_required",
+    "experience_aged_control_consumption",
+    "experience_aged_control_requires_unexpired_history",
+    "experience_aged_history_not_current_prior",
+    "experience_history_capture_origin",
+    "experience_history_control_clock",
+    "experience_history_control_requires_history",
+    "experience_history_control_requires_refusal",
+    "experience_history_snapshot_file",
+    "experience_history_snapshot_origin"
+  ],
+  "public_apis": [
+    "OutcomeHistoryV01.current_descriptor_v01",
+    "build_drs_temporal_query_v01",
+    "evaluate_drs_candidate_v01",
+    "build_current_review_contract_v01",
+    "build_current_advisory_v01",
+    "review_current_advisory_v01",
+    "current_check_receipt_bridge_v01",
+    "execute_reviewed_pure_work_v01",
+    "validate_current_causal_proof_v01"
+  ],
+  "required_independent_checks": [
+    "Review exact max-age-only classifier against immutable native temporal and evidence gates.",
+    "Observe actual typed extra PURE check and fresh current Root receipt with no old prior and exact unchanged history hashes.",
+    "Confirm expired/conflict/quarantine still refuse before Work.",
+    "Confirm genuine unrelated controller and actual source revision scenarios use history_snapshot only as byte evidence."
+  ],
+  "schema": "radik.stage05.aged_consumer_source_proposal.v01",
+  "source_closure_changes": {
+    "application_dependency": "Existing qualified_experience.py loader pin must change; existing pure Work callbacks unchanged.",
+    "native_reference_changes": false,
+    "new_imports": [],
+    "new_native_modules": []
+  },
+  "status": "SOURCE_PROPOSED_NOT_EXECUTED_NOT_SELF_ACCEPTED"
+}

@@ -1,0 +1,22 @@
+{
+  "application_imports": false,
+  "author": "/root",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_taskstore_v02_prefix_proposal.diff",
+    "sha256": "418f0cb1e21186ee4e3ee903ac7f3dc16bf422b37045ea9ec6b316a04dcc4aad",
+    "size_bytes": 1045
+  },
+  "execution_authorized": false,
+  "postimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "bd19a50c3e078fc3c92664961a9f2c5a7fce87e01c3d0e83366bc5978713c547",
+    "size_bytes": 13674
+  },
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_taskstore_v02_prefix.py",
+    "sha256": "0fadcf64bcdfbd2d9691c90886d08763dcce92edfe18001b61d0b95e466a136c",
+    "size_bytes": 13589
+  },
+  "schema": "radik.stage05.return_scope_delta.v01",
+  "scope": "Add only closed TASKSTORE_SEAM_V02 exact actual prefixes. The three fixed public native subject shapes, exact file/pointer/value hashes and secret scanning remain unchanged."
+}

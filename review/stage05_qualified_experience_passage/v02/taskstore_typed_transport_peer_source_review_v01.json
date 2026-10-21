@@ -1,0 +1,139 @@
+{
+  "candidate_execution": false,
+  "candidate_imports": false,
+  "checks": [
+    {
+      "boundary": "Preimport and dependency closure",
+      "observation": "App/config/review modules remain exact-pin loaded from the sealed current copy; native_profile_loader owns the existing finite 88-entry map. Legacy helper refs are required empty and neither helper is imported. No override of _connection or _send exists in the postimage. Existing admitted venv -I -B dependency route remains required."
+    },
+    {
+      "boundary": "Typed context and auth",
+      "observation": "rehearsal_context binds the new V02 seal and exact owned copy root. make_auth validates that typed context and constructs exact RehearsalAuth with an inert credential marker. It does not invoke PlanAuth, user authentication or any external owner grant."
+    },
+    {
+      "boundary": "GET catalog dispatch",
+      "observation": "The ordinary OpenAIPlanTransport begins with empty _catalog/_grant. Its unchanged _connection obtains the inert connection only for exact RehearsalAuth; unchanged _send revalidates that context, fixed host/443 and GET endpoint before inert connect. Genuine HTTPResponse/media/body/catalog validators consume the current inert catalog, then persist and bind _catalog/_grant and source identity."
+    },
+    {
+      "boundary": "Current source and role admission",
+      "observation": "Every _source callback hashes the full admitted runtime pins and checks the work deadline; returned identity is explicitly synthetic and is not an owner/source acceptance certificate. Each role callback enforces the closed role set and validates fixture catalog status/seal binding. The normal operation and task round remain independently validated by current budget/runtime code."
+    },
+    {
+      "boundary": "POST typed roles",
+      "observation": "The ordinary transport issues and validates actual DynamicRoleRequest objects, checks source identity against catalog, current frozen model settings and actual task-round dependencies, and preserves both dispatch-time request validations. Current ordinary_rehearsal._product and _stream supply inert task/source-bound payloads through the genuine HTTPResponse and SSE/product validators. No patched transport, broad fallback or role bypass remains."
+    },
+    {
+      "boundary": "Current controller and TaskStore",
+      "observation": "Each of the two new task rows enters a fresh native controller with the real TaskStore.source_reader. Each COLD round allows three attempts; six synthetic attempts total are asserted. Old44 attempts/11 tasks are preserved. Real observation-timestamp drift is separated from source identity, and the existing scenario later changes registered raw bytes/revision and checks stale-binding refusal before native dispatch."
+    },
+    {
+      "boundary": "Zero real external action",
+      "observation": "The existing audit fence denies sockets, subprocess/process operations and credential paths, and permits writes only in the new exact copy and work roots. RehearsalAuth returns the existing inert connection path; no real token, actual authentication, provider request, E or SAVE is introduced."
+    },
+    {
+      "boundary": "Scope and deadlines",
+      "observation": "The reviewed transport delta leaves the previously reviewed one-use reservation, exclusive roots, original 865+30+5 second envelope, immutable deadline transitions, cleanup and guard/readback code unchanged. This fixture covers current TaskStore/native composition, not a complete ordinary CLI/AUTH or owner actual."
+    }
+  ],
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_typed_transport_repair_v01.diff",
+    "sha256": "262b8fe7318432ea4264e627c6418e0a5a7d0010101a0b4b38b4e9fe2635a322",
+    "size_bytes": 5502
+  },
+  "evidence_boundary": "The V01 outer plan_catalog_network_or_tls_failure and no HTTP response are observed. The legacy auth/current typed dispatch incompatibility is source-proven; the swallowed original inner exception text is not recovered by this review.",
+  "executor_invocation_granted": false,
+  "findings": [],
+  "fixture_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "23a8a37f3d974957b2e4a6a896013b49b2e74b631f17dc436a869762343582b6",
+    "size_bytes": 29586
+  },
+  "grant_requirements": {
+    "actual_id": "TASKSTORE_SEAM_V02",
+    "helper_refs": [],
+    "new_copy_seal_and_invocation": true,
+    "old_V01_grant_and_copy_not_reused": true,
+    "owner_actual": false,
+    "real_provider_AUTH_E_SAVE_allowed": false
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+    "size_bytes": 74128
+  },
+  "owner_execution_authorized": false,
+  "prior_fixture_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/taskstore_seam_fixture_before_typed_transport_v04.py",
+    "sha256": "7e6dbf7af592a7ee98bdf1062f3053c59eb57300c40344ae08f9ed0eac04c1ec",
+    "size_bytes": 29208
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_typed_transport_repair_proposal_v01.json",
+    "sha256": "0d6b283bba1251f79a5e45aaa42cf3348f92a75a1f2b1d60bbb278934c721d92",
+    "size_bytes": 5767
+  },
+  "protocol_source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/ordinary_rehearsal.py",
+      "sha256": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+      "size_bytes": 10160
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "size_bytes": 4307
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py",
+      "sha256": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff",
+      "size_bytes": 14696
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/native_profile_loader.py",
+      "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+      "size_bytes": 3032
+    }
+  ],
+  "review_scope": "Fixture-only typed transport, full GET/POST dispatch protocol, source callbacks, current TaskStore reader and finite role budget. Existing application/G4 source acceptance belongs to its separate independent reviews.",
+  "reviewed_at_utc": "2026-10-21T06:18:05.804677+00:00",
+  "reviewer": "/root/stage05_g4_contract",
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+    "size_bytes": 112752
+  },
+  "schema": "radik.stage05.taskstore_typed_transport_peer_source_review.v01",
+  "source_only": true,
+  "stage05_closure": "NOT_ESTABLISHED",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_TASKSTORE_SEAM_V02"
+}

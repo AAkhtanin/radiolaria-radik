@@ -1,0 +1,342 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "actual_source_revision": {
+    "actual_registered_raw_source_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/input/ece4e19070cae9fd426766ad328cd1a9.txt",
+      "sha256": "c001da2e38deacae6508fb8c59a87d72bbfa1bc9caecd2c8efae68cf100d9596",
+      "size_bytes": 260
+    },
+    "after_revision": 2,
+    "after_sha256": "c001da2e38deacae6508fb8c59a87d72bbfa1bc9caecd2c8efae68cf100d9596",
+    "before_revision": 1,
+    "before_sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+    "binding_scope": "FRESH_UNRELATED_TASK_CURRENT_NO_HISTORY_BINDING",
+    "current_history_before_after": {},
+    "full_refusal_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/009_source_revision_stale_binding_refused.json",
+      "sha256": "4b4fd69e50aef486e64927f9b871cf093651e305a586e866306cccdf83519fb3",
+      "size_bytes": 32937
+    },
+    "logical_source_id": "radik:source:ece4e19070cae9fd426766ad328cd1a9",
+    "native_dispatch_reached": false,
+    "native_results_events_evidence_unchanged": true,
+    "old_live_binding_id": "radik:experience_binding:1a984ff57d7dd23118ccadbfc1454f47b4736722b820dca3cae9195dcb627982",
+    "raw_utf8_readback": "MATCH",
+    "refusal": "dynamic_current_sources_changed"
+  },
+  "budgets_and_state": {
+    "active_attempt": null,
+    "active_task": null,
+    "all_new_attempts": "COMPLETED",
+    "effects": 0,
+    "first_postclosure_readback_all_guards_exact": true,
+    "guard_count": 496,
+    "later_authorized_metadata_changes": [
+      {
+        "classification": "AUTHORIZED_POST_CLOSURE_OWNER_TIMING_ONLY_CHANGE_PENDING_SEPARATE_REVIEW",
+        "current_after_run_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+          "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+          "size_bytes": 16726
+        },
+        "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+        "preserved_run_preimage_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/source_history/supervisor_timing_before_final_owner_budget.py",
+          "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+          "size_bytes": 16725
+        }
+      }
+    ],
+    "native_E_calls": 0,
+    "new_synthetic_role_attempts": 3,
+    "original_11_tasks_unchanged": true,
+    "original_44_ledger_rows_unchanged": true,
+    "real_AUTH_calls": 0,
+    "real_provider_calls": 0,
+    "repeated_G4_allocations": 0,
+    "repeated_aged_consumers": 0
+  },
+  "child_completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/completion.json",
+    "sha256": "d062416292d948f3d7bd1067eb6663e1299896c2a01e2ffcc927580bbbdc77be",
+    "size_bytes": 580
+  },
+  "child_result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/result.json",
+    "sha256": "276ad7342dcf537996ac5b2572045a102727e27f9c6c054d98faffa95822419a",
+    "size_bytes": 21820
+  },
+  "current_consumer": {
+    "binding_id": "radik:experience_binding:1a984ff57d7dd23118ccadbfc1454f47b4736722b820dca3cae9195dcb627982",
+    "current_experience_root": "root:radik:experience:1db7674e9ddbf9c2cecf5d2f",
+    "distinct_current_dynamic_root": "root:radik:dynamic:9f71248e:488a34ac:bbe2ee29",
+    "effects": 0,
+    "full_native_evidence_refs": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/dynamic_intake_root_56a0ea2bff9758f6471413e8654ed37f99a6029d91d97f019fffc7b49905ff09.json",
+        "sha256": "56a0ea2bff9758f6471413e8654ed37f99a6029d91d97f019fffc7b49905ff09",
+        "size_bytes": 14622
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/dynamic_source_family_ff8e8fe4c759471353a505b417dd269286a2a6a8ba6903e20efe24326910f0f2.json",
+        "sha256": "ff8e8fe4c759471353a505b417dd269286a2a6a8ba6903e20efe24326910f0f2",
+        "size_bytes": 57100
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/dynamic_native_work_2c036698066531e6060fd425ffff88623344054b73e8eecbc799f907532afc1c.json",
+        "sha256": "2c036698066531e6060fd425ffff88623344054b73e8eecbc799f907532afc1c",
+        "size_bytes": 770443
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/accepted_dynamic_result_455d142b685387a2326bc7dfca43c764781ccd6fdd055c86ad706d257f3d4d68.json",
+        "sha256": "455d142b685387a2326bc7dfca43c764781ccd6fdd055c86ad706d257f3d4d68",
+        "size_bytes": 34134
+      }
+    ],
+    "full_raw_consumer_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05_remainder/cc5943943582/qualified_consumer_03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d.json",
+      "sha256": "03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d",
+      "size_bytes": 140318
+    },
+    "historical_authority_restored": false,
+    "historical_task_id": "radik-task:865e76c52b0c4cd2ad270348586807b7",
+    "history_ref": null,
+    "native_receipts": [
+      {
+        "branch": "mandatory_check",
+        "candidate_id": null,
+        "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "input_sha256": "64f8b2d8fefdeb702257693796af1f439b014044fbc8fcb7c3e77db222eb5ef5",
+        "invocation_id": "capability_invocation:6987fe57b671e75631b8843ee14b3842e5ec7d635c585c0daad101a8a37b56c3",
+        "output_subject_sha256": "18a6c28a8584333ea0ece236f696f709e245d682e078d852cea873b85b6c5c92",
+        "packet_id": null,
+        "status": "COMPLETED"
+      },
+      {
+        "branch": "work",
+        "candidate_id": null,
+        "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "input_sha256": "64f8b2d8fefdeb702257693796af1f439b014044fbc8fcb7c3e77db222eb5ef5",
+        "invocation_id": "capability_invocation:8c8c0a010adf8ef3f9dadb36d6d4765a05418a481da7c33637193cb3c3f8d1d0",
+        "output_subject_sha256": "18a6c28a8584333ea0ece236f696f709e245d682e078d852cea873b85b6c5c92",
+        "packet_id": null,
+        "status": "COMPLETED"
+      }
+    ],
+    "prior_fp": 0,
+    "provider_calls": 0,
+    "task_id": "radik-task:da6a34ef3754422db97f468cddece8d1",
+    "three_current_root_reviews": "ACCEPT"
+  },
+  "full_ordinary_cli_actual": false,
+  "further_candidate_execution_required_by_this_review": false,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_grant.json",
+    "sha256": "ccef275f7b0acb2d3f6b3db587ae838c114f163b8e68787006dede7363d3af07",
+    "size_bytes": 670632
+  },
+  "historical_material": {
+    "all_raw_sha256_and_lengths_match_original_grant": true,
+    "imported_into_live_store": false,
+    "old_ttl_extended": false,
+    "read_only_ref_count": 7,
+    "refs": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/ordinary_accepted_result_f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806.json",
+        "sha256": "f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806",
+        "size_bytes": 36473
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/HEAD.json",
+        "sha256": "f20e2841aba336a16243915cbf096a57b1bed6b9461b138738f36d684f998bae",
+        "size_bytes": 344
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/drs/work/drsmeaning_v01_eb358900abb8bd2aa79eae4f2b17b044e6dbf8ea095c0ade9f95cf7b44d2468d.json",
+        "sha256": "cad69c7d4e8d1e77393a5c84d2f64bb8dbaad32e24579dd986cd172a88f8fd61",
+        "size_bytes": 6570
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.descriptor.json",
+        "sha256": "64fc51238b83ec844ee9e8e3c193560ec5cb969a1325e516a2e4bd8abaebd275",
+        "size_bytes": 18107
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.json",
+        "sha256": "0cbc0e2c80ce21f94ff02e028d00a3941ca12e1b0694b1e4b232e4dcaa592508",
+        "size_bytes": 24964
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.payload.json",
+        "sha256": "a2c80959bd47b9fba12798ba1969fdcea16df5e71b0b62d617fcf1ed5a2a286c",
+        "size_bytes": 7785
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/writer.lock",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    ],
+    "six_history_leaves_unchanged": true
+  },
+  "limitations": [
+    "This actual is the separately admitted short remainder route, not a new full ordinary CLI scenario or real owner operation.",
+    "No live foreign capture was loaded: it proves a distinct fresh unrelated current task/Root/PURE path with no history restoration, not an attempted foreign live-capture rejection.",
+    "The source revision targets this fresh unrelated current no-history binding; the full owner scenario still must observe its own Rowan qualified-binding revision.",
+    "The prior accepted V02 G4 and aged consumer witnesses are reused through their exact partial-result review; their failed whole-run finalization is not overwritten.",
+    "Final owner readiness requires the reviewed matrix, honest final timing/source pins and a separate owner admission."
+  ],
+  "loaded_callbacks": {
+    "all_raw_loaded_paths_match_grant_manifest_and_retained_copy": true,
+    "callback_result_receipts_verified": true,
+    "exact_g3_implementation_and_input_output_validator_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+    "native_map_count": 88,
+    "reported_module_count": 87
+  },
+  "observations": [
+    {
+      "elapsed_wall_seconds": 1.956289792,
+      "name": "preserving_installation",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/001_preserving_installation.json",
+        "sha256": "3bb005993b9e9de8fce75883acd3e3b1995fbbacd4c3bbcaa25360bda38ebc24",
+        "size_bytes": 1413
+      }
+    },
+    {
+      "elapsed_wall_seconds": 13.250469709,
+      "name": "typed_transport_binding",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/002_typed_transport_binding.json",
+        "sha256": "c0f87eb9bceee256b526706c3f695cb24c2a1909598e643bc13f87accf3f30dd",
+        "size_bytes": 379
+      }
+    },
+    {
+      "elapsed_wall_seconds": 15.978773959,
+      "name": "historical_inert_bytes",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/003_historical_inert_bytes.json",
+        "sha256": "286ae468e46df68a590ff3c89ac5502e245bb6b4d9d340602ce04588b24e8a1e",
+        "size_bytes": 3724
+      }
+    },
+    {
+      "elapsed_wall_seconds": 21.566627709,
+      "name": "unrelated_prospective_task",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/004_unrelated_prospective_task.json",
+        "sha256": "5995e2321279a7a9019bff68ecf643427bdb9df2bf033422c2bd5d50313b06ec",
+        "size_bytes": 761
+      }
+    },
+    {
+      "elapsed_wall_seconds": 366.590007,
+      "name": "unrelated_accepted_result",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/005_unrelated_accepted_result.json",
+        "sha256": "5712fa427d3fc4a526701341bdbe298a7b1771d687a1809c724baa6b2ead52ac",
+        "size_bytes": 34518
+      }
+    },
+    {
+      "elapsed_wall_seconds": 405.6024005,
+      "name": "unrelated_current_consumer",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/006_unrelated_current_consumer.json",
+        "sha256": "6bbb05486e8fd8d0c72304ba1ea31f108c189545c49a1f3530421a4e299d6039",
+        "size_bytes": 144126
+      }
+    },
+    {
+      "elapsed_wall_seconds": 408.550457334,
+      "name": "source_revision_before",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/007_source_revision_before.json",
+        "sha256": "b3d32b707e3085fc7b6d6e635efbcff143b36cc932e6bf1debf9fc833ca9c0b0",
+        "size_bytes": 16440
+      }
+    },
+    {
+      "elapsed_wall_seconds": 414.667413667,
+      "name": "source_revision_after",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/008_source_revision_after.json",
+        "sha256": "4cf324c248dfb2de135880c6a49d3fe9b888df0ee0be28bd48fea23d89426836",
+        "size_bytes": 1067
+      }
+    },
+    {
+      "elapsed_wall_seconds": 417.687864792,
+      "name": "source_revision_stale_binding_refused",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/009_source_revision_stale_binding_refused.json",
+        "sha256": "4b4fd69e50aef486e64927f9b871cf093651e305a586e866306cccdf83519fb3",
+        "size_bytes": 32937
+      }
+    },
+    {
+      "elapsed_wall_seconds": 431.615822542,
+      "name": "normal_operation_final_state",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/010_normal_operation_final_state.json",
+        "sha256": "4ded2806dcc8d7b3adf9e9ffd1ecfd5b907dedcbc77073e22b621ee3daccdcc8",
+        "size_bytes": 184805
+      }
+    },
+    {
+      "elapsed_wall_seconds": 431.628129959,
+      "name": "client_close",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/011_client_close.json",
+        "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "size_bytes": 4
+      }
+    },
+    {
+      "elapsed_wall_seconds": 431.706235084,
+      "name": "normal_operation_close",
+      "ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/012_normal_operation_close.json",
+        "sha256": "a6303853612b44f007a3cdf19c8d3bd17250cb93ceb75bd704cbd1caccffe5cf",
+        "size_bytes": 155
+      }
+    }
+  ],
+  "owner_actual": "NOT_RUN",
+  "parent_completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/supervisor/completion.json",
+    "sha256": "7b11e8e4012e809b90f34dd6a974ed26cb1a2898a0558379be263eb8471b53e9",
+    "size_bytes": 416
+  },
+  "parent_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/supervisor/receipt.json",
+    "sha256": "987d0e51c721f1c0032c9baace1efabeeefabbfa2ca6cb60559c5069b0c11901",
+    "size_bytes": 1175
+  },
+  "result_source_reviews_unchanged": true,
+  "reviewed_at_utc": "2026-10-21T07:07:10.739775+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.taskstore_remainder_independent_result_review.v01",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_independent_source_review.json",
+    "sha256": "21040a66bc4cd2f2efbc6d94e79fa347796535a6b3b6fa800294798db532812b",
+    "size_bytes": 4503
+  },
+  "status": "PASS_FRESH_UNRELATED_CURRENT_CONSUMER_AND_OWN_SOURCE_REVISION_ONLY",
+  "whole_offline_boundary": {
+    "child_exit_code": 0,
+    "child_final_readback_wall_seconds": 431.818638125,
+    "child_pid": 94314,
+    "child_reaped": true,
+    "client_closed": true,
+    "deadline_renewed": false,
+    "limit_seconds": 900,
+    "normal_operation_closed": true,
+    "owned_lock_released": true,
+    "parent_final_readback_wall_seconds": 431.906525125,
+    "preparation_included": true,
+    "primary_stop": null,
+    "signals": []
+  }
+}

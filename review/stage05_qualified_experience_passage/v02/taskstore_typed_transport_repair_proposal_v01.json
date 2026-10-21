@@ -1,0 +1,88 @@
+{
+  "acceptance_asserted": false,
+  "actual_id": "TASKSTORE_SEAM_V02",
+  "actual_observation": {
+    "HTTP_response": "NOT_OBSERVED",
+    "catalog_wall_seconds": 0.003156624734401703,
+    "ordinary_native_controller_accepted": false,
+    "original_inner_exception": "NOT_RETAINED_DO_NOT_CLAIM_RECOVERY",
+    "primary_code": "plan_catalog_network_or_tls_failure",
+    "synthetic_role_requests_dispatched": 0
+  },
+  "author": "/root/stage05_g3_contract",
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/taskstore_seam_fixture_before_typed_transport_v04.py",
+    "sha256": "7e6dbf7af592a7ee98bdf1062f3053c59eb57300c40344ae08f9ed0eac04c1ec",
+    "size_bytes": 29208
+  },
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_typed_transport_repair_v01.diff",
+    "sha256": "262b8fe7318432ea4264e627c6418e0a5a7d0010101a0b4b38b4e9fe2635a322",
+    "size_bytes": 5502
+  },
+  "helper_refs": [],
+  "next_grant_requirements": {
+    "actual_id": "TASKSTORE_SEAM_V02",
+    "helper_refs": [],
+    "new_seal_and_invocation_required": true,
+    "owned_copy_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test",
+    "result_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work",
+    "reuse_v01_grant_or_copy": false
+  },
+  "preserved_actual_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work/result.json",
+      "sha256": "2eaa14ea8cd08f0efc47a0b6321e3d9d5f3d5303e8e474b1a2cb5ab3842d0a38",
+      "size_bytes": 8760
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work/completion.json",
+      "sha256": "f39a84872a8116e15c3c386ee6e52e347d2485218bc085e72ba25da9810ea4a5",
+      "size_bytes": 502
+    }
+  ],
+  "protocol_source_followthrough": [
+    {
+      "boundary": "Factory and context",
+      "contract": "make_auth requires factory key, validates exact typed RehearsalContext and source-reviewed seal; no PlanAuth invocation."
+    },
+    {
+      "boundary": "Connection and dispatch",
+      "contract": "OpenAIPlanTransport exact type uses unchanged _connection; exact RehearsalAuth.connection returns inert _Connection. _send independently validates same context, fixed host/443, exact GET/POST endpoints before connect. No mocked owner admission or override."
+    },
+    {
+      "boundary": "Catalog",
+      "contract": "Empty initial _catalog/_grant forces current GET. Inert HTTPResponse serves gpt-6.1-sol catalog, correct media/content-length; real validate_catalog projects current settings. Rehearsal grant public receipt says ISOLATED_REHEARSAL_GRANT_NO_AUTHORITY. Every role admission calls validate_fixture_catalog with exact seal and closed role."
+    },
+    {
+      "boundary": "POST",
+      "contract": "Current _send keeps twice-checked issued DynamicRoleRequest/current normal round/current source identity. Inert current _product uses actual task/source inputs, real role schemas and CRITIC_CHECKS; _stream returns fixed current profile, ordered SSE, usage. No old wire or old product_factory loaded."
+    },
+    {
+      "boundary": "Budget and native consumers",
+      "contract": "Real TurnBudget normal v02 operation, copied prior44 ledger/11 tasks, two fresh COLD controllers, six synthetic typed attempts; G3/G4/PURE/current Root and real TaskStore source readers unchanged."
+    },
+    {
+      "boundary": "I/O and clocks",
+      "contract": "Unchanged network/process/private-path fence, source pins before imports, current clock, exact source registration mutation, 865/30/5 original900 envelope, no retry/TTL extension."
+    }
+  ],
+  "repair": "Replace only the fixture client construction with current ordinary_rehearsal.make_auth over the exact typed rehearsal context and ordinary OpenAIPlanTransport. Keep native/runtime source, owner gate and _connection/_send unchanged. Remove both legacy helper imports; reuse the already source-admitted current inert catalog/SSE/role producer.",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "23a8a37f3d974957b2e4a6a896013b49b2e74b631f17dc436a869762343582b6",
+    "size_bytes": 29586
+  },
+  "runtime_dependency_pins": {
+    "app/budget.py": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+    "app/dynamic_roles.py": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+    "app/openai_plan_transport.py": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+    "app/ordinary_rehearsal.py": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+    "app/task_store.py": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+    "config/application_profile_gate.py": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff"
+  },
+  "schema": "radik.stage05.taskstore_typed_transport_repair.v01",
+  "scope": "Fresh copied ordinary TaskStore reader and native consumer seam with six explicit synthetic typed roles. Not a new ordinary CLI/AUTH or owner actual.",
+  "source_proven_mismatch": "The legacy dynamic_wire Client supplied SimpleNamespace auth. Current OpenAIPlanTransport._send recognizes only exact RehearsalAuth for a sealed copied project; its alternative requires external owner authority and rejects the copy before connection.connect. Its generic preflight exception branch projects plan_catalog_network_or_tls_failure. The old connection override could not satisfy the typed dispatch gate.",
+  "status": "SOURCE_REVIEW_REQUIRED_NO_EXECUTION"
+}

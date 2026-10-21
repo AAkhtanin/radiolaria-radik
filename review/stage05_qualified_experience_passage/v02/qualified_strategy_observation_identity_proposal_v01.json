@@ -1,0 +1,79 @@
+{
+  "actual_basis": {
+    "case": "COMPLETION_V03",
+    "exact_comparison_operands_retained": false,
+    "observed_projected_code": "SANITIZED_OPERATION_FAILURE",
+    "observed_source_site": "app/qualified_strategy.py:473 -> app/native_authority.py:104 -> hedgehog/kernel/root_decision_v01.py:250",
+    "observed_stage": "G4_TASK_ROOT",
+    "old_ORDINARY_V02_cause": "UNKNOWN",
+    "original_exception_text_retained": false
+  },
+  "author": "/root/stage05_g4_contract",
+  "candidate_execution": false,
+  "change": [
+    "Add a pure identity projection that excludes exactly the per-source observed_at field.",
+    "Use it only for the task Root comparison and final current-source comparison.",
+    "Retain current raw rereads, native validation, full original timestamped Work material and all task, source identity, revision, digest, raw text, proposal and accepted-result bindings."
+  ],
+  "claims_not_made": [
+    "No exact original native failure code was retained.",
+    "No claim is made about the cause of old ORDINARY_V02.",
+    "No owner readiness, Stage05 closure or public publication."
+  ],
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_v01.diff",
+    "sha256": "b23882970606e88f080d9c53be93dd0275bbe08e98dccb2d70debf63e28d3dda",
+    "size_bytes": 2672
+  },
+  "originals_preserved": true,
+  "preimage": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/qualified_strategy_before_observation_identity_v01.py",
+    "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+    "size_bytes": 35551
+  },
+  "proposed_source": {
+    "path": "review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_v01.py",
+    "sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+    "size_bytes": 36122
+  },
+  "required_focused_observations": [
+    "A fresh, admitted controller uses the actual TaskStore.source_reader and succeeds across independently changing observed_at values with unchanged source bytes.",
+    "Actual TaskStore.register_source changes raw bytes and revision; the original live G3 binding and G4 caller refuse before further native dispatch."
+  ],
+  "schema": "radik.stage05.g4_source_identity_repair_proposal.v01",
+  "source_findings": [
+    {
+      "finding": "ApprovedSourceStore.read stamps each actual read with int(time.time()). The G4 caller compares the entire captured material against a fresh read, so observation-time drift can falsely report changed source material.",
+      "source_refs": [
+        {
+          "path": "review/stage05_qualified_experience_passage/v02/after/app/intake.py",
+          "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+          "size_bytes": 4307
+        },
+        {
+          "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_strategy.py",
+          "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+          "size_bytes": 35551
+        }
+      ],
+      "status": "ESTABLISHED_FROM_PINNED_SOURCE"
+    },
+    {
+      "finding": "The root_review adapter uses radik_current_validation_failed for a failed check; the immutable native Root accepts only its six POST_VV hard-failure codes. This proposal does not change the adapter or native contract.",
+      "source_refs": [
+        {
+          "path": "review/stage05_qualified_experience_passage/v02/after/app/native_authority.py",
+          "sha256": "396cb73d66212cb7c18f914243f857cdd273a8c01a9735fd8c3104be2af38027",
+          "size_bytes": 40593
+        },
+        {
+          "path": "source/reference/hedgehog/kernel/root_decision_v01.py",
+          "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+          "size_bytes": 43352
+        }
+      ],
+      "status": "SEPARATE_PARENT_OWNED_REPAIR"
+    }
+  ],
+  "status": "SOURCE_PROPOSAL_REQUIRES_INDEPENDENT_REVIEW"
+}

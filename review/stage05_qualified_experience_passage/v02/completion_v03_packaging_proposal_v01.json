@@ -1,0 +1,29 @@
+{
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "a6f29e5a9ae53807c842ff427938dd6f821ddafddfb3ccd62fc95c348d72741c",
+    "size_bytes": 13512
+  },
+  "application_changed": false,
+  "author": "/root/stage05_g3_contract",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_completion_v03_prefix_v01.py",
+    "sha256": "d4c54810351e70053a98b75456b51bb0f3110c0c4f45d510a0fde5108214255f",
+    "size_bytes": 13494
+  },
+  "change": "Add only exact COMPLETION_V03 owner-documents and nested v02 owner_terminal_runs prefixes to the already reviewed COMPLETION_V01/V02 set.",
+  "diff": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_proposal_v01.diff",
+    "sha256": "531a840e6eebcf821efb927e6053fb8a0f74be646c58f81e7cec244f9c55035d",
+    "size_bytes": 602
+  },
+  "reference_changed": false,
+  "schema": "radik.stage05.completion_v03_packaging_proposal_v01",
+  "scope": "No actual or subject exception is approved by this source-only prefix change; exact future selection and every file/hash/pointer/value hash still require independent review.",
+  "status": "SOURCE_PROPOSED_NOT_EXECUTED_NOT_SELF_ACCEPTED",
+  "unchanged_publisher": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  }
+}

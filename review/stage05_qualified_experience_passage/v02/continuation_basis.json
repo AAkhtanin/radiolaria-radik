@@ -1,0 +1,44 @@
+{
+  "accepted_previous_return": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261020T230457.944604Z.tar.gz",
+    "sha256": "208361ca9f204c5d7e6001eb57b1c2d70b2c65365be03939bdf0d31ba9546b52"
+  },
+  "accepted_scope": "Previously retained focused actuals only; SOURCE owner scenario readiness was not accepted.",
+  "completion_requirements": [
+    "S5-03 actual additional aged-history PURE Work and fresh Root",
+    "S5-04 actual TaskStore source revision change and stale consumer refusal",
+    "S5-06 separate admitted unrelated task consumer",
+    "Ordinary TaskStore/current-source reader through G3 binding and G4 continuation"
+  ],
+  "local_parent_commit": "7a146d12392e73a8ebf53e9b39af7f377bd386f7",
+  "old_admission_disposition": "DEFERRED_NOT_RUN_NOT_EDITED_NOT_RESET",
+  "old_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_admission.json",
+    "sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+    "size_bytes": 32654
+  },
+  "old_export_selection_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/export_selection_final.json",
+    "sha256": "12057b1b8d721d5b195cfc1edae0ce85a19f15701af4bc03632d75b8a8ba3305",
+    "size_bytes": 130858
+  },
+  "owner_actual_allowed": false,
+  "profile_path_rebase": [
+    "review/stage05_qualified_experience_passage/v02/after/app/ordinary_entry.py",
+    "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py",
+    "review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py",
+    "review/stage05_qualified_experience_passage/v02/after/review/transport/radik_owner_start.py",
+    "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "review/stage05_qualified_experience_passage/v02/activate_profile.py",
+    "review/stage05_qualified_experience_passage/v02/inputs/scenario.json"
+  ],
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_unchanged_required": true,
+  "required_observations_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/required_observations.json",
+    "sha256": "3f77230637a6ce05d2ba00607fb08faa67db83d457420ca2534dcef09a5c5858",
+    "size_bytes": 3963
+  },
+  "schema": "radik.stage05.source_completion_basis.v01"
+}

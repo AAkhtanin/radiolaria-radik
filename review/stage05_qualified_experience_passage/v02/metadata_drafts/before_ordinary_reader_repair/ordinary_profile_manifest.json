@@ -1,0 +1,858 @@
+{
+  "activation_order": "INSTALL_COMPATIBLE_READER_THEN_ACTIVATE_BEFORE_NEW_ROWS",
+  "auth_source_identity_sha256": "e50eab3e67a7a1889469590b25410463496a9b80f9893f11fa4d255cfd7b35a3",
+  "auth_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json",
+    "sha256": "4e31337ab3bb6b3c0591c9651338abca4cb1d816f4764bfdac8f0e148cd5269b",
+    "size_bytes": 10013
+  },
+  "before_install_pins": {
+    "app/__init__.py": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+    "app/budget.py": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+    "app/codex_transport.py": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6",
+    "app/console_continuation.py": "48f8fb2e8c31eb64a1f161b0ada6fbf4295d3f0165f0236108e2d3267ef9d626",
+    "app/contracts.py": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+    "app/controller.py": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a",
+    "app/document_integration.py": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075",
+    "app/document_temporal.py": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382",
+    "app/dynamic_control.py": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+    "app/dynamic_delta.py": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+    "app/dynamic_delta_graph.py": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+    "app/dynamic_delta_source.py": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+    "app/dynamic_delta_work.py": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+    "app/dynamic_native.py": "3c2ff3e8f1e2406cc0af3525d77fa5cffa63f53872ba7622fc78efd628052401",
+    "app/dynamic_roles.py": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+    "app/dynamic_semantics.py": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+    "app/dynamic_temporal.py": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+    "app/dynamic_work.py": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+    "app/evidence.py": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+    "app/informational_control.py": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+    "app/informational_core.py": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+    "app/informational_document.py": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+    "app/informational_material.py": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb",
+    "app/intake.py": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+    "app/memory.py": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+    "app/native_authority.py": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+    "app/native_document.py": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+    "app/native_report_observer.py": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321",
+    "app/normal_profile.py": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+    "app/normal_session.py": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+    "app/openai_plan_transport.py": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+    "app/ordinary_entry.py": "215ff03a7fc1798b5661eb077ac21e6fe0f8fbec65faba096d5101a7f1525a3c",
+    "app/ordinary_rehearsal.py": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+    "app/owner_scenario.py": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+    "app/plan_auth.py": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783",
+    "app/proposal.py": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+    "app/qualified_experience.py": null,
+    "app/qualified_experience_scenario.py": null,
+    "app/qualified_experience_work.py": null,
+    "app/qualified_strategy.py": null,
+    "app/runtime.py": "fccbbc9960435dc10baf1ecbec039e08e0730d04a581cdcc3e2af01168ada18f",
+    "app/save_quota.py": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+    "app/semantic_membrane.py": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+    "app/source_admission.py": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+    "app/source_successor.py": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+    "app/stage04_diagnostics.py": "b323276f9b91c34805a8386fa635abb95870d24bcfb689e1b153fb0ef01c6963",
+    "app/stage04_native_scenario.py": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83",
+    "app/stream_observation.py": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+    "app/task_budget.py": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+    "app/task_spec.py": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+    "app/task_store.py": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+    "config/application_profile_gate.py": "878f25d3ee307db6bc73fe1596fd3ae563169b09c908d6c9e3933535384a854c",
+    "config/launch.py": "1df09cec18dbd75d93f06b1cecdaeeb28e678a39f9af0eb7b1c66741662d797d",
+    "config/native_profile_loader.py": "b0dc201cea5ef143e59b692e35d5f70c1e77f7131246af6b3f28cbe26b97f7f0",
+    "review/transport/direct_plan_gate.py": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6",
+    "review/transport/radik_owner_start.py": "1df5148d6f9c6c8c5870f1baefd1b35d2dde696719516e8d19839a2c929410f4"
+  },
+  "historical_source_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/historical_source_inventory.json",
+    "sha256": "66418fcfc7961d47523f518d2be9e508838870036d2d00681b0a653d70ec2535",
+    "size_bytes": 109058
+  },
+  "install_files": {
+    "app/__init__.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76"
+    },
+    "app/budget.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c"
+    },
+    "app/codex_transport.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/codex_transport.py",
+      "sha256": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6"
+    },
+    "app/console_continuation.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/console_continuation.py",
+      "sha256": "48f8fb2e8c31eb64a1f161b0ada6fbf4295d3f0165f0236108e2d3267ef9d626"
+    },
+    "app/contracts.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b"
+    },
+    "app/controller.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/controller.py",
+      "sha256": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a"
+    },
+    "app/document_integration.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/document_integration.py",
+      "sha256": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075"
+    },
+    "app/document_temporal.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/document_temporal.py",
+      "sha256": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382"
+    },
+    "app/dynamic_control.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_control.py",
+      "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c"
+    },
+    "app/dynamic_delta.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_delta.py",
+      "sha256": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb"
+    },
+    "app/dynamic_delta_graph.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_delta_graph.py",
+      "sha256": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8"
+    },
+    "app/dynamic_delta_source.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_delta_source.py",
+      "sha256": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c"
+    },
+    "app/dynamic_delta_work.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_delta_work.py",
+      "sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0"
+    },
+    "app/dynamic_native.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9"
+    },
+    "app/dynamic_roles.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce"
+    },
+    "app/dynamic_semantics.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_semantics.py",
+      "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed"
+    },
+    "app/dynamic_temporal.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_temporal.py",
+      "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac"
+    },
+    "app/dynamic_work.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543"
+    },
+    "app/evidence.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/evidence.py",
+      "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410"
+    },
+    "app/informational_control.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/informational_control.py",
+      "sha256": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d"
+    },
+    "app/informational_core.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/informational_core.py",
+      "sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12"
+    },
+    "app/informational_document.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/informational_document.py",
+      "sha256": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0"
+    },
+    "app/informational_material.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/informational_material.py",
+      "sha256": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb"
+    },
+    "app/intake.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74"
+    },
+    "app/memory.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43"
+    },
+    "app/native_authority.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/native_authority.py",
+      "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96"
+    },
+    "app/native_document.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/native_document.py",
+      "sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6"
+    },
+    "app/native_report_observer.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/native_report_observer.py",
+      "sha256": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321"
+    },
+    "app/normal_profile.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09"
+    },
+    "app/normal_session.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606"
+    },
+    "app/openai_plan_transport.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2"
+    },
+    "app/ordinary_entry.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/ordinary_entry.py",
+      "sha256": "f5e758a3953cda907c69e285f381679e8dbe483f9a80de394bde0b28a9007b2a"
+    },
+    "app/ordinary_rehearsal.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/ordinary_rehearsal.py",
+      "sha256": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd"
+    },
+    "app/owner_scenario.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/owner_scenario.py",
+      "sha256": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80"
+    },
+    "app/plan_auth.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/plan_auth.py",
+      "sha256": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783"
+    },
+    "app/proposal.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/proposal.py",
+      "sha256": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f"
+    },
+    "app/qualified_experience.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py",
+      "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1"
+    },
+    "app/qualified_experience_scenario.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py",
+      "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007"
+    },
+    "app/qualified_experience_work.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_work.py",
+      "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e"
+    },
+    "app/qualified_strategy.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_strategy.py",
+      "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768"
+    },
+    "app/runtime.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912"
+    },
+    "app/save_quota.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/save_quota.py",
+      "sha256": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901"
+    },
+    "app/semantic_membrane.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/semantic_membrane.py",
+      "sha256": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99"
+    },
+    "app/source_admission.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/source_admission.py",
+      "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c"
+    },
+    "app/source_successor.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303"
+    },
+    "app/stage04_diagnostics.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py",
+      "sha256": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4"
+    },
+    "app/stage04_native_scenario.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_native_scenario.py",
+      "sha256": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83"
+    },
+    "app/stream_observation.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/stream_observation.py",
+      "sha256": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6"
+    },
+    "app/task_budget.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a"
+    },
+    "app/task_spec.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53"
+    },
+    "app/task_store.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce"
+    },
+    "config/application_profile_gate.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py",
+      "sha256": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff"
+    },
+    "config/launch.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/launch.py",
+      "sha256": "1df09cec18dbd75d93f06b1cecdaeeb28e678a39f9af0eb7b1c66741662d797d"
+    },
+    "config/native_profile_loader.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/native_profile_loader.py",
+      "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58"
+    },
+    "review/transport/direct_plan_gate.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/review/transport/direct_plan_gate.py",
+      "sha256": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6"
+    },
+    "review/transport/radik_owner_start.py": {
+      "path": "review/stage05_qualified_experience_passage/v02/after/review/transport/radik_owner_start.py",
+      "sha256": "a7f5e2d9b9626637ed962a7e35cdcefc9bd6286a07ec901e6dac6f597642b8c4"
+    }
+  },
+  "modes": {
+    "COLD": 3,
+    "INFORMATIONAL_DELTA": 3,
+    "MEMORY_ONLY": 0,
+    "NATIVE_CONTINUE": 0
+  },
+  "native_files": {
+    "demo/work_composition_mock_capabilities_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+      "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731"
+    },
+    "hedgehog/__init__.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "hedgehog/action_commit_packet_v02.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+      "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac"
+    },
+    "hedgehog/avf_v02.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+      "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616"
+    },
+    "hedgehog/capability_admission_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+      "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda"
+    },
+    "hedgehog/context_packets.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+      "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32"
+    },
+    "hedgehog/domains/__init__.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/__init__.py",
+      "sha256": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8"
+    },
+    "hedgehog/domains/supplier_water_filter/__init__.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/__init__.py",
+      "sha256": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0"
+    },
+    "hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+      "sha256": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6"
+    },
+    "hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+      "sha256": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc"
+    },
+    "hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+      "sha256": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe"
+    },
+    "hedgehog/drs.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+      "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4"
+    },
+    "hedgehog/drs_g2b_compatibility_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+      "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1"
+    },
+    "hedgehog/drs_memory_resolution_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8"
+    },
+    "hedgehog/drs_semantic_address_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+      "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20"
+    },
+    "hedgehog/evidence/__init__.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+      "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b"
+    },
+    "hedgehog/evidence/external_anchor_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+      "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994"
+    },
+    "hedgehog/evidence/sealed_evidence_profile_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+      "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37"
+    },
+    "hedgehog/evidence/sealed_package_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+      "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53"
+    },
+    "hedgehog/evidence/sealed_replay_evidence_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+      "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3"
+    },
+    "hedgehog/gate4_pressure_budget_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py",
+      "sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27"
+    },
+    "hedgehog/gate4_reference_contracts_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py",
+      "sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42"
+    },
+    "hedgehog/gt_validator.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+      "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd"
+    },
+    "hedgehog/informational_source_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+      "sha256": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f"
+    },
+    "hedgehog/kernel/__init__.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+      "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1"
+    },
+    "hedgehog/kernel/abi_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+      "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31"
+    },
+    "hedgehog/kernel/conformance_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+      "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f"
+    },
+    "hedgehog/kernel/continuous_delta_runtime_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138"
+    },
+    "hedgehog/kernel/diagnostic_telemetry_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8"
+    },
+    "hedgehog/kernel/effect_firewall_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+      "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd"
+    },
+    "hedgehog/kernel/execution_mode_router_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+      "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4"
+    },
+    "hedgehog/kernel/fractal_runtime_v02.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+      "sha256": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c"
+    },
+    "hedgehog/kernel/integrity_replay_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+      "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be"
+    },
+    "hedgehog/kernel/multiroot_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+      "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff"
+    },
+    "hedgehog/kernel/root_decision_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+      "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c"
+    },
+    "hedgehog/kernel/root_signer_isolation_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+      "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8"
+    },
+    "hedgehog/kernel/semantic_work_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+      "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1"
+    },
+    "hedgehog/kernel/transition_registry_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+      "sha256": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6"
+    },
+    "hedgehog/kernel/trust_model_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+      "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d"
+    },
+    "hedgehog/kernel/work_composition_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+    },
+    "hedgehog/local_drs_resolver.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+      "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4"
+    },
+    "hedgehog/local_drs_v02.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+      "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af"
+    },
+    "hedgehog/outcome_calibration_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py",
+      "sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079"
+    },
+    "hedgehog/outcome_feedback_consumer_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py",
+      "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938"
+    },
+    "hedgehog/outcome_feedback_history_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py",
+      "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6"
+    },
+    "hedgehog/outcome_feedback_v01.py": {
+      "path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py",
+      "sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13"
+    },
+    "hedgehog/post_vv.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+      "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3"
+    },
+    "hedgehog/reuse_certificate_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+      "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c"
+    },
+    "hedgehog/reuse_gate.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+      "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584"
+    },
+    "hedgehog/semantic_reasoning_adapter.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+      "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6"
+    },
+    "hedgehog/structured_rationale.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+      "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03"
+    },
+    "hedgehog/time_model.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+      "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba"
+    },
+    "hedgehog/wasm_pure_worker_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+      "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae"
+    },
+    "hedgehog/work_execution_host_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+    },
+    "schemas/attractor_packet.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+      "sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2"
+    },
+    "schemas/candidate_vector.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+      "sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd"
+    },
+    "schemas/capability_admission_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+      "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0"
+    },
+    "schemas/common.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+      "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880"
+    },
+    "schemas/continuous_delta_runtime_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+      "sha256": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4"
+    },
+    "schemas/drs_meaning_record_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+      "sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c"
+    },
+    "schemas/drs_memory_resolution_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+      "sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742"
+    },
+    "schemas/drs_record.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+      "sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29"
+    },
+    "schemas/drs_semantic_address_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+      "sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c"
+    },
+    "schemas/execution_mode_router_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+      "sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468"
+    },
+    "schemas/final_output.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+      "sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1"
+    },
+    "schemas/fractal_runtime_v02.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+      "sha256": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2"
+    },
+    "schemas/gate3_adversary_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+      "sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6"
+    },
+    "schemas/gate4_reference_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+      "sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d"
+    },
+    "schemas/gt_report.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+      "sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3"
+    },
+    "schemas/informational_source_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+      "sha256": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5"
+    },
+    "schemas/intent.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+      "sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9"
+    },
+    "schemas/kernel_artifact_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+      "sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7"
+    },
+    "schemas/marenna_record.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+      "sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909"
+    },
+    "schemas/needle.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+      "sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01"
+    },
+    "schemas/outcome_feedback_g34_predictive_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668"
+    },
+    "schemas/outcome_feedback_g35_sources_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b"
+    },
+    "schemas/outcome_feedback_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+      "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e"
+    },
+    "schemas/plan_graph.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+      "sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb"
+    },
+    "schemas/result_proposal.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+      "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382"
+    },
+    "schemas/reuse_certificate_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+      "sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e"
+    },
+    "schemas/semantic_work_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+      "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4"
+    },
+    "schemas/temporal_query.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+      "sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2"
+    },
+    "schemas/time_envelope.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+      "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424"
+    },
+    "schemas/up_record.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+      "sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df"
+    },
+    "schemas/vv_report.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+      "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854"
+    },
+    "schemas/work_composition_v01.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+      "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0"
+    },
+    "schemas/world_state.schema.json": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+      "sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e"
+    },
+    "tests/test_continuous_delta_runtime_g2_e_v01.py": {
+      "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+      "sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d"
+    }
+  },
+  "native_origin_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/NATIVE_OVERLAY_ORIGINS.json",
+    "sha256": "92d754d3fee8a81b78555943eda07a166664ec20e7a9c30c2ae90dca0fad4ee6",
+    "size_bytes": 51776
+  },
+  "pins": {
+    "app/__init__.py": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+    "app/budget.py": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+    "app/codex_transport.py": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6",
+    "app/console_continuation.py": "48f8fb2e8c31eb64a1f161b0ada6fbf4295d3f0165f0236108e2d3267ef9d626",
+    "app/contracts.py": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+    "app/controller.py": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a",
+    "app/document_integration.py": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075",
+    "app/document_temporal.py": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382",
+    "app/dynamic_control.py": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+    "app/dynamic_delta.py": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+    "app/dynamic_delta_graph.py": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+    "app/dynamic_delta_source.py": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+    "app/dynamic_delta_work.py": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+    "app/dynamic_native.py": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+    "app/dynamic_roles.py": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+    "app/dynamic_semantics.py": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+    "app/dynamic_temporal.py": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+    "app/dynamic_work.py": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+    "app/evidence.py": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+    "app/informational_control.py": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+    "app/informational_core.py": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+    "app/informational_document.py": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+    "app/informational_material.py": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb",
+    "app/intake.py": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+    "app/memory.py": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+    "app/native_authority.py": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+    "app/native_document.py": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+    "app/native_report_observer.py": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321",
+    "app/normal_profile.py": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+    "app/normal_session.py": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+    "app/openai_plan_transport.py": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+    "app/ordinary_entry.py": "f5e758a3953cda907c69e285f381679e8dbe483f9a80de394bde0b28a9007b2a",
+    "app/ordinary_rehearsal.py": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+    "app/owner_scenario.py": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+    "app/plan_auth.py": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783",
+    "app/proposal.py": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+    "app/qualified_experience.py": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+    "app/qualified_experience_scenario.py": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+    "app/qualified_experience_work.py": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+    "app/qualified_strategy.py": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+    "app/runtime.py": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+    "app/save_quota.py": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+    "app/semantic_membrane.py": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+    "app/source_admission.py": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+    "app/source_successor.py": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+    "app/stage04_diagnostics.py": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4",
+    "app/stage04_native_scenario.py": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83",
+    "app/stream_observation.py": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+    "app/task_budget.py": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+    "app/task_spec.py": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+    "app/task_store.py": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+    "config/application_profile_gate.py": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff",
+    "config/console_model_policy.json": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+    "config/launch.py": "1df09cec18dbd75d93f06b1cecdaeeb28e678a39f9af0eb7b1c66741662d797d",
+    "config/model_policy.json": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+    "config/native_profile_loader.py": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+    "config/normal_session_policy.json": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+    "config/requirements-plan-auth.txt": "ec54f0f0c92ca38c765d549cf18ff66290ab1c97126a2028657928c14b34af31",
+    "config/requirements-plan-base.txt": "ed980ab39e698253b5c38d488a81ec5d9a046d6d1ef5ae1896c9bd9eaf3d9e97",
+    "config/task_model_policy.json": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+    "review/dependencies/inventory.json": "e69324b7b44341fc001518bfaa96d9c0d7fe2e3228eb8c3730e9e336400fe557",
+    "review/direct_plan_passage/auth_dependency_metadata.json": "634e7675f6568e4763a3dea92ca1e14b69c1ca34002e072749acde644790f123",
+    "review/direct_plan_passage/bootstrap_identity.json": "e8a24d947ca3a1a4cc69784fd5864b725ebe6c31f94102a3a76eb208e2124eea",
+    "review/direct_plan_passage/protocol_references.json": "5a57122af814c5e37b60d0f3eb8fb2bb208847741d179b305f8ab07c483a7da6",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_consumers.py": "7fc4a4f0492edbc5e8cb0545f0f9170cb54cfa1eb7a7313742fa345312d065e4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v18_report_availability_repair/proof_reports.py": "277f2e8117b53447ef35c8cee4284eb26ca688a6f918b4366b5cea8524fc00d7",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v23_observable_e_early_checkpoint/consumer_types.json": "fe0967fa976283619fbcaf3f19d3fb52ad8286353f8c9db6d36c8883ac5c195c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/activate_profile.py": "45eeb6c19d5b27df665e0547fcc34ba9b9445e7c3ea1bb0e011daa7abd32231b",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/entry_runner.py": "91ba5b4f719519d66074a1b5f680c59259faaa4d682fbdde8c4197f9262f0df8",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal.py": "25b7ad48287fa0478b7115f3fe0dc8752c3e2c2eef46b1a7e475f0b6341a5cae",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/owner_terminal_v02.py": "6acc55d6987e6f3a3d58e707f28d2f940b71f4ed270fd31cbc8ecacbe40e8187",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/rehearsal_lifecycle.py": "bf48bc125d881da15be32841c01d8717bc1df2aa1b9ebf02c9ee8edee03f37e9",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/scenario_preparation.py": "02e19d553e124137085c9f34da859861fb62033551e2f299d3ecd34d27c684b2",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/supervisor_timing.py": "8eb7c5440ec4e6a261bcfd807bd0d800a4997b297d00f15ef6bdbe509a1c0a37",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/timer_preparation.py": "84a0bbc4c0cba614b8821dd4e405d48fdc620c97608914f239a4a59a591fea31",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/proof_reports.py": "c3fd6357365384e508c8031d47ad81ff65c62a107a6d4a097ac75bdda6ea86c2",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/activate_profile.py": "aedc50b554df3ede44c50c2b2380b67ecdce917e19724c84aa544a453c8b3094",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/inputs/closure_inputs_v02.json": "3a2fd29d66d60eec6b3af107fc3208369a9322a9bb159b9445d191aea524601b",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/owner_terminal.py": "74f6e95859ddea92a1cea10adb8d0bfd1fb00dc4061812dd8ff543404cc59c6a",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/post_controls.py": "344683e3cffb804dcb3637711e2b2fd5ed7bffd3ad9843d5969bdf4e3deede98",
+    "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/predecessor_install_state.json": "488b34bdaf7573cdce29def7fbe3007aaa2dd24e7a9f87409a839bf7577f1b40",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/__init__.py": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/__init__.py": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+    "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13",
+    "review/stage05_qualified_experience_passage/v02/activate_profile.py": "09747e9617772f3c91aafdf73463c114ea396e5a6b7a092345a853488909eda2",
+    "review/stage05_qualified_experience_passage/v02/inputs/scenario.json": "a831194f56aa09968dfe9ae29bf42a1571af27599e2f98ac86fa9edf8aacbc97",
+    "review/stage05_qualified_experience_passage/v02/owner_terminal.py": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json": "1c4a060559f6f2a7a96094253701d2a94ab02e3848cce2828ef4a88fa89c6827",
+    "review/stage05_qualified_experience_passage/v02/supervisor_timing.py": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+    "review/transport/direct_plan_gate.py": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6",
+    "review/transport/model_scope.py": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+    "review/transport/owner_failure_report.py": "049680da7271b0db473a634300535914946bfd8e263f9525ba7ffddc3aa3736c",
+    "review/transport/plan_dependencies.py": "740eda10b97c2e080e5b967c623bba54e3e6b8770aba9b559175aedf2ead3caa",
+    "review/transport/radik_owner_start.py": "a7f5e2d9b9626637ed962a7e35cdcefc9bd6286a07ec901e6dac6f597642b8c4"
+  },
+  "profile_id": "stage04_dynamic_informational_delta_v28",
+  "schema": "radik.application_profile.v02",
+  "source_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/profile_source_admission.json",
+    "sha256": "6357af63cdc5382bda7a85399b330f632375fb31d9854b4f3e6dc7a5f682263e",
+    "size_bytes": 578
+  },
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "9c77d5cb650de1e4254416adf7c7bcbf091661054fc9fabd8e9e58dcc0bf44b2",
+    "size_bytes": 111358
+  },
+  "task_state_path": "workspace/owner_documents/state/dynamic_tasks.json"
+}

@@ -1,0 +1,92 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/taskstore_seam_fixture_before_typed_transport_v04.py
++++ review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py
+@@ -27,11 +27,10 @@
+ REAL = Path('/Users/admin/Projects/RadiolariaRadik')
+ BASE = 'review/stage05_qualified_experience_passage/v02'
+ SELF = BASE + '/taskstore_seam_fixture.py'
+-ACTUAL = 'TASKSTORE_SEAM_V01'
++ACTUAL = 'TASKSTORE_SEAM_V02'
+ COPY = REAL / BASE / 'rehearsal_actual' / ACTUAL
+ WORK = REAL / BASE / 'offline_actual' / ACTUAL / 'work'
+ ROOT = COPY / 'ordinary/source_under_test'
+-LEGACY = 'review/stage04_dynamic_passage'
+ MAX_SECONDS = 900
+ WORK_SECONDS = 865
+ CLEANUP_SECONDS = 30
+@@ -221,10 +220,7 @@
+ 
+ def run_current(root, manifest, grant, runner, lock_fd, result, checkpoint):
+     pins = dict(manifest['pins'])
+-    for reference in grant['helper_refs']:
+-        raw = runner.verify(root, reference)
+-        require(reference['path'] not in pins or pins[reference['path']] == sha(raw), 'seam_helper_collision')
+-        pins[reference['path']] = sha(raw)
++    require(grant['helper_refs'] == [], 'seam_current_typed_producer_only')
+     loaded = result['loaded_modules']
+     finder = PinnedFinder(root, pins, loaded)
+     sys.meta_path.insert(0, finder)
+@@ -232,15 +228,13 @@
+     sys.dont_write_bytecode = True
+     from config import native_profile_loader
+     native_profile_loader.install(root)
+-    from app import budget, contracts, plan_auth, openai_plan_transport as transport
++    from config.application_profile_gate import rehearsal_context
++    from app import budget, contracts, openai_plan_transport as transport, ordinary_rehearsal
+     from app import dynamic_native, task_spec, task_store, normal_session, qualified_strategy
+     from app import native_authority as authority, stage04_diagnostics as diagnostics
+     from app import qualified_experience_scenario as scenario
+     from app.runtime import _information_policy_reader
+ 
+-    helpers = {item['path']: item for item in grant['helper_refs']}
+-    wire = load(root, helpers[LEGACY + '/dynamic_wire.py'], 'stage05_seam_reviewed_wire')
+-    producer = load(root, helpers[LEGACY + '/native_cases.py'], 'stage05_seam_reviewed_producer')
+     operation_id, run_id = str(uuid.uuid4()), uuid.uuid4().hex[:12]
+     operation_ref = normal_session.open_operation(root, owner_lock_fd=lock_fd,
+         owner_operation_id=operation_id, run_id=run_id,
+@@ -258,13 +252,6 @@
+         initial_ledger = counter.snapshot()
+         require(len(initial_ledger['attempts']) == grant['starting_counted_attempts'] == 44
+                 and initial_ledger['active_attempt_id'] is None, 'seam_starting_ledger')
+-        client, client_root = wire.create_wire_client(WORK, 'taskstore_seam', transport=transport,
+-            controller=None, contracts=contracts, budget_module=budget, auth_module=plan_auth,
+-            policy_bytes=runner.read(root, 'config/model_policy.json'),
+-            product_factory=producer.product_factory(route='short', optional_exceptions=False),
+-            project_override=root, console_budget=counter)
+-        require(client_root == root, 'seam_client_root')
+-
+         def source_validator():
+             check_deadline()
+             for relative, expected in pins.items():
+@@ -273,10 +260,29 @@
+                 source_pins_sha256=contracts.digest(pins), source_review_sha256=grant['source_review_ref']['sha256'],
+                 synthetic_catalog=True, synthetic_grant=True, live_authority=False)
+ 
+-        # The fixture identity does not stand in for independent source admission.
+-        # Every synthetic request separately rechecks the exact admitted closure.
+-        client.source_validator = source_validator
++        context = rehearsal_context(root, grant['cases'][0]['rehearsal_seal_ref']['sha256'])
++        auth = ordinary_rehearsal.make_auth(root, context)
++
++        def admission_validator(*, preflight_receipt, role):
++            require(role in ('orchestrator', 'architect', 'critic'), 'seam_typed_role_scope')
++            ordinary_rehearsal.validate_fixture_catalog(root, context, preflight_receipt)
++            return True
++
++        # Use the current typed inert route through the unmodified transport's
++        # _connection and _send checks. No connection or owner gate is replaced.
++        client = transport.OpenAIPlanTransport(project=root, auth=auth, budget=counter,
++            observation_directory='review/finalized_observations', source_validator=source_validator,
++            admission_validator=admission_validator)
++        client.budget_scope = 'console'
+         client._ordinary_profile_manifest = manifest
++        require(type(auth) is ordinary_rehearsal.RehearsalAuth
++            and client._catalog is None and client._grant is None, 'seam_typed_transport_origin')
++        checkpoint('typed_transport_binding', dict(auth_type='app.ordinary_rehearsal.RehearsalAuth',
++            context_sha256=context.seal_sha256,
++            transport_type='app.openai_plan_transport.OpenAIPlanTransport',
++            synthetic_http_producer='app.ordinary_rehearsal',
++            catalog_initially_empty=True, current_transport_dispatch_unchanged=True,
++            real_AUTH_provider_calls=0, real_authority=False))
+         store = task_store.TaskStore(root / 'workspace/owner_documents', require_existing=True)
+         initial_tasks = json.loads(canonical(store.state))
+         require(len(initial_tasks['tasks']) == 11, 'seam_starting_tasks')

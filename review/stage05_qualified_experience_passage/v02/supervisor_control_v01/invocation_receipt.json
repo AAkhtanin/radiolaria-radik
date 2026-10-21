@@ -1,0 +1,10 @@
+{
+  "schema": "radik.stage05.tool_invocation_receipt.v01",
+  "case": "SUPERVISOR_FAULT_V01",
+  "exit_code": 0,
+  "output": "REMAINDER_OUTER_RETURN {\"child_exit_code\": -9, \"child_reaped\": true, \"primary_stop\": \"OUTER_WORK_DEADLINE\", \"receipt_ref\": {\"path\": \"review/stage05_qualified_experience_passage/v02/offline_actual/SUPERVISOR_FAULT_V01/supervisor/receipt.json\", \"sha256\": \"b3925ac80fdafaaca00d0ccaf68a6171870268e82905f3f87241c9d6fabbdbe6\", \"size_bytes\": 1341}, \"status\": \"STOPPED_NO_RETRY\"}\nSUPERVISOR_FAULT_CONTROL_PASS 0b1c0ff0684138dd55e19222b65d0b3abea545682cfde9743ac78ee1beb10345\n",
+  "tool_wait_seconds": 17.016656667,
+  "command": ".venv-plan/bin/python -I -B review/stage05_qualified_experience_passage/v02/supervisor_control_v01/run_control.py --grant review/stage05_qualified_experience_passage/v02/supervisor_control_v01/taskstore_remainder_grant.json --sha256 e32303a8e16b2f2f3fc080c1c1240b0f19d006edd9e105281cd8eb57176294a1",
+  "observation": "Final tool return only.",
+  "retry": "No automatic retry."
+}

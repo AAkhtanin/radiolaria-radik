@@ -1,0 +1,56 @@
+{
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+    "size_bytes": 17415
+  },
+  "all_other_AST_identical": true,
+  "application_execution_allowed": false,
+  "automatic_retry_allowed": false,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/rehearsal_runner_before_read_stability_v01.py",
+    "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+    "size_bytes": 17217
+  },
+  "candidate_execution_performed": false,
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_repair_proposal_v01.diff",
+    "sha256": "f737118da8885a3d2dffaf74aba723ff04c56e207143ff1afc0c4e379c43a60f",
+    "size_bytes": 763
+  },
+  "excluded_metadata": "Access time only; reads can legitimately update it.",
+  "findings": [],
+  "only_changed_function": "read",
+  "original_failure_changed_field": "UNKNOWN_NOT_RETAINED",
+  "owner_execution_allowed": false,
+  "preserved_guards": [
+    "O_NOFOLLOW and O_NONBLOCK",
+    "regular single-link bounded file",
+    "exact read length",
+    "SHA256 in verify",
+    "raw byte equality in put readback",
+    "before and after absolute deadline checks"
+  ],
+  "previous_eight_supervisor_controls_reused": true,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_repair_proposal_v01.json",
+    "sha256": "616a2c7669ca8cc2c13c13298c9359c4f7688f79a73974e1842b364f066476d4",
+    "size_bytes": 2000
+  },
+  "required_targeted_control": "AST-only read/verify/put helpers with synthetic access-time and integrity mutations; no app/native import or child.",
+  "reviewed_at_utc": "2026-10-21T05:34:29.443060+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.narrow_source_delta_review.v01",
+  "stable_fields": [
+    "st_dev",
+    "st_ino",
+    "st_mode",
+    "st_nlink",
+    "st_uid",
+    "st_gid",
+    "st_size",
+    "st_mtime_ns",
+    "st_ctime_ns"
+  ],
+  "status": "SOURCE_ACCEPTED_PENDING_SEPARATE_TARGETED_CONTROL"
+}

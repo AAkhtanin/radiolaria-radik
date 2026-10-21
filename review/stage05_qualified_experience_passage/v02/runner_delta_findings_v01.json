@@ -1,0 +1,50 @@
+{
+  "accepted_delta_parts": [
+    "The monotonic epoch precedes preparation imports; copied child inherits that same epoch and UTC.",
+    "The intended 865 work + 30 cleanup + 5 final readback partition stays within 900 seconds.",
+    "Grant fields bind all four timing numbers and the new v02 runner identity.",
+    "Six total role calls are explicitly shown by the new owner input check and banner; native and effect budgets remain unchanged."
+  ],
+  "candidate_execution_performed": false,
+  "execution_granted": false,
+  "findings": [
+    {
+      "id": "R1",
+      "location": "rehearsal_runner.py:check_deadline, copy_case, prepare_installation, supervise call",
+      "problem": "Cooperative checks cannot interrupt a blocking preparation/import/readback call after the work cutoff. The interrupted callback only runs within supervise after control returns to its event loop.",
+      "required": "A reviewed nonrenewing deadline interrupt must cover preparation and active supervision, preserving the same cleanup owner and stop instant. An outer worker design must explicitly prevent orphaning its application child."
+    },
+    {
+      "id": "R2",
+      "location": "rehearsal_runner.py:main finalization",
+      "problem": "A success return is chosen before final guard and result persistence. Those failures are attached without changing PASS/exit status, and completed_within_absolute_envelope is recorded before final put/fsync/readback.",
+      "required": "Resolve exit status after bounded finalization. A final guard, persistence or deadline failure must not remain PASS. Preserve any original primary and record later failure as secondary; final completion timing must include final bounded work."
+    }
+  ],
+  "focused_control_proposal": [
+    "Using an independently reviewed inert child or fake clock, cross the work deadline during copy/install and verify one primary stop and no child launch afterward.",
+    "Cross the work deadline with an active exact child, exercise a secondary exception, and prove cleanup stop instant and signal ledger are not renewed.",
+    "Inject final guard and result-write failures after apparent work success and assert nonzero STOPPED with truthful final receipt fields.",
+    "Verify an existing primary failure survives each of the same secondary failures.",
+    "Check the final hard deadline without rerunning application/native evidence; these tests grant no application semantics."
+  ],
+  "owner_terminal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "size_bytes": 64728
+  },
+  "reviewed_at_utc": "2026-10-21T05:12:14.296806+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "a630f94c8e49d1396afb4bea1ce0cbacf1b40268ef19d106c7ec8e39cf45a699",
+    "size_bytes": 17168
+  },
+  "schema": "radik.stage05.offline_runner_delta_findings.v01",
+  "status": "TARGETED_REPAIR_REQUIRED_BEFORE_EXECUTION",
+  "timing_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+    "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+    "size_bytes": 16725
+  }
+}

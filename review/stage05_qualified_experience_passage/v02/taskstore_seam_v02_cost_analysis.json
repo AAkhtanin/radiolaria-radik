@@ -1,0 +1,124 @@
+{
+  "accepted_scope": "Independent acceptance is owned by the separate partial actual review, not this author analysis.",
+  "author": "/root/stage05_g3_contract",
+  "candidate_execution": false,
+  "closure_defect": "The old child canceled its only work alarm before raising TimeoutError; transport caught Exception and mapped it to plan_dispatch_or_stream_uncertain. Cleanup could begin only later. The final result and normal close were not persisted.",
+  "consequence": "Retain completed consumers. Use one fresh unrelated three-role task and current no-history consumer plus own source revision refusal, under an independent parent deadline; do not repeat completed G4 or aged consumers.",
+  "invocation_receipt": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_invocation_receipt.json",
+    "sha256": "f94416bbf360cfeb18038b31cb4a32cc3e157aa11af51b2f529beca84e6d5a89",
+    "size_bytes": 23799
+  },
+  "latest_partial_result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/partial_result_bbd11c77d901da1cbecabb6bcab69b5af19bb45ac4d730429085ff4e2d4d3498.json",
+    "sha256": "bbd11c77d901da1cbecabb6bcab69b5af19bb45ac4d730429085ff4e2d4d3498",
+    "size_bytes": 5972
+  },
+  "measured_attribution_limit": "No per-function profiler or read-count trace was retained. The source proves repeated reachability; it does not establish a measured percentage of time spent in any function.",
+  "native_phase_measurements": [
+    {
+      "elapsed_wall_ns": 103045930167,
+      "phase": "cold_decision"
+    },
+    {
+      "elapsed_wall_ns": 13271177666,
+      "phase": "prospective_feedback"
+    },
+    {
+      "elapsed_wall_ns": 104619921792,
+      "phase": "subsequent_work"
+    },
+    {
+      "elapsed_wall_ns": 840875,
+      "phase": "unscorable_control"
+    },
+    {
+      "elapsed_wall_ns": 19303239833,
+      "phase": "eligibility_controls"
+    },
+    {
+      "elapsed_wall_ns": 39391686458,
+      "phase": "aged_current_check"
+    }
+  ],
+  "observed_progress": "The first task completed all three synthetic roles. Both G3/G4 passes, feedback, eligibility and the actual aged check persisted. The fourth synthetic role belongs to the second unrelated task.",
+  "old_document_valid_to": 1792564559,
+  "old_memory_reuse": "REFUSED_ORIGINAL_VALIDITY_EXPIRED",
+  "role_results": [
+    {
+      "reference": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_3900f3d4e28540b3849eb23adedaa780.json",
+        "sha256": "078074730991af5aa45b3daa37fd339ba7ca2a4b2674319462471d05f421917e",
+        "size_bytes": 15520
+      },
+      "role": "orchestrator",
+      "status": null,
+      "wall_seconds": 53.63904654234648
+    },
+    {
+      "reference": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_57f4994881f14eb0a37d0aa8daf3cd93.json",
+        "sha256": "22f5ed39c88e1c02696000cd4be02dc84c692dcb5861d7cb9720139a0132fae6",
+        "size_bytes": 22339
+      },
+      "role": "architect",
+      "status": null,
+      "wall_seconds": 54.524565500207245
+    },
+    {
+      "reference": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_ab3f34495b5c4364ae3d714b57a27006.json",
+        "sha256": "96837dd5ea34ee1498a918e30b5932e7481578d7d7fdbe07c40760c8da50862a",
+        "size_bytes": 25538
+      },
+      "role": "critic",
+      "status": null,
+      "wall_seconds": 92.55301612522453
+    },
+    {
+      "reference": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_04a08a4a064d4184bdfd2d8668b70d8e.json",
+        "sha256": "d75c7b0e9bb5534453f59e6837b46b3f0b305483445d35a5e6f0511d65c86f65",
+        "size_bytes": 13458
+      },
+      "role": "orchestrator",
+      "status": null,
+      "wall_seconds": 50.4582020835951
+    }
+  ],
+  "schema": "radik.stage05.taskstore_validation_cost_source_analysis.v01",
+  "scope": "CLOSED_TASKSTORE_SEAM_V02_STATIC_CALL_CHAIN_AND_RETAINED_MEASUREMENTS",
+  "source_chain": [
+    {
+      "effect": "Any operation_round history calls console_continuation.validate_allowance_history.",
+      "entry": "source_reader.read -> _validate(current)",
+      "path": "app/task_store.py"
+    },
+    {
+      "effect": "Revalidates authorities, normal_session.validate_history, and historical rounds.",
+      "entry": "validate_allowance_history",
+      "path": "app/console_continuation.py"
+    },
+    {
+      "effect": "Repeated operation validation enters normal_profile; reconcile_index also validates retained operations.",
+      "entry": "validate_history -> validate_round and separate validate_operation per normal ROUND_STARTED",
+      "path": "app/normal_session.py"
+    },
+    {
+      "effect": "Calls config.application_profile_gate.load_profile.",
+      "entry": "validate_operation -> profile",
+      "path": "app/normal_profile.py"
+    },
+    {
+      "effect": "Re-reads and hashes the 405-entry historical source inventory. Other select calls also verify 180 current runtime pins.",
+      "entry": "load_profile",
+      "path": "config/application_profile_gate.py"
+    },
+    {
+      "effect": "Current TaskStore reader is re-entered at several request, transport and emission boundaries. Genuine typed transport emission is required; bypassing its registry would not be an admissible repair.",
+      "entry": "DynamicRoleRun.current / validate_request / emit / consume",
+      "path": "app/dynamic_roles.py"
+    }
+  ],
+  "source_change_authorized_here": false
+}

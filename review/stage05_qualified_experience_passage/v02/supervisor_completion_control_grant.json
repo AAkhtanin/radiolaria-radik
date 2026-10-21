@@ -1,0 +1,32 @@
+{
+  "actual_id": "CONTROLS_V01",
+  "application_native_model_AUTH_E_SAVE_execution_allowed": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "invocation_template": ".venv-plan/bin/python -I -S -B review/stage05_qualified_experience_passage/v02/supervisor_completion_controls.py --grant-sha256 <this-grant-sha256>",
+  "network": "DENIED",
+  "production_writes_allowed": false,
+  "real_alarms_or_processes_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.supervisor_completion_control_grant.v01",
+  "scope": "Exactly one execution of the fixed synthetic AST control helper; no ordinary or owner execution.",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls.py",
+      "sha256": "938715ddda967c9c0b3d24dce7353dffc2f20f7f04966f20e0f486a03088337c",
+      "size_bytes": 9351
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+      "size_bytes": 17217
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_control_source_review.json",
+    "sha256": "c79c9d14cb1404a0500a58a908be9ab13d415be61b8acc640c76da987db3947b",
+    "size_bytes": 3416
+  },
+  "status": "ACCEPTED_ONE_SYNTHETIC_SUPERVISOR_CONTROL"
+}

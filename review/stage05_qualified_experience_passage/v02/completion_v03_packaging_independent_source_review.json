@@ -1,0 +1,45 @@
+{
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "a6f29e5a9ae53807c842ff427938dd6f821ddafddfb3ccd62fc95c348d72741c",
+    "size_bytes": 13512
+  },
+  "all_other_AST_identical": true,
+  "application_execution_allowed": false,
+  "automatic_retry_allowed": false,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_completion_v03_prefix_v01.py",
+    "sha256": "d4c54810351e70053a98b75456b51bb0f3110c0c4f45d510a0fde5108214255f",
+    "size_bytes": 13494
+  },
+  "candidate_execution_performed": false,
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_proposal_v01.diff",
+    "sha256": "531a840e6eebcf821efb927e6053fb8a0f74be646c58f81e7cec244f9c55035d",
+    "size_bytes": 602
+  },
+  "exact_subject_exceptions_accepted": false,
+  "findings": [],
+  "new_prefix_scope": "Only exact COMPLETION_V03 owner-documents and nested v02 owner_terminal_runs. Existing path/hash/pointer/value and subject-shape checks are unchanged.",
+  "only_changed_function": "_subject_exceptions",
+  "owner_execution_allowed": false,
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_adapter_independent_source_review.json",
+    "sha256": "0c08e83056b6a5b2b97ef53ff03db620b531e3ae0874bf564d98cc9a899b963e",
+    "size_bytes": 2053
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_proposal_v01.json",
+    "sha256": "01174d847660e72c6eb457d11e6a0abd9a88e4bd739c58bb2ccab4e1e57f6650",
+    "size_bytes": 1449
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewed_at_utc": "2026-10-21T05:34:29.453112+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.narrow_source_delta_review.v01",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_SELECTION_AND_ONE_USE_GRANT"
+}

@@ -1,0 +1,51 @@
+{
+  "changed_logical_pin": {
+    "after": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+    "before": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py"
+  },
+  "created_at_utc": "2026-10-21T07:10:09.548832+00:00",
+  "no_candidate_execution": true,
+  "owner_actual": "NOT_RUN",
+  "owner_execution_allowed": false,
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/preservation.json",
+    "sha256": "20b860ed2a17432cf223e48efc35294768ea0e0ff8489491c80e778e24e2775c",
+    "size_bytes": 2248
+  },
+  "refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json",
+      "sha256": "944a33e5a9c8008a4f339de26016fb7fa8675c483d3927d28cdb4b5b15fac395",
+      "size_bytes": 128318
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+      "sha256": "4c11e25223639abbb43a075ae10ec6bf14c90a83540836a4cf11c87a844b383f",
+      "size_bytes": 114164
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json",
+      "sha256": "933ec74e06a3721e02faffa5bacda7b87eb166e443ca4fe2b45cb25dea8119e6",
+      "size_bytes": 10526
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/profile_source_admission.json",
+      "sha256": "aeda8d3795783a0e0c879cdbac61aa643f6d0253463d5ae304607267f8635aba",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+      "sha256": "10525056aed308d448525453a033316ba190edf604c214f5a9946cd5ce4f1ad9",
+      "size_bytes": 74128
+    }
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "runtime_source_identity_sha256": "cdbffe7cce64273054563bef2e7cade9d8d45b0fc7fdce453193900701ab67c4",
+  "schema": "radik.stage05.final_owner_timing_metadata_refresh.v01",
+  "status": "EXACT_ONE_LOGICAL_TIMING_PIN_AND_LINKS_REFRESHED_SOURCE_ONLY",
+  "unchanged_auth_pin_count": 27,
+  "unchanged_install_alias_count": 56,
+  "unchanged_logical_pin_count": 179,
+  "unchanged_native_map_count": 88
+}

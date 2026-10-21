@@ -1,0 +1,229 @@
+{
+  "G4_final_work_witness_accepted": false,
+  "SAVE_calls": 0,
+  "Stage05_acceptance": false,
+  "actual_final_guard_unchanged": true,
+  "actual_id": "COMPLETION_V03",
+  "all_parent_readback_hashes_verified": true,
+  "all_required_controls_passed": false,
+  "application_entered": true,
+  "automatic_retry_allowed": false,
+  "case_result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/case_result.json",
+    "sha256": "f72cf651dff949c9dc910e3174d59de463e3e1bc6437092df92dbf699abbf3ed",
+    "size_bytes": 2382
+  },
+  "child_exit_code": 2,
+  "child_reaped": true,
+  "cleanup_signal_count": 1,
+  "cold_G3_actual_pure_witnesses": [
+    {
+      "callback_source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "execution_attempt_id": "pure_attempt:c4acfa3d53d0cc6735a988c060d6abff441ef35171546abb284d34eba4f4b3bb",
+      "invocation_id": "capability_invocation:59ec46e1f58aa04647273c42c51493ac2ab6fb9dd8e4c7a4a1216105c1f23def",
+      "kind": "mandatory_check",
+      "result_id": "capability_result:ecab55cce85f9e5317418cd4bf56d382f9800086589f04cdee4ae3b7d2377594",
+      "status": "COMPLETED"
+    },
+    {
+      "callback_source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "execution_attempt_id": "pure_attempt:24659bf4581bde52afeb1b705d12f8ab8d8c0307d8c9a4cf7bce327eaf4a6042",
+      "invocation_id": "capability_invocation:653f92b14c86c46421c75fa6bfb0650c26c98d5ba21eefdf3f1a661265a72755",
+      "kind": "work",
+      "result_id": "capability_result:032755f1303e003c3eca35c07883d1ec6a79c93edf63156170d2aec1866ef4a1",
+      "status": "COMPLETED"
+    }
+  ],
+  "cold_G3_consumer_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711.json",
+    "sha256": "592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711",
+    "size_bytes": 144212
+  },
+  "cold_G3_current_root": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+  "cold_G3_prior_fp": 0,
+  "cold_G3_selected_operation": "radik.experience.source_verification.v01",
+  "cold_G3_source_scope": [
+    {
+      "revision": 1,
+      "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+      "source_ref": "radik:source:eba7469e2b5556a085ec5a9dd0c21cad"
+    }
+  ],
+  "cold_decision_phase_seconds": 59.63038025,
+  "current_guard_hashes_verified_except_documented_post_closure_source_repairs": true,
+  "diagnostic_source_frames_verified": true,
+  "failure_order": "Native G4_TASK_ROOT ValueError first; supervisor interrupt and ordinary KeyboardInterrupt secondary. No timeout caused the primary failure.",
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_grant_completion_v03.json",
+    "sha256": "b254bcb4286888effce8b3cc774749bf1100006a9c14a52d2aa7addeaee9b909",
+    "size_bytes": 635776
+  },
+  "inert_role_attempts": 3,
+  "invocation_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v03_invocation_receipt.json",
+    "sha256": "8f2b420f26a2ebfaa8b685325771f9d5d6b1c5f4c107cb204c7c087114ccd48f",
+    "size_bytes": 7339
+  },
+  "lock_explicit_unlock_permitted": true,
+  "native_E_calls": 0,
+  "new_aged_extra_work_observed": false,
+  "new_source_revision_refusal_observed": false,
+  "new_unrelated_task_consumer_observed": false,
+  "ordinary_accepted_checkpoint_seconds": 348.936,
+  "ordinary_accepted_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/stage05/1025a1313a6d/ordinary_accepted_result_9a8778160c87c4caed8b915d2b578db61a9a6cdafce571424dae37dd903b4b96.json",
+    "sha256": "9a8778160c87c4caed8b915d2b578db61a9a6cdafce571424dae37dd903b4b96",
+    "size_bytes": 36461
+  },
+  "ordinary_reader_and_task_accepted": true,
+  "original_evidence_preserved": true,
+  "original_exception_code": "UNKNOWN_NOT_RETAINED",
+  "outer_wrapper_failure": {
+    "code": "exam_ordinary_failed",
+    "error_class": "ValueError",
+    "source_frames": [
+      {
+        "function": "main",
+        "line": 349,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "case_run",
+        "line": 278,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "require",
+        "line": 42,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      }
+    ]
+  },
+  "owner_execution_authorized": false,
+  "owner_terminal_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/ordinary/receipt.json",
+    "sha256": "a55fdcae334157cea715adda09be50c1305da81433c5d23fc818ca21d8f7621a",
+    "size_bytes": 7116
+  },
+  "post_closure_source_repairs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/native_authority.py",
+      "post_closure_repair_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/native_authority.py",
+        "sha256": "396cb73d66212cb7c18f914243f857cdd273a8c01a9735fd8c3104be2af38027",
+        "size_bytes": 40593
+      },
+      "preimage_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/native_authority_before_root_input_repair_v01.py",
+        "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+        "size_bytes": 40597
+      }
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_strategy.py",
+      "post_closure_repair_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_strategy.py",
+        "sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+        "size_bytes": 36122
+      },
+      "preimage_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/qualified_strategy_before_observation_identity_v01.py",
+        "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+        "size_bytes": 35551
+      }
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py",
+      "post_closure_repair_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py",
+        "sha256": "44b6357bb5276ce6e1545de7b1a6e90035919bd762040162b22d617822d6cf45",
+        "size_bytes": 127289
+      },
+      "preimage_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/stage04_diagnostics_before_root_input_repair_v01.py",
+        "sha256": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4",
+        "size_bytes": 126799
+      }
+    }
+  ],
+  "primary_failure": {
+    "code": "SANITIZED_OPERATION_FAILURE",
+    "error_class": "ValueError",
+    "phase": "STAGE05_EXPERIENCE"
+  },
+  "primary_source_context": {
+    "event_sequence": 33,
+    "locals_recorded": false,
+    "native_stage": "G4_TASK_ROOT",
+    "omitted_frames": 0,
+    "raw_error_recorded": false,
+    "readback_ref": {
+      "path": "workspace/owner_documents/review/stage05/1025a1313a6d/stopped_result_38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2.json",
+      "sha256": "38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2",
+      "size_bytes": 2898
+    },
+    "reference_readback_verified": true,
+    "scenario_stage": "COLD_DECISION",
+    "schema": "radik.stage05.failure_context.v01",
+    "source_frames": [
+      {
+        "function": "run",
+        "line": 179,
+        "path": "app/qualified_experience_scenario.py",
+        "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007"
+      },
+      {
+        "function": "run",
+        "line": 473,
+        "path": "app/qualified_strategy.py",
+        "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768"
+      },
+      {
+        "function": "root_review",
+        "line": 104,
+        "path": "app/native_authority.py",
+        "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96"
+      },
+      {
+        "function": "build_root_decision_input_v01",
+        "line": 250,
+        "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+        "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c"
+      }
+    ],
+    "traceback_truncated": false,
+    "unadmitted_frames": 0
+  },
+  "production_guard_count": 454,
+  "real_provider_calls": 0,
+  "required_next_evidence": "Separately reviewed short fresh ordinary-reader/native consumer fixture after the three exact candidate repairs; preserve this ordinary-prefix and cold-G3 evidence without replaying its expensive prefix.",
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/result.json",
+    "sha256": "40c4037eabf2278deac8c0d2dfac4ba19e1627eecc5a922792109792f4a1a314",
+    "size_bytes": 813
+  },
+  "reviewed_at_utc": "2026-10-21T05:50:20.199082+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.ordinary_result_independent_review.v02",
+  "secondary_failures": [
+    {
+      "code": "ordinary_entry_failure",
+      "error_class": "KeyboardInterrupt",
+      "phase": "ORDINARY_SCENARIO"
+    }
+  ],
+  "source_findings": [
+    "Real intake rows carry a new observed_at timestamp on each raw read. G4 compared full captured rows against later rows, incorrectly treating that metadata as source-content identity.",
+    "The negative root_review adapter supplied a hard-failure literal outside the immutable native allowed set.",
+    "Twelve closed native Root input constructor reasons were absent from diagnostics, so exact original reason was sanitized."
+  ],
+  "source_findings_do_not_identify_original_operands_or_exact_exception": true,
+  "stage05_stop_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/stage05/1025a1313a6d/stopped_result_38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2.json",
+    "sha256": "38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2",
+    "size_bytes": 2898
+  },
+  "status": "STOPPED_AFTER_ORDINARY_ACCEPTANCE_AND_COLD_G3_BEFORE_G4_TASK_ROOT_ACCEPTANCE",
+  "whole_offline_seconds": 414.130763542,
+  "within_900_total_seconds": true
+}

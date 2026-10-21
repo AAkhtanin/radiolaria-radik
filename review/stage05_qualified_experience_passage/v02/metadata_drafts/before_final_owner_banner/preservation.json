@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/profile_metadata_draft.json",
+        "sha256": "944a33e5a9c8008a4f339de26016fb7fa8675c483d3927d28cdb4b5b15fac395",
+        "size_bytes": 128318
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/runtime_source_review.json",
+        "sha256": "4c11e25223639abbb43a075ae10ec6bf14c90a83540836a4cf11c87a844b383f",
+        "size_bytes": 114164
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/owner_source_review.json",
+        "sha256": "933ec74e06a3721e02faffa5bacda7b87eb166e443ca4fe2b45cb25dea8119e6",
+        "size_bytes": 10526
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/profile_source_admission.json",
+        "sha256": "aeda8d3795783a0e0c879cdbac61aa643f6d0253463d5ae304607267f8635aba",
+        "size_bytes": 578
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/profile_source_admission.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/ordinary_profile_manifest.json",
+        "sha256": "10525056aed308d448525453a033316ba190edf604c214f5a9946cd5ce4f1ad9",
+        "size_bytes": 74128
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json"
+    }
+  ],
+  "reason": "Final exact display-only banner pin and linked source metadata refresh; no candidate rerun.",
+  "schema": "radik.stage05.metadata_preservation.v01"
+}

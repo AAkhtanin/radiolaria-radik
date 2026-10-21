@@ -1,0 +1,94 @@
+{
+  "AUTH_E_SAVE_entered": false,
+  "actual_id": "COMPLETION_V02",
+  "all_guards_independently_rechecked": true,
+  "all_preserved_copied_bytes_match": true,
+  "application_entered": false,
+  "automatic_retry_allowed": false,
+  "cause_interpretation": "A read-induced access-time change can invalidate full stat equality without a content mutation. It is plausible here, but the failed before/after stat values were not retained, so access time is not established as the observed changed field.",
+  "child_started": false,
+  "completed_within_absolute_envelope": true,
+  "continuation_requires": "Independent review of exact runner delta and narrowly targeted helper controls, followed by a new distinct one-use grant. No repeat of the accepted eight deadline/return-path controls.",
+  "copied_inventory_prefix_count": 925,
+  "exact_changed_stat_field": "UNKNOWN_NOT_RETAINED",
+  "exit_code": 2,
+  "failed_operation": "put readback of the freshly created last copied leaf; read rejected full os.stat_result equality or read length at line 100.",
+  "final_post_readback_wall_seconds": 0.502499708,
+  "findings": [],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_grant_completion_v02.json",
+    "sha256": "11cf2cbc0a3acdaed47859a9dc28c31c8f16e4cb1a276c4b24d55ccb69a1938d",
+    "size_bytes": 629412
+  },
+  "invocation_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v02_invocation_receipt.json",
+    "sha256": "c919bce795f09999a76001d321f94f8bc39f1430296cad3677ab4eab6462739b",
+    "size_bytes": 1652
+  },
+  "last_copied_leaf": {
+    "mode": 420,
+    "path": "review/opaque_metadata_passage/before/source/reference/hedgehog/domains/landslide_sentinel/contracts_v01.py",
+    "sha256": "bd6bb60cee50a5ef3bdc9d2a79216a3f4c0685fe09cd5dc2837623cb166aa226",
+    "size_bytes": 21977
+  },
+  "last_copy_inventory_zero_based_index": 924,
+  "native_work_entered": false,
+  "next_leaf_absent": "review/opaque_metadata_passage/before/source/reference/hedgehog/domains/landslide_sentinel/events_v01.py",
+  "ordinary_seam_credit": false,
+  "original_evidence_preserved": true,
+  "owner_execution_allowed": false,
+  "primary_failure": {
+    "code": "exam_read_stability",
+    "error_class": "ValueError",
+    "source_frames": [
+      {
+        "function": "main",
+        "line": 346,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "copy_case",
+        "line": 191,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "put",
+        "line": 120,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "read",
+        "line": 100,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "require",
+        "line": 42,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      }
+    ]
+  },
+  "production_guard_count": 452,
+  "provider_calls": 0,
+  "repair_scope": "Compare explicit device, inode, mode, links, uid, gid, size, nanosecond mtime and ctime, excluding access time. Retain bounded no-follow reads, byte length, raw write readback, pinned SHA256, deadlines and all other safeguards.",
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V02/reservation.json",
+    "sha256": "fda28ffe38a492239121090f89b9c1da211bd41c636d457b96e8395d904fb388",
+    "size_bytes": 141
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V02/result.json",
+    "sha256": "a10a82bef033f76eef899c6e36a329f2a87b57384d17b102da5976d8518a8303",
+    "size_bytes": 1029
+  },
+  "reviewed_at_utc": "2026-10-21T05:33:30.377266+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+    "size_bytes": 17217
+  },
+  "schema": "radik.stage05.setup_result_independent_review.v02",
+  "semantic_acceptance": false,
+  "status": "STOPPED_DURING_EXACT_COPY_READBACK_NO_CHILD_OR_NATIVE_CREDIT"
+}

@@ -1,0 +1,25 @@
+{
+  "I_O": {
+    "execution": "One source-admitted child; no application imports, network or model calls in parent.",
+    "reads": "Exact source/grant/interpreter pins and retained own stdout only.",
+    "writes": "One exclusive offline_actual/TASKSTORE_REMAINDER_V01/supervisor directory."
+  },
+  "author": "/root",
+  "execution_performed": false,
+  "limits": {
+    "cleanup_seconds": 30,
+    "final_seconds": 40,
+    "total_seconds": 900,
+    "work_seconds": 830
+  },
+  "prior_failed_scope": "V02 in-process TimeoutError could be swallowed before the cleanup alarm was armed; its elapsed total is not established.",
+  "real_child_fault_control_required": true,
+  "schema": "radik.stage05.offline_outer_supervisor_source.v01",
+  "scope": "One pinned no-descendant offline fixture child; stdlib parent has a separate wall clock and process-group termination, independent of candidate exception handlers.",
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+    "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+    "size_bytes": 10557
+  },
+  "source_review_required": true
+}

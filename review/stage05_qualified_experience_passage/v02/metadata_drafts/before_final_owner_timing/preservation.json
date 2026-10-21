@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/profile_metadata_draft.json",
+        "sha256": "4e204119af4285e3c8c97fc70528fd322d28ce41314d312dbcaeedc25194f313",
+        "size_bytes": 128074
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/runtime_source_review.json",
+        "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+        "size_bytes": 112752
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/owner_source_review.json",
+        "sha256": "57a06b8d6221d0a6a4f310ceef10d7a0ef2c47cb507928d6b4c966e54469b01f",
+        "size_bytes": 10219
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/profile_source_admission.json",
+        "sha256": "148b475f2291f7de07f40630d4af050cba5ad86dcaa7338fe0f773fe1c282876",
+        "size_bytes": 578
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/profile_source_admission.json"
+    },
+    {
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_timing/ordinary_profile_manifest.json",
+        "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+        "size_bytes": 74128
+      },
+      "previous_path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json"
+    }
+  ],
+  "reason": "Final owner timing-only pin and linked source metadata refresh after closed remainder; prior executed metadata remains immutable here and in its exact run copy.",
+  "schema": "radik.stage05.metadata_preservation.v01"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "radik.stage05.reference_readonly_check.v01",
+  "observer": "/root",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "command": "git -C source/reference status --porcelain --untracked-files=no",
+  "exit_code": 0,
+  "stdout": "",
+  "scope": "Read-only tracked-worktree status and exact HEAD; no new full source campaign or semantic execution.",
+  "reference_mutations_performed": false
+}

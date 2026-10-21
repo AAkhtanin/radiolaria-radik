@@ -1,0 +1,162 @@
+{
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py",
+    "sha256": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4",
+    "size_bytes": 126799
+  },
+  "author": "/root",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v01/after/app/stage04_diagnostics.py",
+    "sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+    "size_bytes": 125698
+  },
+  "new_literals": {
+    "experience_aged_check_required": [
+      {
+        "line": 674,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_aged_control_consumption": [
+      {
+        "line": 510,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_aged_control_requires_unexpired_history": [
+      {
+        "line": 507,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_aged_history_not_current_prior": [
+      {
+        "line": 659,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_capture_origin": [
+      {
+        "line": 403,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_control_clock": [
+      {
+        "line": 599,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_control_requires_history": [
+      {
+        "line": 622,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_control_requires_refusal": [
+      {
+        "line": 610,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_snapshot_file": [
+      {
+        "line": 421,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_snapshot_origin": [
+      {
+        "line": 411,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "experience_history_snapshot_record_id": [
+      {
+        "line": 421,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+      }
+    ],
+    "stage05_aged_additional_work_required": [
+      {
+        "line": 230,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_actual_reader": [
+      {
+        "line": 310,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_logical_identity": [
+      {
+        "line": 307,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_mutated_prior_work_or_history": [
+      {
+        "line": 330,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_preimage": [
+      {
+        "line": 294,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_requires_change": [
+      {
+        "line": 305,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_stale_binding_consumed": [
+      {
+        "line": 326,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_source_revision_wrong_refusal": [
+      {
+        "line": 322,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_total_role_budget": [
+      {
+        "line": 344,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_unrelated_actual_controller_required": [
+      {
+        "line": 259,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_unrelated_native_consumer_scope": [
+      {
+        "line": 274,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "stage05_unrelated_role_budget": [
+      {
+        "line": 267,
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+      }
+    ],
+    "terminal_driver_scenario_role_call_limit": [
+      {
+        "line": 585,
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py"
+      }
+    ]
+  },
+  "raw_errors_allowed": false,
+  "schema": "radik.stage05.closed_diagnostic_delta.v01",
+  "source_only": true
+}

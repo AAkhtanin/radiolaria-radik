@@ -1,0 +1,24 @@
+{
+  "Stage05_acceptance": "NOT_ESTABLISHED",
+  "author": "/root",
+  "candidate_execution_performed": false,
+  "old_owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/owner_admission.json",
+    "sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+    "size_bytes": 32654
+  },
+  "old_owner_admission_use": "DEFERRED_NOT_EXECUTED_OR_RESET",
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "publisher_unchanged": true,
+  "recorded_at_utc": "2026-10-21T07:16:11.556763+00:00",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_git_status_porcelain": "",
+  "reference_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+  "remote_access_performed": false,
+  "schema": "radik.stage05.final_static_boundary_readback.v01",
+  "scope": "READ_ONLY_GIT_IDENTITY_AND_UNCHANGED_PUBLISHER_HASH"
+}

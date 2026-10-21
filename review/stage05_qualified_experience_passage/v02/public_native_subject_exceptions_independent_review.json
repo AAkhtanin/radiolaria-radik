@@ -1,0 +1,43 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "application_or_publisher_imports": false,
+  "counts_by_shape": {
+    "G34_CURRENT_ROOT_CLAIM": 16,
+    "G34_HISTORY_ROOT_CLAIM": 6,
+    "G34_TYPED_CURRENT_CLAIM": 40
+  },
+  "draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/public_native_subject_exceptions_draft_v01.json",
+    "sha256": "a19a7308d2c1b4b2de608ea41a22a04826f85837c2a33a1d0d27bd17a0e8fa12",
+    "size_bytes": 47137
+  },
+  "entry_count": 62,
+  "exact_file_count": 12,
+  "final_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/public_native_subject_exceptions.json",
+    "sha256": "a19a7308d2c1b4b2de608ea41a22a04826f85837c2a33a1d0d27bd17a0e8fa12",
+    "size_bytes": 47137
+  },
+  "publisher_invocation_granted": false,
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewed_at_utc": "2026-10-21T07:13:08.981107+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.public_native_subject_exception_independent_review.v01",
+  "scope_limit": "This approves only this finite exception data. Final selection, all nonexception JSON fields, canonical archive names and one-use writer grant remain separately required.",
+  "status": "EXACT_62_PUBLIC_NATIVE_SUBJECT_ENTRIES_ACCEPTED_PENDING_FINAL_PAYLOAD_GRANT",
+  "verification": [
+    "Every whole-file SHA256 and byte length, JSON pointer, canonical subject SHA256 and canonical containing-object SHA256 matches retained public actual bytes.",
+    "The 40 typed current claims, 16 normalized current Root claims and six normalized history Root claims match the unchanged three exact adapter shapes.",
+    "Every excepted subject value was recursively scanned against the unchanged publisher forbidden-key set.",
+    "No generic key or prefix exception is introduced; file-path families remain the exact previously reviewed closed actual scope.",
+    "The final inventory is an exact byte copy of the reviewed draft."
+  ]
+}

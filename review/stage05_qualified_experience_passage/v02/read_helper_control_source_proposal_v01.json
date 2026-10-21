@@ -1,0 +1,52 @@
+{
+  "application_native_model_AUTH_E_SAVE_execution_allowed": false,
+  "cases": [
+    "Actual small-file put with exact byte readback.",
+    "Synthetic atime-only second fstat accepted with exact verify SHA and byte count.",
+    "Nine synthetic stable identity field changes refused with exam_read_stability.",
+    "Actual same-size changed content refused against pinned SHA.",
+    "Synthetic wrong readback bytes refused by put."
+  ],
+  "control_count": 13,
+  "historical_cause": "UNKNOWN_NOT_RETAINED; atime is only a hypothesis. Synthetic acceptance does not identify the original changed field.",
+  "invocation_template": ".venv-plan/bin/python -I -S -B review/stage05_qualified_experience_passage/v02/read_helper_controls.py --grant-sha256 <independent-grant-sha256>",
+  "network": "DENIED_BY_AUDIT_FENCE",
+  "not_repeated": "The accepted eight supervisor deadline controls are outside this script.",
+  "required_grant_fields": {
+    "application_native_model_AUTH_E_SAVE_execution_allowed": false,
+    "approved_executor": "/root",
+    "approved_invocation_count": 1,
+    "network": "DENIED",
+    "reviewer": "/root/private_remote_controls",
+    "source_refs": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+        "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+        "size_bytes": 7400
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+        "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+        "size_bytes": 17415
+      }
+    ],
+    "status": "ACCEPTED_ONE_AST_READ_HELPER_CONTROL"
+  },
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+    "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+    "size_bytes": 7400
+  },
+  "schema": "radik.stage05.read_helper_control_source_proposal.v01",
+  "scratch": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01/scratch",
+  "source_closure": [
+    "Only named function definitions are extracted after exact source pins. No runner top-level statement or application/native import executes."
+  ],
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_GRANT",
+  "subject_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+    "size_bytes": 17415
+  },
+  "writes": "Exclusive one-use output, reservation, result, and exactly three eight-byte scratch files."
+}

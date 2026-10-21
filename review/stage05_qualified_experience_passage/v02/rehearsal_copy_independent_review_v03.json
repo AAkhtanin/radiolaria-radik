@@ -1,0 +1,202 @@
+{
+  "added_refs": [
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v02_invocation_receipt.json",
+      "sha256": "c919bce795f09999a76001d321f94f8bc39f1430296cad3677ab4eab6462739b",
+      "size_bytes": 1652
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v02_setup_result_review.json",
+      "sha256": "e3bd660724df394c05caa7715065662d1c01361f542306a69b5df389b0d82c30",
+      "size_bytes": 4340
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_grant_completion_v02.json",
+      "sha256": "11cf2cbc0a3acdaed47859a9dc28c31c8f16e4cb1a276c4b24d55ccb69a1938d",
+      "size_bytes": 629412
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_seal_completion_v02.json",
+      "sha256": "585aab3eba0856e8ee82a3cd79b698192f92c9ea0b293eac5fbbfa16f2dbf0b1",
+      "size_bytes": 30696
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_copy_independent_review_v02.json",
+      "sha256": "8038c8443a72b7e4f8d76f7976973fa84ee7f3ed41b22e0ff51eb43ae1545a9d",
+      "size_bytes": 5025
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_stability_repair_proposal_v01.json",
+      "sha256": "616a2c7669ca8cc2c13c13298c9359c4f7688f79a73974e1842b364f066476d4",
+      "size_bytes": 2000
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_stability_repair_proposal_v01.diff",
+      "sha256": "f737118da8885a3d2dffaf74aba723ff04c56e207143ff1afc0c4e379c43a60f",
+      "size_bytes": 763
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_stability_independent_source_review.json",
+      "sha256": "414447f8d7f777535ba188460c87d57038d9e16e73790a5a7e4281e9052cc272",
+      "size_bytes": 2147
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+      "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+      "size_bytes": 7400
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_source_proposal_v01.json",
+      "sha256": "b60a21cc464cd1ebd7f97b552150bcdbe6021bc70a2676ea3235a244c85ee454",
+      "size_bytes": 2619
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_independent_source_review.json",
+      "sha256": "3f3167d1bc339b09502a8264ef647b15ed850904d2ba94cb7054bf728fd07250",
+      "size_bytes": 1995
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_grant.json",
+      "sha256": "6e07fa69c76f46fc5799f07f8ff41b5fd7dc201c9f443daa01e9bbbed59cd1a2",
+      "size_bytes": 1473
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_independent_result_review.json",
+      "sha256": "febf0f3e0dc8a4a5679e4bfe18721d6ca868f0ac68a9235e96bce6ef80b21516",
+      "size_bytes": 2229
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01/result.json",
+      "sha256": "3a50f9f17df957d45ddb69d4e3cd9e1e69d10ecee51f7bf8370d7c0bfc6c7552",
+      "size_bytes": 1368
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01/reservation.json",
+      "sha256": "5e15927b1dfaaeda608a51895ab6e0295fb561ca9988bb201dd3da7d64bf6960",
+      "size_bytes": 97
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_proposal_v01.json",
+      "sha256": "01174d847660e72c6eb457d11e6a0abd9a88e4bd739c58bb2ccab4e1e57f6650",
+      "size_bytes": 1449
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_proposal_v01.diff",
+      "sha256": "531a840e6eebcf821efb927e6053fb8a0f74be646c58f81e7cec244f9c55035d",
+      "size_bytes": 602
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_independent_source_review.json",
+      "sha256": "e60208c94209cbfe40547de80399ef642ec0324388a8fb987f7c9886e155f639",
+      "size_bytes": 2092
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/source_history/rehearsal_runner_before_read_stability_v01.py",
+      "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+      "size_bytes": 17217
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_completion_v03_prefix_v01.py",
+      "sha256": "d4c54810351e70053a98b75456b51bb0f3110c0c4f45d510a0fde5108214255f",
+      "size_bytes": 13494
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_read_stability_repair/copy_inventory_final.json",
+      "sha256": "da1d21cfb403aa6ad61be94db377a528cf37fe59db51e92d52cf42f5c53c32a1",
+      "size_bytes": 579294
+    }
+  ],
+  "all_changed_added_entries_rehashed": true,
+  "all_copy_bytes_rehashed": false,
+  "all_current_guards_rehashed": true,
+  "automatic_retry": false,
+  "changed_refs": [
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+      "size_bytes": 17415
+    },
+    {
+      "mode": 420,
+      "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+      "sha256": "a6f29e5a9ae53807c842ff427938dd6f821ddafddfb3ccd62fc95c348d72741c",
+      "size_bytes": 13512
+    }
+  ],
+  "code_pins_unchanged": true,
+  "copy_bytes": 132450866,
+  "copy_count": 1939,
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/copy_inventory_final.json",
+    "sha256": "a1466e28b54388d37b794e78720db46380ba02edade2f55b26e51ac274bb4000",
+    "size_bytes": 585255
+  },
+  "findings": [],
+  "limits": {
+    "cleanup_seconds": 30,
+    "final_readback_seconds": 5,
+    "total_offline_seconds": 900,
+    "work_seconds": 865
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "51223115ef28fd4896a5810e732a3907dee5c588f11a22f993d2e38a08a64a8d",
+    "size_bytes": 74128
+  },
+  "owner_execution_allowed": false,
+  "prior_copy_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_copy_independent_review_v02.json",
+    "sha256": "8038c8443a72b7e4f8d76f7976973fa84ee7f3ed41b22e0ff51eb43ae1545a9d",
+    "size_bytes": 5025
+  },
+  "prior_setup_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v02_setup_result_review.json",
+    "sha256": "e3bd660724df394c05caa7715065662d1c01361f542306a69b5df389b0d82c30",
+    "size_bytes": 4340
+  },
+  "reviewed_at_utc": "2026-10-21T05:37:51.544719+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_delta_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_independent_source_review.json",
+    "sha256": "414447f8d7f777535ba188460c87d57038d9e16e73790a5a7e4281e9052cc272",
+    "size_bytes": 2147
+  },
+  "schema": "radik.stage05.finite_copy_independent_review.v02",
+  "scope": "Reuse prior accepted finite path set. Refresh only runner read-identity and packaging prefix source pins; add the exact repair/control/setup evidence listed here. No application/native source changes or repeated prior control campaign.",
+  "semantic_acceptance": false,
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "9c77d5cb650de1e4254416adf7c7bcbf091661054fc9fabd8e9e58dcc0bf44b2",
+    "size_bytes": 111358
+  },
+  "status": "ACCEPTED_EXACT_FINITE_COPY_FOR_ONE_BOUNDED_ORDINARY_CASE",
+  "targeted_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_independent_result_review.json",
+    "sha256": "febf0f3e0dc8a4a5679e4bfe18721d6ca868f0ac68a9235e96bce6ef80b21516",
+    "size_bytes": 2229
+  },
+  "total_frozen_guard_count": 454,
+  "unchanged_entries_reused": 1916
+}

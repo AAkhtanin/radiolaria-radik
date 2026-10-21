@@ -1,0 +1,38 @@
+--- review/stage05_qualified_experience_passage/v02/after/app/qualified_strategy.py
++++ review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_v01.py
+@@ -95,6 +95,17 @@
+                 candidate=_copy(controller.candidate),
+                 accepted_result_id=controller.accepted.plain['result_id'],
+                 accepted_result_sha256=controller.accepted.plain['result_sha256'])
++
++
++def _source_identity(material):
++    """Compare content and authority bindings, separately from fresh read time.
++
++    Each caller still obtains material through controller.current() and native
++    validation. The full observed rows remain in Work inputs and evidence; only
++    the per-read observation timestamp is excluded from content identity.
++    """
++    return dict(material, sources=[{key: value for key, value in row.items()
++        if key != 'observed_at'} for row in material['sources']])
+ 
+ 
+ def _source_gate(material):
+@@ -472,7 +483,7 @@
+                                source_scope_sha256=history['source_scope_sha256'])
+         review = authority.root_review('radik:qualified_choice:' + digest(review_material), review_material,
+             dict(original_cap=budget['total'] == policy.max_compute_units, fixed_cost=len(selected) + 2 == TOTAL_UNITS,
+-                current_source=source == _source_material(controller), no_effect_policy=controller.current_policy()['save_allowed'] is False),
++                current_source=_source_identity(source) == _source_identity(_source_material(controller)), no_effect_policy=controller.current_policy()['save_allowed'] is False),
+             controller.now(), transaction_id=semantic.transaction_id, owning_root_id=controller.root_id, task_id=task_id)
+         require(review[2].decision == 'ACCEPT', 'qualified_allocation_root_refused')
+     with _native_stage('G4_REVISION'):
+@@ -504,7 +515,7 @@
+         require(actual.usage.compute_units == TOTAL_UNITS and host.registry.action_packet_lifecycle_entries == ()
+             and all(row.invocation.packet_id is None and row.invocation.candidate_id is None
+                     for row in outcome.results), 'qualified_native_accounting')
+-        require(source == _source_material(controller) and _history(controller, experience_binding) == history,
++        require(_source_identity(source) == _source_identity(_source_material(controller)) and _history(controller, experience_binding) == history,
+                 'qualified_final_current_basis')
+         final_material = dict(output=output, artifact=authority.plain(artifact), usage=authority.plain(actual),
+                               original_basis_sha256=digest(basis))

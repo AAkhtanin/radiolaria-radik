@@ -1,0 +1,60 @@
+{
+  "actual_id": "TASKSTORE_SEAM_V02",
+  "candidate_imports_or_execution_by_reviewer": false,
+  "checks": [
+    "Exact current rehearsal_context and make_auth establish a sealed typed context; no PlanAuth or legacy wire/helper module is loaded.",
+    "The ordinary OpenAIPlanTransport _connection and _send remain unchanged and independently validate exact RehearsalAuth before inert GET and each POST.",
+    "Empty catalog forces actual inert HTTPResponse/catalog parsing; every role admission verifies exact seal binding and a closed role name. DynamicRoleRequest/current source/current round validations remain active.",
+    "Current ordinary_rehearsal supplies synthetic source-bound products and ordered SSE, with an explicitly no-authority public receipt. This proves wiring only, not model semantics.",
+    "Existing actual TaskStore readers, two fresh controllers, G3/G4 scenario, source revision, original 44 rows/11 tasks and six synthetic attempts assertions are unchanged.",
+    "Original entry epoch and fixed 865 work/30 first cleanup/5 final readback envelope remain unchanged within 900 seconds; no retry or deadline renewal.",
+    "Pinned app/config/review finder and finite native loader remain active before imports. Network/process/private access and production writes remain denied."
+  ],
+  "closed_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v01_independent_result_review.json",
+    "sha256": "b6e9311710257d1bf4db955dd2dcf31f7fbbb7dcdb977d703f914df314eb42e9",
+    "size_bytes": 5984
+  },
+  "execution_requires_separate_one_use_grant": true,
+  "findings": [],
+  "helper_refs": [],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+    "size_bytes": 74128
+  },
+  "owner_execution_authorized": false,
+  "peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_typed_transport_peer_source_review_v01.json",
+    "sha256": "b3600687332d5c977a335cbb92bdb9abeb462c7599d0e8fccbe69328470a6cef",
+    "size_bytes": 8379
+  },
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_independent_source_review.json",
+    "sha256": "95dd0e1897aa8ee8e3998fbba1784dc5cda504793d4e69054ac94b9b7203b675",
+    "size_bytes": 4667
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_typed_transport_repair_proposal_v01.json",
+    "sha256": "0d6b283bba1251f79a5e45aaa42cf3348f92a75a1f2b1d60bbb278934c721d92",
+    "size_bytes": 5767
+  },
+  "required_interpreter_mode": ".venv-plan/bin/python -I -B",
+  "review_scope": "Only the exact fixture transport/import delta, typed dispatch/catalog binding and unchanged finite I/O/deadline envelope; earlier runtime/source reviews are reused.",
+  "reviewed_at_utc": "2026-10-21T06:20:16.136316+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "23a8a37f3d974957b2e4a6a896013b49b2e74b631f17dc436a869762343582b6",
+    "size_bytes": 29586
+  },
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+    "size_bytes": 112752
+  },
+  "schema": "radik.stage05.taskstore_seam_source_review.v02",
+  "semantic_acceptance": false,
+  "source_only": true,
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_TARGETED_TASKSTORE_SEAM_V02"
+}

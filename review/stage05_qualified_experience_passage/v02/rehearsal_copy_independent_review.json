@@ -1,0 +1,42 @@
+{
+  "all_copy_bytes_rehashed": true,
+  "baseline_production_guard_count": 378,
+  "candidate_execution_performed": false,
+  "copy_bytes": 130266971,
+  "copy_count": 1903,
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/copy_inventory_final.json",
+    "sha256": "91c9488712f3d53908cefae7b31caf20d1de51eee6542dc38753349ab977645b",
+    "size_bytes": 575477
+  },
+  "findings": [],
+  "limits": {
+    "cleanup_seconds": 30,
+    "final_readback_seconds": 5,
+    "total_offline_seconds": 900,
+    "work_seconds": 865
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "6f39655f270e4cb7ccaf9235c3a2d089ff6bdd3499a8a1b35e089d0c99b74c05",
+    "size_bytes": 74127
+  },
+  "no_private_environment_or_git_copy": true,
+  "one_case_only": true,
+  "owner_execution_allowed": false,
+  "regular_single_link_no_symlink_checks": true,
+  "result_acceptance_rule": "Independent actual review requires zero runner exit, final post-readback stdout within the hard envelope, exact child reaping and unchanged guards. Persisted preliminary result alone is insufficient.",
+  "reviewed_at_utc": "2026-10-21T05:21:19.464566+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runtime_physical_source_count": 180,
+  "schema": "radik.stage05.finite_copy_independent_review.v02",
+  "scope": "Reuse the exact retained finite dependency path set and explicit v02 additions. Verify 1,903 source/evidence files and required operational metadata; no recursive broad campaign, historical semantic replay, AUTH or production state mutation.",
+  "source_refs_added_to_guard_count": 70,
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "affc10865181344fb18cd153246ae9bfae14892416f9c7da6ad1525b71fed17f",
+    "size_bytes": 110800
+  },
+  "status": "ACCEPTED_EXACT_FINITE_COPY_FOR_ONE_BOUNDED_ORDINARY_CASE",
+  "total_frozen_guard_count": 448
+}

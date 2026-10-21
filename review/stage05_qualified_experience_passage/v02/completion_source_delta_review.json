@@ -1,0 +1,163 @@
+{
+  "application_execution_authorized": false,
+  "author": "/root_and_delegated_authors",
+  "candidate_modules_imported": false,
+  "changed_source_refs": [
+    {
+      "after_sha256": "f5e758a3953cda907c69e285f381679e8dbe483f9a80de394bde0b28a9007b2a",
+      "before_sha256": "8f4504f98ee2ab13cbb72b13a585e9ce349b31272dc71cea12f92a511b842529",
+      "logical_path": "app/ordinary_entry.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/app/ordinary_entry.py"
+    },
+    {
+      "after_sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+      "before_sha256": "4c55f3d77732a536f7106506c3803095df3194a21a05649b7ccb17fce3d0632d",
+      "logical_path": "app/qualified_experience.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py"
+    },
+    {
+      "after_sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+      "before_sha256": "5a270baeaedf87d599db174e386852741740279c529ed2069531679832869970",
+      "logical_path": "app/qualified_experience_scenario.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py"
+    },
+    {
+      "after_sha256": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4",
+      "before_sha256": "97395f3836b51e2772738b583dd462ca206841df499c2574bf61bbc82eecd750",
+      "logical_path": "app/stage04_diagnostics.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py"
+    },
+    {
+      "after_sha256": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff",
+      "before_sha256": "ba36a623778b874d932884602a50e91c95feb1523e334fe7892ded7ac9077ff7",
+      "logical_path": "config/application_profile_gate.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py"
+    },
+    {
+      "after_sha256": "09747e9617772f3c91aafdf73463c114ea396e5a6b7a092345a853488909eda2",
+      "before_sha256": "65f4b2da60781c419371661199bb2a4c2080f6a9d5875cd84c6a1572f352d93c",
+      "logical_path": "review/stage05_qualified_experience_passage/v02/activate_profile.py",
+      "path_rebased": true,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/activate_profile.py"
+    },
+    {
+      "after_sha256": "a831194f56aa09968dfe9ae29bf42a1571af27599e2f98ac86fa9edf8aacbc97",
+      "before_sha256": "8bf62e0e44a677f2aa838d2bb69291c15e7dec0846ae0632a90288b808316d67",
+      "logical_path": "review/stage05_qualified_experience_passage/v02/inputs/scenario.json",
+      "path_rebased": true,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/inputs/scenario.json"
+    },
+    {
+      "after_sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+      "before_sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "logical_path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+      "path_rebased": true,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py"
+    },
+    {
+      "after_sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+      "before_sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+      "logical_path": "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json",
+      "path_rebased": true,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json"
+    },
+    {
+      "after_sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+      "before_sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+      "logical_path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+      "path_rebased": true,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py"
+    },
+    {
+      "after_sha256": "a7f5e2d9b9626637ed962a7e35cdcefc9bd6286a07ec901e6dac6f597642b8c4",
+      "before_sha256": "491a901c57bd4d992a10106e028e52842d63c583b0863f012a64f5099496707d",
+      "logical_path": "review/transport/radik_owner_start.py",
+      "path_rebased": false,
+      "physical_path": "review/stage05_qualified_experience_passage/v02/after/review/transport/radik_owner_start.py"
+    }
+  ],
+  "findings": [
+    "Exact native max-age refusal pair is required while validity and arithmetic TTL remain valid and all other gates pass. The missing TIME_FITNESS evidence follows from that temporal gate. Old history remains unopened as current prior.",
+    "The aged branch executes the existing public cold current-review contract: additional typed PURE check, fresh Root review, selected Work and current custody. Controlled future eligibility time is labelled and never advances actual Work clocks.",
+    "Expired, conflict and quarantine refuse before Work. Original history bytes are compared; exact DRS record filename grammar matches native storage and reconstructs no permission.",
+    "Source revision changes only the scenario document via TaskStore.register_source and the ordinary reader, retains bytes/hash/revision, then passes the old live binding to the actual G4 consumer before bootstrap.",
+    "An unrelated separately admitted cold controller and Root execute real G3 PURE Work with no foreign prior; original history is compared before/after.",
+    "Six owner attempts are explicitly split across two three-role rounds. Existing per-round policies, finite model selector and zero provider/effect budgets for native Work are unchanged.",
+    "v02 profile path selection is consistent across entry, gate, owner bootstrap, activator, supervisor and input. Before-install pins still refer to the actual P31 predecessor; v01 was never activated.",
+    "Diagnostics adds only 24 exact closed literals; source-coordinate and first-error handling behavior is unchanged.",
+    "4800-second owner operation budget comprises six serial 600-second response ceilings, 900 native seconds and 300 preparation overhead; one cleanup is at most 30 seconds. These are provisional spending ceilings, not ETA or TTL changes.",
+    "A separately reviewed runner/control/copy grant and exact ordinary-reader actual remain required. No new execution or owner acceptance follows from source review."
+  ],
+  "new_closed_diagnostic_codes": [
+    "experience_aged_check_required",
+    "experience_aged_control_consumption",
+    "experience_aged_control_requires_unexpired_history",
+    "experience_aged_history_not_current_prior",
+    "experience_history_capture_origin",
+    "experience_history_control_clock",
+    "experience_history_control_requires_history",
+    "experience_history_control_requires_refusal",
+    "experience_history_snapshot_file",
+    "experience_history_snapshot_origin",
+    "experience_history_snapshot_record_id",
+    "stage05_aged_additional_work_required",
+    "stage05_source_revision_actual_reader",
+    "stage05_source_revision_logical_identity",
+    "stage05_source_revision_mutated_prior_work_or_history",
+    "stage05_source_revision_preimage",
+    "stage05_source_revision_requires_change",
+    "stage05_source_revision_stale_binding_consumed",
+    "stage05_source_revision_wrong_refusal",
+    "stage05_total_role_budget",
+    "stage05_unrelated_actual_controller_required",
+    "stage05_unrelated_native_consumer_scope",
+    "stage05_unrelated_role_budget",
+    "terminal_driver_scenario_role_call_limit"
+  ],
+  "old_owner_admission_deferred_unused_sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+  "owner_execution_authorized": false,
+  "peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/aged_consumer_independent_source_review_v01.json",
+    "sha256": "418fc58c959f73f7992528b8f554c663943b9a02c11151e37907784b0da00e80",
+    "size_bytes": 6766
+  },
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+    "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+    "size_bytes": 132494
+  },
+  "profile_metadata_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json",
+    "sha256": "1e6e943bd1475e12ca682a4601a3d0d3e27c4ec733a2503d59a41caec3aed213",
+    "size_bytes": 126421
+  },
+  "public_native_contract_refs": [
+    {
+      "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "size_bytes": 157202
+    },
+    {
+      "path": "source/reference/hedgehog/drs.py",
+      "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+      "size_bytes": 3888
+    }
+  ],
+  "reviewed_at_utc": "2026-10-21T05:17:15.831799+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.completion_source_delta_review.v01",
+  "source_inventory_checks": {
+    "aliases": 56,
+    "auth_pins": 27,
+    "pins": 180,
+    "source_bytes": 9185709,
+    "unchanged_native_mappings": 88
+  },
+  "status": "SOURCE_ACCEPTED_PENDING_SEPARATE_OFFLINE_GRANT",
+  "unresolved_source_findings": []
+}

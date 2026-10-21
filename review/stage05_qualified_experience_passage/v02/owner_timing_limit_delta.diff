@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/supervisor_timing_before_final_owner_budget.py
++++ review/stage05_qualified_experience_passage/v02/supervisor_timing.py
+@@ -11,7 +11,7 @@
+ 
+ SCHEMA = 'radik.p28.owner_event.v01'
+ EMERGENCY_IO_EXIT = 86
+-LIMITS = dict(operation_seconds=4800, native_seconds=900,
++LIMITS = dict(operation_seconds=5400, native_seconds=1500,
+     early_checkpoint_seconds=600, semantic_idle_seconds=900, cleanup_seconds=30,
+     interrupt_grace_seconds=10, terminate_grace_seconds=5, kill_wait_seconds=5,
+     poll_seconds=0.05, status_seconds=30, event_rows=8192, event_row_bytes=65536,

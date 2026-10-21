@@ -1,0 +1,58 @@
+{
+  "application_execution_allowed": false,
+  "author": "/root",
+  "candidate_execution_performed": false,
+  "expected_controls": [
+    "Repeated final-window entry preserves the absolute end.",
+    "Work cutoff immediately arms the hard cleanup/readback boundary.",
+    "Hard boundary refuses further file work.",
+    "Synthetic success returns PASS/0.",
+    "Final guard failure forces STOPPED/2.",
+    "Final result-write failure forces STOPPED/2.",
+    "Crossing the hard boundary during final readback forces STOPPED/2.",
+    "Original primary survives a later final-guard failure."
+  ],
+  "helper_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls.py",
+    "sha256": "938715ddda967c9c0b3d24dce7353dffc2f20f7f04966f20e0f486a03088337c",
+    "size_bytes": 9351
+  },
+  "imports": "Only stdlib imports; extract exactly cancel_work_alarm, enter_final_window, work_alarm, final_alarm, check_deadline and main. The fake namespace supplies clock, signals, path, guard, read/write, child-free case execution and output.",
+  "io": "Read only the pinned grant and two exact source files; exclusive fixed CONTROLS_V01 output with reservation and result. No application source import, real alarm, process, socket, AUTH, provider, native Work or owner console.",
+  "limitations": [
+    "Synthetic extracted-function behavior only, not proof of real OS signal delivery or native/app semantics.",
+    "Existing exact-child cleanup actuals remain credited; this control does not repeat them.",
+    "The separate one-use ordinary copy/runner grant still requires accepted control actual and finite seal."
+  ],
+  "owner_execution_allowed": false,
+  "owner_terminal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "size_bytes": 64728
+  },
+  "prior_findings_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runner_delta_findings_v01.json",
+    "sha256": "346c16275831bb09774efa3c229ae1706af64dd8265020a5c4f605faef26625c",
+    "size_bytes": 3315
+  },
+  "resolved_findings": [
+    "R1: work alarm and cleanup entry transition immediately to the same absolute hard deadline; re-entry never renews its end. Exact existing cleanup ownership and saved stop are retained.",
+    "R2: final guard/write/deadline failures force STOPPED and nonzero after finalization, retaining an existing primary. Terminal final stdout and process exit are authoritative after final readback; a persisted preliminary result is insufficient alone.",
+    "Helper retains the exact verified runner bytes before AST extraction; no unverified source re-read remains."
+  ],
+  "reviewed_at_utc": "2026-10-21T05:18:52.340639+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+    "size_bytes": 17217
+  },
+  "schema": "radik.stage05.supervisor_completion_control_source_review.v01",
+  "source_findings": [],
+  "status": "SOURCE_ACCEPTED_FOR_PINNED_SYNTHETIC_CONTROLS",
+  "timing_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+    "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+    "size_bytes": 16725
+  }
+}

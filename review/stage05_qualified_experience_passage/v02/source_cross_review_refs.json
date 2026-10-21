@@ -1,0 +1,25 @@
+{
+  "schema": "radik.stage05.source_cross_review_refs.v01",
+  "status": "SOURCE_REVIEW_POINTERS_ONLY_NO_EXECUTION_OR_OWNER_ACCEPTANCE",
+  "G3_independent_review": {
+    "path": "review/stage05_qualified_experience_passage/v02/aged_consumer_independent_source_review_v01.json",
+    "sha256": "418fc58c959f73f7992528b8f554c663943b9a02c11151e37907784b0da00e80",
+    "size_bytes": 6766
+  },
+  "scenario_G3_integration_independent_review": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_source_delta_review.json",
+    "sha256": "b183fdbd563037ce9a3532e404c05385f1075bf8b5bd639bfcdd3fa229a918a5",
+    "size_bytes": 9403
+  },
+  "runtime_source_review": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "affc10865181344fb18cd153246ae9bfae14892416f9c7da6ad1525b71fed17f",
+    "size_bytes": 110800
+  },
+  "matrix_draft": {
+    "path": "review/stage05_qualified_experience_passage/v02/result_matrix_draft.json",
+    "sha256": "a3fc97d865743d2bafd6ea0a36bb425b484bd90169934f10f17bf36ac205c3bf",
+    "size_bytes": 75576
+  },
+  "scope": "The private reviewer independently reviewed the scenario author source and inputs together with final G3 and integration dependencies. The G4 agent independently reviewed G3 and does not accept its own scenario. Full offline execution still requires a separate exact grant; owner remains NOT_RUN."
+}

@@ -1,0 +1,61 @@
+{
+  "application_execution": false,
+  "author": "/root",
+  "author_control_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/run_control.py",
+      "sha256": "e18be0489d414758cc2a3f712364c9100644fd5c3328362a91d4b75caede9c8e",
+      "size_bytes": 7527
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/fault_child.py",
+      "sha256": "8e6a952d2f2eb3abeba28e8e72e04c42b0efad05832b300e82f2f942871240a6",
+      "size_bytes": 273
+    }
+  ],
+  "control_author_acceptance": false,
+  "findings": [
+    {
+      "detail": "The clock starts before argparse, pin reads and launch. Work deadline is absolute STARTED+830 seconds; hard deadline is STARTED+900. The parent does not depend on catchable child exceptions.",
+      "id": "INDEPENDENT_PARENT_CLOCK",
+      "result": "PASS"
+    },
+    {
+      "detail": "At the work cutoff the parent signals the process group with SIGINT, escalates at +10 seconds to SIGTERM and +15 seconds to SIGKILL, and caps reap/drain at min(stop+30, hard-40).",
+      "id": "BOUNDED_ESCALATION",
+      "result": "PASS"
+    },
+    {
+      "detail": "Raw combined child output is bounded at 32 MiB and hashed incrementally. Exclusive reservation, raw output readback, parent receipt and completion are persisted separately from the child application.",
+      "id": "OUTPUT_AND_RECEIPT",
+      "result": "PASS"
+    },
+    {
+      "detail": "Exact parent, child and interpreter pins, private reviewer, root executor, one invocation and no retry are checked. Existing output/work paths refuse another invocation.",
+      "id": "GRANT_AND_RETRY",
+      "result": "PASS"
+    },
+    {
+      "detail": "signal_child sends a group signal only while the leader is alive. This review admits a child whose separately reviewed sandbox forbids subprocess/fork; it does not claim arbitrary descendant cleanup.",
+      "id": "DESCENDANT_SCOPE",
+      "result": "LIMITATION"
+    },
+    {
+      "detail": "Local read/write/fsync and final readback are synchronous OS calls. Source review supports the finite process-control envelope under responsive local I/O, not an OS-level guarantee against an indefinitely stalled filesystem.",
+      "id": "FILESYSTEM_STALL_SCOPE",
+      "result": "LIMITATION"
+    }
+  ],
+  "native_execution": false,
+  "owner_actual": false,
+  "required_actual_control": "One source-admitted inert child ignores SIGINT and SIGTERM; unchanged escalation must SIGKILL, reap, and persist/read back parent receipt. No application/native/model/ledger execution.",
+  "review_method": "Read exact source and its reachable stdlib imports and I/O; AST syntax only, no imports or execution of the subject.",
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.outer_supervisor_source_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATE_INERT_CHILD_CONTROL_PENDING_PRIVATE_GRANT",
+  "subject_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+    "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+    "size_bytes": 10557
+  }
+}

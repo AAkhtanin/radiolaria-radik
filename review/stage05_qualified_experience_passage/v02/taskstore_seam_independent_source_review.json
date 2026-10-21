@@ -1,0 +1,92 @@
+{
+  "Stage05_acceptance": false,
+  "all_F1_through_F5_source_findings_resolved": true,
+  "application_execution_granted_by_this_record": false,
+  "copy_layout": "Source copy must be under v02/rehearsal_actual/TASKSTORE_SEAM_V01/ordinary/source_under_test for existing typed rehearsal gate. Receipts are separately bounded under v02/offline_actual/TASKSTORE_SEAM_V01/work.",
+  "copy_runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+    "size_bytes": 17415
+  },
+  "deadline_contract": {
+    "absolute_work_seconds": 865,
+    "cleanup_reentry_renews": false,
+    "copy_helper_deadlines_share_original_epoch": true,
+    "final_reentry_renews": false,
+    "first_cleanup_max_seconds": 30,
+    "first_final_readback_max_seconds": 5,
+    "no_child_process_or_secondary_kill_loop": true,
+    "process_entry_total_seconds": 900,
+    "success_requires_post_result_and_completion_readback": true
+  },
+  "effective_model_boundary": "Only explicit in-memory synthetic HTTP catalog/grant/role bytes through unchanged typed HTTPResponse, OpenAIPlanTransport, DynamicRoleRun and normal TurnBudget. Real sockets/processes/AUTH/provider/native E/SAVE forbidden. Six synthetic role attempts in two three-attempt rounds; no model semantics acceptance.",
+  "findings": [],
+  "helper_refs": [
+    {
+      "path": "review/stage04_dynamic_passage/dynamic_wire.py",
+      "sha256": "42f1396b998cd3e10ef32e0500c8f046a39b9c8c6a21d3a20d593dab2b833514",
+      "size_bytes": 13635
+    },
+    {
+      "path": "review/stage04_dynamic_passage/native_cases.py",
+      "sha256": "15f8d0dcd61365956d01bd1c061f9cc0dd48ba423c6640166deff04ac5a66f00",
+      "size_bytes": 36609
+    }
+  ],
+  "historical_failure_code_recovered": false,
+  "imports": [
+    "import time",
+    "import argparse",
+    "import ast",
+    "import hashlib",
+    "import importlib.abc",
+    "import importlib.machinery",
+    "import json",
+    "import os",
+    "from pathlib import Path",
+    "import re",
+    "import signal",
+    "import stat",
+    "import sys",
+    "import types",
+    "import uuid"
+  ],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+    "size_bytes": 74128
+  },
+  "owner_execution_authorized": false,
+  "prior_findings_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_initial_source_findings.json",
+    "sha256": "662f6620665f83746585ae7497a9e4f1823aa6f44389a6669c594943992ed83a",
+    "size_bytes": 2261
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_proposal_v05.json",
+    "sha256": "8239c4b35755b366cb5de920acef008a56310f907a8fedb3afd61bd587779a32",
+    "size_bytes": 7423
+  },
+  "retained_control_credit": "Eight prior supervisor cases and thirteen read-helper cases are not rerun. This new fixture actual must show its own final completion, exit code and timing; synthetic deadline-source reasoning is not asserted as observed OS signal execution.",
+  "reviewed_at_utc": "2026-10-21T06:10:07.206567+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "7e6dbf7af592a7ee98bdf1062f3053c59eb57300c40344ae08f9ed0eac04c1ec",
+    "size_bytes": 29208
+  },
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+    "size_bytes": 112752
+  },
+  "schema": "radik.stage05.taskstore_seam_source_review.v01",
+  "source_boundary": "Exact reviewed application/helper pins precede import and are re-read for each synthetic role; installed native loader owns unchanged finite native map. Loaded app/config/review/native paths and exact callback witnesses are required in actual review.",
+  "source_review_scope": "Full exact helper source/import/I/O review, including real normal v02 operation, current copied v05 ledger, actual TaskStore reader, two fresh controllers and existing full scenario. This helper does not replay ordinary CLI or reconstruct live controller authority from evidence.",
+  "status": "SOURCE_ACCEPTED_FOR_ONE_SEPARATELY_SEALED_TASKSTORE_SEAM",
+  "supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "size_bytes": 64728
+  }
+}

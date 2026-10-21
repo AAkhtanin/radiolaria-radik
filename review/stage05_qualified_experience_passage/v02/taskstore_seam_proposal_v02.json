@@ -1,0 +1,112 @@
+{
+  "acceptance_asserted": false,
+  "actual_id": "TASKSTORE_SEAM_V01",
+  "additional_checks": [
+    "Real TaskStore source reader crossed an actual observed_at second; whole content/task/accepted identity remains equal after removing only observed_at.",
+    "False current-source check produces a genuine validated BLOCKED_FAIL_CLOSED Root result with permission_created, final_output_created and effect_requested all false, not a builder exception.",
+    "The twelve exact pinned native _INPUT_REASONS project unchanged; a finite explicitly synthetic unknown error remains SANITIZED. No historical unknown error is recovered."
+  ],
+  "author": "/root/stage05_g3_contract",
+  "automatic_retry": false,
+  "cleanup_seconds": 30,
+  "copy_runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+    "size_bytes": 17415
+  },
+  "evidence": "Exclusive fsynced/readback checkpoints, complete existing scenario witnesses and result, full current Root result, before/after real reader material, loaded app/native paths and exact hashes, closed diagnostics and operation closure.",
+  "helper_refs": [
+    {
+      "path": "review/stage04_dynamic_passage/dynamic_wire.py",
+      "sha256": "42f1396b998cd3e10ef32e0500c8f046a39b9c8c6a21d3a20d593dab2b833514",
+      "size_bytes": 13635
+    },
+    {
+      "path": "review/stage04_dynamic_passage/native_cases.py",
+      "sha256": "15f8d0dcd61365956d01bd1c061f9cc0dd48ba423c6640166deff04ac5a66f00",
+      "size_bytes": 36609
+    }
+  ],
+  "imports": "Only standard library until exact independent grant and all preimport pins. Installed app/config/review imports restricted by PinnedFinder; native imports restricted by reviewed native_profile_loader. Existing wire/native_cases loaded by exact helper refs.",
+  "interpreter_invocation": ".venv-plan/bin/python -I -B; existing reviewed venv dependencies remain available (no -S).",
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+    "size_bytes": 74128
+  },
+  "max_seconds": 300,
+  "owned_copy_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V01/ordinary/source_under_test",
+  "preparation_included": true,
+  "proposed_envelope_basis": "Accepted v01 fresh-memory native tail completed in 23.63 s; this case adds two genuine synthetic cold typed rounds, current normal-state validations, and two <=1.1 s real-clock boundaries. 270 s work is a new conservative cap, not a performance promise; final cleanup shares the fixed 300 s absolute envelope. It does not repeat the 414 s ordinary entry.",
+  "reads": "Finite project copy/source refs plus Python runtime standard library; no private/credential or network inputs.",
+  "required_grant": {
+    "approved_executor": "/root",
+    "approved_invocation_count": 1,
+    "network": "DENIED",
+    "production_writes_allowed": false,
+    "real_AUTH_provider_native_E_SAVE_allowed": false,
+    "required_refs": [
+      "runner_ref",
+      "copy_runner_ref",
+      "supervisor_ref",
+      "manifest_ref",
+      "source_review_ref",
+      "helper_refs",
+      "interpreter_ref",
+      "production_guard_refs",
+      "copy_refs",
+      "code_pins",
+      "cases[0].rehearsal_seal_ref"
+    ],
+    "reviewer": "/root/private_remote_controls",
+    "schema": "radik.stage05.taskstore_seam_grant.v01",
+    "starting_counted_attempts": 44,
+    "status": "SOURCE_ACCEPTED_FOR_TARGETED_TASKSTORE_SEAM"
+  },
+  "result_root": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V01/work",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "506d776c64062acaae5d3d60587cb08e6385490384d9baabf579e3a1841cef99",
+    "size_bytes": 25158
+  },
+  "scenario": "Call existing source-reviewed qualified_experience_scenario.run with fresh TaskStore/controller run_task adapter. All scenario G3/G4, aged additional Work, actual unrelated task/consumer, actual source registration revision, and stale-binding refusal witnesses remain complete.",
+  "schema": "radik.stage05.taskstore_seam_proposal.v02",
+  "scope": "Fresh copied normal-operation and TaskStore-reader seam; compositional native evidence, not repeated ordinary CLI/AUTH or owner actual.",
+  "setup": [
+    "Create one exclusive sealed copy from independently pinned current 44-attempt, 11-task state and finite dependencies.",
+    "Reuse reviewed copy_case and prepare_installation. No legacy migration or transition reset.",
+    "Install the manifest finite native loader; check every application and helper source before import.",
+    "Open a fresh profile-v02 normal operation under its existing canonical lock; use real current time, existing ledger and two COLD rounds.",
+    "Use unchanged reviewed synthetic HTTP producer with real transport validators and independently pinned source-validator closure. No real provider or AUTH."
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+    "size_bytes": 112752
+  },
+  "status": "SOURCE_REVIEW_REQUIRED_NO_EXECUTION",
+  "supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "size_bytes": 64728
+  },
+  "synthetic_scope": {
+    "AUTH_calls": 0,
+    "SAVE_calls": 0,
+    "catalog": "EXPLICIT_SYNTHETIC_HTTP",
+    "controller_restore": false,
+    "current_clock_replaced": false,
+    "current_reader_replaced": false,
+    "grant": "EXPLICIT_SYNTHETIC_NON_OWNER_CREDENTIAL",
+    "model_calls": 0,
+    "native_E_calls": 0,
+    "role_attempts": 6,
+    "semantic_models": false
+  },
+  "witness_roots": [
+    "workspace/owner_documents",
+    "review/finalized_observations"
+  ],
+  "work_seconds": 270,
+  "writes": "Only exclusive current copy and work result directory. All production state guarded before and after."
+}

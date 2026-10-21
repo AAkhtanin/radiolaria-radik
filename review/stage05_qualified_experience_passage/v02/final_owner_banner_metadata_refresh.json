@@ -1,0 +1,55 @@
+{
+  "banner_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_banner_independent_review.json",
+    "sha256": "7c9e4d22067dd65503173b1dc7a73a4f79109346439636bc21456d53a24219ad",
+    "size_bytes": 1407
+  },
+  "changed_logical_pin": {
+    "after": "2c269a31f74c40b292ad8571e93ec06375988592d7f118dd753cf25d8373f768",
+    "before": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py"
+  },
+  "no_candidate_execution": true,
+  "owner_execution_allowed": false,
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_final_owner_banner/preservation.json",
+    "sha256": "2914e68c09a8003ea24b637b72515e3925435dc5c2b5a1f0addf6e5943169b14",
+    "size_bytes": 2179
+  },
+  "refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json",
+      "sha256": "ed214b80a5b0dc02eb5c302bb534688f6d66b9d6ac084740d51bcbc2ffff9d8c",
+      "size_bytes": 128559
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+      "sha256": "23aaf1c023f88d869523d0312520f0c5d738d853708b5aa517f42a8563d52546",
+      "size_bytes": 114560
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json",
+      "sha256": "72e174180b1d2d07bbea377a66ed080b3c39c86347ea3aafad6063ff5796de01",
+      "size_bytes": 10767
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/profile_source_admission.json",
+      "sha256": "2b950149aa85eb8c52e689958e4118d36d29f029a85345b4ed32d5f3fae12e77",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+      "sha256": "783d8a626468ea7369ba63b7530639197856b643f77c0dde3014603c584dee7e",
+      "size_bytes": 74128
+    }
+  ],
+  "reviewed_at_utc": "2026-10-21T07:15:19.329167+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runtime_source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+  "schema": "radik.stage05.final_owner_banner_metadata_refresh.v01",
+  "status": "EXACT_DISPLAY_PIN_AND_LINKS_REFRESHED_SOURCE_ONLY",
+  "unchanged_auth_pin_count": 27,
+  "unchanged_install_alias_count": 56,
+  "unchanged_logical_pin_count": 179,
+  "unchanged_native_map_count": 88
+}

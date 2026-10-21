@@ -1,0 +1,251 @@
+{
+  "Stage05_closure": false,
+  "actual_native_rows": [
+    {
+      "kind": "mandatory_check",
+      "rows": [
+        {
+          "callback_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:751cea32d190b4ca5cf74ee88618ec0705454b941ac78d7ed407960504774661",
+          "invocation_id": "capability_invocation:3e0aa6b151487111ac2a8cbdf604963c8c9b5ba8c5fbfc51e664b4f52b880082",
+          "packet_id": null,
+          "result_id": "capability_result:ef21795f59d9380c8d0488762b3c7cb2d37e44f1c232c1c6466153f2f4f52576",
+          "status": "COMPLETED",
+          "work_id": "source_check"
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "rows": [
+        {
+          "callback_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:0846fe687d621aca650d78e9c8a9b69a6b3da5c121a8c6f3eb8f22c80c1cf0ee",
+          "invocation_id": "capability_invocation:494b8ec54fd2939769fb8e1b337b0302e9a41099f9a9e92eef8ea31ae56bf74e",
+          "packet_id": null,
+          "result_id": "capability_result:409eb151dfe32537bed20cf605bd605a5f7b10be18db47225e7ece84161d1415",
+          "status": "COMPLETED",
+          "work_id": "consume_experience"
+        }
+      ]
+    }
+  ],
+  "actual_work_evaluated_at": 1792564432,
+  "application_execution": false,
+  "application_imports": false,
+  "callback_pin": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+  "checkpoint_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/aged_current_check_78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd.json",
+    "sha256": "78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd",
+    "size_bytes": 177491
+  },
+  "current_root": {
+    "conflict_set_ids": [],
+    "decision": "ACCEPT",
+    "decision_id": "9dccc9d11193cef39f3ebf9cbb6b97a590c1957c280a6eca6320b65b1f20d2df",
+    "decision_input_id": "d720b03786ef97acf09fbb1a4d85502e192623a52eff19d7d3aaea2bee5462d9",
+    "effect_requested": false,
+    "final_output_created": false,
+    "hard_failure_reasons": [],
+    "missing_evidence_refs": [],
+    "permission_created": false,
+    "prior_decision_id": null,
+    "reason_code": "validated_candidate_accepted",
+    "root_commit_created": true,
+    "selected_candidate_id": "verify",
+    "target_root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+    "transaction_id": "transaction:radik-task:865e76c52b0c4cd2ad270348586807b7",
+    "transition_decision": {
+      "abi_major_version": 1,
+      "actor_role": "gt",
+      "attempted_effect": "CREATE_ROOT_DECISION",
+      "decision": "RETURN_TO_ROOT",
+      "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+      "matched": true,
+      "missing_guards": [],
+      "reason_code": "gt_advisory_returns_to_root",
+      "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+      "required_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "root_commit_present": false,
+      "root_commit_required": true,
+      "rule_id": "gt_advisory_to_root_decision",
+      "satisfied_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "source_artifact_type": "GTAdvisoryReport",
+      "source_lifecycle_state": "VALIDATED",
+      "target_artifact_type": "RootDecision"
+    }
+  },
+  "custody_root": {
+    "conflict_set_ids": [],
+    "decision": "ACCEPT",
+    "decision_id": "c120ae7dee5f5a0aa20bf9fabde288fb041bcd09a034b052cdb8e3b38a822a1b",
+    "decision_input_id": "4b2c6919dbf0303756f5e463f57fb19a6eefbaccf63289b60c5462019dbd0258",
+    "effect_requested": false,
+    "final_output_created": false,
+    "hard_failure_reasons": [],
+    "missing_evidence_refs": [],
+    "permission_created": false,
+    "prior_decision_id": null,
+    "reason_code": "validated_candidate_accepted",
+    "root_commit_created": true,
+    "selected_candidate_id": "radik:source_custody:f0ca112146e1a0b052de361f42e325a2fe4a44b4d6df12015bf6bba3d80d871b",
+    "target_root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+    "transaction_id": "transaction:radik-task:865e76c52b0c4cd2ad270348586807b7",
+    "transition_decision": {
+      "abi_major_version": 1,
+      "actor_role": "gt",
+      "attempted_effect": "CREATE_ROOT_DECISION",
+      "decision": "RETURN_TO_ROOT",
+      "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+      "matched": true,
+      "missing_guards": [],
+      "reason_code": "gt_advisory_returns_to_root",
+      "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+      "required_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "root_commit_present": false,
+      "root_commit_required": true,
+      "rule_id": "gt_advisory_to_root_decision",
+      "satisfied_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "source_artifact_type": "GTAdvisoryReport",
+      "source_lifecycle_state": "VALIDATED",
+      "target_artifact_type": "RootDecision"
+    }
+  },
+  "evaluation_clock_lane": "EXPLICIT_OFFLINE_CONTROL_TIME_NOT_WALL_TIME_PASSAGE",
+  "event_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/031_event.json",
+    "sha256": "54739e1ea2f0d5db708e159d93a03d3218cc0186dbd2e4de587e82fe9d01e121",
+    "size_bytes": 586
+  },
+  "history_before_equals_after": true,
+  "history_evaluated_at": 1792564595,
+  "history_files_read_back": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/HEAD.json",
+      "sha256": "f20e2841aba336a16243915cbf096a57b1bed6b9461b138738f36d684f998bae",
+      "size_bytes": 344
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/drs/work/drsmeaning_v01_eb358900abb8bd2aa79eae4f2b17b044e6dbf8ea095c0ade9f95cf7b44d2468d.json",
+      "sha256": "cad69c7d4e8d1e77393a5c84d2f64bb8dbaad32e24579dd986cd172a88f8fd61",
+      "size_bytes": 6570
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.descriptor.json",
+      "sha256": "64fc51238b83ec844ee9e8e3c193560ec5cb969a1325e516a2e4bd8abaebd275",
+      "size_bytes": 18107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.json",
+      "sha256": "0cbc0e2c80ce21f94ff02e028d00a3941ca12e1b0694b1e4b232e4dcaa592508",
+      "size_bytes": 24964
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/epochs/e450413d876266d3f788c50501293970e0b9f20e087be9c09972b559901c6c66.payload.json",
+      "sha256": "a2c80959bd47b9fba12798ba1969fdcea16df5e71b0b62d617fcf1ed5a2a286c",
+      "size_bytes": 7785
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/history/a88dda3a6ff7fa135bbe1af183d728018aa35e149c5d437848de207d60b09565/writer.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    }
+  ],
+  "history_preserved": true,
+  "history_ref": null,
+  "limitations": [
+    "The history-only evaluation clock is explicit synthetic aging; actual Root and Work use current wall time.",
+    "No whole-fixture/cleanup/guard completion is inferred from this checkpoint.",
+    "Unrelated task consumer and actual source revision branch remain unobserved in this return."
+  ],
+  "mandatory_check_and_selected_work_completed": true,
+  "mandatory_check_root": {
+    "conflict_set_ids": [],
+    "decision": "ACCEPT",
+    "decision_id": "f22ab8a3e0bac89407e0a45710b2a88f529b1e2191a34d616c901e2405909081",
+    "decision_input_id": "03336f4eb15b0cc8f6b934f27ec4369dbfb5fae35f4f3c23ae112cebf99fb1e4",
+    "effect_requested": false,
+    "final_output_created": false,
+    "hard_failure_reasons": [],
+    "missing_evidence_refs": [],
+    "permission_created": false,
+    "prior_decision_id": null,
+    "reason_code": "validated_candidate_accepted",
+    "root_commit_created": true,
+    "selected_candidate_id": "work_results:481db8ba7622aeac1e852be1cecca75e8fb25d7c049a9cc2be1562d3e8851840",
+    "target_root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+    "transaction_id": "transaction:g34:check:02487342c4077b70c485b34ba466e8eacaff15ab46043ee493c77ba64f3b67f6",
+    "transition_decision": {
+      "abi_major_version": 1,
+      "actor_role": "gt",
+      "attempted_effect": "CREATE_ROOT_DECISION",
+      "decision": "RETURN_TO_ROOT",
+      "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+      "matched": true,
+      "missing_guards": [],
+      "reason_code": "gt_advisory_returns_to_root",
+      "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+      "required_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "root_commit_present": false,
+      "root_commit_required": true,
+      "rule_id": "gt_advisory_to_root_decision",
+      "satisfied_guards": [
+        "artifact_valid",
+        "post_vv_passed",
+        "advisory_only"
+      ],
+      "source_artifact_type": "GTAdvisoryReport",
+      "source_lifecycle_state": "VALIDATED",
+      "target_artifact_type": "RootDecision"
+    }
+  },
+  "native_callbacks_reexecuted": false,
+  "old_history_opened": false,
+  "original_time_envelope": {
+    "ct_context_anchor": 1792564295,
+    "et_observed_at": 1792564295,
+    "freshness_policy_id": "g34:bounded_history",
+    "kt_as_of": 1792564295,
+    "pt_created_at": 1792564295,
+    "source_observed_at": 1792564295,
+    "source_reported_at": 1792564295,
+    "system_ingested_at": 1792564295,
+    "system_verified_at": 1792564295,
+    "time_envelope_id": "drstime_v01:e1fe1fee4f91656f34265d620c3225882b7a4de7f5198271f8d8bef4c133255f",
+    "time_envelope_version": "v0.1",
+    "ttl_seconds": 893,
+    "valid_from": 1792564295,
+    "valid_to": 1792565188
+  },
+  "outcome_to_history_refs": [],
+  "owner_actual": false,
+  "prior_fp": 0,
+  "reviewed_at_utc": "2026-10-21T06:41:39.398974+00:00",
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.aged_partial_independent_readback_review.v01",
+  "selected_operation": "radik.experience.source_verification.v01",
+  "status": "SCOPED_AGED_CURRENT_CHECK_WITNESSES_VERIFIED_PENDING_AGGREGATE_REVIEW",
+  "ttl_extended": false
+}

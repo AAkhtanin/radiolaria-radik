@@ -1,0 +1,22 @@
+{
+  "application_imports": false,
+  "author": "/root",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_remainder_prefix_proposal.diff",
+    "sha256": "5f39c0e3721a110688e4b4b9f8b1c0349b4ccece42df20f8a7f847cf09841bba",
+    "size_bytes": 1123
+  },
+  "execution_authorized": false,
+  "postimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_remainder_prefix.py",
+    "sha256": "bd19a50c3e078fc3c92664961a9f2c5a7fce87e01c3d0e83366bc5978713c547",
+    "size_bytes": 13674
+  },
+  "schema": "radik.stage05.return_scope_delta.v01",
+  "scope": "Add only TASKSTORE_REMAINDER_V01 to the exact copied witness and offline work prefixes. Existing subject shapes, exact reference checks and nested secret scanning are unchanged."
+}

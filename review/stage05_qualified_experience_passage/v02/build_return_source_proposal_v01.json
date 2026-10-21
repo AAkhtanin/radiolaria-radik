@@ -1,0 +1,97 @@
+{
+  "accepted_prior_adapter_review": {
+    "path": "review/stage05_qualified_experience_passage/v01/return_packaging_review.json",
+    "sha256": "bb1dba208b0fdc2006805d18fec20ca90615c702a2d0c0e0c9c52b05ce95f89c",
+    "size_bytes": 36229
+  },
+  "actual_subject_file_prefixes": [
+    "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/workspace/owner_documents/",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V02/ordinary/source_under_test/workspace/owner_documents/",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/"
+  ],
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "d4c54810351e70053a98b75456b51bb0f3110c0c4f45d510a0fde5108214255f",
+    "size_bytes": 13494
+  },
+  "ast_observation": {
+    "candidate_executed": false,
+    "candidate_imported": false,
+    "changed_function_names": [
+      "_subject_exceptions",
+      "main"
+    ],
+    "unchanged_function_names": [
+      "require",
+      "digest",
+      "exact",
+      "canonical",
+      "_subject_shape",
+      "_scan_json"
+    ]
+  },
+  "author": "/root/stage05_g3_contract",
+  "authority": {
+    "application_execution": false,
+    "archive_publication": false,
+    "model_calls": false,
+    "native_execution": false,
+    "owner_scenario": false,
+    "public_push": false
+  },
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "8c9509f3adc5a9c97b373e66fbe9b52dfdedfde269a661192c037d017d98dbb2",
+    "size_bytes": 13529
+  },
+  "changes": [
+    {
+      "after": "BASE = 'review/stage05_qualified_experience_passage/v02'",
+      "before": "BASE = 'review/stage05_qualified_experience_passage/v01'"
+    },
+    {
+      "after": "REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_completion_owner_handoff_v02')",
+      "before": "REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_owner_handoff_v01')"
+    },
+    {
+      "after": "    observed_prefixes = tuple(\n        BASE + '/rehearsal_actual/' + case + '/ordinary/source_under_test/' + suffix\n        for case in ('COMPLETION_V01', 'COMPLETION_V02')\n        for suffix in ('workspace/owner_documents/', BASE + '/owner_terminal_runs/')\n    )",
+      "before": "    prefix = BASE + '/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/'\n    observed_prefixes = (\n        prefix + 'workspace/owner_documents/',\n        prefix + BASE + '/owner_terminal_runs/',\n        BASE + '/offline_actual/NATIVE_TAIL_V01/work/',\n        BASE + '/offline_actual/ELIGIBILITY_V01/work/',\n    )"
+    },
+    {
+      "after": "key='stage05_qualified_experience_completion_v02'",
+      "before": "key='stage05_qualified_experience_v01'"
+    }
+  ],
+  "diff": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return_source_proposal_v01.diff",
+    "sha256": "2fb00f9dcf5413b8abcb8f418e407cf6ec5d69aff47b0b0f3bbe28b354cd2946",
+    "size_bytes": 2203
+  },
+  "pending": [
+    "Exact closed actual evidence selection.",
+    "Exact per-file and per-pointer native subject exception inventory after independently reviewed actual.",
+    "Independent source review and one-use packaging grant."
+  ],
+  "prior_return": {
+    "filename": "RADIK_RETURN_20261020T230457.944604Z.tar.gz",
+    "inclusion": "Link by exact hash; no blanket prior fixture subject exceptions.",
+    "sha256": "208361ca9f204c5d7e6001eb57b1c2d70b2c65365be03939bdf0d31ba9546b52"
+  },
+  "schema": "radik.stage05.completion_return_adapter_source_proposal.v01",
+  "status": "SOURCE_PROPOSED_NOT_EXECUTED_NOT_SELF_ACCEPTED",
+  "unchanged_guards": [
+    "The three exact native subject shapes are byte-for-byte unchanged.",
+    "Exceptions still require original exact file hash/size plus JSON pointer, subject canonical hash and containing-object canonical hash.",
+    "Each excepted value is recursively scanned; complete JSON validation view is scanned by unchanged publisher._no_secrets; raw archived JSON is unchanged.",
+    "Exact bounded O_NOFOLLOW regular-file reads, no-symlink traversal, source privacy exclusions, stable identity and SHA checks are unchanged.",
+    "Canonical finite archive names, duplicate/reserved-name guards and JSON suffix preservation are unchanged.",
+    "The finite 4096-file / 512 MiB payload limits and per-file 64 MiB bounds are unchanged.",
+    "Exact one-use independent packaging review and unchanged publisher reservation/delivery rules are unchanged."
+  ],
+  "unchanged_publisher": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  }
+}

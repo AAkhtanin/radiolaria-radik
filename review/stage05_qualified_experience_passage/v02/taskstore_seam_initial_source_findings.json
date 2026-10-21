@@ -1,0 +1,37 @@
+{
+  "accepted_source_scope": "Fresh current copied v05 operation, actual TaskStore reader and two fresh controllers, typed inert HTTP responses, no historical authority restoration. Exact final source and source inventory still require one-use admission.",
+  "application_runtime_changes_required": false,
+  "candidate_execution_performed": false,
+  "findings": [
+    {
+      "finding": "Unknown diagnostic assertion expects SANITIZED while the exact projector returns SANITIZED_OPERATION_FAILURE.",
+      "id": "F1",
+      "required_action": "Correct the fixture expectation, preserving unknown-text refusal."
+    },
+    {
+      "finding": "Hard-cutoff timer is cancelled then cleanup can catch its exception as secondary and proceed to another unbounded call.",
+      "id": "F2",
+      "required_action": "Do not continue cleanup after deadline expiry; retain original primary separately."
+    },
+    {
+      "finding": "The preliminary 270+30 bound lacks measured justification and switching early cleanup directly to operation deadline does not bound cleanup to30 seconds.",
+      "id": "F3",
+      "required_action": "Use the authorized fixed865 work/30 cleanup/5 final envelope from process entry, one first-entry cleanup deadline and bounded final verification, no renewedclock."
+    },
+    {
+      "finding": "Reused runner read/put has its own ACTIVE_DEADLINE_NS, which would reject legitimate bounded final persistence after fixture work cutoff.",
+      "id": "F4",
+      "required_action": "Bind support helper deadlines to the same original fixture absolute stage deadlines."
+    },
+    {
+      "finding": "Final result status and time were checked before write/readback; final guard or readback errors need nonzero closure and truthful primary/secondary evidence.",
+      "id": "F5",
+      "required_action": "Require post-readback final stdout and exit result, preserving primary on finalization failures."
+    }
+  ],
+  "reviewed_at_utc": "2026-10-21T06:05:04.291701+00:00",
+  "reviewed_source_sha256": "506d776c64062acaae5d3d60587cb08e6385490384d9baabf579e3a1841cef99",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.targeted_fixture_source_findings.v01",
+  "status": "REQUIRES_TARGETED_FIXTURE_REPAIRS_BEFORE_GRANT"
+}

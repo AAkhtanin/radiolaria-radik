@@ -1,0 +1,58 @@
+{
+  "control_count": 13,
+  "extracted_functions": [
+    "require",
+    "sha",
+    "safe_path",
+    "check_deadline",
+    "read",
+    "verify",
+    "put"
+  ],
+  "findings": [],
+  "historical_cause_identified": false,
+  "imports": [
+    "import argparse",
+    "import ast",
+    "import hashlib",
+    "import json",
+    "import os",
+    "from pathlib import Path",
+    "import stat",
+    "import sys",
+    "from types import SimpleNamespace"
+  ],
+  "network_process_app_native_model_AUTH_E_SAVE_execution": false,
+  "output": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01",
+  "previous_eight_supervisor_controls_repeated": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_source_proposal_v01.json",
+    "sha256": "b60a21cc464cd1ebd7f97b552150bcdbe6021bc70a2676ea3235a244c85ee454",
+    "size_bytes": 2619
+  },
+  "real_scratch_bytes_each": 8,
+  "real_scratch_file_count": 3,
+  "reviewed_at_utc": "2026-10-21T05:35:56.422498+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_delta_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_independent_source_review.json",
+    "sha256": "414447f8d7f777535ba188460c87d57038d9e16e73790a5a7e4281e9052cc272",
+    "size_bytes": 2147
+  },
+  "schema": "radik.stage05.read_helper_control_source_review.v01",
+  "source_bytes_verified_before_AST_execution": true,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+      "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+      "size_bytes": 7400
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+      "size_bytes": 17415
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_ONE_AST_READ_HELPER_CONTROL",
+  "top_level_runner_execution": false
+}

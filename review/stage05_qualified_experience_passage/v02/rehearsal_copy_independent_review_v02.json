@@ -1,0 +1,86 @@
+{
+  "added_entries_rehashed": [
+    "review/stage05_qualified_experience_passage/v02/README.md",
+    "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "review/stage05_qualified_experience_passage/v02/build_return_source_proposal_v01.json",
+    "review/stage05_qualified_experience_passage/v02/completion_v01_invocation_receipt.json",
+    "review/stage05_qualified_experience_passage/v02/completion_v01_setup_result_review.json",
+    "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile.json",
+    "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile_install.json",
+    "review/stage05_qualified_experience_passage/v02/original_actual/state/console_model_turns.json",
+    "review/stage05_qualified_experience_passage/v02/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_copy_independent_review.json",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_grant_completion_v01.json",
+    "review/stage05_qualified_experience_passage/v02/rehearsal_seal_completion_v01.json",
+    "review/stage05_qualified_experience_passage/v02/snapshot_path_repair_independent_review.json",
+    "review/stage05_qualified_experience_passage/v02/snapshot_path_repair_proposal.json",
+    "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls_independent_result_review.json"
+  ],
+  "all_copy_bytes_rehashed": false,
+  "baseline_production_guard_count": 378,
+  "candidate_execution_performed": false,
+  "changed_entries_rehashed": [
+    "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "review/stage05_qualified_experience_passage/v02/owner_source_review.json",
+    "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json",
+    "review/stage05_qualified_experience_passage/v02/profile_metadata_draft.json",
+    "review/stage05_qualified_experience_passage/v02/profile_source_admission.json",
+    "review/stage05_qualified_experience_passage/v02/runtime_source_review.json"
+  ],
+  "copy_bytes": 131143286,
+  "copy_count": 1918,
+  "copy_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/copy_inventory_final.json",
+    "sha256": "da1d21cfb403aa6ad61be94db377a528cf37fe59db51e92d52cf42f5c53c32a1",
+    "size_bytes": 579294
+  },
+  "executable_changes_since_previous_grant": [],
+  "findings": [],
+  "limits": {
+    "cleanup_seconds": 30,
+    "final_readback_seconds": 5,
+    "total_offline_seconds": 900,
+    "work_seconds": 865
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "51223115ef28fd4896a5810e732a3907dee5c588f11a22f993d2e38a08a64a8d",
+    "size_bytes": 74128
+  },
+  "no_private_environment_or_git_copy": true,
+  "one_case_only": true,
+  "owner_execution_allowed": false,
+  "previous_exact_copy_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_copy_independent_review.json",
+    "sha256": "814b8876157b980e1186c8569e0cd6c78885f5a07a6e9e28cc9d8bb3d304cd00",
+    "size_bytes": 2005
+  },
+  "prior_setup_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v01_setup_result_review.json",
+    "sha256": "00cad458bb88f11a18fc6e349cbbea1c7a7b74cd3d5f88a29beebefc7122edfa",
+    "size_bytes": 6844
+  },
+  "prior_setup_stop_has_application_credit": false,
+  "regular_single_link_no_symlink_checks": true,
+  "result_acceptance_rule": "Independent actual review requires zero runner exit, final post-readback stdout within the hard envelope, exact child reaping and unchanged guards. Persisted preliminary result alone is insufficient.",
+  "reviewed_at_utc": "2026-10-21T05:29:07.376960+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runtime_physical_source_count": 180,
+  "schema": "radik.stage05.finite_copy_independent_review.v02",
+  "scope": "Reuse the previously independently rehashed finite path set, unchanged executable source and accepted eight synthetic supervisor controls. Rehash only six changed metadata and fifteen added evidence/snapshot entries, and verify all current frozen guards. This distinct continuation follows a reviewed pre-child setup stop.",
+  "short_controls_repeated": false,
+  "snapshot_path_repair_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/snapshot_path_repair_independent_review.json",
+    "sha256": "392a8643f69c7d9632dcae80fa8eca842b1b352c186287abf45cc581827d7bf2",
+    "size_bytes": 3461
+  },
+  "source_refs_added_to_guard_count": 74,
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "9c77d5cb650de1e4254416adf7c7bcbf091661054fc9fabd8e9e58dcc0bf44b2",
+    "size_bytes": 111358
+  },
+  "status": "ACCEPTED_EXACT_FINITE_COPY_FOR_ONE_BOUNDED_ORDINARY_CASE",
+  "total_frozen_guard_count": 452,
+  "unchanged_entries_reused": 1897
+}

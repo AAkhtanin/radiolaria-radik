@@ -1,0 +1,56 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "application_or_owner_execution_granted_by_this_review": false,
+  "basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/timing_basis_final.json",
+    "sha256": "c8147ab1223e644a32a9cff7a8310ef1eb5ff82a203a9095a2d5bfeb326b231e",
+    "size_bytes": 5218
+  },
+  "exact_executable_delta": "Only LIMITS.operation_seconds 4800 to 5400 and LIMITS.native_seconds 900 to 1500; all other bytes identical. AST parsed without importing the module.",
+  "limits": {
+    "cleanup_seconds": 30,
+    "maximum_operation_plus_cleanup_seconds": 5430,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "overhead_seconds": 300,
+    "response_seconds_per_attempt": 600,
+    "role_attempts": 6
+  },
+  "measured_basis": {
+    "V02_exact_whole_wall_seconds": "UNKNOWN",
+    "closed_remainder_parent_final_readback_seconds": 431.906525125,
+    "interpretation": "Conservative overlapping composition including some non-native time; not measured total native cost, ETA or success guarantee.",
+    "proxy_v01_seconds": 1009.0614282070001,
+    "proxy_v02_margin_to_native_cap_seconds": 423.74682346,
+    "proxy_v02_seconds": 1076.25317654
+  },
+  "owner_actual": "NOT_RUN",
+  "reviewed_at_utc": "2026-10-21T07:08:42.158476+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runtime_execution_performed": false,
+  "schema": "radik.stage05.owner_timing_independent_review.v02",
+  "scope_assessment": [
+    "Six serial response ceilings remain 600 seconds each and two rounds remain three attempts each.",
+    "1500 cumulative native seconds and 300 overhead give 5400 total owner seconds, plus a single 30-second cleanup; ordinary hard maximum remains 7800.",
+    "The unchanged supervisor validates exact admitted LIMITS and derives absolute operation deadlines from its original launch. No timer branch or retry policy changes.",
+    "Public native compute budgets, native zero model-call budgets, history TTLs/valid_to, registry/ABI/executors and reference bytes remain unchanged.",
+    "Positive qualified history consumers precede the unrelated round. The later source-revision negative branch checks current source before binding/history expiry; no expired positive history is reopened.",
+    "Retained focused control receipts and accepted native work are reused; the exact constant-only change does not require rerunning historical controls or native campaigns."
+  ],
+  "source_postimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+    "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+    "size_bytes": 16726
+  },
+  "source_preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/supervisor_timing_before_final_owner_budget.py",
+    "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+    "size_bytes": 16725
+  },
+  "status": "ACCEPTED_OWNER_SPENDING_LIMITS_SOURCE_DELTA_ONLY",
+  "supplemental_planning_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_timing_planning_v02.json",
+    "sha256": "cdb60ceaff276b842ae00f528c9abdaf15d258d7ab8a6b3ea3c5a8362094a58f",
+    "size_bytes": 8411
+  }
+}

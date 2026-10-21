@@ -1,0 +1,14 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/build_return_before_taskstore_seam_prefix_v01.py
++++ review/stage05_qualified_experience_passage/v02/build_return.py
+@@ -131,9 +131,9 @@
+     result = {}
+     observed_prefixes = tuple(
+         BASE + '/rehearsal_actual/' + case + '/ordinary/source_under_test/' + suffix
+-        for case in ('COMPLETION_V01', 'COMPLETION_V02', 'COMPLETION_V03')
++        for case in ('COMPLETION_V01', 'COMPLETION_V02', 'COMPLETION_V03', 'TASKSTORE_SEAM_V01')
+         for suffix in ('workspace/owner_documents/', BASE + '/owner_terminal_runs/')
+-    )
++    ) + (BASE + '/offline_actual/TASKSTORE_SEAM_V01/work/',)
+     for entry in value['entries']:
+         require(type(entry) is dict and set(entry) == {'file_ref', 'json_pointer',
+             'subject_sha256', 'containing_object_sha256', 'kind'}, 'return_subject_entry_shape')

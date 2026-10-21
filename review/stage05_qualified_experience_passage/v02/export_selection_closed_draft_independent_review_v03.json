@@ -1,0 +1,61 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_closed_draft_v03.json",
+    "sha256": "d0e58f36c58234d578f2cee87ab774aaa3934f479ec3c954b40825d70ab4334f",
+    "size_bytes": 520469
+  },
+  "execution_performed": false,
+  "fault_control_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/independent_result_review.json",
+    "sha256": "687a63a13fe7884a04d119498ed1ca3950bd554b9132b181dbf2bcca85c44de8",
+    "size_bytes": 2460
+  },
+  "limitations": [
+    "This is not a packaging invocation grant, owner admission, semantic final acceptance or publication.",
+    "TASKSTORE_SEAM_V02 remains stopped with missing aggregate completion and incomplete finalization; retained full partial witnesses keep their separately reviewed scope.",
+    "The final selection must append the closed remainder evidence and current final documentation, owner admission, command and exact subject exception inventory after independent acceptance.",
+    "No previous archive bytes are duplicated; the prior return identity is linked."
+  ],
+  "literal_json_key_scan": {
+    "files": "All selected JSON and JSONL raw bytes, without importing publisher or application modules.",
+    "final_exact_public_subject_exception_inventory_still_required": true,
+    "other_forbidden_key_hits": 0,
+    "reported_pointer_set_matches": true,
+    "subject_hits": 93
+  },
+  "new_closed_copy_readback": {
+    "all_reported_delta_refs_exact": true,
+    "case": "TASKSTORE_SEAM_V02",
+    "changed_or_new_leaves_selected": 96,
+    "missing_inventory_leaves": 0,
+    "present_leaves": 2075,
+    "unchanged_historical_leaves_excluded": 1979
+  },
+  "new_refs": 169,
+  "owner_actual": "NOT_RUN",
+  "partial_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_independent_partial_result_review.json",
+    "sha256": "2209a2249b8d8156925835f49d439056d7862a1500da7dab34916ec963a622d8",
+    "size_bytes": 30593
+  },
+  "prior_refs_retained": 312,
+  "prior_selection_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_closed_draft_independent_review_v01.json",
+    "sha256": "35cc93dbea99463c74979e9e0d5b507d8b282946f491da5b9ddbf4c5766b5640",
+    "size_bytes": 3307
+  },
+  "publisher_run_performed": false,
+  "raw_selection_readback": "ALL_SHA256_AND_SIZE_MATCH",
+  "reviewed_at_utc": "2026-10-21T06:57:32.111506+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.closed_selection_independent_review.v03",
+  "scope": "Fixed 481 selected leaves and only the newly closed TASKSTORE_SEAM_V02 copy comparison. The previous four closed copy audits are reused without repetition. No TASKSTORE_REMAINDER_V01 actual paths were read or traversed.",
+  "selected_bytes": 25271211,
+  "selected_file_count": 481,
+  "status": "CLOSED_ONLY_SELECTION_ACCEPTED_AS_DRAFT_PENDING_REMAINDER_AND_FINAL_PACKAGING_GRANT",
+  "synthetic_transport_witness_count": 28,
+  "updated_prior_refs": [
+    "review/stage05_qualified_experience_passage/v02/build_return.py"
+  ]
+}

@@ -1,0 +1,1 @@
+{"auth_type":"app.ordinary_rehearsal.RehearsalAuth","catalog_initially_empty":true,"context_sha256":"eeffe0c86e743b2a68640b6d77713669b4e1dfb3d9ff47df25345f519678021c","current_transport_dispatch_unchanged":true,"real_AUTH_provider_calls":0,"real_authority":false,"synthetic_http_producer":"app.ordinary_rehearsal","transport_type":"app.openai_plan_transport.OpenAIPlanTransport"}

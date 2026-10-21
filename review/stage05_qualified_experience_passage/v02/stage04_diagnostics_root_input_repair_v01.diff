@@ -1,0 +1,21 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/stage04_diagnostics_before_root_input_repair_v01.py
++++ review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py
+@@ -4,6 +4,18 @@
+ exception messages, provider text and arbitrary attributes are not evidence.
+ """
+ OWNED_ERROR_CODES = frozenset({
++    'root_decision_input_invalid',
++    'root_review_packet_invalid',
++    'root_decision_identity_mismatch',
++    'root_decision_post_vv_invalid',
++    'root_decision_gt_advisory_invalid',
++    'root_decision_policy_state_invalid',
++    'root_decision_permission_state_invalid',
++    'root_decision_temporal_state_invalid',
++    'root_decision_conflict_state_invalid',
++    'root_decision_prior_state_invalid',
++    'root_decision_candidate_binding_invalid',
++    'root_decision_transition_blocked',
+     'experience_history_snapshot_record_id',
+     'experience_aged_check_required',
+     'experience_aged_control_consumption',

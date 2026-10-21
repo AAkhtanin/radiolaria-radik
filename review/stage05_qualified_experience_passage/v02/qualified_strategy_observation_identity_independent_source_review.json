@@ -1,0 +1,36 @@
+{
+  "application_execution_granted": false,
+  "candidate_execution_performed": false,
+  "change": "Exclude only per-row observed_at from two content-identity comparisons. Every raw reread, controller/native validation, full Work input, task/proposal/accepted-result binding and all other row fields remain intact.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_v01.diff",
+    "sha256": "b23882970606e88f080d9c53be93dd0275bbe08e98dccb2d70debf63e28d3dda",
+    "size_bytes": 2672
+  },
+  "exact_original_failure_code": "UNKNOWN_NOT_RETAINED",
+  "findings": [],
+  "owner_execution_authorized": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/qualified_strategy_before_observation_identity_v01.py",
+    "sha256": "125ae8945a62fc0bee5fc5363182a85462698994339cb100c3faf21b51b8d768",
+    "size_bytes": 35551
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_proposal_v01.json",
+    "sha256": "e49e095ce6cbd9a01ab7af2758d032cf41fe936812f54b53ca4b52393acca7da",
+    "size_bytes": 3970
+  },
+  "proposed_source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/qualified_strategy_observation_identity_v01.py",
+    "sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+    "size_bytes": 36122
+  },
+  "required_actual_checks": [
+    "A fresh, admitted controller uses the actual TaskStore.source_reader and succeeds across independently changing observed_at values with unchanged source bytes.",
+    "Actual TaskStore.register_source changes raw bytes and revision; the original live G3 binding and G4 caller refuse before further native dispatch."
+  ],
+  "reviewed_at_utc": "2026-10-21T05:49:07.625632+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.narrow_source_delta_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_ORDINARY_READER_NATIVE_CHECKS"
+}

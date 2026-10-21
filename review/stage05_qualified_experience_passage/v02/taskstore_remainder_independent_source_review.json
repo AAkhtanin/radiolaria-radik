@@ -1,0 +1,66 @@
+{
+  "candidate_imports_or_execution_by_reviewer": false,
+  "checks": [
+    "One new Alder task uses the real TaskStore reader, normal COLD three-attempt round, exact typed RehearsalAuth, unchanged OpenAIPlanTransport/HTTP/SSE/request validators and a fresh actual controller.",
+    "Original V02 accepted result/history files are exact read-only bytes only. No memory, live captures, old binding, Root or permission is restored; expired memory is not reused.",
+    "Current no-history G3 consume must produce mandatory and selected PURE Work with fresh current Root/custody, prior0, zero provider/effects and unchanged empty history. Distinct historical task/source/root comparison is evidence only.",
+    "Actual register_source changes raw bytes and revision under the same logical key. The same live binding must fail with exact dynamic_current_sources_changed before further native dispatch; source witnesses, native result/event/evidence state and history are retained before/after.",
+    "Child adopts original parent830/900 monotonic deadlines. Parent SIGINT uses BaseException and writes first stop before application unwind; independent parent escalation/kill/reap and final receipt remain effective.",
+    "Only new copy/work writes are allowed; sockets/process/private accesses denied in child. App/config/review bytes are pinned before import and native loader retains finite88-map.",
+    "Final status requires three synthetic attempts, original44 ledger rows and11 tasks preserved, loaded callbacks and closure readback. No repeat of accepted G4/aged/negative Root/diagnostic controls."
+  ],
+  "findings": [],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "43d77af2dc1ffd90f6fba0e4b07424d778696c70913966334e56a0d03005fd61",
+    "size_bytes": 74128
+  },
+  "outer_fault_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/independent_result_review.json",
+    "sha256": "687a63a13fe7884a04d119498ed1ca3950bd554b9132b181dbf2bcca85c44de8",
+    "size_bytes": 2460
+  },
+  "outer_source_peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor_independent_source_review.json",
+    "sha256": "d629894529a3848d924645fa73d06994c20e7fed43091d7a0a49e6f25257ad28",
+    "size_bytes": 3142
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+    "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+    "size_bytes": 10557
+  },
+  "owner_execution_authorized": false,
+  "prior_partial_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_independent_partial_result_review.json",
+    "sha256": "2209a2249b8d8156925835f49d439056d7862a1500da7dab34916ec963a622d8",
+    "size_bytes": 30593
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_source_proposal_v01.json",
+    "sha256": "febabdd7a1c5f42b2564f254c63d98a97aa0b5f932fd36d12a6adc70c4a083a1",
+    "size_bytes": 5487
+  },
+  "review_scope": "Exact new remaining-only fixture, imports and I/O; existing current runtime/typed transport/native pins reused. No prior source campaign repeated.",
+  "reviewed_at_utc": "2026-10-21T06:52:58.034666+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_fixture.py",
+    "sha256": "8c33ba6c8eb8e7496ba62d72cf3bfeba1571a5f67fdd62ee1cb36140bddb30c5",
+    "size_bytes": 37142
+  },
+  "runtime_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+    "sha256": "fab149f4bb5ddde8a1be40886a41c0409ce61224b442a3eb8de065fc56f8fc90",
+    "size_bytes": 112752
+  },
+  "schema": "radik.stage05.taskstore_remainder_source_review.v01",
+  "scope_limits": [
+    "Not a live foreign-capture rejection test.",
+    "Source-revision check uses the fresh unrelated current no-history binding; the full owner scenario still observes its original Rowan qualified binding.",
+    "Not full ordinary CLI/AUTH or owner actual/model semantics.",
+    "Responsive local filesystem is assumed; parent control does not prove arbitrary descendant or stalled-filesystem behavior."
+  ],
+  "separate_one_use_grant_required": true,
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_REMAINDER"
+}

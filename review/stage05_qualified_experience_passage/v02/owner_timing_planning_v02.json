@@ -1,0 +1,151 @@
+{
+  "assessment": {
+    "existing_operation_contract_max_seconds": 7800,
+    "minimum_justified_conclusion": "A 900-second cumulative native limit has no adequate measured composite margin. No exact minimum safe native limit is established by two partial runs.",
+    "native_900_minus_proxy_seconds": -176.2531765399999,
+    "proposed_cleanup_seconds": 30,
+    "proposed_native_margin_fraction": 0.3937241094351847,
+    "proposed_native_margin_seconds": 423.7468234600001,
+    "proposed_native_seconds": 1500,
+    "proposed_operation_formula": "6 * 600 response seconds + 1500 cumulative native seconds + 300 preparation/unclassified overhead seconds",
+    "proposed_operation_plus_cleanup_seconds": 5430,
+    "proposed_operation_seconds": 5400,
+    "purpose": "Finite spending ceiling with explicit measured-basis headroom, not an ETA or successful-completion guarantee.",
+    "within_existing_operation_max": true
+  },
+  "author": "/root/stage05_g4_contract",
+  "closed_observations": {
+    "completion_v03_scope": "Total native counter through G4_TASK_ROOT stop; includes ordinary cold task and subsequent cold-decision work. It is not an isolated cold-prefix measurement.",
+    "completion_v03_total_native_seconds": 364.714315708,
+    "nested_work_measurements_added_again": false,
+    "running_remainder_data_used": false,
+    "taskstore_remainder": {
+      "child_elapsed_wall_seconds": 431.818206167,
+      "child_exit_code": 0,
+      "child_reaped": true,
+      "classification": "The complete closed remainder wall time is used as a conservative planning allowance for the second cold task and its small native controls, not relabeled as measured native time.",
+      "current_consumer_checkpoint_seconds": 405.6024005,
+      "exact_native_counter": "NOT_RECORDED",
+      "fresh_cold_task_seconds": 345.023379291,
+      "independent_result_review": "PENDING_AT_MEMO_CREATION",
+      "parent_elapsed_wall_seconds": 431.906064041,
+      "source_revision_refusal_checkpoint_seconds": 417.687864792
+    },
+    "taskstore_seam_v02_exact_total_wall_seconds": "UNKNOWN",
+    "taskstore_seam_v02_nonnested_native_phases_seconds": 279.632796791,
+    "taskstore_seam_v02_phase_rows": [
+      {
+        "elapsed_wall_ns": 103045930167,
+        "phase": "cold_decision"
+      },
+      {
+        "elapsed_wall_ns": 13271177666,
+        "phase": "prospective_feedback"
+      },
+      {
+        "elapsed_wall_ns": 104619921792,
+        "phase": "subsequent_work"
+      },
+      {
+        "elapsed_wall_ns": 840875,
+        "phase": "unscorable_control"
+      },
+      {
+        "elapsed_wall_ns": 19303239833,
+        "phase": "eligibility_controls"
+      },
+      {
+        "elapsed_wall_ns": 39391686458,
+        "phase": "aged_current_check"
+      }
+    ]
+  },
+  "created_at_utc": "2026-10-21T07:05:37.806439+00:00",
+  "current_limits": {
+    "cleanup_seconds": 30,
+    "native_seconds": 900,
+    "operation_seconds": 4800,
+    "preparation_and_unclassified_overhead_seconds": 300,
+    "response_seconds": 600,
+    "role_calls": 6
+  },
+  "no_application_or_native_imports": true,
+  "no_existing_limits_edited": true,
+  "no_guard_files_modified": true,
+  "planning_proxy": {
+    "classification": "CONSERVATIVE_COMPOSITE_PROXY_NOT_AN_OBSERVED_COMPLETE_OWNER_RUN",
+    "formula": "COMPLETION_V03 total native counter + TASKSTORE_SEAM_V02 nonnested native phase sum + closed TASKSTORE_REMAINDER_V01 full parent wall time",
+    "known_overlap": "V03 includes some cold-decision work also represented by V02. The complete remainder wall includes preparation, synthetic transport spans, history-preservation I/O and cleanup. These deliberate overlaps are allowed only as conservative headroom estimation, never as an exact native cost or full owner duration.",
+    "seconds": 1076.25317654,
+    "unmeasured_parts": "Real provider/model latency, the live foreign episode interaction, source revision of the owner Rowan qualified binding, and complete owner-route finalization remain owner observations."
+  },
+  "read_scope_disclosure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_scope_incident_v01.json",
+    "sha256": "c3c29dbdbcb8890d957d9b4658b2dd2b2c0761cc073faa78ed7b2d2edb6bbd49",
+    "size_bytes": 2451
+  },
+  "required_followup": [
+    "Use the independent closed remainder result review for final evidence acceptance; the parent/child elapsed values here are direct closed-file observations.",
+    "Independently review and pin any selected synchronized timing/protocol/banner/admission/manifest changes before use. This memo applies no executable or configuration edits.",
+    "Preserve the native compute budgets, response ceilings, original temporal windows, six-role total and per-round three-role limit.",
+    "Keep live owner interaction and Rowan qualified-binding revision observations distinct from the fresh no-history remainder; do not claim Stage05 closure."
+  ],
+  "schema": "radik.stage05.owner_timing_planning.v02",
+  "sources": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/ordinary/receipt.json",
+      "sha256": "a55fdcae334157cea715adda09be50c1305da81433c5d23fc818ca21d8f7621a",
+      "size_bytes": 7116
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v03_independent_result_review.json",
+      "sha256": "6639d7096ecc8b7aa373ab5c522938c6462b76561c9b2c6b451c74beeb774782",
+      "size_bytes": 10840
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_independent_partial_result_review.json",
+      "sha256": "2209a2249b8d8156925835f49d439056d7862a1500da7dab34916ec963a622d8",
+      "size_bytes": 30593
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+      "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+      "size_bytes": 16725
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/supervisor/receipt.json",
+      "sha256": "987d0e51c721f1c0032c9baace1efabeeefabbfa2ca6cb60559c5069b0c11901",
+      "size_bytes": 1175
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/result.json",
+      "sha256": "276ad7342dcf537996ac5b2572045a102727e27f9c6c054d98faffa95822419a",
+      "size_bytes": 21820
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py",
+      "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+      "size_bytes": 56127
+    }
+  ],
+  "status": "PROPOSED_1500_NATIVE_5400_OPERATION_PENDING_INDEPENDENT_REVIEW",
+  "supersedes_planning_only": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_timing_planning_v01.json",
+    "sha256": "47aaa92bf2f57e31264db6a2b1b553302b44747bcd1ffb4c9b766c8f3c8520f2",
+    "size_bytes": 6117
+  },
+  "temporal_scope": {
+    "history_validity_renewed": false,
+    "limitation": "All positive qualified consumers occur before the unrelated cold round. In validate_strategy_history, _current(controller) runs before binding expiry and history eligibility; DynamicDocumentController.current checks changed source identity/content before policy expiry. Therefore, after an actual source revision, the owner stale-binding branch can truthfully refuse changed source even if the prior history expired during the second round. This does not renew TTL, reopen expired history, or promise a positive historical consumer after that round. The operation deadline must still be current.",
+    "native_model_call_budget_changed": false,
+    "original_P_compute_budget_changed": false,
+    "original_expiry_must_refuse": true,
+    "policy_or_history_TTL_changed": false,
+    "v01_caveat_corrected": "The prior memo must not be read as requiring the whole qualified episode to remain eligible through all three unrelated responses. Only its earlier positive consumers need current eligibility; the later revised-source branch is a negative current-source observation."
+  }
+}

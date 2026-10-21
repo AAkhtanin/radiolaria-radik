@@ -1,0 +1,118 @@
+{
+  "assessment": {
+    "existing_operation_contract_max_seconds": 7800,
+    "minimum_justified_conclusion": "A 900-second cumulative native limit has no adequate measured composite margin. No exact minimum safe native limit is established by two partial runs.",
+    "native_900_minus_proxy_seconds": -109.06142820700006,
+    "proposed_cleanup_seconds": 30,
+    "proposed_native_margin_fraction": 0.4865299158896085,
+    "proposed_native_margin_seconds": 490.93857179299994,
+    "proposed_native_seconds": 1500,
+    "proposed_operation_formula": "6 * 600 response seconds + 1500 cumulative native seconds + 300 preparation/unclassified overhead seconds",
+    "proposed_operation_plus_cleanup_seconds": 5430,
+    "proposed_operation_seconds": 5400,
+    "purpose": "Finite spending ceiling with explicit measured-basis headroom, not an ETA or successful-completion guarantee.",
+    "within_existing_operation_max": true
+  },
+  "author": "/root/stage05_g4_contract",
+  "closed_observations": {
+    "completion_v03_scope": "Total native counter through G4_TASK_ROOT stop; includes ordinary cold task and subsequent cold-decision work. It is not an isolated cold-prefix measurement.",
+    "completion_v03_total_native_seconds": 364.714315708,
+    "nested_work_measurements_added_again": false,
+    "running_remainder_data_used": false,
+    "taskstore_seam_v02_exact_total_wall_seconds": "UNKNOWN",
+    "taskstore_seam_v02_nonnested_native_phases_seconds": 279.632796791,
+    "taskstore_seam_v02_phase_rows": [
+      {
+        "elapsed_wall_ns": 103045930167,
+        "phase": "cold_decision"
+      },
+      {
+        "elapsed_wall_ns": 13271177666,
+        "phase": "prospective_feedback"
+      },
+      {
+        "elapsed_wall_ns": 104619921792,
+        "phase": "subsequent_work"
+      },
+      {
+        "elapsed_wall_ns": 840875,
+        "phase": "unscorable_control"
+      },
+      {
+        "elapsed_wall_ns": 19303239833,
+        "phase": "eligibility_controls"
+      },
+      {
+        "elapsed_wall_ns": 39391686458,
+        "phase": "aged_current_check"
+      }
+    ]
+  },
+  "created_at_utc": "2026-10-21T06:59:48.010207+00:00",
+  "current_limits": {
+    "cleanup_seconds": 30,
+    "native_seconds": 900,
+    "operation_seconds": 4800,
+    "preparation_and_unclassified_overhead_seconds": 300,
+    "response_seconds": 600,
+    "role_calls": 6
+  },
+  "no_application_or_native_imports": true,
+  "no_existing_limits_edited": true,
+  "no_guard_files_modified": true,
+  "planning_proxy": {
+    "classification": "CONSERVATIVE_COMPOSITE_PROXY_NOT_AN_OBSERVED_COMPLETE_OWNER_RUN",
+    "formula": "2 * COMPLETION_V03 total native counter + TASKSTORE_SEAM_V02 nonnested native phase sum",
+    "known_overlap": "The V03 total already contains post-task cold-decision work, so multiplying it by two and adding the complete V02 consumer phases overlaps some G3 work. This deliberately conservative overlap must not be reported as measured total native cost.",
+    "seconds": 1009.0614282070001,
+    "unmeasured_parts": "A fully completed second cold owner task, live foreign-history interaction, final qualified source-revision refusal, full cleanup/readback, and real model/provider latency remain unmeasured."
+  },
+  "read_scope_disclosure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_scope_incident_v01.json",
+    "sha256": "c3c29dbdbcb8890d957d9b4658b2dd2b2c0761cc073faa78ed7b2d2edb6bbd49",
+    "size_bytes": 2451
+  },
+  "required_followup": [
+    "Wait for root to announce the remaining actual is closed, then use only its independently reviewed exact timing and finalization evidence.",
+    "Reassess the 1500/5400 proposal against the remainder without presenting conservative overlap as observed duration.",
+    "If selected, review and pin all synchronized timing/protocol/banner/admission/manifest changes before use. Do not patch P, native compute budgets, clocks, history timestamps or TTL.",
+    "Retain all ten requirement strings, deferred owner interactions, unknown old failure details and no owner actual status."
+  ],
+  "schema": "radik.stage05.owner_timing_planning.v01",
+  "sources": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/ordinary/receipt.json",
+      "sha256": "a55fdcae334157cea715adda09be50c1305da81433c5d23fc818ca21d8f7621a",
+      "size_bytes": 7116
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/completion_v03_independent_result_review.json",
+      "sha256": "6639d7096ecc8b7aa373ab5c522938c6462b76561c9b2c6b451c74beeb774782",
+      "size_bytes": 10840
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_independent_partial_result_review.json",
+      "sha256": "2209a2249b8d8156925835f49d439056d7862a1500da7dab34916ec963a622d8",
+      "size_bytes": 30593
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+      "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+      "size_bytes": 16725
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    }
+  ],
+  "status": "PLANNING_ONLY_PENDING_CLOSED_REMAINDER_AND_INDEPENDENT_REVIEW",
+  "temporal_scope": {
+    "history_validity_renewed": false,
+    "limitation": "The three unrelated owner responses alone may consume up to 1800 seconds. A longer operation/native clock does not keep a previously qualified episode or its live binding eligible through that interval. The original validity windows must still apply, and the owner interaction may legitimately stop on expiration. The final command must not promise successful Stage05 closure within the wall cap.",
+    "native_model_call_budget_changed": false,
+    "original_P_compute_budget_changed": false,
+    "original_expiry_must_refuse": true,
+    "policy_or_history_TTL_changed": false
+  }
+}

@@ -1,0 +1,13 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/rehearsal_runner_before_read_stability_v01.py
++++ review/stage05_qualified_experience_passage/v02/rehearsal_runner.py
+@@ -97,7 +97,9 @@
+             and before.st_size <= MAX_BYTES, 'exam_regular_file')
+         raw = stream.read(MAX_BYTES + 1)
+         after = os.fstat(stream.fileno())
+-    require(before == after and len(raw) == before.st_size, 'exam_read_stability')
++    identity = lambda value: (value.st_dev, value.st_ino, value.st_mode, value.st_nlink,
++        value.st_uid, value.st_gid, value.st_size, value.st_mtime_ns, value.st_ctime_ns)
++    require(identity(before) == identity(after) and len(raw) == before.st_size, 'exam_read_stability')
+     check_deadline()
+     return raw
+ 

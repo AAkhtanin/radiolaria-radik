@@ -1,0 +1,141 @@
+{
+  "Stage05_acceptance": false,
+  "actual_id": "COMPLETION_V01",
+  "aged_revision_unrelated_actual_credit": false,
+  "application_model_AUTH_E_SAVE_native_execution_observed": false,
+  "automatic_retry": false,
+  "case_result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/case_result.json",
+    "sha256": "a2c13a6c050ab6b2a63ddd153dd4fb6ba601f94290a6917d6da6ff040329c567",
+    "size_bytes": 1505
+  },
+  "cause": "The preserving-upgrade metadata retained v01 snapshot paths while the v02 gate requires its own PREFIX/original_actual paths. Four original state identities, hashes, sizes and modes are unchanged.",
+  "child_directory_absent": true,
+  "child_started": false,
+  "elapsed_before_final_readback_seconds": 0.7997175427153707,
+  "four_real_predecessor_state_refs_independently_unchanged": true,
+  "frozen_guard_count": 448,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_grant_completion_v01.json",
+    "sha256": "d6bd910eb9cd18966b147cb16747ad4ac07a78938d7aedc273788999f546cacd",
+    "size_bytes": 623764
+  },
+  "no_cause_inference_for_old_ORDINARY_V02": true,
+  "ordinary_seam_credit": false,
+  "owner_execution_authorized": false,
+  "pinned_gate_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py",
+    "sha256": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff",
+    "size_bytes": 14696
+  },
+  "primary_failure": {
+    "code": "profile_gate_upgrade_snapshot_binding",
+    "error_class": "ValueError",
+    "source_frames": [
+      {
+        "function": "main",
+        "line": 347,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "case_run",
+        "line": 251,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py"
+      },
+      {
+        "function": "prepare_installation",
+        "line": 257,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/owner_terminal.py"
+      },
+      {
+        "function": "load_profile",
+        "line": 156,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py"
+      },
+      {
+        "function": "preserving_upgrade",
+        "line": 185,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py"
+      },
+      {
+        "function": "require",
+        "line": 36,
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py"
+      }
+    ]
+  },
+  "production_guard_unchanged_reported": true,
+  "required_repair": "Copy the four exact preserved snapshots into v02/original_actual and update only their snapshot_ref paths; independently review the metadata and new pins, preserve this attempt, then issue a distinct explicit continuation grant.",
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/reservation.json",
+    "sha256": "f854845f6d8e9a4f6f8b261256a26bce72be9b6ff882f38595af84840887fdb5",
+    "size_bytes": 141
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V01/result.json",
+    "sha256": "b18f236259262a046f06f2d8877f18309e121b5f434186aa65637eb57e34ef4d",
+    "size_bytes": 1681
+  },
+  "reviewed_at_utc": "2026-10-21T05:23:05.977581+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.setup_stop_independent_result_review.v01",
+  "snapshot_path_bindings": [
+    {
+      "label": "activation",
+      "old_snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/application_profile.json",
+        "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+        "size_bytes": 259
+      },
+      "original_ref": {
+        "path": "state/application_profile.json",
+        "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+        "size_bytes": 259
+      },
+      "required_snapshot_path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile.json"
+    },
+    {
+      "label": "install",
+      "old_snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/application_profile_install.json",
+        "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+        "size_bytes": 6437
+      },
+      "original_ref": {
+        "path": "state/application_profile_install.json",
+        "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+        "size_bytes": 6437
+      },
+      "required_snapshot_path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile_install.json"
+    },
+    {
+      "label": "ledger",
+      "old_snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/state/console_model_turns.json",
+        "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+        "size_bytes": 110730
+      },
+      "original_ref": {
+        "path": "state/console_model_turns.json",
+        "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+        "size_bytes": 110730
+      },
+      "required_snapshot_path": "review/stage05_qualified_experience_passage/v02/original_actual/state/console_model_turns.json"
+    },
+    {
+      "label": "tasks",
+      "old_snapshot_ref": {
+        "path": "review/stage05_qualified_experience_passage/v01/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+        "size_bytes": 61959
+      },
+      "original_ref": {
+        "path": "workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+        "size_bytes": 61959
+      },
+      "required_snapshot_path": "review/stage05_qualified_experience_passage/v02/original_actual/workspace/owner_documents/state/dynamic_tasks.json"
+    }
+  ],
+  "status": "STOPPED_DURING_PROFILE_PREPARATION_NO_CHILD_OR_NATIVE_CREDIT"
+}

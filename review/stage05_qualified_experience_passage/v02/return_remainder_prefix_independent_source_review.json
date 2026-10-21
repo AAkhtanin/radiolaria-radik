@@ -1,0 +1,18 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "candidate_imports_execution": false,
+  "packaging_execution_authorized": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_remainder_prefix_proposal.json",
+    "sha256": "b29d7b6d949ac9dc470cd6beb751af1052b15c760868448912eddb2b129dec13",
+    "size_bytes": 1020
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_scope_independent_source_review.v01",
+  "scope": "Exact case-name addition TASKSTORE_REMAINDER_V01 to both finite copied-witness and work-output prefix families only. Remaining adapter text, fixed subject shapes, exact file/pointer/value checks, recursive scan and publisher unchanged.",
+  "status": "SOURCE_ACCEPTED_PENDING_FINAL_SELECTION_AND_SEPARATE_GRANT"
+}

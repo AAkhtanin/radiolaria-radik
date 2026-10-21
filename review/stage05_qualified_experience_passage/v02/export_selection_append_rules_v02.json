@@ -1,0 +1,44 @@
+{
+  "allowed_closed_roots": [
+    "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02",
+    "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work"
+  ],
+  "author": "/root/stage05_g3_contract",
+  "base_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_closed_draft_v02.json",
+    "sha256": "179853a90c7af33868bde5b3c9ca046398b23de6d65331743c366051a4344580",
+    "size_bytes": 224410
+  },
+  "condition": "Read the next case only after root explicitly reports its process closed; require exact result/completion/invocation receipt and independent result review. Failure still produces complete truthful witnesses, never a success inference.",
+  "copy_commit_build_performed": false,
+  "copy_root_suffix": "ordinary/source_under_test",
+  "current_closed_scan": {
+    "literal_secret_key_hits": 19,
+    "non_subject_hits": 0,
+    "selected_bytes": 15678356,
+    "selected_files": 312,
+    "subject_key_findings": "Only public native subject keys were found in current selected JSON. Exact shape/pointer exception inventory remains an independent final packaging step; this is not a publisher acceptance.",
+    "synthetic_transport_files": 12
+  },
+  "execution_performed": false,
+  "finite_algorithm": [
+    "Read the exact new grant, its copy_refs and case owned_copy_root; bind them by raw SHA256 and size. Validate canonical public paths and no symlinks, regular single-link files, maximum64MiB/file.",
+    "Traverse only the one now-closed exact copy root, at most4096 files/512MiB; compare every present regular leaf with that grant copy_refs using SHA256 and byte length. Byte-identical historical copies are excluded. Do not recursively follow historical provenance references into prior campaigns.",
+    "Select all new or changed public consumer files under workspace/owner_documents, including full task/source/Root/Host/Work/G3/G4/history/lesson/aged/unrelated/source-revision witnesses and complete raw stored results. Preserve nested native structures; do not replace them with summaries or booleans.",
+    "Select every new current inert catalog, usage, reservation, HTTP and stream/result witness under review/finalized_observations and review/direct_plan_passage/transport_observations. Record classification explicit synthetic no real AUTH/provider. All unchanged historical transport files are excluded.",
+    "Select generated normal-operation/round closures, ledger/task-state deltas, application install/profile journal, rehearsal context/seal, and exact source postimages if changed from the copy inventory. Select bounded outer reservation/result/completion and parent invocation receipts. Never export whole copy trees.",
+    "Classify every remaining changed/new path; refuse unexplained or forbidden paths instead of silently dropping witnesses. No private auth, credentials, environment, Git, dependency caches or original production mutable paths.",
+    "Append exact refs into a new final selection revision; refresh static v02 refs for final source/admissions/reviews and explicitly add final dossier/report/owner command metadata. Preserve earlier draft hashes. Keep archive names canonical and unique; JSON/JSONL suffixes remain unchanged.",
+    "Run no publisher in this planning step. The independently reviewed final payload control must apply unchanged publisher secret checks to full JSON. Only exact whole-file/hash/pointer/value/parent-hash exceptions for the existing three public G34 subject shapes are admissible; recursively inspect every excepted value and retain original raw bytes.",
+    "Link the accepted prior v01 archive by its exact name and hash. Do not duplicate that archive or wholesale its selection. No public push, owner execution or Stage05 closure is inferred."
+  ],
+  "next_actual_id": "TASKSTORE_SEAM_V02",
+  "next_actual_inspected": false,
+  "schema": "radik.stage05.finite_selection_append_rules.v02",
+  "status": "PLAN_ONLY_NO_ACTUAL_POLL_OR_PACKAGING_AUTHORITY",
+  "unchanged_publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "accepted_v01_credit_unchanged": true,
+  "all_original_requirements_and_owner_remaining_unchanged": true,
+  "application_execution_performed": false,
+  "historical_run_relative_ref_resolution": [
+    {
+      "matrix_ref": {
+        "path": "workspace/owner_documents/review/stage05/1025a1313a6d/stopped_result_38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2.json",
+        "sha256": "38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2",
+        "size_bytes": 2898
+      },
+      "resolved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/stage05/1025a1313a6d/stopped_result_38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2.json",
+        "sha256": "38468b96b95bc71ad5f63d9f2ee244214c2130839031a5aac0fc7623d8a832d2",
+        "size_bytes": 2898
+      }
+    }
+  ],
+  "matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+    "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+    "size_bytes": 195675
+  },
+  "original_requirements_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/required_observations.json",
+    "sha256": "3f77230637a6ce05d2ba00607fb08faa67db83d457420ca2534dcef09a5c5858",
+    "size_bytes": 3963
+  },
+  "owner_actual": "NOT_RUN",
+  "reviewed_at_utc": "2026-10-21T07:17:35.277839+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "row_count": 10,
+  "schema": "radik.stage05.composite_matrix_independent_review.v02",
+  "scope_findings": [
+    "Accepted first-task V02 G3/G4 and aged-current witnesses remain partial evidence of an otherwise stopped run, with exact total duration unknown.",
+    "Completed remainder proves a fresh unrelated no-history current consumer and actual own-source revision refusal. It does not claim live foreign-capture interaction or the owner Rowan qualified-binding branch.",
+    "The outer inert fault test and closed remainder establish their exact finite control scopes; no complete owner CLI success is inferred.",
+    "Every row retains owner NOT_RUN and Stage05 NOT_ESTABLISHED. Full new consumer witnesses and original historical requirements remain present.",
+    "Final source-only timing and banner changes are separately reviewed and bound; no extra native campaign is needed for these display/limit changes."
+  ],
+  "status": "ACCEPTED_SCOPED_OFFLINE_MAPPING_OWNER_OBSERVATIONS_REMAIN",
+  "unique_exact_refs_read_back": 128
+}

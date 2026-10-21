@@ -1,0 +1,519 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "accepted_partial_credit": {
+    "G4_cold_and_qualified": [
+      {
+        "actual_checks_consumed_by_final": 7,
+        "allocation_counts": {
+          "qualification": 3,
+          "quotation": 4
+        },
+        "callback_pin": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+        "checkpoint_ref": {
+          "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/cold_allocated_work_7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32.json",
+          "sha256": "7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32",
+          "size_bytes": 18581
+        },
+        "compute_units": 9,
+        "distinct_completed_PURE_invocations": 9,
+        "effects": 0,
+        "full_work_ref": {
+          "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764.json",
+          "sha256": "afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764",
+          "size_bytes": 1165420
+        },
+        "invocation_attempt_bindings": {
+          "capability_invocation:129b2615bd59935836c3bc0ab24c5581fa70a38d2b8462dcfe6091c686cff4b0": "pure_attempt:07e0f455e7b3e3896c55293e88a04fab13a00858932ca09b7d85adf666cc4591",
+          "capability_invocation:4b6956dd30274bb645e2cc85068dbff79232481647ee07119103924b0b907bce": "pure_attempt:a5f0661f34c11bbb717c24581bfcd221d30b69a2171cfd7b0af25c50b96ce06b",
+          "capability_invocation:4bdd05daf0d95a417048f2a115cc7fb8c1a30050865415a49ba43cfd6f8ec4de": "pure_attempt:9001a7923a32f4e77ab82427b93e2aef50f2103bf3901d020ac9d7369a6b3dfb",
+          "capability_invocation:6823dd41837a44d2652f9936604c7263d80ab7030d72b110c6519a946c9d5dd1": "pure_attempt:a5408b994ad7e7b27528f70ae414b133895d7931433bc32a2d3bf5e742e2cbc1",
+          "capability_invocation:84a69f3bb2fb4e95b6b09fffbf83fb509aed1c9f97acfd7a89503fb35d95b3ae": "pure_attempt:5938ac56a68ae4106f066c0dfdf7b6d63c8959637770d2c53266439bbd08cc35",
+          "capability_invocation:89efcb02d003b2cdaf6d514848c55052431bdcbc342dba4029d7d1e58a493f57": "pure_attempt:8b491b9ce51089264c52868e2c885ac860a42e81cc5082392731b712afb8b65d",
+          "capability_invocation:93f6832b1cc478940fea0e2a589349407f076b9b89de7b91a3c38d03d913dd2f": "pure_attempt:0253b9c7f4ddc98e6cff8c428edc4b7d1be8ef76d6848067a42dfb5b66f54a46",
+          "capability_invocation:d8a6473022472ffe249cc9ddebfcf0dfe4739a2b6a6c2ef84501a2c6e343f483": "pure_attempt:668b579813f54d1eca16a186234461f9c22f11750771fd8c35af204300157dc8",
+          "capability_invocation:ffbc2f29dc7b1a7bbf4d6ea1a9d847a72ff84c3cfdbaafdc96d1fb375632b30a": "pure_attempt:4836a6c25aadd06242438e96d5a64ca1d852385156ae92664f2e267a81b1155e"
+        },
+        "native_work_seconds": 56.380166499875486,
+        "provider_calls": 0,
+        "task_and_custody_roots": "ACCEPT"
+      },
+      {
+        "actual_checks_consumed_by_final": 7,
+        "allocation_counts": {
+          "qualification": 4,
+          "quotation": 3
+        },
+        "callback_pin": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+        "checkpoint_ref": {
+          "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_allocated_work_e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f.json",
+          "sha256": "e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f",
+          "size_bytes": 19280
+        },
+        "compute_units": 9,
+        "distinct_completed_PURE_invocations": 9,
+        "effects": 0,
+        "full_work_ref": {
+          "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f.json",
+          "sha256": "869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f",
+          "size_bytes": 1176408
+        },
+        "invocation_attempt_bindings": {
+          "capability_invocation:4a7c732411459f41037a00f1bcd82f7f441e49179e283458e58d6bd68ed5e604": "pure_attempt:2ae703e87b6834ae529ca920b6d75ec1b705022f13d7656fa9f98c1683e00fa9",
+          "capability_invocation:a0b0d5c4f90148d1ab207b388722e7352ba500e88a4d5f895834d728a6ac8b2e": "pure_attempt:6c0d4aa5833529757218dd14c419c56af7faafef80c7d1d2e87700f757737b06",
+          "capability_invocation:a39efc3e12707eac244fc61c6600e23755d9e9fc7b9911f75458aaa5653c814a": "pure_attempt:761420bdcab5b6bf87c720fe0f84f921f7d8942f7dd645f187bf963914a20309",
+          "capability_invocation:b0dd1a699879ac5fb35ece8d2494cc84e5dd7a73dffcfbe1b79521b0db322ba6": "pure_attempt:952e5b42c40c0ea854798ff949ce2b5675108bfd1a31184e9fb3777278955a51",
+          "capability_invocation:b755e0d9701d4724179551eea8ed2777d7e9f9911c62a58b4166df38ede12ab4": "pure_attempt:96c0b7cf2ee3c8db657970532b06244c43ad8d6f7cd65a556ba7041cb7e989fe",
+          "capability_invocation:bbe329c61fbb27148f650dd66e66ae02dd6d5fccfe0271e88411d233f452ebbf": "pure_attempt:cbd26f91b45f05d183de98104940b950d2550991757a3740fa1d956589d72cf2",
+          "capability_invocation:c2ec811fd707fccf70462fa48b3a62a869e9e7bbc29f5e623a2f258275eca614": "pure_attempt:2f5c4c5f3ff37494eecb292ccebafe356c59e5cd27b33e093174b5826e57b6ff",
+          "capability_invocation:ea2998419745f265b8e81b85a358915c9397fbf924f4be0705feafb524fc0b4d": "pure_attempt:171bc1f93b6bffaedd1c6421358680c469a8dd67e0288a16e61aa31da07f0d99",
+          "capability_invocation:f1d1521ce3528d93a5caf6f60d4426a7b64bc4d6d84dd693a5e2da259f99cf3c": "pure_attempt:28872bb875ac85667f21f960a8eb009e5ccbaf5a364d6ddf4babf3b35a3f77bd"
+        },
+        "native_work_seconds": 58.391180749982595,
+        "provider_calls": 0,
+        "task_and_custody_roots": "ACCEPT"
+      }
+    ],
+    "aged_unexpired": {
+      "TTL_extended": false,
+      "actual_additional_and_selected_PURE_invocations": {
+        "capability_invocation:3e0aa6b151487111ac2a8cbdf604963c8c9b5ba8c5fbfc51e664b4f52b880082": "pure_attempt:751cea32d190b4ca5cf74ee88618ec0705454b941ac78d7ed407960504774661",
+        "capability_invocation:494b8ec54fd2939769fb8e1b337b0302e9a41099f9a9e92eef8ea31ae56bf74e": "pure_attempt:0846fe687d621aca650d78e9c8a9b69a6b3da5c121a8c6f3eb8f22c80c1cf0ee"
+      },
+      "actual_work_time": 1792564432,
+      "checkpoint_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/aged_current_check_78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd.json",
+        "sha256": "78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd",
+        "size_bytes": 177491
+      },
+      "controlled_history_clock_explicit": true,
+      "current_Root_reviews": "THREE_ACCEPT",
+      "history_before_after_identical": true,
+      "history_evaluation_time": 1792564595,
+      "history_opened": false,
+      "original_ttl_seconds": 893,
+      "original_valid_to": 1792565188,
+      "prior_fp": 0,
+      "retained_history_files_rehashed": 6
+    },
+    "cold_and_qualified_G3_current_consumers": true,
+    "first_current_TaskStore_task_accepted": true,
+    "first_synthetic_roles_completed": 3,
+    "negative_native_Root_BLOCKED_FAIL_CLOSED": true,
+    "no_whole_run_or_model_semantics_acceptance": true,
+    "own_history_changes_current_operation": true,
+    "real_reader_timestamp_drift_without_revision": true,
+    "unscorable_and_current_eligibility_controls_retained": true
+  },
+  "actual_id": "TASKSTORE_SEAM_V02",
+  "candidate_execution_by_reviewer": false,
+  "failed_role_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_04a08a4a064d4184bdfd2d8668b70d8e.json",
+    "sha256": "d75c7b0e9bb5534453f59e6837b46b3f0b305483445d35a5e6f0511d65c86f65",
+    "size_bytes": 13458
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_grant.json",
+    "sha256": "66b5b7c1333392de1feac3996ee57ab20e476abf2560cb0245036de94f7149e2",
+    "size_bytes": 650642
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_v02_invocation_receipt.json",
+    "sha256": "f94416bbf360cfeb18038b31cb4a32cc3e157aa11af51b2f529beca84e6d5a89",
+    "size_bytes": 23799
+  },
+  "measured_timing": {
+    "exact_total_run_elapsed": "UNKNOWN",
+    "filesystem_mtimes_not_promoted_to_monotonic_measurements": true,
+    "native_phase_measurements": [
+      {
+        "elapsed_wall_ns": 103045930167,
+        "phase": "cold_decision"
+      },
+      {
+        "elapsed_wall_ns": 13271177666,
+        "phase": "prospective_feedback"
+      },
+      {
+        "elapsed_wall_ns": 104619921792,
+        "phase": "subsequent_work"
+      },
+      {
+        "elapsed_wall_ns": 840875,
+        "phase": "unscorable_control"
+      },
+      {
+        "elapsed_wall_ns": 19303239833,
+        "phase": "eligibility_controls"
+      },
+      {
+        "elapsed_wall_ns": 39391686458,
+        "phase": "aged_current_check"
+      }
+    ],
+    "native_phase_total_seconds": 279.632796791,
+    "nested_measurements_must_not_be_double_counted": true,
+    "transport_roles": [
+      {
+        "outcome": "COMPLETED",
+        "receipt_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_3900f3d4e28540b3849eb23adedaa780.json",
+          "sha256": "078074730991af5aa45b3daa37fd339ba7ca2a4b2674319462471d05f421917e",
+          "size_bytes": 15520
+        },
+        "role": "orchestrator",
+        "task_id": "radik-task:865e76c52b0c4cd2ad270348586807b7",
+        "utc_finished": "2026-10-21T06:23:38.859706+00:00",
+        "utc_started": "2026-10-21T06:22:45.221292+00:00",
+        "wall_seconds": 53.63904654234648
+      },
+      {
+        "outcome": "COMPLETED",
+        "receipt_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_57f4994881f14eb0a37d0aa8daf3cd93.json",
+          "sha256": "22f5ed39c88e1c02696000cd4be02dc84c692dcb5861d7cb9720139a0132fae6",
+          "size_bytes": 22339
+        },
+        "role": "architect",
+        "task_id": "radik-task:865e76c52b0c4cd2ad270348586807b7",
+        "utc_finished": "2026-10-21T06:25:01.354325+00:00",
+        "utc_started": "2026-10-21T06:24:06.830404+00:00",
+        "wall_seconds": 54.524565500207245
+      },
+      {
+        "outcome": "COMPLETED",
+        "receipt_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_ab3f34495b5c4364ae3d714b57a27006.json",
+          "sha256": "96837dd5ea34ee1498a918e30b5932e7481578d7d7fdbe07c40760c8da50862a",
+          "size_bytes": 25538
+        },
+        "role": "critic",
+        "task_id": "radik-task:865e76c52b0c4cd2ad270348586807b7",
+        "utc_finished": "2026-10-21T06:27:52.522570+00:00",
+        "utc_started": "2026-10-21T06:26:19.970649+00:00",
+        "wall_seconds": 92.55301612522453
+      },
+      {
+        "outcome": "FAILED",
+        "receipt_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/review/finalized_observations/result_04a08a4a064d4184bdfd2d8668b70d8e.json",
+          "sha256": "d75c7b0e9bb5534453f59e6837b46b3f0b305483445d35a5e6f0511d65c86f65",
+          "size_bytes": 13458
+        },
+        "role": "orchestrator",
+        "task_id": "radik-task:dfd4fe49a5734cb0b54aa9f662b19ac6",
+        "utc_finished": "2026-10-21T06:36:09.281456+00:00",
+        "utc_started": "2026-10-21T06:35:18.823848+00:00",
+        "wall_seconds": 50.4582020835951
+      }
+    ]
+  },
+  "not_established": [
+    "Completed unrelated task/current consumer S5-06",
+    "Actual registered source revision/stale-binding refusal S5-04",
+    "Six synthetic role completion",
+    "Final loaded-module inventory",
+    "Normal operation close marker/explicit lock release receipt",
+    "Aggregate result/completion readback inside900",
+    "Owner readiness/Stage05 closure"
+  ],
+  "observed_stop": {
+    "completed_stream_is_not_accepted_task": true,
+    "exact_total_wall_seconds": "NOT_RECORDED",
+    "final_traceback_code": "seam_absolute_final_cutoff",
+    "inner_exception": "NOT_RETAINED",
+    "outer_primary": "plan_dispatch_or_stream_uncertain",
+    "request_deadline_expired": false,
+    "response_completed_observed": true,
+    "role": "orchestrator",
+    "scenario_stage": "UNRELATED_TASK",
+    "secondary_terminal_code": "SEAM_CLEANUP_DEADLINE",
+    "synthetic_attempt_position": 4,
+    "task_position": 2,
+    "tool_exit_code": 1,
+    "within_900_seconds_verified": false
+  },
+  "owner_execution_authorized": false,
+  "preservation": {
+    "actual_evidence_modified": false,
+    "aggregate_result_exists": false,
+    "all465_guards_matched_on_first_closed_readback": true,
+    "child_processes_spawned": false,
+    "completion_exists": false,
+    "copied_active_attempt": null,
+    "copied_active_task": null,
+    "copied_new_attempts": 4,
+    "copied_outcomes": [
+      "COMPLETED",
+      "COMPLETED",
+      "COMPLETED",
+      "FAILED"
+    ],
+    "current_matching_guards": 464,
+    "explicit_lock_release_confirmed": false,
+    "later_authorized_packager_change_with_exact_preimage": [
+      "review/stage05_qualified_experience_passage/v02/build_return.py"
+    ],
+    "new_task_statuses": [
+      "COMPLETED",
+      "FAILED"
+    ],
+    "normal_operation_close_marker": false,
+    "old11_tasks_unchanged": true,
+    "original44_ledger_rows_unchanged": true,
+    "tool_process_closed": true
+  },
+  "remaining_check_scope": "Separately review fresh unrelated task/current Root/PURE and actual source registration revision refusal. Reuse accepted V02 ordinary/G4/aged evidence; no expired-memory renewal, restored live binding or automatic repeat.",
+  "retained_observation_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/001_preserving_installation.json",
+      "sha256": "3bb005993b9e9de8fce75883acd3e3b1995fbbacd4c3bbcaa25360bda38ebc24",
+      "size_bytes": 1413
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/002_typed_transport_binding.json",
+      "sha256": "fc987a18e53a7e4866fab58dc7f4767532ded6505b59f52817948462d69571ae",
+      "size_bytes": 379
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/003_closed_native_diagnostics.json",
+      "sha256": "176fcd3624745692404b9d2876fa073fbcf9e59a7346a9e48673e19d800a7430",
+      "size_bytes": 2018
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/004_event.json",
+      "sha256": "d26b02c13208698411a55c42d9ee34368eeea8857cc47931821636e72d5eb341",
+      "size_bytes": 588
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/prospective_scenario_5f514b0ae9707973eee09b94eced8cc93dc5690dc341ac9b2f7d9dfbe85f2c2a.json",
+      "sha256": "5f514b0ae9707973eee09b94eced8cc93dc5690dc341ac9b2f7d9dfbe85f2c2a",
+      "size_bytes": 3364
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/005_real_reader_observation_tick.json",
+      "sha256": "f0e5aea6aa6a27a68eb8fe64984c7b12c9e23649d46c753468817c474f3cad00",
+      "size_bytes": 5747
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/006_actual_blocked_Root.json",
+      "sha256": "74f90c85c5d2f01705686f050b3b9dfd82b008d0875836999db00432b5f113e6",
+      "size_bytes": 13107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/007_event.json",
+      "sha256": "f970a6fa20d44186c48260cd58e1c8d1fdb63d5adfeee6a4b149209e1ef124fb",
+      "size_bytes": 597
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/ordinary_accepted_result_f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806.json",
+      "sha256": "f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806",
+      "size_bytes": 36473
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/008_event.json",
+      "sha256": "2a20223319cec4169e4c13431b749c9d165b970360ba1a223f33f8a14f6a0326",
+      "size_bytes": 87
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/009_event.json",
+      "sha256": "f6c2192b0a32779ad5c660f252063da7c6d56b9cffd9adf315b0b39c21a09e4f",
+      "size_bytes": 682
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034.json",
+      "sha256": "3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034",
+      "size_bytes": 144212
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/010_event.json",
+      "sha256": "5f514b92fc151ec952999d69345efcea2feaba0f4ad25b0cc1f847de37987a02",
+      "size_bytes": 86
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/011_event.json",
+      "sha256": "e618919a337a0f5633a29637e0f3ffdc9222df6eefdd9dbd17bee15f6c90b0b2",
+      "size_bytes": 587
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/cold_allocated_work_7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32.json",
+      "sha256": "7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32",
+      "size_bytes": 18581
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/012_event.json",
+      "sha256": "5271fc495b5b8f941b7def095b10314a95c9eee810c45ed9264685a98517e0dc",
+      "size_bytes": 94
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/013_event.json",
+      "sha256": "f3154bc7cb0fd4baffd84cc8ba0d340e7a7905d714e181de0372c183f2281dc5",
+      "size_bytes": 591
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/prospective_0e5dc1cae723899e2632dd0941c24997f9b76645d0a201ac137b86fd5d9704c7.json",
+      "sha256": "0e5dc1cae723899e2632dd0941c24997f9b76645d0a201ac137b86fd5d9704c7",
+      "size_bytes": 1460
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/014_event.json",
+      "sha256": "0e767836ea0c60c010c05bd1e5972d6cef08634558d349618d2674038479f5a3",
+      "size_bytes": 691
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_observation_39859ac94a324d139332907e4062a9c0ae275e28172aad4f85090092990ed6c2.json",
+      "sha256": "39859ac94a324d139332907e4062a9c0ae275e28172aad4f85090092990ed6c2",
+      "size_bytes": 64991
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/015_event.json",
+      "sha256": "f5ddcf9726ffe6e902389de6e3c0792aa59b6a5536286f46e94a849f09091afd",
+      "size_bytes": 93
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/016_event.json",
+      "sha256": "432e7e9a5170f6fb540bdce4578102cae41e63e3b006ca1f12ef7121874b648c",
+      "size_bytes": 585
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_feedback_77c9723ef9cf314175829ee33fce24f7e5a0a098d9b2704676ffdaac1299904c.json",
+      "sha256": "77c9723ef9cf314175829ee33fce24f7e5a0a098d9b2704676ffdaac1299904c",
+      "size_bytes": 65079
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/017_event.json",
+      "sha256": "a60a587e226dfe7ef90ee9d92780fd82ccf928f2c38c1b048391e4da778aa806",
+      "size_bytes": 89
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/018_event.json",
+      "sha256": "4507f58439d295875078c0241109ee5eb4b7fba7934185ebd1ee77fd469fda26",
+      "size_bytes": 747
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd.json",
+      "sha256": "94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd",
+      "size_bytes": 193001
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/019_event.json",
+      "sha256": "2890f7423b3fd8769809f8227b0b5ed8debbefd983a885e27ac945d3d86755e3",
+      "size_bytes": 88
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/020_event.json",
+      "sha256": "3d12febdf1d475c0a7fa966baab691e17ec5ad16d2575737a9f43dfd2a4e408d",
+      "size_bytes": 597
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_allocated_work_e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f.json",
+      "sha256": "e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f",
+      "size_bytes": 19280
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/021_event.json",
+      "sha256": "3b0f051b4b289cf746a4654068ec976e9516ba8d94fc23f7b8b6a5a3aaf6dd00",
+      "size_bytes": 589
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/causal_chain_verified_a05508c9c6dd70f43d10a29313a0fdfe02e681536debf9812e58404b2aa6cf24.json",
+      "sha256": "a05508c9c6dd70f43d10a29313a0fdfe02e681536debf9812e58404b2aa6cf24",
+      "size_bytes": 871
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/022_event.json",
+      "sha256": "f05f013e316d977078a47162670ede0ea6e7e1bfa21287c7fda2a3ecd0ffa456",
+      "size_bytes": 92
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/023_event.json",
+      "sha256": "83c66c12182dbb299592a27724c698fa296b989ec0e395cdda46da4b02989342",
+      "size_bytes": 91
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/024_event.json",
+      "sha256": "493c28aa1ebced5c1d92ace7c72404f4219fe86976e83c7b2a6edae8ae2ec008",
+      "size_bytes": 596
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/unscorable_audit_control_80a22d84c25233042be9c7c09b9f7611bcba130fb0a7f427f096375722ce1fc8.json",
+      "sha256": "80a22d84c25233042be9c7c09b9f7611bcba130fb0a7f427f096375722ce1fc8",
+      "size_bytes": 1317
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/025_event.json",
+      "sha256": "9e374a5c6df405ce16ff936dc4491229c084da76a3be762c0d70eedb5cd9c31c",
+      "size_bytes": 94
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/026_event.json",
+      "sha256": "1bb40c459a2c05f0b26b95810b0b9f5ec754bf9067aebbec5a2bebd04a149926",
+      "size_bytes": 93
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/027_event.json",
+      "sha256": "d0a683e527b5c630181fd9cb5738a8fbe84f738330a4d854d4846e107fc79a34",
+      "size_bytes": 605
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/current_eligibility_controls_0316955426b584f9d9acdba94bff99528f5a30e862acde214836d1b96b775d46.json",
+      "sha256": "0316955426b584f9d9acdba94bff99528f5a30e862acde214836d1b96b775d46",
+      "size_bytes": 34008
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/028_event.json",
+      "sha256": "8fc8f27122fd30fbb07e716f3595d0f0d725d75de3c67dfea9934dcf2e9296fa",
+      "size_bytes": 92
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/029_event.json",
+      "sha256": "326393632c46c6b06f2733a6199cb36888c9c7671543a7d7a1f6d30f77534b34",
+      "size_bytes": 682
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595.json",
+      "sha256": "c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595",
+      "size_bytes": 148339
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/030_event.json",
+      "sha256": "8a0cea7623611f0e88e2579e3b6586c03763b8a125b167d2351f99b1f6961365",
+      "size_bytes": 91
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/031_event.json",
+      "sha256": "54739e1ea2f0d5db708e159d93a03d3218cc0186dbd2e4de587e82fe9d01e121",
+      "size_bytes": 586
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/aged_current_check_78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd.json",
+      "sha256": "78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd",
+      "size_bytes": 177491
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/032_event.json",
+      "sha256": "0b3208d5f39f7dd4369c51a2a2481f9ac70eca1c27f3278aea7a18f73abbbb03",
+      "size_bytes": 600
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/unrelated_prospective_task_ca6986fa654b8be20909d284d7dc7d1ced022a4e1d4b9073282c7bcf8c3da064.json",
+      "sha256": "ca6986fa654b8be20909d284d7dc7d1ced022a4e1d4b9073282c7bcf8c3da064",
+      "size_bytes": 2553
+    }
+  ],
+  "retry_granted": false,
+  "reviewed_at_utc": "2026-10-21T06:46:20.230743+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "scenario_stopped_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/stopped_result_489eef811809eb1928217f3359b3f05fe3b6af6228b050b0cca22b599de84d0c.json",
+    "sha256": "489eef811809eb1928217f3359b3f05fe3b6af6228b050b0cca22b599de84d0c",
+    "size_bytes": 10374
+  },
+  "schema": "radik.stage05.taskstore_seam_partial_result_review.v02",
+  "source_diagnosis": {
+    "cost_boundary": "Only complete native-phase and transport receipt timings were retained. Per-function attribution and full owner native charge were not measured.",
+    "deadline_gap": "cutoff disables SIGALRM and raises TimeoutError. Generic transport handling can persist ledger/task/failure evidence with no alarm until run_current finally arms cleanup. Late unwinding exhausts the original hard deadline before final readback.",
+    "prior_review_correction": "Earlier fixture source acceptance missed the timer-free unwinding gap; complete bounded final readback was not guaranteed.",
+    "trigger_uncertainty": "Global work cutoff is consistent with the retained close-time evidence; precise original caught exception is not recovered."
+  },
+  "status": "PARTIAL_NATIVE_WITNESSES_ACCEPTED_OVERALL_STOPPED_FINALIZATION_INCOMPLETE"
+}

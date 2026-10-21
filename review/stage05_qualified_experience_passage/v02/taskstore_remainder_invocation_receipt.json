@@ -1,0 +1,10 @@
+{
+  "schema": "radik.stage05.tool_invocation_receipt.v01",
+  "case": "TASKSTORE_REMAINDER_V01",
+  "exit_code": 0,
+  "output": "REMAINDER_OUTER_RETURN {\"child_exit_code\": 0, \"child_reaped\": true, \"primary_stop\": null, \"receipt_ref\": {\"path\": \"review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/supervisor/receipt.json\", \"sha256\": \"987d0e51c721f1c0032c9baace1efabeeefabbfa2ca6cb60559c5069b0c11901\", \"size_bytes\": 1175}, \"status\": \"CHILD_RETURNED_REQUIRES_INDEPENDENT_REVIEW\"}\n",
+  "tool_wait_seconds": 431.8095413330001,
+  "command": ".venv-plan/bin/python -I -B review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py --grant review/stage05_qualified_experience_passage/v02/taskstore_remainder_grant.json --sha256 ccef275f7b0acb2d3f6b3db587ae838c114f163b8e68787006dede7363d3af07",
+  "observation": "Final outer-supervisor tool return; accidental agent broad search is separately disclosed in read_scope_incident_v01.json.",
+  "retry": "No automatic retry."
+}

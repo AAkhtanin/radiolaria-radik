@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v02/source_history/owner_terminal_before_final_banner.py
++++ review/stage05_qualified_experience_passage/v02/owner_terminal.py
+@@ -1091,7 +1091,7 @@
+             model_observation_after_handoff=False)
+         launch_ref = put(run/'launch.json', launch)
+         before_pin()
+-        show('Stage05 experience: one ordinary console process, at most 6 new role calls in two cold rounds, no E. Operation limit 4800 s; cumulative native limit 900 s; model response limit 600 s; cleanup limit 30 s. Limits are not an ETA.')
++        show('Stage05 experience: one ordinary console process, at most 6 new role calls in two cold rounds, no E. Operation limit 5400 s; cumulative native limit 1500 s; model response limit 600 s; cleanup limit 30 s. Limits are not an ETA.')
+         scenario_inputs = load_scenario_inputs(admission)
+         child_started = True
+         supervision_attempted = True

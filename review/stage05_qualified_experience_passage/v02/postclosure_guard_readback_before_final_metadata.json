@@ -1,0 +1,48 @@
+{
+  "actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_independent_result_review.json",
+    "sha256": "31eee6e3279d522e405581779d0ebf0b75d65bab5d1f973bc0ab16bf1c3d08be",
+    "size_bytes": 18321
+  },
+  "all_changed_run_preimages_exact": true,
+  "authorized_postclosure_guard_edit": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+      "postclosure_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/supervisor_timing.py",
+        "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+        "size_bytes": 16726
+      },
+      "run_preimage_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/supervisor_timing_before_final_owner_budget.py",
+        "sha256": "9a324cb92a222cf6a02f7eea12f82b73126d84cfb281c50de7e9cccc89f8db51",
+        "size_bytes": 16725
+      }
+    }
+  ],
+  "exact_current_unchanged_count": 495,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_grant.json",
+    "sha256": "ccef275f7b0acb2d3f6b3db587ae838c114f163b8e68787006dede7363d3af07",
+    "size_bytes": 670632
+  },
+  "guard_count": 496,
+  "reviewed_at_utc": "2026-10-21T07:09:08.401446+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.postclosure_guard_readback.v01",
+  "scope": "All 496 guards matched at the first closed readback. Only the timing module subsequently changed among those guards. README is separately preserved but was not in this grant guard set. This record precedes final metadata refresh and does not amend the closed actual.",
+  "separate_unguarded_document_edit": {
+    "included_in_496_guards": false,
+    "path": "review/stage05_qualified_experience_passage/v02/README.md",
+    "postimage_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/README.md",
+      "sha256": "c47bd0fac8a82ca9289de8bf418503c7cfa08aabf5a38951c0fd0b5c672d481e",
+      "size_bytes": 2889
+    },
+    "preimage_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/source_history/README_before_final_handoff.md",
+      "sha256": "88498d1b5f4ef3759a1f3726748fead37ebb7a062f60b2bf06fcb6e74a15f019",
+      "size_bytes": 2322
+    }
+  }
+}

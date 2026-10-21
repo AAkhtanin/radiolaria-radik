@@ -1,0 +1,918 @@
+{
+  "application_executed": false,
+  "entries": [
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/demo/work_composition_mock_capabilities_v01.py",
+      "bytes": 29523,
+      "module_path": "demo/work_composition_mock_capabilities_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+      "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/__init__.py",
+      "bytes": 0,
+      "module_path": "hedgehog/__init__.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/action_commit_packet_v02.py",
+      "bytes": 792178,
+      "module_path": "hedgehog/action_commit_packet_v02.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac",
+      "sha256": "e24b8c4bd3284c4b9db8944e2a9c268d26816956880ffb0700700bbf3fdc59ac"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/avf_v02.py",
+      "bytes": 32601,
+      "module_path": "hedgehog/avf_v02.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616",
+      "sha256": "ba88a22b3ddea715ad7af2731c171511273b6e7bb4c67f5d54024464a1a8b616"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/capability_admission_v01.py",
+      "bytes": 18116,
+      "module_path": "hedgehog/capability_admission_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+      "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/context_packets.py",
+      "bytes": 57747,
+      "module_path": "hedgehog/context_packets.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32",
+      "sha256": "080c69dfe24206549fbf27ae65141105c6e4b4c802b05296f1d90026823e9f32"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs.py",
+      "bytes": 3888,
+      "module_path": "hedgehog/drs.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+      "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_g2b_compatibility_v01.py",
+      "bytes": 48485,
+      "module_path": "hedgehog/drs_g2b_compatibility_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1",
+      "sha256": "5d4fb04cbf2e0819a0df5da17df724a0441747d2573fff924086dc9cfabaece1"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_memory_resolution_v01.py",
+      "bytes": 157202,
+      "module_path": "hedgehog/drs_memory_resolution_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/drs_semantic_address_v01.py",
+      "bytes": 57213,
+      "module_path": "hedgehog/drs_semantic_address_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+      "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/__init__.py",
+      "bytes": 3830,
+      "module_path": "hedgehog/evidence/__init__.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b",
+      "sha256": "2fa905efbd7f2a968d8a648ef14ef676a4f64bac94a159651c7a4d7b71a81b8b"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/external_anchor_v01.py",
+      "bytes": 35826,
+      "module_path": "hedgehog/evidence/external_anchor_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994",
+      "sha256": "299c6d2daabfe53c0c93c76a46709d09c4cc26b89907af17a30dab8ce8537994"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_evidence_profile_v01.py",
+      "bytes": 54293,
+      "module_path": "hedgehog/evidence/sealed_evidence_profile_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37",
+      "sha256": "3845a246e641aea8da3d9314e2d140bcb701a5488cb9de8153a62f0d84529b37"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_package_v01.py",
+      "bytes": 30908,
+      "module_path": "hedgehog/evidence/sealed_package_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53",
+      "sha256": "4fecf1b24696316348256acd1bd5a9e7a237dc37bd5b11abc41a71257796af53"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/evidence/sealed_replay_evidence_v01.py",
+      "bytes": 38035,
+      "module_path": "hedgehog/evidence/sealed_replay_evidence_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3",
+      "sha256": "f40e48f3d32f4b67250534f5d47d5bb4e076890497506ec4315d9ce06261c5a3"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/gt_validator.py",
+      "bytes": 21496,
+      "module_path": "hedgehog/gt_validator.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd",
+      "sha256": "e8fa9af23cbff04a059523aa25e47eec790c00776c902e545f1779e20ee5f0dd"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/informational_source_v01.py",
+      "bytes": 54539,
+      "module_path": "hedgehog/informational_source_v01.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": false,
+      "reference_sha256": null,
+      "sha256": "77c75ebc79cfd1819c1f14990dc3e12e87f379982cd8c8e8a3102edc9d1d7a0f"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/__init__.py",
+      "bytes": 24063,
+      "module_path": "hedgehog/kernel/__init__.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1",
+      "sha256": "b26dad7e3a5d47b2d717f002a0982bd0bb0fcde95110627846d81d747a0e4be1"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/abi_v01.py",
+      "bytes": 43017,
+      "module_path": "hedgehog/kernel/abi_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31",
+      "sha256": "cc1a660a3cdceb5c30728b27016e99a752561969d744744d55b18ce0af398d31"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/conformance_v01.py",
+      "bytes": 76437,
+      "module_path": "hedgehog/kernel/conformance_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f",
+      "sha256": "6cb61b29d37d4591d2da8dc10d7182d7a6c61010080415d58848a215718f6e2f"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "bytes": 574821,
+      "module_path": "hedgehog/kernel/continuous_delta_runtime_v01.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "879abad289ebae13b65cd0d2c5858e89f55fb059fecb111cde61d37f575a6af0",
+      "sha256": "e537cb0faf9180d9126b5784843abd2c3e23a668c16fe21d8ecc2ba2ef48a138"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "bytes": 3996,
+      "module_path": "hedgehog/kernel/diagnostic_telemetry_v01.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": false,
+      "reference_sha256": null,
+      "sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/effect_firewall_v01.py",
+      "bytes": 128809,
+      "module_path": "hedgehog/kernel/effect_firewall_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd",
+      "sha256": "46a453e0ef98565f0de59ab062b307eff6549a716973268a034592a5f98463bd"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/execution_mode_router_v01.py",
+      "bytes": 293681,
+      "module_path": "hedgehog/kernel/execution_mode_router_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4",
+      "sha256": "4b19de7348a15cd65f1bed02bd93d848ccc490b6c7b8fe21338c3784809f79c4"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/fractal_runtime_v02.py",
+      "bytes": 967599,
+      "module_path": "hedgehog/kernel/fractal_runtime_v02.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "ac946801b15c7464dd228034f64f0849c9567a71328ba50f3df314fe433dd0ba",
+      "sha256": "e83c7db697e2ea3fd0e1315b3e8def2afe71cec2d215c13e66a43d6e9865df4c"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/integrity_replay_v01.py",
+      "bytes": 48487,
+      "module_path": "hedgehog/kernel/integrity_replay_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be",
+      "sha256": "d496354e7dbca5ff9c96943fe0d4bf777e85a88b404b67c7dfcfda116ee8d0be"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/multiroot_v01.py",
+      "bytes": 52804,
+      "module_path": "hedgehog/kernel/multiroot_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff",
+      "sha256": "e29137031417927e98c86b808e8e3897987a32ff953bbd6adcd6b4a7367e03ff"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+      "bytes": 43352,
+      "module_path": "hedgehog/kernel/root_decision_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+      "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_signer_isolation_v01.py",
+      "bytes": 31043,
+      "module_path": "hedgehog/kernel/root_signer_isolation_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+      "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/semantic_work_v01.py",
+      "bytes": 58880,
+      "module_path": "hedgehog/kernel/semantic_work_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1",
+      "sha256": "34e6064cf62fda3b0b60ebc4f60cfdc963f3a609dfb9bd5d446c5b5bdd4c45b1"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/transition_registry_v01.py",
+      "bytes": 146346,
+      "module_path": "hedgehog/kernel/transition_registry_v01.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "16d2d3c31004bccc3064c74290bad4a7303669b63c428cebf6be8763574ae0ca",
+      "sha256": "03a3e8d3c4af764c3aae2e2b63930e2c5f6530123fbf6bedaccb6eabe6d52db6"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/trust_model_v01.py",
+      "bytes": 15364,
+      "module_path": "hedgehog/kernel/trust_model_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d",
+      "sha256": "6a1651bd624c78a09bfb433e3af8610d0033833d373b881e732da39381b65b2d"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/work_composition_v01.py",
+      "bytes": 89168,
+      "module_path": "hedgehog/kernel/work_composition_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_resolver.py",
+      "bytes": 53552,
+      "module_path": "hedgehog/local_drs_resolver.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4",
+      "sha256": "5fa06d3cd243f6ef8cfd87997596413654ef03efac27e622ac9093659aea99a4"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/local_drs_v02.py",
+      "bytes": 30549,
+      "module_path": "hedgehog/local_drs_v02.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af",
+      "sha256": "831c3c7e0a1bfcb2ad9cc56d61c2c33ccbc8982add7ac46434c55676c03a34af"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/post_vv.py",
+      "bytes": 18910,
+      "module_path": "hedgehog/post_vv.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3",
+      "sha256": "e2e856a3976a7250b738231aa62c39f1312278e6e6108e903ad363f87d7fcbe3"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_certificate_v01.py",
+      "bytes": 50900,
+      "module_path": "hedgehog/reuse_certificate_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c",
+      "sha256": "55a061a0e225ae479d06380a9f47ac4e3d22f5771ad0fc24c0f4a0bdc73c852c"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/reuse_gate.py",
+      "bytes": 4052,
+      "module_path": "hedgehog/reuse_gate.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584",
+      "sha256": "964bd4ae925c934710f1055514a256b2a5d7521e91841628180c418742df9584"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/semantic_reasoning_adapter.py",
+      "bytes": 14728,
+      "module_path": "hedgehog/semantic_reasoning_adapter.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6",
+      "sha256": "3900b23d3f15ee42b21b7f28895e1badf6639d56a98ce3fcbe5a9f9c072009f6"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/structured_rationale.py",
+      "bytes": 17449,
+      "module_path": "hedgehog/structured_rationale.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03",
+      "sha256": "05686cd42bc4ea0bd9b0bc2586c7df6fd51369d43ee0fb15af4c95326e3d1f03"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/time_model.py",
+      "bytes": 974,
+      "module_path": "hedgehog/time_model.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba",
+      "sha256": "1b461cf013f2e60a82509669b0ac692d0121b8d5f3c9d3a46a3d5fd33fc48cba"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/wasm_pure_worker_v01.py",
+      "bytes": 11394,
+      "module_path": "hedgehog/wasm_pure_worker_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+      "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/work_execution_host_v01.py",
+      "bytes": 61617,
+      "module_path": "hedgehog/work_execution_host_v01.py",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b",
+      "sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/attractor_packet.schema.json",
+      "bytes": 5858,
+      "module_path": "schemas/attractor_packet.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2",
+      "sha256": "361c7c821b02177236c1515a1b4ab1d59912955672b0fa76a0fd935116d360a2"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/candidate_vector.schema.json",
+      "bytes": 2703,
+      "module_path": "schemas/candidate_vector.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd",
+      "sha256": "286fd88878693d98fe9c7978b41183f8a9ccb0cb2974ee39e52b29dc944a8ecd"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/capability_admission_v01.schema.json",
+      "bytes": 2711,
+      "module_path": "schemas/capability_admission_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+      "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/common.schema.json",
+      "bytes": 4583,
+      "module_path": "schemas/common.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880",
+      "sha256": "961e73333fe62a7d935c7951a1104f1eb02ed7a20cf36c5e7df6d74e6d4d7880"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/continuous_delta_runtime_v01.schema.json",
+      "bytes": 142221,
+      "module_path": "schemas/continuous_delta_runtime_v01.schema.json",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "9cdeb3d987241383360413d6a4a02be4a3a1480e840aa334737dccd25fddb3b5",
+      "sha256": "a0a57d1f12a3a44ae1e3e67ab568c0a0e341ee0ad018565c389a9455f02577b4"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_meaning_record_v01.schema.json",
+      "bytes": 23992,
+      "module_path": "schemas/drs_meaning_record_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c",
+      "sha256": "dc6499a7e0fa4f89851cfc90dcc029a6fef3178a8f6c593c65f5a81c4f5f0f1c"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_memory_resolution_v01.schema.json",
+      "bytes": 50293,
+      "module_path": "schemas/drs_memory_resolution_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742",
+      "sha256": "194b8f44aec569f7c064dd1423bb2f9696d8cca0742f0ad48f093cd45dc0f742"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_record.schema.json",
+      "bytes": 5829,
+      "module_path": "schemas/drs_record.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29",
+      "sha256": "a4948d36e3089485bff72841f5e8bb764b292c1ab3b505866695fddee971bd29"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/drs_semantic_address_v01.schema.json",
+      "bytes": 4442,
+      "module_path": "schemas/drs_semantic_address_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c",
+      "sha256": "595e7b1950ea5a879003633441069a68c75ff36d774fad9c85220dc46a0e002c"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/execution_mode_router_v01.schema.json",
+      "bytes": 79878,
+      "module_path": "schemas/execution_mode_router_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468",
+      "sha256": "cd07223ffd6085682cee4a49781f5471997ad371b4cd3916d01c146ed7e33468"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/final_output.schema.json",
+      "bytes": 1635,
+      "module_path": "schemas/final_output.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1",
+      "sha256": "bd98e729440c9fbc8ca857a51efb38e3aaf887758332c60106cd9cb8ef2627d1"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/fractal_runtime_v02.schema.json",
+      "bytes": 404077,
+      "module_path": "schemas/fractal_runtime_v02.schema.json",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "95f81f4122e021d4cba1bd43e6ec8d337ccdb36af058e96ea1e7e3f2f6283df5",
+      "sha256": "8fa988bbce1f89689fb411c219c99f8f3011b60fca94a6aee94dd80b52d4b6e2"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate3_adversary_v01.schema.json",
+      "bytes": 8515,
+      "module_path": "schemas/gate3_adversary_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6",
+      "sha256": "dee9e823eec92579ae5a9a26943eb6fb3265657cb9314f8fee780783e50b24b6"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gate4_reference_v01.schema.json",
+      "bytes": 59314,
+      "module_path": "schemas/gate4_reference_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d",
+      "sha256": "392e821ccdee2eaf99cc462553fb4f5308d41f8847554fe9c35a075afdc2f30d"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/gt_report.schema.json",
+      "bytes": 7732,
+      "module_path": "schemas/gt_report.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3",
+      "sha256": "783be910399f5bc8e640c00aa42d8af90b7a122d1404fa11b15347e5c35072e3"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/informational_source_v01.schema.json",
+      "bytes": 17635,
+      "module_path": "schemas/informational_source_v01.schema.json",
+      "origin": "INHERITED_ACCEPTED_STAGE04_G2E_OVERLAY",
+      "original_map_entry_preserved": true,
+      "reference_path_present": false,
+      "reference_sha256": null,
+      "sha256": "7d14c8b05690e29ae57bea9720011094716310113a6e781ddd628e32f63fced5"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/intent.schema.json",
+      "bytes": 1762,
+      "module_path": "schemas/intent.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9",
+      "sha256": "61cb62a7cd0e6a8ff10daf13e41058e914c36c199d31e97c0f1a1ce9e6fb4be9"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/kernel_artifact_v01.schema.json",
+      "bytes": 7381,
+      "module_path": "schemas/kernel_artifact_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7",
+      "sha256": "85f12750d5849571ea927c1430ba99f025ec2db4eacd07e18f8450e1339163e7"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/marenna_record.schema.json",
+      "bytes": 3774,
+      "module_path": "schemas/marenna_record.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909",
+      "sha256": "cea87125f5c815f02f12cc2a758e863b8d92d22996d3001702e6617a004a2909"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/needle.schema.json",
+      "bytes": 4774,
+      "module_path": "schemas/needle.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01",
+      "sha256": "2912b1eb4f4960ae886b334e0e80f421a7268e9e40615480e1f90d3e775cfe01"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "bytes": 31692,
+      "module_path": "schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+      "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "bytes": 357296,
+      "module_path": "schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+      "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/outcome_feedback_v01.schema.json",
+      "bytes": 32082,
+      "module_path": "schemas/outcome_feedback_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+      "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/plan_graph.schema.json",
+      "bytes": 3804,
+      "module_path": "schemas/plan_graph.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb",
+      "sha256": "706a00ae1558e2ce65127bab2ea1eb65ae7f510d48f02f80ee8d87110ccc30fb"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/result_proposal.schema.json",
+      "bytes": 2522,
+      "module_path": "schemas/result_proposal.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382",
+      "sha256": "d880876a28a03cd586db8f84d3c5c27a40ca526b9a4b8438f62894ef0d75b382"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/reuse_certificate_v01.schema.json",
+      "bytes": 14505,
+      "module_path": "schemas/reuse_certificate_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e",
+      "sha256": "c19b0d114fc67e852e26d83c2c0d3ac5bd3d9870d096a095c68ad45b97262a0e"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/semantic_work_v01.schema.json",
+      "bytes": 13903,
+      "module_path": "schemas/semantic_work_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+      "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/temporal_query.schema.json",
+      "bytes": 830,
+      "module_path": "schemas/temporal_query.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2",
+      "sha256": "8803318aa5f01c0e5b95367a9b36ce60e07e9dde8e5245764ba74f2ba3ad73a2"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/time_envelope.schema.json",
+      "bytes": 1333,
+      "module_path": "schemas/time_envelope.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424",
+      "sha256": "fffa05739e3eeed6d4cc6b4342d8833d6435aa8e9edbdfdafb96e5a7f3a99424"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/up_record.schema.json",
+      "bytes": 4432,
+      "module_path": "schemas/up_record.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df",
+      "sha256": "7039976ae95f9466c325e6bd0b30b11f4b59b62101d15210d4b17964b4f965df"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/vv_report.schema.json",
+      "bytes": 4160,
+      "module_path": "schemas/vv_report.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854",
+      "sha256": "44d9db2f5046e39178acc1461a93c670870fae0a2c71db79d61dfd5e193f4854"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/work_composition_v01.schema.json",
+      "bytes": 14114,
+      "module_path": "schemas/work_composition_v01.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+      "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/schemas/world_state.schema.json",
+      "bytes": 3492,
+      "module_path": "schemas/world_state.schema.json",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e",
+      "sha256": "bc7e895c6653f397fdb132ccf23b34d80cb41adf78caf6e71e6573b888b85e3e"
+    },
+    {
+      "active_path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/tests/test_continuous_delta_runtime_g2_e_v01.py",
+      "bytes": 752380,
+      "module_path": "tests/test_continuous_delta_runtime_g2_e_v01.py",
+      "origin": "INHERITED_STAGE04_EXACT_REFERENCE",
+      "original_map_entry_preserved": true,
+      "reference_path_present": true,
+      "reference_sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d",
+      "sha256": "3bb3d6678ea5e016dc6fd2b2ef825148c5198db3e7dce3b114577cd12b2a3c4d"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/__init__.py",
+      "bytes": 67,
+      "module_path": "hedgehog/domains/__init__.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8",
+      "sha256": "f33ec43826cba0521f58774c1500cb6f84d72bb36d88db8d41c7f1992cdb80a8"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/__init__.py",
+      "bytes": 590,
+      "module_path": "hedgehog/domains/supplier_water_filter/__init__.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0",
+      "sha256": "dbca71e4fe22c58cd4b24f46f069c5e2e9fe60c30503dc7489a1f162bb818fa0"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+      "bytes": 65393,
+      "module_path": "hedgehog/domains/supplier_water_filter/adversarial_feedback_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6",
+      "sha256": "683260a8c524f451c061e6da5207fa1196f41b1a0398167c15fa7a1b9c3b8bc6"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+      "bytes": 22566,
+      "module_path": "hedgehog/domains/supplier_water_filter/gate3_runtime_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc",
+      "sha256": "4ce5ccbbbe8c0235533885326c9dc1cf092201ddff228fe8e0bcc80d5eca87bc"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+      "bytes": 62327,
+      "module_path": "hedgehog/domains/supplier_water_filter/kernel_adapter_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe",
+      "sha256": "0ec36f709977b85f457739e1266ba3889a5735eee2dc89f033a34e45512abdfe"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_calibration_v01.py",
+      "bytes": 57704,
+      "module_path": "hedgehog/outcome_calibration_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079",
+      "sha256": "ce4a29c7dfe0f536b53fce8435ac584509681bf1cef4511d46ac0bfd48e05079"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_consumer_v01.py",
+      "bytes": 29609,
+      "module_path": "hedgehog/outcome_feedback_consumer_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+      "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_history_v01.py",
+      "bytes": 57644,
+      "module_path": "hedgehog/outcome_feedback_history_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+      "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/outcome_feedback_v01.py",
+      "bytes": 65821,
+      "module_path": "hedgehog/outcome_feedback_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13",
+      "sha256": "16331fc98dc00f0d1e3bc1fff9ac65d15e555c0db1d7a3f2262a92d8acfd5a13"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_reference_contracts_v01.py",
+      "bytes": 15842,
+      "module_path": "hedgehog/gate4_reference_contracts_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42",
+      "sha256": "706bea8631d769b4a29ea60bd7a0f0634bcf83b70494d4c7cc5e8c522188bb42"
+    },
+    {
+      "active_path": "review/stage05_qualified_experience_passage/v01/native_runtime/hedgehog/gate4_pressure_budget_v01.py",
+      "bytes": 9665,
+      "module_path": "hedgehog/gate4_pressure_budget_v01.py",
+      "origin": "STAGE05_EXACT_PINNED_REFERENCE_ADDITION",
+      "original_map_entry_preserved": false,
+      "reference_path_present": true,
+      "reference_sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27",
+      "sha256": "768094bea0cc012046f6c1c514ccbf108e340932f86324d76c59cad0d6680d27"
+    }
+  ],
+  "exact_reference_addition_count": 11,
+  "imports_executed": false,
+  "inherited_count": 77,
+  "inherited_manifest": "review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json",
+  "inherited_manifest_sha256": "99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_modified": false,
+  "reference_tree": "d665994930e50c7f10d5f928d57ceb7aac758203",
+  "resource_analysis": {
+    "conditional_unselected_resources": [
+      {
+        "disposition": "NOT_ADMITTED_NOT_CALLED_BY_PREDICTIVE_PROFILE",
+        "path": "fixtures/gate3_adversary_reference_v01.json",
+        "requesting_symbol": "hedgehog.domains.supplier_water_filter.adversarial_feedback_v01.reference_v01"
+      },
+      {
+        "disposition": "NOT_ADMITTED_NOT_CALLED_BY_PREDICTIVE_PROFILE",
+        "path": "schemas/outcome_feedback_g35_sources_v01.schema.json",
+        "requesting_symbol": "hedgehog.outcome_feedback_v01.validate_g35_source_v01"
+      }
+    ],
+    "embedded_schema": "hedgehog/gate4_reference_contracts_v01.py embeds its reference schema.",
+    "inherited_resources": "All 77 prior native map entries, including existing schemas and overlay paths, are preserved exactly.",
+    "new_required_runtime_resources": [],
+    "selected_profiles": [
+      "G34_CONTROLLED_BOOLEAN_WORK_PREDICTION_V01",
+      "G34_DURABLE_SOURCE_BOUND_HISTORY_V01",
+      "G4_REFERENCE_NUMERIC_V01"
+    ],
+    "unconditional_supplier_import": "OutcomeHistoryV01._derive imports supplier adversarial module for collector comparison. Its package initializer imports the pure kernel adapter. No domain entrypoint is called."
+  },
+  "schema": "radik.stage05.native_overlay_origins.v01",
+  "total_count": 88
+}

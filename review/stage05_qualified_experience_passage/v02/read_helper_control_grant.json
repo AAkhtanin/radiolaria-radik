@@ -1,0 +1,36 @@
+{
+  "actual_id": "READ_HELPER_V01",
+  "application_native_model_AUTH_E_SAVE_execution_allowed": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "max_scratch_bytes": 24,
+  "max_scratch_files": 3,
+  "network": "DENIED",
+  "output_scope": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01",
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_source_proposal_v01.json",
+    "sha256": "b60a21cc464cd1ebd7f97b552150bcdbe6021bc70a2676ea3235a244c85ee454",
+    "size_bytes": 2619
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.read_helper_control_grant.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+      "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+      "size_bytes": 7400
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+      "size_bytes": 17415
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_independent_source_review.json",
+    "sha256": "3f3167d1bc339b09502a8264ef647b15ed850904d2ba94cb7054bf728fd07250",
+    "size_bytes": 1995
+  },
+  "status": "ACCEPTED_ONE_AST_READ_HELPER_CONTROL"
+}

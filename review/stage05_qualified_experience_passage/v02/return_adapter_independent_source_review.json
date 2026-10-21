@@ -1,0 +1,38 @@
+{
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "d4c54810351e70053a98b75456b51bb0f3110c0c4f45d510a0fde5108214255f",
+    "size_bytes": 13494
+  },
+  "author": "/root/stage05_g3_contract",
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/build_return.py",
+    "sha256": "8c9509f3adc5a9c97b373e66fbe9b52dfdedfde269a661192c037d017d98dbb2",
+    "size_bytes": 13529
+  },
+  "delta": [
+    "New v02 passage, external owner-report directory and distinct one-use publisher reservation key.",
+    "Subject exceptions are limited to exact COMPLETION_V01/V02 ordinary copied owner-document or nested owner-terminal evidence paths; prior fixture prefixes are removed.",
+    "Exact bounded stable-byte reading, subject shapes, recursive secret-key validation and original archived bytes are unchanged."
+  ],
+  "imports": "Unchanged stdlib and exact pinned existing publisher only; no app/native imports.",
+  "owner_execution_allowed": false,
+  "packaging_execution_allowed": false,
+  "prior_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/return_adapter_prefix_delta_review_v03.json",
+    "sha256": "635193054ce1a7e595722947f3d6a6b90ff49f8353464923727a9b25fec98fa5",
+    "size_bytes": 1798
+  },
+  "publication_allowed": false,
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "remaining": "Final exact finite selection, public-subject exception inventory, reports, local commit receipt and prior archive identities require separate independent review and a one-use grant. No archive creation or repack performed.",
+  "review_findings": [],
+  "reviewed_at_utc": "2026-10-21T05:25:02.489713+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.completion_return_adapter_independent_source_review.v01",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_SELECTION_AND_ONE_USE_GRANT"
+}

@@ -1,0 +1,18 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "bd19a50c3e078fc3c92664961a9f2c5a7fce87e01c3d0e83366bc5978713c547",
+    "size_bytes": 13674
+  },
+  "candidate_execution": false,
+  "packaging_execution_authorized": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_taskstore_v02_prefix_proposal.json",
+    "sha256": "f6d17f77825bc47e2bb0545aae9b27484987abcc1f5580395d86cc15a0cc0aea",
+    "size_bytes": 1024
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_scope_independent_source_review.v01",
+  "scope": "Only TASKSTORE_SEAM_V02 exact copy witness and work output prefixes added. Exact subject shapes, file/pointer/value hashes, recursive secret scanning and publisher are unchanged.",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_SELECTION_AND_SEPARATE_GRANT"
+}

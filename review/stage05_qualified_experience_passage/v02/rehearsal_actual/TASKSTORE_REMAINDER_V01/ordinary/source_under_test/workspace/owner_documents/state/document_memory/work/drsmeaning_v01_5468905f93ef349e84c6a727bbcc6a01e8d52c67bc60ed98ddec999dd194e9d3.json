@@ -1,0 +1,212 @@
+{
+  "content": {
+    "criterion": "Preserve opening days and hours, the garden weather exception, one-visit ticket scope and separate tour booking.",
+    "drs_hit_is_authority": false,
+    "drs_record_is_truth": false,
+    "drs_reuse_candidate_is_action_permission": false,
+    "intent": "Explain the visiting conditions of fictional Museum Alder.",
+    "kind": "accepted_dynamic_result",
+    "meaning_key": "6702c03244ec4409e69e7e05106e198845324a79574e7791f45b22a6bffee3fc",
+    "record": {
+      "artifact_pointers": [
+        {
+          "access_policy_id": "radik:owned_accepted_document_memory",
+          "allowed_use_classes": [
+            "OPEN_ONE_ARTIFACT"
+          ],
+          "byte_length": 34646,
+          "content_sha256": "e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+          "creates_authority": false,
+          "creates_permission": false,
+          "forbidden_use_classes": [],
+          "media_type": "application/json",
+          "object_reference": "e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+          "payload_read_permitted": true,
+          "pointer_id": "drsart_v01:65e219953f5abee9729f440bad81d8558a2ad8e339b72e163dfba6ed601bd3de",
+          "pointer_version": "v0.1",
+          "sensitivity_class": "INTERNAL",
+          "storage_class": "LOCAL_DOCUMENT",
+          "summary_read_permitted": true
+        }
+      ],
+      "authority_envelope": {
+        "action_permission_present": false,
+        "authority_class": "ROOT_ACCEPTED_WORK",
+        "authority_envelope_id": "drsauth_v01:3323e32722c2d5cfd45217aad18ef61f100ebbf69a1b04a1e14ef7b4f86a4c92",
+        "authority_envelope_version": "v0.1",
+        "authority_scope_fingerprint": "e6f61565bce376a43586387fe026432d27382fe0e2d35e4c25fd1a57a7523f6d",
+        "creates_authority": false,
+        "creates_permission": false,
+        "owning_local_root_id": "root:radik:dynamic_memory",
+        "recording_component": "radik:document_memory",
+        "root_acceptance_state": "ACCEPTED_WORK",
+        "source_root_decision_hash": "066ad745186fdb41515f6eeacc9c846e405b5d562e27cd317c5f792f278da5f7",
+        "source_root_decision_id": "68d883997667cd8907c9c0167bee5e2f051653c82a83f7544e829c29d02a1b47",
+        "source_root_decision_input_id": "fe5976894db5246d4bfae2d2d2aafd0c3919aa6038cf42ddd5e6a938fd4c8315"
+      },
+      "conflict_hints": [],
+      "content_fingerprint": "e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+      "creates_authority": false,
+      "creates_permission": false,
+      "lineage_edges": [],
+      "local_reference_kernel_scope": "LOCAL_REFERENCE_KERNEL",
+      "meaning_record_id": "drsmeaning_v01:5468905f93ef349e84c6a727bbcc6a01e8d52c67bc60ed98ddec999dd194e9d3",
+      "meaning_record_version": "v0.1",
+      "memory_pointers": [],
+      "persistent_lifecycle_state": "ACTIVE",
+      "policy_version": "radik.dynamic.memory.v01",
+      "predecessor_record_id": null,
+      "recording_component": "radik:document_memory",
+      "resonance_reason": "Actual accepted document Work; new current eligibility and independent descent required.",
+      "reuse_policy_class": "CONTEXT_ONLY",
+      "risk_hints": [],
+      "safe_summary": "Accepted document Work result. The exact profile result, source bindings and original Root provenance are in the controlled local artifact. Current eligibility and fresh Root descent are required.",
+      "schema_versions": [
+        "radik.dynamic.memory.v01"
+      ],
+      "semantic_address": {
+        "address_profile_version": "v0.1",
+        "domain": "RADIK_DOCUMENT",
+        "intent_class": "context_lookup",
+        "meaning_schema_id": "radik.dynamic.memory",
+        "meaning_schema_version": "v01",
+        "namespace": "radik",
+        "semantic_address_id": "drsaddr_v01:84841425198232099b939d5aa47c1298deadbe8e52b6d47c305d5555294fa7eb",
+        "subject_class": "accepted_dynamic_document_result"
+      },
+      "semantic_tags": [
+        "document",
+        "accepted_result"
+      ],
+      "source_reference_ids": [
+        "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+        "878137e3d18fa52b0b3db62d972ef5c0fc7e4df3935fdbc9dd668b3678fe63d9",
+        "dc315cd0f3fd3fdbb7a32314aa293f24e274b7910c98a3c46d617b9789e1e230"
+      ],
+      "supersession_reason": null,
+      "time_envelope": {
+        "ct_context_anchor": 1792566152,
+        "et_observed_at": 1792566152,
+        "freshness_policy_id": "freshness:radik:document_memory",
+        "kt_as_of": 1792566152,
+        "pt_created_at": 1792566152,
+        "source_observed_at": 1792566152,
+        "source_reported_at": 1792566152,
+        "system_ingested_at": 1792566152,
+        "system_verified_at": 1792566152,
+        "time_envelope_id": "drstime_v01:68003fef728b6e4ef1e12516300c1e846b1dec37761ade0002746a807d9317f6",
+        "time_envelope_version": "v0.1",
+        "ttl_seconds": 480,
+        "valid_from": 1792566152,
+        "valid_to": 1792566632
+      }
+    },
+    "root_final_ref": "68d883997667cd8907c9c0167bee5e2f051653c82a83f7544e829c29d02a1b47",
+    "semantic_keys": [
+      "document",
+      "accepted_result"
+    ],
+    "topic_id": "stage05_unrelated_museum_visits",
+    "worldstate": {
+      "meaning": {
+        "criterion": "Preserve opening days and hours, the garden weather exception, one-visit ticket scope and separate tour booking.",
+        "goal": "Explain the visiting conditions of fictional Museum Alder.",
+        "profile": "explain",
+        "sources": [
+          {
+            "revision": 1,
+            "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+            "source_ref": "radik:source:ece4e19070cae9fd426766ad328cd1a9"
+          }
+        ],
+        "supplied_candidate_sha256": null,
+        "topic": "stage05_unrelated_museum_visits",
+        "version": "radik.dynamic.meaning.v01"
+      },
+      "meaning_key": "6702c03244ec4409e69e7e05106e198845324a79574e7791f45b22a6bffee3fc",
+      "policy": "radik.dynamic.memory.v01",
+      "sources": [
+        {
+          "revision": 1,
+          "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+          "source_ref": "radik:source:ece4e19070cae9fd426766ad328cd1a9"
+        }
+      ]
+    },
+    "worldstate_ref": "e6f61565bce376a43586387fe026432d27382fe0e2d35e4c25fd1a57a7523f6d",
+    "writeback_root": {
+      "conflict_set_ids": [],
+      "decision": "ACCEPT",
+      "decision_id": "68d883997667cd8907c9c0167bee5e2f051653c82a83f7544e829c29d02a1b47",
+      "decision_input_id": "fe5976894db5246d4bfae2d2d2aafd0c3919aa6038cf42ddd5e6a938fd4c8315",
+      "effect_requested": false,
+      "final_output_created": false,
+      "hard_failure_reasons": [],
+      "missing_evidence_refs": [],
+      "permission_created": false,
+      "prior_decision_id": null,
+      "reason_code": "validated_candidate_accepted",
+      "root_commit_created": true,
+      "selected_candidate_id": "memory_write:e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+      "target_root_id": "root:radik:dynamic_memory",
+      "transaction_id": "memory_writeback:e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+      "transition_decision": {
+        "abi_major_version": 1,
+        "actor_role": "gt",
+        "attempted_effect": "CREATE_ROOT_DECISION",
+        "decision": "RETURN_TO_ROOT",
+        "decision_id": "85eff0e7c3a8a4da444edd85f36a3a2c91929bd85b5ab85eed585a6574976e07",
+        "matched": true,
+        "missing_guards": [],
+        "reason_code": "gt_advisory_returns_to_root",
+        "registry_id": "336c082d1520d49cf9b23d1c6d983637b7835d8fa863a83dbbae82a11bfa26be",
+        "required_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "root_commit_present": false,
+        "root_commit_required": true,
+        "rule_id": "gt_advisory_to_root_decision",
+        "satisfied_guards": [
+          "artifact_valid",
+          "post_vv_passed",
+          "advisory_only"
+        ],
+        "source_artifact_type": "GTAdvisoryReport",
+        "source_lifecycle_state": "VALIDATED",
+        "target_artifact_type": "RootDecision"
+      }
+    }
+  },
+  "domain": "RADIK_DOCUMENT",
+  "layer": "work",
+  "provenance": {
+    "created_by": "radik:document_memory",
+    "request_id": "radik-task:da6a34ef3754422db97f468cddece8d1",
+    "trace_refs": [
+      {
+        "trace_id": "radik:dynamic_result:9539e96ae8f8cbf9347fc08b52d6bc6d6a6047919c92fc84c4d50aa14237f7a6"
+      }
+    ]
+  },
+  "record_id": "drsmeaning_v01:5468905f93ef349e84c6a727bbcc6a01e8d52c67bc60ed98ddec999dd194e9d3",
+  "status": "active",
+  "time_envelope": {
+    "ct_session_anchor": "radik-task:da6a34ef3754422db97f468cddece8d1",
+    "et_observed_at": "2026-10-21T07:02:32+00:00",
+    "freshness_class": "static",
+    "kt_asof": "2026-10-21T07:02:32+00:00",
+    "pt_created_at": "2026-10-21T07:02:32+00:00",
+    "ttl_seconds": 480,
+    "valid_from": "2026-10-21T07:02:32+00:00",
+    "valid_to": "2026-10-21T07:10:32+00:00"
+  },
+  "trace_refs": [
+    {
+      "kind": "local_drs_resolver",
+      "trace_id": "trace:drsmeaning_v01:5468905f93ef349e84c6a727bbcc6a01e8d52c67bc60ed98ddec999dd194e9d3"
+    }
+  ],
+  "type": "radik_accepted_dynamic_result_v01"
+}

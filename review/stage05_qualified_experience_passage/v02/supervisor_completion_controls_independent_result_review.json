@@ -1,0 +1,102 @@
+{
+  "actual_cases": [
+    "REENTER_FINAL_WINDOW_KEEPS_ABSOLUTE_DEADLINE",
+    "WORK_CUTOFF_ARMS_EXISTING_CLEANUP_AND_READBACK_BOUNDARY",
+    "HARD_BOUNDARY_REFUSES_FURTHER_FILE_WORK",
+    {
+      "case": "success",
+      "exit_code": 0,
+      "primary": null,
+      "result_write_attempts": 1,
+      "status": "PASS_SOURCE_ONLY_STAGE05_ORDINARY_WIRING"
+    },
+    {
+      "case": "final_guard_failure",
+      "exit_code": 2,
+      "primary": {
+        "code": "control_secondary_guard_failure",
+        "error_class": "ValueError"
+      },
+      "result_write_attempts": 1,
+      "status": "STOPPED_NO_RETRY"
+    },
+    {
+      "case": "final_write_failure",
+      "exit_code": 2,
+      "primary": {
+        "code": "control_result_write_failure",
+        "error_class": "ValueError"
+      },
+      "result_write_attempts": 1,
+      "status": "STOPPED_NO_RETRY"
+    },
+    {
+      "case": "post_readback_deadline",
+      "exit_code": 2,
+      "primary": {
+        "code": "exam_absolute_final_readback_deadline",
+        "error_class": "DeadlineExceeded"
+      },
+      "result_write_attempts": 1,
+      "status": "STOPPED_NO_RETRY"
+    },
+    {
+      "case": "primary_and_guard_failure",
+      "exit_code": 2,
+      "primary": {
+        "code": "control_original_primary",
+        "error_class": "ValueError"
+      },
+      "result_write_attempts": 1,
+      "status": "STOPPED_NO_RETRY"
+    }
+  ],
+  "application_native_model_AUTH_E_SAVE_execution_observed": false,
+  "automatic_retry": false,
+  "execution_count_observed": 1,
+  "findings": [],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_control_grant.json",
+    "sha256": "82de95c36155e6bf06925608be02bf5db1f7f37b48bf47ba908639f27a92d49d",
+    "size_bytes": 1460
+  },
+  "limitations": [
+    "No real signal delivery or process cleanup was executed here; prior exact-child cleanup actual remains retained within its original scope.",
+    "This control does not prove application/native behavior or a completed ordinary path.",
+    "The separate finite copy/seal/run grant remains required."
+  ],
+  "owner_execution_authorized": false,
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls_actual/CONTROLS_V01/reservation.json",
+    "sha256": "a0ca83ac7654c70c75e93c604a0415639ada19df7de6e5ce0de166dff12fd8ba",
+    "size_bytes": 97
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls_actual/CONTROLS_V01/result.json",
+    "sha256": "a9a6baa55b952dd395ec63b8792cf1dab95a219d2191e016721e44dda6449beb",
+    "size_bytes": 1181
+  },
+  "reviewed_at_utc": "2026-10-21T05:19:36.187997+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.supervisor_completion_controls_independent_result_review.v01",
+  "scope": "Independent readback of the bound one-use result and retained source identity. Repeated absolute deadline entry, cutoff transition, hard boundary refusal, truthful final return paths and primary preservation passed in the admitted synthetic namespace.",
+  "semantic_acceptance": false,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_controls.py",
+      "sha256": "938715ddda967c9c0b3d24dce7353dffc2f20f7f04966f20e0f486a03088337c",
+      "size_bytes": 9351
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+      "size_bytes": 17217
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_completion_control_source_review.json",
+    "sha256": "c79c9d14cb1404a0500a58a908be9ab13d415be61b8acc640c76da987db3947b",
+    "size_bytes": 3416
+  },
+  "status": "PASS_EIGHT_SYNTHETIC_SUPERVISOR_CONTROLS_ONLY"
+}

@@ -1,0 +1,86 @@
+{
+  "application_execution": false,
+  "application_imports": false,
+  "execution_granted": false,
+  "findings": [
+    {
+      "area": "Protected imports",
+      "observation": "The fixture finder protects app/config/review, requires copy-root origins and exact pins before compile/exec, and refuses missing protected module specs. The separately installed native loader owns hedgehog/demo and its 88-entry finite native/resource map.",
+      "status": "SOURCE_REVIEWED"
+    },
+    {
+      "area": "Synthetic helpers",
+      "observation": "Both dynamic_wire.py and native_cases.py use only stdlib top-level imports and are hash-loaded as separate admitted helper refs. The fixture invokes create_wire_client/product_factory, never native_cases.run_cases or its fixed historical source-reader fixture.",
+      "status": "SOURCE_REVIEWED"
+    },
+    {
+      "area": "Current source",
+      "observation": "Fresh TaskStore rows and native controllers use the actual TaskStore.source_reader closure; no pinned raw-reader replacement or JSON-restored controller/ExperienceBinding. The explicit wall-clock tick read retains timestamps and proves content identity projection separately.",
+      "status": "SOURCE_REVIEWED"
+    },
+    {
+      "area": "Dependencies",
+      "observation": "The admitted existing .venv-plan/bin/python -I -B route is required; the proposal explicitly omits -S so jsonschema and its accepted environment closure remain available. Harness refs are separate from the 180 application runtime pins.",
+      "status": "SOURCE_REVIEWED"
+    },
+    {
+      "area": "Negative Root",
+      "observation": "The frozen helper requires actual BLOCKED_FAIL_CLOSED plus false permission_created, final_output_created and effect_requested, not merely a non-ACCEPT branch.",
+      "status": "SOURCE_REVIEWED"
+    },
+    {
+      "area": "Cleanup hard deadline",
+      "observation": "final_cutoff disables the timer before raising. If it fires inside run_current cleanup while a primary exception already exists, the broad secondary-error catch can continue to another cleanup call before main re-arms. The primary reviewer and author were asked to prevent swallowing an expired hard cutoff. This scoped review grants no execution.",
+      "status": "REFERRED_TO_PRIMARY_REVIEWER_BEFORE_GRANT"
+    }
+  ],
+  "fixture_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_seam_fixture.py",
+    "sha256": "506d776c64062acaae5d3d60587cb08e6385490384d9baabf579e3a1841cef99",
+    "size_bytes": 25158
+  },
+  "owner_actual": "NOT_RUN",
+  "reviewed_at_utc": "2026-10-21T06:03:08.398501+00:00",
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.taskstore_seam_import_peer_review.v01",
+  "scope": "Read-only importer, dependency layout and source-reader wiring review; not acceptance of reviewer-authored G4 application code or a runtime result.",
+  "semantic_acceptance": false,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/native_profile_loader.py",
+      "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+      "size_bytes": 3032
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/config/application_profile_gate.py",
+      "sha256": "652af88ac059b3979971d0a7738920eb8a3bf9ea789974f71489e9765e3753ff",
+      "size_bytes": 14696
+    },
+    {
+      "path": "review/stage04_dynamic_passage/dynamic_wire.py",
+      "sha256": "42f1396b998cd3e10ef32e0500c8f046a39b9c8c6a21d3a20d593dab2b833514",
+      "size_bytes": 13635
+    },
+    {
+      "path": "review/stage04_dynamic_passage/native_cases.py",
+      "sha256": "15f8d0dcd61365956d01bd1c061f9cc0dd48ba423c6640166deff04ac5a66f00",
+      "size_bytes": 36609
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "size_bytes": 4307
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    }
+  ],
+  "status": "IMPORT_LAYOUT_REVIEWED_PENDING_FINAL_FIXTURE_REVIEW_AND_SEPARATE_GRANT"
+}

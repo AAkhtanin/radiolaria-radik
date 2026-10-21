@@ -1,0 +1,199 @@
+--- review/stage05_qualified_experience_passage/v01/after/app/qualified_experience.py
++++ review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py
+@@ -392,6 +392,48 @@
+         self._persist('unscorable', report)
+         return report
+ 
++    def history_snapshot(self):
++        """Hash the finite files installed by this instance's live observations.
++
++        These byte identities support immutability comparisons. No historical
++        payload is opened as current advice and no live authority is rebuilt.
++        """
++        retained = {}
++        for origin, _source, _event, _execution, raw in self._captures:
++            require(origin is self._origin, 'experience_history_capture_origin')
++            report = json.loads(raw)
++            key = digest(report['feedback']['avf_history_key'])
++            retained.setdefault(key, {})[report['head']['snapshot_id']] = report['head']
++        result = {}
++        for key, store in sorted(self._stores.items()):
++            heads = retained.get(key, {})
++            head = store.head_v01()
++            require(head is not None and heads.get(head['snapshot_id']) == head,
++                'experience_history_snapshot_origin')
++            paths = {'HEAD.json', 'writer.lock'}
++            for prior in heads.values():
++                paths.update('epochs/' + prior['snapshot_id'] + suffix
++                    for suffix in ('.json', '.payload.json', '.descriptor.json'))
++                record_id = prior['record_id']
++                require(type(record_id) is str and record_id.startswith('drsmeaning_v01:')
++                    and len(record_id) == len('drsmeaning_v01:') + 64
++                    and all(char in '0123456789abcdef' for char in record_id[len('drsmeaning_v01:'):]),
++                    'experience_history_snapshot_record_id')
++                # For this exact native ID grammar, LocalDRS's persisted file
++                # projection changes the single colon to an underscore.
++                paths.add('drs/work/' + record_id.replace(':', '_') + '.json')
++            files = {}
++            for relative in sorted(paths):
++                path = store.directory / relative
++                require(path.is_file() and path.stat().st_size <= 1048576 and not path.is_symlink()
++                    and not any(parent.is_symlink() for parent in path.parents
++                        if parent == store.directory or store.directory in parent.parents),
++                    'experience_history_snapshot_file')
++                raw = path.read_bytes()
++                files[relative] = dict(sha256=digest(raw), bytes=len(raw))
++            result[key] = dict(head=_copy(head), retained_heads=_copy(heads), files=files)
++        return result
++
+     def _descriptor_gate(self, context, store, *, evaluated_at=None):
+         """The same native eligibility gate precedes every numeric history open."""
+         now = context['now'] if evaluated_at is None else evaluated_at
+@@ -429,6 +471,64 @@
+             original_record_id=original.meaning_record_id, evaluated_record_id=record.meaning_record_id,
+             original_time_envelope=address.drs_time_envelope_to_plain_data_v01(original.time_envelope),
+             current_restriction=_copy(restriction), changes_history=False, creates_permission=False)
++
++    @staticmethod
++    def _aged_but_unexpired(gate):
++        """Recognize only the native max-age refusal, never broader refusal."""
++        query, evaluation, envelope = gate['query'], gate['evaluation'], gate['original_time_envelope']
++        now = query['evaluation_time']
++        non_temporal = ('scope_passed', 'lifecycle_passed', 'policy_compatible', 'schema_compatible',
++            'provenance_passed', 'authority_envelope_passed',
++            'forbidden_changes_passed', 'conflict_passed', 'quarantine_passed', 'deadend_passed',
++            'action_intent_passed', 'g2a_action_history_passed', 'permission_boundary_passed')
++        return (gate['eligible'] is False and gate['current_restriction'] is None
++            and gate['original_record_id'] == gate['evaluated_record_id']
++            and evaluation['reason_codes'] == ['drs_temporal_hard_gate_failed', 'drs_required_evidence_missing']
++            and evaluation['query_state'] == 'BLOCKED_BY_TIME'
++            and evaluation['validity_interval_passed'] is True
++            # TIME_FITNESS is required by this query and is derived from the
++            # temporal gate. Its absence is the same age refusal, not a waiver.
++            and evaluation['required_evidence_passed'] is False
++            and all(evaluation[field] is True for field in non_temporal)
++            and envelope['valid_from'] <= now < envelope['valid_to']
++            and envelope['pt_created_at'] + query['max_age_seconds'] <= now
++            < envelope['pt_created_at'] + envelope['ttl_seconds']
++            and query['max_age_seconds'] == min(REUSE_SECONDS, envelope['ttl_seconds'])
++            and query['freshness_policy_id'] == envelope['freshness_policy_id'])
++
++    def aged_consumer_control(self, controller):
++        """Run the real consumer with an explicit future history-only clock.
++
++        Current source checks, Root decisions and Work use the actual current
++        controller clock. The future eligibility time is a labelled control;
++        it neither asserts elapsed wall time nor dates new evidence in future.
++        """
++        context = self._context(controller)
++        store = self._stores.get(digest(context['key']))
++        require(store is not None, 'experience_controls_require_history')
++        before = self.history_snapshot()
++        descriptor, record = store.current_descriptor_v01(store.head_v01(), history_key=context['key'])
++        aged_time = max(context['now'], record.time_envelope.pt_created_at
++            + min(REUSE_SECONDS, record.time_envelope.ttl_seconds))
++        gate = self._descriptor_gate(context, store, evaluated_at=aged_time)
++        require(self._aged_but_unexpired(gate), 'experience_aged_control_requires_unexpired_history')
++        binding = self.consume(controller, history_evaluated_at=aged_time)
++        consumed = binding.report
++        require(consumed['history_disposition'] == 'AGED_HISTORY_REQUIRES_CURRENT_CHECK'
++            and consumed['history_ref'] is None and consumed['prior_fp'] == 0
++            and consumed['mandatory_check'] is not None and consumed['outcome_to_history_refs'] == [],
++            'experience_aged_control_consumption')
++        after = self.history_snapshot()
++        require(before == after, 'experience_controls_changed_history')
++        report = dict(version='radik.aged_consumer_control.v02',
++            evaluation_clock_lane='EXPLICIT_OFFLINE_CONTROL_TIME_NOT_WALL_TIME_PASSAGE',
++            history_evaluated_at=aged_time, actual_work_evaluated_at=consumed['evaluated_at'],
++            original_descriptor=descriptor, original_record=address.meaning_record_to_plain_data_v01(record),
++            aged_gate=gate, history_before=before, history_after=after, binding_report=_copy(consumed),
++            old_history_opened=False, prior_fp=0, ttl_extension=False, history_deleted=False,
++            permission_restored=False, new_observation_recorded=False, provider_calls=0, effect_calls=0)
++        self._persist('aged_consumer_control', report)
++        return report
+ 
+     def eligibility_controls(self, controller):
+         """Bounded explicit-clock and restrictive-state controls on retained data.
+@@ -498,20 +598,35 @@
+         self._persist('eligibility_controls', report)
+         return report
+ 
+-    def consume(self, controller, *, cold=False):
++    def consume(self, controller, *, cold=False, history_evaluated_at=None):
+         """A history-dependent decision is consumed by actual ordinary PURE Work."""
+         require(type(cold) is bool and len(self._bindings) < 16, 'experience_consumer_bound')
+         self._ordinal += 1
+         context = self._context(controller)
++        require(history_evaluated_at is None or (not cold and type(history_evaluated_at) is int
++            and context['now'] <= history_evaluated_at <= 253402300798), 'experience_history_control_clock')
+         material = self._material(context)
+         store = self._stores.get(digest(context['key']))
+         opened, discovery = (None, dict(reason='EXPLICIT_COLD_COMPARATOR' if cold else 'NO_MATCHING_RETAINED_HISTORY'))
++        aged_gate = None
+         if store is not None and not cold:
+-            gate = self._descriptor_gate(context, store)
+-            require(gate['eligible'], 'experience_current_history_ineligible')
+-            opened, discovery = store.current_v01(history_key=context['key'], root=context['root'],
+-                transaction=context['transaction'], evaluation_time=context['now'])
++            gate = self._descriptor_gate(context, store, evaluated_at=history_evaluated_at)
++            if gate['eligible']:
++                # A control clock can remove eligibility only. It cannot open
++                # history or change the time on actual current advice.
++                require(history_evaluated_at is None, 'experience_history_control_requires_refusal')
++                opened, discovery = store.current_v01(history_key=context['key'], root=context['root'],
++                    transaction=context['transaction'], evaluation_time=context['now'])
++            else:
++                require(self._aged_but_unexpired(gate), 'experience_current_history_ineligible')
++                aged_gate = gate
++                discovery = dict(reason='AGED_HISTORY_REQUIRES_CURRENT_CHECK', history_opened=False,
++                    history_head=store.head_v01(), current_prior_applied=False,
++                    evaluation_clock_lane='ACTUAL_CURRENT_CONTROLLER_TIME' if history_evaluated_at is None
++                    else 'EXPLICIT_OFFLINE_CONTROL_TIME_NOT_WALL_TIME_PASSAGE')
+             discovery['application_current_gate'] = gate
++        else:
++            require(history_evaluated_at is None, 'experience_history_control_requires_history')
+         envelope = _envelope(context['now'], context['valid_to'], controller.spec.task_id)
+         bridge = opened['bridge'] if opened else _artifact('radik:experience_cold:' + digest(dict(
+             scope=context['scope_sha256'], now=context['now'], ordinal=self._ordinal)), 'SemanticEvidence',
+@@ -547,6 +662,11 @@
+             evaluated_at=context['now'], contract=contract, source_context=context['source'])
+         projection, avf_reports = consumer.build_current_advisory_v01(**trusted)
+         projected = projection.to_plain_data()
++        if aged_gate is not None:
++            require(opened is None and projected['history_ref'] is None
++                and projected['trust']['review_recommended'] is True
++                and all(row['prior_fp'] == 0 and row['prior_ref'] is None for row in projected['rows']),
++                'experience_aged_history_not_current_prior')
+         selected = projected['selected']
+         check = checks[selected]
+         extra = receipt = receipt_bridge = None
+@@ -557,6 +677,8 @@
+         review = consumer.review_current_advisory_v01(projection=projection, trusted_inputs=trusted, root=context['root'],
+             transaction=context['transaction'], candidate_materials=descriptions, additional_receipt=receipt)
+         require(review[2].decision == 'ACCEPT', 'experience_current_root_refused')
++        if aged_gate is not None:
++            require(extra is not None and receipt is not None, 'experience_aged_check_required')
+         if receipt is not None:
+             receipt_bridge = consumer.current_check_receipt_bridge_v01(check=check, receipt=receipt, current_bridge=bridge)
+         advisory = _artifact('g34:advisory:' + projected['projection_id'], 'SemanticEvidence', dict(advisory=projected),
+@@ -612,6 +734,10 @@
+         report = dict(version='radik.qualified_consumer.v01', scope=_scope(controller), source_scope=source_scope(context['sources']),
+             current_root=context['root'], current_transaction=context['transaction'], evaluated_at=context['now'],
+             history_valid_to=history_valid_to, history_ref=opened['snapshot_id'] if opened else None,
++            current_work_valid_to=context['valid_to'], rejected_history_valid_to=None if aged_gate is None
++                else aged_gate['original_time_envelope']['valid_to'],
++            history_disposition='AGED_HISTORY_REQUIRES_CURRENT_CHECK' if aged_gate is not None
++                else 'QUALIFIED_CURRENT_HISTORY' if opened else 'COLD_OR_NONMATCHING',
+             prior_fp=opened['prior']['prior_fp'] if opened else 0, discovery=discovery,
+             contract=contract.to_plain_data(), projection=projected, avf=authority.plain(avf_reports),
+             current_review=consumer.review_to_plain_v01(review), source_custody_review=authority.root_plain(custody),
+@@ -621,7 +747,8 @@
+             causal_validation='PASS', causal_refs=authority.plain(causal),
+             causal_artifacts=[authority.plain(value) for value in artifacts],
+             outcome_to_history_refs=[row['feedback_id'] for row in [feedback.outcome_feedback_to_plain_data_v01(
+-                feedback.OutcomeFeedbackEnvelopeV01(event.feedback_canonical)) for event in self._events.get(digest(context['key']), [])]],
++                feedback.OutcomeFeedbackEnvelopeV01(event.feedback_canonical)) for event in self._events.get(digest(context['key']), [])]]
++                if opened is not None else [],
+             effect_calls=0, provider_calls=0, history_creates_permission=False)
+         report['binding_id'] = 'radik:experience_binding:' + digest(report)
+         binding = ExperienceBinding(self, controller, _SEAL, context, opened, custody, tuple(source_scope(context['sources'])),

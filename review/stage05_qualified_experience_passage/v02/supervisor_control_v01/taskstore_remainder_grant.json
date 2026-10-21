@@ -1,0 +1,48 @@
+{
+  "actual_id": "SUPERVISOR_FAULT_V01",
+  "application_native_model_execution_allowed": false,
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "control_scope": "ONE_INERT_CHILD_IGNORES_SIGINT_SIGTERM",
+  "control_wrapper_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/run_control.py",
+    "sha256": "e18be0489d414758cc2a3f712364c9100644fd5c3328362a91d4b75caede9c8e",
+    "size_bytes": 7527
+  },
+  "expected_child_count": 1,
+  "independent_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/independent_source_review.json",
+    "sha256": "2cd153a03103dc1cbbbfe7067c9d97c7114b670f972a7b0e76cf39063e5aaae0",
+    "size_bytes": 2327
+  },
+  "interpreter_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "network": "DENIED",
+  "outer_limits": {
+    "cleanup_seconds": 30,
+    "final_seconds": 13,
+    "total_seconds": 45,
+    "work_seconds": 2
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+    "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+    "size_bytes": 10557
+  },
+  "owner_execution_allowed": false,
+  "post_run_rule": "One invocation only. Retain exact receipt, completion, output and control result; independently review before admitting the application remainder.",
+  "production_writes_allowed": false,
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/fault_child.py",
+    "sha256": "8e6a952d2f2eb3abeba28e8e72e04c42b0efad05832b300e82f2f942871240a6",
+    "size_bytes": 273
+  },
+  "schema": "radik.stage05.outer_supervisor_fault_control_grant.v01",
+  "status": "SOURCE_ACCEPTED_ONE_INERT_SUPERVISOR_FAULT_CONTROL"
+}

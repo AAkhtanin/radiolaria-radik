@@ -1,0 +1,47 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_admission.json",
+    "sha256": "205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166",
+    "size_bytes": 33471
+  },
+  "automatic_retry": false,
+  "command": "cd /Users/admin/Projects/RadiolariaRadik && .venv-plan/bin/python -I -S -B review/stage05_qualified_experience_passage/v02/owner_terminal.py --admission-sha256 205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166",
+  "focused_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/focused_stage05_result_review.json",
+    "sha256": "52d0d72cdaabb29a19b3eeb754cfef3e8843de38d1be430d51312387da3c8313",
+    "size_bytes": 39666
+  },
+  "limits": {
+    "cleanup_seconds": 30,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "response_seconds": 600,
+    "role_attempts": 6
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+    "sha256": "783d8a626468ea7369ba63b7530639197856b643f77c0dde3014603c584dee7e",
+    "size_bytes": 74128
+  },
+  "model_observation_after_handoff": false,
+  "owner_actual": "NOT_RUN",
+  "owner_run_outputs": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_*/",
+  "reviewed_at_utc": "2026-10-21T07:17:35.277839+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_command_static_review.v02",
+  "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+  "static_binding_checks": {
+    "admission_manifest_runtime_and_focused_pins_equal": true,
+    "all_180_candidate_alias_or_direct_bytes_match": true,
+    "candidate_imports_or_execution": false,
+    "child_argv": "ordinary config/launch.py --console under isolated/no-site/no-bytecode interpreter",
+    "current_canonical_lock_identity_matches": true,
+    "displayed_banner_matches_limits": true,
+    "exact_interpreter_bytes_match": true,
+    "limits_match_exact_timing_AST_literal": true,
+    "owner_reservation_created": false,
+    "scenario_expected_role_calls": 6
+  },
+  "status": "READY_ONE_FUTURE_OWNER_TERMINAL_INVOCATION_NOT_EXECUTED"
+}

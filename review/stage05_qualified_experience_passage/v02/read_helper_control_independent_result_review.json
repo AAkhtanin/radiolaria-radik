@@ -1,0 +1,51 @@
+{
+  "application_native_model_AUTH_E_SAVE_credit": false,
+  "case_count": 13,
+  "exact_scratch_bytes_verified": 24,
+  "findings": [],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_grant.json",
+    "sha256": "6e07fa69c76f46fc5799f07f8ff41b5fd7dc201c9f443daa01e9bbbed59cd1a2",
+    "size_bytes": 1473
+  },
+  "historical_changed_stat_field": "UNKNOWN_NOT_RETAINED",
+  "ordinary_execution_requires_new_grant": true,
+  "owner_execution_authorized": false,
+  "previous_eight_supervisor_controls_reused": true,
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01/reservation.json",
+    "sha256": "5e15927b1dfaaeda608a51895ab6e0295fb561ca9988bb201dd3da7d64bf6960",
+    "size_bytes": 97
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_actual/READ_HELPER_V01/result.json",
+    "sha256": "3a50f9f17df957d45ddb69d4e3cd9e1e69d10ecee51f7bf8370d7c0bfc6c7552",
+    "size_bytes": 1368
+  },
+  "reviewed_at_utc": "2026-10-21T05:36:52.335801+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_delta_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_independent_source_review.json",
+    "sha256": "414447f8d7f777535ba188460c87d57038d9e16e73790a5a7e4281e9052cc272",
+    "size_bytes": 2147
+  },
+  "schema": "radik.stage05.read_helper_control_result_review.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/read_helper_controls.py",
+      "sha256": "f5c103e5b1db5139c80edc2a084a286a959ee137d94e275a6ca74eddd9cf88ed",
+      "size_bytes": 7400
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+      "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+      "size_bytes": 17415
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_helper_control_independent_source_review.json",
+    "sha256": "3f3167d1bc339b09502a8264ef647b15ed850904d2ba94cb7054bf728fd07250",
+    "size_bytes": 1995
+  },
+  "status": "PASS_THIRTEEN_TARGETED_READ_HELPER_CASES_ONLY"
+}

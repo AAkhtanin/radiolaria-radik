@@ -1,0 +1,1344 @@
+{
+  "schema": "radik.stage05.result_matrix.v02",
+  "status": "DRAFT_SOURCE_REVIEWED_BRANCHES_NEW_ORDINARY_ACTUAL_PENDING_OWNER_NOT_RUN",
+  "created_at_utc": "2026-10-21T05:16:21.277795+00:00",
+  "author": "/root/stage05_g4_contract",
+  "acceptance_authority": "This authored mapping accepts no new result. Exact independent source/actual reviews determine each credited scope.",
+  "original_prospective_matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/required_observations.json",
+    "sha256": "3f77230637a6ce05d2ba00607fb08faa67db83d457420ca2534dcef09a5c5858",
+    "size_bytes": 3963
+  },
+  "supersedes_for_current_mapping_only": {
+    "path": "review/stage05_qualified_experience_passage/v01/result_matrix.json",
+    "sha256": "1a160b0811e2a3cdd5b03231b66fc2969ed268d3c331c2c61c3e020cc229f455",
+    "size_bytes": 51481
+  },
+  "prospective_requirements_verbatim": true,
+  "prospective_matrix_modified": false,
+  "historical_stage04_preserved": true,
+  "publication": "LOCAL_ONLY",
+  "owner_actual": "NOT_RUN",
+  "owner_source_readiness": "NOT_ESTABLISHED_PENDING_FULL_SOURCE_AND_NEW_ORDINARY_REHEARSAL",
+  "Stage05_acceptance": "NOT_ESTABLISHED",
+  "application_imports": 0,
+  "application_execution": false,
+  "source_candidate_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py",
+      "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+      "size_bytes": 56127
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py",
+      "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+      "size_bytes": 23154
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/inputs/scenario.json",
+      "sha256": "a831194f56aa09968dfe9ae29bf42a1571af27599e2f98ac86fa9edf8aacbc97",
+      "size_bytes": 2530
+    }
+  ],
+  "source_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/aged_consumer_independent_source_review_v01.json",
+      "sha256": "418fc58c959f73f7992528b8f554c663943b9a02c11151e37907784b0da00e80",
+      "size_bytes": 6766
+    }
+  ],
+  "source_review_limit": "Scenario and full supervisor/diagnostics/import closure require their own independent exact-pin review; the G3 source review is not full package admission.",
+  "budget_contract": {
+    "owner_expected_role_calls": 6,
+    "primary_cold_task": 3,
+    "unrelated_cold_task": 3,
+    "per_round_limit_unchanged": 3,
+    "native_work_provider_calls": 0,
+    "native_E_calls": 0,
+    "SAVE_calls": 0,
+    "offline_real_provider_calls": 0,
+    "offline_cap_seconds": 900,
+    "offline_work_cutoff_seconds": 865,
+    "offline_single_cleanup_seconds": 30,
+    "bound_is_not_ETA": true,
+    "offline_final_readback_seconds": 5,
+    "owner_provisional_operation_seconds": 4800,
+    "owner_role_attempt_seconds": 600,
+    "owner_native_cumulative_seconds": 900,
+    "owner_overhead_seconds": 300,
+    "owner_single_cleanup_seconds": 30,
+    "owner_timing_status": "PROVISIONAL_FINITE_CAP_PENDING_NEW_ORDINARY_MEASUREMENT_NOT_ETA"
+  },
+  "rows": [
+    {
+      "id": "S5-01",
+      "claim": "DEFER-S5-FEEDBACK",
+      "required_observation": "Prospective expectation is persisted before native Boolean observation; one eligible negative history event changes a subsequent typed Work consumer.",
+      "original_prospective_requirement": {
+        "id": "S5-01",
+        "claim": "DEFER-S5-FEEDBACK",
+        "required_observation": "Prospective expectation is persisted before native Boolean observation; one eligible negative history event changes a subsequent typed Work consumer.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain accepted native prospective-feedback and changed-consumer credit; ordinary TaskStore reader composition remains to be observed.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-FEEDBACK",
+          "id": "S5-01",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "qualified_feedback",
+              "qualified_allocated_work",
+              "causal_chain_verified"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_CAUSAL_CHAIN_OBSERVED",
+          "prospective_requirement": "Prospective expectation is persisted before native Boolean observation; one eligible negative history event changes a subsequent typed Work consumer.",
+          "pure_test_methods": [
+            "test_actual_negative_predicate_produces_a_bound_extra_audit",
+            "test_prospective_persistence_has_exact_readback_and_never_overwrites"
+          ],
+          "scope": "The isolated fresh-memory/raw-fixture route retained a prospective claim before a new PURE observation, recorded an eligible negative event, and changed actual G3 Work from verification to an additional source audit at prior_fp=-62500000. This is not the ordinary cold three-role route.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+                "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+                "size_bytes": 98522
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/feedback_b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772.json",
+                "sha256": "b55dec8aeb950dc351536b90406c89f8533f9a1f30994d7e8363e5a590c89772",
+                "size_bytes": 64944
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G3_9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa.json",
+                "sha256": "9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa",
+                "size_bytes": 144100
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
+                "sha256": "e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06",
+                "size_bytes": 192883
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+              "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+              "size_bytes": 8465
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "qualified_feedback",
+          "qualified_allocated_work",
+          "causal_chain_verified"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Observe ordinary current-source admission, prospective expectation/outcome/history and changed G3/G4 consumers in the single six-role owner operation; independently review effective model boundary.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-02",
+      "claim": "DEFER-S5-FEEDBACK",
+      "required_observation": "Unscorable transport/AUTH/model outcome remains an audit only and leaves qualified history head unchanged.",
+      "original_prospective_requirement": {
+        "id": "S5-02",
+        "claim": "DEFER-S5-FEEDBACK",
+        "required_observation": "Unscorable transport/AUTH/model outcome remains an audit only and leaves qualified history head unchanged.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain accepted labelled unscorable NO_UPDATE with unchanged nonempty history; no actual AUTH/provider failure was induced.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-FEEDBACK",
+          "id": "S5-02",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "unscorable_audit_control"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_UNSCORABLE_AUDIT_OBSERVED",
+          "prospective_requirement": "Unscorable transport/AUTH/model outcome remains an audit only and leaves qualified history head unchanged.",
+          "pure_test_methods": [
+            "test_unscorable_transport_preserves_qualified_history"
+          ],
+          "scope": "A labelled UNSCORABLE_MODEL_RESPONSE category left a nonempty qualified history head unchanged with NO_UPDATE. No actual transport, AUTH or provider failure was induced or claimed.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/unscorable_999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0.json",
+                "sha256": "999234ba88d6ec44442c4442ad18dd4bf6ca0192b72bf67d45d5c24c420fcad0",
+                "size_bytes": 1137
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "unscorable_audit_control"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Retain the accepted audit-only control credit and verify current ordinary operation creates no synthetic negative training event from unscorable categories.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-03",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "Aged history requires a current additional check; expired history refuses CURRENT use while retaining bytes and original TTL.",
+      "original_prospective_requirement": {
+        "id": "S5-03",
+        "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+        "required_observation": "Aged history requires a current additional check; expired history refuses CURRENT use while retaining bytes and original TTL.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Accepted v01 age300 and expiry controls establish refusal only. Aged additional Work was not executed and remains a required gap; expiry/TTL preservation credit remains.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+          "id": "S5-03",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "current_eligibility_controls"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_TEMPORAL_REFUSALS_OBSERVED",
+          "prospective_requirement": "Aged history requires a current additional check; expired history refuses CURRENT use while retaining bytes and original TTL.",
+          "pure_test_methods": [
+            "test_expired_prior_cannot_be_relabelled_with_nonzero_value"
+          ],
+          "scope": "Fresh history was eligible; explicit evaluation at age300 and original expiry refused current ranking/open. Original record/head/TTL remained unchanged. These are controlled future clocks, not elapsed wall time; an additional Work after aged refusal was not executed.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+                "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+                "size_bytes": 33920
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+              "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+              "size_bytes": 6070
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "aged_current_check",
+          "current_eligibility_controls"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Observe real aged-but-unexpired consume dispatching mandatory typed PURE check and fresh Root decision with zero old prior, plus selected Work and unchanged history/TTL. Explicit history-only clock is a labelled control, not elapsed wall time.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-04",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "A changed source revision cannot reuse the prior current binding; lineage and prior history remain.",
+      "original_prospective_requirement": {
+        "id": "S5-04",
+        "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+        "required_observation": "A changed source revision cannot reuse the prior current binding; lineage and prior history remain.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Accepted v01 mismatched history key establishes only lookup nonmatch. It does not establish changed raw source bytes, actual revision or refusal of the old live binding.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+          "id": "S5-04",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "current_eligibility_controls"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_SOURCE_KEY_MISMATCH_OBSERVED",
+          "prospective_requirement": "A changed source revision cannot reuse the prior current binding; lineage and prior history remain.",
+          "pure_test_methods": [
+            "test_source_or_lineage_changes_are_not_silently_consumed"
+          ],
+          "scope": "A controlled advisory_source_revision mismatch was refused by native current history discovery while retaining the original record/head. This is a changed-key query, not an actual source edit, revision or supersession event.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+                "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+                "size_bytes": 33920
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "source_revision_before",
+          "source_revision_after",
+          "source_revision_stale_binding_refused"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "After dependent consumers, register changed scenario bytes under the same logical source, reread actual revision, and show old live binding refused by the actual current consumer before bootstrap with prior history retained.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-05",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "required_observation": "Conflict and quarantine refuse current consumption without deleting historical evidence.",
+      "original_prospective_requirement": {
+        "id": "S5-05",
+        "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+        "required_observation": "Conflict and quarantine refuse current consumption without deleting historical evidence.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain accepted conflict/quarantine current-consumer refusal and original history/time preservation. New aged branch must not turn these refusals into eligible checks.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+          "id": "S5-05",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "current_eligibility_controls"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_RESTRICTIVE_STATE_REFUSALS_OBSERVED",
+          "prospective_requirement": "Conflict and quarantine refuse current consumption without deleting historical evidence.",
+          "pure_test_methods": [],
+          "scope": "Injected conflict and quarantine restricted eligibility; the ordinary consume method refused before history payload descent, numeric advice or new Work binding. Both controls preserved original history and time envelopes and restored only the prior in-memory restriction setting.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+                "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+                "size_bytes": 33920
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "current_eligibility_controls"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Retain accepted restrictive-state evidence and observe the changed consumer still refuses conflict/quarantine before Work; no external conflict event or restored permission claim.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-06",
+      "claim": "DEFER-S5-LESSON-CONSUMER",
+      "required_observation": "A scoped eligible negative event selects and consumes a different actual review; unrelated task receives no such prior or prohibition.",
+      "original_prospective_requirement": {
+        "id": "S5-06",
+        "claim": "DEFER-S5-LESSON-CONSUMER",
+        "required_observation": "A scoped eligible negative event selects and consumes a different actual review; unrelated task receives no such prior or prohibition.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Accepted native negative history changed verification to audit. The v01 unrelated-key lookup did not execute an unrelated task; that half remains a required gap.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-LESSON-CONSUMER",
+          "id": "S5-06",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "qualified_feedback",
+              "qualified_allocated_work",
+              "causal_chain_verified",
+              "current_eligibility_controls"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_SCOPED_CONSUMER_CHANGE_OBSERVED",
+          "prospective_requirement": "A scoped eligible negative event selects and consumes a different actual review; unrelated task receives no such prior or prohibition.",
+          "pure_test_methods": [
+            "test_actual_negative_predicate_produces_a_bound_extra_audit",
+            "test_qualified_prior_redistributes_actual_finite_inventory",
+            "test_plain_json_cannot_be_a_current_qualified_binding"
+          ],
+          "scope": "The tail consumed a different source audit for the same eligible negative history. A separate fresh-history fixture refused an unrelated task-class query; it did not run a third unrelated-task Work program. No transfer of prior or permission is inferred.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+                "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+                "size_bytes": 98522
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/cold_G3_9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa.json",
+                "sha256": "9931f51d3a6237a381f962aa146316413f96223de594b677100c70f870c8d2aa",
+                "size_bytes": 144100
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/qualified_G3_e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06.json",
+                "sha256": "e072286ac832a8632dba1b812668f26f0a89a222dfc54aec515953cd7ae28d06",
+                "size_bytes": 192883
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/ELIGIBILITY_V01/work/controls_fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc.json",
+                "sha256": "fd0ac5154d4f53270a3d72fbb5c810a62f419271b7a1dec0d94e6fee924013bc",
+                "size_bytes": 33920
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/independent_g3_source_review_v02.json",
+              "sha256": "719690c490d76f496a56fc30e7a68b58ce208bd9496098e78b53258def483e41",
+              "size_bytes": 6600
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_independent_source_review.json",
+              "sha256": "186ce73d69c58f42f3ab368706ec66ad02fd3cdb401b9914a17e509b1a3dbe29",
+              "size_bytes": 3344
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+              "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+              "size_bytes": 6070
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g3_restriction_independent_source_review_v01.json",
+              "sha256": "a09d80078289c15228b6b91eb28f90be51395afc34c31884438367b9ace7f97f",
+              "size_bytes": 4449
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+              "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+              "size_bytes": 4810
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "unrelated_prospective_task",
+          "unrelated_accepted_result",
+          "unrelated_current_consumer"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Execute a genuinely separate admitted unrelated task/controller with fresh task Root and actual G3 PURE Work, zero foreign prior/outcome refs/prohibition and unchanged prior history. Account for its additional three role calls.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-07",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "required_observation": "HardMask forbids the highest-score excluded branch with zero native consumption.",
+      "original_prospective_requirement": {
+        "id": "S5-07",
+        "claim": "DEFER-S5-FINITE-STRATEGY",
+        "required_observation": "HardMask forbids the highest-score excluded branch with zero native consumption.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain accepted high-score HardMask exclusion and zero units for excluded branch in actual G4 programs.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-FINITE-STRATEGY",
+          "id": "S5-07",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "cold_allocated_work",
+              "qualified_allocated_work"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_HARD_MASK_EXCLUSION_OBSERVED",
+          "prospective_requirement": "HardMask forbids the highest-score excluded branch with zero native consumption.",
+          "pure_test_methods": [
+            "test_hard_mask_excludes_higher_score_with_same_total"
+          ],
+          "scope": "Both retained native allocations exclude external_unapproved despite its maximal configured features. The materialized programs and actual check outputs contain only approved quotation/qualification branches; the excluded branch consumes zero native units.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+                "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+                "size_bytes": 98522
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a.json",
+                "sha256": "0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a",
+                "size_bytes": 1165419
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807.json",
+                "sha256": "d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807",
+                "size_bytes": 1176407
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358.json",
+                "sha256": "2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358",
+                "size_bytes": 412057
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a.json",
+                "sha256": "33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a",
+                "size_bytes": 415619
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_independent_source_review.json",
+              "sha256": "186ce73d69c58f42f3ab368706ec66ad02fd3cdb401b9914a17e509b1a3dbe29",
+              "size_bytes": 3344
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+              "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+              "size_bytes": 6070
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+              "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+              "size_bytes": 4810
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "cold_allocated_work",
+          "qualified_allocated_work"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Observe ordinary-reader G4 continuation retaining the same mask, with no unauthorized branch consumption; combine with exact accepted focused native mask evidence.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-08",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "required_observation": "Public G4 allocation changes selected finite quanta at equal total installed budget and every selected output feeds an actual final Work consumer.",
+      "original_prospective_requirement": {
+        "id": "S5-08",
+        "claim": "DEFER-S5-FINITE-STRATEGY",
+        "required_observation": "Public G4 allocation changes selected finite quanta at equal total installed budget and every selected output feeds an actual final Work consumer.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain accepted two9-unit native programs and actual seven-output final consumers, with4/3-to3/4 redistribution. Ordinary TaskStore/current-reader seam was not established by the raw-reader tail.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "DEFER-S5-FINITE-STRATEGY",
+          "id": "S5-08",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "cold_allocated_work",
+              "qualified_allocated_work",
+              "causal_chain_verified"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_FOCUSED_NATIVE_EQUAL_BUDGET_REDISTRIBUTION_OBSERVED",
+          "prospective_requirement": "Public G4 allocation changes selected finite quanta at equal total installed budget and every selected output feeds an actual final Work consumer.",
+          "pure_test_methods": [
+            "test_qualified_prior_redistributes_actual_finite_inventory",
+            "test_consumer_rejects_wrong_selected_work_or_originals",
+            "test_no_unsealed_cold_execution"
+          ],
+          "scope": "Two actual native programs each consumed9 units: source gate1, selected checks7 and final consumer1. Allocation changed4/3 to3/4 and each final consumer read all7 selected outputs. Full revision outcomes, programs, results, usage and two distinct Root reviews are retained. No speedup is claimed.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+                "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+                "size_bytes": 98522
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a.json",
+                "sha256": "0a57b4b2fbe9b45ca91f49a52ff4740d902bd08521d8e69b8c4cd76dc70d305a",
+                "size_bytes": 1165419
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_actual_d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807.json",
+                "sha256": "d1a5f8dfc2bb65cd6d2022b88c4a2e2d2d6cde55a349e23b5c6c903770193807",
+                "size_bytes": 1176407
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358.json",
+                "sha256": "2f17fada8104cc67e8251e645cf0b65b87bcd54f291ba0426d8377b2a0234358",
+                "size_bytes": 412057
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/offline_actual/NATIVE_TAIL_V01/work/project/review/task_evidence/bf2d5bd156772959e78c2914e6fe80f6dfa7d645f69f512be56ae5fb1f211177/qualified_allocation_pre_dispatch_33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a.json",
+                "sha256": "33e426ef7cc7e720ff483b982a2bb842cb97cab2d57369e927e0f674ef9af79a",
+                "size_bytes": 415619
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_independent_source_review.json",
+              "sha256": "186ce73d69c58f42f3ab368706ec66ad02fd3cdb401b9914a17e509b1a3dbe29",
+              "size_bytes": 3344
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_source_freshness_correction_v01.json",
+              "sha256": "6080656663d7c2aab330012d72a85399771a2983f18989a133e6a3e6fe59c16c",
+              "size_bytes": 6070
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/offline_actual/UNIT_V01/work/result.json",
+              "sha256": "0bab1782645c72def0dcf6642fb0ea044bcdfa0591eeb8e88f96aff6d9cc0440",
+              "size_bytes": 9875
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_independent_result_review.json",
+              "sha256": "ca2e26a2ef5f29e1818dca185e86dfe77896834896b6db4f8e23a28862243660",
+              "size_bytes": 1155
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/g4_targeted_revision_independent_source_review_v01.json",
+              "sha256": "31a00cb3da882aebf4e50b0432f287a2c206e62ad03469f15c5ec4e776824941",
+              "size_bytes": 4810
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "cold_allocated_work",
+          "qualified_allocated_work",
+          "causal_chain_verified"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Observe current TaskStore reader through G3 sealed binding into G4 bootstrap/continuation and selected outputs consumed under fixed installed cap; no speedup inference.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-09",
+      "claim": "OWNER-BOUNDARY",
+      "required_observation": "One ordinary console entry; finite role/native/wall budgets; primary failure and partial readbacks retained; exact child reaped before lock release.",
+      "original_prospective_requirement": {
+        "id": "S5-09",
+        "claim": "OWNER-BOUNDARY",
+        "required_observation": "One ordinary console entry; finite role/native/wall budgets; primary failure and partial readbacks retained; exact child reaped before lock release.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain stopped ordinary receipts, primary diagnostic improvements, bounded cleanup/child-closure controls and their original limitations. Original ORDINARY_V02 sanitized cause stays UNKNOWN.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "OWNER-BOUNDARY",
+          "id": "S5-09",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "supervisor_receipt",
+              "completed_result"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_ORDINARY_STOP_AND_FOCUSED_REPORTER_CONTROLS_OBSERVED",
+          "prospective_requirement": "One ordinary console entry; finite role/native/wall budgets; primary failure and partial readbacks retained; exact child reaped before lock release.",
+          "pure_test_methods": [],
+          "scope": "V02 preserved its stopped receipt/readbacks and reaped its child; its original sanitized G4 cause remains unknown. The later exact reporter passed synthetic AST checks for closed causes, frames and primary precedence. No complete ordinary or owner scenario is established; 3000/900 limits remain caps, not a measured ordinary-route ETA.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+                "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+                "size_bytes": 3218
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v01/owner_terminal_runs/ordinary/receipt.json",
+                "sha256": "67e34e6ffff9b95862cd582842f4c87123c620a854a284d6b38c43e45ef8cabf",
+                "size_bytes": 4923
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_actual/FAILURE_CAPTURE_V02/result.json",
+                "sha256": "f8cb6a4299852e099e5fe0a0962010adb5608d448193fb44a873459d86737157",
+                "size_bytes": 3150
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+              "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+              "size_bytes": 8465
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/controls_actual/CLEANUP_V01/result.json",
+              "sha256": "bb197202963ad2dc97b09cb428320648111873dd44cc50b53177ec98b0a7c423",
+              "size_bytes": 1187
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/supervisor_controls_independent_review.json",
+              "sha256": "e7f2652d8285f944d24be11dc6ba4cea07c0afe6a2a429efbacb8b37f4fb0ce1",
+              "size_bytes": 1543
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_actual/TARGETED_V01/result.json",
+              "sha256": "bee2a17e5ee5d7e31c375a363ec1109b301bd86751626b3454c866a167197f25",
+              "size_bytes": 12394
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+              "sha256": "59512efe8cb4c2ab25822d8962b36d37cb5409ff3bbaea363eb881c91bf9642d",
+              "size_bytes": 3639
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+              "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+              "size_bytes": 39071
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/timing_basis_v02.json",
+              "sha256": "ff533ba09b1a900a8f47cfba9b6b3009e5c35617608758194595313438f8d722",
+              "size_bytes": 2447
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+              "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+              "size_bytes": 3218
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "ordinary_accepted_result",
+          "unrelated_accepted_result",
+          "completed_result"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "One observable ordinary owner entry with explicit six-role total/three per task, native and wall caps, persisted partials and exact primary stage/source line, one cleanup and confirmed child closure before lock release. New owner admission remains pending full source/ordinary check.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "S5-10",
+      "claim": "SOURCE-BOUNDARY",
+      "required_observation": "Pin imports/callbacks/resources; compatible history readers preserve all existing ledger/task/reservation/UNKNOWN/CLOSED quota bytes.",
+      "original_prospective_requirement": {
+        "id": "S5-10",
+        "claim": "SOURCE-BOUNDARY",
+        "required_observation": "Pin imports/callbacks/resources; compatible history readers preserve all existing ledger/task/reservation/UNKNOWN/CLOSED quota bytes.",
+        "source_status": "PENDING",
+        "offline_status": "PENDING",
+        "owner_actual_status": "NOT_RUN"
+      },
+      "accepted_v01_credit": {
+        "status": "RETAINED_WITH_ORIGINAL_LIMITATIONS",
+        "interpretation": "Retain exact v01 pinned module/callback/resource observations and unchanged production guards. They do not admit any changed v02 executable bytes.",
+        "original_matrix_row": {
+          "Stage05_closure": "NOT_ESTABLISHED",
+          "claim": "SOURCE-BOUNDARY",
+          "id": "S5-10",
+          "ordinary_v02": {
+            "actual_refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/15e21eca153f/stopped_result_c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819.json",
+                "sha256": "c60f66bfb087ebd52d0c6c096e745be22e7841775cdbe887fd97db84371fe819",
+                "size_bytes": 1907
+              }
+            ],
+            "required_witness_kinds": [
+              "loader_schema_callback_origins",
+              "production_guards",
+              "completed_result"
+            ],
+            "status": "STOPPED_AFTER_COLD_G3_WITH_ORIGINAL_G4_CAUSE_UNKNOWN"
+          },
+          "owner_actual_status": "NOT_RUN",
+          "preparation_status": "SOURCE_AND_COMPOSED_ISOLATED_BOUNDARIES_OBSERVED",
+          "prospective_requirement": "Pin imports/callbacks/resources; compatible history readers preserve all existing ledger/task/reservation/UNKNOWN/CLOSED quota bytes.",
+          "pure_test_methods": [],
+          "scope": "V02 observed54 native origins,26 callbacks and33 schemas with admitted source bytes. Both short native fixtures loaded69 pinned protected modules and preserved378 production guards. Native result hashes and PURE bindings are retained; a separate complete G4 callback source-snapshot receipt is not claimed. Final current source admission plus these bounded observations support preparation, not owner acceptance.",
+          "short_fixture_evidence": {
+            "Stage05_closure": false,
+            "ordinary_route_acceptance": false,
+            "owner_actual": false,
+            "refs": [
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v02_independent_result_review.json",
+                "sha256": "60082b88d07e640c3ecc2861d2d5eed661bd76f65c257536eb402b1573c0d889",
+                "size_bytes": 40339
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g4_native_tail_independent_result_review_v01.json",
+                "sha256": "644c61a0d09fed610eeaa6042739f254d8a2dbfbbb3d534b006200414aa82159",
+                "size_bytes": 98522
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/g3_eligibility_independent_result_review_v01.json",
+                "sha256": "a382021584532c9359daeb37345823e1c532b438388ab67d277d5eaad240a4a9",
+                "size_bytes": 5246
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+                "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+                "size_bytes": 3218
+              },
+              {
+                "path": "review/stage05_qualified_experience_passage/v01/rehearsal_actual/ORDINARY_V02/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/01b0d687feeb3f74483b157e/ordinary_loader_schema_callback_origins_b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23.json",
+                "sha256": "b859128e91aa2f1094004e8b74a1f66c7b1e7f6ccad255f6d2055f8264d3db23",
+                "size_bytes": 865824
+              }
+            ],
+            "status": "OBSERVED_WITHIN_INDEPENDENTLY_REVIEWED_SCOPE_ONLY"
+          },
+          "source_and_control_refs": [
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+              "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+              "size_bytes": 132494
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/post_v01_targeted_source_review.json",
+              "sha256": "1e374ccce231115a4c07356dc7318ca5f8b56da8d28a55ee5f6088ba4dd0477e",
+              "size_bytes": 8465
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/unit_loaded_source_routes.json",
+              "sha256": "21db85994b848dd999d4e77424114b962557b028f5027640a8634f0d240b76a9",
+              "size_bytes": 12193
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/rehearsal_v01_independent_result_review.json",
+              "sha256": "b1c3612a930c17d475d66b9f66927b89c2d7f71edf7e60001edd9f22e37d5760",
+              "size_bytes": 39071
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/targeted_controls_independent_result_review.json",
+              "sha256": "59512efe8cb4c2ab25822d8962b36d37cb5409ff3bbaea363eb881c91bf9642d",
+              "size_bytes": 3639
+            },
+            {
+              "path": "review/stage05_qualified_experience_passage/v01/failure_capture_controls_independent_result_review_v02.json",
+              "sha256": "c31934eebbb755149220af649efab3d6e71a1aca2efcd051550b3cfaf749cadc",
+              "size_bytes": 3218
+            }
+          ]
+        }
+      },
+      "new_offline_actual": {
+        "status": "NOT_RUN_PENDING_INDEPENDENT_SOURCE_CLOSURE_AND_ONE_BOUNDED_REHEARSAL",
+        "refs": [],
+        "planned_checkpoints": [
+          "prospective_scenario",
+          "source_revision_before",
+          "source_revision_stale_binding_refused"
+        ],
+        "producer": "EXPLICIT_TYPED_SYNTHETIC_HTTP_NO_PROVIDER_AUTHORITY",
+        "ordinary_source_reader": "TaskStore.source_reader; not substituted with pinned raw-reader shortcut",
+        "absolute_cap_seconds_including_preparation_and_cleanup": 900,
+        "work_cutoff_seconds": 865,
+        "single_cleanup_max_seconds": 30,
+        "automatic_retry": false,
+        "final_guard_and_readback_max_seconds": 5
+      },
+      "owner_actual_status": "NOT_RUN",
+      "owner_remaining": "Observe the newly admitted exact v02 imports/callbacks/resources and preserve all historical task/ledger/reservation/UNKNOWN/CLOSED quota bytes. Do not reuse or edit v01 owner admission/reservation.",
+      "Stage05_closure": "NOT_ESTABLISHED"
+    }
+  ],
+  "limitations": [
+    "All ten original requirements retain their exact wording. In particular, aged refusal alone, a changed query key and an unrelated-key lookup do not satisfy S5-03/S5-04/S5-06.",
+    "Prior NATIVE_TAIL_V01 and ELIGIBILITY_V01 used a pinned raw reader after fresh memory descent; their accepted native scope is retained, but they do not establish the ordinary TaskStore reader seam.",
+    "New source uses the existing typed inert ordinary producer only offline. No synthetic role result is an owner model boundary or real provider response.",
+    "Original ORDINARY_V02 primary reason remains UNKNOWN. A new ordinary-reader result may identify its own cause but cannot reconstruct the old lost exception.",
+    "Explicit history-only evaluation clocks do not assert wall-time aging or renew original TTL/valid_to. Conflict/quarantine remain restrictions and expired history is not opened.",
+    "All v01 actuals, reviews, pins, failed runs and reservation remain untouched. No model, AUTH, E, SAVE, public push or owner actual was run in preparing this matrix."
+  ],
+  "timing_update": {
+    "preserved_draft_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/result_matrix_before_final_guard_reserve.json",
+      "sha256": "aecf50b4f521a16d7cf68535cc5a2bb6767dcc603ed4d841ab2b5c6c0e26a6e4",
+      "size_bytes": 73682
+    },
+    "absolute_offline_seconds": 900,
+    "allocation": "Preparation and execution stop at865s; one cleanup up to30s; final guard/readback up to5s.",
+    "owner_provisional_basis": "6*600 role seconds +900 cumulative native +300 overhead =4800 seconds; separate owner cleanup <=30. No owner completion timing observed."
+  },
+  "source_cross_review": {
+    "G3_aged_changes": {
+      "path": "review/stage05_qualified_experience_passage/v02/aged_consumer_independent_source_review_v01.json",
+      "sha256": "418fc58c959f73f7992528b8f554c663943b9a02c11151e37907784b0da00e80",
+      "size_bytes": 6766
+    },
+    "scenario_and_inputs": "Independently read by private reviewer; exact formal file pending. Author does not accept its own scenario."
+  }
+}

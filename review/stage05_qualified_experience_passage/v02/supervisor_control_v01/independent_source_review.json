@@ -1,0 +1,41 @@
+{
+  "candidate_application_native_model_execution_allowed": false,
+  "checks": [
+    "The exact parent bytes are pinned before compile/exec; only stdlib module initialization occurs.",
+    "Substitutions change only closed control paths and explicit clocks/limits. The parent timing, signal, drain, reap and persistence branches execute unchanged.",
+    "The only child consists of signal handlers, one exact READY line and signal.pause. It creates no children, reads no credentials and imports no application/native code.",
+    "One exclusive parent reservation and output directory enforce no retry. Normal current source/ledgers/configuration are not touched.",
+    "Expected actual is work cutoff at2s, INT then TERM after10s then KILL after15s, reaped -SIGKILL and exact stdout/receipt/completion readbacks. Total ceiling45s includes wrapper setup.",
+    "The test verifies one inert process without descendants; it does not claim resilience against an indefinitely stalled filesystem."
+  ],
+  "control_execution_requires_separate_grant": true,
+  "findings": [],
+  "owner_execution_authorized": false,
+  "parent_peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor_independent_source_review.json",
+    "sha256": "d629894529a3848d924645fa73d06994c20e7fed43091d7a0a49e6f25257ad28",
+    "size_bytes": 3142
+  },
+  "reviewed_at_utc": "2026-10-21T06:49:05.802544+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.outer_fault_control_source_review.v01",
+  "source_only": true,
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/run_control.py",
+      "sha256": "e18be0489d414758cc2a3f712364c9100644fd5c3328362a91d4b75caede9c8e",
+      "size_bytes": 7527
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/fault_child.py",
+      "sha256": "8e6a952d2f2eb3abeba28e8e72e04c42b0efad05832b300e82f2f942871240a6",
+      "size_bytes": 273
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+      "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+      "size_bytes": 10557
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_ONE_INERT_SUPERVISOR_FAULT_CONTROL"
+}

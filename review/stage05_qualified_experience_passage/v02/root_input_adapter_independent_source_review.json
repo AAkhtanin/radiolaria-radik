@@ -1,0 +1,77 @@
+{
+  "application_execution_granted": false,
+  "changes": [
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/native_authority.py",
+        "sha256": "396cb73d66212cb7c18f914243f857cdd273a8c01a9735fd8c3104be2af38027",
+        "size_bytes": 40593
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/native_authority_before_root_input_repair_v01.py",
+        "sha256": "da58d5768e2a90af09e5f3fa940b12e043c986a78a9663d988d92951c3cd7e96",
+        "size_bytes": 40597
+      },
+      "diff": {
+        "path": "review/stage05_qualified_experience_passage/v02/native_authority_root_input_repair_v01.diff",
+        "sha256": "1271f315e4eca0318a73d63dbca5c901f681c163dceed0aa685eb39e35a1bda3",
+        "size_bytes": 968
+      }
+    },
+    {
+      "after": {
+        "path": "review/stage05_qualified_experience_passage/v02/after/app/stage04_diagnostics.py",
+        "sha256": "44b6357bb5276ce6e1545de7b1a6e90035919bd762040162b22d617822d6cf45",
+        "size_bytes": 127289
+      },
+      "before": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/stage04_diagnostics_before_root_input_repair_v01.py",
+        "sha256": "4633b7375eef9ea4b82b84743a1689745b2647d945d353817c8da0fad72553e4",
+        "size_bytes": 126799
+      },
+      "diff": {
+        "path": "review/stage05_qualified_experience_passage/v02/stage04_diagnostics_root_input_repair_v01.diff",
+        "sha256": "a6d14080e0663174dfd76bbd0b8dc619527366ccb9700bad12484f19f3eaf072",
+        "size_bytes": 968
+      }
+    }
+  ],
+  "exact_diagnostic_additions": [
+    "root_decision_input_invalid",
+    "root_review_packet_invalid",
+    "root_decision_identity_mismatch",
+    "root_decision_post_vv_invalid",
+    "root_decision_gt_advisory_invalid",
+    "root_decision_policy_state_invalid",
+    "root_decision_permission_state_invalid",
+    "root_decision_temporal_state_invalid",
+    "root_decision_conflict_state_invalid",
+    "root_decision_prior_state_invalid",
+    "root_decision_candidate_binding_invalid",
+    "root_decision_transition_blocked"
+  ],
+  "exact_original_failure_code": "UNKNOWN_NOT_RETAINED",
+  "findings": [],
+  "native_contract_ref": {
+    "path": "review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/native_runtime/hedgehog/kernel/root_decision_v01.py",
+    "sha256": "cae47026ba5c8a52ca25b2774e7ac8e92eb4e312c2eb5d1776c3a16ee276409c",
+    "size_bytes": 43352
+  },
+  "no_arbitrary_error_text_allowed": true,
+  "owner_execution_authorized": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/root_input_adapter_repair_proposal_v01.json",
+    "sha256": "94948a5e3f1dd6063dcac9cde65c22490326c4301fd2b9490911e1037fcaa633",
+    "size_bytes": 3980
+  },
+  "required_actual_checks": [
+    "False adapter check produces a valid BLOCKED_FAIL_CLOSED native Root result with no permission/output/effect.",
+    "True adapter check remains ACCEPT.",
+    "All twelve exact native constructor reasons remain visible; unknown strings remain SANITIZED_OPERATION_FAILURE."
+  ],
+  "reviewed_at_utc": "2026-10-21T05:49:07.625632+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "root_adapter_change": "Only invalid negative candidate hard-failure literal replaced by existing native candidate_validation_failed; positive path and kernel remain unchanged.",
+  "schema": "radik.stage05.narrow_source_delta_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_TARGETED_NATIVE_CHECKS"
+}

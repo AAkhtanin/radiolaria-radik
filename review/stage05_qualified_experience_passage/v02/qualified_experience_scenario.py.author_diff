@@ -1,0 +1,174 @@
+--- review/stage05_qualified_experience_passage/v01/after/app/qualified_experience_scenario.py
++++ review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_scenario.py
+@@ -15,13 +15,14 @@
+ from .native_authority import plain
+ from .stage04_diagnostics import observe_failure, project_error, record_secondary
+ 
+-PREFIX = 'review/stage05_qualified_experience_passage/v01'
++PREFIX = 'review/stage05_qualified_experience_passage/v02'
+ 
+ 
+ STAGE05_SCENARIO_STAGES = frozenset((
+     'UNKNOWN', 'ORDINARY_TASK', 'COLD_DECISION', 'PROSPECTIVE_FEEDBACK',
+     'SUBSEQUENT_WORK', 'CAUSAL_CHECKS', 'UNSCORABLE_CONTROL',
+-    'ELIGIBILITY_CONTROLS', 'FINALIZATION',
++    'ELIGIBILITY_CONTROLS', 'AGED_CURRENT_CHECK', 'UNRELATED_TASK',
++    'UNRELATED_CONSUMER', 'SOURCE_REVISION_REFUSAL', 'FINALIZATION',
+ ))
+ STAGE05_NATIVE_STAGES = frozenset((
+     'UNKNOWN', 'G4_BOOTSTRAP_ADVANCE', 'G4_BOOTSTRAP_ARTIFACT', 'G4_HISTORY',
+@@ -99,7 +100,8 @@
+     require(digest(raw) == manifest['pins'].get(relative), 'stage05_scenario_input_pin')
+     inputs = json.loads(raw)
+     require(inputs['schema'] == 'radik.stage05.qualified_experience_inputs.v01'
+-        and inputs['command'] == 'experience' and inputs['expected_role_calls'] == 3
++        and inputs['command'] == 'experience' and inputs['expected_role_calls'] == 6
++        and inputs['expected_primary_role_calls'] == inputs['expected_unrelated_role_calls'] == 3
+         and inputs['native_E_calls'] == inputs['effects'] == 0, 'stage05_scenario_input_contract')
+     require(operation is not None and operation['schema'] == 'radik.normal_operation.v02',
+         'stage05_current_operation_required')
+@@ -151,7 +153,8 @@
+                 record_secondary(primary, secondary, phase='TERMINAL_OUTPUT', step='STAGE05_EXPERIENCE')
+ 
+     try:
+-        source = store.register_source('stage05:'+operation['run_id']+':rowan',
++        source_key = 'stage05:'+operation['run_id']+':rowan'
++        source = store.register_source(source_key,
+             'Fictional Rowan support terms', inputs['source_text'].encode('utf-8'))
+         task = store.create(goal=inputs['goal'], source_ids=(source,), profile=inputs['ordinary_profile'],
+             criterion=inputs['criterion'], topic=inputs['topic'])
+@@ -165,7 +168,7 @@
+             'stage05_actual_cold_result_required')
+         after_cold = client.budget.snapshot()
+         report['actual_model_calls'] = len(after_cold['attempts'])-len(before['attempts'])
+-        require(report['actual_model_calls'] == inputs['expected_role_calls'], 'stage05_cold_role_budget')
++        require(report['actual_model_calls'] == inputs['expected_primary_role_calls'], 'stage05_cold_role_budget')
+         checkpoint('ordinary_accepted_result', dict(result=store.result(task),
+             source_scope=controller.initial_sources, model_calls=report['actual_model_calls']))
+ 
+@@ -222,10 +225,124 @@
+         with phase('eligibility_controls'):
+             eligibility = experience.eligibility_controls(controller)
+         checkpoint('current_eligibility_controls', eligibility)
++        with phase('aged_current_check'):
++            aged = experience.aged_consumer_control(controller)
++        require(aged['old_history_opened'] is False and aged['prior_fp'] == 0
++            and aged['binding_report']['mandatory_check'] is not None
++            and aged['binding_report']['history_ref'] is None
++            and aged['binding_report']['outcome_to_history_refs'] == []
++            and aged['history_before'] == aged['history_after'],
++            'stage05_aged_additional_work_required')
++        checkpoint('aged_current_check', aged)
++        after_primary_native = client.budget.snapshot()
++        require(after_primary_native['attempts'] == after_cold['attempts']
++            and after_primary_native['active_attempt_id'] is None,
++            'stage05_native_provider_calls_forbidden')
++
++        # A real independent cold task supplies its own current Root and Work.
++        # Its three role attempts are explicitly additional owner budget.
++        scenario_stage = 'UNRELATED_TASK'
++        unrelated_inputs = inputs['unrelated']
++        unrelated_source = store.register_source('stage05:'+operation['run_id']+':alder',
++            'Fictional Alder museum terms', unrelated_inputs['source_text'].encode('utf-8'))
++        unrelated_task = store.create(goal=unrelated_inputs['goal'], source_ids=(unrelated_source,),
++            profile=unrelated_inputs['ordinary_profile'], criterion=unrelated_inputs['criterion'],
++            topic=unrelated_inputs['topic'])
++        report['unrelated_task_id'] = unrelated_task
++        history_before_unrelated = experience.history_snapshot()
++        checkpoint('unrelated_prospective_task', dict(task=store.spec(unrelated_task).plain(),
++            source_id=unrelated_source, expected_additional_role_calls=inputs['expected_unrelated_role_calls'],
++            retained_history=history_before_unrelated))
++        report['actual_model_calls'] = None
++        run_task(unrelated_task, prepare_continuation=False)
++        unrelated_controller = controllers[unrelated_task]
++        require(unrelated_controller is not controller and unrelated_controller.accepted is not None
++            and unrelated_controller.memory_origin is None
++            and unrelated_controller.spec.task_id != controller.spec.task_id
++            and unrelated_controller.root_id != controller.root_id,
++            'stage05_unrelated_actual_controller_required')
++        after_unrelated_cold = client.budget.snapshot()
++        unrelated_calls = len(after_unrelated_cold['attempts'])-len(after_cold['attempts'])
++        report['actual_model_calls'] = len(after_unrelated_cold['attempts'])-len(before['attempts'])
++        require(unrelated_calls == inputs['expected_unrelated_role_calls'],
++            'stage05_unrelated_role_budget')
++        checkpoint('unrelated_accepted_result', dict(result=store.result(unrelated_task),
++            source_scope=unrelated_controller.initial_sources, model_calls=unrelated_calls))
++        with phase('unrelated_consumer'):
++            unrelated = experience.consume(unrelated_controller)
++        history_after_unrelated = experience.history_snapshot()
++        require(unrelated.report['history_ref'] is None and unrelated.report['prior_fp'] == 0
++            and unrelated.report['outcome_to_history_refs'] == []
++            and unrelated.report['selected_operation'] == cold_binding.report['selected_operation']
++            and unrelated.report['work_result_ref'] != qualified.report['work_result_ref']
++            and unrelated.report['current_root'] != qualified.report['current_root']
++            and unrelated.report['source_scope'] != qualified.report['source_scope']
++            and unrelated.report['scope'] != qualified.report['scope']
++            and unrelated.report['provider_calls'] == unrelated.report['effect_calls'] == 0
++            and history_before_unrelated == history_after_unrelated,
++            'stage05_unrelated_native_consumer_scope')
++        checkpoint('unrelated_current_consumer', dict(actual_task_id=unrelated_task,
++            accepted_result_id=unrelated_controller.accepted.plain['result_id'],
++            task_root=unrelated_controller.root_id, consumer=unrelated.report,
++            history_before=history_before_unrelated, history_after=history_after_unrelated,
++            foreign_prior_applied=False, foreign_lesson_applied=False, foreign_prohibition_applied=False))
++
++        # Change only this scenario document after all dependent consumers.
++        # The ordinary approved-source reader derives and commits its revision.
++        with phase('source_revision_refusal'):
++            before_sources = store.source_reader(store.spec(task))()
++            require(len(before_sources) == 1 and before_sources[0]['source_ref'] == source
++                and before_sources[0]['text'].encode('utf-8') == inputs['source_text'].encode('utf-8'),
++                'stage05_source_revision_preimage')
++            history_before_revision = experience.history_snapshot()
++            native_before_revision = dict(results=plain(controller.results),
++                events=plain(controller.events), evidence_refs=plain(controller.evidence_refs))
++            checkpoint('source_revision_before', dict(source_id=source,
++                approved_sources=before_sources, raw_utf8_hex=before_sources[0]['text'].encode('utf-8').hex(),
++                history=history_before_revision, native=native_before_revision,
++                old_binding_id=qualified.report['binding_id']))
++            changed_bytes = inputs['source_revision_text'].encode('utf-8')
++            require(changed_bytes != before_sources[0]['text'].encode('utf-8'),
++                'stage05_source_revision_requires_change')
++            require(store.register_source(source_key, 'Fictional Rowan support terms', changed_bytes) == source,
++                'stage05_source_revision_logical_identity')
++            after_sources = store.source_reader(store.spec(task))()
++            require(len(after_sources) == 1 and after_sources[0]['source_ref'] == source
++                and after_sources[0]['revision'] == before_sources[0]['revision'] + 1
++                and after_sources[0]['sha256'] == digest(changed_bytes)
++                and after_sources[0]['sha256'] != before_sources[0]['sha256']
++                and after_sources[0]['text'].encode('utf-8') == changed_bytes,
++                'stage05_source_revision_actual_reader')
++            checkpoint('source_revision_after', dict(source_id=source,
++                approved_sources=after_sources, raw_utf8_hex=changed_bytes.hex(),
++                old_revision=before_sources[0]['revision'], new_revision=after_sources[0]['revision']))
++            try:
++                qualified_strategy.run(controller, qualified, label='qualified')
++            except ValueError as error:
++                require(error.args == ('dynamic_current_sources_changed',),
++                    'stage05_source_revision_wrong_refusal')
++                refusal = error.args[0]
++            else:
++                raise ValueError('stage05_source_revision_stale_binding_consumed')
++            native_after_revision = dict(results=plain(controller.results),
++                events=plain(controller.events), evidence_refs=plain(controller.evidence_refs))
++            history_after_revision = experience.history_snapshot()
++            require(native_after_revision == native_before_revision
++                and history_after_revision == history_before_revision,
++                'stage05_source_revision_mutated_prior_work_or_history')
++        checkpoint('source_revision_stale_binding_refused', dict(refusal_code=refusal,
++            consumer='qualified_strategy.run', old_binding_id=qualified.report['binding_id'],
++            source_id=source, before_sources=before_sources, after_sources=after_sources,
++            history_before=history_before_revision, history_after=history_after_revision,
++            native_before=native_before_revision, native_after=native_after_revision,
++            stale_prior_reapplied=False, native_dispatch_reached=False))
+         scenario_stage = 'FINALIZATION'
+         final = client.budget.snapshot()
+-        require(final['attempts'] == after_cold['attempts'] and final['active_attempt_id'] is None,
++        require(final['attempts'] == after_unrelated_cold['attempts'] and final['active_attempt_id'] is None,
+             'stage05_native_provider_calls_forbidden')
++        report['actual_model_calls'] = len(final['attempts'])-len(before['attempts'])
++        require(report['actual_model_calls'] == inputs['expected_role_calls'], 'stage05_total_role_budget')
++        report['role_calls_by_task'] = {task:inputs['expected_primary_role_calls'], unrelated_task:unrelated_calls}
+         report['status'] = 'OWNER_SCENARIO_COMPLETED_REQUIRES_REVIEW'
+         report['ledger_after_sha256'] = digest(final)
+         report['result_ref'] = persist(output, 'completed_result', report)

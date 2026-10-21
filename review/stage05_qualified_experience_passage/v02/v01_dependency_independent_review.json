@@ -1,0 +1,99 @@
+{
+  "application_execution_granted": false,
+  "basis_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_admission.json",
+      "sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+      "size_bytes": 32654
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/runtime_source_review.json",
+      "sha256": "5737904c79db7851d8c45e9a7924d79b4c4fc4dbd5d6d1aad0b63c6893388e1d",
+      "size_bytes": 132494
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/ordinary_profile_manifest.json",
+      "sha256": "bf07aa8775212023add413635c4ed0554f8b4983b3540b7c0ad4783843f03dd9",
+      "size_bytes": 74128
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/rehearsal_runner.py",
+      "sha256": "b0801b24dab8d7ffe072d701043d95f671cb1ac7e0bceb8f2844ca60c269fa49",
+      "size_bytes": 14268
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/owner_terminal.py",
+      "sha256": "359c33069f54bcb019ddab4a566105bff226fd46d31fe38e01558467fb70833a",
+      "size_bytes": 64203
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/supervisor_timing.py",
+      "sha256": "37340f9ec079024e2ab23cd64be45f4c46379cb78d32b2b7b1e0abe455d9060e",
+      "size_bytes": 16725
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/inputs/scenario.json",
+      "sha256": "8bf62e0e44a677f2aa838d2bb69291c15e7dec0846ae0632a90288b808316d67",
+      "size_bytes": 1207
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v01/local_export_commit_receipt.json",
+      "sha256": "9361b53ccad5aa4b92c3813271543efb2c284f3452b81e68f1107c0204852534",
+      "size_bytes": 1621
+    }
+  ],
+  "candidate_execution_performed": false,
+  "deferred_old_owner_admission_sha256": "7a715eec5cb8d031ef85359a3fb72b87c88ad9b406950309cad51d5831e8be95",
+  "external_owner_instruction_ref": {
+    "path": "/Users/admin/Downloads/RADIK_STAGE05_SOURCE_REVIEW_AND_COMPLETION_RU.md",
+    "sha256": "397bdea3506b50368f74ae7ec1cf41d8f4dc8dc46cdb85a7fe1fcfcb7de7d616",
+    "size_bytes": 13825
+  },
+  "findings": [
+    {
+      "current": "v01 starts a global elapsed clock, but copying has no per-file deadline, preparation/final guards are not bounded by that clock, and the supervisor starts a fresh operation clock after installation. The 900-second interruption can be followed by cleanup.",
+      "id": "OFFLINE_TOTAL_BOUND",
+      "required": "One nonrenewing offline envelope from entry including preparation and cleanup; stop work before the final deadline to reserve at most 30 seconds for the sole exact-child cleanup. Cover copy, import checks, preparation, child execution and terminal outcome; do not claim a 900-second total by merely retaining MAX_SECONDS=900."
+    },
+    {
+      "current": "The old scenario has one three-role cold task and compares its first cold delta directly with the total input allowance.",
+      "id": "SIX_ROLE_AGGREGATION",
+      "required": "Separately bind the original three-role round and the unrelated three-role round, then verify six total attempts. Update scenario input, scenario hardcoded shape, first/second/total accounting, owner input shape, closed driver diagnostic name, banner, new admission and new result review. Preserve each round max_attempts=3 and all current policy/ledger bytes."
+    },
+    {
+      "id": "PROFILE_PATH_SELECTION",
+      "required": "Move the active candidate path literals in app/ordinary_entry.py, app/qualified_experience_scenario.py, config/application_profile_gate.py and review/transport/radik_owner_start.py to the new v02 profile consistently with v02 activator, supervisor, timing and scenario-input identities."
+    },
+    {
+      "id": "PRESERVING_INSTALL_BASELINE",
+      "required": "v01 was not activated. Keep before-install identities tied to the actually installed predecessor and protected state. Treat unused v01 source/admission as retained provenance, never as proof of installed state or consumed permission."
+    },
+    {
+      "id": "SOURCE_AND_GRANT_ORDER",
+      "required": "Prepare changed physical aliases and exact pin metadata; independently review changed executable dependencies; create new runtime source review, owner preflight source review, source-only admission and manifest; then a finite sealed copy and one-use offline grant. New owner admission follows the independent actual review and updated coverage matrix, never precedes them."
+    },
+    {
+      "id": "HONEST_TIMING",
+      "required": "Owner budget must account for six serial response ceilings plus measured native/preparation overhead and one cleanup. Offline cap is a spending ceiling, not an ETA and not a material TTL renewal. Never promote the old unknown ORDINARY_V02 cause into a diagnosed cause."
+    }
+  ],
+  "owner_execution_granted": false,
+  "remaining_required_reviews": [
+    "Aged-but-unexpired real consumer extra typed PURE Work and fresh Root decision with original history unchanged.",
+    "Real TaskStore.register_source revision and old-binding refusal before repeated experience use.",
+    "Separate admitted unrelated controller, current Root and real PURE Work with no foreign prior or prohibition.",
+    "Actual TaskStore/current-source reader through G3 binding to G4 bootstrap/continuation with bounded preserved primary diagnostic.",
+    "One-use offline runner whole-envelope enforcement and final owner scenario/budget composition."
+  ],
+  "retained_credits": [
+    "All v01 SOURCE, actual, failed runs, reviews, pins and reservations remain immutable.",
+    "Unchanged native/reference inventories may be retained by exact reference without repeating the historical campaign.",
+    "Previously accepted short native and supervisor evidence remains credited within its original scope."
+  ],
+  "reviewed_at_utc": "2026-10-21T05:07:55.921676+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.v02_dependency_review.v01",
+  "scope": "Narrow v01 admission, scenario budget, profile selection and offline supervisor dependency review for an append-only v02 passage.",
+  "status": "SOURCE_PLANNING_FINDINGS_NO_EXECUTION_GRANT",
+  "v01_modifications_authorized": false
+}

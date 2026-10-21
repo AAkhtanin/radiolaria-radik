@@ -1,0 +1,73 @@
+{
+  "actual_post_readback_elapsed_seconds": 0.825170375,
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json",
+    "sha256": "1c4a060559f6f2a7a96094253701d2a94ab02e3848cce2828ef4a88fa89c6827",
+    "size_bytes": 42680
+  },
+  "all_executable_AUTH_native_pins_unchanged": true,
+  "automatic_retry": false,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_snapshot_path_repair/predecessor_install_state.json",
+    "sha256": "ed6cba31ae50c0d102221f00f8fb5d459c4d18551032e39ba2e03a338c2a8345",
+    "size_bytes": 42680
+  },
+  "changed_fields": [
+    "predecessor_state.activation.snapshot_ref.path",
+    "predecessor_state.install.snapshot_ref.path",
+    "predecessor_state.ledger.snapshot_ref.path",
+    "predecessor_state.tasks.snapshot_ref.path"
+  ],
+  "child_started": false,
+  "copied_snapshot_bytes_and_modes_exact": true,
+  "copied_snapshot_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile.json",
+      "sha256": "d5d1befb2fee7765ba4310b4d570d9ea6f3f9becdff0843cb08ce74d29c891d1",
+      "size_bytes": 259
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/application_profile_install.json",
+      "sha256": "7bf94041cc061e6648baef47616b08d72bede1fa3617869fac7a1d3bdf7710e4",
+      "size_bytes": 6437
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/state/console_model_turns.json",
+      "sha256": "504b4ea4a389a89190c3f483f9bdd1fc63a758e0d73e4dcf2e92de0e8577e0b9",
+      "size_bytes": 110730
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "b901c575a3e6055d54869bb00412ff1db8a14517efb1cb4077871274ee8892be",
+      "size_bytes": 61959
+    }
+  ],
+  "current_real_predecessor_state_unchanged": true,
+  "executor_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v01_invocation_receipt.json",
+    "sha256": "5afd4936de7266c0ade3447dec4381da1d4ab64aa3f64c43253f8d002b3f653d",
+    "size_bytes": 2299
+  },
+  "findings": [],
+  "native_or_application_actual_credit": false,
+  "old_operational_metadata_preserved_under": "review/stage05_qualified_experience_passage/v02/metadata_drafts/before_snapshot_path_repair",
+  "original_refs_hashes_sizes_and_modes_unchanged": true,
+  "owner_execution_authorized": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/snapshot_path_repair_proposal.json",
+    "sha256": "2f29bf26baf04f6426da7a87aee313d0ebc28b136794543ec778756cf69d386f",
+    "size_bytes": 1990
+  },
+  "reviewed_at_utc": "2026-10-21T05:24:05.294336+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.snapshot_path_repair_independent_review.v01",
+  "separate_explicit_continuation_grant_required": true,
+  "single_changed_inventory_pin": "review/stage05_qualified_experience_passage/v02/predecessor_install_state.json",
+  "source_gate_unchanged": true,
+  "status": "ACCEPTED_METADATA_ONLY_PATH_REPAIR_PENDING_NEW_EXPLICIT_GRANT",
+  "stopped_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v01_setup_result_review.json",
+    "sha256": "00cad458bb88f11a18fc6e349cbbea1c7a7b74cd3d5f88a29beebefc7122edfa",
+    "size_bytes": 6844
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "author": "/root/stage05_g3_contract",
+  "candidate_imports": false,
+  "default_public_claims": [
+    {
+      "containing_object_sha256": "0c8ed498216ae56d6bc47cb079b49268e11113208daade5e21d9f66295b91543",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/005_unrelated_accepted_result.json",
+        "sha256": "5712fa427d3fc4a526701341bdbe298a7b1771d687a1809c724baa6b2ead52ac",
+        "size_bytes": 34518
+      },
+      "json_pointer": "/result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "7ae9928feb668a1029e4a4bb0c35823e0d7be7b81b6c260455b56f111a3cbf44",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/006_unrelated_current_consumer.json",
+        "sha256": "6bbb05486e8fd8d0c72304ba1ea31f108c189545c49a1f3530421a4e299d6039",
+        "size_bytes": 144126
+      },
+      "json_pointer": "/consumer/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0e67fa2c5d1bcf2fcdd67de1fb77c5e8c92c23a589a31b04f8c751ae1c2f9f11",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_REMAINDER_V01/work/006_unrelated_current_consumer.json",
+        "sha256": "6bbb05486e8fd8d0c72304ba1ea31f108c189545c49a1f3530421a4e299d6039",
+        "size_bytes": 144126
+      },
+      "json_pointer": "/consumer/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "b9efea652f5b965290a230c70f8c29cb14eee75268202a38348a4e8eae5d0d32",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/006_actual_blocked_Root.json",
+        "sha256": "74f90c85c5d2f01705686f050b3b9dfd82b008d0875836999db00432b5f113e6",
+        "size_bytes": 13107
+      },
+      "json_pointer": "/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/output/a4273f6fda0647e183afc627f8510b36-a80cf07fc0614a884162260f4c0b0a659e835f208f792a3d68ddfa3376689b23.json",
+        "sha256": "a80cf07fc0614a884162260f4c0b0a659e835f208f792a3d68ddfa3376689b23",
+        "size_bytes": 35706
+      },
+      "json_pointer": "/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "54c6d0d4baa50b01f1159ca77699e2c8c0f6002d993316dc3f3e96de94931a88",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/138a94aa9e6c74bcf0c444db/ordinary_console_command_b25d87b790ae5c44d3dc9236cf5d4fdd9f2cbb3c9365f1a79c6f7521460154f5.json",
+        "sha256": "b25d87b790ae5c44d3dc9236cf5d4fdd9f2cbb3c9365f1a79c6f7521460154f5",
+        "size_bytes": 343666
+      },
+      "json_pointer": "/body/selected_result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/138a94aa9e6c74bcf0c444db/ordinary_console_command_d567b3c4a68e7174319010791eab3ebc6fb423860d7041adb1181462c6136500.json",
+        "sha256": "d567b3c4a68e7174319010791eab3ebc6fb423860d7041adb1181462c6136500",
+        "size_bytes": 389375
+      },
+      "json_pointer": "/body/controller_snapshots/radik-task:a4273f6fda0647e183afc627f8510b36/result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/p28_entry/138a94aa9e6c74bcf0c444db/ordinary_console_command_d567b3c4a68e7174319010791eab3ebc6fb423860d7041adb1181462c6136500.json",
+        "sha256": "d567b3c4a68e7174319010791eab3ebc6fb423860d7041adb1181462c6136500",
+        "size_bytes": 389375
+      },
+      "json_pointer": "/body/selected_result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/stage05/1025a1313a6d/ordinary_accepted_result_9a8778160c87c4caed8b915d2b578db61a9a6cdafce571424dae37dd903b4b96.json",
+        "sha256": "9a8778160c87c4caed8b915d2b578db61a9a6cdafce571424dae37dd903b4b96",
+        "size_bytes": 36461
+      },
+      "json_pointer": "/body/result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/706ed94af80b8e76fdcc410652b198a29fb027067f0758424bf5d8029ad9f4b1/accepted_dynamic_result_36570c29a1afdb327c06eb214dc3feff610c25177700d96cbb71314862c35d5a.json",
+        "sha256": "36570c29a1afdb327c06eb214dc3feff610c25177700d96cbb71314862c35d5a",
+        "size_bytes": 35794
+      },
+      "json_pointer": "/body/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "1b87949416326ff8b4cb1da31065f64c64bf909a4ee85d8076d0d282f4d2c320",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/706ed94af80b8e76fdcc410652b198a29fb027067f0758424bf5d8029ad9f4b1/dynamic_intake_root_ea9404028bb0693ec9baa832f6774bda2968281ab7aafc08962e835c1b92ddb6.json",
+        "sha256": "ea9404028bb0693ec9baa832f6774bda2968281ab7aafc08962e835c1b92ddb6",
+        "size_bytes": 14746
+      },
+      "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "76f5b32a65e215830fa5b6e3b10fe19932a3ef26aa252e29f6da2ae7c6a8692c",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/706ed94af80b8e76fdcc410652b198a29fb027067f0758424bf5d8029ad9f4b1/dynamic_source_family_2082faa7db8497807e20fffec8dda1675ebd9f9f28fe326a5fbec85e3c554f40.json",
+        "sha256": "2082faa7db8497807e20fffec8dda1675ebd9f9f28fe326a5fbec85e3c554f40",
+        "size_bytes": 57498
+      },
+      "json_pointer": "/body/route_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "128844d68991815c6eb1590d00483228458fea966a8fd86b20cafc485fa81af4",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/8f7e4017e8660dd0da976f72946ff5f604e367267d4bf823cba63fa86f9967b6.json",
+        "sha256": "8f7e4017e8660dd0da976f72946ff5f604e367267d4bf823cba63fa86f9967b6",
+        "size_bytes": 36430
+      },
+      "json_pointer": "/outcome/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "63ebcb3f6ea3a7410b74fb02ab7bd6864d45e943228515bbd059498f6d72f215",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711.json",
+        "sha256": "592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711",
+        "size_bytes": 144212
+      },
+      "json_pointer": "/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0135be3c88ca36ae14beb45a7e2df5c39ecd64305cf643dcd96fc8af500c2c7c",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/COMPLETION_V03/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711.json",
+        "sha256": "592f7136eadb632496e08730d68fcf0ee6ca6adffc985b82b2e3bed79cdd2711",
+        "size_bytes": 144212
+      },
+      "json_pointer": "/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0c8ed498216ae56d6bc47cb079b49268e11113208daade5e21d9f66295b91543",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/output/da6a34ef3754422db97f468cddece8d1-ae34846784211c6ffd13d3185457d29e1950a58556a845e1bbe800b895ba1b4b.json",
+        "sha256": "ae34846784211c6ffd13d3185457d29e1950a58556a845e1bbe800b895ba1b4b",
+        "size_bytes": 34046
+      },
+      "json_pointer": "/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "7ae9928feb668a1029e4a4bb0c35823e0d7be7b81b6c260455b56f111a3cbf44",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05_remainder/cc5943943582/qualified_consumer_03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d.json",
+        "sha256": "03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d",
+        "size_bytes": 140318
+      },
+      "json_pointer": "/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0e67fa2c5d1bcf2fcdd67de1fb77c5e8c92c23a589a31b04f8c751ae1c2f9f11",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/stage05_remainder/cc5943943582/qualified_consumer_03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d.json",
+        "sha256": "03e9a51359974d078a85174ecb5213fd989e95fca8d40a6fbacd1b2d99e1bb9d",
+        "size_bytes": 140318
+      },
+      "json_pointer": "/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0c8ed498216ae56d6bc47cb079b49268e11113208daade5e21d9f66295b91543",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/accepted_dynamic_result_455d142b685387a2326bc7dfca43c764781ccd6fdd055c86ad706d257f3d4d68.json",
+        "sha256": "455d142b685387a2326bc7dfca43c764781ccd6fdd055c86ad706d257f3d4d68",
+        "size_bytes": 34134
+      },
+      "json_pointer": "/body/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "c32276736efa6fcebf182b3ed7c70a7159f8012b9c3a64adcf8afed54c422bdb",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/dynamic_intake_root_56a0ea2bff9758f6471413e8654ed37f99a6029d91d97f019fffc7b49905ff09.json",
+        "sha256": "56a0ea2bff9758f6471413e8654ed37f99a6029d91d97f019fffc7b49905ff09",
+        "size_bytes": 14622
+      },
+      "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "6a301401d575cfe5970e4296bcc277f001c86d00c96d99994e5ed259eeb49f27",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/9f71248e488a34acbbe2ee2990b18feee7fe3933fc965161cb849555314e92e8/dynamic_source_family_ff8e8fe4c759471353a505b417dd269286a2a6a8ba6903e20efe24326910f0f2.json",
+        "sha256": "ff8e8fe4c759471353a505b417dd269286a2a6a8ba6903e20efe24326910f0f2",
+        "size_bytes": 57100
+      },
+      "json_pointer": "/body/route_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "0c8ed498216ae56d6bc47cb079b49268e11113208daade5e21d9f66295b91543",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62.json",
+        "sha256": "e4ea098a963c022da423975beadfaf279e6dde4a34a013c33bfa14b9b3385c62",
+        "size_bytes": 34646
+      },
+      "json_pointer": "/outcome/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "3f0ee0744cec179da000452e270273b2bac525a57e1bc87de61ba2a14cd5a2d0",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V01/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/dced5150ba248e7f1e4503a79336d91f6ea65029e416085d8cbeed9bb915da3d/dynamic_intake_root_0cc3ecfb70d589f2ebb4eeb0bb08a26c48e34a3cff7a2a604e8cf3ff4c0d5f3d.json",
+        "sha256": "0cc3ecfb70d589f2ebb4eeb0bb08a26c48e34a3cff7a2a604e8cf3ff4c0d5f3d",
+        "size_bytes": 14746
+      },
+      "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "1ac0cdf54290e4db1db75669f5762fe2cb35395710dd92918b6e61cc4d07cb97",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/output/865e76c52b0c4cd2ad270348586807b7-e76cbaa130ac17487a34225eb580f73ccdd7f43017ed9b061f437fa458f1c7b7.json",
+        "sha256": "e76cbaa130ac17487a34225eb580f73ccdd7f43017ed9b061f437fa458f1c7b7",
+        "size_bytes": 35718
+      },
+      "json_pointer": "/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f5ef94fb6ac494158aafbff50df9666f48b3af6e67139f3d69aea0fdacd1ec07",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/aged_current_check_78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd.json",
+        "sha256": "78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd",
+        "size_bytes": 177491
+      },
+      "json_pointer": "/body/binding_report/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "a0df1d2c7e79646cbc36fc20c4e83646dc6a9eee80fe8c26203bdf236aaecb67",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/aged_current_check_78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd.json",
+        "sha256": "78c9eced4c1a41fd533cae6e910a95cdfe5f97ce6e9890e9abe6bd2531e3bfdd",
+        "size_bytes": 177491
+      },
+      "json_pointer": "/body/binding_report/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f01283e820eebf3f1cc088ffea786a1e079ad2e3899e22be2cc14337a670d608",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/cold_allocated_work_7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32.json",
+        "sha256": "7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32",
+        "size_bytes": 18581
+      },
+      "json_pointer": "/body/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "1ac0cdf54290e4db1db75669f5762fe2cb35395710dd92918b6e61cc4d07cb97",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/ordinary_accepted_result_f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806.json",
+        "sha256": "f6ab7b4ec0c2772310c520e7702760ffdc75b04227992d5cbaa0e00fe9405806",
+        "size_bytes": 36473
+      },
+      "json_pointer": "/body/result/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "74bdbcaf60f465e85b82911d7e3b52266a5ceecc33a09b06dccbe14654146d34",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_allocated_work_e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f.json",
+        "sha256": "e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f",
+        "size_bytes": 19280
+      },
+      "json_pointer": "/body/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "ba276a9b390f730670aab1b0e02e18eb595520bd671e32264d00ede5bd933c68",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_feedback_77c9723ef9cf314175829ee33fce24f7e5a0a098d9b2704676ffdaac1299904c.json",
+        "sha256": "77c9723ef9cf314175829ee33fce24f7e5a0a098d9b2704676ffdaac1299904c",
+        "size_bytes": 65079
+      },
+      "json_pointer": "/body/actual/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "7021f37a555901790240ee7c3db4143c0334a1d3abfb0d88b389268af7ffa812",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/31b976d7f387b88b97c504b9606e090cf5c18c2d813c92630b0a231eb42b097c/dynamic_intake_root_524268480a2d02cbe010208e49bc81c8f37bca39b885e158a5a14cd71d6ff2a7.json",
+        "sha256": "524268480a2d02cbe010208e49bc81c8f37bca39b885e158a5a14cd71d6ff2a7",
+        "size_bytes": 14622
+      },
+      "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "1ac0cdf54290e4db1db75669f5762fe2cb35395710dd92918b6e61cc4d07cb97",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/accepted_dynamic_result_0abd6bf56b151d3ed48430479b16de8e0756454f9e649c959113bd3888a94f4b.json",
+        "sha256": "0abd6bf56b151d3ed48430479b16de8e0756454f9e649c959113bd3888a94f4b",
+        "size_bytes": 35806
+      },
+      "json_pointer": "/body/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "fd16ab628c44720ae207374adbd6cc6b28fbf0d46a3210ed70261bcb1ee630b3",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/dynamic_intake_root_3a4fb3f2810712a7063183cfab20baf940d12c871ec8a234b66c3cafc7b8b3ff.json",
+        "sha256": "3a4fb3f2810712a7063183cfab20baf940d12c871ec8a234b66c3cafc7b8b3ff",
+        "size_bytes": 14746
+      },
+      "json_pointer": "/body/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "8bfea7e305728630a3200d3c3e4d43c7ee6b05c3f3eb8ca2723f9925a90533dd",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/dynamic_source_family_8d23e40da9d167c05ee404fc7153d983b7c12e34c173db3b87565200b6d5d75a.json",
+        "sha256": "8d23e40da9d167c05ee404fc7153d983b7c12e34c173db3b87565200b6d5d75a",
+        "size_bytes": 57498
+      },
+      "json_pointer": "/body/route_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "aee067c5eb9c392685256adaee911d1e37a154a60a8ffa0b97c3cad6effadf03",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f.json",
+        "sha256": "869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f",
+        "size_bytes": 1176408
+      },
+      "json_pointer": "/body/custody_root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "74bdbcaf60f465e85b82911d7e3b52266a5ceecc33a09b06dccbe14654146d34",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f.json",
+        "sha256": "869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f",
+        "size_bytes": 1176408
+      },
+      "json_pointer": "/body/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "a89e5a8712d6d4c9726b72402ecdda48395c0f77814262f62ee0c5fafc79644a",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f.json",
+        "sha256": "869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f",
+        "size_bytes": 1176408
+      },
+      "json_pointer": "/body/task_root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "699242e459d3cc65478c46b1535dd460e7f95d8ad8be7f6828cef901c804d791",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764.json",
+        "sha256": "afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764",
+        "size_bytes": 1165420
+      },
+      "json_pointer": "/body/custody_root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f01283e820eebf3f1cc088ffea786a1e079ad2e3899e22be2cc14337a670d608",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764.json",
+        "sha256": "afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764",
+        "size_bytes": 1165420
+      },
+      "json_pointer": "/body/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "060b720c29a9deea838cb73c49a344a208c2a082d44b6c69aad08c090103a17d",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764.json",
+        "sha256": "afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764",
+        "size_bytes": 1165420
+      },
+      "json_pointer": "/body/task_root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f01283e820eebf3f1cc088ffea786a1e079ad2e3899e22be2cc14337a670d608",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_pre_dispatch_5af9a720e7e597a99094b95376b61551ca0f9ee02e1c4b0735ac0b4ccc71e16c.json",
+        "sha256": "5af9a720e7e597a99094b95376b61551ca0f9ee02e1c4b0735ac0b4ccc71e16c",
+        "size_bytes": 412057
+      },
+      "json_pointer": "/body/basis/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "060b720c29a9deea838cb73c49a344a208c2a082d44b6c69aad08c090103a17d",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_pre_dispatch_5af9a720e7e597a99094b95376b61551ca0f9ee02e1c4b0735ac0b4ccc71e16c.json",
+        "sha256": "5af9a720e7e597a99094b95376b61551ca0f9ee02e1c4b0735ac0b4ccc71e16c",
+        "size_bytes": 412057
+      },
+      "json_pointer": "/body/decision/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "74bdbcaf60f465e85b82911d7e3b52266a5ceecc33a09b06dccbe14654146d34",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_pre_dispatch_e082c19cbcf1ae9c515207e885b391a71067b6c88ed5438b8e1be5900e280756.json",
+        "sha256": "e082c19cbcf1ae9c515207e885b391a71067b6c88ed5438b8e1be5900e280756",
+        "size_bytes": 415619
+      },
+      "json_pointer": "/body/basis/history/custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "a89e5a8712d6d4c9726b72402ecdda48395c0f77814262f62ee0c5fafc79644a",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_pre_dispatch_e082c19cbcf1ae9c515207e885b391a71067b6c88ed5438b8e1be5900e280756.json",
+        "sha256": "e082c19cbcf1ae9c515207e885b391a71067b6c88ed5438b8e1be5900e280756",
+        "size_bytes": 415619
+      },
+      "json_pointer": "/body/decision/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "1ac0cdf54290e4db1db75669f5762fe2cb35395710dd92918b6e61cc4d07cb97",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/document_memory/payloads/3c066d867af1757557173b0e3999ca6acf7d7ff4a4a757bcbfaabdde1b40e0b7.json",
+        "sha256": "3c066d867af1757557173b0e3999ca6acf7d7ff4a4a757bcbfaabdde1b40e0b7",
+        "size_bytes": 36442
+      },
+      "json_pointer": "/outcome/root/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f5ef94fb6ac494158aafbff50df9666f48b3af6e67139f3d69aea0fdacd1ec07",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/aged_consumer_control_71ef72985be0232d7c78f7c28c3f513f469c8f78ef58cf99edc5013996127b8e.json",
+        "sha256": "71ef72985be0232d7c78f7c28c3f513f469c8f78ef58cf99edc5013996127b8e",
+        "size_bytes": 177403
+      },
+      "json_pointer": "/binding_report/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "a0df1d2c7e79646cbc36fc20c4e83646dc6a9eee80fe8c26203bdf236aaecb67",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/aged_consumer_control_71ef72985be0232d7c78f7c28c3f513f469c8f78ef58cf99edc5013996127b8e.json",
+        "sha256": "71ef72985be0232d7c78f7c28c3f513f469c8f78ef58cf99edc5013996127b8e",
+        "size_bytes": 177403
+      },
+      "json_pointer": "/binding_report/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "3d4277a5977571e142b1f2f005a831dceb427bf9f1db4d3861c40ecb310ce907",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034.json",
+        "sha256": "3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034",
+        "size_bytes": 144212
+      },
+      "json_pointer": "/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f01283e820eebf3f1cc088ffea786a1e079ad2e3899e22be2cc14337a670d608",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034.json",
+        "sha256": "3cd577c3e6e7df3745bd5070eb6edd41b7aa8c75c7595f366e414be9eac26034",
+        "size_bytes": 144212
+      },
+      "json_pointer": "/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "961f4eca13ace4081ba286fa739e5428511884ffd9a559ab6afb75f0d7762d66",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd.json",
+        "sha256": "94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd",
+        "size_bytes": 193001
+      },
+      "json_pointer": "/discovery/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "approve_controlled_memory_descent_plan_v01",
+      "subject_sha256": "9c5df772f6b3f744bcffa1eb4cbc93d286585b560a7b2b1c11298e305c56df9e"
+    },
+    {
+      "containing_object_sha256": "ba14f888e82502fb28f4d9124cc11c9d91d656600db3da34c4615f4b4c2eb7b5",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd.json",
+        "sha256": "94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd",
+        "size_bytes": 193001
+      },
+      "json_pointer": "/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "74bdbcaf60f465e85b82911d7e3b52266a5ceecc33a09b06dccbe14654146d34",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd.json",
+        "sha256": "94a1b8a9ec552e871952ac4f726e6162faae6e8763618e7b1f2c49f30d2588cd",
+        "size_bytes": 193001
+      },
+      "json_pointer": "/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "f5ef94fb6ac494158aafbff50df9666f48b3af6e67139f3d69aea0fdacd1ec07",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595.json",
+        "sha256": "c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595",
+        "size_bytes": 148339
+      },
+      "json_pointer": "/mandatory_check/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "a0df1d2c7e79646cbc36fc20c4e83646dc6a9eee80fe8c26203bdf236aaecb67",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_consumer_c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595.json",
+        "sha256": "c250be84e520aa980d573f7dd1cf2d3a492d36dcaf922574d667ad404197c595",
+        "size_bytes": 148339
+      },
+      "json_pointer": "/source_custody_review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "qualify_current_source_custody",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    },
+    {
+      "containing_object_sha256": "ba276a9b390f730670aab1b0e02e18eb595520bd671e32264d00ede5bd933c68",
+      "file_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/state/qualified_experience/qualified_observation_39859ac94a324d139332907e4062a9c0ae275e28172aad4f85090092990ed6c2.json",
+        "sha256": "39859ac94a324d139332907e4062a9c0ae275e28172aad4f85090092990ed6c2",
+        "size_bytes": 64991
+      },
+      "json_pointer": "/actual/review/input/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "predicate": "radik_document_validation",
+      "subject_sha256": "f8f9309fa8ab39ab0a321950dd6169af3afe848cd1feb0d9e65b14bcaa8d8c2f"
+    }
+  ],
+  "default_publisher_public_claim_count": 55,
+  "exception_count": 62,
+  "exception_kinds": {
+    "G34_CURRENT_ROOT_CLAIM": 16,
+    "G34_HISTORY_ROOT_CLAIM": 6,
+    "G34_TYPED_CURRENT_CLAIM": 40
+  },
+  "final_installation": "After final selection is frozen and independently accepted, root may preserve these exact entries under the required public_native_subject_exceptions.json path. Recheck any newly selected JSON and final exact file refs before using it. No packaging authority is granted by this draft.",
+  "full_raw_files_unchanged": true,
+  "generic_subject_exception": false,
+  "inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/public_native_subject_exceptions_draft_v01.json",
+    "sha256": "a19a7308d2c1b4b2de608ea41a22a04826f85837c2a33a1d0d27bd17a0e8fa12",
+    "size_bytes": 47137
+  },
+  "json_files_scanned": 392,
+  "method": "Read both reviewed helpers as AST/source. Reproduce exact closed shape predicates as local data checks; walk all exact selected JSON/JSONL and JSON closed receipts recursively, including nested subject values. No native or application module imports.",
+  "nested_values_scanned": true,
+  "non_subject_secret_key_hits": [],
+  "prior_final_inventory_replaced": false,
+  "publisher_or_adapter_execution": false,
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "schema": "radik.stage05.public_native_subject_exception_inventory_proposal.v01",
+  "selected_refs_verified": 555,
+  "selection_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_closed_draft_v04.json",
+    "sha256": "78c27ea7b1bd6b2a9cbaee4227526dc90f7b1b80cdd921a132437fe612379ff3",
+    "size_bytes": 591891
+  },
+  "status": "DRAFT_REQUIRES_FINAL_PAYLOAD_AND_INDEPENDENT_REVIEW",
+  "subject_fields": 117
+}

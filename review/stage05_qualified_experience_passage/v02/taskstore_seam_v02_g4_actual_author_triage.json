@@ -1,0 +1,290 @@
+{
+  "application_execution": false,
+  "application_imports": false,
+  "author": "/root/stage05_g4_contract",
+  "case": "TASKSTORE_SEAM_V02",
+  "not_claimed": [
+    "Whole fixture completion",
+    "Owner actual",
+    "Unrelated task consumer",
+    "Source revision refusal",
+    "Runtime reexecution of native validators",
+    "Stage05 closure"
+  ],
+  "records": [
+    {
+      "actual_compute_units": 9,
+      "actual_native_rows": [
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:a5f0661f34c11bbb717c24581bfcd221d30b69a2171cfd7b0af25c50b96ce06b",
+          "invocation_id": "capability_invocation:4b6956dd30274bb645e2cc85068dbff79232481647ee07119103924b0b907bce",
+          "packet_id": null,
+          "result_id": "capability_result:bcc351b5c1a4773643f4c0e54ab359201a164772b7fefb97769d44921e290cf8",
+          "status": "COMPLETED",
+          "work_id": "source_gate"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:9001a7923a32f4e77ab82427b93e2aef50f2103bf3901d020ac9d7369a6b3dfb",
+          "invocation_id": "capability_invocation:4bdd05daf0d95a417048f2a115cc7fb8c1a30050865415a49ba43cfd6f8ec4de",
+          "packet_id": null,
+          "result_id": "capability_result:d3d4be752eb2a64b192972fc39f641fb59bf433fa007757abcfefd112c77d45b",
+          "status": "COMPLETED",
+          "work_id": "qualification_1"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:8b491b9ce51089264c52868e2c885ac860a42e81cc5082392731b712afb8b65d",
+          "invocation_id": "capability_invocation:89efcb02d003b2cdaf6d514848c55052431bdcbc342dba4029d7d1e58a493f57",
+          "packet_id": null,
+          "result_id": "capability_result:79b4e8fb319e1b3a616442d30bf80220d4db73aac38f609ab4efbc65ce0100b9",
+          "status": "COMPLETED",
+          "work_id": "qualification_2"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:5938ac56a68ae4106f066c0dfdf7b6d63c8959637770d2c53266439bbd08cc35",
+          "invocation_id": "capability_invocation:84a69f3bb2fb4e95b6b09fffbf83fb509aed1c9f97acfd7a89503fb35d95b3ae",
+          "packet_id": null,
+          "result_id": "capability_result:987b875d230ff94b069575befd4875e171e545441367a91523cc71bbb3d1cf51",
+          "status": "COMPLETED",
+          "work_id": "qualification_3"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:4836a6c25aadd06242438e96d5a64ca1d852385156ae92664f2e267a81b1155e",
+          "invocation_id": "capability_invocation:ffbc2f29dc7b1a7bbf4d6ea1a9d847a72ff84c3cfdbaafdc96d1fb375632b30a",
+          "packet_id": null,
+          "result_id": "capability_result:2c65f45aed2239e1c2364e220b2b61819bb87de495972e847d333933825fdb87",
+          "status": "COMPLETED",
+          "work_id": "quotation_1"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:07e0f455e7b3e3896c55293e88a04fab13a00858932ca09b7d85adf666cc4591",
+          "invocation_id": "capability_invocation:129b2615bd59935836c3bc0ab24c5581fa70a38d2b8462dcfe6091c686cff4b0",
+          "packet_id": null,
+          "result_id": "capability_result:a2a5e4f9eb48762b2b5ac4fa33a12fb2db7b3ab34f59173535a448536fe59e7f",
+          "status": "COMPLETED",
+          "work_id": "quotation_2"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:0253b9c7f4ddc98e6cff8c428edc4b7d1be8ef76d6848067a42dfb5b66f54a46",
+          "invocation_id": "capability_invocation:93f6832b1cc478940fea0e2a589349407f076b9b89de7b91a3c38d03d913dd2f",
+          "packet_id": null,
+          "result_id": "capability_result:acdcf99264f79f796534b07530c54156322f87ba7c430484c0f014dd63e9e829",
+          "status": "COMPLETED",
+          "work_id": "quotation_3"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:668b579813f54d1eca16a186234461f9c22f11750771fd8c35af204300157dc8",
+          "invocation_id": "capability_invocation:d8a6473022472ffe249cc9ddebfcf0dfe4739a2b6a6c2ef84501a2c6e343f483",
+          "packet_id": null,
+          "result_id": "capability_result:ebd33976644c164a322d49e6d6d4f2a91347d3d5a0a3a21d6617919b6ffdba9a",
+          "status": "COMPLETED",
+          "work_id": "quotation_4"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:a5408b994ad7e7b27528f70ae414b133895d7931433bc32a2d3bf5e742e2cbc1",
+          "invocation_id": "capability_invocation:6823dd41837a44d2652f9936604c7263d80ab7030d72b110c6519a946c9d5dd1",
+          "packet_id": null,
+          "result_id": "capability_result:566c1a2f13d3ef55195e0e52eb686ece6340e3aecfbe58ac543c08136cfe9a21",
+          "status": "COMPLETED",
+          "work_id": "final_consumer"
+        }
+      ],
+      "actual_source_gate_and_seven_check_results_bound": true,
+      "allocation_counts": {
+        "qualification": 3,
+        "quotation": 4
+      },
+      "callback_pin": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "checkpoint_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/cold_allocated_work_7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32.json",
+        "sha256": "7ecde74965af89fd9a72d5be0e32b6829c10fd5717f332f56bb23f3b5178fd32",
+        "size_bytes": 18581
+      },
+      "custody_root_decision": "a1e242663838f9ff0c95f936dcb0142ce78dada927aa759003bfc86ce213e70a",
+      "effects": 0,
+      "event_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/011_event.json",
+        "sha256": "e618919a337a0f5633a29637e0f3ffdc9222df6eefdd9dbd17bee15f6c90b0b2",
+        "size_bytes": 587
+      },
+      "final_consumer_all_seven_inputs_match": true,
+      "full_consumer_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764.json",
+        "sha256": "afe02c81293317a8088a3f81b558fc28c149f790b08ee71d52d39807880e6764",
+        "size_bytes": 1165420
+      },
+      "hard_mask_exclusions": [
+        {
+          "id": "g4_reference:branch:3bb2701502b676c901a22a10e40d5bc74c7097a80da2175e1ef5cc08b27f197e",
+          "reasons": [
+            "g4_reference:current_intake:0e25e68803a87b8357df04e01b19f47ff830245d5eb08140ce11cf3776714acd",
+            "g4_reference:material:ec5a2c652d0566aa61abfde4ca2959a2d998698b74b8f8067f351fa424e220cc"
+          ]
+        }
+      ],
+      "history_disposition": "ABSENT",
+      "installed_cap": 9,
+      "native_model_calls": 0,
+      "prior_fp": 0,
+      "roots_distinct": true,
+      "seconds": 56.380166499875486,
+      "task_root_decision": "6c4797a098f1692fcaac166d8ef401b6ea3c16173e23bbd69f2d10aee498b4fa"
+    },
+    {
+      "actual_compute_units": 9,
+      "actual_native_rows": [
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:171bc1f93b6bffaedd1c6421358680c469a8dd67e0288a16e61aa31da07f0d99",
+          "invocation_id": "capability_invocation:ea2998419745f265b8e81b85a358915c9397fbf924f4be0705feafb524fc0b4d",
+          "packet_id": null,
+          "result_id": "capability_result:8a70411aa1a09e8e2ffeee343560e8a675390b97a2abf7d2991f69cb2ff15fcf",
+          "status": "COMPLETED",
+          "work_id": "source_gate"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:952e5b42c40c0ea854798ff949ce2b5675108bfd1a31184e9fb3777278955a51",
+          "invocation_id": "capability_invocation:b0dd1a699879ac5fb35ece8d2494cc84e5dd7a73dffcfbe1b79521b0db322ba6",
+          "packet_id": null,
+          "result_id": "capability_result:04d4f6dd58907eafae4e5dcb403857012bd2ba3910d1097b4fefecc988d3a01d",
+          "status": "COMPLETED",
+          "work_id": "qualification_1"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:cbd26f91b45f05d183de98104940b950d2550991757a3740fa1d956589d72cf2",
+          "invocation_id": "capability_invocation:bbe329c61fbb27148f650dd66e66ae02dd6d5fccfe0271e88411d233f452ebbf",
+          "packet_id": null,
+          "result_id": "capability_result:d7196c2572ec552cb6098d1d728e95a7f5b3f5638e5314f9af6f8588a7ccc0f5",
+          "status": "COMPLETED",
+          "work_id": "qualification_2"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:2f5c4c5f3ff37494eecb292ccebafe356c59e5cd27b33e093174b5826e57b6ff",
+          "invocation_id": "capability_invocation:c2ec811fd707fccf70462fa48b3a62a869e9e7bbc29f5e623a2f258275eca614",
+          "packet_id": null,
+          "result_id": "capability_result:414f48a3351152928817a063d6191bca9cd1e688a80767ed10d8686c1fabf210",
+          "status": "COMPLETED",
+          "work_id": "qualification_3"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:6c0d4aa5833529757218dd14c419c56af7faafef80c7d1d2e87700f757737b06",
+          "invocation_id": "capability_invocation:a0b0d5c4f90148d1ab207b388722e7352ba500e88a4d5f895834d728a6ac8b2e",
+          "packet_id": null,
+          "result_id": "capability_result:22018c86178f45c9902e904649dcf4155a52b848dabbd35f21376b80d00ce7c2",
+          "status": "COMPLETED",
+          "work_id": "qualification_4"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:761420bdcab5b6bf87c720fe0f84f921f7d8942f7dd645f187bf963914a20309",
+          "invocation_id": "capability_invocation:a39efc3e12707eac244fc61c6600e23755d9e9fc7b9911f75458aaa5653c814a",
+          "packet_id": null,
+          "result_id": "capability_result:a3b78c0e5213115a38e083f2fa1fb1da15a3b13e0d560f5dbb38959d49477f47",
+          "status": "COMPLETED",
+          "work_id": "quotation_1"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:28872bb875ac85667f21f960a8eb009e5ccbaf5a364d6ddf4babf3b35a3f77bd",
+          "invocation_id": "capability_invocation:f1d1521ce3528d93a5caf6f60d4426a7b64bc4d6d84dd693a5e2da259f99cf3c",
+          "packet_id": null,
+          "result_id": "capability_result:23d8abf1121fcd0ee06c9d9c503210bab03c6a49b1b59f508939f19a0e58df9e",
+          "status": "COMPLETED",
+          "work_id": "quotation_2"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:2ae703e87b6834ae529ca920b6d75ec1b705022f13d7656fa9f98c1683e00fa9",
+          "invocation_id": "capability_invocation:4a7c732411459f41037a00f1bcd82f7f441e49179e283458e58d6bd68ed5e604",
+          "packet_id": null,
+          "result_id": "capability_result:1b4ca16ad1ac966cdd169e27f5c888d6567adde18773ef06c8e5ab558472d978",
+          "status": "COMPLETED",
+          "work_id": "quotation_3"
+        },
+        {
+          "callback_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "candidate_id": null,
+          "execution_attempt_id": "pure_attempt:96c0b7cf2ee3c8db657970532b06244c43ad8d6f7cd65a556ba7041cb7e989fe",
+          "invocation_id": "capability_invocation:b755e0d9701d4724179551eea8ed2777d7e9f9911c62a58b4166df38ede12ab4",
+          "packet_id": null,
+          "result_id": "capability_result:c4261b8386792082c09e4371851dc6e90c7ff80c0a0b6e0393f18dd3d1843fa8",
+          "status": "COMPLETED",
+          "work_id": "final_consumer"
+        }
+      ],
+      "actual_source_gate_and_seven_check_results_bound": true,
+      "allocation_counts": {
+        "qualification": 4,
+        "quotation": 3
+      },
+      "callback_pin": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "checkpoint_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/stage05/f34e1dd24732/qualified_allocated_work_e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f.json",
+        "sha256": "e748d9ad2bf203c9cc527358a68ccdbc76ff7077d37291570154a0603159ee6f",
+        "size_bytes": 19280
+      },
+      "custody_root_decision": "b1aa2471f6665f3d4e16252d7b2807c1f822fe746863587b7eef571ff1e6fb1b",
+      "effects": 0,
+      "event_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/offline_actual/TASKSTORE_SEAM_V02/work/020_event.json",
+        "sha256": "3d12febdf1d475c0a7fa966baab691e17ec5ad16d2575737a9f43dfd2a4e408d",
+        "size_bytes": 597
+      },
+      "final_consumer_all_seven_inputs_match": true,
+      "full_consumer_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/review/task_evidence/a2a865a1da737fb6d002cd4fe3fc7821ebd8c8a9b83b7435069e95f308ca5e98/qualified_allocation_actual_869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f.json",
+        "sha256": "869083cce26549c2ab277f4225bacce3a1a3ac22cddb44da0158698c9d79b67f",
+        "size_bytes": 1176408
+      },
+      "hard_mask_exclusions": [
+        {
+          "id": "g4_reference:branch:3bb2701502b676c901a22a10e40d5bc74c7097a80da2175e1ef5cc08b27f197e",
+          "reasons": [
+            "g4_reference:current_intake:7bf9855f3b46937746cc660a4fcb32672fe818a89bb4a51b5a07143397be9519",
+            "g4_reference:material:0c0edb6ad58334d9efb3d7603600bdeb99b28131a4ec54afe0e654676ce6557f"
+          ]
+        }
+      ],
+      "history_disposition": "USABLE",
+      "installed_cap": 9,
+      "native_model_calls": 0,
+      "prior_fp": -62500000,
+      "roots_distinct": true,
+      "seconds": 58.391180749982595,
+      "task_root_decision": "aa0ac9435e8c79d212b0bf7a5936abcb7752ac6df618ff60d75b72abaa8419b8"
+    }
+  ],
+  "reviewed_at_utc": "2026-10-21T06:41:39.396084+00:00",
+  "schema": "radik.stage05.g4_actual_author_triage.v01",
+  "scope": "Read-only closed raw evidence, exact pins and internal receipt/data bindings. Author of G4 cannot independently accept this application; private reviewer decides credit.",
+  "status": "FACTUAL_RECORDED_WITNESS_CHECK_NOT_INDEPENDENT_ACCEPTANCE"
+}

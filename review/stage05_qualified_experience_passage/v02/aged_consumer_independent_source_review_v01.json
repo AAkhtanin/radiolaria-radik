@@ -1,0 +1,112 @@
+{
+  "schema": "radik.stage05.aged_consumer_independent_source_review.v01",
+  "reviewer": "/root/stage05_g4_contract",
+  "status": "SOURCE_ALLOWED_FOR_SEPARATELY_GRANTED_BOUNDED_ORDINARY_REHEARSAL",
+  "candidate_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience.py",
+    "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+    "size_bytes": 56127
+  },
+  "reviewed_at_utc": "2026-10-21T05:14:56.604871+00:00",
+  "application_imports": 0,
+  "application_execution": 0,
+  "native_reference_mutations": 0,
+  "resolved_findings": [
+    {
+      "id": "G3-AGED-001",
+      "status": "RESOLVED_BEFORE_ANY_EXECUTION",
+      "original_candidate_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/source_history/qualified_experience_before_drs_filename_fix_v01.py",
+        "sha256": "955b12330f48756260a091ef1a7b137874e3b4f574afa4219f68ea7e50f48396",
+        "size_bytes": 55595
+      },
+      "finding": "HEAD record_id contains a colon; LocalDRS persisted filenames replace it with an underscore.",
+      "resolution": "Only exact drsmeaning_v01: plus64lowerhex identifiers are accepted; their single colon is projected to underscore, matching immutable public store format. No private native helper is imported; raw file bytes remain the evidence hash input."
+    }
+  ],
+  "reviewed_constraints": [
+    {
+      "area": "native_age_classifier",
+      "conclusion": "Within retained native descriptor and fixed current-decision query, age >= max_age with original validity and arithmetic TTL still valid yields BLOCKED_BY_TIME and ordered reasons drs_temporal_hard_gate_failed, drs_required_evidence_missing. TIME_FITNESS derives from temporal_hard_gate; all non-temporal gates must pass. Broader native refusal cannot pass this classifier.",
+      "source_coordinates": [
+        "source/reference/hedgehog/drs_memory_resolution_v01.py:1333",
+        "source/reference/hedgehog/drs_memory_resolution_v01.py:1583",
+        "source/reference/hedgehog/drs_memory_resolution_v01.py:1631",
+        "source/reference/hedgehog/drs_memory_resolution_v01.py:1721"
+      ]
+    },
+    {
+      "area": "actual_aged_consumer",
+      "conclusion": "Only aged-but-unexpired proceeds with unopened history and zero prior. Public cold trust requires actual typed _plain_work VERIFY, current_check_receipt_bridge, review_current_advisory and execute_reviewed_pure_work. Both extra and selected Work and fresh current Root/custody/causal receipts are retained; source booleans alone are not the evidence.",
+      "source_coordinates": [
+        "source/reference/hedgehog/outcome_feedback_consumer_v01.py:189",
+        "source/reference/hedgehog/outcome_feedback_consumer_v01.py:297",
+        "source/reference/hedgehog/outcome_feedback_consumer_v01.py:327"
+      ]
+    },
+    {
+      "area": "clock_scope",
+      "conclusion": "history_evaluated_at is a labelled history-only refusal control, never backwards and never allowed to open eligible history. Current sources, Work and Root use actual controller clock. Aged report retains both evaluation times without claiming wall-time passage."
+    },
+    {
+      "area": "fresh_expired_restricted",
+      "conclusion": "Fresh default path still opens through native current_v01. Expired validity/TTL and conflict/quarantine cannot satisfy exact age classifier and stop before Work. Source-current and sealed binding checks remain unchanged."
+    },
+    {
+      "area": "history_authority",
+      "conclusion": "No numeric old history opens on aged path; outcome_to_history_refs is empty when opened is None. Fresh cold bridge applies to newly reviewed current Work and does not renew old history. History snapshot checks exact known native files and changes neither head nor epochs."
+    },
+    {
+      "area": "scenario_api",
+      "conclusion": "Confirmed returned old_history_opened, prior_fp, mandatory_check/history_ref/outcome references and before/after history fields match the separately reviewed scenario. I authored that scenario and do not accept it in this review."
+    }
+  ],
+  "io_scope": {
+    "new_imports": [],
+    "network": false,
+    "new_reads": "At most eight live captured epochs, each exact body/payload/descriptor/DRS path plus HEAD and writer.lock, declared file ceiling1MiB. No credential or arbitrary directory traversal.",
+    "new_writes": "Existing owned immutable evidence persistence and fresh native PURE receipts only; no old history mutation.",
+    "provider_AUTH_SAVE_E": 0
+  },
+  "native_source_refs": [
+    {
+      "path": "source/reference/hedgehog/drs.py",
+      "sha256": "7e78be61a24f285608841cbd8d07047967fb0abf7708173eadeff5f5578553f4",
+      "size_bytes": 3888
+    },
+    {
+      "path": "source/reference/hedgehog/drs_semantic_address_v01.py",
+      "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+      "size_bytes": 57213
+    },
+    {
+      "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "size_bytes": 157202
+    },
+    {
+      "path": "source/reference/hedgehog/outcome_feedback_history_v01.py",
+      "sha256": "aee1d5ed5649fcd877443dbca1a05f2bed38d1c2619cc84f31a1d8d99fb772b6",
+      "size_bytes": 57644
+    },
+    {
+      "path": "source/reference/hedgehog/outcome_feedback_consumer_v01.py",
+      "sha256": "19eab88fc949ccd10db1143c408224d48a82161527292b7b1283456fd0bd4938",
+      "size_bytes": 29609
+    }
+  ],
+  "unchanged_callback_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/after/app/qualified_experience_work.py",
+    "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+    "size_bytes": 4819
+  },
+  "required_actual": [
+    "Fresh ordinary TaskStore/current-reader admission before G3 binding and G4 bootstrap/continuation.",
+    "Aged real consumer produces an additional typed PURE receipt and fresh Root decision with no old prior and unchanged original history bytes.",
+    "Expired and conflict/quarantine continue to refuse without native consumption.",
+    "Separate unrelated task/controller has actual Root and PURE consumption without foreign history; final actual source replacement refuses the old live binding before dispatch."
+  ],
+  "execution_scope": "Independent reviewer must admit exact full executable/import/resource closure before one parent-owned isolated ordinary-entry rehearsal with absolute900s including preparation and one cleanup<=30, work cutoff870s. Typed inert synthetic producer allowed; no real model/AUTH/E/SAVE. No owner execution or runtime acceptance granted by this source review.",
+  "owner_actual": "NOT_RUN",
+  "Stage05_acceptance": "NOT_ESTABLISHED"
+}

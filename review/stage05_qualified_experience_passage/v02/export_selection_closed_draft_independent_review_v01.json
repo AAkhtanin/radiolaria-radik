@@ -1,0 +1,79 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "all_exact_refs_rehashed": true,
+  "append_boundary": "Only after explicit final closure notification, compare the one finite copy to its own grant; retain all changed/new public witness leaves and transport/state/closure receipts. Preserve full raw structures and classify every delta. No recursive historical campaign traversal.",
+  "append_rules_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_append_rules_v02.json",
+    "sha256": "fcaa37e2e694f3b348f156bd379921df656b8beaf89aa07b4ad134228da77244",
+    "size_bytes": 4228
+  },
+  "candidate_imports_execution": false,
+  "canonical_regular_single_link_paths": true,
+  "closed_copy_completeness": [
+    {
+      "actual_id": "COMPLETION_V01",
+      "all_changed_or_new_leaves_selected": 2,
+      "present_files": 1905,
+      "unchanged_historical_copies_excluded": 1903
+    },
+    {
+      "actual_id": "COMPLETION_V02",
+      "all_changed_or_new_leaves_selected": 0,
+      "present_files": 925,
+      "unchanged_historical_copies_excluded": 925
+    },
+    {
+      "actual_id": "COMPLETION_V03",
+      "all_changed_or_new_leaves_selected": 58,
+      "present_files": 1984,
+      "unchanged_historical_copies_excluded": 1926
+    },
+    {
+      "actual_id": "TASKSTORE_SEAM_V01",
+      "all_changed_or_new_leaves_selected": 29,
+      "present_files": 1986,
+      "unchanged_historical_copies_excluded": 1957
+    }
+  ],
+  "draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/export_selection_closed_draft_v02.json",
+    "sha256": "179853a90c7af33868bde5b3c9ca046398b23de6d65331743c366051a4344580",
+    "size_bytes": 224410
+  },
+  "existing_files_modified": false,
+  "literal_secret_key_scan": {
+    "exact_match_to_authored_hit_inventory": true,
+    "final_exception_inventory_required": true,
+    "hits": 19,
+    "json_and_jsonl_recursive": true,
+    "non_subject_hits": 0,
+    "only_public_native_subject_keys": true,
+    "publisher_not_executed": true
+  },
+  "no_forbidden_paths": true,
+  "ongoing_TASKSTORE_SEAM_V02_read_or_traversed": false,
+  "owner_actual": "NOT_RUN",
+  "packaging_commit_push_allowed_by_this_review": false,
+  "prior_v01_archive_link": [
+    {
+      "binary_included": false,
+      "name": "RADIK_RETURN_20261020T230457.944604Z.tar.gz",
+      "old_v01_files_duplicated": false,
+      "semantic_evidence": "PREVIOUS_ACCEPTED_SCOPED_CREDIT_NOT_RERUN",
+      "sha256": "208361ca9f204c5d7e6001eb57b1c2d70b2c65365be03939bdf0d31ba9546b52"
+    }
+  ],
+  "remaining_conditions": [
+    "Closed TASKSTORE_SEAM_V02 actual and independent result review are not yet available to this reviewer.",
+    "Final static metadata, dossier, owner admission/command and external report must be explicitly pinned.",
+    "Exact public subject exception inventory and full final payload require separate independent review and one-use packaging grant."
+  ],
+  "reviewed_at_utc": "2026-10-21T06:25:54.842545+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.closed_selection_independent_review.v01",
+  "selected_bytes": 15678356,
+  "selected_file_count": 312,
+  "source_only_append_rules_accepted": true,
+  "status": "CLOSED_DRAFT_SCOPE_AND_BYTES_ACCEPTED_FINAL_SELECTION_PENDING",
+  "synthetic_transport_refs_complete": 12
+}

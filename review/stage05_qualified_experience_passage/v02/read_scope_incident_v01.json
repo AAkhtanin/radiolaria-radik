@@ -1,0 +1,25 @@
+{
+  "application_or_native_execution": false,
+  "cause": "Negative glob patterns did not exclude the nested actual directories when applied to the provided base path. The read-only text search traversed broader copied rehearsal trees.",
+  "claim_team_never_read_live_files": false,
+  "command": "rg -n '7800|4800|native_seconds|semantic_idle_seconds|operation_seconds' review/stage05_qualified_experience_passage/v02 --glob '*.py' --glob '*.json' --glob '!rehearsal_actual/**' --glob '!offline_actual/**' --glob '!metadata_history/**' --glob '!source_history/**' --glob '!result_matrix*' --glob '!source*.json' --glob '!rehearsal_copy*' --glob '!return*' --glob '!publication*' --glob '!metadata*' --max-count 5",
+  "complete_live_read_scope": "UNKNOWN: the broad rg invocation could read other matching Python/JSON files under both rehearsal_actual and offline_actual, including mutable actual material. Truncated tool output does not permit an exact inventory, and no follow-up live inspection was made to reconstruct it.",
+  "created_at_utc": "2026-10-21T06:59:10.907455+00:00",
+  "files_modified_by_search": false,
+  "followup_inspection_of_running_actual": false,
+  "instruction": "Do not inspect the running TASKSTORE_REMAINDER_V01 actual or modify existing guard files.",
+  "intended_scope": "Closed owner timing measurements and fixed candidate source limits.",
+  "known_match_classification": "Copied historical source-review data in the running source_under_test tree, not a known newly produced result. This is a classification of the displayed filename only, not a new inspection of its current bytes.",
+  "known_running_match_from_existing_tool_return": "review/stage05_qualified_experience_passage/v02/rehearsal_actual/TASKSTORE_REMAINDER_V01/ordinary/source_under_test/review/stage04_dynamic_passage/mechanical_result_review.json:235: original_valid_to 1792087800",
+  "live_material_used_for_timing_or_acceptance": false,
+  "observed_tool_metadata": {
+    "exit_code": 0,
+    "original_token_count": 62594951,
+    "output_truncated": true,
+    "wall_time_seconds": 0.144734833
+  },
+  "post_discovery_action": "Stopped broad searches, disclosed the incident to root, and restricted subsequent reads to explicit closed V03/V02 receipt paths and fixed candidate source filenames.",
+  "reporter": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.read_scope_incident.v01",
+  "status": "DISCLOSED_READ_ONLY_SCOPE_BREACH_NO_MUTATION"
+}

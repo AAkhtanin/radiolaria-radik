@@ -1,0 +1,29 @@
+{
+  "candidate_execution_performed": false,
+  "change": "Only displayed operation/native limits change 4800/900 to 5400/1500. All other source bytes, timing branches, imports, I/O and admission conditions are identical.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_banner_delta.diff",
+    "sha256": "0f9c03d8313f3b5381e127d285ede36fedb352e21fdc80ca8487e4ca5a4e3a53",
+    "size_bytes": 940
+  },
+  "matches_reviewed_timing_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_timing_independent_review.json",
+    "sha256": "48138ddeb22af71df394b59514d676b1df192659e0cbc6e7da33aac10bf73129",
+    "size_bytes": 3216
+  },
+  "new_runtime_test_required": false,
+  "postimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+    "sha256": "2c269a31f74c40b292ad8571e93ec06375988592d7f118dd753cf25d8373f768",
+    "size_bytes": 64729
+  },
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/owner_terminal_before_final_banner.py",
+    "sha256": "e7a476fc3b8f31e161ce0d5b0ff33e9d89c7097668c47c44cfa4e15bc23a6f62",
+    "size_bytes": 64728
+  },
+  "reviewed_at_utc": "2026-10-21T07:15:19.329167+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_banner_independent_review.v01",
+  "status": "ACCEPTED_EXACT_TWO_NUMBER_DISPLAY_CORRECTION"
+}

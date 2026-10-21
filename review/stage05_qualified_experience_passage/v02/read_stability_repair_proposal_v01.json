@@ -1,0 +1,40 @@
+{
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v02/rehearsal_runner.py",
+    "sha256": "5b3e55f75b721cbb8b1c474cd93b8254cf209aa09ddf0429675d5ec58dc7c13d",
+    "size_bytes": 17415
+  },
+  "application_changed": false,
+  "author": "/root/stage05_g3_contract",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/rehearsal_runner_before_read_stability_v01.py",
+    "sha256": "0b297f152c7e72e7016a671a35f7ddce3ad50583c3c454b7015e91aeb70df3c8",
+    "size_bytes": 17217
+  },
+  "cause_limit": "The exact changed stat field was not retained. Atime is a plausible hypothesis, not an established historical cause.",
+  "change": "Compare explicit stable identity dev/ino/mode/nlink/uid/gid/size/mtime_ns/ctime_ns, excluding access time. Exact byte count, verify SHA, put raw readback and before/after deadline checks remain unchanged.",
+  "control": "New independently granted AST-only read-helper control; eight previous supervisor timing controls are not repeated.",
+  "diff": {
+    "path": "review/stage05_qualified_experience_passage/v02/read_stability_repair_proposal_v01.diff",
+    "sha256": "f737118da8885a3d2dffaf74aba723ff04c56e207143ff1afc0c4e379c43a60f",
+    "size_bytes": 763
+  },
+  "observed_failure": {
+    "case": "COMPLETION_V02",
+    "child_started": false,
+    "copied_consecutive_leaves": 925,
+    "failed_guard": "Full os.stat_result equality or byte count in exam_read_stability",
+    "failed_readback_path": "review/opaque_metadata_passage/before/source/reference/hedgehog/domains/landslide_sentinel/contracts_v01.py",
+    "last_completed_copy_index": 924,
+    "original_stat_pair_retained": false,
+    "source": "Independent reviewer read-only examination reported before this repair",
+    "trace": [
+      "copy_case:191",
+      "put:120",
+      "read:100"
+    ]
+  },
+  "reference_changed": false,
+  "schema": "radik.stage05.read_stability_repair_proposal_v01",
+  "status": "SOURCE_PROPOSED_NOT_EXECUTED_NOT_SELF_ACCEPTED"
+}

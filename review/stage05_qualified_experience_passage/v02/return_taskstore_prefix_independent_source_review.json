@@ -1,0 +1,36 @@
+{
+  "after_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/build_return.py",
+    "sha256": "0fadcf64bcdfbd2d9691c90886d08763dcce92edfe18001b61d0b95e466a136c",
+    "size_bytes": 13589
+  },
+  "application_execution_performed": false,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/source_history/build_return_before_taskstore_seam_prefix_v01.py",
+    "sha256": "a6f29e5a9ae53807c842ff427938dd6f821ddafddfb3ccd62fc95c348d72741c",
+    "size_bytes": 13512
+  },
+  "change": "Only exact TASKSTORE_SEAM_V01 copied-workspace, nested owner-terminal and bounded work prefixes added. Every exact file/hash/pointer/value/parent-hash and closed subject-shape check remains unchanged.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_taskstore_prefix_proposal_v01.diff",
+    "sha256": "ba3277de4b538ae72c9d062f0a2ad6b6b708908f95c120ba2ba39e490a4fd776",
+    "size_bytes": 886
+  },
+  "findings": [],
+  "packaging_execution_allowed": false,
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/completion_v03_packaging_independent_source_review.json",
+    "sha256": "e60208c94209cbfe40547de80399ef642ec0324388a8fb987f7c9886e155f639",
+    "size_bytes": 2092
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/return_taskstore_prefix_proposal_v01.json",
+    "sha256": "4a6888ee9d6d841d8fc98852e44bacf6c6d0f6cff77c51b455e8b0a397aac9a1",
+    "size_bytes": 1110
+  },
+  "reviewed_at_utc": "2026-10-21T05:56:02.976512+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.narrow_source_delta_review.v01",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_SELECTION_AND_ONE_USE_GRANT",
+  "subject_exceptions_accepted": false
+}

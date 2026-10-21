@@ -1,0 +1,484 @@
+--- taskstore_seam_fixture.py (retained V02)
++++ taskstore_remainder_fixture.py (proposed)
+@@ -1,9 +1,10 @@
+-"""One fresh TaskStore-reader seam in a separately admitted, finite copied state.
+-
+-The six typed role responses are explicit synthetic HTTP fixtures. Actual current
+-TaskStore readers, normal-operation budgets, Root, Host and PURE Work execute.
+-This does not repeat or certify the ordinary CLI/AUTH entry, owner model semantics,
+-or a complete owner run. No historical controller or permission is restored.
++"""One fresh unrelated current consumer and its actual source-revision refusal.
++
++Three typed role responses use the unchanged, explicitly synthetic HTTP route.
++Historical V02 witnesses are read only as inert exact bytes. No historical state,
++controller, capture, memory validity, Root or permission is restored. This is a
++compositional remainder control, not a complete ordinary or owner execution.
++The separately admitted parent supervisor owns the original absolute deadline.
+ """
+ import time
+ STARTED_NS = time.monotonic_ns()
+@@ -26,28 +27,53 @@
+ 
+ REAL = Path('/Users/admin/Projects/RadiolariaRadik')
+ BASE = 'review/stage05_qualified_experience_passage/v02'
+-SELF = BASE + '/taskstore_seam_fixture.py'
+-ACTUAL = 'TASKSTORE_SEAM_V02'
++SELF = BASE + '/taskstore_remainder_fixture.py'
++ACTUAL = 'TASKSTORE_REMAINDER_V01'
+ COPY = REAL / BASE / 'rehearsal_actual' / ACTUAL
+ WORK = REAL / BASE / 'offline_actual' / ACTUAL / 'work'
+ ROOT = COPY / 'ordinary/source_under_test'
+ MAX_SECONDS = 900
+-WORK_SECONDS = 865
++WORK_SECONDS = 830
+ CLEANUP_SECONDS = 30
+-FINAL_READBACK_SECONDS = 5
++FINAL_READBACK_SECONDS = 40
+ WORK_DEADLINE_NS = STARTED_NS + WORK_SECONDS * 10**9
+ HARD_DEADLINE_NS = STARTED_NS + MAX_SECONDS * 10**9
+ CLEANUP_DEADLINE_NS = None
+ FINAL_DEADLINE_NS = None
+ COPY_SUPPORT = None
+-INPUT_REASONS = (
+-    'root_decision_input_invalid', 'root_review_packet_invalid',
+-    'root_decision_identity_mismatch', 'root_decision_post_vv_invalid',
+-    'root_decision_gt_advisory_invalid', 'root_decision_policy_state_invalid',
+-    'root_decision_permission_state_invalid', 'root_decision_temporal_state_invalid',
+-    'root_decision_conflict_state_invalid', 'root_decision_prior_state_invalid',
+-    'root_decision_candidate_binding_invalid', 'root_decision_transition_blocked',
+-)
++OUTER_STARTED_NS = None
++FIRST_STOP = None
++
++
++class OuterWorkStopped(BaseException):
++    """A parent stop is outside Exception-based transport failure handling."""
++
++
++def retain_first_stop(code):
++    global FIRST_STOP
++    if FIRST_STOP is not None:
++        return
++    stopped_ns = time.monotonic_ns()
++    FIRST_STOP = dict(code=code, phase='OFFLINE_REMAINDER', raw_error_recorded=False,
++        stopped_monotonic_ns=stopped_ns, elapsed_from_outer_ns=None if OUTER_STARTED_NS is None
++            else stopped_ns-OUTER_STARTED_NS)
++    # This bounded receipt precedes application cleanup and has no application
++    # imports, ledger validation, source inventory traversal or permission effect.
++    if WORK.exists():
++        raw = canonical(FIRST_STOP)
++        try:
++            fd = os.open(WORK/'first_stop.json', os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW, 0o600)
++            with os.fdopen(fd, 'wb') as stream:
++                stream.write(raw); stream.flush(); os.fsync(stream.fileno())
++        except OSError:
++            pass
++    print('TASKSTORE_REMAINDER_STOP '+json.dumps(FIRST_STOP, sort_keys=True), flush=True)
++
++
++def parent_stop(_signal, _frame):
++    retain_first_stop('OUTER_WORK_DEADLINE')
++    raise OuterWorkStopped()
++
+ 
+ 
+ def require(value, reason):
+@@ -153,25 +179,22 @@
+     sys.addaudithook(audit)
+ 
+ 
+-def cutoff(_signal, _frame):
+-    signal.setitimer(signal.ITIMER_REAL, 0)
+-    raise TimeoutError('seam_absolute_work_cutoff')
+-
+-
+ def final_cutoff(_signal, _frame):
+     signal.setitimer(signal.ITIMER_REAL, 0)
+-    raise TimeoutError('seam_absolute_final_cutoff')
++    raise OuterWorkStopped()
+ 
+ 
+ def cleanup_cutoff(_signal, _frame):
+     signal.setitimer(signal.ITIMER_REAL, 0)
+-    raise TimeoutError('seam_cleanup_cutoff')
++    retain_first_stop('CHILD_CLEANUP_DEADLINE')
++    raise OuterWorkStopped()
+ 
+ 
+ def enter_cleanup():
+     global CLEANUP_DEADLINE_NS
+     if CLEANUP_DEADLINE_NS is None:
+-        CLEANUP_DEADLINE_NS = min(time.monotonic_ns() + CLEANUP_SECONDS * 10**9,
++        CLEANUP_DEADLINE_NS = min((time.monotonic_ns() if FIRST_STOP is None
++            else FIRST_STOP['stopped_monotonic_ns']) + CLEANUP_SECONDS * 10**9,
+                                  HARD_DEADLINE_NS - FINAL_READBACK_SECONDS * 10**9)
+     if COPY_SUPPORT is not None:
+         COPY_SUPPORT.ACTIVE_DEADLINE_NS = CLEANUP_DEADLINE_NS
+@@ -199,7 +222,9 @@
+ 
+ 
+ def check_deadline():
+-    require(time.monotonic_ns() < WORK_DEADLINE_NS, 'seam_absolute_work_cutoff')
++    if time.monotonic_ns() >= WORK_DEADLINE_NS:
++        retain_first_stop('OUTER_WORK_DEADLINE')
++        raise OuterWorkStopped()
+ 
+ 
+ def capture_loaded(root, pins):
+@@ -233,6 +258,7 @@
+     from app import dynamic_native, task_spec, task_store, normal_session, qualified_strategy
+     from app import native_authority as authority, stage04_diagnostics as diagnostics
+     from app import qualified_experience_scenario as scenario
++    from app.qualified_experience import QualifiedExperience
+     from app.runtime import _information_policy_reader
+ 
+     operation_id, run_id = str(uuid.uuid4()), uuid.uuid4().hex[:12]
+@@ -256,7 +282,7 @@
+             check_deadline()
+             for relative, expected in pins.items():
+                 require(sha(runner.read(root, relative)) == expected, 'seam_current_source_pin')
+-            return dict(scope='EXPLICIT_SYNTHETIC_HTTP_CURRENT_TASKSTORE_SEAM',
++            return dict(scope='EXPLICIT_SYNTHETIC_HTTP_UNRELATED_REMAINDER',
+                 source_pins_sha256=contracts.digest(pins), source_review_sha256=grant['source_review_ref']['sha256'],
+                 synthetic_catalog=True, synthetic_grant=True, live_authority=False)
+ 
+@@ -286,13 +312,26 @@
+         store = task_store.TaskStore(root / 'workspace/owner_documents', require_existing=True)
+         initial_tasks = json.loads(canonical(store.state))
+         require(len(initial_tasks['tasks']) == 11, 'seam_starting_tasks')
++        historical_refs = grant['historical_evidence_refs']
++        require(type(historical_refs) is list and 1 <= len(historical_refs) <= 16,
++            'remainder_historical_evidence_bound')
++        allowed_history = BASE+'/rehearsal_actual/TASKSTORE_SEAM_V02/ordinary/source_under_test/workspace/owner_documents/'
++        require(all(ref['path'].startswith(allowed_history) for ref in historical_refs),
++            'remainder_historical_evidence_scope')
++        historical_before = [dict(reference=ref, observed_sha256=sha(runner.verify(REAL, ref)))
++            for ref in historical_refs]
++        accepted_ref = grant['historical_accepted_result_ref']
++        require(accepted_ref in historical_refs, 'remainder_historical_accepted_membership')
++        historical = json.loads(runner.verify(REAL, accepted_ref))
++        require(historical['classification'] == 'PORTABLE_EVIDENCE_NOT_LIVE_AUTHORITY'
++            and historical['type'] == 'builtins.dict', 'remainder_historical_evidence_class')
++        old_task = historical['body']['result']['task_id']
++        old_root = historical['body']['result']['root_context']['root_id']
++        checkpoint('historical_inert_bytes', dict(files=historical_before,
++            original_task_id=old_task, original_root=old_root,
++            imported_into_live_store=False, old_validity_extended=False,
++            live_foreign_capture_rejection_tested=False))
+         controllers = {}
+-
+-        def event_sink(event):
+-            check_deadline()
+-            if event.get('kind') in ('PHASE_ENTER', 'PHASE_EXIT', 'STATUS', 'PRIMARY_FAILURE'):
+-                checkpoint('event', event)
+-                print('TASKSTORE_SEAM_EVENT ' + json.dumps(event, sort_keys=True), flush=True)
+ 
+         def run_task(task_id, *, prepare_continuation):
+             require(prepare_continuation is False, 'seam_E_not_authorized')
+@@ -313,7 +352,8 @@
+                     task_spec=spec, source_reader=store.source_reader(spec),
+                     policy_reader=_information_policy_reader(store.project,
+                         dynamic_native.informational_valid_to(int(time.time())), informational_delta=True),
+-                    informational_delta=True, operation_deadline=STARTED_UTC + WORK_SECONDS)
++                    informational_delta=True, operation_deadline=STARTED_UTC
++                        + (WORK_DEADLINE_NS-STARTED_NS)//10**9)
+                 controllers[task_id] = controller
+                 accepted = controller.run()
+                 require(controller.memory_origin is None, 'seam_fresh_cold_controller')
+@@ -333,67 +373,128 @@
+                     if task_error is None:
+                         raise
+                     diagnostics.record_secondary(task_error, secondary, phase='FINALIZATION', step='STAGE05_EXPERIENCE')
+-            # Use the actual registered reader and wall clock, with no clock or
+-            # reader substitution. Timestamp drift alone is not source revision.
+-            first = qualified_strategy._source_material(controller)
+-            first_time = first['sources'][0]['observed_at']
+-            wait = max(0.001, first_time + 1.01 - time.time())
+-            require(wait <= 1.1, 'seam_real_clock_wait_bound')
+-            time.sleep(wait)
+-            second = qualified_strategy._source_material(controller)
+-            require(first['sources'][0]['observed_at'] < second['sources'][0]['observed_at']
+-                and qualified_strategy._source_identity(first) == qualified_strategy._source_identity(second),
+-                'seam_observation_time_is_not_source_identity')
+-            checkpoint('real_reader_observation_tick', dict(task_id=task_id, first=first, second=second,
+-                real_clock=True, unchanged_source_identity=True, reader_replaced=False))
+-            if len(controllers) == 1:
+-                review = authority.root_review('seam:blocked:' + run_id, {'task_id': task_id},
+-                    {'current_source': False}, int(time.time()), transaction_id='seam:blocked:' + run_id,
+-                    root=controller.root_id, task_id=task_id)
+-                plain = authority.root_plain(review)
+-                require(plain['result']['decision'] == 'BLOCKED_FAIL_CLOSED'
+-                    and all(plain['result'][key] is False for key in
+-                        ('permission_created', 'final_output_created', 'effect_requested')),
+-                    'seam_failed_check_accepted')
+-                require(plain['input']['permission_state']['permission_required'] is False,
+-                        'seam_blocked_root_permission')
+-                checkpoint('actual_blocked_Root', plain)
+             return accepted
+ 
+-        native_ref = manifest['native_files']['hedgehog/kernel/root_decision_v01.py']
+-        native_raw = runner.verify(root, dict(native_ref, size_bytes=len(runner.read(root, native_ref['path']))))
+-        input_values = [ast.literal_eval(node.value) for node in ast.parse(native_raw).body
+-            if isinstance(node, ast.Assign) and any(isinstance(target, ast.Name) and target.id == '_INPUT_REASONS'
+-                                                    for target in node.targets)]
+-        require(input_values == [INPUT_REASONS], 'seam_native_reason_inventory')
+-        projections = [diagnostics.project_error(ValueError(code), phase='TASK_EXECUTION',
+-                        step='STAGE05_EXPERIENCE') for code in INPUT_REASONS]
+-        require([item['code'] for item in projections] == list(INPUT_REASONS), 'seam_native_reason_projection')
+-        sentinel = 'UNREVIEWED_ERROR_CONTENT_SEAM_37c9'
+-        unknown = diagnostics.project_error(ValueError(sentinel), phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
+-        require(unknown['code'] == 'SANITIZED_OPERATION_FAILURE'
+-            and sentinel not in canonical(unknown).decode(), 'seam_unknown_reason_not_sanitized')
+-        checkpoint('closed_native_diagnostics', dict(control='SYNTHETIC_VALUEERROR_PROJECTION',
+-            native_reason_count=len(projections), projections=projections, unknown=unknown,
+-            historical_unknown_failure_recovered=False))
+-        result['scenario'] = scenario.run(store=store, run_task=run_task, controllers=controllers,
+-            client=client, operation=operation, event_sink=event_sink)
++        input_ref = dict(path=BASE+'/inputs/scenario.json',
++            sha256=manifest['pins'][BASE+'/inputs/scenario.json'])
++        input_raw = runner.read(root, input_ref['path'])
++        require(sha(input_raw) == input_ref['sha256'], 'remainder_scenario_input_pin')
++        inputs = json.loads(input_raw)['unrelated']
++        source_key = 'stage05:remainder:'+run_id+':alder'
++        source_id = store.register_source(source_key, 'Fictional Alder museum terms',
++            inputs['source_text'].encode('utf-8'))
++        task_id = store.create(goal=inputs['goal'], source_ids=(source_id,),
++            profile=inputs['ordinary_profile'], criterion=inputs['criterion'], topic=inputs['topic'])
++        require(task_id != old_task, 'remainder_distinct_task_required')
++        checkpoint('unrelated_prospective_task', dict(task=store.spec(task_id).plain(),
++            source_id=source_id, expected_synthetic_role_calls=3,
++            historical_task_id=old_task, historical_captures_loaded=False))
++        phase_started = time.monotonic_ns()
++        accepted = run_task(task_id, prepare_continuation=False)
++        controller = controllers[task_id]
++        require(controller.accepted is not None and controller.memory_origin is None
++            and controller.root_id != old_root
++            and {row['source_ref'] for row in controller.initial_sources}
++                != {row['source_ref'] for row in historical['body']['source_scope']},
++            'remainder_fresh_unrelated_controller')
++        checkpoint('unrelated_accepted_result', dict(result=accepted.plain,
++            source_scope=controller.initial_sources,
++            elapsed_wall_ns=time.monotonic_ns()-phase_started, synthetic_role_calls=3))
++        after_roles = counter.snapshot()
++        experience = QualifiedExperience(root/'workspace/owner_documents/review/stage05_remainder'/run_id)
++        history_before = experience.history_snapshot()
++        phase_started = time.monotonic_ns()
++        binding = experience.consume(controller)
++        history_after = experience.history_snapshot()
++        require(binding.report['history_ref'] is None and binding.report['prior_fp'] == 0
++            and binding.report['outcome_to_history_refs'] == []
++            and binding.report['history_disposition'] == 'COLD_OR_NONMATCHING'
++            and binding.report['mandatory_check'] is not None
++            and binding.report['provider_calls'] == binding.report['effect_calls'] == 0
++            and history_before == history_after, 'remainder_unrelated_current_consumer')
++        checkpoint('unrelated_current_consumer', dict(actual_task_id=task_id,
++            historical_task_id=old_task, historical_files=historical_before,
++            consumer=binding.report, history_before=history_before, history_after=history_after,
++            elapsed_wall_ns=time.monotonic_ns()-phase_started,
++            claim='FRESH_UNRELATED_CURRENT_CONSUMER_NO_HISTORY',
++            live_foreign_capture_rejection_tested=False))
++        check_deadline()
++        before_sources = store.source_reader(store.spec(task_id))()
++        require(len(before_sources) == 1 and before_sources[0]['source_ref'] == source_id
++            and before_sources[0]['text'] == inputs['source_text'], 'remainder_source_revision_preimage')
++        native_before = dict(results=authority.plain(controller.results),
++            events=authority.plain(controller.events), evidence_refs=authority.plain(controller.evidence_refs))
++        history_before_revision = experience.history_snapshot()
++        checkpoint('source_revision_before', dict(source_id=source_id, approved_sources=before_sources,
++            history=history_before_revision, native=native_before, old_binding_id=binding.report['binding_id']))
++        changed_bytes = (inputs['source_text']+' Updated source: the garden is also closed during snowfall.').encode('utf-8')
++        require(store.register_source(source_key, 'Fictional Alder museum terms', changed_bytes) == source_id,
++            'remainder_source_logical_identity')
++        after_sources = store.source_reader(store.spec(task_id))()
++        require(len(after_sources) == 1 and after_sources[0]['source_ref'] == source_id
++            and after_sources[0]['revision'] == before_sources[0]['revision']+1
++            and after_sources[0]['sha256'] == sha(changed_bytes)
++            and after_sources[0]['sha256'] != before_sources[0]['sha256']
++            and after_sources[0]['text'].encode('utf-8') == changed_bytes,
++            'remainder_actual_source_revision')
++        checkpoint('source_revision_after', dict(source_id=source_id,
++            approved_sources=after_sources, raw_utf8_hex=changed_bytes.hex()))
++        try:
++            qualified_strategy.run(controller, binding, label='qualified')
++        except ValueError as error:
++            require(error.args == ('dynamic_current_sources_changed',), 'remainder_wrong_stale_refusal')
++            refusal = error.args[0]
++        else:
++            raise ValueError('remainder_stale_binding_consumed')
++        native_after = dict(results=authority.plain(controller.results),
++            events=authority.plain(controller.events), evidence_refs=authority.plain(controller.evidence_refs))
++        history_after_revision = experience.history_snapshot()
++        require(native_before == native_after and history_before_revision == history_after_revision,
++            'remainder_stale_refusal_changed_native_history')
++        checkpoint('source_revision_stale_binding_refused', dict(refusal_code=refusal,
++            consumer='qualified_strategy.run', old_binding_id=binding.report['binding_id'],
++            before_sources=before_sources, after_sources=after_sources,
++            native_before=native_before, native_after=native_after,
++            history_before=history_before_revision, history_after=history_after_revision,
++            native_dispatch_reached=False, prior_reapplied=False,
++            binding_scope='FRESH_UNRELATED_TASK_CURRENT_NO_HISTORY_BINDING'))
++        historical_after = [dict(reference=ref, observed_sha256=sha(runner.verify(REAL, ref)))
++            for ref in historical_refs]
++        require(historical_after == historical_before, 'remainder_historical_bytes_changed')
++        require(counter.snapshot()['attempts'] == after_roles['attempts'], 'remainder_native_provider_calls')
++        result['remainder'] = dict(unrelated_task_id=task_id,
++            historical_task_id=old_task, fresh_current_consumer=True,
++            actual_source_revision_refusal=refusal, historical_bytes_unchanged=True,
++            live_foreign_capture_rejection_tested=False,
++            repeated_G4_allocations=0, repeated_aged_consumers=0)
+         final_ledger = counter.snapshot()
+         require(final_ledger['attempts'][:44] == initial_ledger['attempts']
+-            and len(final_ledger['attempts']) - 44 == 6 and final_ledger['active_attempt_id'] is None,
++            and len(final_ledger['attempts']) - 44 == 3 and final_ledger['active_attempt_id'] is None,
+             'seam_exact_synthetic_role_budget')
+         require(all(store.state['tasks'][key] == row for key, row in initial_tasks['tasks'].items()),
+                 'seam_historical_tasks_changed')
+         checkpoint('normal_operation_final_state', dict(operation_ref=operation_ref, operation=operation,
+-            ledger=final_ledger, tasks=store.state, synthetic_role_attempts=6,
++            ledger=final_ledger, tasks=store.state, synthetic_role_attempts=3,
+             real_provider_calls=0, old_44_attempts_preserved=True, old_11_tasks_preserved=True))
+         result['loaded_modules'] = capture_loaded(root, pins)
+-        result['status'] = 'OBSERVED_TARGETED_TASKSTORE_SEAM_REQUIRES_INDEPENDENT_REVIEW'
++        result['status'] = 'OBSERVED_REMAINDER_REQUIRES_INDEPENDENT_REVIEW'
+     except BaseException as error:
+         primary = error
+-        diagnostics.observe_failure(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
+-        result['primary_failure'] = diagnostics.project_error(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
+-        result['failure_context'] = scenario._failure_context(root, manifest, error, 'UNKNOWN')
++        if isinstance(error, OuterWorkStopped):
++            result['primary_failure'] = FIRST_STOP or dict(code='OUTER_WORK_DEADLINE', raw_error_recorded=False)
++        try:
++            diagnostics.observe_failure(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
++            if 'primary_failure' not in result:
++                result['primary_failure'] = diagnostics.project_error(error, phase='TASK_EXECUTION', step='STAGE05_EXPERIENCE')
++                checkpoint('primary_failure_before_cleanup', result['primary_failure'])
++        except BaseException as secondary:
++            result.setdefault('primary_failure', dict(code='REMAINDER_UNPROJECTED_PRIMARY',
++                type=type(error).__name__, raw_error_recorded=False))
++            result['primary_capture_secondary'] = dict(type=type(secondary).__name__, raw_error_recorded=False)
++        try:
++            result['failure_context'] = scenario._failure_context(root, manifest, error, 'UNKNOWN')
++        except BaseException as secondary:
++            result['failure_context_secondary'] = dict(type=type(secondary).__name__, raw_error_recorded=False)
+         raise
+     finally:
+         enter_cleanup()
+@@ -418,9 +519,8 @@
+ 
+ 
+ def main():
+-    global COPY_SUPPORT
+-    signal.signal(signal.SIGALRM, cutoff)
+-    signal.setitimer(signal.ITIMER_REAL, max(0.000001, (WORK_DEADLINE_NS-time.monotonic_ns())/1e9))
++    global COPY_SUPPORT, OUTER_STARTED_NS, WORK_DEADLINE_NS, HARD_DEADLINE_NS
++    signal.signal(signal.SIGINT, parent_stop)
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--grant', required=True)
+     parser.add_argument('--sha256', required=True)
+@@ -430,15 +530,36 @@
+     raw = grant_path.read_bytes()
+     require(sha(raw) == args.sha256, 'seam_grant_hash')
+     grant = json.loads(raw)
+-    require(grant['schema'] == 'radik.stage05.taskstore_seam_grant.v01'
++    require(grant['schema'] == 'radik.stage05.taskstore_remainder_grant.v01'
+         and grant['reviewer'] == '/root/private_remote_controls' and grant['approved_executor'] == '/root'
+         and grant['approved_invocation_count'] == 1 and grant['network'] == 'DENIED'
+         and grant['production_writes_allowed'] is False and grant['real_AUTH_provider_native_E_SAVE_allowed'] is False
+-        and grant['status'] == 'SOURCE_ACCEPTED_FOR_TARGETED_TASKSTORE_SEAM'
++        and grant['status'] == 'SOURCE_ACCEPTED_FOR_TARGETED_TASKSTORE_REMAINDER'
+         and grant['max_seconds'] == MAX_SECONDS and grant['work_seconds'] == WORK_SECONDS
+         and grant['cleanup_seconds'] == CLEANUP_SECONDS
+         and grant['final_readback_seconds'] == FINAL_READBACK_SECONDS and grant['actual_id'] == ACTUAL,
+         'seam_independent_grant')
++    require(grant['outer_limits'] == dict(total_seconds=MAX_SECONDS,
++        work_seconds=WORK_SECONDS, cleanup_seconds=CLEANUP_SECONDS,
++        final_seconds=FINAL_READBACK_SECONDS), 'remainder_outer_limits')
++    outer = REAL/BASE/'offline_actual'/ACTUAL/'supervisor/reservation.json'
++    require(not outer.is_symlink() and outer.is_file(), 'remainder_outer_reservation')
++    outer_reservation = json.loads(outer.read_bytes())
++    require(outer_reservation['grant_sha256'] == args.sha256
++        and outer_reservation['invocation_count'] == 1
++        and outer_reservation['automatic_retry'] is False,
++        'remainder_outer_reservation_binding')
++    OUTER_STARTED_NS = outer_reservation['started_monotonic_ns']
++    require(type(OUTER_STARTED_NS) is int and OUTER_STARTED_NS <= STARTED_NS,
++        'remainder_outer_original_clock')
++    WORK_DEADLINE_NS = OUTER_STARTED_NS+WORK_SECONDS*10**9
++    HARD_DEADLINE_NS = OUTER_STARTED_NS+MAX_SECONDS*10**9
++    require(outer_reservation['hard_deadline_ns'] == HARD_DEADLINE_NS,
++        'remainder_outer_hard_deadline')
++    check_deadline()
++    require(grant['outer_supervisor_ref']['path'] == BASE+'/taskstore_remainder_supervisor.py'
++        and sha((REAL/grant['outer_supervisor_ref']['path']).read_bytes())
++            == grant['outer_supervisor_ref']['sha256'], 'remainder_outer_source_pin')
+     require(grant['runner_ref']['path'] == SELF and sha(Path(__file__).read_bytes()) == grant['runner_ref']['sha256'],
+             'seam_runner_pin')
+     require(len(grant['cases']) == 1 and grant['cases'][0]['name'] == 'ordinary'
+@@ -457,8 +578,8 @@
+     runner.guard(grant)
+     runner.put(WORK, 'reservation.json', canonical(dict(grant_sha256=args.sha256,
+         automatic_retry=False, invocation_count=1, preparation_included=True)))
+-    result = dict(schema='radik.stage05.taskstore_seam_result.v01', status='STOPPED_NO_RETRY',
+-        scope='SYNTHETIC_TYPED_ROLES_WITH_REAL_TASKSTORE_READERS_AND_NATIVE_CONSUMERS',
++    result = dict(schema='radik.stage05.taskstore_remainder_result.v01', status='STOPPED_NO_RETRY',
++        scope='ONE_FRESH_UNRELATED_CURRENT_CONSUMER_AND_OWN_SOURCE_REVISION_REFUSAL',
+         original_ordinary_prefix_reexecution=False, full_ordinary_cli_actual=False, owner_actual=False,
+         real_provider_calls=0, real_AUTH_calls=0, native_E_calls=0, effects=0,
+         source_review_ref=grant['source_review_ref'], automatic_retry=False,
+@@ -476,7 +597,7 @@
+         reference = runner.put(WORK, '%03d_%s.json' % (sequence, name), canonical(value))
+         result['observations'].append(dict(name=name, reference=reference,
+             elapsed_wall_ns=time.monotonic_ns()-STARTED_NS))
+-        print('TASKSTORE_SEAM_CHECKPOINT ' + name + ' ' + str(reference['path']), flush=True)
++        print('TASKSTORE_REMAINDER_CHECKPOINT ' + name + ' ' + str(reference['path']), flush=True)
+         return reference
+ 
+     try:
+@@ -497,10 +618,13 @@
+         if 'primary_failure' not in result:
+             # Unknown text is never exported; owned frame coordinates identify
+             # a failure before the independently admitted projector is loaded.
+-            detail = runner.safe_error(error)
+-            detail['code'] = 'UNPROJECTED_SETUP_FAILURE'
+-            result['primary_failure'] = detail
+-        print('TASKSTORE_SEAM_STOP ' + json.dumps(result['primary_failure'], sort_keys=True), flush=True)
++            if FIRST_STOP is not None:
++                result['primary_failure'] = FIRST_STOP
++            else:
++                detail = runner.safe_error(error)
++                detail['code'] = 'UNPROJECTED_SETUP_FAILURE'
++                result['primary_failure'] = detail
++        print('TASKSTORE_REMAINDER_STOP ' + json.dumps(result['primary_failure'], sort_keys=True), flush=True)
+     finally:
+         enter_cleanup()
+         cleanup_action = 'LOCK_RELEASE'
+@@ -523,9 +647,9 @@
+                 phase='FINALIZATION', step='TASKSTORE_SEAM_CLEANUP', raw_error_recorded=False)
+             if 'primary_failure' not in result:
+                 result['primary_failure'] = result['cleanup_failure']
+-                print('TASKSTORE_SEAM_STOP ' + json.dumps(result['primary_failure'], sort_keys=True), flush=True)
++                print('TASKSTORE_REMAINDER_STOP ' + json.dumps(result['primary_failure'], sort_keys=True), flush=True)
+             else:
+-                print('TASKSTORE_SEAM_SECONDARY_STOP ' + json.dumps(result['cleanup_failure'], sort_keys=True), flush=True)
++                print('TASKSTORE_REMAINDER_SECONDARY_STOP ' + json.dumps(result['cleanup_failure'], sort_keys=True), flush=True)
+         finally:
+             enter_final_readback()
+             try:
+@@ -537,14 +661,14 @@
+                     result_readback_verified=True, production_guard_unchanged=result.get('production_guard_unchanged') is True,
+                     post_result_readback_wall_seconds=(time.monotonic_ns()-STARTED_NS)/1e9,
+                     preparation_included=True, deadline_renewed=False,
+-                    original_work_deadline_ns=WORK_DEADLINE_NS, cleanup_deadline_ns=CLEANUP_DEADLINE_NS,
++                    outer_started_monotonic_ns=OUTER_STARTED_NS, original_work_deadline_ns=WORK_DEADLINE_NS, cleanup_deadline_ns=CLEANUP_DEADLINE_NS,
+                     final_readback_deadline_ns=FINAL_DEADLINE_NS, original_hard_deadline_ns=HARD_DEADLINE_NS)
+                 runner.put(WORK, 'completion.json', canonical(completion))
+                 require(time.monotonic_ns() < FINAL_DEADLINE_NS, 'seam_absolute_final_cutoff')
+-                print('TASKSTORE_SEAM_RETURN ' + result['status'], flush=True)
++                print('TASKSTORE_REMAINDER_RETURN ' + result['status'], flush=True)
+             finally:
+                 signal.setitimer(signal.ITIMER_REAL, 0)
+-    return 0 if result['status'] == 'OBSERVED_TARGETED_TASKSTORE_SEAM_REQUIRES_INDEPENDENT_REVIEW' else 1
++    return 0 if result['status'] == 'OBSERVED_REMAINDER_REQUIRES_INDEPENDENT_REVIEW' else 1
+ 
+ 
+ if __name__ == '__main__':
