@@ -1,0 +1,140 @@
+{
+  "actual_id": "TRANSPORT_BOUNDARY_V02",
+  "aggregate_PASS": true,
+  "charge_basis": "Measured parent preparation/execution/readback interval plus nonrefundable5-second closing reserve; completion final readback and clock passed, then final tool closed. Prior charge retained without reset.",
+  "charged_execution_ns": 5280559459,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "child_started": true,
+  "closure_confirmed": true,
+  "cumulative_charged_ns": 10571618584,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/child_stdout.raw",
+      "sha256": "3ed2cc6727a95df44ff66995310f092380a73f7dd8116d5b26573be513946505",
+      "size_bytes": 841
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/completion.json",
+      "sha256": "e92da5be9a534bac7cc7c204947af0d49967559118ede1a4a9ad031d586168c1",
+      "size_bytes": 907
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/invocation.json",
+      "sha256": "43721b53e154c7d424deca01fb6f394f1bf98577cc4381f67bde2542df235d6e",
+      "size_bytes": 388
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/receipt.json",
+      "sha256": "55973087503a4e9db9c712cf46a931292fc96682e3c0ced88c28a822df97700c",
+      "size_bytes": 1272
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/reservation.json",
+      "sha256": "70b55ee87481dba8a45d3bcf62c53142ba6489048dc5012c08b3792d500567a4",
+      "size_bytes": 532
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/tool_invocation_receipt.json",
+      "sha256": "5b8121789427a7f52b52a61214b37fc71f692875a64f013f4b544b6deca7270c",
+      "size_bytes": 580
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/connect_secondary_reserved_connect_secondary.json",
+      "sha256": "51c247473b4178e33e9de7f77e942d359ed29c57adaa3efbf4a1f09707ce66fc",
+      "size_bytes": 24019
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/connect_secondary_result_connect_secondary.json",
+      "sha256": "32d36dd171fbeeacb9fd479322507956292c38f5169424a69d3173faf4280fbc",
+      "size_bytes": 26990
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/postterminal_local_reserved_postterminal_local.json",
+      "sha256": "e5fe17efdd880bbbaa4270ae336cd5718eb0cbba202f171498132265c128ab10",
+      "size_bytes": 24020
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/postterminal_local_result_postterminal_local.json",
+      "sha256": "953f3d5bb8d2a8769041e239959f8cdbb8556d074cadb046d7cce5020ec9c507",
+      "size_bytes": 26608
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/pre_http_reserved_pre_http.json",
+      "sha256": "d95fc7a1aaf637a867a9d2f814f01d6fa53ae56033e33f0a01317112885de0ae",
+      "size_bytes": 24010
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/pre_http_result_pre_http.json",
+      "sha256": "31aef106b962a10a14354dcc95c9f2f8410aed413b839e77ddc08b7fc4884b89",
+      "size_bytes": 26717
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/primary_plus_cleanup_reserved_primary_plus_cleanup.json",
+      "sha256": "e812701fba928dc17471a14340a3465a48ca480761b8ff588690e19dd4ae3086",
+      "size_bytes": 24022
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/primary_plus_cleanup_result_primary_plus_cleanup.json",
+      "sha256": "b8da262f7c87f85b671bed6af9d20e186c3f572baeae2690505741d1c42d7f20",
+      "size_bytes": 25442
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/reservation.json",
+      "sha256": "e58ce6b2cdb87b48808d08ad30b05a2b795fd2e7f00a3c510635b10a9efa7e9c",
+      "size_bytes": 129
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/result.json",
+      "sha256": "7f1bf5f2d33a3e925996f9b345d7f4e09e811846a8e8788d5e8ff03d8d3624b3",
+      "size_bytes": 30230
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/schema_resources.json",
+      "sha256": "88bd37a3405f0c43cc8a0603673b2868a91f5f83546276fa3daa886b6df57c0a",
+      "size_bytes": 955
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/valid_critic_reserved_valid_critic.json",
+      "sha256": "a990380c155a41d9a2784bb77faa242a7034444f22b008eb294180fa096489f0",
+      "size_bytes": 24014
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/work/valid_critic_result_valid_critic.json",
+      "sha256": "49b8103646a4a129577d7527b4147192b7042dbf0fa6282158ed7279dcd05651",
+      "size_bytes": 26350
+    }
+  ],
+  "final_tool_outcome_observed": true,
+  "full_readback_verified": true,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/grants/TRANSPORT_BOUNDARY_V02.json",
+    "sha256": "8f1b42d77bcc7b8553e712c66effa8da1abd66003425eb7d52fb4b2e2d8f0571",
+    "size_bytes": 15672
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V02/supervisor/invocation.json",
+    "sha256": "43721b53e154c7d424deca01fb6f394f1bf98577cc4381f67bde2542df235d6e",
+    "size_bytes": 388
+  },
+  "live_tool_session": false,
+  "prior_charged_ns": 5291059125,
+  "prior_execution_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/execution_accounting/TRANSPORT_BOUNDARY_V01.json",
+      "sha256": "c3810144a3131156702067c93ea254aaaa9873fa715ee111db42375fb27e0a43",
+      "size_bytes": 6429
+    }
+  ],
+  "remaining_ns": 289428381416,
+  "result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/actual_review/transport_boundary_v02_result_review.json",
+    "sha256": "798672a55dea1b1d0d68e087da1b9abfbf5fd46918d406838e40487526bb1af9",
+    "size_bytes": 8399
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_execution_accounting.v01",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "tool_exit_code": 0,
+  "total_budget_seconds": 300
+}

@@ -1,0 +1,28 @@
+{
+  "candidate_execution": false,
+  "delta": "Seven source assertions/read lines plus persisted exact2-key selected and3-key owner refs. Actual gate.load_profile validates same pinned manifest from both forms, including size on the3-keyref. No owner application/disposition is invoked.",
+  "findings": [],
+  "limits": [
+    "Final proposal must bind final_manifest_ref with exact size/hash, and complete copy/source pins.",
+    "This review covers helper shape delta; separate independently reviewed linked helper covers ordinary-entry disposition invocation."
+  ],
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/owner_profile_controls_before_sized_reference.py",
+    "sha256": "2a1ee137440966fb22a1a092e9594b5a78ca0bb345d35f2fb7e5e48cd7751368",
+    "size_bytes": 24274
+  },
+  "prior_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/owner_profile_controls_peer_source_review.json",
+    "sha256": "696e086bd0fecae6ed05b34b66a032efd622837b1b3d585ce86e65558eb0d81b",
+    "size_bytes": 3434
+  },
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.owner_profile_reference_shape_peer_review.v01",
+  "source_only": true,
+  "status": "NO_SOURCE_FINDINGS_PENDING_FINAL_FINITE_COPY_GRANT",
+  "subject_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/owner_profile_controls.py",
+    "sha256": "66babdc350aa27cb62803793867f7f4e1bf968b89fbb96a8f61ce83ed8d1abf6",
+    "size_bytes": 25027
+  }
+}

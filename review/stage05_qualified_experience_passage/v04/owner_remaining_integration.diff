@@ -1,0 +1,104 @@
+--- v04-prefix-owner
++++ v04-owner-explicit-decision
+@@ -337,6 +337,19 @@
+     return value, manifest
+ 
+ 
++
++def selected_owner_acknowledgement(admission, selected_attempt):
++    """Bind an explicit CLI decision; archive data alone cannot select an ACK."""
++    expected = 'radik-call:c146081f7b9a4d649f3c7e916189271e'
++    value = admission.get('selected_unknown_acknowledgement')
++    require(selected_attempt == expected and type(value) is dict
++        and set(value) == {'selected_attempt_id', 'proposal_ref', 'review_ref'}
++        and value['selected_attempt_id'] == expected, 'terminal_explicit_unknown_decision_required')
++    for key in ('proposal_ref', 'review_ref'):
++        checked_reference(value[key], cap=MAX_ADMISSION, prefixes=(PREFIX+'/',))
++    return dict(value)
++
++
+ def acquire_lock(expected):
+     """P23 exact lock identity, shared through launch/bootstrap/reexec."""
+     target = PROJECT / LOCK
+@@ -590,9 +603,18 @@
+     require(source.get('schema') == 'radik.stage05.qualified_experience_inputs.v01'
+         and source.get('command') == 'experience'
+         and source.get('expected_role_calls') == 6
++        and source.get('expected_primary_role_calls') == source.get('expected_unrelated_role_calls') == 3
++        and source.get('scenario_mode') == 'remaining_only'
++        and source.get('expected_starting_attempts') == 50
++        and type(source.get('prior_actual_evidence')) is dict
++        and source['prior_actual_evidence'].get('authority_restored') is False
+         and source.get('native_E_calls') == 0
+         and source.get('effects') == 0,
+         'terminal_experience_input_contract')
++    prior = source['prior_actual_evidence']
++    for reference in [prior['receipt_ref'], prior['partial_acceptance_ref'], *prior['checkpoint_refs']]:
++        checked_reference(reference, prefixes=('review/stage05_qualified_experience_passage/',
++            'workspace/owner_documents/review/stage05/'))
+     return source
+ 
+ 
+@@ -648,6 +670,9 @@
+             and type(after.get('attempts')) is list and after.get('active_attempt_id') is None,
+             'terminal_driver_ledger_shape')
+         if self.initial_attempts is None:
++            require(len(before['attempts']) == self.inputs['expected_starting_attempts']
++                and hashlib.sha256(canonical(before['attempts'])).hexdigest() ==
++                    self.inputs['expected_historical_prefix_sha256'], 'terminal_driver_selected_predecessor')
+             self.initial_attempts = list(before['attempts'])
+         require(after['attempts'][:len(self.initial_attempts)] == self.initial_attempts
+             and after['attempts'][:len(before['attempts'])] == before['attempts'],
+@@ -694,8 +719,19 @@
+                 and value.get('status') == 'OWNER_SCENARIO_COMPLETED_REQUIRES_REVIEW'
+                 and value.get('actual_model_calls') == self.inputs['expected_role_calls']
+                 and value.get('native_E_calls') == 0 and value.get('effects') == 0
++                and value.get('scenario_mode') == 'remaining_only'
++                and value.get('completed_scope') == 'FRESH_REMAINING_ONLY'
++                and value.get('repeated_G4_allocations') == value.get('repeated_aged_consumers') == 0
++                and value.get('prior_closed_process_authority_restored') is False
++                and value.get('prior_actual_evidence') == self.inputs['prior_actual_evidence']
+                 and type(value.get('observations')) is list and value['observations'],
+                 'terminal_experience_result_contract')
++            require([row['step'] for row in value['observations']] == [
++                'prospective_scenario', 'ordinary_accepted_result', 'cold_current_consumer',
++                'qualified_feedback', 'qualified_current_consumer', 'causal_chain_verified',
++                'unrelated_prospective_task', 'unrelated_accepted_result', 'unrelated_current_consumer',
++                'source_revision_before', 'source_revision_after', 'source_revision_stale_binding_refused'],
++                'terminal_remaining_checkpoint_sequence')
+             self.experience = value
+         self.steps.append(dict(step=step, status=status, new_attempts=count, readback_ref=reference))
+         put(self.run/('step_%02d_%s.json'%(len(self.steps),step)),self.steps[-1],cap=65536)
+@@ -1108,6 +1144,7 @@
+ def main():
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--admission-sha256', required=True)
++    parser.add_argument('--acknowledge-unknown', required=True)
+     parser.add_argument('--rehearsal-seal-sha256')
+     args = parser.parse_args()
+     require(sys.flags.isolated and sys.flags.no_site and sys.dont_write_bytecode
+@@ -1130,6 +1167,7 @@
+         for signum in (signal.SIGINT, signal.SIGTERM, signal.SIGHUP):
+             previous[signum] = signal.signal(signum, lambda _s, _f: interrupted.__setitem__(0, True))
+         admission, manifest = load_admission(args.admission_sha256, args.rehearsal_seal_sha256, before_pin)
++        owner_ack = selected_owner_acknowledgement(admission, args.acknowledge_unknown)
+         timing = load_pinned_timing(admission['code_pins'])
+         require(admission.get('limits') == timing.LIMITS, 'terminal_reviewed_limits_changed')
+         require(Path(sys.prefix) == PRODUCTION_PROJECT/'.venv-plan'
+@@ -1151,6 +1189,7 @@
+         installation_ref = put(run/'installation_receipt.json', installation)
+         launch = dict(schema='radik.p28.owner_terminal_launch.v01',
+             status='SOURCE_VERIFIED_BEFORE_CHILD', admission_sha256=args.admission_sha256,
++            selected_unknown_acknowledgement=owner_ack,
+             rehearsal_seal_sha256=args.rehearsal_seal_sha256,
+             source_review_ref=admission['source_review_ref'],
+             ordinary_profile_manifest_ref=admission['ordinary_profile_manifest_ref'],
+@@ -1165,7 +1204,7 @@
+             model_observation_after_handoff=False)
+         launch_ref = put(run/'launch.json', launch)
+         before_pin()
+-        show('Stage05 experience: one ordinary console process, at most 6 new role calls in two cold rounds, no E. Operation limit 5400 s; cumulative native limit 1500 s; model response limit 600 s; cleanup limit 30 s. Limits are not an ETA.')
++        show('Stage05 remaining-only: explicit selected UNKNOWN acknowledgement, then one fresh ordinary operation, at most 6 new role calls in two cold rounds, no E or repeated G4/aged controls. Operation limit 5400 s; cumulative native limit 1500 s; model response limit 600 s; cleanup limit 30 s. Limits are not an ETA.')
+         scenario_inputs = load_scenario_inputs(admission)
+         child_started = True
+         supervision_attempted = True

@@ -1,0 +1,36 @@
+{
+  "accepted_prior_reviews": [
+    "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+    "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_independent_partial_acceptance.json"
+  ],
+  "cumulative_offline_budget_seconds": 300,
+  "parent_local_commit": "d4f9beca27a6a7453e5df045e5fd338e35d558d2",
+  "prior_actual_recollection": false,
+  "prior_return_sha256": "9719c5be005710078f056d3fd3ff9eb51028b8fd6c56ab9672985abfbcc5cddd",
+  "production_ACK": false,
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "schema": "radik.stage05.v04.starting_basis.v01",
+  "starting_state_refs": [
+    {
+      "path": "state/application_profile.json",
+      "sha256": "70d61cf8a8ae3da2fc09f3dabf1ff9f728a345637cd62359ad029af24394ce97",
+      "size_bytes": 233
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "6f5a3ae3d692679a62a005f93baf813240115f53c735a4579e55afb59c959f3e",
+      "size_bytes": 6708
+    },
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    }
+  ]
+}

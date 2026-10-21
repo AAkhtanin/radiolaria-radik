@@ -1,0 +1,68 @@
+--- executed_v01
++++ candidate_v02
+@@ -26,7 +26,7 @@
+ BASE='review/stage05_qualified_experience_passage/v04'
+ SELF=BASE+'/unknown_disposition_controls.py'
+ PROPOSAL=BASE+'/unknown_disposition_controls_proposal.json'
+-WORK=PROJECT/BASE/'offline_actual/UNKNOWN_LINK_V01/work'
++WORK=PROJECT/BASE/'offline_actual/UNKNOWN_LINK_V02/work'
+ ROOT=WORK/'isolated'
+ STARTED=time.monotonic()
+ 
+@@ -103,10 +103,10 @@
+ 
+ def main():
+     parser=argparse.ArgumentParser();parser.add_argument('--grant',required=True);parser.add_argument('--sha256',required=True);args=parser.parse_args()
+-    require(args.grant==BASE+'/grants/UNKNOWN_LINK_V01.json','link_grant_path')
++    require(args.grant==BASE+'/grants/UNKNOWN_LINK_V02.json','link_grant_path')
+     grant_raw=(PROJECT/args.grant).read_bytes();require(digest(grant_raw)==args.sha256,'link_grant_pin');grant=json.loads(grant_raw)
+     require(grant['reviewer']=='/root/private_remote_controls' and grant['approved_executor']=='/root'
+-        and grant['approved_invocation_count']==1 and grant['actual_id']=='UNKNOWN_LINK_V01'
++        and grant['approved_invocation_count']==1 and grant['actual_id']=='UNKNOWN_LINK_V02'
+         and grant['network']=='DENIED' and grant['production_writes_allowed'] is False
+         and grant['real_AUTH_provider_native_E_SAVE_allowed'] is False
+         and grant['automatic_retry'] is False,'link_independent_grant')
+@@ -135,7 +135,8 @@
+     source_review_ref=save('review/link_fixture/runtime_source_review.json',dict(schema='EXPLICIT_SYNTHETIC_PROFILE_BOUNDARY',pins=pins))
+     admission_ref=save('review/link_fixture/current_source_admission.json',dict(schema='EXPLICIT_SYNTHETIC_PROFILE_BOUNDARY'))
+     profile=dict(pins=pins,auth_source_identity_sha256=auth_sha,source_review_ref=source_review_ref,source_admission_ref=admission_ref)
+-    profile_ref=save('review/link_fixture/profile.json',profile)
++    profile_full_ref=save('review/link_fixture/profile.json',profile)
++    profile_ref={key:profile_full_ref[key] for key in ('path','sha256')}
+     actual=copy.deepcopy(actual);actual.update(source_identity_sha256=source_sha,auth_source_identity_sha256=auth_sha,profile_ref=profile_ref)
+     actual['operation_allowance']['scenario_ref']=dict(path=input_path,sha256=digest(raws[input_path]),size_bytes=len(raws[input_path]))
+     proposal_ref=save('review/link_fixture/unknown_proposal.json',actual)
+@@ -144,10 +145,10 @@
+     decision=dict(selected_attempt_id=selected,proposal_ref=proposal_ref,review_ref=review_ref)
+     owner_admission_ref=save(BASE+'/owner_admission.json',dict(independent_reviewer='/root/private_remote_controls',
+         status='OWNER_EXECUTION_ADMITTED_AFTER_SOURCE_AND_REHEARSAL',owner_execution_authorized=True,
+-        code_pins=pins,ordinary_profile_manifest_ref=profile_ref,source_review_ref=source_review_ref,
++        code_pins=pins,ordinary_profile_manifest_ref=profile_full_ref,source_review_ref=source_review_ref,
+         selected_unknown_acknowledgement=decision,synthetic_control_metadata=True))
+     launch=dict(schema='radik.p28.owner_terminal_launch.v01',process_index=1,prior_child_receipt_ref=None,
+-        source_review_ref=source_review_ref,ordinary_profile_manifest_ref=profile_ref,automatic_retry=False,
++        source_review_ref=source_review_ref,ordinary_profile_manifest_ref=profile_full_ref,automatic_retry=False,
+         inherited_lock_fd=lock_fd,admission_sha256=owner_admission_ref['sha256'],selected_unknown_acknowledgement=decision)
+     launch_ref=save(BASE+'/owner_terminal_runs/LINK/process_1_launch.json',canonical(launch)+b'\n');binding=digest(launch)
+     modules={};common=dict(Path=Path,json=json,hashlib=hashlib,os=os,re=re,stat=stat,time=time,fcntl=fcntl,
+@@ -235,6 +236,11 @@
+         source_identity_sha256=source_sha,auth_source_identity_sha256=auth_sha)
+     require(hook(ROOT,SimpleNamespace(owner_supervisor_launch=None),hook_selected,gate,**hook_args)is None,
+         'link_ordinary_unsupervised_no_disposition')
++    wrong_launch=copy.deepcopy(launch);wrong_launch['ordinary_profile_manifest_ref']['sha256']='0'*64
++    wrong_launch_ref=save(BASE+'/owner_terminal_runs/LINK/changed_profile_launch.json',canonical(wrong_launch)+b'\n')
++    refused('ordinary_hook_changed_profile_identity','ordinary_stage05_disposition_launch',lambda:hook(ROOT,
++        SimpleNamespace(owner_supervisor_launch=wrong_launch_ref['path'],owner_run_binding=digest(wrong_launch)),
++        hook_selected,gate,**hook_args))
+     require(state(ROOT)['active_attempt_id']==selected,'link_original_unknown')
+     refused('owner_consent_absent','stage05_disposition_owner_confirmation_required',lambda:D.apply(ROOT,proposal_ref,review_ref,owner_confirmed=False,**apply_args))
+     refused('normal_open_before_release','normal_active_or_unknown',lambda:N.open_operation(ROOT,**open_args))
+@@ -288,6 +294,8 @@
+         final_original_prefix_sha256=digest(final['attempts'][:50]),original_count=50,after_release_count=50,
+         synthetic_final_count=56,old_unknown_unchanged=True,negative_controls=negatives,operation_ref=operation_ref,
+         separate_allowance=actual['operation_allowance'],fresh_slots=slots,normal_close_ref=close_ref,
++        selected_profile_ref=profile_ref,owner_launch_profile_ref=profile_full_ref,
++        selected_profile_identity_keys=sorted(profile_ref),owner_launch_profile_identity_keys=sorted(profile_full_ref),
+         explicit_test_doubles=['Historical source/transition/profile admission','Existing old continuation validation against exact50-row prefix','No-op source-successor interruption for inactive copied store','Six synthetic terminal row/task outcomes'],
+         actual_functions=['ordinary_entry._stage05_owner_disposition','stage05_disposition all runtime predicates and apply','appended console continuation validate wrapper','task_budget.validate_ledger including pending/ack accounting','normal_session operation/round I/O and guards','normal_profile operation/round/index functions','TaskStore register_source/create/source_reader/begin and immutable TaskSpec','ApprovedSourceStore raw reads/revisions'],
+         production_ACK=False,synthetic_owner_consent=True,provider_calls=0,native_calls=0,effects=0,application_whole_modules_imported=False,

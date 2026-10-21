@@ -1,0 +1,49 @@
+{
+  "Stage05_acceptance": false,
+  "accepted_prior_timing_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_timing_independent_review.json",
+    "sha256": "48138ddeb22af71df394b59514d676b1df192659e0cbc6e7da33aac10bf73129",
+    "size_bytes": 3216
+  },
+  "assessment": [
+    "Timing source bytes are identical to the accepted v02 implementation; the remaining_only scenario omits accepted G4, aged, eligibility and unscorable work.",
+    "Six serial 600-second response ceilings plus1500 cumulative native seconds and300 overhead yield5400 operation seconds; cleanup remains a single30-second bound. These are spending limits, not an ETA or completion guarantee.",
+    "Prior431.906525125-second closed remainder and1076.25317654-second overlapping planning composition are reused within their accepted scope; the latter is not measured total native cost.",
+    "No reference kernel, native compute budget, eligibility clock, TTL, policy, executor or provider-call boundary is changed. No reset, renewed deadline or automatic retry is introduced."
+  ],
+  "basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/remaining_owner_timing_basis.json",
+    "sha256": "7fb32609762bf58cc64ccb0ed1c9114fd8c91e1c291733fc0e5ea397cf0c9d79",
+    "size_bytes": 2407
+  },
+  "limits": {
+    "cleanup_seconds": 30,
+    "maximum_operation_plus_cleanup_seconds": 5430,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "response_seconds_per_attempt": 600,
+    "role_attempts": 6
+  },
+  "measured_basis_retained": {
+    "closed_remainder_parent_final_readback_seconds": 431.906525125,
+    "conservative_overlapping_composition_seconds": 1076.25317654,
+    "interpretation": "These accepted prior measurements include overlapping and non-native work; they are planning proxies, not the current run ETA or measured total native cost."
+  },
+  "owner_execution_performed": false,
+  "owner_operation_granted_by_this_record": false,
+  "production_ACK_performed": false,
+  "reviewed_at_utc": "2026-10-21T09:35:44.369173+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "scenario_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/inputs/scenario.json",
+    "sha256": "4517081582320a1192bbf80e35615025952301a2a0c9c7d1340ba983c75ba847",
+    "size_bytes": 6485
+  },
+  "schema": "radik.stage05.remaining_owner_timing_review.v04",
+  "status": "ACCEPTED_UNCHANGED_FINITE_OWNER_CEILINGS",
+  "timing_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/supervisor_timing.py",
+    "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+    "size_bytes": 16726
+  }
+}

@@ -1,0 +1,13 @@
+Роль critic: текущие границы проверены; резервирую одну попытку.
+Роль critic: текущие границы проверены; резервирую одну попытку.
+Роль critic: текущие границы проверены; резервирую одну попытку.
+Роль critic: текущие границы проверены; резервирую одну попытку.
+Роль critic: текущие границы проверены; резервирую одну попытку.
+Traceback (most recent call last):
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v04/transport_boundary_controls.py", line 530, in <module>
+    main()
+    ~~~~^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v04/transport_boundary_controls.py", line 513, in main
+    series_count=1, actual_id=grant['actual_id'], prior_charged_ns=grant['prior_charged_ns'], cases=results, negative_projection_cases=mutations,
+                              ~~~~~^^^^^^^^^^^^^
+TypeError: 'types.SimpleNamespace' object is not subscriptable

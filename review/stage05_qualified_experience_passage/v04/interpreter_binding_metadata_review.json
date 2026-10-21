@@ -1,0 +1,70 @@
+{
+  "auth_source_identity_sha256": "aa5d0a55cd7259fa46aefce43d047e3e280732edfa0325b3bb07a73720aaf5af",
+  "code_pins_changed": false,
+  "executable_source_changed": false,
+  "finding": "owner_terminal.load_admission compares the runtime source review interpreter_ref with the owner admission. The source-only record omitted that existing field; the copied installer fixture did not execute this outer admission reader.",
+  "installed_payload_changed": false,
+  "interpreter_ref": {
+    "mode": 493,
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "new_execution_performed": false,
+  "postimage_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/runtime_source_review.json",
+      "sha256": "d6c8cf213c8308ce1fb73ffac03934ab0715d24aec7a7de65ece21c82eefbd19",
+      "size_bytes": 126531
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/owner_source_review.json",
+      "sha256": "f2d01f0c86b21720020a6c71740431009dc1f672c0a16ac2c7ba310a3d9c3b2a",
+      "size_bytes": 37539
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/profile_source_admission.json",
+      "sha256": "2bd79f54a9d69f9cd5e0fe1bec57ee52a25fd694a2206877a02003728eb541bb",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/ordinary_profile_manifest.json",
+      "sha256": "99b87d4fc16ac49793c37339f03709d8b8b498c0a5580d27b6a9dd0aa3ee676a",
+      "size_bytes": 74742
+    }
+  ],
+  "preimage_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_interpreter_binding/runtime_source_review.json",
+      "sha256": "9314da72572e08e101c49fe382c355288b08e51c4b2be08c904c9a4f68588f10",
+      "size_bytes": 125842
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_interpreter_binding/owner_source_review.json",
+      "sha256": "1d60c718a507024697aaf9f78d42563b06a251bb66ba8640231e88b08449563a",
+      "size_bytes": 37249
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_interpreter_binding/profile_source_admission.json",
+      "sha256": "098c48d4afd5efc5de1fe1b00c9539a6355cb3b033122d55d76bfe2554ec8367",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_interpreter_binding/ordinary_profile_manifest.json",
+      "sha256": "672bd8c33e544aa6c407725c58b2859e4b4744b098b00903fb31c5fcded2e215",
+      "size_bytes": 74742
+    }
+  ],
+  "prior_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/actual_review/owner_profile_v01_result_review.json",
+    "sha256": "8d09ac854a2fbae337228aa00632b62d5d49a52575d3a196944fc0f89ec2cefc",
+    "size_bytes": 71917
+  },
+  "prior_actual_scope_preserved": "The actual copied installation and gate tests used manifest672bd8 and the exact preserved metadata. Those same181 code pins,57 payloads and gate/installer functions remain unchanged. Final outer reader equality is now statically satisfied by the explicit existing interpreter reference; no repeated installer/native campaign is claimed.",
+  "production_install_or_ACK_performed": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.interpreter_binding_metadata_review.v04",
+  "source_identity_sha256": "490a7d3208fab783624c7aae6983e665d00f2d19df51212b7dde71debfddfeed",
+  "status": "ACCEPTED_METADATA_FIELD_AND_DEPENDENT_REFERENCE_REPAIR",
+  "unresolved_findings": []
+}

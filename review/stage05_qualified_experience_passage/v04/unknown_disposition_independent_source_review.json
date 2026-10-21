@@ -1,0 +1,47 @@
+{
+  "author_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_source_proposal.json",
+    "sha256": "d35ecc1b56b063649ecaf0faa048ea904be6bd8355b446d316259ce89c708683",
+    "size_bytes": 4813
+  },
+  "candidate_execution_performed": false,
+  "kernel_or_budget_change": false,
+  "old_console_prefix_byte_exact": true,
+  "owner_execution_authorized": false,
+  "production_ACK_allowed_now": false,
+  "reviewed_scope": [
+    "Exact selected c146 UNKNOWN only, tied to retained50-row ledger/task/transport/local-child-closure evidence and separate future proposal/review/profile/launch.",
+    "prepare is read-only; apply requires explicit owner confirmation, current source and exact predecessor, owner/ledger locks, fresh owner/run identities and one immutable disposition receipt before clearing only active_attempt_id. All50 original rows, UNKNOWN outcome/usage and count are retained.",
+    "Appended console validate calls the unchanged legacy validator first. Its new extension recognizes only the exact receipt; task_budget pending-minus-acknowledged check remains unchanged. No old ABC action or already closed quota is reused.",
+    "Three normal-session hooks bind one fresh operation and ordered ROWAN_COLD/ALDER_COLD slots,3calls each and6total, to new task IDs, run-derived source IDs, exact spec/source bytes and immutable normal round records. Live dispatch rereads raw source bytes; historical bindings remain historical after deliberate final source revision.",
+    "Ordinary-entry helper requires exact admitted launch/manifest/admission decision and inherited lock, then applies the explicit disposition after existing transition and before opening the new normal operation. An unsupervised route selects no disposition.",
+    "Partial receipt/ledger writes refuse later entry; no automatic recovery or retry. No model, native or effect is authorized merely by the receipt."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.unknown_disposition_source_review.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py",
+      "sha256": "89da385433db3136abf4f872b24ee9c891d1e7421d5dff3bcd79ae3bdd153344",
+      "size_bytes": 27990
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_ISOLATED_LINK_CONTROL",
+  "task_budget_unchanged": true,
+  "unresolved_source_findings": []
+}

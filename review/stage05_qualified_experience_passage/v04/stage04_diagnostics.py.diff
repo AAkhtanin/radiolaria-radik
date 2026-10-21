@@ -1,0 +1,40 @@
+--- v03/after/app/stage04_diagnostics.py
++++ v04/after/app/stage04_diagnostics.py
+@@ -2881,6 +2881,37 @@
+     return project_error(primary)
+ 
+ 
++def transfer_secondary_diagnostics(original, replacement):
++    """Copy only validated bounded secondary observations when wrapping a cause.
++
++    This carries no arbitrary exception attributes, primary location, printed
++    marker or persistence claim. Failure to copy never replaces the primary.
++    """
++    try:
++        if original is replacement:
++            return False
++        source = _state(original)
++        if source is None:
++            return False
++        target = _state(replacement)
++        if target is None:
++            target = dict(phase='UNKNOWN', step='UNKNOWN',
++                primary_persistence='IN_MEMORY_ONLY', secondary_failures=[],
++                secondary_failures_omitted=0, primary_printed=False)
++        room = MAX_SECONDARY_FAILURES - len(target['secondary_failures'])
++        rows = source['secondary_failures']
++        copied = dict(target,
++            secondary_failures=[dict(row) for row in target['secondary_failures']]
++                + [dict(row) for row in rows[:room]],
++            secondary_failures_omitted=min(1000000,
++                target['secondary_failures_omitted'] + source['secondary_failures_omitted']
++                + max(0, len(rows)-room)))
++        setattr(replacement, _STATE_KEY, copied)
++        return True
++    except BaseException:
++        return False
++
++
+ def mark_primary_persisted(error):
+     """Call only after exact report bytes were fsynced and read back."""
+     state = _state(error)

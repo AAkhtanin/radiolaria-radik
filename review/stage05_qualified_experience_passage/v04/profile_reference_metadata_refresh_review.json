@@ -1,0 +1,59 @@
+{
+  "auth_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/owner_source_review.json",
+    "sha256": "1d60c718a507024697aaf9f78d42563b06a251bb66ba8640231e88b08449563a",
+    "size_bytes": 37249
+  },
+  "changed_logical_paths": [
+    "app/ordinary_entry.py"
+  ],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/ordinary_profile_manifest.json",
+    "sha256": "672bd8c33e544aa6c407725c58b2859e4b4744b098b00903fb31c5fcded2e215",
+    "size_bytes": 74742
+  },
+  "new_auth_source_identity_sha256": "aa5d0a55cd7259fa46aefce43d047e3e280732edfa0325b3bb07a73720aaf5af",
+  "new_source_identity_sha256": "490a7d3208fab783624c7aae6983e665d00f2d19df51212b7dde71debfddfeed",
+  "old585_history_and88_native_mappings_unchanged": true,
+  "owner_execution_authorized": false,
+  "preserved_metadata_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_profile_ref_repair/ordinary_profile_manifest.json",
+      "sha256": "c0dd00b9cbe5547ff6b974bb332a48cffcc0c097eaa8a95ca2ee6535ba126b7f",
+      "size_bytes": 74742
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_profile_ref_repair/owner_source_review.json",
+      "sha256": "4c4751528969a5e7df238415b78e8646248b5af29d4b3586ff52dc046af821bf",
+      "size_bytes": 36433
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_profile_ref_repair/profile_source_admission.json",
+      "sha256": "eb8bb41ae7e85163f3fb641b258ca2c22f443896eff85b89f24b88a495700e58",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/source_history/metadata_before_profile_ref_repair/runtime_source_review.json",
+      "sha256": "e480a6be1f5aeb536561574ef53f47f8a48f7531d1d4cca85de04ef1b3b31e0e",
+      "size_bytes": 124841
+    }
+  ],
+  "review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/ordinary_entry_profile_reference_independent_source_review.json",
+    "sha256": "16130c8d2d9c7ff1791bfa6be182db0b03eb6255b23cb80e79acd2835278637f",
+    "size_bytes": 2050
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runtime_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/runtime_source_review.json",
+    "sha256": "9314da72572e08e101c49fe382c355288b08e51c4b2be08c904c9a4f68588f10",
+    "size_bytes": 125842
+  },
+  "schema": "radik.stage05.profile_reference_metadata_refresh.v01",
+  "source_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/profile_source_admission.json",
+    "sha256": "098c48d4afd5efc5de1fe1b00c9539a6355cb3b033122d55d76bfe2554ec8367",
+    "size_bytes": 578
+  },
+  "status": "ONE_LOGICAL_SOURCE_PIN_REFRESHED_SOURCE_ONLY"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "findings": [
+    {
+      "reason": "The v05 header set and transition remain unchanged. Validation explicitly excludes attempts, active_attempt_id and ledger_sha256 from fixed-header equality, but checks original accepted prefix and current ledger checksum.",
+      "site": "normal_session.historical_ledger"
+    },
+    {
+      "reason": "Each immutable operation/grant head is reconstructed from its own counted prefix with active_attempt_id=None. All original50 rows and fixed headers remain exact; earlier count44 and other old heads therefore do not change. The fresh operation records the newly released50-row head, which equals its later reconstructed50-row prefix.",
+      "site": "normal_session.validate_history operation_prefix and grant prefix"
+    },
+    {
+      "reason": "The exact selected attempt remains UNKNOWN and counted. Bare active=None without the new receipt leaves it in pending and fails task_scope_active_or_unknown. The appended wrapper adds only selected ID after full exact receipt/proposal/predecessor verification.",
+      "site": "task_budget.validate_ledger pending acknowledgement"
+    },
+    {
+      "reason": "Both new tasks and sources must be absent from the captured before state. Live/before-begin checks reread current exact source bytes. Historical round validation preserves immutable receipts without requiring deliberately revised raw source to equal its earlier value.",
+      "site": "stage05_disposition._task_slot and validate_round"
+    }
+  ],
+  "limits": [
+    "No runtime execution performed by author.",
+    "The isolated linked control uses explicit doubles for old historical admission and validates the actual new predicates and pending/ack accounting.",
+    "No archived controller, Root, Work or model permission is restored.",
+    "Final current profile admission and explicit future owner decision remain separate independent requirements."
+  ],
+  "schema": "radik.stage05.disposition_history_source_reasoning.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    }
+  ],
+  "status": "AUTHOR_SOURCE_REASONING_NOT_INDEPENDENT_ACCEPTANCE"
+}

@@ -1,0 +1,19 @@
+{
+  "command_executed": false,
+  "files": [
+    {
+      "external_owner_report": true,
+      "path": "/Users/admin/Downloads/Radik/stage05_finish_repair_owner_handoff_v04/OWNER_COMMAND.txt",
+      "sha256": "3773274af538aa8021992df3f73712f68a840a9297a656c46ca3d3e9bb25ab8d",
+      "size_bytes": 293
+    },
+    {
+      "external_owner_report": true,
+      "path": "/Users/admin/Downloads/Radik/stage05_finish_repair_owner_handoff_v04/README_FIRST_RU.txt",
+      "sha256": "fc6787a4a9322fbf419779507b43cb34428b2c68cb7de74435513e93f87a39aa",
+      "size_bytes": 8490
+    }
+  ],
+  "publication": "LOCAL_ONLY",
+  "schema": "radik.stage05.external_owner_delivery_refs.v01"
+}

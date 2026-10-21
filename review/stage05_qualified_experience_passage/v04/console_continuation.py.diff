@@ -1,0 +1,16 @@
+--- accepted_before/console_continuation.py
++++ candidate_after/console_continuation.py
+@@ -983,3 +983,13 @@
+     validate_round_binding(candidate)
+     require(binding['round_id'] not in checked['rounds'],'console_allowance_round_replay')
+     return candidate
++
++
++# Stage05 has a distinct fresh-task allowance; legacy ABC validators stay intact.
++_validate_before_stage05_disposition = validate
++
++
++def validate(project, ledger):
++    previous = _validate_before_stage05_disposition(project, ledger)
++    from .stage05_disposition import extend_status
++    return extend_status(project, ledger, previous)

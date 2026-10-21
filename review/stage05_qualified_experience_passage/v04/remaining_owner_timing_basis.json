@@ -1,0 +1,47 @@
+{
+  "accepted_timing_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/timing_basis_final.json",
+    "sha256": "c8147ab1223e644a32a9cff7a8310ef1eb5ff82a203a9095a2d5bfeb326b231e",
+    "size_bytes": 5218
+  },
+  "accepted_timing_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_timing_independent_review.json",
+    "sha256": "48138ddeb22af71df394b59514d676b1df192659e0cbc6e7da33aac10bf73129",
+    "size_bytes": 3216
+  },
+  "author": "/root",
+  "automatic_retry": false,
+  "budget_rationale": "Retain previously accepted finite ceilings without increase. Six serial response ceilings (3600) plus1500 cumulative native seconds and300 overhead equal5400; cleanup is separately bounded30. The shortened native scope adds no new campaign. No deadline is extended after refusal.",
+  "ceiling_is_ETA": false,
+  "current_timing_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/supervisor_timing.py",
+    "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+    "size_bytes": 16726
+  },
+  "effects": 0,
+  "limits": {
+    "cleanup_seconds": 30,
+    "maximum_operation_plus_cleanup_seconds": 5430,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "response_seconds_per_attempt": 600,
+    "role_attempts": 6
+  },
+  "measured_basis_retained": {
+    "closed_remainder_parent_final_readback_seconds": 431.906525125,
+    "conservative_overlapping_composition_seconds": 1076.25317654,
+    "interpretation": "These accepted prior measurements include overlapping and non-native work; they are planning proxies, not the current run ETA or measured total native cost."
+  },
+  "native_E_calls": 0,
+  "native_provider_calls": 0,
+  "owner_execution_performed": false,
+  "remaining_work": "Fresh Rowan O/A/C, current cold and qualified G3, fresh Alder O/A/C and separate current consumer, actual Rowan source revision and stale-binding refusal, final accounting and closure. Already accepted G4, aged, eligibility and unscorable campaigns are omitted.",
+  "scenario_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/inputs/scenario.json",
+    "sha256": "4517081582320a1192bbf80e35615025952301a2a0c9c7d1340ba983c75ba847",
+    "size_bytes": 6485
+  },
+  "schema": "radik.stage05.remaining_owner_timing_basis.v01",
+  "status": "PROPOSED_UNCHANGED_ACCEPTED_CEILINGS",
+  "unchanged_timing_bytes": true
+}

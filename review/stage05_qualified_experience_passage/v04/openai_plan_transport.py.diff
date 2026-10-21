@@ -1,0 +1,23 @@
+--- v03/after/app/openai_plan_transport.py
++++ v04/after/app/openai_plan_transport.py
+@@ -23,7 +23,7 @@
+ from .proposal import ProposalObservation
+ from .stream_observation import (unobserved_stream_event, observe_stream_event, project_stream_event, bind_stream_event,
+     decode_event_json, EventJSONRefusal)
+-from .stage04_diagnostics import record_secondary, project_error
++from .stage04_diagnostics import record_secondary, project_error, transfer_secondary_diagnostics
+ 
+ TRANSPORT_VERSION = 'radik.direct_plan_transport.v01'
+ STREAM_PROFILE_VERSION = 'radik.responses.text_json_stream.v04'
+@@ -1903,6 +1903,11 @@
+             error = PlanTransportError(code, terminal_observed=terminal,
+                 outcome='FAILED' if terminal else 'UNKNOWN', usage=usage if terminal else None)
+             primary_error = error
++            try:
++                transfer_secondary_diagnostics(local_error, error)
++            except BaseException:
++                # Secondary transfer cannot replace the transport cause.
++                pass
+             evidence['transport_failure'] = error.transport_failure = failure
+             if evidence['completed_output']['product_stage'] not in ('NOT_STARTED', 'ACCEPTED'):
+                 evidence['completed_output']['product_error_code'] = failure['original_code']

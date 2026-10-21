@@ -1,0 +1,39 @@
+{
+  "candidate_execution_performed": false,
+  "exact_diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/transport_boundary_grant_shadow_repair.diff",
+    "sha256": "9c35ee1ecbc7a51fe156afa2f55e7cb67e417088da91b80784618afc30f53b29",
+    "size_bytes": 1603
+  },
+  "findings": [
+    "Exact three textual substitutions rename only the inert per-case grant to auth_grant, retaining the actual reviewed grant dict for aggregate result metadata.",
+    "Six candidate source/data refs and151 dependency refs are byte-identical to the prior reviewed proposal; branch control flow, I/O fence, assertions and writer are unchanged.",
+    "Prior execution and partial evidence remain immutable. A distinct one-use V02 grant retains the full prior5.291059125-second charge."
+  ],
+  "owner_actual_allowed": false,
+  "prior_execution_accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/execution_accounting/TRANSPORT_BOUNDARY_V01.json",
+    "sha256": "c3810144a3131156702067c93ea254aaaa9873fa715ee111db42375fb27e0a43",
+    "size_bytes": 6429
+  },
+  "production_ACK_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/transport_boundary_controls_proposal.json",
+    "sha256": "cac0269a86a7472a74587d582f1c1dd5b9680136b454aca65c4743e52d7aeed3",
+    "size_bytes": 38252
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/transport_boundary_controls.py",
+    "sha256": "16a5d9ed84c4efe633129bf2c3638eb70f0123feb5873d502b55d11c90b67a62",
+    "size_bytes": 32813
+  },
+  "schema": "radik.stage05.transport_boundary_shadow_repair_review.v01",
+  "source_review_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/transport_boundary_controls_independent_source_review.json",
+    "sha256": "528714114a40a9aecdfcbf102f178be9bf068bee50dee24ff838a25c84970ab9",
+    "size_bytes": 17710
+  },
+  "status": "SOURCE_ACCEPTED_FOR_DISTINCT_CUMULATIVE_V02_GRANT",
+  "unresolved_source_findings": []
+}

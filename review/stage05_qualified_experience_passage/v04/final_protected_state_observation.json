@@ -1,0 +1,49 @@
+{
+  "Stage05_acceptance": false,
+  "active_unknown": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+  "all_original_bytes_unchanged": true,
+  "before_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/protected_state_before_final_controls.json",
+    "sha256": "5271d306d465a5db55d82734f29c931841a75f8629d45e7bcb7d2df45e84c103"
+  },
+  "console_attempts": 50,
+  "files": {
+    "config/console_model_policy.json": {
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    "config/model_policy.json": {
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    "state/application_profile.json": {
+      "sha256": "70d61cf8a8ae3da2fc09f3dabf1ff9f728a345637cd62359ad029af24394ce97",
+      "size_bytes": 233
+    },
+    "state/application_profile_install.json": {
+      "sha256": "6f5a3ae3d692679a62a005f93baf813240115f53c735a4579e55afb59c959f3e",
+      "size_bytes": 6708
+    },
+    "state/console_model_turns.json": {
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    "state/model_turns.json": {
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    "workspace/owner_documents/state/dynamic_tasks.json": {
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    }
+  },
+  "legacy_exam_attempts_unchanged": 16,
+  "model_provider_AUTH_native_E_SAVE_calls": 0,
+  "normal_operation_active": false,
+  "observer": "/root",
+  "owner_actual_executed": false,
+  "production_disposition_receipt_exists": false,
+  "production_profile_unchanged": true,
+  "public_push": false,
+  "schema": "radik.stage05.final_protected_state_observation.v01"
+}

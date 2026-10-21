@@ -1,0 +1,41 @@
+{
+  "author_of_reviewed_disposition": "/root/stage05_g4_contract",
+  "candidate_imports_or_execution": false,
+  "findings": [
+    "Preparation only reads exact predecessor, closure, proposal, review, current profile and source pins; it writes no acknowledgement.",
+    "Apply requires explicit owner confirmation, the existing owner lock, exact canonical launch binding and reviewed proposal. It changes only current local occupancy and ledger head, plus a separate immutable receipt; all50 attempt rows and UNKNOWN usage/outcome stay unchanged.",
+    "The unchanged legacy validator runs first. The narrow status wrapper recognizes only the exact selected receipt and checks original50-row prefix plus the bound new operation slots.",
+    "Fresh operation and two3-call COLD task slots bind new operation/run identifiers, current source/profile, prospective scenario source bytes, new task specifications and normal round grants. Historical rows, Root, Host and old native bindings provide no restored authority.",
+    "Historical operation/grant head validation derives each prefix with active=None; unchanged headers and attempts preserve those hashes. Current or before-begin round validation rereads fresh source/task identities; historical validation permits the deliberate final source revision without accepting stale live binding.",
+    "Partial receipt/ledger writes retain evidence and fail closed; there is no automatic retry. No reference/native/kernel, policy or model selector changes."
+  ],
+  "legacy_ABC_exact_prefix_preserved": true,
+  "only_changed_normal_functions": [
+    "open_operation",
+    "prepare_round",
+    "validate_round"
+  ],
+  "owner_execution_authorized": false,
+  "production_ACK_applied": false,
+  "reviewer": "/root",
+  "schema": "radik.stage05.independent_disposition_cross_review.v01",
+  "scope": "New disposition module and G4-authored legacy integration only. Root-authored ordinary entry helper is excluded from this independent acceptance.",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    }
+  ],
+  "status": "SOURCE_DELTA_ACCEPTED_PENDING_INDEPENDENT_EXECUTED_LINK_CONTROL"
+}

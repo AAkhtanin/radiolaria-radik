@@ -1,0 +1,204 @@
+{
+  "actual_id": "TRANSPORT_BOUNDARY_V01",
+  "aggregate_result_exists": false,
+  "all_production_guards_unchanged": true,
+  "all_six_sources_and_151_dependencies_unchanged": true,
+  "automatic_retry": false,
+  "charged_execution_ns": 5291059125,
+  "child_exit_code": 1,
+  "child_reaped": true,
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/completion.json",
+    "sha256": "f91ab4bd8b77b16bd4e382c4923aad1fea8d8536270941a0e7baa3ff0cb3e7c0",
+    "size_bytes": 696
+  },
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/child_stdout.raw",
+      "sha256": "099f14259938e9eba5ace73d74467c22e6a58024e8629903c3b55f06512150d9",
+      "size_bytes": 1174
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/completion.json",
+      "sha256": "f91ab4bd8b77b16bd4e382c4923aad1fea8d8536270941a0e7baa3ff0cb3e7c0",
+      "size_bytes": 696
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/invocation.json",
+      "sha256": "b7e5aad7a4db157cc7a72ec4d6fb518bfa1095dfc07eacd2f3fcf4f90e6324c8",
+      "size_bytes": 388
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/receipt.json",
+      "sha256": "5d5a088682b7ed795329236c928571f70e1dde072fabc5ccf8ed3af9b7f9c961",
+      "size_bytes": 1237
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/reservation.json",
+      "sha256": "30e63c53cd803f06279df5c6c6f678a500c0b9c97c14f6a7e9fc787ea932da0a",
+      "size_bytes": 322
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/tool_invocation_receipt.json",
+      "sha256": "35e8fbfaf8c506e363e055498ecc1da364b96baab327eeacaa30eb328a7ca350",
+      "size_bytes": 553
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/connect_secondary_reserved_connect_secondary.json",
+      "sha256": "61975351736ca4c34f174475b0efe17cfe16dde1a23a0eb9cd0b144540b9c2b9",
+      "size_bytes": 24019
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/connect_secondary_result_connect_secondary.json",
+      "sha256": "c22ee623f56a229a751d21b5c9a646e87702b1837ad4a755a5019e9a1e9c8978",
+      "size_bytes": 26989
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/postterminal_local_reserved_postterminal_local.json",
+      "sha256": "33a14a420ff04ef0c507373101ec61ea46e0068b68dd3d9ae646270ffd085582",
+      "size_bytes": 24020
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/postterminal_local_result_postterminal_local.json",
+      "sha256": "2f36ee1b8c8b8f03cdb837ced232a76781e2a2f725a59b28f0105524235007fb",
+      "size_bytes": 26608
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/pre_http_reserved_pre_http.json",
+      "sha256": "7a16133643cfe57af10ac5c0adce7ef3e94ac59b0a5d7afab748cbb096e66919",
+      "size_bytes": 24010
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/pre_http_result_pre_http.json",
+      "sha256": "8aceb471892c22bd4f3356c40d6519b98c2247b65ea3768fd1a5d47519725027",
+      "size_bytes": 26717
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/primary_plus_cleanup_reserved_primary_plus_cleanup.json",
+      "sha256": "74968c5aa69fa1721df3749fd32f8600e68700f9fdd9d43220ecca4afa083d35",
+      "size_bytes": 24022
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/primary_plus_cleanup_result_primary_plus_cleanup.json",
+      "sha256": "f1f17b3d148cae326f473c1e4a645aa5a3352ef60ce24997fc35bae45b707900",
+      "size_bytes": 25442
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/reservation.json",
+      "sha256": "0d51f9f26b121118a086be06a400e476af8e20ee3688416907a07a354af148ad",
+      "size_bytes": 129
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/schema_resources.json",
+      "sha256": "88bd37a3405f0c43cc8a0603673b2868a91f5f83546276fa3daa886b6df57c0a",
+      "size_bytes": 955
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/valid_critic_reserved_valid_critic.json",
+      "sha256": "2f539bf206090b2882d7e64b8deeaae656e0b57ac70f78ca93cb77e6eb0da6a3",
+      "size_bytes": 24014
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/valid_critic_result_valid_critic.json",
+      "sha256": "431686fde97a0571b2e052829b7268c788991f44b4f25af8e4b0a7b562413b7c",
+      "size_bytes": 26350
+    }
+  ],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/grants/TRANSPORT_BOUNDARY_V01.json",
+    "sha256": "ffe331990bb8a97ab26e9083c578fa23093e2b9aa35abf3840ee377c9e149117",
+    "size_bytes": 15421
+  },
+  "native_calls": 0,
+  "owner_actual": false,
+  "owner_readiness_established": false,
+  "parent_elapsed_seconds": 0.29076825,
+  "primary_cause": {
+    "app_code_change_required": false,
+    "file": "review/stage05_qualified_experience_passage/v04/transport_boundary_controls.py",
+    "line": 513,
+    "reason": "The per-case inert Auth SimpleNamespace named grant shadowed the independently reviewed outer grant dict; aggregate result construction indexed that namespace.",
+    "type": "TypeError"
+  },
+  "production_ACK_performed": false,
+  "production_guard_count": 55,
+  "provider_calls": 0,
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/receipt.json",
+    "sha256": "5d5a088682b7ed795329236c928571f70e1dde072fabc5ccf8ed3af9b7f9c961",
+    "size_bytes": 1237
+  },
+  "retained_cases": [
+    {
+      "case": "pre_http",
+      "dispatch_may_have_started": true,
+      "outcome": "UNKNOWN",
+      "retained_result_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/pre_http_result_pre_http.json",
+        "sha256": "8aceb471892c22bd4f3356c40d6519b98c2247b65ea3768fd1a5d47519725027",
+        "size_bytes": 26717
+      },
+      "terminal_observed": false
+    },
+    {
+      "case": "postterminal_local",
+      "dispatch_may_have_started": true,
+      "outcome": "FAILED",
+      "retained_result_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/postterminal_local_result_postterminal_local.json",
+        "sha256": "2f36ee1b8c8b8f03cdb837ced232a76781e2a2f725a59b28f0105524235007fb",
+        "size_bytes": 26608
+      },
+      "terminal_observed": true
+    },
+    {
+      "case": "valid_critic",
+      "dispatch_may_have_started": true,
+      "outcome": "COMPLETED",
+      "retained_result_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/valid_critic_result_valid_critic.json",
+        "sha256": "431686fde97a0571b2e052829b7268c788991f44b4f25af8e4b0a7b562413b7c",
+        "size_bytes": 26350
+      },
+      "terminal_observed": true
+    },
+    {
+      "case": "primary_plus_cleanup",
+      "dispatch_may_have_started": true,
+      "outcome": "UNKNOWN",
+      "retained_result_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/primary_plus_cleanup_result_primary_plus_cleanup.json",
+        "sha256": "f1f17b3d148cae326f473c1e4a645aa5a3352ef60ce24997fc35bae45b707900",
+        "size_bytes": 25442
+      },
+      "terminal_observed": false
+    },
+    {
+      "case": "connect_secondary",
+      "dispatch_may_have_started": false,
+      "outcome": "UNKNOWN",
+      "retained_result_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/connect_secondary_result_connect_secondary.json",
+        "sha256": "c22ee623f56a229a751d21b5c9a646e87702b1837ad4a755a5019e9a1e9c8978",
+        "size_bytes": 26989
+      },
+      "terminal_observed": false
+    }
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.transport_boundary_result_review.v04",
+  "schema_resources_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/work/schema_resources.json",
+    "sha256": "88bd37a3405f0c43cc8a0603673b2868a91f5f83546276fa3daa886b6df57c0a",
+    "size_bytes": 955
+  },
+  "signals": [],
+  "source_scope": "All five candidate AST branch result pairs and real schema-resource proof exist. The exact traceback reaches result construction after branch/transfer/projection/source-recheck assertions. This is partial execution evidence, not an aggregate PASS receipt. Four-secondary independent projection and rendered Terminal lines were not durably aggregated.",
+  "status": "STOPPED_AT_AGGREGATE_RESULT_ASSEMBLY_WITH_RETAINED_BRANCH_EVIDENCE",
+  "tool_invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/tool_invocation_receipt.json",
+    "sha256": "35e8fbfaf8c506e363e055498ecc1da364b96baab327eeacaa30eb328a7ca350",
+    "size_bytes": 553
+  },
+  "tool_wall_seconds_separate_measure": 0.188018167
+}

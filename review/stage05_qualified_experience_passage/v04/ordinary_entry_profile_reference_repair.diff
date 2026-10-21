@@ -1,0 +1,26 @@
+--- UNKNOWN_LINK_V01/ordinary_entry.py
++++ candidate/ordinary_entry.py
+@@ -170,10 +170,13 @@
+     raw=gate._read(project,launch_name);launch=json.loads(raw)
+     canonical=json.dumps(launch,sort_keys=True,separators=(',',':'),ensure_ascii=False,allow_nan=False).encode()
+     manifest=selected['manifest']
++    profile_identity={key:selected['profile_ref'][key] for key in ('path','sha256')}
++    launch_profile=launch.get('ordinary_profile_manifest_ref')
+     gate.require(launch.get('schema')=='radik.p28.owner_terminal_launch.v01'
+         and hashlib.sha256(canonical).hexdigest()==args.owner_run_binding
+         and launch.get('source_review_ref')==manifest['source_review_ref']
+-        and launch.get('ordinary_profile_manifest_ref')==selected['profile_ref']
++        and type(launch_profile) is dict and set(launch_profile)=={'path','sha256','size_bytes'}
++        and {key:launch_profile[key] for key in ('path','sha256')}==profile_identity
+         and launch.get('process_index')==1 and launch.get('prior_child_receipt_ref') is None
+         and launch.get('automatic_retry') is False
+         and launch.get('inherited_lock_fd')==owner_lock_fd,
+@@ -185,7 +188,7 @@
+         and admission.get('status')=='OWNER_EXECUTION_ADMITTED_AFTER_SOURCE_AND_REHEARSAL'
+         and admission.get('owner_execution_authorized') is True
+         and admission.get('code_pins')==manifest['pins']
+-        and admission.get('ordinary_profile_manifest_ref')==selected['profile_ref']
++        and admission.get('ordinary_profile_manifest_ref')==launch_profile
+         and admission.get('source_review_ref')==manifest['source_review_ref']
+         and type(decision) is dict and set(decision)=={'selected_attempt_id','proposal_ref','review_ref'}
+         and decision==admission.get('selected_unknown_acknowledgement')

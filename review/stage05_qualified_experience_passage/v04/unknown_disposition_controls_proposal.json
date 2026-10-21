@@ -1,0 +1,184 @@
+{
+  "actual_decisions": [
+    "Real task_budget.validate_ledger full50 row shape/chain/round and pending-minus-acknowledged invariant",
+    "Exact selected UNKNOWN disposition read/lock/write/readback",
+    "Exact ordinary-entry explicit launch decision helper",
+    "New normal operation and two durable3-call COLD grants",
+    "Real TaskStore fresh source registration, immutable TaskSpec, raw source reader and begin checks"
+  ],
+  "actual_id": "UNKNOWN_LINK_V02",
+  "author": "/root/stage05_g4_contract",
+  "author_execution": false,
+  "command": [
+    ".venv-plan/bin/python",
+    "-I",
+    "-B",
+    "review/stage05_qualified_experience_passage/v04/unknown_disposition_controls.py",
+    "--grant",
+    "review/stage05_qualified_experience_passage/v04/grants/UNKNOWN_LINK_V02.json",
+    "--sha256",
+    "INDEPENDENT_GRANT_SHA256"
+  ],
+  "current_owner_hook": "_stage05_owner_disposition exact source extracted; actual hashed launch/admission validation, synthetic external consent metadata clearly labelled",
+  "execution_scope": "Exact AST-extracted candidate predicates on isolated copied state only; no whole app/native import",
+  "grant_contract": {
+    "automatic_retry": false,
+    "prior_charged_ns": "Exact parent cumulative charge from already closed controls; budget never reset",
+    "total_budget_seconds": 300
+  },
+  "input_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_preparation.json",
+      "sha256": "ddbcae7b5caad7b84e93e33c4e9a6d49d9e6fbf34ea59b9816db3ecb7756ce7a",
+      "size_bytes": 5587
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/inputs/scenario.json",
+      "sha256": "4517081582320a1192bbf80e35615025952301a2a0c9c7d1340ba983c75ba847",
+      "size_bytes": 6485
+    },
+    {
+      "path": "state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "review/stage04_dynamic_passage/actual_basis/state/console_model_turns.json",
+      "sha256": "3e7bdc2541ca2669edf4532a28900dd0e571f5a787ebf6c23dc67f86cc162d98",
+      "size_bytes": 4612
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+      "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+      "size_bytes": 5454
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+      "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+      "size_bytes": 8921
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+      "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+      "size_bytes": 1406
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+      "size_bytes": 18391
+    }
+  ],
+  "io": {
+    "native_provider_AUTH_E_SAVE": "DENIED",
+    "network": "DENIED",
+    "reads_only": "Pinned source/input/grant plus stdlib",
+    "subprocess": "DENIED",
+    "whole_application_import": "DENIED",
+    "writes_only": "Exact fresh work subtree"
+  },
+  "negative_cases": [
+    "No owner confirmation -> refusal without writes",
+    "No supervised ordinary launch -> no disposition, normal open still refuses UNKNOWN",
+    "Bare active header clearance -> actual pending/ack invariant refusal",
+    "Changed current source pin -> refusal",
+    "Wrong fresh operation/run -> refusal",
+    "Changed Rowan/Alder raw source at current dispatch -> refusal",
+    "Seventh Stage05 attempt -> refusal",
+    "Ordinary hook changed profile SHA with valid launch hash -> refusal before disposition"
+  ],
+  "owner_admission": false,
+  "positive_case": "Simulated explicit owner decision clears only local active header after exact receipt;50 original rows stay byte-equivalent, two fresh distinct task/source/round bindings use separate6-call allowance, final normal close",
+  "preserved_previous_executed_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/unknown_link_v01_executed_unknown_disposition_controls_proposal.json",
+    "sha256": "cb4df01b8b0f6ea34a32a730b870ca7a73bf2c3ff2b0f6fc2d930e1209b7ca7e",
+    "size_bytes": 8255
+  },
+  "preserved_previous_executed_runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/unknown_link_v01_executed_unknown_disposition_controls.py",
+    "sha256": "93ed6cab3bc800e468f22074e4944a81b6f0f6aee657d36a06e291bbd9596758",
+    "size_bytes": 26413
+  },
+  "preserved_prior_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/unknown_disposition_controls_proposal_before_cumulative_grant_v01.json",
+    "sha256": "a12e1a4699cba15872a853d930d3f9d1edcfddafa5459b545ee6a6fab9a0e8f1"
+  },
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_controls.py",
+    "sha256": "2292543ceba01c1c5707931d8aa88faea546c9dbda5f55fd6ceaf69d68bce8f1",
+    "size_bytes": 27189
+  },
+  "schema": "radik.stage05.unknown_link_control_proposal.v01",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py",
+      "sha256": "083c931134c6ddfea74d7a50e94f6f87e5380839feabdc3cefb372ec7c3d41e3",
+      "size_bytes": 28230
+    },
+    {
+      "path": "app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+      "size_bytes": 8996
+    },
+    {
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    {
+      "path": "app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "size_bytes": 4307
+    },
+    {
+      "path": "app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+      "size_bytes": 10775
+    },
+    {
+      "path": "app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    }
+  ],
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_GRANT",
+  "synthetic_boundaries": [
+    "Historical normal transition/profile/source admission",
+    "Prior continuation acknowledgement list excludes selected; exact old50 prefix enforced",
+    "No source-successor interruption for inactive copied store; fresh origin dependency only",
+    "Six synthetic terminal accounting rows/task completions; no real transport, product, Root, Work or native acceptance",
+    "Owner consent and admission metadata only in isolated copy; no production ACK or owner authorization inferred"
+  ],
+  "targeted_revision": "Actual selected activation/profile uses path+sha256; owner launch/admission carries path+sha256+size_bytes. Positive exact hook must bridge these genuine shapes; changed path/hash identity must refuse before disposition.",
+  "time_budget": "One short invocation under parent shared cumulative300-second preparation/control envelope; no retry or budget reset; parent supplies external bound",
+  "workspace": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V02/work"
+}

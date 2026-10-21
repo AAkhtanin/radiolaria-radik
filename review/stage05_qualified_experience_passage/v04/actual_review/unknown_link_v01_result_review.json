@@ -1,0 +1,296 @@
+{
+  "accepted_observations": [
+    "No consent, no selected supervised route and bare active-header clearance do not authorize release; actual pending-minus-ack accounting refuses.",
+    "Exact copied selected UNKNOWN disposition changes only local occupancy after explicit synthetic owner consent and immutable receipt; all50 historical rows, their original UNKNOWN outcome/usage and count remain exact.",
+    "Real ordinary-entry helper opens the linked new normal operation through real new disposition predicates. Two distinct TaskStore tasks/sources and two COLD3-call grants are created; changed source at live dispatch and wrong operation refuse.",
+    "Six explicitly synthetic terminal accounting rows reach56; seventh Stage05 call refuses. Both normal rounds and operation close with no active pointer.",
+    "All original production guards and source/input pins remain exact; production ledger is still count50 active selected UNKNOWN and no production disposition receipt exists."
+  ],
+  "charged_execution_ns": 5377415916,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "cumulative_charged_ns": 15949034500,
+  "effects": 0,
+  "fixture_elapsed_seconds": 0.28136508259922266,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/grants/UNKNOWN_LINK_V01.json",
+    "sha256": "a880860ee53d9c8b5044a2021da471a6f08f872f53c51261ef4aa0fbaa16b036",
+    "size_bytes": 15500
+  },
+  "historical_prefix_sha256": "3e4fda1678a3351f039a4cabdefb08842df5fb3e96d3437f414410904908299f",
+  "native_calls": 0,
+  "native_or_model_semantic_acceptance": false,
+  "negative_control_count": 8,
+  "owner_actual": false,
+  "owner_execution_authorized": false,
+  "parent_elapsed_seconds": 0.377119375,
+  "production_ACK_performed": false,
+  "provider_calls": 0,
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/receipt.json",
+    "sha256": "4fd80f6e3e89bc4509b7f25705b6eb792e8473eff02490448249775709ecaa67",
+    "size_bytes": 1256
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/result.json",
+    "sha256": "60307957f30d1511f830de230d6ee1fef2d0abb5ca722e97295218a1cf251dbb",
+    "size_bytes": 7009
+  },
+  "retained_leaf_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/child_stdout.raw",
+      "sha256": "2eaa7c3f9371d1e2c229d2b17b23b99cd09e868982b4b4088e3a4c9d19d376fe",
+      "size_bytes": 245
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/completion.json",
+      "sha256": "93c84997fadbca5faf5b135de0f22d8655b2cabf7ca32258c92f7e5e6d853964",
+      "size_bytes": 1098
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/invocation.json",
+      "sha256": "419b3ce3e14631376a55a9a7ebdc82cad5c383f1d69d9951602422a91209609b",
+      "size_bytes": 376
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/receipt.json",
+      "sha256": "4fd80f6e3e89bc4509b7f25705b6eb792e8473eff02490448249775709ecaa67",
+      "size_bytes": 1256
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/reservation.json",
+      "sha256": "1ecb27876e36d0b23afe8b666ad6eb3c66416f5cab50b343a9c42375ab89b82c",
+      "size_bytes": 729
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/tool_invocation_receipt.json",
+      "sha256": "e6438b9c00c598b08c264eb3ad8610fba52a71336710c1a98c1288f8f6dda36a",
+      "size_bytes": 574
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/app/ordinary_entry.py",
+      "sha256": "89da385433db3136abf4f872b24ee9c891d1e7421d5dff3bcd79ae3bdd153344",
+      "size_bytes": 27990
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/direct_plan_passage/owner_start.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/current_source_admission.json",
+      "sha256": "0116c7af710d5fed99d1146159d655c78d4599be9919d467b2383e86058d27ce",
+      "size_bytes": 48
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/profile.json",
+      "sha256": "cbf0ce09106252b4c2021f892417582044a7af1ff1d7ba11f57343b00c218c12",
+      "size_bytes": 967
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/result.json",
+      "sha256": "926bed03730941bd036d4196f9b16ab95ce388406def75a2d5c24bc07b5ca4a6",
+      "size_bytes": 7008
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/runtime_source_review.json",
+      "sha256": "26ef3a7dd9a0057217760ea8e085546193832b17971e6dfa4ff7c410a76e5167",
+      "size_bytes": 570
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/unknown_proposal.json",
+      "sha256": "c0b6a18f01f3fefdfefa4be0fdce7c3b982dbbf85fabd3cbdb109525246c792e",
+      "size_bytes": 2969
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/link_fixture/unknown_review.json",
+      "sha256": "c47ad7c9bf4013e8b91ceb4cf4c5c84849bf79c06d5fba019736ca1379e665c6",
+      "size_bytes": 523
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage04_dynamic_passage/actual_basis/state/console_model_turns.json",
+      "sha256": "3e7bdc2541ca2669edf4532a28900dd0e571f5a787ebf6c23dc67f86cc162d98",
+      "size_bytes": 4612
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+      "size_bytes": 18391
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+      "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+      "size_bytes": 5454
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+      "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+      "size_bytes": 8921
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+      "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+      "size_bytes": 1406
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v04/inputs/scenario.json",
+      "sha256": "4517081582320a1192bbf80e35615025952301a2a0c9c7d1340ba983c75ba847",
+      "size_bytes": 6485
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v04/owner_admission.json",
+      "sha256": "bc6713a9eee549178eaf5bce2503be712a67ae95cc9a34046c648a2627516dbc",
+      "size_bytes": 1478
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/review/stage05_qualified_experience_passage/v04/owner_terminal_runs/LINK/process_1_launch.json",
+      "sha256": "e290431fd86932ad89d067d470984e5dbf879183c48bb7859a7e9234356ff582",
+      "size_bytes": 994
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/console_model_turns.json",
+      "sha256": "57b53bc138188435238abaf05253acb491be825554dde8bf1e318c821ba9b06f",
+      "size_bytes": 136255
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/console_model_turns.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_grant_index.json",
+      "sha256": "c44a73cfdf0df07bfbac161a58ed71f4ab1bf76678a723ed686a09bf2b4875db",
+      "size_bytes": 342
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_operations/a152a52112344abc8abc0123456789ab.json",
+      "sha256": "7da9a6ac95efb3634c220656b9ec8eb98ce8c2e614f3bcda59f951393edca079",
+      "size_bytes": 1240
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_operations/a152a52112344abc8abc0123456789ab.json.closed",
+      "sha256": "6139504dd5899e210b59ecca9e2925fa74ca4b0ab406734fbae4b352a566b4cd",
+      "size_bytes": 435
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_rounds/1f85cdc4e50d4ff48bbaaacb6dfe43c5.json",
+      "sha256": "81fa9a3516143d9159efa3abe42ab49c32f07aa30a8de6fa4ba6098c52ea0177",
+      "size_bytes": 1165
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_rounds/1f85cdc4e50d4ff48bbaaacb6dfe43c5.json.closed",
+      "sha256": "311f7a2bca3ff0f8ed02991c995132bfa1e4555eb14582f3d887fac416806bd9",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_rounds/69b245e4d80e4e6094baf11977379cb3.json",
+      "sha256": "842447ac5e226421611ecb66303b6a1683da5391d80ab6a8953ad5493a5a8502",
+      "size_bytes": 1165
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/normal_rounds/69b245e4d80e4e6094baf11977379cb3.json.closed",
+      "sha256": "a24a7e333b235e0519432f8280851ef28620a9e26d6d05bcb8774a21d052b211",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e/1f85cdc4e50d4ff48bbaaacb6dfe43c5.json",
+      "sha256": "e810720e2f54f911d903aff52d3d777566b38738e9d9e255c7b1fba7beb48f1d",
+      "size_bytes": 775
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e/69b245e4d80e4e6094baf11977379cb3.json",
+      "sha256": "0b645ee5bdb2739e5c41cde1a490dd2e3201ce5f637a9663494ab830db37dc42",
+      "size_bytes": 775
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e/alder_cold.json",
+      "sha256": "675ceb3531baada321a958890965c60807fcac32bc4fa719c8eae45cbbda03fb",
+      "size_bytes": 184
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e/rowan_cold.json",
+      "sha256": "bd12812b60f301f85b1b3845c988a7f0e428d6b5105122bbe0f8db38658ccafe",
+      "size_bytes": 184
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "636f13ce909dc0a77c16599b79d4e7325871276433c95d0570a04530205dc8fb",
+      "size_bytes": 1549
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/workspace/owner_documents/input/a5e5ff155b3d9e2e9dc84e045766dd60.txt",
+      "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+      "size_bytes": 436
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/workspace/owner_documents/input/b0b6e5faf1508f5e06e82f0727ccd8fc.txt",
+      "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+      "size_bytes": 201
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/workspace/owner_documents/state/dynamic_source_revisions.json",
+      "sha256": "2fbd8e2438b4e98151b77a39c1242a965681989c8c2d96811e2bdf7d53df8247",
+      "size_bytes": 279
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/isolated/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "1acc9ebd0a4d42737417912f73f9e8b57fa4a3e1b949d2e71a9b4ead36a8b0c6",
+      "size_bytes": 74248
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/reservation.json",
+      "sha256": "d4a00494412e3194fdb49e77d984dcf72b224479081e95e955a5b364c5b58cc4",
+      "size_bytes": 186
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/work/result.json",
+      "sha256": "60307957f30d1511f830de230d6ee1fef2d0abb5ca722e97295218a1cf251dbb",
+      "size_bytes": 7009
+    }
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.unknown_link_actual_review.v01",
+  "source_and_input_file_count": 20,
+  "status": "ACCEPTED_ISOLATED_EXPLICIT_DISPOSITION_AND_TWO_FRESH_NORMAL_SLOTS",
+  "synthetic_boundaries": [
+    "Historical source/transition/profile admission",
+    "Existing old continuation validation against exact50-row prefix",
+    "No-op source-successor interruption for inactive copied store",
+    "Six synthetic terminal row/task outcomes"
+  ],
+  "tool_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_actual/UNKNOWN_LINK_V01/supervisor/tool_invocation_receipt.json",
+    "sha256": "e6438b9c00c598b08c264eb3ad8610fba52a71336710c1a98c1288f8f6dda36a",
+    "size_bytes": 574
+  }
+}

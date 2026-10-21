@@ -1,0 +1,185 @@
+--- v04-supervisor-before-review
++++ v04-supervisor-early-accounting
+@@ -22,14 +22,17 @@
+ SELF = BASE + '/offline_supervisor.py'
+ TOTAL_SECONDS = 300
+ NS = 10**9
+-MAX_SECONDS = 0
++MAX_SECONDS = TOTAL_SECONDS
+ WORK_SECONDS = 0
+ CLEANUP_SECONDS = 0
+ FINAL_SECONDS = 0
+-HARD_NS = 0
++HARD_NS = STARTED_NS + TOTAL_SECONDS*NS
+ STOP_NS = 0
+ OUTPUT = None
+ WORK = None
++INVOCATION_REF = None
++CHILD_STARTED = False
++CHILD_REAPED = False
+ MAX_STDOUT = 33554432
+ 
+ 
+@@ -93,8 +96,21 @@
+     parser.add_argument('--sha256', required=True)
+     args = parser.parse_args()
+     global MAX_SECONDS, WORK_SECONDS, CLEANUP_SECONDS, FINAL_SECONDS, HARD_NS, STOP_NS, OUTPUT, WORK
++    global INVOCATION_REF, CHILD_STARTED, CHILD_REAPED
+     require(args.grant.startswith(BASE + '/grants/') and args.grant.endswith('.json')
+         and '..' not in Path(args.grant).parts, 'outer_grant_path')
++    actual = Path(args.grant).stem
++    require(type(actual) is str and 1 <= len(actual) <= 80
++        and all(c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_' for c in actual), 'outer_actual_id')
++    actual_root = PROJECT / BASE / 'offline_actual'
++    OUTPUT = actual_root / actual / 'supervisor'; WORK = actual_root / actual / 'work'
++    require(not (actual_root / actual).exists(), 'outer_uncertain_retry_refused')
++    OUTPUT.mkdir(parents=True, mode=0o700)
++    INVOCATION_REF = save('invocation.json', dict(
++        schema='radik.stage05.offline_invocation.v01', actual_id=actual,
++        grant_path=args.grant, grant_sha256=args.sha256,
++        started_monotonic_ns=STARTED_NS, automatic_retry=False,
++        status='PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING'))
+     grant_raw = exact(dict(path=args.grant, sha256=args.sha256))
+     grant = json.loads(grant_raw)
+     require(grant['reviewer'] == '/root/private_remote_controls'
+@@ -103,7 +119,13 @@
+         and grant['production_writes_allowed'] is False
+         and grant['real_AUTH_provider_native_E_SAVE_allowed'] is False
+         and grant['automatic_retry'] is False, 'outer_independent_grant')
+-    actual = grant['actual_id']
++    require(grant['actual_id'] == actual, 'outer_grant_actual_binding')
++    provisional_used = grant['prior_charged_ns']
++    provisional_limit = grant['outer_limits']['total_seconds']
++    require(type(provisional_used) is int and 0 <= provisional_used < TOTAL_SECONDS*NS
++        and type(provisional_limit) is int and 0 < provisional_limit*NS <= TOTAL_SECONDS*NS-provisional_used,
++        'outer_provisional_remaining_budget')
++    HARD_NS = STARTED_NS + provisional_limit*NS
+     require(type(actual) is str and 1 <= len(actual) <= 80
+         and all(c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_' for c in actual), 'outer_actual_id')
+     fixture = grant['runner_ref']['path']
+@@ -112,31 +134,38 @@
+     exact(grant['outer_supervisor_ref'])
+     exact(grant['runner_ref'])
+     exact(grant['interpreter_ref'], executable=True)
+-    prior_refs = grant['prior_completion_refs']
++    prior_refs = grant['prior_execution_review_refs']
+     require(type(prior_refs) is list and len(prior_refs) <= 64, 'outer_budget_history')
+     used_ns = 0
+     prior_ids = []
+     for reference in prior_refs:
+-        parts = Path(reference['path']).parts
+-        require(len(parts) == len(Path(BASE).parts) + 4
+-            and reference['path'].startswith(BASE + '/offline_actual/')
+-            and parts[-2:] == ('supervisor', 'completion.json'), 'outer_prior_completion_path')
+-        identity = parts[-3]
+-        require(identity not in prior_ids and identity != actual, 'outer_budget_repeated_history')
++        require(reference['path'].startswith(BASE + '/execution_accounting/')
++            and reference['path'].endswith('.json'), 'outer_prior_accounting_path')
+         previous = json.loads(exact(reference))
+-        require(previous['schema'] == 'radik.stage05.cumulative_offline_completion.v01'
+-            and previous['actual_id'] == identity and previous['total_budget_seconds'] == TOTAL_SECONDS
+-            and previous['prior_completion_refs'] == prior_refs[:len(prior_ids)]
+-            and previous['prior_charged_ns'] == used_ns and previous['child_reaped'] is True
+-            and previous['receipt_readback_verified'] is True
+-            and previous['stdout_readback_verified'] is True
++        identity = previous['actual_id']
++        require(identity not in prior_ids and identity != actual
++            and previous['schema'] == 'radik.stage05.offline_execution_accounting.v01'
++            and previous['reviewer'] == '/root/private_remote_controls'
++            and previous['status'] == 'CLOSED_EXECUTION_ACCOUNTED'
++            and previous['total_budget_seconds'] == TOTAL_SECONDS
++            and previous['prior_execution_review_refs'] == prior_refs[:len(prior_ids)]
++            and previous['prior_charged_ns'] == used_ns
++            and previous['closure_confirmed'] is True and previous['full_readback_verified'] is True
++            and previous['final_tool_outcome_observed'] is True
+             and type(previous['charged_execution_ns']) is int
+-            and 0 < previous['charged_execution_ns'] <= TOTAL_SECONDS*NS-used_ns,
++            and 0 < previous['charged_execution_ns'] <= TOTAL_SECONDS*NS-used_ns
++            and previous['cumulative_charged_ns'] == used_ns+previous['charged_execution_ns'],
+             'outer_budget_prior_incomplete')
+-        prior_receipt = json.loads(exact(previous['receipt_ref']))
+-        require(prior_receipt['child_reaped'] is True
+-            and prior_receipt['actual_id'] == identity, 'outer_budget_prior_reap')
+-        exact(prior_receipt['stdout_ref'])
++        invocation = json.loads(exact(previous['invocation_ref']))
++        require(invocation['actual_id'] == identity
++            and invocation['grant_sha256'] == previous['grant_ref']['sha256'], 'outer_prior_invocation')
++        exact(previous['grant_ref'])
++        require(type(previous['evidence_refs']) is list and previous['evidence_refs'],
++            'outer_prior_closed_evidence')
++        for evidence in previous['evidence_refs']:
++            require(evidence['path'].startswith(BASE + '/offline_actual/' + identity + '/'),
++                'outer_prior_evidence_scope')
++            exact(evidence)
+         used_ns += previous['charged_execution_ns']
+         prior_ids.append(identity)
+     actual_root = PROJECT / BASE / 'offline_actual'
+@@ -146,7 +175,7 @@
+         for item in actual_root.iterdir():
+             require(item.is_dir() and not item.is_symlink(), 'outer_budget_unknown_entry')
+             observed_ids.add(item.name)
+-    require(observed_ids == set(prior_ids), 'outer_budget_unaccounted_run')
++    require(observed_ids == set(prior_ids) | {actual}, 'outer_budget_unaccounted_run')
+     require(grant['total_budget_seconds'] == TOTAL_SECONDS
+         and grant['prior_charged_ns'] == used_ns, 'outer_budget_cannot_reset')
+     limits = grant['outer_limits']
+@@ -160,11 +189,10 @@
+     HARD_NS = STARTED_NS + MAX_SECONDS*NS; STOP_NS = STARTED_NS + WORK_SECONDS*NS
+     require(time.monotonic_ns() < STOP_NS, 'outer_preparation_deadline')
+     OUTPUT = actual_root / actual / 'supervisor'; WORK = actual_root / actual / 'work'
+-    require(not OUTPUT.exists() and not WORK.exists(), 'outer_uncertain_retry_refused')
+-    OUTPUT.mkdir(parents=True, mode=0o700)
++    require(OUTPUT.is_dir() and not WORK.exists(), 'outer_uncertain_retry_refused')
+     save('reservation.json', dict(grant_sha256=args.sha256, invocation_count=1,
+         automatic_retry=False, started_monotonic_ns=STARTED_NS, hard_deadline_ns=HARD_NS,
+-        actual_id=actual, prior_completion_refs=prior_refs, prior_charged_ns=used_ns,
++        actual_id=actual, prior_execution_review_refs=prior_refs, prior_charged_ns=used_ns,
+         total_budget_seconds=TOTAL_SECONDS))
+     argv = [str(PROJECT / '.venv-plan/bin/python'), '-I', '-B', fixture,
+         '--grant', args.grant, '--sha256', args.sha256]
+@@ -208,6 +236,7 @@
+             child = subprocess.Popen(argv, cwd=PROJECT, stdin=subprocess.DEVNULL,
+                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT, start_new_session=True,
+                 env={'PATH': '/usr/bin:/bin', 'LC_ALL': 'C', 'PYTHONDONTWRITEBYTECODE': '1'})
++            CHILD_STARTED = True
+             os.set_blocking(child.stdout.fileno(), False)
+             selector.register(child.stdout, selectors.EVENT_READ)
+             while True:
+@@ -250,6 +279,7 @@
+                     reason = reason or 'OUTER_STDOUT_DRAIN_FAILURE'
+                     supervisor_error = supervisor_error or dict(error_class=type(error).__name__,
+                         code='OUTER_STDOUT_DRAIN_FAILURE', raw_error_recorded=False)
++                CHILD_REAPED = child.returncode is not None
+                 child.stdout.close()
+             selector.close()
+             stream.flush()
+@@ -283,7 +313,7 @@
+         stdout_readback_verified=True, child_reaped=child_reaped,
+         elapsed_wall_seconds=(time.monotonic_ns()-STARTED_NS)/NS,
+         charged_execution_ns=charged_ns, closing_readback_reserve_seconds=5,
+-        prior_completion_refs=prior_refs, prior_charged_ns=used_ns,
++        prior_execution_review_refs=prior_refs, prior_charged_ns=used_ns,
+         cumulative_charged_ns=used_ns+charged_ns, total_budget_seconds=TOTAL_SECONDS,
+         hard_deadline_ns=HARD_NS, no_deadline_renewal=True))
+     exact(completion_ref)
+@@ -296,4 +326,19 @@
+ 
+ 
+ if __name__ == '__main__':
+-    raise SystemExit(main())
++    try:
++        result_code = main()
++    except BaseException as error:
++        # A preparation failure is retained even before a child exists. Only an
++        # independent review of the final tool outcome may charge and close it.
++        if OUTPUT is not None and INVOCATION_REF is not None:
++            raw = canonical(dict(schema='radik.stage05.offline_parent_failure.v01',
++                invocation_ref=INVOCATION_REF, error_type=type(error).__name__,
++                raw_error_recorded=False, child_started=CHILD_STARTED,
++                child_reaped=CHILD_REAPED,
++                elapsed_wall_ns=time.monotonic_ns()-STARTED_NS))
++            with (OUTPUT/'parent_failure.json').open('xb') as stream:
++                stream.write(raw); stream.flush(); os.fsync(stream.fileno())
++            require((OUTPUT/'parent_failure.json').read_bytes() == raw, 'outer_failure_readback')
++        raise
++    raise SystemExit(result_code)

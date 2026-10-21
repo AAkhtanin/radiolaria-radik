@@ -1,0 +1,60 @@
+{
+  "candidate_execution_performed": false,
+  "dynamic_installer_driver_validation": "PENDING_SEPARATE_EXACT_GRANT",
+  "owner_execution_authorized": false,
+  "preserving_upgrade_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/predecessor_install_state.json",
+    "sha256": "852192d623295f45f2ebeb3ddf3830de77a3587cde69c49b94f47cf039169b22",
+    "size_bytes": 45644
+  },
+  "production_activation_or_ACK_allowed_now": false,
+  "reviewed_deltas": [
+    "Installer/gate recognizes exact installed v02 predecessor180pins and exact50-row active selected UNKNOWN snapshots; it installs compatible reader including new disposition before activation and preserves ledger/tasks/five consumed reservations. Installation does not clear occupancy.",
+    "Old Stage04 manifest remains registered with its original reviewer; v02 predecessor and v04 current require the independent Stage05 reviewer. All predecessor hashes and snapshot namespaces are fixed.",
+    "Owner requires explicit --acknowledge-unknown exact selectedID and independently admitted proposal/review; binds decision to launch. Reader expects remaining_only6roles, initial50 prefix and exact12 new checkpoint sequence; no repeated G4/aged claims.",
+    "Ordinary entry verifies exact manifest/admission/launch/lock binding then selected disposition before fresh normal operation. New disposition is included in owner source-pin closure; owner_start selects only the new v04 profile.",
+    "Scenario change from accepted v03 remaining_only is passage prefix only; old full native witnesses are reused under accepted scope, with no authority restored.",
+    "Timing bytes remain exact accepted5400operation/1500native/600perresponse/30cleanup; no kernel, TTL, policy or executor extension."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_integration_source_review.v04",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/activate_profile.py",
+      "sha256": "f097041e6ad0bd69e42325659aa2ee23b37777e7c7e1965f484c2e70ce4c31bc",
+      "size_bytes": 20270
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/config/application_profile_gate.py",
+      "sha256": "d3788f881fa114e40c3d1caaf6a9ab20c081f1459dd944c9b0172f8b565eb4c3",
+      "size_bytes": 15071
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/owner_terminal.py",
+      "sha256": "c863bf131d78475ad645e7efe32d8106efe27bab63833b642459ccb7013ec580",
+      "size_bytes": 72882
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py",
+      "sha256": "89da385433db3136abf4f872b24ee9c891d1e7421d5dff3bcd79ae3bdd153344",
+      "size_bytes": 27990
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/review/transport/radik_owner_start.py",
+      "sha256": "e3c76ee8c9b97c165cb913b637935f5d53d68c6e4418c585faac9530cf34f1dc",
+      "size_bytes": 143855
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/qualified_experience_scenario.py",
+      "sha256": "156f96b05f45f7f75e84b1c224e2ac18057e5cbf1b0d2ee9f28663919ed42ba5",
+      "size_bytes": 24978
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/inputs/scenario.json",
+      "sha256": "4517081582320a1192bbf80e35615025952301a2a0c9c7d1340ba983c75ba847",
+      "size_bytes": 6485
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_INSTALLER_AND_DRIVER_CONTROLS",
+  "unresolved_source_findings": []
+}

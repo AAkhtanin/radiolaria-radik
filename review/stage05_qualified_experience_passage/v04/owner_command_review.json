@@ -1,0 +1,62 @@
+{
+  "Stage05_acceptance": false,
+  "command_executed": false,
+  "command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_finish_repair_owner_handoff_v04/OWNER_COMMAND.txt",
+    "sha256": "3773274af538aa8021992df3f73712f68a840a9297a656c46ca3d3e9bb25ab8d",
+    "size_bytes": 293
+  },
+  "command_tokens": [
+    "cd",
+    "/Users/admin/Projects/RadiolariaRadik",
+    "&&",
+    ".venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "review/stage05_qualified_experience_passage/v04/owner_terminal.py",
+    "--admission-sha256",
+    "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+    "--acknowledge-unknown",
+    "radik-call:c146081f7b9a4d649f3c7e916189271e"
+  ],
+  "exact_outer_reader_data_reconciliation": [
+    "Owned project and v04 supervisor path, isolated/no-site/no-bytecode interpreter flags and exact admission SHA.",
+    "One explicit selected c146 acknowledgement token; proposal and independent decision review are exact3-key sized refs under v04.",
+    "Final admission, manifest, runtime review and focused result share the exact181pins. Manifest source review and runtime interpreter reference match admission.",
+    "Current two-key profile identity matches future three-key owner reference; launch/admission full ref equality remains required.",
+    "Exact console childargv, approved source status and focused result readiness, unchanged finite LIMITS, pinned real interpreter and original lock identity are bound.",
+    "The new admission has no reservation; old consumed205cc admission and its receipt remain preserved."
+  ],
+  "external_report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_finish_repair_owner_handoff_v04/README_FIRST_RU.txt",
+    "sha256": "fc6787a4a9322fbf419779507b43cb34428b2c68cb7de74435513e93f87a39aa",
+    "size_bytes": 8490
+  },
+  "model_observation_after_handoff": false,
+  "owner_actual": "NOT_RUN",
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/owner_admission.json",
+    "sha256": "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+    "size_bytes": 34928
+  },
+  "packaging_execution_granted": false,
+  "packaging_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/return_adapter_independent_source_review.json",
+    "sha256": "d4a0b4cf0f019482aa447fd397748e53fbdda8068051a982a8dd66d479f9ca7a",
+    "size_bytes": 1195
+  },
+  "production_ACK": false,
+  "report_assessment": [
+    "Correctly distinguishes actual extracted transport/disposition/installer controls from synthetic external interfaces and driver events.",
+    "Preserves production50-row activeUNKNOWN, original remoteUNKNOWN/usage and no engineering ACK, activation, model/native execution.",
+    "Explains future explicit local occupancy action, fresh six-role operation, prior-scoped evidence reuse, unchanged spending ceilings and no retry.",
+    "Cumulative27.811401667seconds includes retained failed first invocation and closing reserves; finalsource-only readiness is not Stage05 acceptance.",
+    "Finite RETURN has explicit omitted duplicate/legacy dependencies and is not advertised as a standalone clone."
+  ],
+  "reviewed_at_utc": "2026-10-21T09:44:09.801808+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_command_static_review.v04",
+  "status": "ACCEPTED_ONE_FUTURE_EXPLICIT_OWNER_COMMAND_NOT_EXECUTED",
+  "unresolved_findings": []
+}

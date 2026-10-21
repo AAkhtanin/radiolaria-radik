@@ -1,0 +1,32 @@
+--- v04-prefix-installer
++++ v04-stopped-predecessor-installer
+@@ -23,7 +23,7 @@
+ FINISH_PENDING = JOURNAL + '.finish.pending'
+ ACTIVATION = 'state/application_profile.json'
+ MAX_FILE_BYTES = 64 * 1024 * 1024
+-READER_FIRST = ('config/application_profile_gate.py', 'app/normal_profile.py',
++READER_FIRST = ('config/application_profile_gate.py', 'app/stage05_disposition.py', 'app/normal_profile.py',
+     'app/normal_session.py', 'app/console_continuation.py', 'app/task_budget.py',
+     'app/task_store.py', 'app/budget.py')
+ _GATE_MODULE = '_radik_stage05_activation_raw_gate'
+@@ -205,7 +205,7 @@
+     upgrade_ref,predecessor=gate.preserving_upgrade(project,selected)
+     old_selected=gate.load_profile(project,predecessor['predecessor_manifest_ref'])
+     old=old_selected['manifest']
+-    require(old['pins']==predecessor['predecessor_code_pins'] and len(old['pins'])==160,
++    require(old['pins']==predecessor['predecessor_code_pins'] and len(old['pins'])==180,
+         'profile_install_predecessor_pin_inventory')
+     require(set(old['install_files']) <= set(payloads)
+         and all(manifest['before_install_pins'][name]==old['pins'].get(name) for name in payloads),
+@@ -244,8 +244,9 @@
+         'profile_install_active_operation_refused')
+     ledger=json.loads(read(project,'state/console_model_turns.json',4*1024*1024))
+     require(ledger.get('version')=='radik.console_turn_ledger.v05'
+-        and ledger.get('active_attempt_id')is None and type(ledger.get('attempts'))is list
+-        and len(ledger['attempts'])==predecessor['expected_console_attempts'] and predecessor['expected_console_attempts']==44,'profile_install_predecessor_ledger_occupancy')
++        and ledger.get('active_attempt_id')==predecessor['expected_active_attempt_id']
++        =='radik-call:c146081f7b9a4d649f3c7e916189271e' and type(ledger.get('attempts'))is list
++        and len(ledger['attempts'])==predecessor['expected_console_attempts'] and predecessor['expected_console_attempts']==50,'profile_install_predecessor_ledger_occupancy')
+     for consumed in predecessor['consumed_reservation_refs']:
+         reservation=reference(project,consumed)
+         require(reservation.get('one_use')is True and reservation.get('automatic_retry')is False,

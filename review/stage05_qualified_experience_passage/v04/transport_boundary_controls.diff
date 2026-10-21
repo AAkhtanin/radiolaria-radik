@@ -1,0 +1,211 @@
+--- v03/reviewed_resource_reader_proposal.py
++++ v04/transport_boundary_controls.py
+@@ -24,9 +24,9 @@
+ from types import SimpleNamespace
+ 
+ PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-BASE = 'review/stage05_qualified_experience_passage/v03'
++BASE = 'review/stage05_qualified_experience_passage/v04'
+ SELF = BASE + '/transport_boundary_controls.py'
+-WORK = PROJECT / BASE / 'offline_actual/TRANSPORT_BOUNDARY_V01/work'
++WORK = None
+ TRANSPORT = BASE + '/after/app/openai_plan_transport.py'
+ DIAGNOSTICS = BASE + '/after/app/stage04_diagnostics.py'
+ SCENARIO = BASE + '/after/app/qualified_experience_scenario.py'
+@@ -141,18 +141,25 @@
+ 
+ 
+ def main():
++    global WORK
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--grant', required=True); parser.add_argument('--sha256', required=True)
+     args = parser.parse_args()
+-    require(args.grant == BASE + '/transport_boundary_grant.json', 'boundary_grant_path')
++    require(re.fullmatch(re.escape(BASE) + r'/grants/TRANSPORT_BOUNDARY_V[0-9]{2}\.json', args.grant),
++        'boundary_grant_path')
+     grant_raw = read(PROJECT / args.grant)
+     require(digest(grant_raw) == args.sha256, 'boundary_grant_hash')
+     grant = json.loads(grant_raw)
+     require(grant['reviewer'] == '/root/private_remote_controls' and grant['approved_executor'] == '/root'
+-        and grant['approved_invocation_count'] == 1 and grant['actual_id'] == 'TRANSPORT_BOUNDARY_V01'
++        and grant['approved_invocation_count'] == 1
++        and re.fullmatch(r'TRANSPORT_BOUNDARY_V[0-9]{2}', grant['actual_id'])
++        and args.grant == BASE + '/grants/' + grant['actual_id'] + '.json'
+         and grant['network'] == 'DENIED' and grant['production_writes_allowed'] is False
+         and grant['real_AUTH_provider_native_E_SAVE_allowed'] is False
+         and grant['automatic_retry'] is False, 'boundary_independent_grant')
++    WORK = PROJECT / BASE / 'offline_actual' / grant['actual_id'] / 'work'
++    require(grant['total_budget_seconds'] == 300 and type(grant['prior_charged_ns']) is int
++        and 0 <= grant['prior_charged_ns'] < 300 * 10**9, 'boundary_cumulative_budget_binding')
+     require(grant['runner_ref']['path'] == SELF, 'boundary_runner_path')
+     exact(grant['runner_ref'])
+     proposal = json.loads(exact(grant['proposal_ref']))
+@@ -196,6 +203,20 @@
+     sys.meta_path.insert(0, PinnedDependencyFinder())
+     # All third-party files were hashed before the first dependency import.
+     from jsonschema import Draft202012Validator
++    from jsonschema_specifications import REGISTRY
++    resource_proof = []
++    for uri, suffix in (
++        ('http://json-schema.org/draft-03/schema#', 'draft3/metaschema.json'),
++        ('https://json-schema.org/draft/2020-12/schema', 'draft202012/metaschema.json')):
++        path = '.venv-plan/lib/python3.14/site-packages/jsonschema_specifications/schemas/' + suffix
++        actual_contents = REGISTRY.contents(uri)
++        require(actual_contents == json.loads(sources[path]), 'boundary_schema_registry_resource')
++        resource_proof.append(dict(uri=uri, path=path, sha256=digest(sources[path]),
++            size_bytes=len(sources[path]), actual_registry_contents_sha256=digest(actual_contents)))
++    resource_proof_ref = persist('schema_resources.json', dict(
++        schema='radik.stage05.transport_schema_resources.v01', status='PASS',
++        resources=resource_proof, access_route='PINNED_LOADER_FILE_READER_AND_EXACT_FILE_AUDIT_FENCE',
++        candidate_AST_executed=False, dependency_import='jsonschema.Draft202012Validator'))
+     dependency_modules = []
+     for name, module in list(sys.modules.items()):
+         filename = getattr(module, '__file__', None)
+@@ -216,7 +237,7 @@
+         'SAFE_ERROR_TYPES', 'MAX_SECONDARY_FAILURES', '_STATE_KEY', '_CORE_FIELDS',
+         'TRANSPORT_FAILURE_SUBSTAGES', 'TRANSPORT_FAILURE_CATEGORIES', 'TRANSPORT_FRAME_FUNCTIONS')
+     diag_functions = ('project_transport_failure', '_closed', '_attribute', '_name', '_code',
+-        '_secondary_valid', '_state', 'project_error', 'observe_failure', 'record_secondary', 'safe_projection')
++        '_secondary_valid', '_state', 'project_error', 'observe_failure', 'record_secondary', 'transfer_secondary_diagnostics', 'safe_projection')
+     diag = extract(sources[DIAGNOSTICS], DIAGNOSTICS, constants=diag_constants,
+         functions=diag_functions, extra=dict(common, project_stream_event=no_stream))
+     data_path = BASE + '/inputs/transport_boundary_critic_data.json'
+@@ -278,14 +299,16 @@
+         classes={'PlanTransportError': None, 'OpenAIPlanTransport': methods},
+         extra=dict(common, __builtins__=closed_builtins, Draft202012Validator=Draft202012Validator,
+             ProposalObservation=observations['ProposalObservation'], project_error=diag['project_error'],
+-            record_secondary=diag['record_secondary'], unobserved_stream_event=lambda: None,
++            record_secondary=diag['record_secondary'],
++            transfer_secondary_diagnostics=diag['transfer_secondary_diagnostics'], unobserved_stream_event=lambda: None,
+             project_stream_event=no_stream, bind_stream_event=lambda *a, **k: None,
+             _sse_lines=lambda *a, **k: (), consume_sse=stream_complete,
+             ROLE_CONTEXT_VERSION='radik.role_context.v01'))
+     results = []
+     retained_errors = []
+-    for case in ('pre_http', 'postterminal_local', 'valid_critic', 'primary_plus_cleanup'):
++    for case in ('pre_http', 'postterminal_local', 'valid_critic', 'primary_plus_cleanup', 'connect_secondary'):
+         calls, persisted, finished = [], [], []
++        ns['project_error'] = diag['project_error']
+         class Deadline:
+             def __init__(self, connection, seconds):
+                 self.expired = SimpleNamespace(is_set=lambda: False)
+@@ -303,7 +326,9 @@
+         ns['_Deadline'] = Deadline
+         class Connection:
+             host, port, sock = 'api.openai.com', 443, object()
+-            def connect(self): calls.append('connect')
++            def connect(self):
++                calls.append('connect')
++                if case == 'connect_secondary': raise OSError('SECRET_CONNECT_TEXT')
+             def request(self, *a, **k):
+                 calls.append('request')
+                 if case in ('pre_http', 'primary_plus_cleanup'): raise OSError('SECRET_REQUEST_TEXT')
+@@ -327,6 +352,15 @@
+             requested_effort='high', selected_model='gpt-6.1-sol')
+         transport._grant = grant
+         transport._connection = lambda: connection
++        provider_exit_calls = 0
++        if case == 'connect_secondary':
++            def provider_event(event):
++                nonlocal provider_exit_calls
++                if event['kind'] == 'PHASE_EXIT':
++                    provider_exit_calls += 1
++                    calls.append('provider_exit')
++                    if provider_exit_calls == 1: raise RuntimeError('SECRET_CALLBACK_TEXT')
++            transport.owner_event_sink = provider_event
+         transport._guard_observed = lambda *a, **k: calls.append('synthetic_guard_observed')
+         def prepare(response, *, metadata, **kwargs):
+             calls.append('synthetic_http_metadata'); metadata.update(observation='OBSERVED', status=200)
+@@ -348,7 +382,7 @@
+         last = persisted[-1]
+         require(len(finished) == 1 and len(persisted) == 2 and 'connection_close' in calls
+             and 'deadline_finish' in calls, 'boundary_finalizers_attempted')
+-        require(last['dispatch_may_have_started'] is True, 'boundary_dispatch_evidence')
++        require(last['dispatch_may_have_started'] is (case != 'connect_secondary'), 'boundary_dispatch_evidence')
+         if case == 'valid_critic':
+             require(error is None and observation.value == product and last['outcome'] == 'COMPLETED'
+                 and last['completed_output']['role_product_accepted'] is True
+@@ -364,7 +398,8 @@
+                 ('ValueError' if expected_terminal else 'OSError')
+                 and failure['original_code'] == ('dynamic_current_sources_changed' if expected_terminal
+                     else 'SANITIZED_OPERATION_FAILURE')
+-                and failure['substage'] == ('OBSERVATION_BUILD' if expected_terminal else 'REQUEST_SEND')
++                and failure['substage'] == ('OBSERVATION_BUILD' if expected_terminal
++                    else 'CONNECT' if case == 'connect_secondary' else 'REQUEST_SEND')
+                 and failure['failure_category'] == ('POSTTERMINAL_LOCAL' if expected_terminal else 'PRETERMINAL_UNCERTAIN')
+                 and failure['source_frames'] and diag['project_transport_failure'](failure, source_pins=pins) == failure,
+                 'boundary_original_diagnostic')
+@@ -376,11 +411,62 @@
+                     and projected['secondary_failures'][0]['type'] == 'KeyboardInterrupt'
+                     and projected['primary_preserved'] is True
+                     and projected['code'] == expected_code, 'boundary_cleanup_primary_preserved')
+-        results.append(dict(case=case, status='PASS', calls=calls,
++            if case == 'connect_secondary':
++                projected = diag['project_error'](error)
++                require(len(projected['secondary_failures']) == 1
++                    and projected['secondary_failures'][0]['type'] == 'RuntimeError'
++                    and projected['secondary_failures'][0]['phase'] == 'TERMINAL_OUTPUT'
++                    and projected['secondary_failures_omitted'] == 0
++                    and projected == last['failure_observation']
++                    and provider_exit_calls == 2 and transport._provider_waiting is False
++                    and all(name not in calls for name in ('request', 'getresponse', 'synthetic_http_metadata')),
++                    'boundary_connect_secondary_transferred')
++        results.append(dict(case=case, status='PASS', calls=calls, provider_exit_calls=provider_exit_calls,
+             outcome=last['outcome'], terminal_observed=last['terminal_observed'],
+             dispatch_may_have_started=last['dispatch_may_have_started'],
+             diagnostic=last.get('transport_failure'), failure_observation=last.get('failure_observation'),
+             independent_failure_projection=diag['project_error'](error) if error is not None else None))
++    # Data-only controls for the same bounded transfer helper; no extra transport calls.
++    original = OSError('SECRET_ORIGINAL')
++    replacement = ns['PlanTransportError']('plan_dispatch_or_stream_uncertain')
++    for index in range(19):
++        diag['record_secondary'](original, RuntimeError('SECRET_SECONDARY'),
++            phase='TERMINAL_OUTPUT', step='INTERACTIVE_TASK')
++    original_state = diag['_state'](original)
++    original_state.update(primary_persistence='DURABLE_READBACK_VERIFIED', primary_printed=True)
++    for index in range(2):
++        diag['record_secondary'](replacement, ValueError('dynamic_current_sources_changed'),
++            phase='TERMINAL_OUTPUT', step='INTERACTIVE_TASK')
++    original_before = canonical(original_state)
++    require(diag['transfer_secondary_diagnostics'](original, replacement), 'boundary_transfer_merge')
++    transferred = diag['_state'](replacement)
++    require(len(transferred['secondary_failures']) == 16
++        and transferred['secondary_failures_omitted'] == 5
++        and transferred['primary_persistence'] == 'IN_MEMORY_ONLY'
++        and transferred['primary_printed'] is False
++        and canonical(diag['_state'](original)) == original_before
++        and all(row is not old for row in transferred['secondary_failures']
++            for old in original_state['secondary_failures']), 'boundary_transfer_bounded_independent')
++    merged_projection = diag['project_error'](replacement)
++    original_state['secondary_failures_omitted'] = 1000000
++    transferred['secondary_failures_omitted'] = 1000000
++    require(diag['transfer_secondary_diagnostics'](original, replacement)
++        and diag['_state'](replacement)['secondary_failures_omitted'] == 1000000,
++        'boundary_transfer_omission_clamp')
++    forged = OSError('SECRET_FORGED')
++    setattr(forged, diag['_STATE_KEY'], dict(original_state, arbitrary='SECRET_FORGED'))
++    untouched = ns['PlanTransportError']('plan_dispatch_or_stream_uncertain')
++    require(diag['transfer_secondary_diagnostics'](forged, untouched) is False
++        and diag['_state'](untouched) is None, 'boundary_transfer_forged_refused')
++    class UnwritableError(Exception):
++        def __setattr__(self, key, value):
++            raise KeyboardInterrupt('SECRET_DIAGNOSTIC_SETATTR')
++    require(diag['transfer_secondary_diagnostics'](original, UnwritableError()) is False,
++        'boundary_transfer_failure_is_best_effort')
++    transfer_controls = dict(status='PASS', merged_projection=merged_projection,
++        omission_clamp=1000000, forged_state_refused=True, transfer_failure_preserves_primary=True,
++        primary_printed_and_durable_claims_not_copied=True, original_state_unchanged_during_merge=True,
++        case_scope='BOUNDED_DIAGNOSTIC_STATE_ONLY_NO_ADDITIONAL_TRANSPORT_CALL')
+     # The exact app and owner projections must reject arbitrary text and bad pins.
+     failure = retained_errors[0].transport_failure
+     mutations = []
+@@ -424,7 +510,8 @@
+     # Recheck every admitted source after execution; no candidate source was mutated.
+     for ref in refs: exact(ref)
+     result = dict(schema='radik.stage05.transport_boundary_controls.v01', status='PASS',
+-        series_count=1, cases=results, negative_projection_cases=mutations,
++        series_count=1, actual_id=grant['actual_id'], prior_charged_ns=grant['prior_charged_ns'], cases=results, negative_projection_cases=mutations,
++        schema_resource_proof_ref=resource_proof_ref, secondary_transfer_controls=transfer_controls,
+         scenario_attachment='PASS', terminal_renderer='PASS', terminal_lines=shown,
+         source_refs=proposal['source_refs'],
+         dependency_modules=sorted(dependency_modules, key=lambda r:r['module']),

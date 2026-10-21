@@ -1,0 +1,25 @@
+--- executed_v04_V01.py
++++ proposed_v04_V02.py
+@@ -337,7 +337,7 @@
+                 return SimpleNamespace(status=200, close=lambda: calls.append('response_close'))
+             def close(self): calls.append('connection_close')
+         connection = Connection()
+-        grant = SimpleNamespace(access_token='SYNTHETIC_NOT_A_CREDENTIAL', expires_at=int(time.time())+600,
++        auth_grant = SimpleNamespace(access_token='SYNTHETIC_NOT_A_CREDENTIAL', expires_at=int(time.time())+600,
+             scopes=('chatgpt.tokens.use.direct',), connection_id='inert_boundary_connection')
+         class Budget:
+             def reserve(self, **kwargs):
+@@ -346,11 +346,11 @@
+                 calls.append('budget_finish'); finished.append(copy.deepcopy(kwargs))
+                 if case == 'primary_plus_cleanup': raise RuntimeError('SECRET_BUDGET_TEXT')
+         transport = ns['OpenAIPlanTransport'](project=PROJECT,
+-            auth=SimpleNamespace(access_for_plan=lambda: grant), budget=Budget(), observation_directory='unused',
++            auth=SimpleNamespace(access_for_plan=lambda: auth_grant), budget=Budget(), observation_directory='unused',
+             source_validator=lambda: dict(pins), admission_validator=lambda **k: True)
+         transport._catalog = dict(observed_at=int(time.time()), source_identity_sha256=source_sha,
+             requested_effort='high', selected_model='gpt-6.1-sol')
+-        transport._grant = grant
++        transport._grant = auth_grant
+         transport._connection = lambda: connection
+         provider_exit_calls = 0
+         if case == 'connect_secondary':

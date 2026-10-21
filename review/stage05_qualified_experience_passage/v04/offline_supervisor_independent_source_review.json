@@ -1,0 +1,37 @@
+{
+  "accepted_algorithm_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor_independent_source_review.json",
+    "sha256": "8bb0f6c99c72a7ede2e60cf4e1f98fa71ba83e7ff80ab034619b7c1d175654f0",
+    "size_bytes": 2600
+  },
+  "application_execution_allowed": false,
+  "candidate_execution_performed": false,
+  "findings_resolved": [
+    "Preparation previously lacked a durable attempted-run identity. The exclusive invocation marker now precedes expensive grant/source/interpreter/history validation.",
+    "Completion alone did not establish a successful final readback/clock/return. Successors now require an exact independent execution-accounting review and verify every prior actual directory is represented once."
+  ],
+  "limitations": [
+    "Source review does not claim that catchable Python or filesystem calls guarantee return under an unresponsive OS. Final tool closure and independently verified accounting remain necessary.",
+    "No dynamic negative accounting-chain test was executed; the first grant has an empty predecessor chain."
+  ],
+  "network_allowed": false,
+  "owner_actual_allowed": false,
+  "production_ACK_allowed": false,
+  "reviewed_invariants": [
+    "Absolute per-invocation deadlines start before imports and include preparation. Cleanup/reap algorithm is retained from accepted predecessor.",
+    "Each grant carries total passage budget300 seconds, exact prior review chain, prior sum and finite limits within the remaining charge. No reset or refund.",
+    "Every predecessor review pins its consumed grant, invocation marker and closed evidence, and explicitly confirms final tool outcome, closure and full readback. A missing or uncertain accounting review refuses a successor.",
+    "Successful completion charges the measured parent interval plus a nonrefundable5-second closing reserve; final exact completion readback and clock must fit that charge.",
+    "A preparation/final exception preserves a parent_failure record when the early marker exists; its measured final closed interval must be independently accounted before any successor.",
+    "Only one reviewed child is started with fixed interpreter and args; no automatic retry. Child starts in its own process group, signal sequence is bounded, and unconfirmed reap cannot receive accepted closure."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_supervisor_source_review.v01",
+  "scope": "Incremental stdlib supervisor review; no candidate import or execution by reviewer.",
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_supervisor.py",
+    "sha256": "b159e7b3299484f6c6c435c4832600d8ae3d3a53d691f46a49c0b4e6e9d7d241",
+    "size_bytes": 17572
+  },
+  "status": "SOURCE_ACCEPTED_FOR_EXACT_CUMULATIVE_BUDGET_GRANTS"
+}

@@ -1,0 +1,24 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/build_return.py",
+    "sha256": "db764c62bdb0ca182537e2873fbe9245fdc486f1a70115b42cc59bd4d77eb339",
+    "size_bytes": 13309
+  },
+  "application_or_owner_execution_granted": false,
+  "exact_delta": "Only passage BASE, external Russian report root and publisher passage key change from accepted v03. All bounded reads, canonical archive paths, exact subject exceptions, scans, reservations and writer behavior are otherwise byte-identical.",
+  "execution_performed": false,
+  "packaging_execution_granted": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/before/build_return.py",
+    "sha256": "bd50e04a2d73d12735082e06721394aeed6ca4fd9d8cf54e08bdfbbcaa092535",
+    "size_bytes": 13305
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_adapter_source_review.v04",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_SELECTION_AND_ONE_USE_PACKAGING_GRANT"
+}

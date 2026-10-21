@@ -1,0 +1,36 @@
+{
+  "actual_link_recheck_required": true,
+  "candidate_execution_performed": false,
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/ordinary_entry_profile_reference_repair.diff",
+    "sha256": "35b8fdbfb202a710f9dd5e06ddb031dafa0468ed177a30abfa5a4f959ead92cc",
+    "size_bytes": 1813
+  },
+  "finding": "The real selected profile identity has path/sha256 while owner admission/launch carries path/sha256/size_bytes. Prior isolated positive interface used3/3 and did not cover this seam.",
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/source_history/ordinary_entry_unknown_link_v01.py",
+    "sha256": "89da385433db3136abf4f872b24ee9c891d1e7421d5dff3bcd79ae3bdd153344",
+    "size_bytes": 27990
+  },
+  "prior_actual_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/actual_review/unknown_link_v01_result_review.json",
+    "sha256": "5ace315f0bf56de7ee77eb9930317121b7d94e381fff0d077d6abf5e7e40f5f1",
+    "size_bytes": 17189
+  },
+  "production_ACK_allowed": false,
+  "repair": "Compare selected and launch identities by exact path/sha256, while requiring exactly3 launch fields and exact full launch/admission reference equality. Pass original selected2-field reference to disposition/current normal profile; no broader identity equivalence or authority change.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.ordinary_entry_profile_reference_review.v01",
+  "source_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_independent_source_review.json",
+    "sha256": "8d45d90eb54f9bd2e42b92657cecd054992e531a4a68cd46899a57bba835603c",
+    "size_bytes": 3099
+  },
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py",
+    "sha256": "083c931134c6ddfea74d7a50e94f6f87e5380839feabdc3cefb372ec7c3d41e3",
+    "size_bytes": 28230
+  },
+  "status": "SOURCE_ACCEPTED_PENDING_DISTINCT_PRODUCTION_SHAPE_LINK_CONTROL",
+  "unchanged_functions_verified": true
+}

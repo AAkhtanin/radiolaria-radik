@@ -1,0 +1,40 @@
+{
+  "basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_controls_independent_source_review.json",
+    "sha256": "6c8d1c642da20e9f7eca45d45582ba87a731ba098ecf7a2ee339f14c3973e7a3",
+    "size_bytes": 7516
+  },
+  "candidate_execution_performed": false,
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_link_profile_reference_shape_repair.diff",
+    "sha256": "2f28e3745e5a09e1d0bb264a70eeddbd5ed77759b9cd034686e53dbbb7669afe",
+    "size_bytes": 6242
+  },
+  "owner_execution_authorized": false,
+  "production_ACK_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_controls_proposal.json",
+    "sha256": "4bda1a071617f931642fe979e95e39ed475999476c256dc1db5a7d3f1d070d23",
+    "size_bytes": 9194
+  },
+  "repair_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/ordinary_entry_profile_reference_independent_source_review.json",
+    "sha256": "16130c8d2d9c7ff1791bfa6be182db0b03eb6255b23cb80e79acd2835278637f",
+    "size_bytes": 2050
+  },
+  "reviewed_delta": [
+    "Distinct exclusive V02 work/grant identity; existing V01 actual and source are preserved.",
+    "Actual selected/proposal/current profile identity uses path/sha256, while owner admission/launch uses the same bytes with path/sha256/size_bytes.",
+    "New wrong profile-hash launch is correctly rebound as a whole launch and must fail the actual helper before any disposition.",
+    "Positive path exercises repaired actual hook plus existing real pending/ACK/normal-slot functions and persists both profile shapes. No change to synthetic authority/history/terminal interfaces."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_controls.py",
+    "sha256": "2292543ceba01c1c5707931d8aa88faea546c9dbda5f55fd6ceaf69d68bce8f1",
+    "size_bytes": 27189
+  },
+  "schema": "radik.stage05.unknown_link_profile_reference_control_review.v01",
+  "status": "SOURCE_ACCEPTED_FOR_DISTINCT_CUMULATIVE_UNKNOWN_LINK_V02",
+  "unresolved_source_findings": []
+}

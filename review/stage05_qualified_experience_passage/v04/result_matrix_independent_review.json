@@ -1,0 +1,48 @@
+{
+  "Stage05_acceptance": false,
+  "assessment": [
+    "Final rows distinguish real selected function execution, synthetic transport/context/driver interfaces, source-only future owner decisions and preserved prior native actual scope.",
+    "Original failed wrapper cause remains unknown; diagnostic fixes are proved by controlled new cases, not by reconstructing that error.",
+    "Five closed invocations retain the first fixture failure and all nonrefundable charges. Final cumulative27.811401667seconds is below the300second cap.",
+    "The2-key selected versus3-key owner profile seam and explicit interpreter metadata omission were repaired and are disclosed without inflating narrower earlier control coverage.",
+    "The prior allocation order is4/3 then3/4. No previous live authority, binding or quota is restored. Owner remaining-only completion and Stage05 acceptance remain unobserved."
+  ],
+  "component_actual_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/actual_review/transport_boundary_v02_result_review.json",
+      "sha256": "798672a55dea1b1d0d68e087da1b9abfbf5fd46918d406838e40487526bb1af9",
+      "size_bytes": 8399
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/actual_review/unknown_link_v02_result_review.json",
+      "sha256": "9cb5121b7ed46c7e05719c0e5ae76dc8fe32d7ecaca6b4c2ecb48cd406d8cd6e",
+      "size_bytes": 18016
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/actual_review/owner_profile_v01_result_review.json",
+      "sha256": "8d09ac854a2fbae337228aa00632b62d5d49a52575d3a196944fc0f89ec2cefc",
+      "size_bytes": 71917
+    }
+  ],
+  "interpreter_metadata_repair_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/interpreter_binding_metadata_review.json",
+    "sha256": "000c92f287118b51147b823ed284b422756b94713bb873d9cce40eab4eeaa47d",
+    "size_bytes": 3693
+  },
+  "matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/result_matrix.json",
+    "sha256": "284aa862ef5093db367981c8dd0b5a4f55247023e535340959c2c796854ef85c",
+    "size_bytes": 8190
+  },
+  "owner_actual": false,
+  "production_ACK": false,
+  "retained_prior_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_independent_partial_acceptance.json",
+    "sha256": "968424c52e942026dc639322c61f86a842b8430c4dd717fc5a8ee2dea8a207fd",
+    "size_bytes": 15425
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.finish_repair_matrix_review.v04",
+  "status": "ACCEPTED_SCOPED_MAPPING_NO_STAGE05_CLOSURE",
+  "unresolved_findings": []
+}

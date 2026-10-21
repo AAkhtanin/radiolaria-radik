@@ -1,0 +1,63 @@
+{
+  "candidate_execution_by_reviewer": false,
+  "candidate_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/openai_plan_transport.py",
+      "sha256": "059a972bf66f4312b83d89d2391cb4a23b199ec3c10bd4b4fa6b13faf44cb355",
+      "size_bytes": 120217
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/after/app/stage04_diagnostics.py",
+      "sha256": "24a854907b1546a75a2e3471c5af4be035ca8d567f99b2135f5b8b8fdf8f65cc",
+      "size_bytes": 133348
+    }
+  ],
+  "created_at_utc": "2026-10-21T08:59:07.580305+00:00",
+  "diff_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/openai_plan_transport.py.diff",
+      "sha256": "75583eb5d9b42343b46d46496f2730d8e0463e6f9c68c83ed046f141aeebc823",
+      "size_bytes": 1315
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/stage04_diagnostics.py.diff",
+      "sha256": "27581f46daf8d83d4aeedf7f9f071364da95baa4b9b2ec66692b9228799c277b",
+      "size_bytes": 1631
+    }
+  ],
+  "findings": [
+    "Exact diagnostic delta adds one transfer helper; every prior diagnostic AST definition is unchanged. Transport adds only its import and guarded invocation after creating the replacement generic wrapper.",
+    "Original and existing target diagnostic states pass the existing closed validator: at most16 finite secondary rows, bounded omission count, no arbitrary fields. Only cloned secondary rows and saturated omission count are transferred.",
+    "Existing target primary location/persistence/printed fields are preserved; absent target receives UNKNOWN/IN_MEMORY_ONLY defaults. Original location, durable and printed claims are not copied.",
+    "Rows and omission count are constructed before one setattr; same-object input returns false. Invalid state or setter/transfer BaseException returns false and cannot replace the primary. Transport additionally guards the transfer invocation itself.",
+    "Terminal/outcome, request checks, budget/reservation, native semantics and finalizer order are unchanged. No new imports beyond the independently reviewed diagnostic helper."
+  ],
+  "owner_ready": false,
+  "preimage_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/before/app/openai_plan_transport.py",
+      "sha256": "6dbe28ed9c23e0b5ee9d876df80b20ab961b1c3787e0c0d8c4e3f4a7fc8b3d37",
+      "size_bytes": 119973
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/before/app/stage04_diagnostics.py",
+      "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+      "size_bytes": 132029
+    }
+  ],
+  "prior_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_independent_source_review.json",
+    "sha256": "771e78ab9a445f4d0efe86ee157cb353d1e9d3d1801471e24fe1c10ef6007c69",
+    "size_bytes": 5532
+  },
+  "production_installation_or_ACK_allowed": false,
+  "required_actual_controls": [
+    "Four prior transport/product/cleanup cases after repaired pinned package-resource loading.",
+    "CONNECT OSError plus first exit-callback RuntimeError retains original CONNECT/OSError, UNKNOWN, terminal=false, dispatch=false, no request/getresponse and persisted secondary plus mandatory finalizers.",
+    "Bounded merge/omission preservation and malformed-state refusal within the same finite control fixture."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "runtime_acceptance": false,
+  "schema": "radik.stage05.transport_secondary_source_review.v04",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_FIVE_BRANCH_BOUNDARY_CONTROLS"
+}
