@@ -1,0 +1,118 @@
+--- review/stage05_qualified_experience_passage/v03/before/owner_terminal.py
++++ review/stage05_qualified_experience_passage/v03/owner_terminal.py
+@@ -10,6 +10,7 @@
+ STARTED_NS = time.monotonic_ns()
+ STARTED_UTC = int(time.time())
+ import argparse
++import ast
+ from datetime import datetime, timezone
+ import fcntl
+ import hashlib
+@@ -27,7 +28,7 @@
+ 
+ PRODUCTION_PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+ PROJECT = Path(__file__).absolute().parents[3]
+-PREFIX = 'review/stage05_qualified_experience_passage/v02'
++PREFIX = 'review/stage05_qualified_experience_passage/v03'
+ SELF = PREFIX + '/owner_terminal.py'
+ RESERVATIONS = 'state/stage05_owner_scenario_reservations'
+ TIMING = PREFIX + '/supervisor_timing.py'
+@@ -62,6 +63,7 @@
+ 
+ 
+ STAGE05_CHECKPOINTS = frozenset((
++    'cold_current_consumer', 'qualified_current_consumer',
+     'prospective_scenario', 'ordinary_accepted_result', 'cold_allocated_work',
+     'qualified_feedback', 'qualified_allocated_work', 'causal_chain_verified',
+     'unscorable_audit_control', 'current_eligibility_controls',
+@@ -444,10 +446,74 @@
+     return result
+ 
+ 
++def transport_diagnostic_tables(source_pins):
++    """Read only pinned literal registries; do not import or execute application code."""
++    name = 'app/stage04_diagnostics.py'
++    raw, _ = read_bytes(PROJECT / name)
++    require(hashlib.sha256(raw).hexdigest() == source_pins.get(name), 'terminal_transport_registry_pin')
++    names = {'OWNED_ERROR_CODES', 'MEMORY_ERROR_CODES', 'RETURN_ERROR_CODES', 'TYPED_GUARD_NAMES',
++        'SAFE_ERROR_TYPES', 'TRANSPORT_FAILURE_SUBSTAGES', 'TRANSPORT_FAILURE_CATEGORIES'}
++    nodes = {node.targets[0].id: node.value for node in ast.parse(raw, filename=name).body
++        if isinstance(node, ast.Assign) and len(node.targets) == 1 and isinstance(node.targets[0], ast.Name)
++        and node.targets[0].id in names}
++    require(set(nodes) == names, 'terminal_transport_registry_inventory')
++    def literal(node, depth=0):
++        require(depth <= 8, 'terminal_transport_registry_depth')
++        if isinstance(node, ast.Name) and node.id in nodes:
++            return literal(nodes[node.id], depth+1)
++        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.BitOr):
++            return literal(node.left, depth+1) | literal(node.right, depth+1)
++        require(isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id == 'frozenset'
++            and len(node.args) == 1 and not node.keywords, 'terminal_transport_registry_literal')
++        value = ast.literal_eval(node.args[0])
++        require(type(value) in (set, tuple) and len(value) <= 8192
++            and all(type(item) is str and 0 < len(item) <= 256 for item in value),
++            'terminal_transport_registry_values')
++        return frozenset(value)
++    return {key: literal(node) for key, node in nodes.items()}
++
++
++def terminal_transport_failure(value, source_pins):
++    """Validate closed categories and each admitted frame before display."""
++    fields = {'schema', 'failure_category', 'substage', 'original_type', 'original_code',
++        'terminal_observed', 'source_identity_sha256', 'source_frames', 'omitted_frames',
++        'unadmitted_frames', 'traceback_truncated', 'raw_error_recorded', 'locals_recorded', 'frame_basis'}
++    require(type(value) is dict and set(value) == fields, 'terminal_transport_failure_shape')
++    tables = transport_diagnostic_tables(source_pins)
++    codes = tables['OWNED_ERROR_CODES'] | tables['MEMORY_ERROR_CODES'] | tables['RETURN_ERROR_CODES'] | {'SANITIZED_OPERATION_FAILURE'}
++    require(value['schema'] == 'radik.plan_transport_failure.v01'
++        and type(value['failure_category']) is str and value['failure_category'] in tables['TRANSPORT_FAILURE_CATEGORIES']
++        and type(value['substage']) is str and value['substage'] in tables['TRANSPORT_FAILURE_SUBSTAGES']
++        and type(value['original_type']) is str and value['original_type'] in tables['SAFE_ERROR_TYPES']
++        and type(value['original_code']) is str and value['original_code'] in codes
++        and type(value['terminal_observed']) is bool and type(value['traceback_truncated']) is bool
++        and value['raw_error_recorded'] is False and value['locals_recorded'] is False
++        and value['frame_basis'] == 'SOURCE_VALIDATOR_PINS_CAPTURED_BEFORE_RESERVATION'
++        and type(value['source_identity_sha256']) is str and re.fullmatch('[0-9a-f]{64}', value['source_identity_sha256'])
++        and type(value['source_frames']) is list and len(value['source_frames']) <= 32
++        and all(type(value[key]) is int and 0 <= value[key] <= 128
++            for key in ('omitted_frames', 'unadmitted_frames')),
++        'terminal_transport_failure_closed_fields')
++    require(not(value['failure_category'] == 'PRETERMINAL_UNCERTAIN' and value['terminal_observed'])
++        and not(value['failure_category'] == 'POSTTERMINAL_LOCAL' and not value['terminal_observed']),
++        'terminal_transport_terminal_consistency')
++    frames = []
++    for frame in value['source_frames']:
++        require(type(frame) is dict and set(frame) == {'path', 'sha256', 'line', 'function'}
++            and type(frame['path']) is str and frame['path'] in source_pins
++            and type(frame['sha256']) is str and frame['sha256'] == source_pins[frame['path']]
++            and type(frame['line']) is int and 1 <= frame['line'] <= 1000000
++            and type(frame['function']) is str and len(frame['function']) <= 96
++            and (re.fullmatch('[A-Za-z_][A-Za-z0-9_]*', frame['function'])
++                or frame['function'] in STAGE05_FRAME_FUNCTIONS), 'terminal_transport_failure_frame')
++        frames.append(dict(frame))
++    return dict(value, source_frames=frames)
++
++
+ def stage05_failure_context(row, source_pins):
+     """Validate the exact-child attachment before displaying safe source coordinates."""
+     value = row.get('failure_context')
+-    require(type(value) is dict and set(value) == {'schema', 'scenario_stage', 'native_stage',
++    require(type(value) is dict and set(value)-{'transport_failure'} == {'schema', 'scenario_stage', 'native_stage',
+         'source_frames', 'omitted_frames', 'unadmitted_frames', 'traceback_truncated',
+         'raw_error_recorded', 'locals_recorded'}
+         and value['schema'] == 'radik.stage05.failure_context.v01'
+@@ -473,6 +539,14 @@
+     show('STAGE05_FAILURE_CONTEXT scenario='+value['scenario_stage']+' native='+value['native_stage'])
+     for frame in frames:
+         show('SOURCE_FRAME '+frame['path']+':'+str(frame['line'])+' '+frame['function']+' sha256='+frame['sha256'])
++    if 'transport_failure' in value:
++        transport = terminal_transport_failure(value['transport_failure'], source_pins)
++        result['transport_failure'] = transport
++        show('TRANSPORT_FAILURE category='+transport['failure_category']+' substage='+transport['substage']
++            +' original='+transport['original_type']+'/'+transport['original_code']
++            +' terminal_observed='+str(transport['terminal_observed']))
++        for frame in transport['source_frames']:
++            show('TRANSPORT_SOURCE_FRAME '+frame['path']+':'+str(frame['line'])+' '+frame['function']+' sha256='+frame['sha256'])
+     return result
+ 
+ 

@@ -1,0 +1,151 @@
+--- review/stage05_qualified_experience_passage/v03/before/app/qualified_experience_scenario.py
++++ review/stage05_qualified_experience_passage/v03/after/app/qualified_experience_scenario.py
+@@ -15,7 +15,7 @@
+ from .native_authority import plain
+ from .stage04_diagnostics import observe_failure, project_error, record_secondary
+ 
+-PREFIX = 'review/stage05_qualified_experience_passage/v02'
++PREFIX = 'review/stage05_qualified_experience_passage/v03'
+ 
+ 
+ STAGE05_SCENARIO_STAGES = frozenset((
+@@ -103,6 +103,12 @@
+         and inputs['command'] == 'experience' and inputs['expected_role_calls'] == 6
+         and inputs['expected_primary_role_calls'] == inputs['expected_unrelated_role_calls'] == 3
+         and inputs['native_E_calls'] == inputs['effects'] == 0, 'stage05_scenario_input_contract')
++    require(inputs.get('scenario_mode') in ('full', 'remaining_only'), 'stage05_scenario_input_contract')
++    remaining_only = inputs['scenario_mode'] == 'remaining_only'
++    # Pinned prior refs document completed evidence; they restore no live object.
++    require(type(inputs.get('prior_actual_evidence')) is dict
++        and inputs['prior_actual_evidence'].get('authority_restored') is False,
++        'stage05_scenario_input_contract')
+     require(operation is not None and operation['schema'] == 'radik.normal_operation.v02',
+         'stage05_current_operation_required')
+     output = project/'workspace/owner_documents/review/stage05'/operation['run_id']
+@@ -112,7 +118,9 @@
+     observations = []
+     report = dict(schema='radik.stage05.qualified_experience_result.v01', status='STARTED',
+         owner_operation_id=operation['owner_operation_id'], run_id=operation['run_id'],
+-        scenario_input_sha256=digest(raw), observations=observations, actual_model_calls=None,
++        scenario_input_sha256=digest(raw), scenario_mode=inputs['scenario_mode'],
++        prior_actual_evidence=inputs['prior_actual_evidence'],
++        observations=observations, actual_model_calls=None,
+         native_E_calls=0, effects=0, automatic_retry=False, Stage05_acceptance='NOT_INFERRED')
+ 
+     def checkpoint(step, value):
+@@ -176,15 +184,20 @@
+             on_event=event_sink)
+         with phase('cold_decision'):
+             cold_binding = experience.consume(controller, cold=True)
+-            baseline = qualified_strategy.run(controller, cold_binding, label='cold')
+-        checkpoint('cold_allocated_work', baseline)
++            if not remaining_only:
++                baseline = qualified_strategy.run(controller, cold_binding, label='cold')
++        # A fresh cold G3 consumer supplies the later unrelated-operation comparator.
++        checkpoint('cold_current_consumer' if remaining_only else 'cold_allocated_work',
++            cold_binding.report if remaining_only else baseline)
+         with phase('prospective_feedback'):
+             feedback = experience.observe(controller, predicted=True)
+         checkpoint('qualified_feedback', feedback)
+         with phase('subsequent_work'):
+             qualified = experience.consume(controller)
+-            subsequent = qualified_strategy.run(controller, qualified, label='qualified')
+-        checkpoint('qualified_allocated_work', subsequent)
++            if not remaining_only:
++                subsequent = qualified_strategy.run(controller, qualified, label='qualified')
++        checkpoint('qualified_current_consumer' if remaining_only else 'qualified_allocated_work',
++            qualified.report if remaining_only else subsequent)
+         scenario_stage = 'CAUSAL_CHECKS'
+         require(feedback['feedback']['update_eligibility'] == 'ELIGIBLE'
+             and feedback['feedback']['observed_result']['value'] == 0
+@@ -198,42 +211,46 @@
+             and cold_binding.report['work_result_ref'] != qualified.report['work_result_ref']
+             and cold_binding.report['source_scope'] == qualified.report['source_scope'],
+             'stage05_actual_scoped_consumer_change_required')
+-        require(baseline['budget_total'] == subsequent['budget_total']
+-            == baseline['consumed_units'] == subsequent['consumed_units'] == 9
+-            and baseline['history']['disposition'] == 'ABSENT'
+-            and subsequent['history']['disposition'] == 'USABLE'
+-            and baseline['allocation_counts'] == dict(quotation=4, qualification=3)
+-            and subsequent['allocation_counts'] == dict(quotation=3, qualification=4)
+-            and 'absolute_word_audit' not in baseline['selected_checks']
+-            and 'absolute_word_audit' in subsequent['selected_checks']
+-            and subsequent['history']['consumed_work_ref'] == qualified.report['work_result_ref']
+-            and subsequent['history']['history_ref'] == feedback['head']['snapshot_id']
+-            and all(value['provider_calls'] == value['effects'] == 0 for value in (baseline, subsequent)),
+-            'stage05_actual_equal_budget_redistribution_required')
++        if not remaining_only:
++            require(baseline['budget_total'] == subsequent['budget_total']
++                == baseline['consumed_units'] == subsequent['consumed_units'] == 9
++                and baseline['history']['disposition'] == 'ABSENT'
++                and subsequent['history']['disposition'] == 'USABLE'
++                and baseline['allocation_counts'] == dict(quotation=4, qualification=3)
++                and subsequent['allocation_counts'] == dict(quotation=3, qualification=4)
++                and 'absolute_word_audit' not in baseline['selected_checks']
++                and 'absolute_word_audit' in subsequent['selected_checks']
++                and subsequent['history']['consumed_work_ref'] == qualified.report['work_result_ref']
++                and subsequent['history']['history_ref'] == feedback['head']['snapshot_id']
++                and all(value['provider_calls'] == value['effects'] == 0 for value in (baseline, subsequent)),
++                'stage05_actual_equal_budget_redistribution_required')
+         checkpoint('causal_chain_verified', dict(prospective_ref=feedback['claim']['artifact_id'],
+             outcome_ref=feedback['feedback']['feedback_id'], history_ref=qualified.report['history_ref'],
+-            current_work_ref=qualified.report['work_result_ref'], allocated_work_ref=subsequent['artifact_id'],
++            current_work_ref=qualified.report['work_result_ref'],
++            allocated_work_ref=None if remaining_only else subsequent['artifact_id'],
+             cold_binding_id=cold_binding.report['binding_id'], qualified_binding_id=qualified.report['binding_id'],
+-            statement='Scoped negative predicate changed actual Work and redistributed the same budget.'))
+-        with phase('unscorable_control'):
+-            unscorable = experience.audit_unscorable(controller, reason='UNSCORABLE_MODEL_RESPONSE')
+-        checkpoint('unscorable_audit_control', dict(controlled_failure_category=True,
+-            actual_transport_failure_claimed=False, observation=unscorable))
+-        require(unscorable['update_eligibility'] == 'NO_UPDATE'
+-            and unscorable['qualified_history_before'] == unscorable['qualified_history_after'],
+-            'stage05_unscorable_history_preserved')
+-        with phase('eligibility_controls'):
+-            eligibility = experience.eligibility_controls(controller)
+-        checkpoint('current_eligibility_controls', eligibility)
+-        with phase('aged_current_check'):
+-            aged = experience.aged_consumer_control(controller)
+-        require(aged['old_history_opened'] is False and aged['prior_fp'] == 0
+-            and aged['binding_report']['mandatory_check'] is not None
+-            and aged['binding_report']['history_ref'] is None
+-            and aged['binding_report']['outcome_to_history_refs'] == []
+-            and aged['history_before'] == aged['history_after'],
+-            'stage05_aged_additional_work_required')
+-        checkpoint('aged_current_check', aged)
++            statement=('A fresh scoped negative predicate changed the current G3 consumer; prior G4 credit remains historical.'
++                if remaining_only else 'Scoped negative predicate changed actual Work and redistributed the same budget.')))
++        if not remaining_only:
++            with phase('unscorable_control'):
++                unscorable = experience.audit_unscorable(controller, reason='UNSCORABLE_MODEL_RESPONSE')
++            checkpoint('unscorable_audit_control', dict(controlled_failure_category=True,
++                actual_transport_failure_claimed=False, observation=unscorable))
++            require(unscorable['update_eligibility'] == 'NO_UPDATE'
++                and unscorable['qualified_history_before'] == unscorable['qualified_history_after'],
++                'stage05_unscorable_history_preserved')
++            with phase('eligibility_controls'):
++                eligibility = experience.eligibility_controls(controller)
++            checkpoint('current_eligibility_controls', eligibility)
++            with phase('aged_current_check'):
++                aged = experience.aged_consumer_control(controller)
++            require(aged['old_history_opened'] is False and aged['prior_fp'] == 0
++                and aged['binding_report']['mandatory_check'] is not None
++                and aged['binding_report']['history_ref'] is None
++                and aged['binding_report']['outcome_to_history_refs'] == []
++                and aged['history_before'] == aged['history_after'],
++                'stage05_aged_additional_work_required')
++            checkpoint('aged_current_check', aged)
+         after_primary_native = client.budget.snapshot()
+         require(after_primary_native['attempts'] == after_cold['attempts']
+             and after_primary_native['active_attempt_id'] is None,
+@@ -344,6 +361,10 @@
+         require(report['actual_model_calls'] == inputs['expected_role_calls'], 'stage05_total_role_budget')
+         report['role_calls_by_task'] = {task:inputs['expected_primary_role_calls'], unrelated_task:unrelated_calls}
+         report['status'] = 'OWNER_SCENARIO_COMPLETED_REQUIRES_REVIEW'
++        report['completed_scope'] = 'FRESH_REMAINING_ONLY' if remaining_only else 'FULL_SCENARIO'
++        report['repeated_G4_allocations'] = 0 if remaining_only else 2
++        report['repeated_aged_consumers'] = 0 if remaining_only else 1
++        report['prior_closed_process_authority_restored'] = False
+         report['ledger_after_sha256'] = digest(final)
+         report['result_ref'] = persist(output, 'completed_result', report)
+         return report

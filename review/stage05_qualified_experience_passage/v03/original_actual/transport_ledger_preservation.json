@@ -1,0 +1,488 @@
+{
+  "original_files_modified": false,
+  "raw_files": [
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_00b11664335d49afad5146b22cc9a9db.json",
+        "sha256": "96f5685b31237dd77b9819b10f2b71111c5c210da08187b855a69ccc7d0c95c8",
+        "size_bytes": 2677
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/catalog_00b11664335d49afad5146b22cc9a9db.json",
+        "sha256": "96f5685b31237dd77b9819b10f2b71111c5c210da08187b855a69ccc7d0c95c8",
+        "size_bytes": 2677
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_db45ad34bb2e4c45b172257d5209350f.json",
+        "sha256": "b22f1eab17d6bd973ce6612802e83eda2bc72620a62e1dc9fa4790fdc78490bd",
+        "size_bytes": 2677
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/catalog_db45ad34bb2e4c45b172257d5209350f.json",
+        "sha256": "b22f1eab17d6bd973ce6612802e83eda2bc72620a62e1dc9fa4790fdc78490bd",
+        "size_bytes": 2677
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_30b6e47d31144273b7e531b29015ff43.json",
+        "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+        "size_bytes": 1367
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_30b6e47d31144273b7e531b29015ff43.json",
+        "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+        "size_bytes": 1367
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_c039f5f217a34fc881754b8dcb5079ed.json",
+        "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+        "size_bytes": 1367
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_c039f5f217a34fc881754b8dcb5079ed.json",
+        "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+        "size_bytes": 1367
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "91e1087daecd5249bfc89094f1b4682da9151408d740d0c836dc6542cf38abd9",
+        "size_bytes": 1374
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/http_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "91e1087daecd5249bfc89094f1b4682da9151408d740d0c836dc6542cf38abd9",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "c99b614d08c6127432ea644422ce384f240fd87baeddd2ff6cb32be4e9a1091d",
+        "size_bytes": 1374
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/http_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "c99b614d08c6127432ea644422ce384f240fd87baeddd2ff6cb32be4e9a1091d",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "30cca1b471fe514e7d38ce14a8315c6c5e28355d8484898f00f1cb52df4da28a",
+        "size_bytes": 1374
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/http_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "30cca1b471fe514e7d38ce14a8315c6c5e28355d8484898f00f1cb52df4da28a",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "a40884bf566f3458d2873e73710e01672b2c65d38046c8414dde138d401e49d2",
+        "size_bytes": 1374
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/http_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "a40884bf566f3458d2873e73710e01672b2c65d38046c8414dde138d401e49d2",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "266d500eb80e1bc221022afe3aeeab0b9f9716fa47b13c18a145f1fce62d1f74",
+        "size_bytes": 1374
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/http_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "266d500eb80e1bc221022afe3aeeab0b9f9716fa47b13c18a145f1fce62d1f74",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "589ef18d0d05a17bd2d72facbb630375438040176bb1e0c5b661da4da5637d7d",
+        "size_bytes": 8712
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "589ef18d0d05a17bd2d72facbb630375438040176bb1e0c5b661da4da5637d7d",
+        "size_bytes": 8712
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "33d0a3e923d81e6404ed69553b3d1de41570342e46f426d188d7b345b359d8cd",
+        "size_bytes": 24624
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "33d0a3e923d81e6404ed69553b3d1de41570342e46f426d188d7b345b359d8cd",
+        "size_bytes": 24624
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "581378fce28cc05718fe50a163336172fdfdca15030da69a238242d6c16b2ac1",
+        "size_bytes": 15052
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "581378fce28cc05718fe50a163336172fdfdca15030da69a238242d6c16b2ac1",
+        "size_bytes": 15052
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "df032fb83b9232b62204a564f71677c6348b88fe92496fb6d6acedf2fb480128",
+        "size_bytes": 18107
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "df032fb83b9232b62204a564f71677c6348b88fe92496fb6d6acedf2fb480128",
+        "size_bytes": 18107
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "d2e26f93a454c88da4e96ed38f97a9bbb5e24d5b6138889762dddf6372101283",
+        "size_bytes": 14589
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "d2e26f93a454c88da4e96ed38f97a9bbb5e24d5b6138889762dddf6372101283",
+        "size_bytes": 14589
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "82d6bac4a3d9e7fa61cea8492527b782de98ba4299ed80067999e24113bd5233",
+        "size_bytes": 8285
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/reserved_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "82d6bac4a3d9e7fa61cea8492527b782de98ba4299ed80067999e24113bd5233",
+        "size_bytes": 8285
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "487070f9dbbbcaa77bb7deacbd37ae65b7304db7b59f96b2aca8f24891fd8ba1",
+        "size_bytes": 17727
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "487070f9dbbbcaa77bb7deacbd37ae65b7304db7b59f96b2aca8f24891fd8ba1",
+        "size_bytes": 17727
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "a8bf09aa52bc97251af2e9f10a56bd80d7292792ad3e29653730300ef17c72b6",
+        "size_bytes": 33897
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "a8bf09aa52bc97251af2e9f10a56bd80d7292792ad3e29653730300ef17c72b6",
+        "size_bytes": 33897
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "353c100551a358c7669b192a124758c94fc6486e4629ccf99f8081e94225ebe1",
+        "size_bytes": 26921
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "353c100551a358c7669b192a124758c94fc6486e4629ccf99f8081e94225ebe1",
+        "size_bytes": 26921
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+        "size_bytes": 18391
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+        "size_bytes": 18391
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "6bfce0821fa9d8234fda3f565c0668e9d964f6c9a475aa56e257661a8efb0816",
+        "size_bytes": 24051
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "6bfce0821fa9d8234fda3f565c0668e9d964f6c9a475aa56e257661a8efb0816",
+        "size_bytes": 24051
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "dd7b9e54bea627a96bd4af5502fd28ed52aa66f66e3f2b8bf78baf1142fdf8fe",
+        "size_bytes": 16863
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/direct_plan_passage/transport_observations/1792568502470683000/result_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "dd7b9e54bea627a96bd4af5502fd28ed52aa66f66e3f2b8bf78baf1142fdf8fe",
+        "size_bytes": 16863
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_admission.json",
+        "sha256": "205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166",
+        "size_bytes": 33471
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_admission.json",
+        "sha256": "205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166",
+        "size_bytes": 33471
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/installation_receipt.json",
+        "sha256": "0d80dc0b1f722b63a3bdb242f801f039c54180ed2aeabf41625931721ba6d934",
+        "size_bytes": 1409
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/installation_receipt.json",
+        "sha256": "0d80dc0b1f722b63a3bdb242f801f039c54180ed2aeabf41625931721ba6d934",
+        "size_bytes": 1409
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/launch.json",
+        "sha256": "760a781c927ffb113baa4c059e269ba7c45f6ee641c9dbda9f1dcf3265c810da",
+        "size_bytes": 2136
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/launch.json",
+        "sha256": "760a781c927ffb113baa4c059e269ba7c45f6ee641c9dbda9f1dcf3265c810da",
+        "size_bytes": 2136
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/child_stdout.raw",
+        "sha256": "7c435f33ea3fb8edf3649e05a56d005b1d7a621098b8c8452e3e521c54b8ea7b",
+        "size_bytes": 50041
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/child_stdout.raw",
+        "sha256": "7c435f33ea3fb8edf3649e05a56d005b1d7a621098b8c8452e3e521c54b8ea7b",
+        "size_bytes": 50041
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/launch.json",
+        "sha256": "b457ffeee3ba2ce3de7eac0031709118f65850510e241ff835832175e45d9e64",
+        "size_bytes": 2185
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/launch.json",
+        "sha256": "b457ffeee3ba2ce3de7eac0031709118f65850510e241ff835832175e45d9e64",
+        "size_bytes": 2185
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+        "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+        "size_bytes": 5454
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+        "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+        "size_bytes": 5454
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+        "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+        "size_bytes": 8921
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+        "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+        "size_bytes": 8921
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+        "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+        "size_bytes": 1406
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+        "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+        "size_bytes": 1406
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/console_model_turns.json",
+        "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+        "size_bytes": 125580
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/console_model_turns.json",
+        "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+        "size_bytes": 125580
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_operations/c63271edef824053af01fb7a26939470.json",
+        "sha256": "295cd49a3880979b81ebe5556d04fbc70d128006d869e4c8beea507031485226",
+        "size_bytes": 1329
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_operations/c63271edef824053af01fb7a26939470.json",
+        "sha256": "295cd49a3880979b81ebe5556d04fbc70d128006d869e4c8beea507031485226",
+        "size_bytes": 1329
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_operations/c63271edef824053af01fb7a26939470.json.closed",
+        "sha256": "2115bb70a569ce1586f8431c0386bc9918f184c6be43437d0a66caa9578b6cb3",
+        "size_bytes": 487
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_operations/c63271edef824053af01fb7a26939470.json.closed",
+        "sha256": "2115bb70a569ce1586f8431c0386bc9918f184c6be43437d0a66caa9578b6cb3",
+        "size_bytes": 487
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json",
+        "sha256": "17c4f652ebd46251add8c5ce7c0f3bd6d901dd6337170a5dbd67ecee59810b7b",
+        "size_bytes": 1194
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json",
+        "sha256": "17c4f652ebd46251add8c5ce7c0f3bd6d901dd6337170a5dbd67ecee59810b7b",
+        "size_bytes": 1194
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json.closed",
+        "sha256": "912d7ef0850f3e19b7f218892ec27d87e0c70ae3b0a122e143fc8a22f60e8b02",
+        "size_bytes": 381
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json.closed",
+        "sha256": "912d7ef0850f3e19b7f218892ec27d87e0c70ae3b0a122e143fc8a22f60e8b02",
+        "size_bytes": 381
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json",
+        "sha256": "f16b23db1f7ad5d1dd169bf3c7bf0015b972aad05f68345eb43667e1517cbf32",
+        "size_bytes": 1194
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json",
+        "sha256": "f16b23db1f7ad5d1dd169bf3c7bf0015b972aad05f68345eb43667e1517cbf32",
+        "size_bytes": 1194
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json.closed",
+        "sha256": "07e94d0945108a94194d731bad98d7610adf12858444dbd726537fb2ca8f6bc0",
+        "size_bytes": 340
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json.closed",
+        "sha256": "07e94d0945108a94194d731bad98d7610adf12858444dbd726537fb2ca8f6bc0",
+        "size_bytes": 340
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/stage05_owner_scenario_reservations/205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166.json",
+        "sha256": "a8c9237063b5d59d9740d4a2ca0ce874a6d8d560fa879c7bc4b674e0ad84392a",
+        "size_bytes": 1149
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/state/stage05_owner_scenario_reservations/205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166.json",
+        "sha256": "a8c9237063b5d59d9740d4a2ca0ce874a6d8d560fa879c7bc4b674e0ad84392a",
+        "size_bytes": 1149
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/d1885a31ab08c435f11d9a50/ordinary_entry_failure_842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c.json",
+        "sha256": "842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c",
+        "size_bytes": 37619
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/p28_entry/d1885a31ab08c435f11d9a50/ordinary_entry_failure_842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c.json",
+        "sha256": "842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c",
+        "size_bytes": 37619
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/92737b6ba718/stopped_result_feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c.json",
+        "sha256": "feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c",
+        "size_bytes": 6119
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/stopped_result_feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c.json",
+        "sha256": "feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c",
+        "size_bytes": 6119
+      }
+    },
+    {
+      "original_ref": {
+        "path": "workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+        "size_bytes": 68324
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+        "size_bytes": 68324
+      }
+    }
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.actual_preservation.v03",
+  "scope": "Finite transport, ledger, task-state and failure/closure inputs for OWNER_20261021T074128 only. No authority reconstructed."
+}

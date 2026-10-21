@@ -1,0 +1,88 @@
+{
+  "ACK_allowed": false,
+  "actual_diagnosis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+    "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+    "size_bytes": 21918
+  },
+  "candidate_imported_or_executed": false,
+  "diff_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_repair.diff",
+      "sha256": "8f44013058f1aeaa242a21670bfe79e605e5a3098eae9f43dbcfd4a00745341b",
+      "size_bytes": 24219
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/stage04_diagnostics.diff",
+      "sha256": "78cf9490460604449771face454517cfe59f575d70407a6f002b8f052b5b32e6",
+      "size_bytes": 7895
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/source_history/transport_diagnostic_review_tightening.diff",
+      "sha256": "9b7738e66167f980fc91301a142efa5f0fa9d8feb3ee4e69712fe69862501f85",
+      "size_bytes": 3396
+    }
+  ],
+  "findings_resolved": [
+    {
+      "finding": "Parsed terminal identity was initially copied after telemetry, so telemetry failure could erase known response identity.",
+      "resolution": "Current candidate copies terminal status, response identity and metadata, then binds stream event, before provider-wait-exit telemetry."
+    },
+    {
+      "finding": "Diagnostic projection and budget/result finalization initially shared one try, allowing projection failure to skip actual finalization.",
+      "resolution": "Best-effort failure projection is now separate; every budget.finish/result persistence attempt still runs and primary exception remains retained."
+    }
+  ],
+  "limitations": [
+    "SOURCE acceptance is only for the separate finite synthetic/inert boundary series, with exact imports and I/O independently reviewed before grant.",
+    "No end-to-end owner admission is granted. Current active UNKNOWN and consumed owner reservation remain unchanged.",
+    "The actual lost inner exception is not asserted reproduced by injected controls.",
+    "Private/stdlib frame paths are excluded; their safe class may be retained, but arbitrary exception classes are sanitized."
+  ],
+  "new_model_or_AUTH_calls_allowed": false,
+  "owner_actual_allowed": false,
+  "preimage_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/before/app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/before/app/stage04_diagnostics.py",
+      "sha256": "44b6357bb5276ce6e1545de7b1a6e90035919bd762040162b22d617822d6cf45",
+      "size_bytes": 127289
+    }
+  ],
+  "properties": [
+    "Captured finite source identity pins precede reservation; failure handler does not scan or reread source/admission files.",
+    "Request authentication, current role validation, body, source gates, and dispatch boundary remain in place. Substage assignments add no provider call or request retry.",
+    "Exact SOURCE-relative Python frame paths/hashes, line and closed function names are bounded to128 visited and32 retained frames; no locals, arbitrary error text, raw HTTP headers or credentials are exported.",
+    "Original exception classes/codes are projected through finite safe registries. Unknown values remain sanitized; the missing original074128 exception cannot be reconstructed.",
+    "Preterminal generic exception retains UNKNOWN and active-UNKNOWN semantics. Parsed terminal followed by a local exception is labeled POSTTERMINAL_LOCAL/FAILED and is not reported as uncertain transport.",
+    "BaseException cleanup failures cannot replace an earlier primary; HTTP close, watchdog finish and both durable finalizers are attempted. Failure of finalizers is retained as secondary when possible.",
+    "The projector enforces finite schema, substage/category/type/code registries, path/line/hash/function bounds and optional exact source_pins; displayed diagnostic remains evidence, never authority."
+  ],
+  "required_offline_controls": [
+    "Preterminal request/response-boundary failure: no terminal/product, UNKNOWN remains.",
+    "Postterminal local product refusal: terminal and response identity preserved, FAILED, original bounded class/code/frames visible.",
+    "Valid Critic product reaches accepted transport emission without changed semantics.",
+    "Original primary remains primary through cleanup, telemetry or diagnostic-projection failure; budget/result finalization attempts remain observable."
+  ],
+  "review_scope": "Exact transport and safe diagnostic projector delta, imports, error paths, callback/finalization ordering and bounded I/O. Existing unrelated source campaigns are reused, not repeated.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.transport_diagnostic_source_review.v03",
+  "source_findings_remaining": [],
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/openai_plan_transport.py",
+      "sha256": "6dbe28ed9c23e0b5ee9d876df80b20ab961b1c3787e0c0d8c4e3f4a7fc8b3d37",
+      "size_bytes": 119973
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py",
+      "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+      "size_bytes": 132029
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_OFFLINE_BOUNDARY_CONTROLS"
+}

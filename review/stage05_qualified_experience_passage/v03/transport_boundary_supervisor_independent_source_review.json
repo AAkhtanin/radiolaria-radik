@@ -1,0 +1,51 @@
+{
+  "accepted_inert_fault_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/supervisor_control_v01/independent_result_review.json",
+    "sha256": "687a63a13fe7884a04d119498ed1ca3950bd554b9132b181dbf2bcca85c44de8",
+    "size_bytes": 2460
+  },
+  "accepted_predecessor_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor_independent_source_review.json",
+    "sha256": "d629894529a3848d924645fa73d06994c20e7fed43091d7a0a49e6f25257ad28",
+    "size_bytes": 3142
+  },
+  "application_execution_allowed": false,
+  "budget": {
+    "cleanup_seconds": 30,
+    "clock_renewal": false,
+    "clock_started_before_remaining_imports": true,
+    "final_seconds": 10,
+    "preparation_included": true,
+    "total_seconds": 300,
+    "work_seconds": 260
+  },
+  "candidate_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor.py",
+    "sha256": "22262f5a9c2f275db55efa7dbbd8a4fb7d7f230be3678f03db2cf60088f2cb31",
+    "size_bytes": 10557
+  },
+  "delta": "Exact finite path/label substitutions and total/work/final limits 900/830/40 -> 300/260/10. Cleanup30 and all process-group/signal/reap/hash/readback code unchanged.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor.diff",
+    "sha256": "3185fd5c94dbd5cc3a688fdbb6f2a67850f15c02819127b084e882012989d446",
+    "size_bytes": 2150
+  },
+  "owner_admission_allowed": false,
+  "predecessor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py",
+    "sha256": "788e1d68cf67a77b68f3868c16f1a73e5af1be487d806f56043a0a239af94246",
+    "size_bytes": 10557
+  },
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.transport_boundary_supervisor_source_review.v03",
+  "separate_exact_child_review_and_one_use_grant_required": true,
+  "source_findings": [],
+  "source_imports": "stdlib only; no candidate imports in parent. Child source remains separately reviewable and ungranted.",
+  "source_review_limits": [
+    "Finite existing local I/O is assumed responsive; this is a checked engineering ceiling, not an OS-level guarantee against filesystem stalls.",
+    "Receipt PASS alone is not acceptance; final tool exit, parent/child completion and full result review are required.",
+    "Previous inert control credits unchanged signal/reap algorithms, not the new transport child."
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_SINGLE_OFFLINE_SERIES"
+}

@@ -1,0 +1,1 @@
+{"active_attempt_id":"radik-call:c146081f7b9a4d649f3c7e916189271e","automatic_retry":false,"counted":50,"final_head":"622ecafcacdce32817d3ec028e8a73fb6f0a0f80184e6e22b9041f187479c204","grant_ref":{"path":"state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json","sha256":"17c4f652ebd46251add8c5ce7c0f3bd6d901dd6337170a5dbd67ecee59810b7b"},"schema":"radik.normal_round_close.v01"}

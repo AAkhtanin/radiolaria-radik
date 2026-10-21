@@ -1,0 +1,38 @@
+--- v02/build_return.py
++++ v03/build_return.py
+@@ -12,10 +12,10 @@
+ import types
+ 
+ PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-BASE = 'review/stage05_qualified_experience_passage/v02'
++BASE = 'review/stage05_qualified_experience_passage/v03'
+ SELF = BASE + '/build_return.py'
+ PUBLISHER = 'review/package_direct_plan_return.py'
+-REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_completion_owner_handoff_v02')
++REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_actual_074128_repair_v03')
+ 
+ 
+ def require(ok, code):
+@@ -129,12 +129,7 @@
+         and value['publisher_ref'] == publisher_ref and type(value['entries']) is list
+         and 1 <= len(value['entries']) <= 4096, 'return_subject_inventory_shape')
+     result = {}
+-    observed_prefixes = tuple(
+-        BASE + '/rehearsal_actual/' + case + '/ordinary/source_under_test/' + suffix
+-        for case in ('COMPLETION_V01', 'COMPLETION_V02', 'COMPLETION_V03', 'TASKSTORE_SEAM_V01', 'TASKSTORE_SEAM_V02', 'TASKSTORE_REMAINDER_V01')
+-        for suffix in ('workspace/owner_documents/', BASE + '/owner_terminal_runs/')
+-    ) + tuple(BASE + '/offline_actual/' + case + '/work/'
+-        for case in ('TASKSTORE_SEAM_V01', 'TASKSTORE_SEAM_V02', 'TASKSTORE_REMAINDER_V01'))
++    observed_prefixes = (BASE + '/original_actual/workspace/owner_documents/',)
+     for entry in value['entries']:
+         require(type(entry) is dict and set(entry) == {'file_ref', 'json_pointer',
+             'subject_sha256', 'containing_object_sha256', 'kind'}, 'return_subject_entry_shape')
+@@ -244,7 +239,7 @@
+         exception_archive_path = 'reviewed_basis/' + BASE + '/public_native_subject_exceptions.json'
+         require(exception_archive_path not in payload, 'return_subject_inventory_archive_collision')
+         payload[exception_archive_path] = exception_raw
+-    result = publisher._build(kind='source', key='stage05_qualified_experience_completion_v02',
++    result = publisher._build(kind='source', key='stage05_actual_074128_transport_repair_v03',
+         payload=payload, record=review, review_raw=review_raw,
+         basis=selection['basis'], prior=selection['prior_archives'])
+     print(json.dumps(result, sort_keys=True), flush=True)

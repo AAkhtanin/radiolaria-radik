@@ -1,0 +1,69 @@
+{
+  "blocking_existing_contract": "normal_active_or_unknown",
+  "candidate_imported_or_executed": false,
+  "delta_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/scenario_transport_context.diff",
+      "sha256": "e9bb8ea8236e07d85ee71e7b51d67eaadb407189b9494b05f6f7c7cdd0b871da",
+      "size_bytes": 1554
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/owner_transport_context.diff",
+      "sha256": "1bf4a89da44e1e8d52455125db41ccb6b1b2a3b11e1a8a4340c9be2754f6caf8",
+      "size_bytes": 7279
+    }
+  ],
+  "old_actual_or_ledger_modified": false,
+  "owner_admission_allowed": false,
+  "prior_source_reviews": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_independent_source_review.json",
+      "sha256": "771e78ab9a445f4d0efe86ee157cb353d1e9d3d1801471e24fe1c10ef6007c69",
+      "size_bytes": 5532
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/remaining_only_scenario_independent_source_review.json",
+      "sha256": "d3dae607f5aa4db9f65f04758c7dcdaed7759f76aff0f3214cc3f6946fa7fe80",
+      "size_bytes": 3038
+    }
+  ],
+  "properties": [
+    "Scenario attaches the projected transport cause only when its source frames match the manifest-derived finite diagnostic pins. Existing outer best-effort failure-context capture retains the primary on a projection exception.",
+    "Parent remains stdlib-only. It reads the diagnostics file through the existing bounded stable read helper, verifies its exact admitted SHA, and parses only named finite literal registries via AST; no application import, exec or eval is performed.",
+    "Recursive registry interpretation is limited to depth8 and frozenset literals/named unions; all output strings are closed and bounded.",
+    "Terminal validates exact transport schema/category/stage/class/code and each frame path/hash against finite admitted source_pins before rendering.",
+    "Two new remaining_only checkpoint names are included; no owner/runtime integration or admission is issued by this inactive wrapper candidate."
+  ],
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_failure_projection_proposal.json",
+    "sha256": "38685f076bec4b5980afe7038e13f323fd0edf7f8070eb93203947e3e7257a5e",
+    "size_bytes": 1563
+  },
+  "required_controls": [
+    "Actual projection chain from a pinned synthetic transport failure through scenario context to Terminal display.",
+    "Reject unpinned/tampered source-frame identity, nonregistry code/type/stage and incompatible terminal category.",
+    "Preserve the original primary even if optional context/readback/display fails."
+  ],
+  "review_scope": "Additional scenario attachment and parent Terminal closed-registry/frame validation; remaining_only logic unchanged after prior source review.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.transport_projection_chain_source_review.v03",
+  "source_findings": [],
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py",
+      "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+      "size_bytes": 132029
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/qualified_experience_scenario.py",
+      "sha256": "8e49d09d028877bf788b27547749f20d53fdb63094db966078f577459565379d",
+      "size_bytes": 24978
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/owner_terminal.py",
+      "sha256": "f6b6c7e80c811ed23d40af70f52b21e686e702b1418370cadd084575ca28e291",
+      "size_bytes": 70024
+    }
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_PROJECTION_CONTROLS_ONLY"
+}

@@ -1,0 +1,67 @@
+{
+  "application_execution": false,
+  "application_imports": false,
+  "authority_restored": false,
+  "continuation": {
+    "blocker": "normal_active_or_unknown; explicit owner disposition is required and no ACK was performed or authorized.",
+    "memory_alternative": "Only an originally eligible public memory descent could avoid Rowan roles. A delayed command cannot assume eligibility or extend the original TTL; the stable source proposal uses two fresh cold tasks.",
+    "owner_command_issued": false,
+    "reason": "A closed process has no live RoleRequest/controller/Host binding. No public accepted-Critic-only continuation was found; JSON witnesses are evidence only.",
+    "source_strategy": "Same ordinary experience route, six fresh roles (Rowan 3 + Alder 3), fresh prospective G3 qualification, no repeated G4/aged/eligibility/unscorable loops.",
+    "status": "INACTIVE_SOURCE_ONLY_BLOCKED_BY_ACTIVE_UNKNOWN"
+  },
+  "not_observed": [
+    "Accepted unrelated Alder task and its separate consumer.",
+    "Live foreign-history isolation through the completed unrelated task.",
+    "Actual Rowan source revision and refusal of its old qualified binding before G4 dispatch.",
+    "Scenario final accounting and successful ordinary close.",
+    "Full Stage05 closure."
+  ],
+  "observed": {
+    "G4_witness_checks": [
+      "One bootstrap plus seven actual checks and one final consumer per branch.",
+      "Every retained invocation/result pair binds invocation and attempt IDs; PURE candidate_id and packet_id remain null.",
+      "The final consumer consumes all seven selected check outputs and the source gate.",
+      "Distinct actual task and custody Root assessments ACCEPT without permission, final-output or effect creation.",
+      "High-score masked branch remains excluded; the total fixed native compute cap is unchanged."
+    ],
+    "aged": "Actual mandatory PURE check and selected Work use current Root, prior zero and no opened history. Six original history leaves are byte-identical before/after; the explicit history-evaluation clock is synthetic while Work uses the current wall clock.",
+    "cold_G3": "Actual mandatory check and selected PURE Work, current and custody Root ACCEPT, prior zero.",
+    "cold_G4": {
+      "budget": 9,
+      "consumed": 9,
+      "effects": 0,
+      "provider_calls": 0,
+      "qualification": 3,
+      "quotation": 4
+    },
+    "eligibility": "Retained focused fresh/aged/expired/restriction checks; no TTL extension or restored permission.",
+    "feedback": "Prospective claim precedes actual native observation and history capture; eligible negative feedback is retained.",
+    "primary_task": "Rowan accepted with three completed roles and current Root",
+    "qualified_G4": {
+      "budget": 9,
+      "consumed": 9,
+      "effects": 0,
+      "prior_fp": -62500000,
+      "provider_calls": 0,
+      "qualification": 4,
+      "quotation": 3
+    },
+    "unscorable": "Controlled NO_UPDATE and unchanged history only; no claim of an actual failed provider product."
+  },
+  "original_evidence_modified": false,
+  "owner_run": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00",
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/original_actual/checkpoint_native_preservation.json",
+    "sha256": "0c3bc7276a131d386845b70cbec44965b849c7cd9814a1a2d93b2f508e71bb28",
+    "size_bytes": 20935
+  },
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.actual_checkpoint_scoped_review.v01",
+  "scope": "Retained byte and causal observations; G4 author triage is not independent acceptance of the authored adapter.",
+  "transport_ledger_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+    "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+    "size_bytes": 21918
+  }
+}

@@ -1,0 +1,44 @@
+--- review/stage05_qualified_experience_passage/v02/taskstore_remainder_supervisor.py
++++ review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor.py
+@@ -18,16 +18,16 @@
+ import sys
+ 
+ PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-BASE = 'review/stage05_qualified_experience_passage/v02'
+-SELF = BASE + '/taskstore_remainder_supervisor.py'
+-FIXTURE = BASE + '/taskstore_remainder_fixture.py'
+-ACTUAL = 'TASKSTORE_REMAINDER_V01'
++BASE = 'review/stage05_qualified_experience_passage/v03'
++SELF = BASE + '/transport_boundary_supervisor.py'
++FIXTURE = BASE + '/transport_boundary_controls.py'
++ACTUAL = 'TRANSPORT_BOUNDARY_V01'
+ OUTPUT = PROJECT / BASE / 'offline_actual' / ACTUAL / 'supervisor'
+ WORK = PROJECT / BASE / 'offline_actual' / ACTUAL / 'work'
+-MAX_SECONDS = 900
+-WORK_SECONDS = 830
++MAX_SECONDS = 300
++WORK_SECONDS = 260
+ CLEANUP_SECONDS = 30
+-FINAL_SECONDS = 40
++FINAL_SECONDS = 10
+ NS = 10**9
+ STOP_NS = STARTED_NS + WORK_SECONDS * NS
+ HARD_NS = STARTED_NS + MAX_SECONDS * NS
+@@ -93,7 +93,7 @@
+     parser.add_argument('--grant', required=True)
+     parser.add_argument('--sha256', required=True)
+     args = parser.parse_args()
+-    require(args.grant == BASE + '/taskstore_remainder_grant.json', 'outer_grant_path')
++    require(args.grant == BASE + '/transport_boundary_grant.json', 'outer_grant_path')
+     grant_raw = exact(dict(path=args.grant, sha256=args.sha256))
+     grant = json.loads(grant_raw)
+     require(grant['reviewer'] == '/root/private_remote_controls'
+@@ -224,7 +224,7 @@
+         stdout_readback_verified=True, child_reaped=child_reaped,
+         elapsed_wall_seconds=(time.monotonic_ns()-STARTED_NS)/NS,
+         hard_deadline_ns=HARD_NS, no_deadline_renewal=True))
+-    print('REMAINDER_OUTER_RETURN ' + json.dumps(dict(status=receipt['status'],
++    print('TRANSPORT_BOUNDARY_RETURN ' + json.dumps(dict(status=receipt['status'],
+         child_exit_code=receipt['child_exit_code'], child_reaped=child_reaped,
+         primary_stop=reason, receipt_ref=reference), sort_keys=True), flush=True)
+     return 0 if receipt['status'] == 'CHILD_RETURNED_REQUIRES_INDEPENDENT_REVIEW' else 1

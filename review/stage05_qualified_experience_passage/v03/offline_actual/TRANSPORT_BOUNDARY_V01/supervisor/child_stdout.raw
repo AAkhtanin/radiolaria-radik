@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py", line 439, in <module>
+    main()
+    ~~~~^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py", line 194, in main
+    from jsonschema import Draft202012Validator
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py", line 176, in exec_module
+    exec(compile(raw, str(self.path), 'exec'), module.__dict__)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/jsonschema/__init__.py", line 16, in <module>
+    from jsonschema.validators import (
+    ...<7 lines>...
+    )
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py", line 176, in exec_module
+    exec(compile(raw, str(self.path), 'exec'), module.__dict__)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/jsonschema/validators.py", line 602, in <module>
+    meta_schema=SPECIFICATIONS.contents(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        "http://json-schema.org/draft-03/schema#",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/referencing/_core.py", line 488, in contents
+    return self[uri].contents
+           ~~~~^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/referencing/_core.py", line 338, in __getitem__
+    raise exceptions.NoSuchResource(ref=uri) from None
+referencing.exceptions.NoSuchResource: 'http://json-schema.org/draft-03/schema#'

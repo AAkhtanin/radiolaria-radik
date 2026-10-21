@@ -1,0 +1,22 @@
+--- reviewed_preimage
++++ proposed_postimage
+@@ -375,7 +375,8 @@
+         results.append(dict(case=case, status='PASS', calls=calls,
+             outcome=last['outcome'], terminal_observed=last['terminal_observed'],
+             dispatch_may_have_started=last['dispatch_may_have_started'],
+-            diagnostic=last.get('transport_failure'), failure_observation=last.get('failure_observation')))
++            diagnostic=last.get('transport_failure'), failure_observation=last.get('failure_observation'),
++            independent_failure_projection=diag['project_error'](error) if error is not None else None))
+     # The exact app and owner projections must reject arbitrary text and bad pins.
+     failure = retained_errors[0].transport_failure
+     mutations = []
+@@ -420,7 +421,8 @@
+     for ref in refs: exact(ref)
+     result = dict(schema='radik.stage05.transport_boundary_controls.v01', status='PASS',
+         series_count=1, cases=results, negative_projection_cases=mutations,
+-        scenario_attachment='PASS', terminal_renderer='PASS', source_refs=proposal['source_refs'],
++        scenario_attachment='PASS', terminal_renderer='PASS', terminal_lines=shown,
++        source_refs=proposal['source_refs'],
+         dependency_modules=sorted(dependency_modules, key=lambda r:r['module']),
+         elapsed_seconds=time.monotonic()-STARTED, owner_actual=False, provider_calls=0,
+         real_AUTH=False, native_calls=0, effects=0, production_writes=False,

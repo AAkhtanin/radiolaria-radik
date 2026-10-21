@@ -1,0 +1,87 @@
+{
+  "application_changed": false,
+  "author": "/root/stage05_g4_contract",
+  "candidate_AST_cases_executed": 0,
+  "closed_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/receipt.json",
+    "sha256": "cba9ecb02fa9c52721ecf5c77d7305cecfc79f5a29e8b226d4a537dd57aa4b9a",
+    "size_bytes": 1145
+  },
+  "closed_stdout_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/child_stdout.raw",
+    "sha256": "51ae9017a0ae56e5565ab2ac4fa9cbfb751b335fa859dda6083c6ec7d5778def",
+    "size_bytes": 2371
+  },
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/source_repair_drafts/transport_boundary_controls_resource_reader_v01.diff",
+    "sha256": "bfccf4329c09ef9bf897cdd1af8ebee697261980eb3d9ee7aefae9d3a9a6e26c",
+    "size_bytes": 781
+  },
+  "exact_cause": "PinnedDependencyLoader lacks get_resource_reader. Python 3.14.5 CompatibilityFiles therefore returns an OrphanPath whose iterdir is empty. jsonschema_specifications registers no schemas; validators.py then requests the absent draft-03 entry and raises NoSuchResource before any candidate AST definition executes.",
+  "executed_helper_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py",
+    "sha256": "50a373147fb83d1bfd40afa87381acf25bbda71202c990c727bb43af2d2ba61f",
+    "size_bytes": 26587
+  },
+  "executed_original_unchanged": true,
+  "executed_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls_proposal.json",
+    "sha256": "c161e73ac3b84175e184e604bb84376c6e3052cb7debc7ffbcec0107e1bf0d4c",
+    "size_bytes": 36025
+  },
+  "execution_performed": false,
+  "network_allowed": false,
+  "proposed_postimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/source_repair_drafts/transport_boundary_controls_resource_reader_v01.py",
+    "sha256": "654c0e598165e590123e6aae16033e91b3a7583ed55c00f12fad7a0767cae875",
+    "size_bytes": 26826
+  },
+  "remaining_validation": {
+    "blocker": "The corrected loader has not run. Four actual transport boundary branches and projection/Terminal controls all remain unvalidated.",
+    "cost_claim": "0.157 s measures only failed dependency setup. No successful-series duration is inferred.",
+    "measured_previous_setup_failure_seconds": 0.157137583,
+    "minimum_scope": "After separate independent source review and explicit authorization of another bounded series, repeat this one setup+four-branch fixture only. Do not rerun native/application/owner work.",
+    "new_owner_command_allowed": false,
+    "proposed_upper_limit_if_later_authorized": {
+      "cleanup_seconds": 30,
+      "final_seconds": 10,
+      "total_seconds": 300,
+      "work_seconds": 260
+    },
+    "successful_validation_time_measured": false
+  },
+  "repair": "Use the standard FileReader public resource protocol for package loaders. Keep existing exact-file read fence, pinned dependency bytes and source-only loader; change no application/schema definition.",
+  "schema": "radik.stage05.transport_boundary_resource_repair.v01",
+  "schema_resource_files_already_pinned": 20,
+  "schema_resources_missing_from_inventory": false,
+  "schema_validation_weakened": false,
+  "series_executed": 1,
+  "source_basis": [
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema_specifications/_core.py",
+      "sha256": "b4585cd42325789dc024e2bf6e3c4ea4541376bb140a51467c5c4f054fc279b3",
+      "size_bytes": 1140
+    },
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema_specifications/__init__.py",
+      "sha256": "aa84c1d83298eeabcdac684c3c7ea0b6600944b8a599543e7c56704faaf2ab0d",
+      "size_bytes": 386
+    },
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema/validators.py",
+      "sha256": "97f171b995b4b0ca05530a9366a1252fb1753f99f3cb7b1068b6d9aab1096fa5",
+      "size_bytes": 47159
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/importlib/resources/_adapters.py",
+      "sha256": "be9ac919b51e1db6a35fa5c2b8c3fa27794caea0a2f8ffcc4e5ce225447b8df9",
+      "size_bytes": 4482
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/importlib/resources/readers.py",
+      "sha256": "f64855ffaa44f6c21ffc49e77b8cbfeeca37183bf7f7d3aecb30cb079ab45939",
+      "size_bytes": 6243
+    }
+  ],
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW_NO_SECOND_SERIES_AUTHORIZED"
+}

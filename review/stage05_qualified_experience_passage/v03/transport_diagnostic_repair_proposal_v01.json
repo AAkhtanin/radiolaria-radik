@@ -1,0 +1,82 @@
+{
+  "actual_review": {
+    "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+    "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+    "size_bytes": 21918
+  },
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v03/after/app/openai_plan_transport.py",
+    "sha256": "6dbe28ed9c23e0b5ee9d876df80b20ab961b1c3787e0c0d8c4e3f4a7fc8b3d37",
+    "size_bytes": 119973
+  },
+  "author": "stage05_g3_contract",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v03/before/app/openai_plan_transport.py",
+    "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+    "size_bytes": 110443
+  },
+  "changes": [
+    "Capture only already source-validated Python path pins before reservation; no failure-time profile validation or filesystem scan.",
+    "Set closed precise transport substages without changing auth, request, source, role or dispatch guards.",
+    "Retain safe original type, allowlisted code and at most32 admitted source frames before wrapping generic errors.",
+    "Keep preterminal outcome UNKNOWN; identify a local failure after observed terminal as FAILED while leaving provider-attempt accounting unchanged.",
+    "Retain successful parser terminal facts and response metadata before local telemetry can fail.",
+    "Preserve original primary through cleanup BaseException; keep mandatory budget/result finalizers independent of best-effort diagnostic projection."
+  ],
+  "diff": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_repair.diff",
+    "sha256": "8f44013058f1aeaa242a21670bfe79e605e5a3098eae9f43dbcfd4a00745341b",
+    "size_bytes": 24219
+  },
+  "established_defect": "The generic propose exception branch discarded the original bounded exception type, admitted code and traceback before raise-from-None. It did not identify the active _send substage. Cleanup could replace the primary or prevent finalizers.",
+  "historical_boundary": {
+    "dispatch_may_have_started": true,
+    "durable_outcome": "UNKNOWN",
+    "exact_original_type_code_frame": "NOT_RETAINED_UNRECOVERABLE",
+    "failed_product_replay": "UNAVAILABLE",
+    "http_status_observation": "NOT_OBSERVED",
+    "possible_local_interval": [
+      "connection.request",
+      "post-request deadline check",
+      "connection.getresponse",
+      "initial project_http_response before metadata update"
+    ],
+    "product_stage": "NOT_STARTED",
+    "reservation": "c146081f7b9a4d649f3c7e916189271e",
+    "stream_bytes": 0,
+    "terminal_observed": false
+  },
+  "owner_continuation": "BLOCKED_BY_UNACKNOWLEDGED_HISTORICAL_UNKNOWN; no new owner command or reservation is authorized by this source proposal.",
+  "prospective_controls": {
+    "branches": [
+      "Synthetic exception after dispatch flag and before HTTP metadata, preserving UNKNOWN and exact safe stage.",
+      "Synthetic local product/emission exception after a completed terminal response, preserving safe code/type/frame and FAILED.",
+      "Acceptable Critic product through the finite schema/emission boundary.",
+      "Secondary cleanup/projection failure preserves primary and still attempts required finalizers."
+    ],
+    "no_candidate_execution_by_author": true,
+    "scope_excluded": [
+      "New owner actual",
+      "Historical outcome rewriting or ACK",
+      "AUTH/provider/model calls",
+      "G3/G4/E/SAVE",
+      "Root permission restoration",
+      "Live network success"
+    ],
+    "single_series_total_seconds": 300
+  },
+  "schema": "radik.stage05.transport_diagnostic_repair_proposal.v01",
+  "source_closure": {
+    "changed_executable_dependencies": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py",
+        "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+        "size_bytes": 132029
+      }
+    ],
+    "existing_dependencies": "Unchanged transport imports and native/reference APIs; no new executable package dependency.",
+    "failure_path_reads": "None; source frames are bound to the pre-reservation source-validator pin map.",
+    "writes": "Existing reserved/http/result evidence and existing budget finalizers only."
+  },
+  "status": "SOURCE_REVIEW_PENDING"
+}

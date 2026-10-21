@@ -1,0 +1,32 @@
+{
+  "application_execution": false,
+  "application_imports": false,
+  "author": "/root",
+  "owner_admission_issued": false,
+  "owner_blocker": "normal_active_or_unknown",
+  "production_sources_changed": false,
+  "raw_exception_text_headers_locals_exported": false,
+  "schema": "radik.stage05.transport_failure_projection_proposal.v01",
+  "scope": "Closed diagnostic projection, scenario attachment and pinned literal-only Terminal renderer.",
+  "source_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py",
+      "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+      "size_bytes": 132029
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/after/app/qualified_experience_scenario.py",
+      "sha256": "8e49d09d028877bf788b27547749f20d53fdb63094db966078f577459565379d",
+      "size_bytes": 24978
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/owner_terminal.py",
+      "sha256": "f6b6c7e80c811ed23d40af70f52b21e686e702b1418370cadd084575ca28e291",
+      "size_bytes": 70024
+    }
+  ],
+  "status": "AWAITING_INDEPENDENT_SOURCE_AND_SCOPED_CONTROLS",
+  "terminal_application_code_imported_or_executed": false,
+  "terminal_candidate_scope": "Inactive future v03 owner wrapper; exact profile/admission integration remains blocked by retained active UNKNOWN. No command is issued.",
+  "terminal_registry": "Read exactly pinned app/stage04_diagnostics.py; parse only closed literal registries with stdlib AST. No exec or eval."
+}

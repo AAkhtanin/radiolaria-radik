@@ -1,0 +1,485 @@
+{
+  "Stage05_acceptance": "NOT_ESTABLISHED",
+  "acceptance_authority": "Independent reviewer only; this mapping creates no acceptance or execution authority.",
+  "author": "/root/stage05_g3_contract",
+  "execution_scope": {
+    "matrix_author_application_execution": false,
+    "matrix_author_application_imports": false,
+    "new_AUTH_provider_model_SAVE_E": false,
+    "new_owner_execution": false
+  },
+  "historical_authority_restored": false,
+  "limitations": [
+    "Checkpoint author triage does not independently accept that author's G4 implementation; final private native review must bind the exact retained witnesses.",
+    "Aged and restriction eligibility controls retain their explicit controlled-clock scope.",
+    "The diagnostic boundary series is a finite synthetic offline control, not owner/live success or native G3/G4/E execution.",
+    "No partial result or diagnostic repair establishes complete Stage05 closure."
+  ],
+  "new_owner_actual": "NOT_RUN",
+  "next_owner_step": {
+    "ACK_performed": false,
+    "active_attempt_id": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+    "command_issued": false,
+    "new_admission_issued": false,
+    "remaining": [
+      "Unrelated task acceptance and separate current consumer with no foreign prior.",
+      "Actual Rowan source revision and refusal of its immediately preceding qualified binding before G4 dispatch.",
+      "Final accounting and successful ordinary close."
+    ],
+    "source_only_remaining_plan": "The same ordinary experience entry can rebuild two fresh COLD tasks (six fresh role attempts) and only the required current G3 qualification/unrelated consumer/real source revision/finalization. It cannot continue an archived controller at the failed statement.",
+    "status": "BLOCKED_UNACKNOWLEDGED_ACTIVE_UNKNOWN",
+    "why_fresh_context": "The process is closed. Saved accepted products, historical memory and Work/Root receipts are evidence only; no public accepted-Critic-only authority restoration is available and original memory TTL must not be extended."
+  },
+  "original_actual_modified": false,
+  "original_prospective_matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v01/required_observations.json",
+    "sha256": "3f77230637a6ce05d2ba00607fb08faa67db83d457420ca2534dcef09a5c5858",
+    "size_bytes": 3963
+  },
+  "prior_matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+    "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+    "size_bytes": 195675
+  },
+  "prior_source_archive": {
+    "local_commit": "a153c1c0ed22a49f987f67fd89f8f7e99896aa7e",
+    "name": "RADIK_RETURN_20261021T072355.332486Z.tar.gz",
+    "sha256": "e0108b622e0f9791266f9ea6bfab12aa6db3e327a615fe7d3d9eb76e01130a73"
+  },
+  "prospective_requirements_verbatim": true,
+  "publication": "LOCAL_ONLY",
+  "rows": [
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-FEEDBACK",
+      "id": "S5-01",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The actual Rowan prospective expectation, native negative observation, history and later current G3/G4 consumers are retained with the causal-chain checkpoint. This does not accept the stopped whole operation.",
+        "status": "OBSERVED_OWNER_PREFIX_REQUIRES_INDEPENDENT_NATIVE_REVIEW",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/causal_chain_verified_2ed026c5ca4e029e20782701deea35654b02382953a1bfd195039a6301ff60bb.json",
+            "sha256": "2ed026c5ca4e029e20782701deea35654b02382953a1bfd195039a6301ff60bb",
+            "size_bytes": 871
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_allocated_work_7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b.json",
+            "sha256": "7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b",
+            "size_bytes": 19468
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_feedback_b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0.json",
+            "sha256": "b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0",
+            "size_bytes": 64968
+          }
+        ]
+      },
+      "owner_remaining": "No repeat of the already reviewed prefix is required merely to repair transport diagnostics.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-01",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Prospective expectation is persisted before native Boolean observation; one eligible negative history event changes a subsequent typed Work consumer."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-FEEDBACK",
+      "id": "S5-02",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The explicit unscorable audit control retained NO_UPDATE and unchanged qualified history. This is not a reconstruction or native feedback interpretation of the failed Critic response, whose product is absent.",
+        "status": "OBSERVED_CONTROLLED_AUDIT_ONLY",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/unscorable_audit_control_426c50d433c56f0e4481622bd068449210b5b84b635a576668afc8e19b884da6.json",
+            "sha256": "426c50d433c56f0e4481622bd068449210b5b84b635a576668afc8e19b884da6",
+            "size_bytes": 1317
+          }
+        ]
+      },
+      "owner_remaining": "Keep any real unscorable outcome out of qualified negative history; no historical UNKNOWN reinterpretation.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-02",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Unscorable transport/AUTH/model outcome remains an audit only and leaves qualified history head unchanged."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "id": "S5-03",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The retained aged branch has a current mandatory PURE check, selected Work and fresh Root decisions with prior zero and unopened old history. History-evaluation time is explicitly synthetic; Work uses current real time. Expiry/retention controls keep the original TTL.",
+        "status": "OBSERVED_AGED_WORK_WITH_EXPLICIT_CONTROL_CLOCK",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/aged_current_check_65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9.json",
+            "sha256": "65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9",
+            "size_bytes": 177540
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/current_eligibility_controls_9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad.json",
+            "sha256": "9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad",
+            "size_bytes": 34008
+          }
+        ]
+      },
+      "owner_remaining": "No replay of accepted aged/expiry controls is required for this transport passage.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-03",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Aged history requires a current additional check; expired history refuses CURRENT use while retaining bytes and original TTL."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "id": "S5-04",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The stopped owner did not reach actual Rowan source registration/revision and old qualified-binding refusal. Prior isolated source-revision evidence remains credited only through the v02 matrix and its original scope.",
+        "status": "NOT_REACHED_IN_OWNER_ACTUAL",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": []
+      },
+      "owner_remaining": "A fresh eligible Rowan qualification must precede real TaskStore source revision; the old qualified binding must then refuse before G4 dispatch, with retained history bytes.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-04",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "A changed source revision cannot reuse the prior current binding; lineage and prior history remain."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-TEMPORAL-CONFLICT",
+      "id": "S5-05",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "Retained current eligibility controls include conflict/quarantine refusal with historical evidence retained. Their explicitly controlled eligibility scope is preserved.",
+        "status": "OBSERVED_SCOPED_RESTRICTION_CONTROLS",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/current_eligibility_controls_9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad.json",
+            "sha256": "9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad",
+            "size_bytes": 34008
+          }
+        ]
+      },
+      "owner_remaining": "No repeated restriction campaign for a diagnostic-only repair.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-05",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Conflict and quarantine refuse current consumption without deleting historical evidence."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-LESSON-CONSUMER",
+      "id": "S5-06",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "Rowan qualified negative history changed the actual current review and additional Work. The separate Alder task failed at its Critic before acceptance and separate current consumption; live unrelated-task isolation is not established by this owner actual.",
+        "status": "PARTIAL_CHANGED_CURRENT_CONSUMER_ONLY",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_allocated_work_7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b.json",
+            "sha256": "7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b",
+            "size_bytes": 19468
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_feedback_b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0.json",
+            "sha256": "b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0",
+            "size_bytes": 64968
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/unrelated_prospective_task_f9a6932ee7b02ec271f98865c348789b29969ee9741a8b41aa33842a57f0d213.json",
+            "sha256": "f9a6932ee7b02ec271f98865c348789b29969ee9741a8b41aa33842a57f0d213",
+            "size_bytes": 2553
+          }
+        ]
+      },
+      "owner_remaining": "Accept a fresh unrelated task and consume it separately under current Root/PURE Work with no foreign prior or prohibition.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-06",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "A scoped eligible negative event selects and consumes a different actual review; unrelated task receives no such prior or prohibition."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "id": "S5-07",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "Both retained G4 branches leave the high-score masked branch excluded with zero native consumption for it. This claim uses the preserved complete allocation witnesses, not only a summary boolean.",
+        "status": "OBSERVED_OWNER_PREFIX_REQUIRES_INDEPENDENT_NATIVE_REVIEW",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/cold_allocated_work_34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41.json",
+            "sha256": "34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41",
+            "size_bytes": 18768
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_allocated_work_7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b.json",
+            "sha256": "7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b",
+            "size_bytes": 19468
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b.json",
+            "sha256": "ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b",
+            "size_bytes": 1364699
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42.json",
+            "sha256": "f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42",
+            "size_bytes": 1375688
+          }
+        ]
+      },
+      "owner_remaining": "No repeated G4 allocator run is required for this transport passage.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-07",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "HardMask forbids the highest-score excluded branch with zero native consumption."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "DEFER-S5-FINITE-STRATEGY",
+      "id": "S5-08",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The two retained allocations use equal total budget9; quotation/qualification changes4/3 to3/4 and each actual final Work consumes the selected check outputs plus source gate. Both complete raw G4 witnesses remain retained.",
+        "status": "OBSERVED_OWNER_PREFIX_REQUIRES_INDEPENDENT_NATIVE_REVIEW",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": [
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/cold_allocated_work_34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41.json",
+            "sha256": "34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41",
+            "size_bytes": 18768
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_allocated_work_7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b.json",
+            "sha256": "7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b",
+            "size_bytes": 19468
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b.json",
+            "sha256": "ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b",
+            "size_bytes": 1364699
+          },
+          {
+            "path": "review/stage05_qualified_experience_passage/v03/original_actual/workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42.json",
+            "sha256": "f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42",
+            "size_bytes": 1375688
+          }
+        ]
+      },
+      "owner_remaining": "No repeated completed G4 branch is required for this transport passage.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-08",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Public G4 allocation changes selected finite quanta at equal total installed budget and every selected output feeds an actual final Work consumer."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "OWNER-BOUNDARY",
+      "id": "S5-09",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The one ordinary owner entry used six counted reservations: five COMPLETED and one UNKNOWN. The exact child was reaped and the one-use admission remains consumed. Partial checkpoints and primary wrapper are retained; inner Critic diagnostics were lost.",
+        "status": "STOPPED_BOUNDARY_OBSERVED_SUCCESSFUL_COMPLETION_NOT_OBSERVED",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": []
+      },
+      "owner_remaining": "Resolve the explicit UNKNOWN disposition through an authorized owner mechanism before any new admission; then successful scenario accounting and normal close still need an actual.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-09",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "One ordinary console entry; finite role/native/wall budgets; primary failure and partial readbacks retained; exact child reaped before lock release."
+    },
+    {
+      "Stage05_closure": "NOT_ESTABLISHED",
+      "claim": "SOURCE-BOUNDARY",
+      "id": "S5-10",
+      "owner_074128": {
+        "checkpoint_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_checkpoint_review.json",
+          "sha256": "991790ae18af2a82c55bbd9174769849f4aba20f2bd4c22c85472a6edb235ab8",
+          "size_bytes": 3961
+        },
+        "scope": "The independently reviewed actual retains previous44 attempts and11 tasks; used reservation and new UNKNOWN are unchanged. The v03 transport/projection candidates are prepared separately and are not installed or runtime-admitted by this matrix.",
+        "status": "HISTORICAL_BYTES_PRESERVED_REPAIR_SOURCE_ONLY",
+        "transport_ledger_review_ref": {
+          "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+          "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+          "size_bytes": 21918
+        },
+        "witness_refs": []
+      },
+      "owner_remaining": "Independent exact SOURCE and bounded diagnostic control review; no previous reservation, TTL, CLOSED quota or controller authority may be restored.",
+      "prior_credit": {
+        "matrix_ref": {
+          "path": "review/stage05_qualified_experience_passage/v02/result_matrix.json",
+          "sha256": "7809ff7b96e628191031523839bd08a23a014b2c96b763694086417c267dcaec",
+          "size_bytes": 195675
+        },
+        "row_id": "S5-10",
+        "scope": "Retain all independently accepted v01/v02 observations and their original limitations; no duplication or stronger claim."
+      },
+      "required_observation": "Pin imports/callbacks/resources; compatible history readers preserve all existing ledger/task/reservation/UNKNOWN/CLOSED quota bytes."
+    }
+  ],
+  "schema": "radik.stage05.result_matrix.v03",
+  "status": "AUTHOR_MAPPING_REQUIRES_INDEPENDENT_FINAL_REVIEW",
+  "transport_repair": {
+    "actual_observed_boundary": "After final issued-request validation and dispatch_may_have_started, before HTTP observation; no terminal or product.",
+    "control_status": "PENDING_SINGLE_SEPARATELY_GRANTED_FOUR_BRANCH_SERIES",
+    "historical_UNKNOWN_repaired_by_diagnostics": false,
+    "no_failed_product_replay_claim": true,
+    "original_type_code_trace": "NOT_RETAINED_UNRECOVERABLE",
+    "projection_chain_review_ref": {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_projection_chain_independent_source_review.json",
+      "sha256": "fcc676be019d4cb59c67a0135eb939de0957a28500da285906b138f2d8f64d47",
+      "size_bytes": 3767
+    },
+    "proposal_ref": {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_repair_proposal_v01.json",
+      "sha256": "d2e0ab3f7671c9fafd16d021cfb7c7645ec4022cf36bfeae2e93587c1112d19b",
+      "size_bytes": 4313
+    },
+    "source_review_ref": {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_independent_source_review.json",
+      "sha256": "771e78ab9a445f4d0efe86ee157cb353d1e9d3d1801471e24fe1c10ef6007c69",
+      "size_bytes": 5532
+    },
+    "total_control_limit_seconds_including_preparation": 300
+  }
+}

@@ -1,0 +1,29 @@
+--- review/stage05_qualified_experience_passage/v03/before/qualified_experience_scenario_before_transport_context.py
++++ review/stage05_qualified_experience_passage/v03/after/app/qualified_experience_scenario.py
+@@ -13,7 +13,7 @@
+ from .contracts import digest, require
+ from .evidence import persist
+ from .native_authority import plain
+-from .stage04_diagnostics import observe_failure, project_error, record_secondary
++from .stage04_diagnostics import observe_failure, project_error, project_transport_failure, record_secondary
+ 
+ PREFIX = 'review/stage05_qualified_experience_passage/v03'
+ 
+@@ -80,12 +80,16 @@
+         native = getattr(error, '_radik_stage05_native_stage', None)
+     except BaseException:
+         native = None
+-    return dict(schema='radik.stage05.failure_context.v01',
++    result = dict(schema='radik.stage05.failure_context.v01',
+         scenario_stage=scenario_stage if scenario_stage in STAGE05_SCENARIO_STAGES else 'UNKNOWN',
+         native_stage=native if type(native) is str and native in STAGE05_NATIVE_STAGES else 'UNKNOWN',
+         source_frames=frames[-32:], omitted_frames=max(0, len(frames)-32),
+         unadmitted_frames=skipped, traceback_truncated=cursor is not None,
+         raw_error_recorded=False, locals_recorded=False)
++    transport = project_transport_failure(getattr(error, 'transport_failure', None), source_pins=pins)
++    if transport is not None:
++        result['transport_failure'] = transport
++    return result
+ 
+ 
+ def run(*, store, run_task, controllers, client, operation, event_sink):

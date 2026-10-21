@@ -1,0 +1,41 @@
+{
+  "after": {
+    "path": "review/stage05_qualified_experience_passage/v03/build_return.py",
+    "sha256": "bd50e04a2d73d12735082e06721394aeed6ca4fd9d8cf54e08bdfbbcaa092535",
+    "size_bytes": 13305
+  },
+  "author": "stage05_g3_contract",
+  "before": {
+    "path": "review/stage05_qualified_experience_passage/v03/before/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "changes": [
+    "Bind this adapter to v03 independently selected payload and a unique return reservation key.",
+    "Restrict exact subject exceptions to preserved original owner_documents evidence under v03/original_actual.",
+    "Keep the same three public native subject shapes, exact file/pointer/parent/value pins, recursive secret scan, finite payload, raw bytes and single-use publisher contract."
+  ],
+  "diff": {
+    "path": "review/stage05_qualified_experience_passage/v03/build_return.diff",
+    "sha256": "a53264cfde58a01af29d88e296553baecb0823a8a488d5e0654dc001ac9b9689",
+    "size_bytes": 2224
+  },
+  "external_report_root": "/Users/admin/Downloads/Radik/stage05_actual_074128_repair_v03",
+  "not_run": [
+    "Adapter",
+    "Publisher",
+    "Application",
+    "Provider",
+    "Owner actual"
+  ],
+  "owner_execution": "BLOCKED; no new owner admission or command in this passage",
+  "passage_key": "stage05_actual_074128_transport_repair_v03",
+  "schema": "radik.stage05.actual_074128_return_adapter_proposal.v01",
+  "scope": "SOURCE_ONLY_REVIEW_REQUIRED",
+  "selection_status": "DRAFT_PENDING_FOUR_BRANCH_CONTROL_AND_INDEPENDENT_REVIEW",
+  "unchanged_publisher": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  }
+}

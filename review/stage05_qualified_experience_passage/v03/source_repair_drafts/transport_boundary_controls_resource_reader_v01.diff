@@ -1,0 +1,20 @@
+--- executed_50a373_preimage
++++ source_only_resource_reader_postimage
+@@ -13,6 +13,7 @@
+ import hashlib
+ import importlib.machinery
+ import importlib.util
++from importlib.resources.readers import FileReader
+ import json
+ import os
+ from pathlib import Path
+@@ -167,6 +168,9 @@
+     class PinnedDependencyLoader:
+         def __init__(self, path, package): self.path, self.package = path, package
+         def create_module(self, spec): return None
++        def get_resource_reader(self, fullname):
++            # Resource traversal retains the existing exact-file read fence.
++            return FileReader(self) if self.package else None
+         def exec_module(self, module):
+             relative = self.path.relative_to(PROJECT).as_posix()
+             raw = read(self.path)

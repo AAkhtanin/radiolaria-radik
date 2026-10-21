@@ -1,0 +1,101 @@
+{
+  "Stage05_closed": false,
+  "actual": {
+    "candidate_AST_definition_execution_started": false,
+    "child_exit_code": 1,
+    "child_failure_resource": "http://json-schema.org/draft-03/schema#",
+    "child_failure_type": "referencing.exceptions.NoSuchResource",
+    "child_reaped": true,
+    "completion_elapsed_wall_seconds": 0.157457791,
+    "deadline_renewed": false,
+    "four_boundary_cases_executed": 0,
+    "last_fixture_line": 194,
+    "outer_primary_stop": null,
+    "outer_supervisor_error": null,
+    "parent_tool_exit_code_reported_by_executor": 1,
+    "production_guard_count": 55,
+    "production_guards_unchanged": true,
+    "receipt_elapsed_wall_seconds": 0.157137583,
+    "result_json_written": false,
+    "signals": [],
+    "source_data_dependency_refs_unchanged": 157
+  },
+  "automatic_retry": false,
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/completion.json",
+    "sha256": "2bf4bd907f6f04e5443a237c85be435c6dfd89bfbe8b1d10176795183de969c8",
+    "size_bytes": 413
+  },
+  "created_at_utc": "2026-10-21T08:30:34.287975+00:00",
+  "executed_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls_proposal.json",
+    "sha256": "c161e73ac3b84175e184e604bb84376c6e3052cb7debc7ffbcec0107e1bf0d4c",
+    "size_bytes": 36025
+  },
+  "executed_runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py",
+    "sha256": "50a373147fb83d1bfd40afa87381acf25bbda71202c990c727bb43af2d2ba61f",
+    "size_bytes": 26587
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_grant.json",
+    "sha256": "4ee71c02d9b97de13ade0d28ffea71f26db9b727854b68c1b657ff44f6c0b3ed",
+    "size_bytes": 16167
+  },
+  "next_action": "Prepare and independently review a source-only finite pinned package-resource reader repair. Do not issue or execute a second series in this passage.",
+  "original_actual_and_reservations_modified": false,
+  "owner_blocker": "normal_active_or_unknown",
+  "owner_ready": false,
+  "primary_cause": {
+    "candidate_transport_fault": false,
+    "classification": "FIXTURE_DEPENDENCY_RESOURCE_LOADER_CONTRACT_MISSING",
+    "evidence": "The exact custom PinnedDependencyLoader has exec_module but no get_resource_reader. jsonschema_specifications._schemas enumerates files(__package__).joinpath(schemas).iterdir(). Python 3.14.5 CompatibilityFiles has no reader, returns OrphanPath for schemas and an empty iterator, so its REGISTRY is empty. jsonschema.validators then requests the draft-03 meta-schema and fails before candidate AST extraction.",
+    "original_owner_failure_reproduced": false,
+    "real_provider_call": false
+  },
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/receipt.json",
+    "sha256": "cba9ecb02fa9c52721ecf5c77d7305cecfc79f5a29e8b226d4a537dd57aa4b9a",
+    "size_bytes": 1145
+  },
+  "reservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/work/reservation.json",
+    "sha256": "7515dd838d0afccec5473695acd4d837dbcb05987ff7bcc3ed040b67442c8345",
+    "size_bytes": 129
+  },
+  "review_correction": "The prior independent source review missed this package-resource contract. Its one-use grant is consumed and provides no actual boundary acceptance. Source diagnostic repair remains source-reviewed only; the four proposed behavioral cases are unexecuted.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.transport_boundary_closed_result_review.v01",
+  "source_route_refs": [
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema_specifications/__init__.py",
+      "sha256": "aa84c1d83298eeabcdac684c3c7ea0b6600944b8a599543e7c56704faaf2ab0d",
+      "size_bytes": 386
+    },
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema_specifications/_core.py",
+      "sha256": "b4585cd42325789dc024e2bf6e3c4ea4541376bb140a51467c5c4f054fc279b3",
+      "size_bytes": 1140
+    },
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/jsonschema/validators.py",
+      "sha256": "97f171b995b4b0ca05530a9366a1252fb1753f99f3cb7b1068b6d9aab1096fa5",
+      "size_bytes": 47159
+    },
+    {
+      "path": ".venv-plan/lib/python3.14/site-packages/referencing/_core.py",
+      "sha256": "d923c67da4efcc0dec46a6e3ff8476c02fbe7e25e8942515a4b14b249eb3759f",
+      "size_bytes": 24732
+    }
+  ],
+  "status": "STOPPED_SETUP_ONLY_NO_BOUNDARY_CASE_EXECUTED",
+  "stdlib_contract_ref": {
+    "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/importlib/resources/_adapters.py",
+    "sha256": "be9ac919b51e1db6a35fa5c2b8c3fa27794caea0a2f8ffcc4e5ce225447b8df9"
+  },
+  "stdout_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/offline_actual/TRANSPORT_BOUNDARY_V01/supervisor/child_stdout.raw",
+    "sha256": "51ae9017a0ae56e5565ab2ac4fa9cbfb751b335fa859dda6083c6ec7d5778def",
+    "size_bytes": 2371
+  }
+}

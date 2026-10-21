@@ -1,0 +1,35 @@
+{
+  "author": "/root/stage05_g4_contract",
+  "checks": [
+    "Exact selected propose/_send/error/finalization definitions are retained; candidate whole modules are not imported.",
+    "The exercised dynamic-context schema path has a complete finite selected namespace and explicit inert imported interfaces. The legacy role_schema branch is not claimed or reached.",
+    "Every selected candidate source and all151 listed third-party dependency files match proposal bytes before execution.",
+    "The preHTTP case raises after the actual selected _send sets dispatch true, before getresponse or HTTP metadata.",
+    "The postterminal case retains the known dynamic_current_sources_changed code at OBSERVATION_BUILD; this is an injected local boundary failure, not the missing historical Critic product.",
+    "The positive case validates the saved earlier Rowan Critic with actual Draft202012Validator and reaches selected transport emission using explicitly synthetic issued-request authority.",
+    "The cleanup case retains the original uncertain transport error through KeyboardInterrupt, broken transport diagnostic projection and a budget finalizer failure; both mandatory finalizers are still attempted.",
+    "The original independent error projection and bounded Terminal display lines are persisted in the result.",
+    "Whole application/native imports, network and non-workspace writes are fenced; parent owns total300-second hard deadline."
+  ],
+  "dependency_ref_count": 151,
+  "findings": [],
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls_proposal.json",
+    "sha256": "c161e73ac3b84175e184e604bb84376c6e3052cb7debc7ffbcec0107e1bf0d4c",
+    "size_bytes": 36025
+  },
+  "reviewer": "/root/stage05_g3_contract",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py",
+    "sha256": "50a373147fb83d1bfd40afa87381acf25bbda71202c990c727bb43af2d2ba61f",
+    "size_bytes": 26587
+  },
+  "schema": "radik.stage05.transport_boundary_helper_peer_review.v01",
+  "scope_limit": [
+    "This peer review accepts the helper source only, not the reviewer-authored transport under test. Private independently reviewed that transport.",
+    "No test or candidate import was executed during this review.",
+    "No real AUTH, HTTP, SSE-parser, normal-role/current-source/Root admission or owner success is claimed."
+  ],
+  "source_ref_count": 6,
+  "status": "SOURCE_ONLY_ALLOWED_FOR_INDEPENDENTLY_GRANTED_FOUR_BRANCH_BOUNDARY_SERIES"
+}

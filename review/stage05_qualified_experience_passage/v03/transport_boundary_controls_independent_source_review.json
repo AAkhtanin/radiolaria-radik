@@ -1,0 +1,347 @@
+{
+  "automatic_retry": false,
+  "basis_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor_independent_source_review.json",
+      "sha256": "8bb0f6c99c72a7ede2e60cf4e1f98fa71ba83e7ff80ab034619b7c1d175654f0",
+      "size_bytes": 2600
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_independent_source_review.json",
+      "sha256": "771e78ab9a445f4d0efe86ee157cb353d1e9d3d1801471e24fe1c10ef6007c69",
+      "size_bytes": 5532
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_projection_chain_independent_source_review.json",
+      "sha256": "fcc676be019d4cb59c67a0135eb939de0957a28500da285906b138f2d8f64d47",
+      "size_bytes": 3767
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_helper_peer_source_review.json",
+      "sha256": "24ff220f88d19c980a0d9f397eb759ef2babdde7953816f973bc695b17df5b75",
+      "size_bytes": 2548
+    }
+  ],
+  "candidate_execution_by_reviewer": false,
+  "created_at_utc": "2026-10-21T08:28:49.095172+00:00",
+  "dependency_file_count": 151,
+  "inert_critic_provenance_ref": {
+    "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_84f2b0876ad04b838fd0a23f3d45344b.json",
+    "sha256": "a8bf09aa52bc97251af2e9f10a56bd80d7292792ad3e29653730300ef17c72b6",
+    "size_bytes": 33897
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_supervisor.py",
+    "sha256": "22262f5a9c2f275db55efa7dbbd8a4fb7d7f230be3678f03db2cf60088f2cb31",
+    "size_bytes": 10557
+  },
+  "owner_blocker": "normal_active_or_unknown",
+  "owner_ready": false,
+  "production_guard_refs": [
+    {
+      "path": "app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "path": "app/stage04_diagnostics.py",
+      "sha256": "44b6357bb5276ce6e1545de7b1a6e90035919bd762040162b22d617822d6cf45",
+      "size_bytes": 127289
+    },
+    {
+      "path": "app/qualified_experience_scenario.py",
+      "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+      "size_bytes": 23154
+    },
+    {
+      "path": "app/ordinary_entry.py",
+      "sha256": "f5e758a3953cda907c69e285f381679e8dbe483f9a80de394bde0b28a9007b2a",
+      "size_bytes": 24648
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "70d61cf8a8ae3da2fc09f3dabf1ff9f728a345637cd62359ad029af24394ce97",
+      "size_bytes": 233
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "6f5a3ae3d692679a62a005f93baf813240115f53c735a4579e55afb59c959f3e",
+      "size_bytes": 6708
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_source_revisions.json",
+      "sha256": "6acb1051e290a9392688456255e27ebc8e421748284842ee0d58e79a5a0a45e6",
+      "size_bytes": 2642
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_admission.json",
+      "sha256": "205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166",
+      "size_bytes": 33471
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json",
+      "sha256": "783d8a626468ea7369ba63b7530639197856b643f77c0dde3014603c584dee7e",
+      "size_bytes": 74128
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/runtime_source_review.json",
+      "sha256": "23aaf1c023f88d869523d0312520f0c5d738d853708b5aa517f42a8563d52546",
+      "size_bytes": 114560
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_source_review.json",
+      "sha256": "72e174180b1d2d07bbea377a66ed080b3c39c86347ea3aafad6063ff5796de01",
+      "size_bytes": 10767
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_command_review.json",
+      "sha256": "b8ed0334ac08940ebeae2809e4b307a3a81aee44260021f59cfbb9f4942bd891",
+      "size_bytes": 2235
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_00b11664335d49afad5146b22cc9a9db.json",
+      "sha256": "96f5685b31237dd77b9819b10f2b71111c5c210da08187b855a69ccc7d0c95c8",
+      "size_bytes": 2677
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_db45ad34bb2e4c45b172257d5209350f.json",
+      "sha256": "b22f1eab17d6bd973ce6612802e83eda2bc72620a62e1dc9fa4790fdc78490bd",
+      "size_bytes": 2677
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_30b6e47d31144273b7e531b29015ff43.json",
+      "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+      "size_bytes": 1367
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/catalog_http_c039f5f217a34fc881754b8dcb5079ed.json",
+      "sha256": "b5d58b555be1d0468ee5b95218e866f173470be1bf0c966ccca40cebcffb3f2c",
+      "size_bytes": 1367
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_285f4cfbeef843e29733591f0b40cc07.json",
+      "sha256": "91e1087daecd5249bfc89094f1b4682da9151408d740d0c836dc6542cf38abd9",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_84f2b0876ad04b838fd0a23f3d45344b.json",
+      "sha256": "c99b614d08c6127432ea644422ce384f240fd87baeddd2ff6cb32be4e9a1091d",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_b951e0f23c5c4ab49e089d4c93000bf3.json",
+      "sha256": "30cca1b471fe514e7d38ce14a8315c6c5e28355d8484898f00f1cb52df4da28a",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+      "sha256": "a40884bf566f3458d2873e73710e01672b2c65d38046c8414dde138d401e49d2",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_fe0e8cc91163452c91f9d55be83d46a2.json",
+      "sha256": "266d500eb80e1bc221022afe3aeeab0b9f9716fa47b13c18a145f1fce62d1f74",
+      "size_bytes": 1374
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_285f4cfbeef843e29733591f0b40cc07.json",
+      "sha256": "589ef18d0d05a17bd2d72facbb630375438040176bb1e0c5b661da4da5637d7d",
+      "size_bytes": 8712
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_84f2b0876ad04b838fd0a23f3d45344b.json",
+      "sha256": "33d0a3e923d81e6404ed69553b3d1de41570342e46f426d188d7b345b359d8cd",
+      "size_bytes": 24624
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_b951e0f23c5c4ab49e089d4c93000bf3.json",
+      "sha256": "581378fce28cc05718fe50a163336172fdfdca15030da69a238242d6c16b2ac1",
+      "size_bytes": 15052
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "df032fb83b9232b62204a564f71677c6348b88fe92496fb6d6acedf2fb480128",
+      "size_bytes": 18107
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+      "sha256": "d2e26f93a454c88da4e96ed38f97a9bbb5e24d5b6138889762dddf6372101283",
+      "size_bytes": 14589
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_fe0e8cc91163452c91f9d55be83d46a2.json",
+      "sha256": "82d6bac4a3d9e7fa61cea8492527b782de98ba4299ed80067999e24113bd5233",
+      "size_bytes": 8285
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_285f4cfbeef843e29733591f0b40cc07.json",
+      "sha256": "487070f9dbbbcaa77bb7deacbd37ae65b7304db7b59f96b2aca8f24891fd8ba1",
+      "size_bytes": 17727
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_84f2b0876ad04b838fd0a23f3d45344b.json",
+      "sha256": "a8bf09aa52bc97251af2e9f10a56bd80d7292792ad3e29653730300ef17c72b6",
+      "size_bytes": 33897
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_b951e0f23c5c4ab49e089d4c93000bf3.json",
+      "sha256": "353c100551a358c7669b192a124758c94fc6486e4629ccf99f8081e94225ebe1",
+      "size_bytes": 26921
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+      "size_bytes": 18391
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+      "sha256": "6bfce0821fa9d8234fda3f565c0668e9d964f6c9a475aa56e257661a8efb0816",
+      "size_bytes": 24051
+    },
+    {
+      "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_fe0e8cc91163452c91f9d55be83d46a2.json",
+      "sha256": "dd7b9e54bea627a96bd4af5502fd28ed52aa66f66e3f2b8bf78baf1142fdf8fe",
+      "size_bytes": 16863
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/installation_receipt.json",
+      "sha256": "0d80dc0b1f722b63a3bdb242f801f039c54180ed2aeabf41625931721ba6d934",
+      "size_bytes": 1409
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/launch.json",
+      "sha256": "760a781c927ffb113baa4c059e269ba7c45f6ee641c9dbda9f1dcf3265c810da",
+      "size_bytes": 2136
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/child_stdout.raw",
+      "sha256": "7c435f33ea3fb8edf3649e05a56d005b1d7a621098b8c8452e3e521c54b8ea7b",
+      "size_bytes": 50041
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/launch.json",
+      "sha256": "b457ffeee3ba2ce3de7eac0031709118f65850510e241ff835832175e45d9e64",
+      "size_bytes": 2185
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+      "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+      "size_bytes": 5454
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+      "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+      "size_bytes": 8921
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+      "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+      "size_bytes": 1406
+    },
+    {
+      "path": "state/normal_operations/c63271edef824053af01fb7a26939470.json",
+      "sha256": "295cd49a3880979b81ebe5556d04fbc70d128006d869e4c8beea507031485226",
+      "size_bytes": 1329
+    },
+    {
+      "path": "state/normal_operations/c63271edef824053af01fb7a26939470.json.closed",
+      "sha256": "2115bb70a569ce1586f8431c0386bc9918f184c6be43437d0a66caa9578b6cb3",
+      "size_bytes": 487
+    },
+    {
+      "path": "state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json",
+      "sha256": "17c4f652ebd46251add8c5ce7c0f3bd6d901dd6337170a5dbd67ecee59810b7b",
+      "size_bytes": 1194
+    },
+    {
+      "path": "state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json.closed",
+      "sha256": "912d7ef0850f3e19b7f218892ec27d87e0c70ae3b0a122e143fc8a22f60e8b02",
+      "size_bytes": 381
+    },
+    {
+      "path": "state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json",
+      "sha256": "f16b23db1f7ad5d1dd169bf3c7bf0015b972aad05f68345eb43667e1517cbf32",
+      "size_bytes": 1194
+    },
+    {
+      "path": "state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json.closed",
+      "sha256": "07e94d0945108a94194d731bad98d7610adf12858444dbd726537fb2ca8f6bc0",
+      "size_bytes": 340
+    },
+    {
+      "path": "state/stage05_owner_scenario_reservations/205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166.json",
+      "sha256": "a8c9237063b5d59d9740d4a2ca0ce874a6d8d560fa879c7bc4b674e0ad84392a",
+      "size_bytes": 1149
+    },
+    {
+      "path": "workspace/owner_documents/review/p28_entry/d1885a31ab08c435f11d9a50/ordinary_entry_failure_842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c.json",
+      "sha256": "842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c",
+      "size_bytes": 37619
+    },
+    {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/stopped_result_feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c.json",
+      "sha256": "feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c",
+      "size_bytes": 6119
+    }
+  ],
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls_proposal.json",
+    "sha256": "c161e73ac3b84175e184e604bb84376c6e3052cb7debc7ffbcec0107e1bf0d4c",
+    "size_bytes": 36025
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/transport_boundary_controls.py",
+    "sha256": "50a373147fb83d1bfd40afa87381acf25bbda71202c990c727bb43af2d2ba61f",
+    "size_bytes": 26587
+  },
+  "schema": "radik.stage05.transport_boundary_controls_source_review.v01",
+  "scope_limits": [
+    "No original failure reproduction claim; original inner error is unrecoverable.",
+    "No actual current-context/Root/role admission, real HTTP/SSE/watchdog or model validation.",
+    "No source/reference change, production activation, ledger mutation, ACK, E, SAVE or owner readiness.",
+    "Whole result acceptance additionally requires successful final parent return, reaped child, exact result readback and unchanged production guards."
+  ],
+  "source_count": 6,
+  "source_import_io_findings": [
+    "Read the complete fixture and exact extracted transport, projection and Terminal functions; no unresolved source findings.",
+    "Only named AST definitions execute. Explicit inert RoleRequest/Auth/catalog/HTTP/SSE/budget/deadline interfaces provide no semantic authority.",
+    "Every selected source/data file and finite existing dependency file is pinned before import; Python dependency loaders compile pinned raw source, extensions retain exact file identities. Site dependencies use existing isolated -I -B venv; no installation.",
+    "Successful saved Rowan Critic value, context and schema match the exact completed observation and its context/schema hashes; failed Alder has no retained product and is not replayed.",
+    "Four cases cover request-send preterminal UNKNOWN, postterminal local FAILED with original closed code, valid strict Critic product, and original primary through KeyboardInterrupt plus failing projection/budget cleanup.",
+    "The cleanup case retains independent safe secondary projection, while both budget and result finalizers remain attempted. Mutation checks and exact scenario/Terminal projection reject arbitrary text and bad frame pins.",
+    "Audit fence refuses network/process/whole-app imports and writes outside the exclusive work directory. Parent owns one child, nonrenewable 260+30+10=300-second envelope including preparation and final readback."
+  ],
+  "status": "SOURCE_ACCEPTED_FOR_ONE_BOUNDED_OFFLINE_BOUNDARY_SERIES",
+  "verified_source_dependency_bytes": 2433836
+}

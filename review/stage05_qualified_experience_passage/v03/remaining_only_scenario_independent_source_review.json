@@ -1,0 +1,45 @@
+{
+  "AUTH_provider_model_calls_performed": 0,
+  "application_execution_allowed": false,
+  "blocking_existing_contract": "normal_active_or_unknown",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/remaining_only_scenario_proposal.diff",
+    "sha256": "1cd2df1a71fc3b9201553f699e20cff3af020c5d9d527af5e8c9088b5cb7766b",
+    "size_bytes": 10562
+  },
+  "findings": [],
+  "input_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/inputs/scenario.json",
+    "sha256": "8089f4f769a2219ee99cce06248527ee09a8fce521e22ff8b2511025e8d719e4",
+    "size_bytes": 5948
+  },
+  "old_reservations_or_ledgers_modified": false,
+  "owner_admission_allowed": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/before/app/qualified_experience_scenario.py",
+    "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+    "size_bytes": 23154
+  },
+  "properties": [
+    "The selected remaining_only branch creates two fresh ordinary cold tasks, six fresh roles in two existing three-role rounds.",
+    "Fresh primary cold G3 consumer, prospective observation and qualified G3 consumer establish a new live binding. The previous closed process supplies evidence only.",
+    "Both prior G4 allocations and aged/unscorable/eligibility loops are skipped. The later qualified_strategy call is solely the expected early stale-source refusal, before new dispatch.",
+    "Distinct unrelated current controller/Root/PURE consumer with the primary live experience instance and unchanged history checks are retained.",
+    "Real registration under the primary source logical key, actual reader revision increment and exact dynamic_current_sources_changed refusal against the fresh qualified binding are retained.",
+    "All prior receipt/checkpoint references in the proposed input resolve to their stated hashes and sizes; code does not load them as authority."
+  ],
+  "remaining_integration_requirements": [
+    "Current active UNKNOWN must be resolved only by a separately explicit authorized contract; this review performs no ACK.",
+    "A future owner admission must independently bind the complete effective source inventory, diagnostic projection and supervisor checkpoint names cold_current_consumer/qualified_current_consumer, and current state.",
+    "Candidate source-only preparation does not demonstrate either new branch at runtime and grants no owner execution."
+  ],
+  "review_scope": "Exact candidate delta, unchanged live consumer/revision tail, imports and I/O; no candidate execution. Prior native actual credit is separate.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.remaining_only_scenario_source_review.v03",
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/after/app/qualified_experience_scenario.py",
+    "sha256": "ac0c22f90b1b84b79ef604b39b0e4e50f211332ae39bba3c5490f446539ea518",
+    "size_bytes": 24750
+  },
+  "status": "SOURCE_REVIEWED_CANDIDATE_NOT_INTEGRATED_OR_ADMITTED"
+}

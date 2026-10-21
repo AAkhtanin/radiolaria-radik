@@ -1,0 +1,50 @@
+--- draft_v01
++++ draft_v02
+@@ -446,7 +446,10 @@
+     for path, sha in identity.items():
+         if (type(path) is str and 0 < len(path) <= 1024 and path.endswith('.py')
+                 and path == Path(path).as_posix() and not Path(path).is_absolute()
+-                and not any(part in ('.', '..', 'private', '.git') for part in Path(path).parts)
++                and '\\' not in path
++                and not any(part in ('.', '..', 'private', '.git', '.codex', '.aws', 'Arena', 'arena',
++                    'local_operator', 'local_operator_private') or part.startswith(('.env', '.venv'))
++                    for part in Path(path).parts)
+                 and type(sha) is str and re.fullmatch('[0-9a-f]{64}', sha)):
+             result[path] = sha
+     return result
+@@ -1788,10 +1791,8 @@
+             complete = consume_sse(_sse_lines(response, deadline_guard, evidence['stream_body']),
+                 deadline=deadline, max_output_bytes=max_output_bytes, clock=time.monotonic,
+                 diagnostic=evidence['completed_output'], event_diagnostic=evidence['stream_event'], profile=profile)
+-            # The parser has returned a terminal response before local telemetry.
++            # Retain the parser's terminal facts before any local telemetry callback.
+             terminal, usage, outcome = True, complete.usage, 'FAILED'
+-            _transport_substage(diagnostic, 'PROVIDER_WAIT_EXIT')
+-            self._provider_wait(False)
+             evidence['stream_body'].update(state='READ_STOPPED', parser_outcome='COMPLETED_SSE', termination='BOUND_SSE_COMPLETED')
+             _transport_substage(diagnostic, 'RESPONSE_BINDING')
+             evidence.update(response_id=complete.response_id, event_count=complete.event_count,
+@@ -1800,6 +1801,8 @@
+             evidence['stream_event'] = bind_stream_event(evidence['stream_event'], reservation_id=attempt_id,
+                 source_identity_sha256=source_sha, context_sha256=context_sha, body_sha256=wire['body_sha256'],
+                 response_id=complete.response_id) or unobserved_stream_event()
++            _transport_substage(diagnostic, 'PROVIDER_WAIT_EXIT')
++            self._provider_wait(False)
+             _transport_substage(diagnostic, 'JSON_PARSE')
+             evidence['completed_output']['product_stage'] = 'JSON'
+             evidence['completed_output']['product_validator'] = 'JSON_PARSER'
+@@ -1968,9 +1971,12 @@
+             for phase, stage, finalize in (
+                     ('ROLE_BUDGET_WRITE', 'BUDGET_FINISH', lambda: self.budget.finish(attempt_id, outcome=outcome, usage=usage, telemetry=telemetry)),
+                     ('ROLE_OBSERVATION_WRITE', 'RESULT_PERSIST', lambda: self._persist('result_' + attempt_id.split(':')[-1] + '.json', evidence))):
++                if primary_error is not None:
++                    try:
++                        evidence['failure_observation'] = project_error(primary_error)
++                    except BaseException as projection_error:
++                        _secondary_without_replacement(primary_error, projection_error, phase=phase)
+                 try:
+-                    if primary_error is not None:
+-                        evidence['failure_observation'] = project_error(primary_error)
+                     finalize()
+                 except BaseException as secondary:
+                     cleanup_failure(secondary, phase, stage)

@@ -1,0 +1,122 @@
+--- review/stage05_qualified_experience_passage/v03/before/app/stage04_diagnostics.py
++++ review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py
+@@ -4,6 +4,7 @@
+ exception messages, provider text and arbitrary attributes are not evidence.
+ """
+ OWNED_ERROR_CODES = frozenset({
++    'plan_completed_local_product_failed',
+     'root_decision_input_invalid',
+     'root_review_packet_invalid',
+     'root_decision_identity_mismatch',
+@@ -2691,7 +2692,10 @@
+     "IsADirectoryError", "BlockingIOError", "TimeoutError", "ConnectionError", "BrokenPipeError",
+     "UnicodeError", "UnicodeDecodeError", "UnicodeEncodeError", "EOFError", "KeyError", "IndexError",
+     "AttributeError", "AssertionError", "ImportError", "ModuleNotFoundError", "JSONDecodeError",
+-    "KeyboardInterrupt", "SystemExit", "OverflowError", "RecursionError", "MemoryError"}) | TYPED_GUARD_NAMES
++    "KeyboardInterrupt", "SystemExit", "OverflowError", "RecursionError", "MemoryError",
++    "HTTPException", "RemoteDisconnected", "BadStatusLine", "IncompleteRead", "CannotSendRequest",
++    "ResponseNotReady", "SSLError", "SSLEOFError", "SSLCertVerificationError", "gaierror", "herror",
++    "ValidationError"}) | TYPED_GUARD_NAMES
+ MAX_SECONDARY_FAILURES = 16
+ CODE_HINTS = {
+     "dynamic_accepted_time":"Время принятого результата вне допустимого окна.",
+@@ -2704,6 +2708,61 @@
+ _STATE_KEY = "_radik_stage04_failure_observation"
+ _PRINTED_EXCEPTIONS = []
+ _CORE_FIELDS = frozenset({"type", "code", "phase", "step", "raw_error_recorded"})
++TRANSPORT_FAILURE_SUBSTAGES = frozenset((
++    'UNKNOWN', 'RESERVATION_PERSIST', 'DEADLINE_SETUP', 'EXTERNAL_BOUNDARY', 'CONNECT',
++    'CONNECT_TELEMETRY_EXIT', 'CONNECTED_DEADLINE', 'GRANT_HEADERS', 'POST_GUARD',
++    'POST_FINAL_GUARD', 'REQUEST_SEND', 'RESPONSE_DEADLINE', 'RESPONSE_HEADERS',
++    'HTTP_METADATA', 'SSE_PARSE', 'PROVIDER_WAIT_EXIT', 'RESPONSE_BINDING', 'JSON_PARSE',
++    'SCHEMA_VALIDATE', 'OBSERVATION_BUILD', 'SEMANTIC_EMISSION', 'EMISSION_GUARD',
++    'ACCEPTED_OBSERVATION', 'PROVIDER_WAIT_CLEANUP', 'HTTP_CLOSE', 'DEADLINE_FINISH',
++    'BUDGET_FINISH', 'RESULT_PERSIST',
++))
++TRANSPORT_FAILURE_CATEGORIES = frozenset(('PRETERMINAL_UNCERTAIN', 'POSTTERMINAL_LOCAL', 'CURATED_REFUSAL'))
++TRANSPORT_FRAME_FUNCTIONS = frozenset(('<module>', '<lambda>', '<genexpr>', '<listcomp>', '<dictcomp>', '<setcomp>'))
++
++
++def project_transport_failure(value, *, source_pins=None):
++    """Project bounded source coordinates as evidence, never execution authority."""
++    fields = {'schema', 'failure_category', 'substage', 'original_type', 'original_code',
++        'terminal_observed', 'source_identity_sha256', 'source_frames', 'omitted_frames',
++        'unadmitted_frames', 'traceback_truncated', 'raw_error_recorded', 'locals_recorded', 'frame_basis'}
++    if (type(value) is not dict or set(value) != fields
++            or value['schema'] != 'radik.plan_transport_failure.v01'
++            or not _closed(value['failure_category'], TRANSPORT_FAILURE_CATEGORIES)
++            or not _closed(value['substage'], TRANSPORT_FAILURE_SUBSTAGES)
++            or not _closed(value['original_type'], SAFE_ERROR_TYPES)
++            or not _closed(value['original_code'], OWNED_ERROR_CODES | MEMORY_ERROR_CODES | RETURN_ERROR_CODES | {'SANITIZED_OPERATION_FAILURE'})
++            or type(value['terminal_observed']) is not bool
++            or type(value['traceback_truncated']) is not bool
++            or value['raw_error_recorded'] is not False or value['locals_recorded'] is not False
++            or value['frame_basis'] != 'SOURCE_VALIDATOR_PINS_CAPTURED_BEFORE_RESERVATION'
++            or type(value['source_frames']) is not list or len(value['source_frames']) > 32
++            or any(type(value[key]) is not int or not 0 <= value[key] <= 128
++                for key in ('omitted_frames', 'unadmitted_frames'))):
++        return None
++    def sha(item):
++        return type(item) is str and len(item) == 64 and all(char in '0123456789abcdef' for char in item)
++    if not sha(value['source_identity_sha256']):
++        return None
++    if ((value['failure_category'] == 'PRETERMINAL_UNCERTAIN' and value['terminal_observed'])
++            or (value['failure_category'] == 'POSTTERMINAL_LOCAL' and not value['terminal_observed'])):
++        return None
++    frames = []
++    for frame in value['source_frames']:
++        if type(frame) is not dict or set(frame) != {'path', 'sha256', 'line', 'function'}:
++            return None
++        name, function = frame['path'], frame['function']
++        if (type(name) is not str or not 1 <= len(name) <= 1024 or not name.endswith('.py')
++                or '\\' in name or any(part in ('', '.', '..', 'private', '.git', '.codex', '.aws', 'Arena', 'arena',
++                    'local_operator', 'local_operator_private') or part.startswith(('.env', '.venv')) for part in name.split('/'))
++                or not sha(frame['sha256']) or type(frame['line']) is not int or not 1 <= frame['line'] <= 1000000
++                or type(function) is not str or not 1 <= len(function) <= 96
++                or not (function in TRANSPORT_FRAME_FUNCTIONS or function.isascii() and function.isidentifier())):
++            return None
++        if source_pins is not None and (type(source_pins) is not dict or source_pins.get(name) != frame['sha256']):
++            return None
++        frames.append(dict(frame))
++    return dict(value, source_frames=frames)
+ 
+ 
+ def _closed(value, choices):
+@@ -2765,6 +2824,9 @@
+     stream_event = project_stream_event(_attribute(error, "stream_event"))
+     if stream_event is not None:
+         result["stream_event"] = stream_event
++    transport_failure = project_transport_failure(_attribute(error, "transport_failure"))
++    if transport_failure is not None:
++        result["transport_failure"] = transport_failure
+     code = result["code"]
+     stage = _attribute(error, "stage")
+     if code in MEMORY_ERROR_CODES:
+@@ -2838,6 +2900,8 @@
+         "raw_error_recorded":False}
+     stream_event=project_stream_event(value.get("stream_event"))
+     if stream_event is not None:result["stream_event"]=stream_event
++    transport_failure=project_transport_failure(value.get("transport_failure"))
++    if transport_failure is not None:result["transport_failure"]=transport_failure
+     stage=value.get("stage")
+     if result["code"] in MEMORY_ERROR_CODES:
+         stages={"ACCEPTED_RESULT_PREPUBLICATION","MEMORY_WRITEBACK_VALIDATION","MEMORY_CONSUMER_VALIDATION"}
+@@ -2870,6 +2934,9 @@
+         details+="; ещё "+str(value["secondary_failures_omitted"])+" за пределами конечного списка"
+     event=value.get("stream_event")
+     event_hint=""
++    transport=value.get("transport_failure")
++    transport_hint=(" Transport failure: "+transport['failure_category']+"/"+transport['substage']
++        +"; original="+transport['original_type']+"/"+transport['original_code']+".") if transport else ""
+     if type(event) is dict and event.get("observation")=="OBSERVED":
+         token=event["json_type"]["token"] or event["json_type"]["state"]
+         event_hint=" Событие "+token+" #"+str(event["event_ordinal"])+"; состояние "+event["parser_state"]["phase"]+"."
+@@ -2877,7 +2944,7 @@
+         + "/" + value["step"] + "]. Первичная причина сохранена"
+         + (" в проверенной долговечной записи" if durable else " в этом сообщении; запись отчёта не подтверждена")
+         + "; вторичные отказы: " + details + ". " + CODE_HINTS.get(value["code"],"")
+-        + event_hint + " Автоматического повтора нет.")
++        + event_hint + transport_hint + " Автоматического повтора нет.")
+ 
+ 
+ def failure_line(error):

@@ -1,0 +1,119 @@
+{
+  "SAVE_effects": 0,
+  "author": "/root",
+  "candidate_repair": {
+    "historical_ledger_mutation": false,
+    "installed": false,
+    "preterminal_unknown_and_postterminal_local_failure_separated": true,
+    "primary_cleanup_preservation": true,
+    "runtime_boundary_validated": false,
+    "safe_failure_projection": true,
+    "source_independently_reviewed": true
+  },
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/starting_basis.json",
+      "sha256": "def7daa05241b13d0c693eb42f2aa268f72bbbf066bfe34ebcd1d444e422bfa1",
+      "size_bytes": 4212
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_transport_ledger_review.json",
+      "sha256": "fa298438c68d6d25e90e62bbfc618d6dd0c022d8a4266b01f57169bd54fa07b9",
+      "size_bytes": 21918
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_independent_partial_acceptance.json",
+      "sha256": "968424c52e942026dc639322c61f86a842b8430c4dd717fc5a8ee2dea8a207fd",
+      "size_bytes": 15425
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_diagnostic_independent_source_review.json",
+      "sha256": "771e78ab9a445f4d0efe86ee157cb353d1e9d3d1801471e24fe1c10ef6007c69",
+      "size_bytes": 5532
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/transport_projection_chain_independent_source_review.json",
+      "sha256": "fcc676be019d4cb59c67a0135eb939de0957a28500da285906b138f2d8f64d47",
+      "size_bytes": 3767
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/remaining_only_scenario_independent_source_review.json",
+      "sha256": "d3dae607f5aa4db9f65f04758c7dcdaed7759f76aff0f3214cc3f6946fa7fe80",
+      "size_bytes": 3038
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/actual_review/transport_boundary_v01_result_review.json",
+      "sha256": "1b0903181e6f8e2a625c720fabbdc6d2f95df03bce8fcee1f1a77ab38ec9378f",
+      "size_bytes": 5135
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v03/post_control_preservation_readback.json",
+      "sha256": "97b25738044542d49e05f7d2de21e347225907da8e871b4fb2542e9d077d7cad",
+      "size_bytes": 45147
+    }
+  ],
+  "native_calls": 0,
+  "new_owner_actual": false,
+  "next_stage_started": false,
+  "old_actual_cause": {
+    "failed_critic_product_available": false,
+    "original_exception": "NOT_RECOVERABLE",
+    "proven_defect": "Generic exception wrapping discarded the original exception type, code and frames.",
+    "recoverable_interval": "After dispatch_may_have_started, before the first HTTP metadata observation: request send, remaining deadline application, response/header acquisition or early HTTP projection.",
+    "specific_network_cause_proven": false
+  },
+  "one_control_series": {
+    "child_exit_code": 1,
+    "child_reaped": true,
+    "completion_wall_seconds": 0.157457791,
+    "final_seconds": 10,
+    "four_cases": "UNEXECUTED",
+    "further_validation_required": "All four boundary cases, strict historical positive Critic schema check, safe projections and Terminal rendering; one separately authorized and independently admitted offline series bounded by 300 seconds.",
+    "invocations": 1,
+    "one_cleanup_seconds": 30,
+    "outer_total_seconds": 300,
+    "outer_work_seconds": 260,
+    "receipt_wall_seconds": 0.157137583,
+    "retry_performed": false,
+    "setup_failure": "PinnedDependencyLoader lacked package-resource reader support; installed schema resources were not exposed to jsonschema_specifications.",
+    "source_only_loader_correction": "source_repair_drafts/transport_boundary_controls_resource_reader_v01.py",
+    "status": "STOPPED_BEFORE_CANDIDATE_AST_EXTRACTION",
+    "timeout_signals": []
+  },
+  "owner_continuation": {
+    "ack_performed": false,
+    "admission_issued": false,
+    "blockers": [
+      "Boundary controls have not run because the one admitted offline fixture failed at dependency import.",
+      "Persistent active UNKNOWN radik-call:c146081f7b9a4d649f3c7e916189271e makes normal_session.open_operation reject normal_active_or_unknown."
+    ],
+    "command_issued": false,
+    "future_source_proposal_only": {
+      "entry": "ordinary experience",
+      "fresh_model_attempts": 6,
+      "old_Root_Host_binding_restored": false,
+      "remaining_observations": [
+        "Accepted unrelated task and separate current consumption without foreign history",
+        "Real Rowan source revision and refusal of its old qualified binding",
+        "Final accounting and successful normal close"
+      ],
+      "repeated_G4_or_aged_controls": false,
+      "roles_per_task": 3,
+      "tasks": [
+        "fresh Rowan",
+        "fresh Alder"
+      ]
+    },
+    "historical_unknown_preserved": true,
+    "used_v02_reservation_preserved": true
+  },
+  "parent_local_commit": "a153c1c0ed22a49f987f67fd89f8f7e99896aa7e",
+  "production_application_edited": false,
+  "provider_calls": 0,
+  "publication": "LOCAL_ONLY",
+  "push": false,
+  "real_AUTH": false,
+  "schema": "radik.stage05.actual_074128_passage_outcome.v03",
+  "stage05_accepted": false,
+  "status": "SOURCE_REPAIR_REVIEWED_BOUNDARY_CONTROL_BLOCKED"
+}

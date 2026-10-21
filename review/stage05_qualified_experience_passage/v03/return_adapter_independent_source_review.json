@@ -1,0 +1,46 @@
+{
+  "checks": [
+    "All function ASTs except _subject_exceptions and main are identical to preserved accepted predecessor.",
+    "_subject_exceptions change is only the narrower v03/original_actual/workspace/owner_documents prefix; exact file, pointer, containing-object and subject hashes and all three native public shapes remain enforced.",
+    "main change is only the unique v03 reservation key. Finite payload bounds, canonical member names, collisions, source/archive JSON suffix consistency and recursive secret scanning remain unchanged.",
+    "Old publisher bytes remain exactc94aafcd; no application import is introduced."
+  ],
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/build_return.diff",
+    "sha256": "a53264cfde58a01af29d88e296553baecb0823a8a488d5e0654dc001ac9b9689",
+    "size_bytes": 2224
+  },
+  "execution_performed": false,
+  "findings": [],
+  "owner_admission_issued": false,
+  "packaging_grant_issued": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/before/build_return.py",
+    "sha256": "b04eb99771b60d3d7f189532c18d32e945bb8a4e579c323a5dd8d6958ad30300",
+    "size_bytes": 13728
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/return_adapter_proposal.json",
+    "sha256": "790c60273c7eca0fa5e74d874618554b5a3ca9634c84a5348b29aa40cd63a680",
+    "size_bytes": 1797
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "remaining_conditions": [
+    "Exact final finite selection and external report bytes reviewed.",
+    "Exact subject exception inventory reviewed and excluded from ordinary payload rows.",
+    "One unused reservation and full output pair/member readback after one build."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_adapter_source_review.v03",
+  "scope": "Exact passage-key/report-root/BASE replacements and narrowing of permitted actual-evidence exception prefix. No general publisher audit repeated.",
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/build_return.py",
+    "sha256": "bd50e04a2d73d12735082e06721394aeed6ca4fd9d8cf54e08bdfbbcaa092535",
+    "size_bytes": 13305
+  },
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_PAYLOAD_AND_ONE_USE_GRANT"
+}

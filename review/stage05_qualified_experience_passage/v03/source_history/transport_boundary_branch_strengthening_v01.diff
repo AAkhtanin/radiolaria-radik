@@ -1,0 +1,46 @@
+--- reviewed_preimage
++++ proposed_postimage
+@@ -290,7 +290,11 @@
+             def apply_remaining_timeout(self): calls.append('deadline_apply')
+             def finish(self):
+                 calls.append('deadline_finish')
+-                if case == 'primary_plus_cleanup': raise RuntimeError('SECRET_CLEANUP_TEXT')
++                if case == 'primary_plus_cleanup':
++                    def broken_projection(*args, **kwargs):
++                        raise RuntimeError('SECRET_DIAGNOSTIC_TEXT')
++                    ns['project_error'] = broken_projection
++                    raise KeyboardInterrupt('SECRET_CLEANUP_TEXT')
+                 return True
+         ns['_Deadline'] = Deadline
+         class Connection:
+@@ -329,7 +333,7 @@
+             persist(case + '_' + name, copied)
+         transport._persist = save
+         real_observation = observations['ProposalObservation']
+-        def fail_observation(**kwargs): raise TypeError('SECRET_LOCAL_PRODUCT_TEXT')
++        def fail_observation(**kwargs): raise ValueError('dynamic_current_sources_changed')
+         ns['ProposalObservation'] = fail_observation if case == 'postterminal_local' else real_observation
+         error = None
+         try:
+@@ -353,7 +357,9 @@
+                 and last['outcome'] == ('FAILED' if expected_terminal else 'UNKNOWN'), 'boundary_primary_classification')
+             failure = error.transport_failure
+             require(failure == last['transport_failure'] and failure['original_type'] ==
+-                ('TypeError' if expected_terminal else 'OSError')
++                ('ValueError' if expected_terminal else 'OSError')
++                and failure['original_code'] == ('dynamic_current_sources_changed' if expected_terminal
++                    else 'SANITIZED_OPERATION_FAILURE')
+                 and failure['substage'] == ('OBSERVATION_BUILD' if expected_terminal else 'REQUEST_SEND')
+                 and failure['failure_category'] == ('POSTTERMINAL_LOCAL' if expected_terminal else 'PRETERMINAL_UNCERTAIN')
+                 and failure['source_frames'] and diag['project_transport_failure'](failure, source_pins=pins) == failure,
+@@ -362,7 +368,9 @@
+             if not expected_terminal: require('getresponse' not in calls, 'boundary_pre_http_evidence')
+             if case == 'primary_plus_cleanup':
+                 projected = diag['project_error'](error)
+-                require(len(projected['secondary_failures']) == 2 and projected['primary_preserved'] is True
++                require(len(projected['secondary_failures']) == 4
++                    and projected['secondary_failures'][0]['type'] == 'KeyboardInterrupt'
++                    and projected['primary_preserved'] is True
+                     and projected['code'] == expected_code, 'boundary_cleanup_primary_preserved')
+         results.append(dict(case=case, status='PASS', calls=calls,
+             outcome=last['outcome'], terminal_observed=last['terminal_observed'],

@@ -1,0 +1,29 @@
+{
+  "author": "root",
+  "findings": [],
+  "limitations": [
+    "No candidate imports or execution.",
+    "This review does not establish the missing original Critic exception or repair its UNKNOWN durable outcome.",
+    "Independent fixture/grant review remains required before execution."
+  ],
+  "reviewed_before": {
+    "path": "review/stage05_qualified_experience_passage/v03/before/app/stage04_diagnostics.py",
+    "sha256": "44b6357bb5276ce6e1545de7b1a6e90035919bd762040162b22d617822d6cf45",
+    "size_bytes": 127289
+  },
+  "reviewer": "stage05_g3_contract",
+  "schema": "radik.stage05.transport_projection_peer_review.v01",
+  "scope": "SOURCE_ONLY_ALLOWED_FOR_SEPARATELY_GRANTED_BOUNDARY_CONTROLS",
+  "source_checks": [
+    "The exact fourteen-field public failure shape rejects extra fields, arbitrary messages, locals and unbounded source coordinates.",
+    "Substage literals equal the transport producer literals. Category and terminal booleans are consistent.",
+    "Error classes and codes use finite existing tables with explicitly added transport class names and the postterminal local wrapper code.",
+    "Frame paths exclude absolute, private, dot, empty, backslash and environment paths; optional source_pins binds every retained path to an exact SHA.",
+    "project_error and safe_projection retain only the closed transport projection; projection_line uses closed labels only."
+  ],
+  "target": {
+    "path": "review/stage05_qualified_experience_passage/v03/after/app/stage04_diagnostics.py",
+    "sha256": "f99f744502d9a48494afdd77aadbafc99a90952f0caba5932df1f506f2f2aff2",
+    "size_bytes": 132029
+  }
+}

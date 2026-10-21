@@ -1,0 +1,459 @@
+{
+  "child_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/receipt.json",
+    "sha256": "16207b9eadd13cc67e4df3b3c0efa92a61b853012e2a9475ffacccfc88fd1da5",
+    "size_bytes": 5454
+  },
+  "correlation": "Receipt -> exact ordinary_entry_failure -> partial_transport.transport_evidence_refs -> reservation_id + context/body/source identity -> exact ledger rows and normal round/operation bindings. No nearest-time association.",
+  "durable_state": {
+    "active_attempt_id": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+    "active_task_id": null,
+    "completed": 5,
+    "ledger_ref": {
+      "path": "state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    "new_owner_admission_allowed": false,
+    "next_owner_blocker": "Unacknowledged active UNKNOWN attempt c146081f7b9a4d649f3c7e916189271e; no ACK or new owner execution is authorized in this passage.",
+    "normal_active_marker_absent": true,
+    "normal_operation_disposition": "FAILED_OR_UNKNOWN",
+    "previous_44_attempt_rows_exact": true,
+    "primary_result_refs": [
+      {
+        "accepted_at": 1792568797,
+        "filename": "aa6b4e622491456fb218e2b7bb008885-02c3b4eb1c6ddd9ad2a0a0f5e390bac8e0ca6c3e64b6559d4be09c845065a5c4.json",
+        "result_id": "radik:dynamic_result:8901d3d4e0aadca167474edca10cca6af4359610850a114ee1479bd45a6a1bed",
+        "sha256": "02c3b4eb1c6ddd9ad2a0a0f5e390bac8e0ca6c3e64b6559d4be09c845065a5c4",
+        "valid_to": 1792573887
+      }
+    ],
+    "primary_task_status": "COMPLETED",
+    "prior_task_rows_exact": 11,
+    "reservation_outcome_ref": {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/reservation_outcome.json",
+      "sha256": "db7ce1c9b8134a5b02cc53118cca515bc411586cb3849b4df9b6e963ec08a4a6",
+      "size_bytes": 1406
+    },
+    "round_and_operation_closure_refs": [
+      {
+        "path": "state/normal_rounds/8c359691a35d4f76bd2fc5ba8e566975.json.closed",
+        "sha256": "07e94d0945108a94194d731bad98d7610adf12858444dbd726537fb2ca8f6bc0",
+        "size_bytes": 340
+      },
+      {
+        "path": "state/normal_operations/c63271edef824053af01fb7a26939470.json.closed",
+        "sha256": "2115bb70a569ce1586f8431c0386bc9918f184c6be43437d0a66caa9578b6cb3",
+        "size_bytes": 487
+      },
+      {
+        "path": "state/normal_rounds/85cc2c82378d4cf5aaed48b02137eb45.json.closed",
+        "sha256": "912d7ef0850f3e19b7f218892ec27d87e0c70ae3b0a122e143fc8a22f60e8b02",
+        "size_bytes": 381
+      }
+    ],
+    "task_state_ref": {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    "this_run_attempts": 6,
+    "total_counted_attempts": 50,
+    "unknown": 1,
+    "unknown_resolution_performed": false,
+    "unrelated_task_result_count": 0,
+    "unrelated_task_status": "FAILED",
+    "used_admission_remains_consumed": true,
+    "used_reservation_ref": {
+      "path": "state/stage05_owner_scenario_reservations/205cc75540534e3aeaa8336321e0179e8f808e65a9edbaab4fd4b8c348879166.json",
+      "sha256": "a8c9237063b5d59d9740d4a2ca0ce874a6d8d560fa879c7bc4b674e0ad84392a",
+      "size_bytes": 1149
+    }
+  },
+  "failure_ref": {
+    "path": "workspace/owner_documents/review/p28_entry/d1885a31ab08c435f11d9a50/ordinary_entry_failure_842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c.json",
+    "sha256": "842d3474284d8d76d4a1ba29eae0f97d123cdff774908ef50c30dfe7566c0d7c",
+    "size_bytes": 37619
+  },
+  "owner_run": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00",
+  "preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/original_actual/transport_ledger_preservation.json",
+    "sha256": "d34b1d1bd69902271147390250dfc1cca9140bff43cb64e07f1b295bd11f1463",
+    "size_bytes": 25364
+  },
+  "primary_cause_boundary": {
+    "exact_inner_cause": "NOT_RECOVERABLE_FROM_RETAINED_EVIDENCE",
+    "facts": [
+      "Final Critic has no observed HTTP response, response ID, stream bytes, terminal or role product.",
+      "dispatch_may_have_started is true; SOURCE sets it after final issued-request validation, immediately before connection.request.",
+      "The remaining possible source interval covers request/send, remaining timeout application, response/header acquisition, or initial HTTP metadata projection before update. These possibilities are not distinguished by retained evidence.",
+      "No failed Critic product exists for factual product replay. A separate earlier valid Critic product is retained.",
+      "Generic wrapper code and raise-from-None lose the original exception class/frames; completed_output product-stage fields remain NOT_STARTED.",
+      "No evidence supports classifying this stop as a local completed-product failure, a specific network/TLS failure, or a request-deadline expiry."
+    ],
+    "observed_class": "PlanTransportError",
+    "observed_code": "plan_dispatch_or_stream_uncertain",
+    "original_exception_code": "NOT_RETAINED",
+    "original_exception_frames": "NOT_RETAINED",
+    "original_exception_type": "NOT_RETAINED",
+    "role": "critic",
+    "scenario_stage": "UNRELATED_TASK"
+  },
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/receipt.json",
+    "sha256": "5161de835849a07f3a9de3168c237aa618b1ff84f319d7c88f599db19abd512e",
+    "size_bytes": 8921
+  },
+  "reviewed_at_utc": "2026-10-21T08:09:24.661304+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.actual_transport_ledger_review.v03",
+  "scope": "Read-only receipt-linked actual and exact source interpretation; no application/native/model/AUTH execution, no ACK, no retries, no ledger or reservation mutation. Native checkpoint acceptance is reviewed separately.",
+  "signal_and_closure": {
+    "child_exit_code": 2,
+    "child_reaped": true,
+    "interpretation": "Exact monotonic ordering plus owner_terminal primary-failure branch supports supervisor-generated SIGINT after the transport failure; no owner keyboard interruption is inferred.",
+    "limit_stop_observed": false,
+    "measurement_scope": "Persisted supervisor receipt snapshot after child closure; not exact shell-command return time. Last Terminal status723.003s was an earlier measurement.",
+    "primary_elapsed_wall_ns": 737583947875,
+    "primary_event_sequence": 78,
+    "raw_final_event_sequence": 82,
+    "raw_final_success": false,
+    "receipt_final_event_is_null": true,
+    "secondary_elapsed_wall_ns": 741794196208,
+    "secondary_event_sequence": 81,
+    "secondary_exception": "KeyboardInterrupt",
+    "stdout_eof_observed": true,
+    "supervisor_native_elapsed_ns": 597566542207,
+    "supervisor_receipt_elapsed_wall_ns": 741893805041,
+    "supervisor_signal": {
+      "action": "INTERRUPT",
+      "elapsed_wall_ns": 737601393666
+    }
+  },
+  "six_role_attempts": [
+    {
+      "body_sha256": "a02cde5a6ef3ef11240221400b6f4c69fb53c1e1e77f8a1d09952dba44a18d97",
+      "client_http_closed": true,
+      "context_sha256": "910eb7228b7a3538b62f5749251277913068bb2a48f4774c60a2311c8a44bfe3",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "COMPLETED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST",
+        "ON_EMISSION"
+      ],
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "91e1087daecd5249bfc89094f1b4682da9151408d740d0c836dc6542cf38abd9",
+        "size_bytes": 1374
+      },
+      "http_status": 200,
+      "ledger_index": 44,
+      "ledger_row_sha256": "83b0881b0e69757331463a159b26a057fcc75dfd10a8032c38a8022ab34eca08",
+      "lifecycle_terminal_kind": "response.completed",
+      "local_outcome": "COMPLETED",
+      "ordinal": 1,
+      "parser_product_accepted": true,
+      "product_stage": "ACCEPTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:285f4cfbeef843e29733591f0b40cc07",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "589ef18d0d05a17bd2d72facbb630375438040176bb1e0c5b661da4da5637d7d",
+        "size_bytes": 8712
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_285f4cfbeef843e29733591f0b40cc07.json",
+        "sha256": "487070f9dbbbcaa77bb7deacbd37ae65b7304db7b59f96b2aca8f24891fd8ba1",
+        "size_bytes": 17727
+      },
+      "role": "orchestrator",
+      "role_product_accepted": true,
+      "round_id": "task-round:8c359691a35d4f76bd2fc5ba8e566975",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:aa6b4e622491456fb218e2b7bb008885",
+      "terminal_observed": true,
+      "transport_wall_seconds": 38.04914624989033
+    },
+    {
+      "body_sha256": "ec124baf2181c8d8ed6d00d8e6d7baf081bdf2a5b187aa86516425ef640dacd8",
+      "client_http_closed": true,
+      "context_sha256": "530b6c8fd672f509c1b6bd3d28839716de05c2b630ae925804ea5cfd328390a9",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "COMPLETED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST",
+        "ON_EMISSION"
+      ],
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "30cca1b471fe514e7d38ce14a8315c6c5e28355d8484898f00f1cb52df4da28a",
+        "size_bytes": 1374
+      },
+      "http_status": 200,
+      "ledger_index": 45,
+      "ledger_row_sha256": "d09c67ed5b905949165e3a8b35daa51492775f6e08040c0049bf8c55c8559f03",
+      "lifecycle_terminal_kind": "response.completed",
+      "local_outcome": "COMPLETED",
+      "ordinal": 2,
+      "parser_product_accepted": true,
+      "product_stage": "ACCEPTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:b951e0f23c5c4ab49e089d4c93000bf3",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "581378fce28cc05718fe50a163336172fdfdca15030da69a238242d6c16b2ac1",
+        "size_bytes": 15052
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_b951e0f23c5c4ab49e089d4c93000bf3.json",
+        "sha256": "353c100551a358c7669b192a124758c94fc6486e4629ccf99f8081e94225ebe1",
+        "size_bytes": 26921
+      },
+      "role": "architect",
+      "role_product_accepted": true,
+      "round_id": "task-round:8c359691a35d4f76bd2fc5ba8e566975",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:aa6b4e622491456fb218e2b7bb008885",
+      "terminal_observed": true,
+      "transport_wall_seconds": 68.7716666245833
+    },
+    {
+      "body_sha256": "f6bab0c0941434f65f8201cbc89f7a6ce5109ba46c11a3646483185a3138e87c",
+      "client_http_closed": true,
+      "context_sha256": "e6c799f1fdb744b7ad3000c9af4ac23230d38b096e2bda1da3a2a08b7581ea49",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "COMPLETED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST",
+        "ON_EMISSION"
+      ],
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "c99b614d08c6127432ea644422ce384f240fd87baeddd2ff6cb32be4e9a1091d",
+        "size_bytes": 1374
+      },
+      "http_status": 200,
+      "ledger_index": 46,
+      "ledger_row_sha256": "411a33c57d0b4cf30777add13a5914c8aa77e940b5d6a009170a84b8e1f8d1f4",
+      "lifecycle_terminal_kind": "response.completed",
+      "local_outcome": "COMPLETED",
+      "ordinal": 3,
+      "parser_product_accepted": true,
+      "product_stage": "ACCEPTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:84f2b0876ad04b838fd0a23f3d45344b",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "33d0a3e923d81e6404ed69553b3d1de41570342e46f426d188d7b345b359d8cd",
+        "size_bytes": 24624
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_84f2b0876ad04b838fd0a23f3d45344b.json",
+        "sha256": "a8bf09aa52bc97251af2e9f10a56bd80d7292792ad3e29653730300ef17c72b6",
+        "size_bytes": 33897
+      },
+      "role": "critic",
+      "role_product_accepted": true,
+      "round_id": "task-round:8c359691a35d4f76bd2fc5ba8e566975",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:aa6b4e622491456fb218e2b7bb008885",
+      "terminal_observed": true,
+      "transport_wall_seconds": 50.4555661669001
+    },
+    {
+      "body_sha256": "1f64343a20747c6a9401cb96a912b7402e2e417be38a643ed29a9232b1a97bc8",
+      "client_http_closed": true,
+      "context_sha256": "40fd45df7c4747846043aa63da2e7dc5f03ff05cd03455996310d76c0f5cd919",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "FAILED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST",
+        "ON_EMISSION"
+      ],
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "266d500eb80e1bc221022afe3aeeab0b9f9716fa47b13c18a145f1fce62d1f74",
+        "size_bytes": 1374
+      },
+      "http_status": 200,
+      "ledger_index": 47,
+      "ledger_row_sha256": "9a69bc1ecfcd038aa91bcc833e2f0848f7e5acc7ee22e6956e91642b2450ee50",
+      "lifecycle_terminal_kind": "response.completed",
+      "local_outcome": "COMPLETED",
+      "ordinal": 4,
+      "parser_product_accepted": true,
+      "product_stage": "ACCEPTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:fe0e8cc91163452c91f9d55be83d46a2",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "82d6bac4a3d9e7fa61cea8492527b782de98ba4299ed80067999e24113bd5233",
+        "size_bytes": 8285
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_fe0e8cc91163452c91f9d55be83d46a2.json",
+        "sha256": "dd7b9e54bea627a96bd4af5502fd28ed52aa66f66e3f2b8bf78baf1142fdf8fe",
+        "size_bytes": 16863
+      },
+      "role": "orchestrator",
+      "role_product_accepted": true,
+      "round_id": "task-round:85cc2c82378d4cf5aaed48b02137eb45",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:1bf563947dfc4711b3e87846586c79ab",
+      "terminal_observed": true,
+      "transport_wall_seconds": 40.19862316735089
+    },
+    {
+      "body_sha256": "895836673ba68037b7a2147477b5606f4de6e18845e8f2f002fd2a044eeefcae",
+      "client_http_closed": true,
+      "context_sha256": "3651da2b21a2a028df4aefa6fead07bd2e932430a8e32613a67316d0dbe5ae21",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "FAILED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST",
+        "ON_EMISSION"
+      ],
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/http_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "a40884bf566f3458d2873e73710e01672b2c65d38046c8414dde138d401e49d2",
+        "size_bytes": 1374
+      },
+      "http_status": 200,
+      "ledger_index": 48,
+      "ledger_row_sha256": "dd43f3d0907fee06cc89f013d88a8484d9ae4e6dcd5106efe845e682600b443d",
+      "lifecycle_terminal_kind": "response.completed",
+      "local_outcome": "COMPLETED",
+      "ordinal": 5,
+      "parser_product_accepted": true,
+      "product_stage": "ACCEPTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:c203d795cf4e4ba3a0fa8011d718f5c9",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "d2e26f93a454c88da4e96ed38f97a9bbb5e24d5b6138889762dddf6372101283",
+        "size_bytes": 14589
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c203d795cf4e4ba3a0fa8011d718f5c9.json",
+        "sha256": "6bfce0821fa9d8234fda3f565c0668e9d964f6c9a475aa56e257661a8efb0816",
+        "size_bytes": 24051
+      },
+      "role": "architect",
+      "role_product_accepted": true,
+      "round_id": "task-round:85cc2c82378d4cf5aaed48b02137eb45",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:1bf563947dfc4711b3e87846586c79ab",
+      "terminal_observed": true,
+      "transport_wall_seconds": 48.72434312477708
+    },
+    {
+      "body_sha256": "db37164f38d0fb2791e20c4d6a7b839bb9701146e931b8c19b61c4703a51e5ff",
+      "client_http_closed": true,
+      "context_sha256": "6a0c2f15b58c44450f51e7f87b05c6b47019d7655191ab235b11b027c23bb91c",
+      "deadline_watchdog_finished": true,
+      "dispatch_may_have_started": true,
+      "durable_task_status": "FAILED",
+      "guard_stages": [
+        "BEFORE_RESERVATION",
+        "BEFORE_POST"
+      ],
+      "http_ref": null,
+      "http_status": null,
+      "ledger_index": 49,
+      "ledger_row_sha256": "daf44a21e674d6aa7a140132e7775aa3343f958b86da2fb246499241bf7b2fcc",
+      "lifecycle_terminal_kind": "NOT_OBSERVED",
+      "local_outcome": "UNKNOWN",
+      "ordinal": 6,
+      "parser_product_accepted": false,
+      "product_stage": "NOT_STARTED",
+      "request_deadline_expired": false,
+      "reservation_id": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/reserved_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "df032fb83b9232b62204a564f71677c6348b88fe92496fb6d6acedf2fb480128",
+        "size_bytes": 18107
+      },
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792568502470683000/result_c146081f7b9a4d649f3c7e916189271e.json",
+        "sha256": "2e37adde2bac31d929b576502402fc199b70e002f137d9e17cf4b1b015211062",
+        "size_bytes": 18391
+      },
+      "role": "critic",
+      "role_product_accepted": false,
+      "round_id": "task-round:85cc2c82378d4cf5aaed48b02137eb45",
+      "source_identity_sha256": "9bef42669d0d5ece96d1760298699ff8c2df98cd4a001cce51a38bfa473e91a3",
+      "task_id": "radik-task:1bf563947dfc4711b3e87846586c79ab",
+      "terminal_observed": false,
+      "transport_wall_seconds": 32.38199866656214
+    }
+  ],
+  "source_review_refs": [
+    {
+      "path": "app/qualified_experience_scenario.py",
+      "sha256": "8f37b8f86bd5bea0c665bf85f21dae7618964cdecce47c3d8ce238a3b7ba8007",
+      "size_bytes": 23154
+    },
+    {
+      "path": "app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+      "size_bytes": 46927
+    },
+    {
+      "path": "app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    },
+    {
+      "path": "app/openai_plan_transport.py",
+      "sha256": "62d985a81f232bb1a027cf993b9e6b32a653a0c3a89a416ee3cdf995844ccfa2",
+      "size_bytes": 110443
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v02/owner_terminal.py",
+      "sha256": "2c269a31f74c40b292ad8571e93ec06375988592d7f118dd753cf25d8373f768",
+      "size_bytes": 64729
+    },
+    {
+      "path": "app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "path": "app/normal_session.py",
+      "sha256": "1fd8f904b17e2a3b9f02b2ec7776ab05ab746fb04c5db452474d116f96e48606",
+      "size_bytes": 35778
+    },
+    {
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "path": "app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+      "size_bytes": 34050
+    }
+  ],
+  "status": "CLOSED_ACTUAL_CORRELATED_DIAGNOSTIC_LOSS_CONFIRMED",
+  "stdout_ref": {
+    "path": "review/stage05_qualified_experience_passage/v02/owner_terminal_runs/OWNER_20261021T074128_37a2f778277d44458df0ffa26c154d00/process_1/child_stdout.raw",
+    "sha256": "7c435f33ea3fb8edf3649e05a56d005b1d7a621098b8c8452e3e521c54b8ea7b",
+    "size_bytes": 50041
+  },
+  "stopped_result_ref": {
+    "path": "workspace/owner_documents/review/stage05/92737b6ba718/stopped_result_feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c.json",
+    "sha256": "feaac4bd4e4ffd502aa7d6dde857353502745a5ef2cb7d8007544ade4e7f431c",
+    "size_bytes": 6119
+  },
+  "unchanged_originals_verified_at_review_end": true
+}
