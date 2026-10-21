@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v04/activate_profile.py
++++ review/stage05_qualified_experience_passage/v05/activate_profile.py
+@@ -15,7 +15,7 @@
+ 
+ 
+ REAL_PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-PREFIX = 'review/stage05_qualified_experience_passage/v04'
++PREFIX = 'review/stage05_qualified_experience_passage/v05'
+ MANIFEST = PREFIX + '/ordinary_profile_manifest.json'
+ SELF = PREFIX + '/activate_profile.py'
+ JOURNAL = 'state/application_profile_install.json'

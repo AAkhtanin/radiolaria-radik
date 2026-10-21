@@ -1,0 +1,41 @@
+{
+  "changes": [
+    "Current profile/source/AUTH identity and scenario provenance references only.",
+    "All selected attempt, historical raw outcome refs, six-call two-COLD-slot allowance and explicit owner decision requirements unchanged."
+  ],
+  "future_owner_launch_reference_shape": "EXACT_THREE_KEYS_PATH_SHA256_SIZE",
+  "live_server_outcome_or_usage_resolved": false,
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json",
+    "sha256": "61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca",
+    "size_bytes": 74742
+  },
+  "new_authority_restored": false,
+  "preserved_current_attempts": 50,
+  "production_ACK_applied": false,
+  "profile_reference_shape": "EXACT_TWO_KEYS_PATH_SHA256",
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_proposal.json",
+    "sha256": "de6e28d9f017b9abb97507ed65917ceaf1edd06e47863ce4a818ed7e2e7f80d6",
+    "size_bytes": 3378
+  },
+  "retained_v04_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_review.json",
+    "sha256": "6fd2ac540816800cbbabf1f0f8880bb81aab8cc785a098fc5628720aa1ed7b9d",
+    "size_bytes": 557
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.unknown_disposition_reference_review.v05",
+  "selected_attempt_id": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/runtime_source_review.json",
+    "sha256": "fe1c0da683998b3a1804ea507c2eeb1c7f1a06701fa1b2bcdddfce0adef3af05",
+    "size_bytes": 124583
+  },
+  "status": "EXACT_PRIOR_SCOPE_RETAINED_WITH_FINAL_V05_IDENTITIES",
+  "strict_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_review.json",
+    "sha256": "7e7f1c7ffd1a0c544b10609cc6dfe222f9ac5bb6dd8c9c546fe53de82ad998b6",
+    "size_bytes": 557
+  }
+}

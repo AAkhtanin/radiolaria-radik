@@ -1,0 +1,1 @@
+{"automatic_retry":false,"child_started":false,"elapsed_wall_ns":234749750,"model_calls":0,"native_calls":0,"operation_started_ns":7580596309492250,"primary_failure":{"code":"profile_gate_focused_wiring_admission","error_class":"ValueError","phase":"OWNER_TERMINAL"},"schema":"radik.p28.owner_prelaunch_failure.v01","status":"NOT_LAUNCHED_NO_RETRY"}

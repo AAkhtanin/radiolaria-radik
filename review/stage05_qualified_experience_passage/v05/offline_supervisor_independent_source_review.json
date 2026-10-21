@@ -1,0 +1,21 @@
+{
+  "application_imported": false,
+  "automatic_retry": false,
+  "charges_include": "Measured preparation, child, cleanup and receipt interval plus nonrefundable five-second closing/readback reserve; independent final-tool accounting required for every subsequent grant.",
+  "exact_delta": "Only the owned passage BASE string v04 to v05; entire remaining source byte-identical.",
+  "production_actions_allowed": false,
+  "retained_algorithm_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/offline_supervisor_independent_source_review.json",
+    "sha256": "f9211d22de5e4d2c50f4f705f03b9a63d10217c884db29251a499c87354e4be9",
+    "size_bytes": 2844
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_supervisor_source_review.v05",
+  "source_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor.py",
+    "sha256": "64d40320df632ce6f5a7ef8a5feef171cce15d43802cad3d9123c2b9d67f0cc2",
+    "size_bytes": 17572
+  },
+  "status": "SOURCE_ACCEPTED_FOR_CUMULATIVE_BOUNDED_OFFLINE_CHILD",
+  "total_cumulative_budget_seconds": 300
+}

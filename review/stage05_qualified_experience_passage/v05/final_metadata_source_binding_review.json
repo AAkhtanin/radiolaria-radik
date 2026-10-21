@@ -1,0 +1,58 @@
+{
+  "Stage05_acceptance": false,
+  "auth_source_identity_sha256": "1507d65d58474ebb37f7a165af1b39ecd607269d4d7067b5809b68b38852b717",
+  "auth_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_source_review.json",
+    "sha256": "2f8e553ff82d1e1e463d9965df64ee4b6b530a45a275acf34eade48fb85a643e",
+    "size_bytes": 35406
+  },
+  "canonical_focused_status": "PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING",
+  "focused_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/focused_stage05_result_review.json",
+    "sha256": "563d48b6aab6d6ed96a25b406da53d6e4e8c7e908ca3ffb57cdab33de184300c",
+    "size_bytes": 37280
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json",
+    "sha256": "61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca",
+    "size_bytes": 74742
+  },
+  "notes": [
+    "Exact reviewer, code pins and both required true flags match the unchanged shared strict predicate.",
+    "The interpreter and all sized owner refs are retained; disposition selected profile remains exactly two keys.",
+    "Consumed v04 admission/reservation are linked and guarded, never reset or reused.",
+    "Source/metadata are now frozen; production preflight actual acceptance must be a distinct record without changing these tested bytes."
+  ],
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_admission.json",
+    "sha256": "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+    "size_bytes": 35471
+  },
+  "owner_command_delivery_allowed": false,
+  "profile_source_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/profile_source_admission.json",
+    "sha256": "c4649ad2573b05d5f259a9ac52118427d99b8614ef4ad481af01cb9231c43a76",
+    "size_bytes": 578
+  },
+  "real_production_preflight_executed": false,
+  "reviewed_at_utc": "2026-10-21T10:25:02.118388+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.final_metadata_source_binding_review.v05",
+  "source_identity_sha256": "d065ed4c1e76c330a384759240eca8665e37e72351d2119f6cf14b66e02141d5",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/runtime_source_review.json",
+    "sha256": "fe1c0da683998b3a1804ea507c2eeb1c7f1a06701fa1b2bcdddfce0adef3af05",
+    "size_bytes": 124583
+  },
+  "status": "FROZEN_FINAL_METADATA_FOR_SEPARATE_PRODUCTION_PREDICATE_PREFLIGHT",
+  "unknown_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_proposal.json",
+    "sha256": "de6e28d9f017b9abb97507ed65917ceaf1edd06e47863ce4a818ed7e2e7f80d6",
+    "size_bytes": 3378
+  },
+  "unknown_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_review.json",
+    "sha256": "7e7f1c7ffd1a0c544b10609cc6dfe222f9ac5bb6dd8c9c546fe53de82ad998b6",
+    "size_bytes": 557
+  }
+}

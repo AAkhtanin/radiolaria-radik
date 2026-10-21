@@ -1,0 +1,77 @@
+{
+  "Stage05_acceptance": false,
+  "actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_100823_result_review.json",
+    "sha256": "90e35604746dc289f878e034eff292ce37908b8530427376d2b541120ab1c179",
+    "size_bytes": 8249
+  },
+  "application_execution_granted": false,
+  "auth_source_identity_sha256": "1507d65d58474ebb37f7a165af1b39ecd607269d4d7067b5809b68b38852b717",
+  "checks": {
+    "AUTH_subset_pins": 28,
+    "actual_originals_and_preserved_copies_exact": true,
+    "finite_physical_pins": 181,
+    "four_state_snapshot_pairs_exact": true,
+    "full_gate_AST_equivalence_after_exact_factoring_and_prefix_rebase": true,
+    "install_aliases": 57,
+    "latest_consumed_reservation_explicitly_guarded": true,
+    "native_mapping_unchanged": 88,
+    "other_three_alias_changes_exact_prefix_only": true,
+    "owner_installer_supervisor_changes_exact_prefix_only": true,
+    "scenario_only_parent_commit_provenance_changed": true,
+    "six_consumed_reservation_refs_exact": true,
+    "timing_byte_identical": true
+  },
+  "contract": {
+    "all_required_controls_passed": true,
+    "canonical_status": "PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING",
+    "code_pins": "EXACT_EQUALITY_WITH_FINAL_ADMISSION",
+    "historical_exam_contracts_changed": false,
+    "other_final_reference_consumer": "owner_terminal.load_admission checks the matching reviewer, pins and flags; it does not itself check status, and production installation still reaches the strict common predicate.",
+    "owner_execution_authorized": true,
+    "production_consumers": [
+      "owner_terminal.prepare_installation",
+      "activate_profile._activate_locked",
+      "application_profile_gate.select",
+      "application_profile_gate.require_external_owner"
+    ],
+    "reference": "UNCHANGED_NORMAL_PROJECT_RAW_HASH_AND_OPTIONAL_SIZE_READER",
+    "reviewer": "/root/private_remote_controls"
+  },
+  "findings": [],
+  "gate_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/after/config/application_profile_gate.py",
+    "sha256": "60e89f5c60ca91e19f41a2475102af9ef61b8e0fdb1fcc66584357b28eac575d",
+    "size_bytes": 15276
+  },
+  "limits": [
+    "The focused canonical record will carry retained accepted v04 control scope and exact current source wiring only.",
+    "Real production owner_eligibility on final v05 metadata is still unexecuted; its independent actual readback is a separate delivery precondition.",
+    "No current source pin, source review or future admission establishes live Stage05 or executes ACK, activation, AUTH, model, native Work, E or SAVE."
+  ],
+  "owner_terminal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_terminal.py",
+    "sha256": "f74a9f6694b41107728a01c02b1c6f0989708ad471302ad42ea63adfc5dcce8a",
+    "size_bytes": 72882
+  },
+  "preserving_upgrade_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/predecessor_install_state.json",
+    "sha256": "bad2fd526f7efb5c99d75c30422a93829261f7e1ba7dc70a41410a2275f3b145",
+    "size_bytes": 45895
+  },
+  "profile_metadata_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/profile_metadata_draft.json",
+    "sha256": "fde47456d14a7f5082d087e896f409b405d67e4a413d6b87138711fddce197f0",
+    "size_bytes": 168426
+  },
+  "reviewed_at_utc": "2026-10-21T10:25:02.118388+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_gate_source_review.v05",
+  "source_change_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/source_change_inventory.json",
+    "sha256": "38955dd05b4729f9a82c336e7d9d8d1047717a80624174935c0ffd891652db00",
+    "size_bytes": 2894
+  },
+  "source_identity_sha256": "d065ed4c1e76c330a384759240eca8665e37e72351d2119f6cf14b66e02141d5",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_REAL_PRODUCTION_PREDICATE_PREFLIGHT"
+}

@@ -1,0 +1,14 @@
+{
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "cumulative_charged_ns": 5486924083,
+  "exit_code": 0,
+  "observer": "/root",
+  "owner_scenario_executed": false,
+  "primary_stop": null,
+  "production_ACK_applied": false,
+  "schema": "radik.stage05.final_tool_outcome_observation.v05",
+  "tool_chunk_id": "25787a",
+  "tool_final_outcome_observed": true,
+  "wall_time_seconds": 0.392980375
+}

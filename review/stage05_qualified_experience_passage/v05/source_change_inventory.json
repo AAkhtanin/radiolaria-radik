@@ -1,0 +1,68 @@
+{
+  "alias_changes": [
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/after/app/ordinary_entry.py",
+        "sha256": "080a41683fa304015ff5b7540c8d2016b606566346035b734b02162b9fdb39d9",
+        "size_bytes": 28230
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py",
+        "sha256": "083c931134c6ddfea74d7a50e94f6f87e5380839feabdc3cefb372ec7c3d41e3",
+        "size_bytes": 28230
+      },
+      "change": "Exact passage prefix registration only.",
+      "logical": "app/ordinary_entry.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/after/app/qualified_experience_scenario.py",
+        "sha256": "d487d32709a4f1483780f5d10b3b2de48b1c4fa0a979c89f6f04bf4ce31aa9ec",
+        "size_bytes": 24978
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/after/app/qualified_experience_scenario.py",
+        "sha256": "156f96b05f45f7f75e84b1c224e2ac18057e5cbf1b0d2ee9f28663919ed42ba5",
+        "size_bytes": 24978
+      },
+      "change": "Exact passage prefix registration only.",
+      "logical": "app/qualified_experience_scenario.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/after/config/application_profile_gate.py",
+        "sha256": "60e89f5c60ca91e19f41a2475102af9ef61b8e0fdb1fcc66584357b28eac575d",
+        "size_bytes": 15276
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/after/config/application_profile_gate.py",
+        "sha256": "d3788f881fa114e40c3d1caaf6a9ab20c081f1459dd944c9b0172f8b565eb4c3",
+        "size_bytes": 15071
+      },
+      "change": "Prefix registration and exact shared focused predicate factoring only.",
+      "logical": "config/application_profile_gate.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/after/review/transport/radik_owner_start.py",
+        "sha256": "c950c8bd34fe073e512a3b92ab4c6027d4bb1d1fbb66bd4dd219d60872e424cd",
+        "size_bytes": 143855
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/after/review/transport/radik_owner_start.py",
+        "sha256": "e3c76ee8c9b97c165cb913b637935f5d53d68c6e4418c585faac9530cf34f1dc",
+        "size_bytes": 143855
+      },
+      "change": "Exact passage prefix registration only.",
+      "logical": "review/transport/radik_owner_start.py"
+    }
+  ],
+  "canonical_status": "PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING",
+  "focused_review_historical_bytes_immutable": true,
+  "historical_campaign_repeated": false,
+  "install_aliases": 57,
+  "pins": 181,
+  "schema": "radik.stage05.owner_gate_source_delta.v05",
+  "shared_predicate_changed": false,
+  "unchanged_alias_count": 53
+}

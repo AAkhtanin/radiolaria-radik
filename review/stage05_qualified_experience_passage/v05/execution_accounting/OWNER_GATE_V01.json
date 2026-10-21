@@ -1,0 +1,109 @@
+{
+  "actual_id": "OWNER_GATE_V01",
+  "aggregate_PASS": true,
+  "charge_basis": "One exact invocation: parent preparation, read-only child, closure and readback measured monotonically, plus nonrefundable5-second closing reserve. Final tool exit0 and exact receipt/completion/child result read back. No budget reset or refund.",
+  "charged_execution_ns": 5486924083,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "child_started": true,
+  "closure_confirmed": true,
+  "cumulative_charged_ns": 5486924083,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/child_stdout.raw",
+      "sha256": "6b4971a159e7064ffe43c031b7579ff8f96d7cfa6685bdfdd796913ff17622c2",
+      "size_bytes": 233
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/completion.json",
+      "sha256": "287885756f6bac5d43a2ef5241d985a3fd7af3c7c0da62ecee4dc24fac0c221a",
+      "size_bytes": 680
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/final_tool_outcome.json",
+      "sha256": "a5b786fbbb677e9f7c572f5da9facfd82f9877c4a6118beb5bacbdd9c41a6e15",
+      "size_bytes": 394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/invocation.json",
+      "sha256": "a8155e439a00e4be354f06ac70562e9f98f308d1b9b6d9478a39e3e88aa1b44f",
+      "size_bytes": 372
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/receipt.json",
+      "sha256": "638ab839e728509a427c79155445ad2991fc7e488be555e0f9eb9640e343204b",
+      "size_bytes": 1229
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/reservation.json",
+      "sha256": "a43c3ebd43d7290c20f895ba00140851f92dda815c77abcbdeea7143dd3c8456",
+      "size_bytes": 314
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_arbitrary_pass.json",
+      "sha256": "afee88a681a04b1d8ba5dd5f381519ccca15f373621d6c6765d83560d8a332ef",
+      "size_bytes": 35499
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_changed_focused_pins.json",
+      "sha256": "fd2bedc4db47bb01a9a1706915e16e5e5258ff56425ded3cd6b93cfe7ecef09f",
+      "size_bytes": 35543
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_controls.json",
+      "sha256": "aba84e099c1a9477e7056fcb9ec196b68f29344cfa37eeb7222e8c2d95939848",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_owner_authorization.json",
+      "sha256": "846875d45fc434266da5e1925c537b9812054de1ba401727ae1b4c4c99037fa2",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_incompatible_status.json",
+      "sha256": "a08fc8e7885d22b59fae6ed5e1d95a1f78a1bd87a131559506b7cc1868faa32e",
+      "size_bytes": 35559
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_wrong_reviewer.json",
+      "sha256": "edbf3938e4c0c41ffef760c9e021409e908bd97f6c50080703f13c8bdee3783f",
+      "size_bytes": 35539
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/reservation.json",
+      "sha256": "29e04032ea1848edfdab274ce2cce43b240b78dc001d775a7af36684f1d5c608",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/result.json",
+      "sha256": "8aa78c8b4c85861e0c5874b5e16ff8e223d4563b467d5513fe3c2b327af42e93",
+      "size_bytes": 6614
+    }
+  ],
+  "final_tool_outcome_observed": true,
+  "full_readback_verified": true,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/grants/OWNER_GATE_V01.json",
+    "sha256": "95c6cc8896667fea59af57d5ef1b14edf42534e21e9b5a564d3d7842a498fdd8",
+    "size_bytes": 2314
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/invocation.json",
+    "sha256": "a8155e439a00e4be354f06ac70562e9f98f308d1b9b6d9478a39e3e88aa1b44f",
+    "size_bytes": 372
+  },
+  "live_tool_session": false,
+  "prior_charged_ns": 0,
+  "prior_execution_review_refs": [],
+  "remaining_ns": 294513075917,
+  "result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_gate_v01_result_review.json",
+    "sha256": "fb755989357c4d9b5bb25e87e29da8260666b1326c67d6cf1e425064945aa762",
+    "size_bytes": 12103
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_execution_accounting.v01",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "tool_exit_code": 0,
+  "total_budget_seconds": 300
+}

@@ -1,0 +1,54 @@
+{
+  "actual_id": "OWNER_GATE_V01",
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "network": "DENIED",
+  "outer_limits": {
+    "cleanup_seconds": 20,
+    "final_seconds": 5,
+    "total_seconds": 60,
+    "work_seconds": 35
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor.py",
+    "sha256": "64d40320df632ce6f5a7ef8a5feef171cce15d43802cad3d9123c2b9d67f0cc2",
+    "size_bytes": 17572
+  },
+  "outer_supervisor_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor_independent_source_review.json",
+    "sha256": "aa43cc8c66e15c805989cb99325072c85c5644e88f04f5451bf1d731af60c0bd",
+    "size_bytes": 1117
+  },
+  "owner_actual_allowed": false,
+  "owner_ready": false,
+  "prior_charged_ns": 0,
+  "prior_execution_review_refs": [],
+  "production_writes_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_proposal.json",
+    "sha256": "769140022c2eac57e8d25e98a5be7de43ce27fe7002d7d3e4c51c4530a2db2e6",
+    "size_bytes": 169953
+  },
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight.py",
+    "sha256": "acfd039fc48fd90997ec2aa0027c8d3487bd828aa0833e51de3a4c1e87eba5c3",
+    "size_bytes": 12602
+  },
+  "schema": "radik.stage05.owner_gate_preflight_grant.v05",
+  "scope": "One old refusal, exact final real production gate acceptance and eight shared-predicate negatives. All preparation/cleanup/readback charged within the nonrenewable cumulative300-second v05 passage; no installer/owner/model/native execution.",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_independent_source_review.json",
+    "sha256": "f5506ee954a99f2737d9ff441040124be4fd8487fbff0bb332b2dbfc93c68630",
+    "size_bytes": 2327
+  },
+  "status": "SOURCE_ACCEPTED_FOR_ONE_REAL_READ_ONLY_PRODUCTION_PREDICATE_PREFLIGHT",
+  "total_budget_seconds": 300
+}

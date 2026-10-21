@@ -1,0 +1,10 @@
+{
+  "auth_source_identity_sha256": "1507d65d58474ebb37f7a165af1b39ecd607269d4d7067b5809b68b38852b717",
+  "entry_authorizes_model_or_effect": false,
+  "owner_action_required": true,
+  "proposal_sha256": "de6e28d9f017b9abb97507ed65917ceaf1edd06e47863ce4a818ed7e2e7f80d6",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.unknown_disposition_review.v01",
+  "source_identity_sha256": "d065ed4c1e76c330a384759240eca8665e37e72351d2119f6cf14b66e02141d5",
+  "status": "SOURCE_ACCEPTED_FOR_EXPLICIT_OWNER_DISPOSITION_AND_FINITE_REMAINDER"
+}

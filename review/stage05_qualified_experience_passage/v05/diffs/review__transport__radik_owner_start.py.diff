@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v04/after/review/transport/radik_owner_start.py
++++ review/stage05_qualified_experience_passage/v05/after/review/transport/radik_owner_start.py
+@@ -62,7 +62,7 @@
+     require(not (PROJECT/'state/application_profile.json.pending').exists(),'owner_profile_partial_activation')
+     if not activation.exists():return None
+     selected=json.loads(_read(activation))
+-    relative='review/stage05_qualified_experience_passage/v04/ordinary_profile_manifest.json'
++    relative='review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json'
+     require(selected.get('schema')=='radik.application_profile_activation.v01'
+         and selected.get('profile_ref',{}).get('path')==relative,'owner_profile_selection')
+     manifest_raw=_read(PROJECT/relative)

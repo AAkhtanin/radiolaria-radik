@@ -1,0 +1,1 @@
+{"actual_id":"OWNER_GATE_V01","automatic_retry":false,"grant_path":"review/stage05_qualified_experience_passage/v05/grants/OWNER_GATE_V01.json","grant_sha256":"95c6cc8896667fea59af57d5ef1b14edf42534e21e9b5a564d3d7842a498fdd8","schema":"radik.stage05.offline_invocation.v01","started_monotonic_ns":7581745251168750,"status":"PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING"}

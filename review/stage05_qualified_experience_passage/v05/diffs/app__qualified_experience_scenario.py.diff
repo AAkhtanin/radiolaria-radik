@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v04/after/app/qualified_experience_scenario.py
++++ review/stage05_qualified_experience_passage/v05/after/app/qualified_experience_scenario.py
+@@ -15,7 +15,7 @@
+ from .native_authority import plain
+ from .stage04_diagnostics import observe_failure, project_error, project_transport_failure, record_secondary
+ 
+-PREFIX = 'review/stage05_qualified_experience_passage/v04'
++PREFIX = 'review/stage05_qualified_experience_passage/v05'
+ 
+ 
+ STAGE05_SCENARIO_STAGES = frozenset((

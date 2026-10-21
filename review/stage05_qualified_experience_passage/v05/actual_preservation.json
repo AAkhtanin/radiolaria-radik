@@ -1,0 +1,43 @@
+{
+  "originals_unchanged": true,
+  "raw_copies": [
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/receipt.json",
+        "sha256": "bba9cee8f8400723a7b8df8f259f1fb70480e63452242f6d2324995a4c1cf097",
+        "size_bytes": 350
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/original_actual/review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/receipt.json",
+        "sha256": "bba9cee8f8400723a7b8df8f259f1fb70480e63452242f6d2324995a4c1cf097",
+        "size_bytes": 350
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/reservation_outcome.json",
+        "sha256": "e5f49c4519fbea68a1af3d7bdcf4299ab6ddd8b80be82dc190c2bbcff389b1ff",
+        "size_bytes": 1136
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/original_actual/review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/reservation_outcome.json",
+        "sha256": "e5f49c4519fbea68a1af3d7bdcf4299ab6ddd8b80be82dc190c2bbcff389b1ff",
+        "size_bytes": 1136
+      }
+    },
+    {
+      "original_ref": {
+        "path": "state/stage05_owner_scenario_reservations/e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573.json",
+        "sha256": "776e1758f5a76bc176a584438212322150e9796dd9fcad5d9f3406e0f17281b7",
+        "size_bytes": 1148
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/original_actual/state/stage05_owner_scenario_reservations/e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573.json",
+        "sha256": "776e1758f5a76bc176a584438212322150e9796dd9fcad5d9f3406e0f17281b7",
+        "size_bytes": 1148
+      }
+    }
+  ],
+  "reservation_reset": false,
+  "schema": "radik.stage05.actual100823_preservation.v01"
+}

@@ -1,0 +1,39 @@
+--- review/stage05_qualified_experience_passage/v04/after/config/application_profile_gate.py
++++ review/stage05_qualified_experience_passage/v05/after/config/application_profile_gate.py
+@@ -11,7 +11,7 @@
+ import stat
+ 
+ REAL_PROJECT=Path('/Users/admin/Projects/RadiolariaRadik')
+-PREFIX='review/stage05_qualified_experience_passage/v04'
++PREFIX='review/stage05_qualified_experience_passage/v05'
+ PREDECESSOR_MANIFEST='review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json'
+ STAGE04_MANIFEST='review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json'
+ PREDECESSOR_MANIFEST_SHA256='783d8a626468ea7369ba63b7530639197856b643f77c0dde3014603c584dee7e'
+@@ -197,6 +197,15 @@
+     return reference,value
+ 
+ 
++def validate_owner_focused_review(project,value):
++    """Validate the exact focused producer contract for all production consumers."""
++    focused=_reference(project,value['rehearsal_result_review_ref'])
++    require(focused.get('reviewer')=='/root/private_remote_controls'and focused.get('status')=='PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING'
++        and focused.get('all_required_controls_passed')is True and focused.get('owner_execution_authorized')is True
++        and focused.get('code_pins')==value['code_pins'],'profile_gate_focused_wiring_admission')
++    return focused
++
++
+ def owner_eligibility(project,selected):
+     require(Path(project)==REAL_PROJECT and rehearsal_context(project)is None,'rehearsal_external_action_refused')
+     value=json.loads(_read(project,OWNER_ADMISSION))
+@@ -207,10 +216,7 @@
+         and value.get('ordinary_profile_manifest_ref',{}).get('path')==MANIFEST
+         and value['ordinary_profile_manifest_ref']['sha256']==selected['profile_ref']['sha256']
+         and value.get('source_review_ref')==selected['manifest']['source_review_ref'],'profile_gate_owner_admission')
+-    focused=_reference(project,value['rehearsal_result_review_ref'])
+-    require(focused.get('reviewer')=='/root/private_remote_controls'and focused.get('status')=='PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING'
+-        and focused.get('all_required_controls_passed')is True and focused.get('owner_execution_authorized')is True
+-        and focused.get('code_pins')==value['code_pins'],'profile_gate_focused_wiring_admission')
++    validate_owner_focused_review(project,value)
+     return value
+ 
+ 

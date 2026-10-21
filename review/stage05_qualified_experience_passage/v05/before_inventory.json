@@ -1,0 +1,66 @@
+{
+  "historical_bytes_changed": false,
+  "raw_preimages": [
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/after/config/application_profile_gate.py",
+        "sha256": "d3788f881fa114e40c3d1caaf6a9ab20c081f1459dd944c9b0172f8b565eb4c3",
+        "size_bytes": 15071
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/before/after/config/application_profile_gate.py",
+        "sha256": "d3788f881fa114e40c3d1caaf6a9ab20c081f1459dd944c9b0172f8b565eb4c3",
+        "size_bytes": 15071
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/focused_stage05_result_review.json",
+        "sha256": "99ed4266fa04e76909b8133f0b8a998de82e9335ade1a5d0f171dfcf97374dc0",
+        "size_bytes": 35738
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/before/focused_stage05_result_review.json",
+        "sha256": "99ed4266fa04e76909b8133f0b8a998de82e9335ade1a5d0f171dfcf97374dc0",
+        "size_bytes": 35738
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/owner_admission.json",
+        "sha256": "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+        "size_bytes": 34928
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/before/owner_admission.json",
+        "sha256": "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+        "size_bytes": 34928
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/ordinary_profile_manifest.json",
+        "sha256": "99b87d4fc16ac49793c37339f03709d8b8b498c0a5580d27b6a9dd0aa3ee676a",
+        "size_bytes": 74742
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/before/ordinary_profile_manifest.json",
+        "sha256": "99b87d4fc16ac49793c37339f03709d8b8b498c0a5580d27b6a9dd0aa3ee676a",
+        "size_bytes": 74742
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v04/owner_profile_controls.py",
+        "sha256": "66babdc350aa27cb62803793867f7f4e1bf968b89fbb96a8f61ce83ed8d1abf6",
+        "size_bytes": 25027
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/before/owner_profile_controls.py",
+        "sha256": "66babdc350aa27cb62803793867f7f4e1bf968b89fbb96a8f61ce83ed8d1abf6",
+        "size_bytes": 25027
+      }
+    }
+  ],
+  "schema": "radik.stage05.exact_owner_gate_preimages.v05"
+}

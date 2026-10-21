@@ -1,0 +1,267 @@
+{
+  "REAL_PROJECT_rebound": false,
+  "Stage05_acceptance": false,
+  "accepted_scope": [
+    "Previously omitted real production metadata predicate on frozen final v05 bytes.",
+    "Exact old status mismatch reproduced; canonical status plus strict reviewer/flags/pins/ref validation observed.",
+    "Separate source-pinned common helper refuses all8 incompatible mutations without altering accepted inputs."
+  ],
+  "all736_current_input_bytes_exact": true,
+  "closure": {
+    "child_exit_code": 0,
+    "child_reaped": true,
+    "final_tool_exit_code": 0,
+    "live_tool_session": false,
+    "primary_stop": null,
+    "signals": []
+  },
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/completion.json",
+    "sha256": "287885756f6bac5d43a2ef5241d985a3fd7af3c7c0da62ecee4dc24fac0c221a",
+    "size_bytes": 680
+  },
+  "eight_negative_cases": [
+    {
+      "case": "incompatible_status",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_incompatible_status.json",
+        "sha256": "a08fc8e7885d22b59fae6ed5e1d95a1f78a1bd87a131559506b7cc1868faa32e",
+        "size_bytes": 35559
+      }
+    },
+    {
+      "case": "arbitrary_pass",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_arbitrary_pass.json",
+        "sha256": "afee88a681a04b1d8ba5dd5f381519ccca15f373621d6c6765d83560d8a332ef",
+        "size_bytes": 35499
+      }
+    },
+    {
+      "case": "wrong_reviewer",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_wrong_reviewer.json",
+        "sha256": "edbf3938e4c0c41ffef760c9e021409e908bd97f6c50080703f13c8bdee3783f",
+        "size_bytes": 35539
+      }
+    },
+    {
+      "case": "false_controls",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_controls.json",
+        "sha256": "aba84e099c1a9477e7056fcb9ec196b68f29344cfa37eeb7222e8c2d95939848",
+        "size_bytes": 35544
+      }
+    },
+    {
+      "case": "false_owner_authorization",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_owner_authorization.json",
+        "sha256": "846875d45fc434266da5e1925c537b9812054de1ba401727ae1b4c4c99037fa2",
+        "size_bytes": 35544
+      }
+    },
+    {
+      "case": "changed_focused_pins",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_focused_wiring_admission",
+      "test_data_ref": {
+        "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_changed_focused_pins.json",
+        "sha256": "fd2bedc4db47bb01a9a1706915e16e5e5258ff56425ded3cd6b93cfe7ecef09f",
+        "size_bytes": 35543
+      }
+    },
+    {
+      "case": "changed_reference_hash",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_reference_changed"
+    },
+    {
+      "case": "changed_reference_size",
+      "production_shared_function": "validate_owner_focused_review",
+      "refusal": "profile_gate_reference_changed"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/child_stdout.raw",
+      "sha256": "6b4971a159e7064ffe43c031b7579ff8f96d7cfa6685bdfdd796913ff17622c2",
+      "size_bytes": 233
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/completion.json",
+      "sha256": "287885756f6bac5d43a2ef5241d985a3fd7af3c7c0da62ecee4dc24fac0c221a",
+      "size_bytes": 680
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/final_tool_outcome.json",
+      "sha256": "a5b786fbbb677e9f7c572f5da9facfd82f9877c4a6118beb5bacbdd9c41a6e15",
+      "size_bytes": 394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/invocation.json",
+      "sha256": "a8155e439a00e4be354f06ac70562e9f98f308d1b9b6d9478a39e3e88aa1b44f",
+      "size_bytes": 372
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/receipt.json",
+      "sha256": "638ab839e728509a427c79155445ad2991fc7e488be555e0f9eb9640e343204b",
+      "size_bytes": 1229
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/reservation.json",
+      "sha256": "a43c3ebd43d7290c20f895ba00140851f92dda815c77abcbdeea7143dd3c8456",
+      "size_bytes": 314
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_arbitrary_pass.json",
+      "sha256": "afee88a681a04b1d8ba5dd5f381519ccca15f373621d6c6765d83560d8a332ef",
+      "size_bytes": 35499
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_changed_focused_pins.json",
+      "sha256": "fd2bedc4db47bb01a9a1706915e16e5e5258ff56425ded3cd6b93cfe7ecef09f",
+      "size_bytes": 35543
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_controls.json",
+      "sha256": "aba84e099c1a9477e7056fcb9ec196b68f29344cfa37eeb7222e8c2d95939848",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_owner_authorization.json",
+      "sha256": "846875d45fc434266da5e1925c537b9812054de1ba401727ae1b4c4c99037fa2",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_incompatible_status.json",
+      "sha256": "a08fc8e7885d22b59fae6ed5e1d95a1f78a1bd87a131559506b7cc1868faa32e",
+      "size_bytes": 35559
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_wrong_reviewer.json",
+      "sha256": "edbf3938e4c0c41ffef760c9e021409e908bd97f6c50080703f13c8bdee3783f",
+      "size_bytes": 35539
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/reservation.json",
+      "sha256": "29e04032ea1848edfdab274ce2cce43b240b78dc001d775a7af36684f1d5c608",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/result.json",
+      "sha256": "8aa78c8b4c85861e0c5874b5e16ff8e223d4563b467d5513fe3c2b327af42e93",
+      "size_bytes": 6614
+    }
+  ],
+  "excluded_scope": [
+    "No installer, owner main, select or external action entry executed.",
+    "No production ACK, AUTH, provider/model call, native Work, E or SAVE.",
+    "No live Stage05 completion or owner semantic acceptance."
+  ],
+  "final_pair": {
+    "final_admission_ref": {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_admission.json",
+      "sha256": "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+      "size_bytes": 35471
+    },
+    "final_focused_ref": {
+      "path": "review/stage05_qualified_experience_passage/v05/focused_stage05_result_review.json",
+      "sha256": "563d48b6aab6d6ed96a25b406da53d6e4e8c7e908ca3ffb57cdab33de184300c",
+      "size_bytes": 37280
+    },
+    "final_gate_ref": {
+      "path": "review/stage05_qualified_experience_passage/v05/after/config/application_profile_gate.py",
+      "sha256": "60e89f5c60ca91e19f41a2475102af9ef61b8e0fdb1fcc66584357b28eac575d",
+      "size_bytes": 15276
+    },
+    "final_manifest_ref": {
+      "path": "review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json",
+      "sha256": "61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca",
+      "size_bytes": 74742
+    }
+  },
+  "final_tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/final_tool_outcome.json",
+    "sha256": "a5b786fbbb677e9f7c572f5da9facfd82f9877c4a6118beb5bacbdd9c41a6e15",
+    "size_bytes": 394
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/grants/OWNER_GATE_V01.json",
+    "sha256": "95c6cc8896667fea59af57d5ef1b14edf42534e21e9b5a564d3d7842a498fdd8",
+    "size_bytes": 2314
+  },
+  "loaded_source_trace_verified": true,
+  "measurements": {
+    "charged_seconds": 5.486924083,
+    "child_result_elapsed_seconds": 0.426327667,
+    "closing_readback_reserve_seconds": 5,
+    "note": "Clock intervals are kept distinct; cumulative charge uses the exact parent monotonic interval plus the nonrefundable reserve.",
+    "outer_completion_elapsed_seconds": 0.486924958,
+    "outer_receipt_elapsed_seconds": 0.486675,
+    "tool_reported_wall_seconds": 0.392980375
+  },
+  "negative_fixture_minimal_changes_verified": true,
+  "original_refusal": "profile_gate_focused_wiring_admission",
+  "outer_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/receipt.json",
+    "sha256": "638ab839e728509a427c79155445ad2991fc7e488be555e0f9eb9640e343204b",
+    "size_bytes": 1229
+  },
+  "production_predicate_reached_on_REAL_PROJECT": true,
+  "project_reader_replaced": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_proposal.json",
+    "sha256": "769140022c2eac57e8d25e98a5be7de43ce27fe7002d7d3e4c51c4530a2db2e6",
+    "size_bytes": 169953
+  },
+  "protected_state": {
+    "activation_and_install_unchanged": true,
+    "active_attempt_id": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+    "console_attempts": 50,
+    "installed_v02_pins_unchanged": 180,
+    "legacy_attempts": 16,
+    "new_owner_reservation_created": false,
+    "old_consumed_reservations_unchanged": 6,
+    "production_ACK_applied": false
+  },
+  "rehearsal_used": false,
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/result.json",
+    "sha256": "8aa78c8b4c85861e0c5874b5e16ff8e223d4563b467d5513fe3c2b327af42e93",
+    "size_bytes": 6614
+  },
+  "reviewed_at_utc": "2026-10-21T10:29:29.031651+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_gate_actual_review.v05",
+  "seventh_markers_absent": [
+    "state/ordinary_rehearsal_context.json",
+    "state/application_profile.json.pending",
+    "state/application_profile_install.json.pending",
+    "state/application_profile_install.json.finish.pending",
+    "state/normal_session_active.json",
+    "state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e.json",
+    "state/stage05_owner_scenario_reservations/1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87.json"
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_independent_source_review.json",
+    "sha256": "f5506ee954a99f2737d9ff441040124be4fd8487fbff0bb332b2dbfc93c68630",
+    "size_bytes": 2327
+  },
+  "status": "ACCEPTED_REAL_PRODUCTION_PREDICATE_FINAL_BYTES_AND_NEGATIVE_REFUSALS",
+  "trace_counts": {
+    "load_profile": 2,
+    "owner_eligibility": 2,
+    "validate_owner_focused_review": 10
+  }
+}

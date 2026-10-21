@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v04/owner_terminal.py
++++ review/stage05_qualified_experience_passage/v05/owner_terminal.py
+@@ -28,7 +28,7 @@
+ 
+ PRODUCTION_PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+ PROJECT = Path(__file__).absolute().parents[3]
+-PREFIX = 'review/stage05_qualified_experience_passage/v04'
++PREFIX = 'review/stage05_qualified_experience_passage/v05'
+ SELF = PREFIX + '/owner_terminal.py'
+ RESERVATIONS = 'state/stage05_owner_scenario_reservations'
+ TIMING = PREFIX + '/supervisor_timing.py'

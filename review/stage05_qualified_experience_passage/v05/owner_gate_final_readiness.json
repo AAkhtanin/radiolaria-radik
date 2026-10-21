@@ -1,0 +1,66 @@
+{
+  "Stage05_acceptance": false,
+  "approved_future_owner_invocations": 1,
+  "canonical_focused_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/focused_stage05_result_review.json",
+    "sha256": "563d48b6aab6d6ed96a25b406da53d6e4e8c7e908ca3ffb57cdab33de184300c",
+    "size_bytes": 37280
+  },
+  "execution_accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/execution_accounting/OWNER_GATE_V01.json",
+    "sha256": "bf74093e3356d228f594410a1dc4ecb008e37fc6eb35a0e89f28a4349d4b85cc",
+    "size_bytes": 5121
+  },
+  "expected_new_role_calls": 6,
+  "explicit_selected_UNKNOWN_flag_required": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+  "final_frozen_metadata_unchanged": true,
+  "frozen_pending_markers_note": "Metadata intentionally retains PENDING_SEPARATE_EXACT_FINAL_BYTES_ACTUAL_REVIEW as its pre-execution state. This separate actual/readiness record satisfies that precondition without changing any tested metadata byte.",
+  "initial_failure_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_100823_result_review.json",
+    "sha256": "90e35604746dc289f878e034eff292ce37908b8530427376d2b541120ab1c179",
+    "size_bytes": 8249
+  },
+  "limits": {
+    "cleanup_seconds": 30,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "response_seconds_per_attempt": 600
+  },
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json",
+    "sha256": "61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca",
+    "size_bytes": 74742
+  },
+  "model_observation_after_handoff": false,
+  "old50charges_preserved": true,
+  "old_UNKNOWN_outcome_and_usage_unresolved": true,
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_admission.json",
+    "sha256": "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+    "size_bytes": 35471
+  },
+  "owner_command_delivery_allowed": true,
+  "owner_run_executed": false,
+  "pending_at_freeze_preflight_condition_now_satisfied": true,
+  "production_ACK_applied": false,
+  "production_preflight_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_gate_v01_result_review.json",
+    "sha256": "fb755989357c4d9b5bb25e87e29da8260666b1326c67d6cf1e425064945aa762",
+    "size_bytes": 12103
+  },
+  "reviewed_at_utc": "2026-10-21T10:29:29.031651+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "round_role_calls": [
+    3,
+    3
+  ],
+  "scenario": "remaining_only",
+  "schema": "radik.stage05.owner_gate_final_readiness.v05",
+  "scope": "Retained independently accepted v04 controls and prior scoped native evidence, exact v05 source/data wiring, plus actual final-bytes real production owner predicate. This is readiness for the owner to start once, not a new live Stage05 acceptance.",
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/runtime_source_review.json",
+    "sha256": "fe1c0da683998b3a1804ea507c2eeb1c7f1a06701fa1b2bcdddfce0adef3af05",
+    "size_bytes": 124583
+  },
+  "status": "ACCEPTED_FINAL_PRODUCTION_PREDICATE_FOR_ONE_EXPLICIT_OWNER_HANDOFF"
+}

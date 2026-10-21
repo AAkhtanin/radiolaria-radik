@@ -1,0 +1,77 @@
+{
+  "Stage05_acceptance": false,
+  "argv_exact": [
+    ".venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "review/stage05_qualified_experience_passage/v05/owner_terminal.py",
+    "--admission-sha256",
+    "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+    "--acknowledge-unknown",
+    "radik-call:c146081f7b9a4d649f3c7e916189271e"
+  ],
+  "command_executed": false,
+  "command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_owner_gate_repair_owner_handoff_v05/OWNER_COMMAND.txt",
+    "sha256": "61008790de8bce29efb1b04b4155d66b1695de00969fac0d9de3ba944e560579",
+    "size_bytes": 293
+  },
+  "cwd": "/Users/admin/Projects/RadiolariaRadik",
+  "delivery_scope": "One explicit future owner command. The engineering passage ends after verified return delivery; reviewer does not run or monitor this command.",
+  "expected_role_calls": 6,
+  "explicit_selected_UNKNOWN": "radik-call:c146081f7b9a4d649f3c7e916189271e",
+  "interpreter_ref": {
+    "mode": 493,
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "limits": {
+    "cleanup_seconds": 30,
+    "early_checkpoint_seconds": 600,
+    "event_row_bytes": 65536,
+    "event_rows": 8192,
+    "evidence_bytes": 67108864,
+    "input_bytes": 67108864,
+    "input_count": 1024,
+    "interrupt_grace_seconds": 10,
+    "kill_wait_seconds": 5,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "poll_seconds": 0.05,
+    "receipt_bytes": 4194304,
+    "semantic_idle_seconds": 900,
+    "status_seconds": 30,
+    "stdout_bytes": 33554432,
+    "terminate_grace_seconds": 5
+  },
+  "model_observation_after_handoff": false,
+  "new_admission_unconsumed": true,
+  "old_v04_admission_not_reused": true,
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_admission.json",
+    "sha256": "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+    "size_bytes": 35471
+  },
+  "production_ACK_applied": false,
+  "production_preflight_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_gate_v01_result_review.json",
+    "sha256": "fb755989357c4d9b5bb25e87e29da8260666b1326c67d6cf1e425064945aa762",
+    "size_bytes": 12103
+  },
+  "readiness_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_final_readiness.json",
+    "sha256": "2f55e8ec59b8b7d02e3cda77bc41b12e90925a555545ddcd43bf0c441ecad779",
+    "size_bytes": 3210
+  },
+  "remaining_only": true,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_command_review.v05",
+  "status": "STATIC_COMMAND_ACCEPTED_AFTER_EXACT_REAL_PRODUCTION_PREFLIGHT",
+  "supervisor_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_terminal.py",
+    "sha256": "f74a9f6694b41107728a01c02b1c6f0989708ad471302ad42ea63adfc5dcce8a",
+    "size_bytes": 72882
+  }
+}

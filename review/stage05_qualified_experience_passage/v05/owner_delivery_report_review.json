@@ -1,0 +1,58 @@
+{
+  "Stage05_acceptance": false,
+  "accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/execution_accounting/OWNER_GATE_V01.json",
+    "sha256": "bf74093e3356d228f594410a1dc4ecb008e37fc6eb35a0e89f28a4349d4b85cc",
+    "size_bytes": 5121
+  },
+  "actual_failure_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_100823_result_review.json",
+    "sha256": "90e35604746dc289f878e034eff292ce37908b8530427376d2b541120ab1c179",
+    "size_bytes": 8249
+  },
+  "checks": [
+    "Exact original status mismatch and prelaunch no-child facts retained.",
+    "Canonical focused producer scope distinguished from separate final-bytes production predicate actual.",
+    "Eight exact negative cases,736 raw input bindings and5.486924083-second conservative execution charge reported correctly.",
+    "50 charges and selected active UNKNOWN remain unchanged; no production ACK or new owner reservation.",
+    "Six fresh roles and unchanged5400/1500/600/30 ceilings, no native E/provider budget expansion.",
+    "Owner semantic outcome remains unobserved and Stage05 not accepted.",
+    "Report references forthcoming local source commit receipts rather than inventing a commit; final packaging grant must bind the actual receipts."
+  ],
+  "command_executed": false,
+  "command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_owner_gate_repair_owner_handoff_v05/OWNER_COMMAND.txt",
+    "sha256": "61008790de8bce29efb1b04b4155d66b1695de00969fac0d9de3ba944e560579",
+    "size_bytes": 293
+  },
+  "command_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_command_review.json",
+    "sha256": "4f2c2857f4cb73faa69b980ae437a631f93a85a237cb8486595dcc816eac48b6",
+    "size_bytes": 2990
+  },
+  "delivery_refs_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_delivery_report_refs.json",
+    "sha256": "5d43cf75e8265faf9ad604f90ac7d6402c412af07417684662558afd0b361438",
+    "size_bytes": 677
+  },
+  "findings": [],
+  "packaging_execution_authorized": false,
+  "production_preflight_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_gate_v01_result_review.json",
+    "sha256": "fb755989357c4d9b5bb25e87e29da8260666b1326c67d6cf1e425064945aa762",
+    "size_bytes": 12103
+  },
+  "readiness_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_final_readiness.json",
+    "sha256": "2f55e8ec59b8b7d02e3cda77bc41b12e90925a555545ddcd43bf0c441ecad779",
+    "size_bytes": 3210
+  },
+  "report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_owner_gate_repair_owner_handoff_v05/README_FIRST_RU.txt",
+    "sha256": "38b2450f6b102a9e6c96aa67d774e02362886e968641f01c62dd4ff0eec8664b",
+    "size_bytes": 9541
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_delivery_report_review.v05",
+  "status": "ACCEPTED_FACTUAL_REPORT_AND_UNEXECUTED_OWNER_COMMAND"
+}

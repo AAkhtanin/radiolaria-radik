@@ -1,0 +1,49 @@
+{
+  "approved_invocation_count": 1,
+  "excluded": [
+    "installer",
+    "owner main",
+    "select and require_external_owner actions",
+    "production reservation or ACK",
+    "AUTH/provider/model/native Work/E/SAVE",
+    "live Stage05 acceptance"
+  ],
+  "finite_input_bytes": 29285703,
+  "finite_input_count": 736,
+  "network": "DENIED",
+  "normal_reader_dependency_closure_verified": true,
+  "peer_source_review_ref": null,
+  "production_writes_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_proposal.json",
+    "sha256": "769140022c2eac57e8d25e98a5be7de43ce27fe7002d7d3e4c51c4530a2db2e6",
+    "size_bytes": 169953
+  },
+  "reviewed_at_utc": "2026-10-21T10:27:20.825035+00:00",
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight.py",
+    "sha256": "acfd039fc48fd90997ec2aa0027c8d3487bd828aa0833e51de3a4c1e87eba5c3",
+    "size_bytes": 12602
+  },
+  "schema": "radik.stage05.owner_gate_preflight_source_review.v05",
+  "scope": [
+    "Full exact-pinned old and current gate modules only, stdlib imports, real project and unchanged normal raw readers.",
+    "Real old load_profile and owner_eligibility must reproduce the exact original focused contract refusal.",
+    "Real current load_profile and owner_eligibility must accept the exact frozen final manifest/admission/focused review.",
+    "Eight separate negative JSON cases call the exact production shared helper; no real accepted input is mutated.",
+    "Final actual acceptance additionally requires all736 raw inputs unchanged, seven absent markers, outer receipt/reap and final tool closure."
+  ],
+  "source_findings": [],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/owner_gate_source_independent_review.json",
+    "sha256": "7d0eb7da6dbd7d4c840393f195abc9a346400ff2c8544f30c58b3ff401680402",
+    "size_bytes": 3895
+  },
+  "status": "SOURCE_ACCEPTED_FOR_ONE_REAL_READ_ONLY_PRODUCTION_PREDICATE_PREFLIGHT",
+  "supervisor_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor_independent_source_review.json",
+    "sha256": "aa43cc8c66e15c805989cb99325072c85c5644e88f04f5451bf1d731af60c0bd",
+    "size_bytes": 1117
+  }
+}

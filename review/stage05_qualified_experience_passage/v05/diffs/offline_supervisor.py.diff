@@ -1,0 +1,11 @@
+--- review/stage05_qualified_experience_passage/v04/offline_supervisor.py
++++ review/stage05_qualified_experience_passage/v05/offline_supervisor.py
+@@ -18,7 +18,7 @@
+ import sys
+ 
+ PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-BASE = 'review/stage05_qualified_experience_passage/v04'
++BASE = 'review/stage05_qualified_experience_passage/v05'
+ SELF = BASE + '/offline_supervisor.py'
+ TOTAL_SECONDS = 300
+ NS = 10**9

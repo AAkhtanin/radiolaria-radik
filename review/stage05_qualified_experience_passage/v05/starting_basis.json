@@ -1,0 +1,87 @@
+{
+  "actual_preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/actual_preservation.json",
+    "sha256": "6409aafed021759e3eb78fb0fafbab7843b5dca9a9b257b50980e0feab20fc1f",
+    "size_bytes": 2156
+  },
+  "execution_budget_seconds": 300,
+  "owner_actual_executed": false,
+  "parent_local_commit": "de5d05874f83577465813ea5fc7fafea5a26a276",
+  "prior_return_sha256": "e9396ef53b5123ddc6983ea11d72e0f7d913712eeb7e49780083d0c16a59ffe9",
+  "production_ACK": false,
+  "protected_refs": [
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "70d61cf8a8ae3da2fc09f3dabf1ff9f728a345637cd62359ad029af24394ce97",
+      "size_bytes": 233
+    },
+    {
+      "path": "state/application_profile_install.json",
+      "sha256": "6f5a3ae3d692679a62a005f93baf813240115f53c735a4579e55afb59c959f3e",
+      "size_bytes": 6708
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/owner_admission.json",
+      "sha256": "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+      "size_bytes": 34928
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/focused_stage05_result_review.json",
+      "sha256": "99ed4266fa04e76909b8133f0b8a998de82e9335ade1a5d0f171dfcf97374dc0",
+      "size_bytes": 35738
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/ordinary_profile_manifest.json",
+      "sha256": "99b87d4fc16ac49793c37339f03709d8b8b498c0a5580d27b6a9dd0aa3ee676a",
+      "size_bytes": 74742
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/runtime_source_review.json",
+      "sha256": "d6c8cf213c8308ce1fb73ffac03934ab0715d24aec7a7de65ece21c82eefbd19",
+      "size_bytes": 126531
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/owner_source_review.json",
+      "sha256": "f2d01f0c86b21720020a6c71740431009dc1f672c0a16ac2c7ba310a3d9c3b2a",
+      "size_bytes": 37539
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_proposal.json",
+      "sha256": "ad3f909450b8a1e6241f0975129ad3f9f14bfbc7df18f03a4d80d15950c58400",
+      "size_bytes": 3378
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v04/unknown_disposition_review.json",
+      "sha256": "6fd2ac540816800cbbabf1f0f8880bb81aab8cc785a098fc5628720aa1ed7b9d",
+      "size_bytes": 557
+    }
+  ],
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "schema": "radik.stage05.owner_gate_repair_basis.v05"
+}

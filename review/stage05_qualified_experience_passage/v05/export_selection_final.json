@@ -1,0 +1,678 @@
+{
+  "file_count": 131,
+  "files": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/activate_profile.py",
+      "sha256": "2ee7252e3ddd4d8cb9ac91ed509b4aad8dd766401910cdc9b98fec5d2db43798",
+      "size_bytes": 20270
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/actual_preservation.json",
+      "sha256": "6409aafed021759e3eb78fb0fafbab7843b5dca9a9b257b50980e0feab20fc1f",
+      "size_bytes": 2156
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_100823_result_review.json",
+      "sha256": "90e35604746dc289f878e034eff292ce37908b8530427376d2b541120ab1c179",
+      "size_bytes": 8249
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/actual_review/owner_gate_v01_result_review.json",
+      "sha256": "fb755989357c4d9b5bb25e87e29da8260666b1326c67d6cf1e425064945aa762",
+      "size_bytes": 12103
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "size_bytes": 85
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/codex_transport.py",
+      "sha256": "4c0cca49296dfe85605ab85d2c3eaa0faf7990ac895a84329df23764ddf292c6",
+      "size_bytes": 40498
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+      "size_bytes": 34050
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/controller.py",
+      "sha256": "f4fddb63c85b92277ff5f2f1e4332bad8331a6105e1025701bdf6f0dffd15a6a",
+      "size_bytes": 25597
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/document_integration.py",
+      "sha256": "bde090a05c9d81b1ff00a1fe511249102f4485afa5c77fb1e8bd0bc2d6668075",
+      "size_bytes": 3897
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/document_temporal.py",
+      "sha256": "0a488f7d62349d1b7ed935d01d2661cba209934e2d4744924203e3208ea68382",
+      "size_bytes": 2220
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_control.py",
+      "sha256": "32e1b99639a3d1424cadd446a01f1a1bb65a508ef541a34233a3f31e1eb4cc9c",
+      "size_bytes": 6732
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_delta.py",
+      "sha256": "4737ce547ccbb7da6b70cb2f957cec0cc0f195058570b133f84269bb2e58fbfb",
+      "size_bytes": 25737
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_delta_graph.py",
+      "sha256": "4594f00e07a160e734a9abf63f727d3eb516c70ef4dfc769319c91130f160da8",
+      "size_bytes": 4740
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_delta_source.py",
+      "sha256": "c23d5913198b209fed8decec5bec87a2a77c40b802b9b196a69121362b46e94c",
+      "size_bytes": 10498
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_delta_work.py",
+      "sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "size_bytes": 2938
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_native.py",
+      "sha256": "8a33b208f0b24c4c3ff857673a0890bd7630703430f1838db2074fc79cfa4ce9",
+      "size_bytes": 64736
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_roles.py",
+      "sha256": "35a5aa0b86a62d5810fbbc81936b852a2a212f862e792e9ab5b3c93d92023fce",
+      "size_bytes": 24398
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_semantics.py",
+      "sha256": "ec2e206f4361e2009ba9e996751e1ad470bd447c4f975b92ad26377fd47438ed",
+      "size_bytes": 17051
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_temporal.py",
+      "sha256": "c4e76baf9aced7e8393dde30134a79d45ea2b3f00801b7b4ed732cb4de046cac",
+      "size_bytes": 1898
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/dynamic_work.py",
+      "sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "size_bytes": 20198
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/evidence.py",
+      "sha256": "f4a5b87bdc48d107e8abc9a85d7308f93566ba07604d3aa7e0e02bf034266410",
+      "size_bytes": 1707
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/informational_control.py",
+      "sha256": "8cf81c4c4309d6bdbc6e9220f1d161aebdcb184f706af6ad8d050629c476963d",
+      "size_bytes": 20911
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/informational_core.py",
+      "sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "size_bytes": 21710
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/informational_document.py",
+      "sha256": "7127025cfa903da696ec772ca835b454cf3571d809e51d3a0be63bce902728f0",
+      "size_bytes": 927
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/informational_material.py",
+      "sha256": "eb08587d9070e40e354827ddad57e13cf7d0a08b90be14b055c6ae80497edccb",
+      "size_bytes": 5177
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/intake.py",
+      "sha256": "a4726a6ef6ef6a4e70f9b984662fee8d0e91d4dac1ecf0038804f5df86e86b74",
+      "size_bytes": 4307
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/memory.py",
+      "sha256": "163126dcb8f1eb39845bb04427b60df85dc2b21941d4d0ae3ad68552582ccf43",
+      "size_bytes": 43331
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/native_authority.py",
+      "sha256": "396cb73d66212cb7c18f914243f857cdd273a8c01a9735fd8c3104be2af38027",
+      "size_bytes": 40593
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/native_document.py",
+      "sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "size_bytes": 107036
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/native_report_observer.py",
+      "sha256": "e81e3b942775cd3acd62a3c6a11ce7f37411c01392565599c717787a2a94d321",
+      "size_bytes": 28998
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+      "size_bytes": 8996
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/openai_plan_transport.py",
+      "sha256": "059a972bf66f4312b83d89d2391cb4a23b199ec3c10bd4b4fa6b13faf44cb355",
+      "size_bytes": 120217
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/ordinary_entry.py",
+      "sha256": "080a41683fa304015ff5b7540c8d2016b606566346035b734b02162b9fdb39d9",
+      "size_bytes": 28230
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/ordinary_rehearsal.py",
+      "sha256": "c8f79a5a53037206184623cd79beb6f33f83c08d29791045bcf4eee6cde139fd",
+      "size_bytes": 10160
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/owner_scenario.py",
+      "sha256": "7afb0a5027584013d71747f8d3c5d43fb25917e709f0df657486f499267fef80",
+      "size_bytes": 30119
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/plan_auth.py",
+      "sha256": "d333161b677ec920aa60c1eb20851dd18d327a44f645471bcc9837c586382783",
+      "size_bytes": 50844
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/proposal.py",
+      "sha256": "07f50480f658f7679a8204d54e1531fc6d649f8674493f9ca913704b1f5f8b1f",
+      "size_bytes": 753
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/qualified_experience.py",
+      "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+      "size_bytes": 56127
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/qualified_experience_scenario.py",
+      "sha256": "d487d32709a4f1483780f5d10b3b2de48b1c4fa0a979c89f6f04bf4ce31aa9ec",
+      "size_bytes": 24978
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/qualified_experience_work.py",
+      "sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "size_bytes": 4819
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/qualified_strategy.py",
+      "sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "size_bytes": 36122
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/runtime.py",
+      "sha256": "ae55cb1b4730aefc08c9654a5bb14a42f5f02ef1ce76c104d932521ecdb35912",
+      "size_bytes": 46927
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/save_quota.py",
+      "sha256": "a65b3185936688823360694e26e34f2463938ea00492f058e51a1792c98fd901",
+      "size_bytes": 15084
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/semantic_membrane.py",
+      "sha256": "4c584fcd6021dba6401230412977925c494bf56b03d12fb423e43a34d1a64c99",
+      "size_bytes": 8173
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/source_admission.py",
+      "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+      "size_bytes": 12934
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/source_successor.py",
+      "sha256": "0082c1c54c7b51f5727501e76c69f6264e3b060db2ab781d6313463a0c6e5303",
+      "size_bytes": 10775
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/stage04_diagnostics.py",
+      "sha256": "c66b701c47e776079dfde23e6ed59d013df4fe3e87f1d631fcc50f8399777c42",
+      "size_bytes": 135084
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/stage04_native_scenario.py",
+      "sha256": "c23c722d00094ba4a44beb872ef522e8811263472a644ef70fc8d6151d07ab83",
+      "size_bytes": 15712
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/stream_observation.py",
+      "sha256": "33bed4e8faa5abe6c988c69cbd11710ac0207cba10c257a26e662576db356cc6",
+      "size_bytes": 25801
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53",
+      "size_bytes": 5066
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/app/task_store.py",
+      "sha256": "8ac9ab64d7c1437f357223a8e89703d78aa7cca97abcbbc52dd9f4b274db45ce",
+      "size_bytes": 30541
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/config/application_profile_gate.py",
+      "sha256": "60e89f5c60ca91e19f41a2475102af9ef61b8e0fdb1fcc66584357b28eac575d",
+      "size_bytes": 15276
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/config/launch.py",
+      "sha256": "1df09cec18dbd75d93f06b1cecdaeeb28e678a39f9af0eb7b1c66741662d797d",
+      "size_bytes": 11021
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/config/native_profile_loader.py",
+      "sha256": "66fc2e7ce35751d551394c4c44db65f7d87c669a119caa3af4910525eef71e58",
+      "size_bytes": 3032
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/review/transport/direct_plan_gate.py",
+      "sha256": "5a0e21729f6e621ae00053f65db04c1d9200cdbb7827963154a9bd82b829c8e6",
+      "size_bytes": 33498
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/after/review/transport/radik_owner_start.py",
+      "sha256": "c950c8bd34fe073e512a3b92ab4c6027d4bb1d1fbb66bd4dd219d60872e424cd",
+      "size_bytes": 143855
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before/after/config/application_profile_gate.py",
+      "sha256": "d3788f881fa114e40c3d1caaf6a9ab20c081f1459dd944c9b0172f8b565eb4c3",
+      "size_bytes": 15071
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before/focused_stage05_result_review.json",
+      "sha256": "99ed4266fa04e76909b8133f0b8a998de82e9335ade1a5d0f171dfcf97374dc0",
+      "size_bytes": 35738
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before/ordinary_profile_manifest.json",
+      "sha256": "99b87d4fc16ac49793c37339f03709d8b8b498c0a5580d27b6a9dd0aa3ee676a",
+      "size_bytes": 74742
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before/owner_admission.json",
+      "sha256": "e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573",
+      "size_bytes": 34928
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before/owner_profile_controls.py",
+      "sha256": "66babdc350aa27cb62803793867f7f4e1bf968b89fbb96a8f61ce83ed8d1abf6",
+      "size_bytes": 25027
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/before_inventory.json",
+      "sha256": "0003d2949f72d67c8b42dad3c04bdd508f531d697eea24b0c42cbf46efb23545",
+      "size_bytes": 2673
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/build_return.py",
+      "sha256": "253a95d7f4fbbe0b44db6278fcf395aefec5b4cf187b51e7064ece402892512d",
+      "size_bytes": 13317
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/activate_profile.py.diff",
+      "sha256": "7b7fcf6cadd2c4453fc2efdaba18f57663e16ad259d6216faefa7fa112ef6615",
+      "size_bytes": 495
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/app__ordinary_entry.py.diff",
+      "sha256": "985f77f14e7c0b96ed77ab0c2ffe5cda7e93a2842e9fd9901c2fb0b0d02f5ed3",
+      "size_bytes": 1269
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/app__qualified_experience_scenario.py.diff",
+      "sha256": "bffd628ac79937954d6ad2211edcd438a27a7ad88ff1183a6087237355389c1d",
+      "size_bytes": 520
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/build_return.py.diff",
+      "sha256": "5c01ffcf691dcbbea841e8f9dc6722c16f39278703556d7d1ce99833e1fdc7ff",
+      "size_bytes": 1311
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/config__application_profile_gate.py.diff",
+      "sha256": "10a54282b8b7e1d415d762049538441c1c1ac63dd5dd3c0230b38f4f15140039",
+      "size_bytes": 2401
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/offline_supervisor.py.diff",
+      "sha256": "1d77be942998520971b5d1cc23fd47af8ae05a65ad2077f3957a45a991bfe5c4",
+      "size_bytes": 426
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/owner_terminal.py.diff",
+      "sha256": "8ae73db541a7b2f2f7b610e28f9fdd8cabb87986d06269eb71b4de3b102af5ed",
+      "size_bytes": 537
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/diffs/review__transport__radik_owner_start.py.diff",
+      "sha256": "f0022e34d68099d5825c3fcf78d017dd152df520969b5e8a74ebd4f1b8201425",
+      "size_bytes": 816
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/execution_accounting/OWNER_GATE_V01.json",
+      "sha256": "bf74093e3356d228f594410a1dc4ecb008e37fc6eb35a0e89f28a4349d4b85cc",
+      "size_bytes": 5121
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/final_metadata_source_binding_review.json",
+      "sha256": "ca11acaea895273227c6dfd98beabaa44646e47fb2ef371b444ea530446d599a",
+      "size_bytes": 2970
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/focused_stage05_result_review.json",
+      "sha256": "563d48b6aab6d6ed96a25b406da53d6e4e8c7e908ca3ffb57cdab33de184300c",
+      "size_bytes": 37280
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/grants/OWNER_GATE_V01.json",
+      "sha256": "95c6cc8896667fea59af57d5ef1b14edf42534e21e9b5a564d3d7842a498fdd8",
+      "size_bytes": 2314
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/inputs/scenario.json",
+      "sha256": "a750db134c4281a46eaa45ae2f9cc387c8559dbe5772e3ee4d3cf6f40164e250",
+      "size_bytes": 6485
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/child_stdout.raw",
+      "sha256": "6b4971a159e7064ffe43c031b7579ff8f96d7cfa6685bdfdd796913ff17622c2",
+      "size_bytes": 233
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/completion.json",
+      "sha256": "287885756f6bac5d43a2ef5241d985a3fd7af3c7c0da62ecee4dc24fac0c221a",
+      "size_bytes": 680
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/final_tool_outcome.json",
+      "sha256": "a5b786fbbb677e9f7c572f5da9facfd82f9877c4a6118beb5bacbdd9c41a6e15",
+      "size_bytes": 394
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/invocation.json",
+      "sha256": "a8155e439a00e4be354f06ac70562e9f98f308d1b9b6d9478a39e3e88aa1b44f",
+      "size_bytes": 372
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/receipt.json",
+      "sha256": "638ab839e728509a427c79155445ad2991fc7e488be555e0f9eb9640e343204b",
+      "size_bytes": 1229
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/supervisor/reservation.json",
+      "sha256": "a43c3ebd43d7290c20f895ba00140851f92dda815c77abcbdeea7143dd3c8456",
+      "size_bytes": 314
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_arbitrary_pass.json",
+      "sha256": "afee88a681a04b1d8ba5dd5f381519ccca15f373621d6c6765d83560d8a332ef",
+      "size_bytes": 35499
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_changed_focused_pins.json",
+      "sha256": "fd2bedc4db47bb01a9a1706915e16e5e5258ff56425ded3cd6b93cfe7ecef09f",
+      "size_bytes": 35543
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_controls.json",
+      "sha256": "aba84e099c1a9477e7056fcb9ec196b68f29344cfa37eeb7222e8c2d95939848",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_false_owner_authorization.json",
+      "sha256": "846875d45fc434266da5e1925c537b9812054de1ba401727ae1b4c4c99037fa2",
+      "size_bytes": 35544
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_incompatible_status.json",
+      "sha256": "a08fc8e7885d22b59fae6ed5e1d95a1f78a1bd87a131559506b7cc1868faa32e",
+      "size_bytes": 35559
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/negative_wrong_reviewer.json",
+      "sha256": "edbf3938e4c0c41ffef760c9e021409e908bd97f6c50080703f13c8bdee3783f",
+      "size_bytes": 35539
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/reservation.json",
+      "sha256": "29e04032ea1848edfdab274ce2cce43b240b78dc001d775a7af36684f1d5c608",
+      "size_bytes": 214
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_actual/OWNER_GATE_V01/work/result.json",
+      "sha256": "8aa78c8b4c85861e0c5874b5e16ff8e223d4563b467d5513fe3c2b327af42e93",
+      "size_bytes": 6614
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor.py",
+      "sha256": "64d40320df632ce6f5a7ef8a5feef171cce15d43802cad3d9123c2b9d67f0cc2",
+      "size_bytes": 17572
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/offline_supervisor_independent_source_review.json",
+      "sha256": "aa43cc8c66e15c805989cb99325072c85c5644e88f04f5451bf1d731af60c0bd",
+      "size_bytes": 1117
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json",
+      "sha256": "61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca",
+      "size_bytes": 74742
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/receipt.json",
+      "sha256": "bba9cee8f8400723a7b8df8f259f1fb70480e63452242f6d2324995a4c1cf097",
+      "size_bytes": 350
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/review/stage05_qualified_experience_passage/v04/owner_terminal_runs/OWNER_20261021T100823_88a1ec8b2d0149aaa23ee6dbeb090cc2/reservation_outcome.json",
+      "sha256": "e5f49c4519fbea68a1af3d7bdcf4299ab6ddd8b80be82dc190c2bbcff389b1ff",
+      "size_bytes": 1136
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/state/application_profile.json",
+      "sha256": "70d61cf8a8ae3da2fc09f3dabf1ff9f728a345637cd62359ad029af24394ce97",
+      "size_bytes": 233
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/state/application_profile_install.json",
+      "sha256": "6f5a3ae3d692679a62a005f93baf813240115f53c735a4579e55afb59c959f3e",
+      "size_bytes": 6708
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/state/console_model_turns.json",
+      "sha256": "508027c207fe79dcb4e837491c77af34877400a16f8cff00307ba01fb504d54a",
+      "size_bytes": 125580
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/state/stage05_owner_scenario_reservations/e6724c0ec6e21b8209b435363d3af9a3fbfa939d56786cc1a98788fdf1af5573.json",
+      "sha256": "776e1758f5a76bc176a584438212322150e9796dd9fcad5d9f3406e0f17281b7",
+      "size_bytes": 1148
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "6be97d7f65156e14a210ab3d0a2039eb7ac6825569fff55c97a274fabe398c9f",
+      "size_bytes": 68324
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_admission.json",
+      "sha256": "1a190b976f91fac32a5aadcf403b6021ab0dd019dc97bd25a0c72f1886ad5a87",
+      "size_bytes": 35471
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_command_review.json",
+      "sha256": "4f2c2857f4cb73faa69b980ae437a631f93a85a237cb8486595dcc816eac48b6",
+      "size_bytes": 2990
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_delivery_report_refs.json",
+      "sha256": "5d43cf75e8265faf9ad604f90ac7d6402c412af07417684662558afd0b361438",
+      "size_bytes": 677
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_delivery_report_review.json",
+      "sha256": "3851b7ef732679c627d7ea307b6896a3e5d3efcd287310671fab1851dca5f76f",
+      "size_bytes": 2969
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_gate_final_readiness.json",
+      "sha256": "2f55e8ec59b8b7d02e3cda77bc41b12e90925a555545ddcd43bf0c441ecad779",
+      "size_bytes": 3210
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight.py",
+      "sha256": "acfd039fc48fd90997ec2aa0027c8d3487bd828aa0833e51de3a4c1e87eba5c3",
+      "size_bytes": 12602
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_independent_source_review.json",
+      "sha256": "f5506ee954a99f2737d9ff441040124be4fd8487fbff0bb332b2dbfc93c68630",
+      "size_bytes": 2327
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_gate_preflight_proposal.json",
+      "sha256": "769140022c2eac57e8d25e98a5be7de43ce27fe7002d7d3e4c51c4530a2db2e6",
+      "size_bytes": 169953
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_gate_source_independent_review.json",
+      "sha256": "7d0eb7da6dbd7d4c840393f195abc9a346400ff2c8544f30c58b3ff401680402",
+      "size_bytes": 3895
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_source_review.json",
+      "sha256": "2f8e553ff82d1e1e463d9965df64ee4b6b530a45a275acf34eade48fb85a643e",
+      "size_bytes": 35406
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/owner_terminal.py",
+      "sha256": "f74a9f6694b41107728a01c02b1c6f0989708ad471302ad42ea63adfc5dcce8a",
+      "size_bytes": 72882
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/post_preflight_protected_state.json",
+      "sha256": "b2518c68fc6142b6beee875dec412161d4703c6c3e7c35261524e29207d54b7c",
+      "size_bytes": 3344
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/predecessor_install_state.json",
+      "sha256": "bad2fd526f7efb5c99d75c30422a93829261f7e1ba7dc70a41410a2275f3b145",
+      "size_bytes": 45895
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/preflight_dependency_omissions.json",
+      "sha256": "270e23dc45fceda5dcfc7cb890f6c3acf6c8cc95df0c746a14ef9105c89cb6a4",
+      "size_bytes": 277176
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/profile_metadata_draft.json",
+      "sha256": "fde47456d14a7f5082d087e896f409b405d67e4a413d6b87138711fddce197f0",
+      "size_bytes": 168426
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/profile_source_admission.json",
+      "sha256": "c4649ad2573b05d5f259a9ac52118427d99b8614ef4ad481af01cb9231c43a76",
+      "size_bytes": 578
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/return_adapter_independent_source_review.json",
+      "sha256": "b897210f5e95572576f05df588b70563ef71d0db8c42f7414c1c7c76bccce1db",
+      "size_bytes": 1461
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/runtime_source_review.json",
+      "sha256": "fe1c0da683998b3a1804ea507c2eeb1c7f1a06701fa1b2bcdddfce0adef3af05",
+      "size_bytes": 124583
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/source_change_inventory.json",
+      "sha256": "38955dd05b4729f9a82c336e7d9d8d1047717a80624174935c0ffd891652db00",
+      "size_bytes": 2894
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/source_history/before_latest_consumed_reservation/predecessor_install_state.json",
+      "sha256": "0db37fa7d3100f819fa48e8562c4025b8f33e3354a7a2bcd93d3484df4583f8c",
+      "size_bytes": 45644
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/source_history/before_latest_consumed_reservation/profile_metadata_draft.json",
+      "sha256": "8e2f278f82b9e53372f61a31cc1dc9c1c5200f9507a4a57e3e0736dbe9011d7a",
+      "size_bytes": 168426
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/starting_basis.json",
+      "sha256": "439f1f7cf4b275f3010f4d9792fbfb38b38b6dbe5fe280ffc79eb3e73f524e11",
+      "size_bytes": 3397
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/supervisor_timing.py",
+      "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+      "size_bytes": 16726
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_proposal.json",
+      "sha256": "de6e28d9f017b9abb97507ed65917ceaf1edd06e47863ce4a818ed7e2e7f80d6",
+      "size_bytes": 3378
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_reference_review.json",
+      "sha256": "67631b7d9dded33111a130c3001ba05ad036099aea851722c5a39d39a8401c37",
+      "size_bytes": 1943
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v05/unknown_disposition_review.json",
+      "sha256": "7e7f1c7ffd1a0c544b10609cc6dfe222f9ac5bb6dd8c9c546fe53de82ad998b6",
+      "size_bytes": 557
+    }
+  ],
+  "owner_command_executed": false,
+  "parent_local_commit": "de5d05874f83577465813ea5fc7fafea5a26a276",
+  "prior_archives": [
+    {
+      "binary_included": false,
+      "name": "RADIK_RETURN_20261021T095407.914170Z.tar.gz",
+      "sha256": "e9396ef53b5123ddc6983ea11d72e0f7d913712eeb7e49780083d0c16a59ffe9",
+      "whole_previous_payload_duplicated": false
+    }
+  ],
+  "production_application_installed": false,
+  "public_push": false,
+  "publication": "LOCAL_ONLY",
+  "schema": "radik.stage05.local_source_export_selection.v05",
+  "self_added_as_fixed_metadata_file": "review/stage05_qualified_experience_passage/v05/export_selection_final.json",
+  "self_included": false,
+  "size_bytes": 3729828,
+  "status": "FINAL_SOURCE_ACTUAL_SELECTION_FOR_ONE_LOCAL_COMMIT"
+}

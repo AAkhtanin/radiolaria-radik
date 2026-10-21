@@ -1,0 +1,24 @@
+--- review/stage05_qualified_experience_passage/v04/build_return.py
++++ review/stage05_qualified_experience_passage/v05/build_return.py
+@@ -12,10 +12,10 @@
+ import types
+ 
+ PROJECT = Path('/Users/admin/Projects/RadiolariaRadik')
+-BASE = 'review/stage05_qualified_experience_passage/v04'
++BASE = 'review/stage05_qualified_experience_passage/v05'
+ SELF = BASE + '/build_return.py'
+ PUBLISHER = 'review/package_direct_plan_return.py'
+-REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_finish_repair_owner_handoff_v04')
++REPORT_ROOT = Path('/Users/admin/Downloads/Radik/stage05_owner_gate_repair_owner_handoff_v05')
+ 
+ 
+ def require(ok, code):
+@@ -239,7 +239,7 @@
+         exception_archive_path = 'reviewed_basis/' + BASE + '/public_native_subject_exceptions.json'
+         require(exception_archive_path not in payload, 'return_subject_inventory_archive_collision')
+         payload[exception_archive_path] = exception_raw
+-    result = publisher._build(kind='source', key='stage05_finish_repair_owner_handoff_v04',
++    result = publisher._build(kind='source', key='stage05_owner_gate_repair_owner_handoff_v05',
+         payload=payload, record=review, review_raw=review_raw,
+         basis=selection['basis'], prior=selection['prior_archives'])
+     print(json.dumps(result, sort_keys=True), flush=True)

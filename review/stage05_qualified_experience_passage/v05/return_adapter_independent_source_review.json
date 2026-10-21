@@ -1,0 +1,29 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v05/build_return.py",
+    "sha256": "253a95d7f4fbbe0b44db6278fcf395aefec5b4cf187b51e7064ece402892512d",
+    "size_bytes": 13317
+  },
+  "application_or_owner_execution_granted": false,
+  "exact_delta": "Only passage BASE, external owner report root and unique publisher passage key change. Entire remaining source is byte-identical to accepted v04; exact reads, finite paths, public-subject predicates, secret scan and one-use publication reservation are unchanged.",
+  "execution_performed": false,
+  "packaging_execution_granted": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/build_return.py",
+    "sha256": "db764c62bdb0ca182537e2873fbe9245fdc486f1a70115b42cc59bd4d77eb339",
+    "size_bytes": 13309
+  },
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v04/return_adapter_independent_source_review.json",
+    "sha256": "d4a0b4cf0f019482aa447fd397748e53fbdda8068051a982a8dd66d479f9ca7a",
+    "size_bytes": 1195
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_adapter_source_review.v05",
+  "status": "SOURCE_ACCEPTED_PENDING_EXACT_FINAL_SELECTION_AND_ONE_USE_PACKAGING_GRANT"
+}

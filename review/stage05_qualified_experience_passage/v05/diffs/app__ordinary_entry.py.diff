@@ -1,0 +1,20 @@
+--- review/stage05_qualified_experience_passage/v04/after/app/ordinary_entry.py
++++ review/stage05_qualified_experience_passage/v05/after/app/ordinary_entry.py
+@@ -141,7 +141,7 @@
+ 
+ def _operation_timing_name(project, args, manifest, gate, *, inherited_clock):
+     """Select the short clock only for an exactly bound Stage05 launch."""
+-    stage05='review/stage05_qualified_experience_passage/v04'
++    stage05='review/stage05_qualified_experience_passage/v05'
+     launch_name=getattr(args,'owner_supervisor_launch',None)
+     selected=(inherited_clock and not args.owner_scenario and type(launch_name) is str
+         and launch_name.startswith(stage05+'/owner_terminal_runs/'))
+@@ -163,7 +163,7 @@
+ def _stage05_owner_disposition(project, args, selected, gate, *, owner_lock_fd,
+         owner_operation_id, run_id, source_identity_sha256, auth_source_identity_sha256):
+     """Consume only the explicit decision in the independently admitted launch."""
+-    stage05='review/stage05_qualified_experience_passage/v04'
++    stage05='review/stage05_qualified_experience_passage/v05'
+     launch_name=getattr(args,'owner_supervisor_launch',None)
+     if not (type(launch_name) is str and launch_name.startswith(stage05+'/owner_terminal_runs/')):
+         return None
