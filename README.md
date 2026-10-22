@@ -1,13 +1,17 @@
 # Radik informational task console
 
 <!-- RADIK_STAGE05_PUBLICATION_START -->
-## Stage 5 — experience changes the next check
+## Stage 5: experience changes the next check
 
-Stage 5 is accepted within Radik's qualified-experience profile. A prospectively recorded observation changes the next actual source check; a separate museum task receives no support-task lesson; a changed document invalidates the old binding before dispatch. Previously accepted G4 evidence shows finite work redistribution at the same budget. Six fresh role calls completed, all ten requirements are covered, and historical UNKNOWN outcomes remain visible.
+**Radik is an interactive application built on Radiolaria.** An answer can be saved; useful experience must also change what happens next, and stay tied to the work that produced it.
 
-[Read the recorded English scenario](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/README.md) · [Audit route](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/AUDIT_LOG.md) · [Read with your AI assistant](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/READ_RADIK_STAGE05.xml) · [Check the evidence](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/VERIFY.md)
+In the recorded Stage 5 example, Radik explains a support policy that leaves call prices unspecified. A separate source check records an unresolved condition. After fresh checks admit that experience, the next native operation changes from general verification to a targeted condition audit. When the task changes to a museum, the support lesson does not follow it. When the original document changes, the old source binding is refused before execution, without erasing the work already done.
 
-This is scoped experience and current consumption, not model-weight training or universal memory. Stage 4 remains accepted; Stage 6 is not started by this publication.
+**Experience changes the next check, not the rules.** All ten original Stage 5 requirements are accepted through the final operation and explicitly retained earlier evidence. This is qualified runtime experience, not model-weight training.
+
+[**Start with the recorded story**](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/START_HERE.md) · [Audit route](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/AUDIT_LOG.md) · [Read with your AI assistant](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/READ_RADIK_STAGE05.xml) · [Verify the evidence](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/VERIFY.md)
+
+Stage 4 remains accepted. Later Radik stages are separate integrations; this publication does not start them.
 <!-- RADIK_STAGE05_PUBLICATION_END -->
 
 <!-- RADIK_STAGE04_PUBLICATION_START -->
