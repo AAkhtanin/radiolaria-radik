@@ -1,0 +1,79 @@
+{
+  "ACK_applied": false,
+  "Stage05_accepted": false,
+  "accepted_scope": [
+    "Exact acceptedv06 transport integrated as SOURCE with both full dispatch guards unchanged.",
+    "Final182-pin58-alias candidate profile and594 historical-map source binding accepted.",
+    "Actual copied source gate and installedv05/current53 preserving-predecessor read paths passed.",
+    "Oldc146 context and new3d519 closed044 successor approval data validate separately; hook ordering checked as AST only.",
+    "Real production owner/focused predicates refuse because their authority files are intentionally absent."
+  ],
+  "accepted_v06_transport_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/after/app/openai_plan_transport.py",
+    "sha256": "68d18d3d9607b6fd094f1bde767e5566ce12fd876eb885718eb5f2c9f953c05d",
+    "size_bytes": 123966
+  },
+  "all_required_controls_passed": false,
+  "candidate_manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/ordinary_profile_manifest.json",
+    "sha256": "8cc18943d310117ad057df58e8c13aaf0c60dcaec47f798dabf2bd4cf94077bc",
+    "size_bytes": 76014
+  },
+  "charged_execution_ns": 12158639917,
+  "current_model_settings_calls": 0,
+  "execution_accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/execution_accounting/WIRING_PREFLIGHT_V01.json",
+    "sha256": "f0db7ab4fd48f66cdd7248ce6f1c2c0e2bd0b1c602ac7faef33d1c8985d5e194",
+    "size_bytes": 3727
+  },
+  "focused_canonical_PASS_issued": false,
+  "historical_EOF_cause": "UNKNOWN",
+  "next_paid_run_decision": "NO: insufficient production-cost evidence and no new owner authority. Preserve SOURCE preparation and require a separate explicit decision; issue no executable command.",
+  "owner_admission_created": false,
+  "owner_command_issued": false,
+  "owner_execution_authorized": false,
+  "paid_owner_admission_sufficient": false,
+  "production_profile_changed": false,
+  "production_reader_attempts": 1,
+  "reader_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/actual_review/installed_reader_v01_result_review.json",
+    "sha256": "629aca4131dc02819b5a6e8dcb7d903b26f753f2c8288bb4b6372c59c17809b7",
+    "size_bytes": 11571
+  },
+  "reader_repair_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/installed_reader_inventory_repair_independent_review.json",
+    "sha256": "ce3a9577f15bdd22ee04ac7d821b7e8e0aa11d94bb25f3b27e7286e8f7489188",
+    "size_bytes": 1184
+  },
+  "reader_retry_performed": false,
+  "remaining_concrete_blockers": [
+    "The sole installed-reader attempt was stopped by an incomplete harness read inventory before task_budget/current settings. Completed constructor/settings/history/profile costs and caller multiplicities remain unmeasured.",
+    "Five exact activation exam-recovery refs are identified for a future separately authorized inventory repair; downstream read closure must still be independently checked. No retry is authorized in this passage.",
+    "No current=True new successor dispatch, installation/ACK, or complete composed owner route was executed; narrow source/data credit does not establish these behaviors.",
+    "New focused/one-use owner authority intentionally remains absent, and production still holds53 charges with active3d519 UNKNOWN."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.after_v06_final_review.v07",
+  "source_integration_peer_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/source_integration_peer_review.json",
+    "sha256": "5bac59542d18078a55f65824d000b9a413cdb5dd88e3aee2a37fc2c263490938",
+    "size_bytes": 7012
+  },
+  "source_integration_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/source_integration_independent_review.json",
+    "sha256": "85d2559eef6dbd39f6c1a921115e965c96862ea4ba0ebb049930df33e329486b",
+    "size_bytes": 6152
+  },
+  "starting_state_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/actual_review/installed_reader_starting_state_review.json",
+    "sha256": "092bd39f072dfa7ecf816d91fddf7fbf53c7f48a5a2bea1f8d05b29e7d125ccf",
+    "size_bytes": 14460
+  },
+  "status": "SOURCE_WIRING_ACCEPTED_PRODUCTION_COST_UNMEASURED_NO_OWNER_ADMISSION",
+  "total_budget_seconds": 120,
+  "wiring_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/actual_review/narrow_wiring_v01_result_review.json",
+    "sha256": "f10a07fe5f41332a5e0796f1fde416f0e96f03014f667f7e9fbe6063c52d03f9",
+    "size_bytes": 7011
+  }
+}

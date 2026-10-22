@@ -1,0 +1,56 @@
+{
+  "checked": [
+    "Command targets exact frozen v09 owner supervisor and admission SHA, explicit current3d519 UNKNOWN; no hidden command or fallback.",
+    "Command is marked future Walker/owner review only. No production migration or owner invocation was executed.",
+    "English and Russian summaries match independently accepted phases, caller counts, source-import distinction, synthetic copied integration boundaries, preserved V01 setup failure and one metadata correction.",
+    "Final positive real gate/Terminal predicates and all182 pins are credited within their exact read-only scope; production v09 select/installation/ACK and Stage05 completion are not claimed.",
+    "Four closed diagnostic invocations sum48.187997458 seconds, including reserves, under the shared120-second cap.",
+    "Future cap remains six attempts in two fresh COLD rounds; historical server UNKNOWN and charges are preserved. Existing owner timing basis is unchanged and not inferred from the reader observation.",
+    "No inference of historical EOF cause, full dispatch cost, paid semantic acceptance or applied history optimization."
+  ],
+  "command_lines": 1,
+  "command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_reader_and_integration_completion_v09/OWNER_COMMAND.txt",
+    "sha256": "5376ccd5f78adf27038d85a339828cb6dcfc5cb0ca84f3511c219f0caeac9e7e",
+    "size_bytes": 789
+  },
+  "english_status_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/PASS_STATUS.md",
+    "sha256": "3a716149daa704927e6d21ca1c0fadd3028d168d3edeeb7d141ffc9aff978329",
+    "size_bytes": 7869
+  },
+  "exact_command": "cd /Users/admin/Projects/RadiolariaRadik && .venv-plan/bin/python -I -S -B review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py --admission-sha256 0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8 --acknowledge-unknown radik-call:3d5197d2edd747e8b4ec5dd56afcb16a",
+  "final_actual_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/actual_review/final_gate_preflight_result_review.json",
+    "sha256": "2ea16be06d49be3d307ee057b2a9d5f211fed2fef41e22feaa093450ca4cf1d5",
+    "size_bytes": 6076
+  },
+  "final_independent_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/final_independent_review.json",
+    "sha256": "0253648ed4ab6dd7f135b47554e972103a2e235bde1ee44135d6f744fce130d9",
+    "size_bytes": 5042
+  },
+  "future_owner_reservation_absent": true,
+  "measurement_table_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/reader_measurement_table.md",
+    "sha256": "7692313c8cac0375204ec769c0e4d41fe4e35ad62f21a10b850014e68bcddc28",
+    "size_bytes": 4539
+  },
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_admission.json",
+    "sha256": "0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8",
+    "size_bytes": 35626
+  },
+  "owner_command_executed": false,
+  "owner_execution_authorized_by_this_review": false,
+  "production_writes_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "russian_report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_reader_and_integration_completion_v09/OWNER_REPORT_RU.md",
+    "sha256": "abad04745e3b1a5e7f62b057f8d0b16c66b8659bf13f89ea1cf9544367ee5497",
+    "size_bytes": 7338
+  },
+  "schema": "radik.stage05.owner_command_report_review.v09",
+  "stage05_completion_established": false,
+  "status": "PASS_STATIC_FUTURE_COMMAND_AND_DELIVERY_REPORT"
+}

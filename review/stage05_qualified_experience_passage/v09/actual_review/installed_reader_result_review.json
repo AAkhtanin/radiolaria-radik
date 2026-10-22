@@ -1,0 +1,202 @@
+{
+  "AUTH_provider_model_native_Work_E_SAVE_calls": 0,
+  "TaskStore_source_reader_executed": false,
+  "absent_markers_unchanged": 10,
+  "actual_id": "INSTALLED_READER_V01",
+  "analysis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/reader_measurement_analysis.json",
+    "sha256": "d47df75748d9aff4b3e271ed6fbd74f0cfa9f8e8eeeac96adb388f9bc158162a",
+    "size_bytes": 26167
+  },
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/completion.json",
+    "sha256": "45cbe8e3518a6a0b2cbfdea57deb616f0ae742b41762ae1bc92336e70749e4f2",
+    "size_bytes": 694
+  },
+  "constructor_calls": 1,
+  "constructor_completions": 1,
+  "current_source_profile_select_and_owner_focused_predicates_completed_each_phase": true,
+  "file_reads_by_phase": [
+    {
+      "opens": 24749,
+      "phase": "CONSTRUCTOR",
+      "reader_opens": 24742,
+      "source_import_opens": 7,
+      "unique_paths": 1391
+    },
+    {
+      "opens": 24728,
+      "phase": "CURRENT_MODEL_SETTINGS",
+      "reader_opens": 24728,
+      "source_import_opens": 0,
+      "unique_paths": 1385
+    }
+  ],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INSTALLED_READER_V01.json",
+    "sha256": "d61f8f4d032e96a95d1c5f47a7f5b274cfa24aad9abaf56dc8646e14fd5c3d38",
+    "size_bytes": 3375
+  },
+  "historical_round_validation_is_not_current_dispatch_benchmark": true,
+  "limitations": [
+    "One instrumented current-state observation, including observer overhead; nested inclusive times must not be summed.",
+    "Constructor total audited opens include7 SOURCE_IMPORT opens; the remaining24742 are READER opens. Settings24728 are all READER opens.",
+    "Production remains installed v05. Candidate v09 integration and its changed current-profile/prepare/composed slots are separate pending controls.",
+    "Historical EOF/10.018-second cause and safe idle timeout are not established; those are not new passage prerequisites.",
+    "No paid owner run, operation, ACK, activation, round or attempt was created."
+  ],
+  "loaded_modules": [
+    {
+      "module": "app",
+      "path": "app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "size_bytes": 85
+    },
+    {
+      "module": "app.budget",
+      "path": "app/budget.py",
+      "sha256": "a9ff748ede24035f9716c9696b2681f11dfe4d8147d69ec55e0d8b9670ad4b9c",
+      "size_bytes": 63688
+    },
+    {
+      "module": "app.contracts",
+      "path": "app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b",
+      "size_bytes": 34050
+    },
+    {
+      "module": "review.transport.model_scope",
+      "path": "review/transport/model_scope.py",
+      "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6",
+      "size_bytes": 15477
+    },
+    {
+      "module": "app.task_budget",
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a",
+      "size_bytes": 24838
+    },
+    {
+      "module": "app.console_continuation",
+      "path": "app/console_continuation.py",
+      "sha256": "64ab43d178c535687e82fdbc88d0005ad5a4f8724aab976a155e693ead70a4e9",
+      "size_bytes": 103529
+    },
+    {
+      "module": "app.normal_session",
+      "path": "app/normal_session.py",
+      "sha256": "2d88e46d803cbb7fd3d0a4dd20ba2d8169375b007a152f905235a4c6c972f2a3",
+      "size_bytes": 36450
+    },
+    {
+      "module": "app.normal_profile",
+      "path": "app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09",
+      "size_bytes": 8996
+    },
+    {
+      "module": "app.stage05_disposition",
+      "path": "app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+      "size_bytes": 23992
+    },
+    {
+      "module": "config.application_profile_gate",
+      "path": "config/application_profile_gate.py",
+      "sha256": "60e89f5c60ca91e19f41a2475102af9ef61b8e0fdb1fcc66584357b28eac575d",
+      "size_bytes": 15276
+    },
+    {
+      "module": "app.source_admission",
+      "path": "app/source_admission.py",
+      "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c",
+      "size_bytes": 12934
+    }
+  ],
+  "observer": {
+    "aggregate_rows": 204,
+    "balanced_entries": 62548,
+    "denied_io": [],
+    "errors": [],
+    "registered_functions": 51,
+    "unclosed_frames": 0,
+    "unmatched_returns": 0
+  },
+  "outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/reader_outcome.json",
+    "sha256": "9875b40db064ed65b1f505bc28157e3385632c58a5f34de42d4621241cd10221",
+    "size_bytes": 1056
+  },
+  "owner_admission_issued": false,
+  "phases": [
+    {
+      "durations": {
+        "monotonic_ns": 3106247125,
+        "process_cpu_ns": 3105089000,
+        "thread_cpu_ns": 3105085750
+      },
+      "end": {
+        "monotonic_ns": 7698443286230250,
+        "process_cpu_ns": 3265323000,
+        "thread_cpu_ns": 3265809291,
+        "thread_id": 8409947520
+      },
+      "phase": "CONSTRUCTOR",
+      "start": {
+        "monotonic_ns": 7698440179983125,
+        "process_cpu_ns": 160234000,
+        "thread_cpu_ns": 160723541,
+        "thread_id": 8409947520
+      }
+    },
+    {
+      "durations": {
+        "monotonic_ns": 3072034375,
+        "process_cpu_ns": 3069255000,
+        "thread_cpu_ns": 3069255542
+      },
+      "end": {
+        "monotonic_ns": 7698446358266916,
+        "process_cpu_ns": 6334581000,
+        "thread_cpu_ns": 6335067125,
+        "thread_id": 8409947520
+      },
+      "phase": "CURRENT_MODEL_SETTINGS",
+      "start": {
+        "monotonic_ns": 7698443286232541,
+        "process_cpu_ns": 3265326000,
+        "thread_cpu_ns": 3265811583,
+        "thread_id": 8409947520
+      }
+    }
+  ],
+  "production_input_hashes_unchanged": 1538,
+  "production_mutations": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/installed_reader_measurement_proposal.json",
+    "sha256": "934e4f66f0ae4dd00a9c6f0d0992f9f8dd6b51db556270947f440115eebea3c7",
+    "size_bytes": 360808
+  },
+  "reader_must_not_repeat": true,
+  "real_project_globals_and_methods_unchanged": true,
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/result.json",
+    "sha256": "3f4ec7faebf5813b13d8f3924e91dc423be4898f97209c2260d8241516a3e4d1",
+    "size_bytes": 1134672
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.installed_reader_actual_review.v09",
+  "settings_calls": 1,
+  "settings_completions": 1,
+  "status": "PASS_EXACT_INSTALLED_CONSTRUCTOR_AND_SETTINGS_PAIR",
+  "supervisor_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/receipt.json",
+    "sha256": "7d5415d7e564de1d30bdabc56c7845e422c41a1b2f23b2096dfde30dedde66d5",
+    "size_bytes": 1264
+  },
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/installed_reader_tool_outcome.json",
+    "sha256": "87bd2e2a0c24c0a72d06024cbb59bfe3877e7144fdb68d785aa64154f9793568",
+    "size_bytes": 1117
+  }
+}

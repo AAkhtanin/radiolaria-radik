@@ -1,0 +1,466 @@
+{
+  "auth_source_identity_sha256": "8212d2faef58280e21017547207e6a0a5eb538ef2ac5232dc55013b33d004bfa",
+  "callback_boundary_ref": {
+    "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_loader_schema_callback_origins_5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84.json",
+    "sha256": "5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84",
+    "size_bytes": 878404
+  },
+  "callback_observations_verified": [
+    {
+      "source_sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "symbol": "app.dynamic_work.validate_inputs"
+    },
+    {
+      "source_sha256": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+      "symbol": "app.dynamic_work.validate_outputs"
+    },
+    {
+      "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "symbol": "app.dynamic_delta_work.validate_inputs"
+    },
+    {
+      "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "symbol": "app.dynamic_delta_work.validate_outputs"
+    },
+    {
+      "source_sha256": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+      "symbol": "app.dynamic_delta_work.execute"
+    },
+    {
+      "source_sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "symbol": "app.informational_core.validate_source_inputs_v26"
+    },
+    {
+      "source_sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "symbol": "app.informational_core.validate_source_outputs_v26"
+    },
+    {
+      "source_sha256": "47b0b750b4908460c768b8ba716644ec4fc8da868f40dda2b60506e819554a12",
+      "symbol": "app.informational_core.execute_source_digest_v26"
+    },
+    {
+      "source_sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "symbol": "app.native_document.validate_pure_inputs"
+    },
+    {
+      "source_sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "symbol": "app.native_document.validate_pure_outputs"
+    },
+    {
+      "source_sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "symbol": "app.native_document.execute_extraction"
+    },
+    {
+      "source_sha256": "5f32f41071167e5e11cae78138b9341ca66f0b3f5c3260717a1f35f547a70ce6",
+      "symbol": "app.native_document.execute_comparison"
+    },
+    {
+      "source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "symbol": "app.qualified_experience_work.validate_inputs"
+    },
+    {
+      "source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "symbol": "app.qualified_experience_work.validate_outputs"
+    },
+    {
+      "source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "symbol": "app.qualified_experience_work.execute_verify"
+    },
+    {
+      "source_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "symbol": "app.qualified_experience_work.execute_audit"
+    },
+    {
+      "source_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "symbol": "app.qualified_strategy.validate_inputs"
+    },
+    {
+      "source_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "symbol": "app.qualified_strategy.validate_outputs"
+    },
+    {
+      "source_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "symbol": "app.qualified_strategy.execute_source"
+    },
+    {
+      "source_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "symbol": "app.qualified_strategy.execute_check"
+    },
+    {
+      "source_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "symbol": "app.qualified_strategy.execute_consumer"
+    },
+    {
+      "source_sha256": "b2b7b8d2e2dfb720bcc5f9185e6a373c879d625ddf307e0f8ccbf337b207df29",
+      "symbol": "hedgehog.work_execution_host_v01.capture_current_informational_source_v01"
+    },
+    {
+      "source_sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+      "symbol": "hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_span_v01"
+    },
+    {
+      "source_sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+      "symbol": "hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_phase_v01"
+    },
+    {
+      "source_sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+      "symbol": "hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_consumer_v01"
+    },
+    {
+      "source_sha256": "5cd3977300a7dd5a694999eb24a4e63cb8c49bb47c542165b4f9ba1f27125bd8",
+      "symbol": "hedgehog.kernel.diagnostic_telemetry_v01.diagnostic_progress_v01"
+    }
+  ],
+  "dependency_file_hashes_verified": 814,
+  "dependency_identity_sha256": "b500a06006d77765a5a14e3ecc12385e1736912e9b727406a3c36992c6ecb281",
+  "effective_model_boundary": {
+    "backend_identity_claimed": false,
+    "catalog_scope": "Observed catalog availability and current admitted request boundary; not independent proof of provider backend identity.",
+    "http_retries": 0,
+    "ledger_served_model": "UNKNOWN",
+    "requested_effort": "high",
+    "requested_model": "gpt-6.1-sol",
+    "requested_wire_service_tier": "default",
+    "resolved_model": "UNKNOWN",
+    "returned_metadata_matches_all_six": true,
+    "tools_count": 0,
+    "wire_scope": "FINAL_HTTP_ENTITY_EMPTY_TOOLS_NOT_OS_SANDBOX"
+  },
+  "install_aliases_verified": 58,
+  "ledger": {
+    "active_attempt_id": null,
+    "after_count": 59,
+    "after_snapshot_ref": {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/console_model_turns.json",
+      "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+      "size_bytes": 147969
+    },
+    "before_count": 53,
+    "before_ref": {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/original_actual/state/console_model_turns.json",
+      "sha256": "a3396121ae38a12ca7658eec562713baa99891b3b7d3364f4e06c7e8164bcf54",
+      "size_bytes": 132844
+    },
+    "historical_outcomes_unchanged": true,
+    "historical_unknown_rows": 5,
+    "original_53_rows_exact": true,
+    "other_ledger_metadata_unchanged": true
+  },
+  "legacy_and_public_guard_refs": [
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "config/normal_session_policy.json",
+      "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+      "size_bytes": 524
+    },
+    {
+      "path": "state/console_budget_activation.json",
+      "sha256": "0b6c1f83a9e92c2eaeffa73cee9d90757d9ec701fb69fb72b4ecae0d77ad0cdd",
+      "size_bytes": 2132
+    },
+    {
+      "path": "state/normal_session_transition.json",
+      "sha256": "d04d40d221819061ea4ea65e88cb6536354e1f5cbb2546864713cb3abe29ce42",
+      "size_bytes": 380
+    },
+    {
+      "path": "state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "state/stage05_dispositions/c146081f7b9a4d649f3c7e916189271e.json",
+      "sha256": "a8fd267d94b3c4911c56f5de34c4e590474234fd4c253cffcdf5fe91f2af6ac5",
+      "size_bytes": 1709
+    }
+  ],
+  "manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+    "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+    "size_bytes": 76014
+  },
+  "method": "Finite raw byte hashing and JSON comparison only; no application imports, validators, native execution or provider calls. Runtime interpretation uses independently accepted v09 source and exact observed current callbacks.",
+  "mutable_state_preservation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/mutable_state_preservation.json",
+    "sha256": "14082b17c76c581a67f535c5c76da72f1171c5a0c844cea47e69d43c2fc656a0",
+    "size_bytes": 9388
+  },
+  "native_module_origins_verified": 54,
+  "normal_session_active_absent": true,
+  "owner_admission_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_admission.json",
+    "sha256": "0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8",
+    "size_bytes": 35626
+  },
+  "preserved_new_witness_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_new_witness_inventory.json",
+    "sha256": "b840c46a0a3b925c849a1d59704d8c56ee51a4c7c87060c76a18467129948ffb",
+    "size_bytes": 90064
+  },
+  "preserved_pairs_verified": 106,
+  "production_mutation_by_reviewer": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.owner_actual_boundary_readback.v10",
+  "schema_resources_verified": 33,
+  "six_roles": [
+    {
+      "attempt_id": "radik-call:a669ae2ac57b4bcb852a9abb4c24aaca",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_b6e0bca8d7464d829b9975d5774f4d3f.json",
+        "sha256": "3a736b7b24b27d3fd5ccde13cf13bcc90348d58df21b2eab34894f2c999d78ea",
+        "size_bytes": 2677
+      },
+      "context_sha256": "391f8f996aefae00a9284be99e01d1fd5cf265db115424de6710c07c59cf85bd",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "49611cd9083b306ea927a1af6b92c7d1aced0bf7f0d85d1c0e7ffd9a05a5d9a0",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "a8cbddacf2e7ace45005191dd9334be529a1dc7258c4a62890633ef5b3c33dba",
+        "size_bytes": 8712
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "5d9aa06ac92afcea34a53dbed650b26ae0b3a23539416cb14395d9b0bf0c28da",
+        "size_bytes": 20777
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "orchestrator",
+      "round_index": 0,
+      "round_ref": {
+        "path": "state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "78d3e9caf28abc97edae646de0c602521089c8f23988f68bfc28ac3c3d8a563a"
+      },
+      "task_id": "radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "wall_seconds": 50.03774129226804,
+      "wire_body_sha256": "f17c9d19fb0aaca43d926ed58d07cc702c99276c8cd1b6281e38f34e057630e9"
+    },
+    {
+      "attempt_id": "radik-call:a49d00ce3d494959ad1cbd31ab6066bf",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_b6e0bca8d7464d829b9975d5774f4d3f.json",
+        "sha256": "3a736b7b24b27d3fd5ccde13cf13bcc90348d58df21b2eab34894f2c999d78ea",
+        "size_bytes": 2677
+      },
+      "context_sha256": "830193c2698ece1d63d926acec83bfdfe41e0239ca3565b85274eafdef285c42",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "45d0b8d5a04abcb45ee471e80b5e7044911d1acdae261246947abc965a4bfa5e",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "d118d094b608fe46e007dc791a90563dcae5c60b9f2d010c171d518a1dbe4084",
+        "size_bytes": 15107
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "fb86a73e64e4e155c317405edd263b912ccf0947c7de9fbd2adf268c27a66345",
+        "size_bytes": 28346
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "architect",
+      "round_index": 1,
+      "round_ref": {
+        "path": "state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "78d3e9caf28abc97edae646de0c602521089c8f23988f68bfc28ac3c3d8a563a"
+      },
+      "task_id": "radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "wall_seconds": 56.241438374854624,
+      "wire_body_sha256": "f992e5247703307293133018615a0411ed3357705f480569873ecc0c5c9003d9"
+    },
+    {
+      "attempt_id": "radik-call:b967573277c94836af5c2664b5976af8",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_b6e0bca8d7464d829b9975d5774f4d3f.json",
+        "sha256": "3a736b7b24b27d3fd5ccde13cf13bcc90348d58df21b2eab34894f2c999d78ea",
+        "size_bytes": 2677
+      },
+      "context_sha256": "2c90dda6639a04c57c2ef19d16208d65bff6ee488a4258fc5d9f0d0517c5ef00",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1c4e01c6d859957e6f1c825042082eb58afe5ff481697e73d3c64c032613f6c5",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "13aebeb80f21d828438a4f8c101363d301e6f617ac33c9ee98a2330add4782e1",
+        "size_bytes": 21352
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1ef4f187e4d131b1291cedccb64e5d1b63cbcd5db86fe3e324c04da3e9704c15",
+        "size_bytes": 33580
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "critic",
+      "round_index": 2,
+      "round_ref": {
+        "path": "state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "78d3e9caf28abc97edae646de0c602521089c8f23988f68bfc28ac3c3d8a563a"
+      },
+      "task_id": "radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "wall_seconds": 60.430393875576556,
+      "wire_body_sha256": "25c09dd9482c11e85fbe695c0f7d33c9f57a9be2e2abe6669223fcedca28abca"
+    },
+    {
+      "attempt_id": "radik-call:8e7c48c5c7d34c519325648c22bf3eb1",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_f9a2df09cd6543eea84a133cf6bab21c.json",
+        "sha256": "2890ece9dab401332b4296bbe1177b74cc88ae294de609353d901ba0825ba6a7",
+        "size_bytes": 2677
+      },
+      "context_sha256": "cb708793dbb1ee9df1cb66cd2ba9ba2f420122733efa22f3bb08c05a46e30f0b",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "be8749da8c1e25b158b0243866451b910083284f1816308d4c094bab491520e6",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "846aa032d6062bf4d2200e9dc723454196931f55563808b82f4e1da311aa6024",
+        "size_bytes": 8285
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "a7a4398e5f7d87fa9e193dec5f15a0d68e13bf3a3f0f0d7a39f7ccc3881f1a2e",
+        "size_bytes": 20256
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "orchestrator",
+      "round_index": 0,
+      "round_ref": {
+        "path": "state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "427e6118e3b9508ddc1fa659cd149b430f419617f6a93ca4f68f1698748c7db9"
+      },
+      "task_id": "radik-task:beb0598e65524a89995a95e1effa27c5",
+      "wall_seconds": 50.286304167471826,
+      "wire_body_sha256": "a3c8d3bdbca5681b8302fd0541af4ff7c173ca7ed60cd38c00d3a947cef1fa4d"
+    },
+    {
+      "attempt_id": "radik-call:30b9be60285b4f1680c49a9053ad7083",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_f9a2df09cd6543eea84a133cf6bab21c.json",
+        "sha256": "2890ece9dab401332b4296bbe1177b74cc88ae294de609353d901ba0825ba6a7",
+        "size_bytes": 2677
+      },
+      "context_sha256": "b4c599f8f4f2644bd7b44cb91f5de3b85cb29a50cb6d760b71e2ac7deee991f1",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "63ea91790c139a2de4a52ef948e9662eb7312afd653efa89ab3f2ccbb24b72b9",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "0d27fbfc8d3d0a752bd0e672e90262e797e3b220a18ad5531cd78e928e0a0c4d",
+        "size_bytes": 14569
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "6d735d0f8fec12b0e1010a00a73f6906427b2ba694d158de65b0118d2769588f",
+        "size_bytes": 26959
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "architect",
+      "round_index": 1,
+      "round_ref": {
+        "path": "state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "427e6118e3b9508ddc1fa659cd149b430f419617f6a93ca4f68f1698748c7db9"
+      },
+      "task_id": "radik-task:beb0598e65524a89995a95e1effa27c5",
+      "wall_seconds": 54.85030191577971,
+      "wire_body_sha256": "a6bebbb9b76c7fc1214fe1eff9f6f0666ef4d6a59b75be83455a1d27e3ca8dee"
+    },
+    {
+      "attempt_id": "radik-call:eb896360926d4d24b908bd6d7c52914d",
+      "catalog_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_f9a2df09cd6543eea84a133cf6bab21c.json",
+        "sha256": "2890ece9dab401332b4296bbe1177b74cc88ae294de609353d901ba0825ba6a7",
+        "size_bytes": 2677
+      },
+      "context_sha256": "f612fcb6a23bd1efa963f9692a3931eef3a5131b9276dd96c25035dbf4bc894c",
+      "http_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "83734e1cf7ad824059f2b1ecbbfe9d65662b0f7a6ee5fa5b56d9b69cfc38f748",
+        "size_bytes": 1374
+      },
+      "ledger_served_model": "UNKNOWN",
+      "outcome": "COMPLETED",
+      "reserved_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "ebd129364075435de0fc7e3e102fdb6da16684ce243dc46599feca4d60eadf44",
+        "size_bytes": 17954
+      },
+      "resolved_model": "UNKNOWN",
+      "result_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "8a6447905deeca50c2c533280b8a16b9c3ac0914242c27838e49647361db832f",
+        "size_bytes": 30092
+      },
+      "returned_model": "gpt-6.1-sol",
+      "role": "critic",
+      "round_index": 2,
+      "round_ref": {
+        "path": "state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "427e6118e3b9508ddc1fa659cd149b430f419617f6a93ca4f68f1698748c7db9"
+      },
+      "task_id": "radik-task:beb0598e65524a89995a95e1effa27c5",
+      "wall_seconds": 64.32048795931041,
+      "wire_body_sha256": "f6597cc58c4568bf98c9227f459561ebd6dcc8f2d24994f69eca0883cf206fe9"
+    }
+  ],
+  "source_boundary_ref": {
+    "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_source_history_boundary_49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac.json",
+    "sha256": "49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac",
+    "size_bytes": 122720
+  },
+  "source_identity_sha256": "922d509d239c798306b7c29cb6266dfeddb97f2fe0b5ac4413c6b67375303cda",
+  "source_pins_verified": 182,
+  "status": "PASS_EXACT_SOURCE_NATIVE_MODEL_AND_LEDGER_READBACK",
+  "task_store": {
+    "accepted_results_per_new_task": 1,
+    "active_task_id": null,
+    "new_tasks": [
+      "radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "radik-task:beb0598e65524a89995a95e1effa27c5"
+    ],
+    "new_tasks_status": "COMPLETED",
+    "old_14_task_rows_exact": true
+  }
+}

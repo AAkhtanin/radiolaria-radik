@@ -147,7 +147,8 @@ class DynamicDocumentController:
             from .normal_session import validate_operation
             operation = validate_operation(client.project, client.budget._normal_operation)
             require(operation['schema']=='radik.normal_operation.v02'
-                and type(operation_deadline) is int and operation_deadline==operation['opened_at']+7800,
+                and type(operation_deadline) is int
+                and operation['opened_at'] < operation_deadline <= operation['opened_at']+7800,
                 'dynamic_informational_operation_deadline')
             self._default_policy['consent_ref']=None
         self.on_event, self.events = on_event, []

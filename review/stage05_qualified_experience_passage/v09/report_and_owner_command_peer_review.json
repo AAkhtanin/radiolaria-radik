@@ -1,0 +1,185 @@
+{
+  "accepted_component_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/installed_reader_result_review.json",
+      "sha256": "2e6551798fa07d7732c82c2d6af31f6f1cdff8062d3dfea7cf0b3ecc59678aad",
+      "size_bytes": 7297
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v01_result_review.json",
+      "sha256": "cdf16776e74e8409da961cb7b58a49f7f68a1efcb124d4c7970d57ad17e264ed",
+      "size_bytes": 4146
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v02_result_review.json",
+      "sha256": "1270403a8e7b6d5993152b20a20141566d28801be5e7328f44dd8b0a5a8f12d6",
+      "size_bytes": 13133
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/final_gate_preflight_result_review.json",
+      "sha256": "2ea16be06d49be3d307ee057b2a9d5f211fed2fef41e22feaa093450ca4cf1d5",
+      "size_bytes": 6076
+    }
+  ],
+  "accepted_final_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/final_independent_review.json",
+    "sha256": "0253648ed4ab6dd7f135b47554e972103a2e235bde1ee44135d6f744fce130d9",
+    "size_bytes": 5042
+  },
+  "accounting_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INSTALLED_READER_V01.json",
+      "sha256": "3b2d6910dd9dd6533f57f3b7ba01c6f85d7846c4e4d5c5519e43ddc8c85238b0",
+      "size_bytes": 3687
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INTEGRATION_V01.json",
+      "sha256": "e1a17aa48b3d340d4c48dc7266a44c6996634e4952bf21e19afb719da82f0089",
+      "size_bytes": 3597
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INTEGRATION_V02.json",
+      "sha256": "cd8820412ded4294c203799de165589534b57d11b4ca61e4ca1f3bc2021a6948",
+      "size_bytes": 3887
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/FINAL_GATE_PREFLIGHT_V01.json",
+      "sha256": "2a326f0f26ca58873fe86dfd61c1d9d94eaec2b01766cf7c3ac5310525204d02",
+      "size_bytes": 4195
+    }
+  ],
+  "charged_execution_ns_by_component": {
+    "FINAL_GATE_PREFLIGHT_V01": 5432926875,
+    "INSTALLED_READER_V01": 11523489916,
+    "INTEGRATION_V01": 5962871917,
+    "INTEGRATION_V02": 25268708750
+  },
+  "factual_findings": [
+    "Both language reports match the accepted raw phase timings, single constructor/settings pair, 51 historical plus one current profile load per phase, 57 operation validations per phase and file-open totals. Nested timings are explicitly inclusive and not additive.",
+    "The historical EOF cause, old 10.018-second interval, current dispatch cost and safe idle timeout are not claimed to be established. History optimization remains unapplied.",
+    "Integration V01 is retained as a setup failure before installation. The single metadata-only correction and distinct V02 retry are described without crediting the failed run.",
+    "Six terminal accounting rows and two failed tasks are clearly identified as synthetic copy-only fixtures with empty results. The report does not claim six model calls, accepted native products or Stage05 completion.",
+    "All three final metadata checks are independently accepted on frozen bytes. The distinction between candidate owner eligibility before installation and production candidate gate.select is explicit.",
+    "Production remains installed v05 with 53 counted attempts and active selected UNKNOWN. No production ACK, candidate installation or owner scenario execution is claimed; old c146 and the closed operation are preserved.",
+    "The external command selects the exact accepted admission hash and current UNKNOWN and uses the real parser flags. It is explicitly for future Walker/owner review; current-state gates still apply and remote UNKNOWN is not erased.",
+    "Four closed diagnostic charges total 48.187997458 seconds of the common 120-second budget, including nonrefundable closing reserves; each component records its child reaped."
+  ],
+  "findings": [],
+  "future_command_identity": {
+    "admission_ref": {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/owner_admission.json",
+      "sha256": "0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8",
+      "size_bytes": 35626
+    },
+    "executed_by_this_review": false,
+    "future_role_attempt_limit": 6,
+    "interpreter_flags": [
+      "-I",
+      "-S",
+      "-B"
+    ],
+    "matches_actual_argparse_options": true,
+    "owner_terminal_ref": {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+      "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+      "size_bytes": 72894
+    },
+    "scenario_mode": "remaining_only",
+    "selected_attempt_id": "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a",
+    "single_command_line": true,
+    "working_directory": "/Users/admin/Projects/RadiolariaRadik"
+  },
+  "limitations": [
+    "This is a factual document and command-identity review, not a new application test, execution grant or acceptance of the future owner scenario.",
+    "Prospective archive contents and delivery wording remain subject to the separate final packaging/manifest/checksum verification. No delivery or external reviewer-channel transmission is accepted by this record.",
+    "Only existing closed raw data and exact source option lines were read. No candidate application imports, test runs, provider calls, production mutations, push or command invocation occurred."
+  ],
+  "raw_result_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/result.json",
+      "sha256": "3f4ec7faebf5813b13d8f3924e91dc423be4898f97209c2260d8241516a3e4d1",
+      "size_bytes": 1134672
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/work/result.json",
+      "sha256": "4505e18f8370f68a1cc3ec2a9bd87b19e226685c878c2b977bd65e749b5218cd",
+      "size_bytes": 21373
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/FINAL_GATE_PREFLIGHT_V01/work/result.json",
+      "sha256": "6b757c34219c43eaebc99df4b74d68fafcd872743da36ee6987523837e8883db",
+      "size_bytes": 340441
+    }
+  ],
+  "reader_analysis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/reader_measurement_analysis.json",
+    "sha256": "d47df75748d9aff4b3e271ed6fbd74f0cfa9f8e8eeeac96adb388f9bc158162a",
+    "size_bytes": 26167
+  },
+  "reviewed_document_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/PASS_STATUS.md",
+      "sha256": "3a716149daa704927e6d21ca1c0fadd3028d168d3edeeb7d141ffc9aff978329",
+      "size_bytes": 7869
+    },
+    {
+      "path": "/Users/admin/Downloads/Radik/stage05_reader_and_integration_completion_v09/OWNER_REPORT_RU.md",
+      "sha256": "abad04745e3b1a5e7f62b057f8d0b16c66b8659bf13f89ea1cf9544367ee5497",
+      "size_bytes": 7338
+    },
+    {
+      "path": "/Users/admin/Downloads/Radik/stage05_reader_and_integration_completion_v09/OWNER_COMMAND.txt",
+      "sha256": "5376ccd5f78adf27038d85a339828cb6dcfc5cb0ca84f3511c219f0caeac9e7e",
+      "size_bytes": 789
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.report_and_owner_command_peer_review.v09",
+  "shared_cap_ns": 120000000000,
+  "status": "PASS_FACTUAL_REPORT_AND_PROSPECTIVE_COMMAND_REVIEW",
+  "total_charged_ns": 48187997458,
+  "verified_reader_call_counts": [
+    {
+      "current_profile_calls": 1,
+      "historical_profile_calls": 51,
+      "historical_profile_wall_ns": 2091574419,
+      "operation_validation_calls": {
+        "reconcile_index": 17,
+        "validate_history": 20,
+        "validate_round": 20
+      },
+      "phase": "CONSTRUCTOR",
+      "source_import_opens": 7,
+      "total_opens": 24749,
+      "validate_history_inclusive_wall_ns": 2316111000
+    },
+    {
+      "current_profile_calls": 1,
+      "historical_profile_calls": 51,
+      "historical_profile_wall_ns": 2076094629,
+      "operation_validation_calls": {
+        "reconcile_index": 17,
+        "validate_history": 20,
+        "validate_round": 20
+      },
+      "phase": "CURRENT_MODEL_SETTINGS",
+      "source_import_opens": 0,
+      "total_opens": 24728,
+      "validate_history_inclusive_wall_ns": 2296638667
+    }
+  ],
+  "verified_reader_phase_durations": [
+    {
+      "monotonic_ns": 3106247125,
+      "phase": "CONSTRUCTOR",
+      "process_cpu_ns": 3105089000,
+      "thread_cpu_ns": 3105085750
+    },
+    {
+      "monotonic_ns": 3072034375,
+      "phase": "CURRENT_MODEL_SETTINGS",
+      "process_cpu_ns": 3069255000,
+      "thread_cpu_ns": 3069255542
+    }
+  ]
+}

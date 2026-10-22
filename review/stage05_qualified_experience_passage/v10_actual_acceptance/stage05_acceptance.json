@@ -1,0 +1,101 @@
+{
+  "Stage04_acceptance_preserved": true,
+  "Stage05_acceptance": true,
+  "acceptance_basis": "Independent exact owner-actual review joined with the original ten-requirement matrix and applicable previously accepted controls. Packaging awards no behavior acceptance.",
+  "author": "/root",
+  "closed_obligations": {
+    "DEFER-S5-FEEDBACK": [
+      "S5-01",
+      "S5-02"
+    ],
+    "DEFER-S5-FINITE-STRATEGY": [
+      "S5-07",
+      "S5-08"
+    ],
+    "DEFER-S5-LESSON-CONSUMER": [
+      "S5-06"
+    ],
+    "DEFER-S5-TEMPORAL-CONFLICT": [
+      "S5-03",
+      "S5-04",
+      "S5-05"
+    ]
+  },
+  "current_actual_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_independent_acceptance.json",
+    "sha256": "2761954a6200b6e7f4cebd81d9780982c6ea9005d620b7450364500414f8d34d",
+    "size_bytes": 17443
+  },
+  "historical_failures_and_partial_verdicts_preserved": true,
+  "independent_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_matrix_independent_acceptance.json",
+    "sha256": "87e97be01f6a7a98030d117f7e8e85bd21ba4cd40ad729792dde51aed2d50821",
+    "size_bytes": 21658
+  },
+  "limits": [
+    "Evidence is compositional: the final remaining_only owner did not rerun earlier G4, aged, restriction or unscorable controls.",
+    "The negative update is a controlled source Boolean predicate; no general learning, model weight update, Strong GT, full AVF/OFE or new G4 mathematics is accepted.",
+    "Current source revision is the first rejecting guard; later freshness acceptance is not implied.",
+    "Effective request plus returned model metadata are verified; resolved backend identity remains UNKNOWN.",
+    "No speedup, compute saving, Stage06/07/08 acceptance, publication, new owner run, AUTH/provider/native E or SAVE action is authorized."
+  ],
+  "matrix_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_requirements_matrix.json",
+    "sha256": "2a72bd223134f686279bac3f095d5466025fb350f044da3011d48ab1ac28bd04",
+    "size_bytes": 47697
+  },
+  "new_RETURN_count": 1,
+  "owner_accounting_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_owner_accounting_review.json",
+    "sha256": "8f5add371df1794c7316279e2411b2fec660899c316f3c52bebfcabd67386917",
+    "size_bytes": 3967
+  },
+  "owner_actual_accounting": {
+    "E_SAVE_effects": 0,
+    "active_attempt_id": null,
+    "attempts_after": 59,
+    "attempts_before": 53,
+    "child_exit_code": 0,
+    "child_process_cpu_ns": 829888680000,
+    "child_reaped": true,
+    "historical_UNKNOWN_rows_preserved": 5,
+    "native_accounted_ns": 741370821832,
+    "new_COMPLETED_roles": 6,
+    "new_COMPLETED_tasks": 2,
+    "original_task_rows_preserved": 14,
+    "wall_ns": 885656256625
+  },
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "owner_run_root": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "requirements_covered": [
+    "S5-01",
+    "S5-02",
+    "S5-03",
+    "S5-04",
+    "S5-05",
+    "S5-06",
+    "S5-07",
+    "S5-08",
+    "S5-09",
+    "S5-10"
+  ],
+  "review_passage": {
+    "Stage06_started": false,
+    "application_or_native_execution": false,
+    "history_optimization_applied": false,
+    "new_owner_command_required": false,
+    "provider_model_calls": 0,
+    "push": false,
+    "runtime_mutations": false
+  },
+  "schema": "radik.stage05.actual_stage_acceptance.v10",
+  "source_model_ledger_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_source_model_ledger_boundary_review.json",
+    "sha256": "56541a2511b8104276a2910ee60a36ce471c313bcb817ab5877b34488bc8efa4",
+    "size_bytes": 21592
+  },
+  "status": "STAGE05_CLOSED_WITHIN_ORIGINAL_QUALIFIED_EXPERIENCE_PROFILE",
+  "uncovered_requirements": []
+}

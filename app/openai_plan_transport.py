@@ -23,7 +23,7 @@ from .contracts import canonical, digest, role_schema, ROLE_CONTEXT_VERSION
 from .proposal import ProposalObservation
 from .stream_observation import (unobserved_stream_event, observe_stream_event, project_stream_event, bind_stream_event,
     decode_event_json, EventJSONRefusal)
-from .stage04_diagnostics import record_secondary
+from .stage04_diagnostics import record_secondary, project_error, transfer_secondary_diagnostics
 
 TRANSPORT_VERSION = 'radik.direct_plan_transport.v01'
 STREAM_PROFILE_VERSION = 'radik.responses.text_json_stream.v04'
@@ -423,6 +423,95 @@ def unobserved_completed_output():
         'product_path': [], 'product_schema_keyword': 'NOT_APPLICABLE'}
 
 
+# These labels describe local execution boundaries, never remote delivery proof.
+TRANSPORT_SUBSTAGES = frozenset((
+    'UNKNOWN', 'RESERVATION_PERSIST', 'DEADLINE_SETUP', 'EXTERNAL_BOUNDARY',
+    'CONNECT', 'CONNECT_TELEMETRY_EXIT', 'CONNECTED_DEADLINE', 'GRANT_HEADERS',
+    'POST_GUARD', 'POST_FINAL_GUARD', 'REQUEST_SEND', 'RESPONSE_DEADLINE',
+    'RESPONSE_HEADERS', 'HTTP_METADATA', 'SSE_PARSE', 'PROVIDER_WAIT_EXIT',
+    'RESPONSE_BINDING', 'JSON_PARSE', 'SCHEMA_VALIDATE', 'OBSERVATION_BUILD',
+    'SEMANTIC_EMISSION', 'EMISSION_GUARD', 'ACCEPTED_OBSERVATION',
+    'PROVIDER_WAIT_CLEANUP', 'HTTP_CLOSE', 'DEADLINE_FINISH', 'BUDGET_FINISH',
+    'RESULT_PERSIST',
+))
+_TRANSPORT_FRAME_FUNCTIONS = frozenset(('<module>', '<lambda>', '<genexpr>',
+    '<listcomp>', '<dictcomp>', '<setcomp>'))
+
+
+def _diagnostic_pins(identity):
+    """Retain only finite Python paths from the already verified source identity."""
+    result = {}
+    if type(identity) is not dict or len(identity) > 4096:
+        return result
+    for path, sha in identity.items():
+        if (type(path) is str and 0 < len(path) <= 1024 and path.endswith('.py')
+                and path == Path(path).as_posix() and not Path(path).is_absolute()
+                and '\\' not in path
+                and not any(part in ('.', '..', 'private', '.git', '.codex', '.aws', 'Arena', 'arena',
+                    'local_operator', 'local_operator_private') or part.startswith(('.env', '.venv'))
+                    for part in Path(path).parts)
+                and type(sha) is str and re.fullmatch('[0-9a-f]{64}', sha)):
+            result[path] = sha
+    return result
+
+
+def _transport_substage(diagnostic, stage):
+    if type(diagnostic) is dict and stage in TRANSPORT_SUBSTAGES:
+        diagnostic['transport_substage'] = stage
+
+
+def _transport_failure(error, *, project, pins, source_sha, stage, terminal, category):
+    """Project the original exception before wrapping; do not read locals or text.
+
+    Frame hashes come from the source validator that already ran before this
+    reservation. Failure handling performs no fresh profile validation or I/O.
+    """
+    result = dict(schema='radik.plan_transport_failure.v01',
+        failure_category=category if category in ('PRETERMINAL_UNCERTAIN',
+            'POSTTERMINAL_LOCAL', 'CURATED_REFUSAL') else 'PRETERMINAL_UNCERTAIN',
+        substage=stage if stage in TRANSPORT_SUBSTAGES else 'UNKNOWN',
+        original_type='Exception', original_code='SANITIZED_OPERATION_FAILURE',
+        terminal_observed=terminal is True, source_identity_sha256=source_sha,
+        source_frames=[], omitted_frames=0, unadmitted_frames=0,
+        traceback_truncated=False, raw_error_recorded=False, locals_recorded=False,
+        frame_basis='SOURCE_VALIDATOR_PINS_CAPTURED_BEFORE_RESERVATION')
+    try:
+        projected = project_error(error, phase='TASK_EXECUTION', step='UNKNOWN')
+        result.update(original_type=projected['type'], original_code=projected['code'])
+        cursor, visited, frames = error.__traceback__, 0, []
+        while cursor is not None and visited < 128:
+            visited += 1
+            try:
+                path = Path(cursor.tb_frame.f_code.co_filename).absolute().relative_to(
+                    Path(project).absolute()).as_posix()
+            except (ValueError, OSError):
+                path = None
+            line = cursor.tb_lineno
+            if path in pins and type(line) is int and 1 <= line <= 1000000:
+                function = cursor.tb_frame.f_code.co_name
+                if (type(function) is not str or len(function) > 96 or not
+                        (re.fullmatch('[A-Za-z_][A-Za-z0-9_]*', function)
+                         or function in _TRANSPORT_FRAME_FUNCTIONS)):
+                    function = 'UNKNOWN'
+                frames.append(dict(path=path, sha256=pins[path], line=line, function=function))
+            else:
+                result['unadmitted_frames'] += 1
+            cursor = cursor.tb_next
+        result.update(source_frames=frames[-32:], omitted_frames=max(0, len(frames)-32),
+            traceback_truncated=cursor is not None)
+    except BaseException:
+        # Diagnostics cannot replace the actual transport or product failure.
+        pass
+    return result
+
+
+def _secondary_without_replacement(primary, secondary, *, phase):
+    try:
+        record_secondary(primary, secondary, phase=phase, step='UNKNOWN')
+    except BaseException:
+        pass
+
+
 class PlanTransportError(ValueError):
     """A curated label; raw HTTP errors and bearer-bearing headers stay private."""
     def __init__(self, code, *, terminal_observed=False, outcome='UNKNOWN', provider_code='UNKNOWN', usage=None):
@@ -444,6 +533,7 @@ class PlanTransportError(ValueError):
         self.stream_body = unobserved_stream_body()
         self.completed_output = unobserved_completed_output()
         self.stream_event = unobserved_stream_event()
+        self.transport_failure = None
 
 
 def _check(value, code):
@@ -1251,6 +1341,22 @@ def _safe_directory(project, relative):
     return path
 
 
+def _send_timing_point(guard, point, *, actor='SEND'):
+    """Record bounded clock facts only; telemetry cannot replace a primary error."""
+    try:
+        value = guard.send_timing
+        if type(value) is not dict or type(value.get('points')) is not list:
+            return
+        if len(value['points']) >= 64:
+            value['omitted_points'] += 1
+            return
+        value['points'].append(dict(point=point, actor=actor, thread_id=threading.get_ident(),
+            monotonic_ns=time.monotonic_ns(), process_cpu_ns=time.process_time_ns(),
+            thread_cpu_ns=time.thread_time_ns()))
+    except BaseException:
+        pass
+
+
 class _Deadline:
     """Cancel only this owned socket at an absolute wall deadline.
 
@@ -1260,6 +1366,9 @@ class _Deadline:
     """
     def __init__(self, connection, seconds):
         self.connection, self.sock = connection, None
+        self.send_timing = dict(schema='radik.plan_send_timing.v01', points=[], omitted_points=0,
+            cpu_scope='PROCESS_AND_CALLING_THREAD_ABSOLUTE_COUNTERS')
+        _send_timing_point(self, 'DEADLINE_STARTED')
         self.expired = threading.Event()
         self.deadline = time.monotonic() + seconds
         connection.deadline_guard = self
@@ -1267,7 +1376,8 @@ class _Deadline:
         self.timer.daemon = True
         self.timer.start()
 
-    def _expire(self):
+    def _expire(self, *, actor='WATCHDOG'):
+        _send_timing_point(self, 'WATCHDOG_FIRE' if actor == 'WATCHDOG' else 'EXPIRED_BIND_SHUTDOWN', actor=actor)
         self.expired.set()
         sock = self.connection.sock if self.connection.sock is not None else self.sock
         if sock is not None:
@@ -1281,7 +1391,7 @@ class _Deadline:
         # to a closing HTTPResponse and set connection.sock to None.
         self.sock = sock
         if self.expired.is_set():
-            self._expire()
+            self._expire(actor='SEND_EXPIRED_BIND')
         _check(not self.expired.is_set(), 'plan_request_deadline')
 
     def apply_remaining_timeout(self):
@@ -1292,9 +1402,12 @@ class _Deadline:
         return remaining
 
     def finish(self):
+        _send_timing_point(self, 'WATCHDOG_FINISH_ENTER')
         self.timer.cancel()
         self.timer.join(timeout=1)
-        return not self.timer.is_alive()
+        finished = not self.timer.is_alive()
+        _send_timing_point(self, 'WATCHDOG_FINISH_EXIT')
+        return finished
 
 
 def _close_http(response, connection):
@@ -1314,6 +1427,18 @@ class _FixedHTTPSConnection(http.client.HTTPSConnection):
         super().__init__(HOST, 443, timeout=READ_SECONDS, context=ssl.create_default_context())
         self.deadline_guard = None
         self._create_connection = self._fixed_socket
+
+    def send(self, data):
+        """Observe the first local HTTP write without inspecting its bytes."""
+        first = not getattr(self, '_first_http_send_observed', False)
+        if first:
+            self._first_http_send_observed = True
+            _send_timing_point(self.deadline_guard, 'FIRST_SEND_ENTER')
+        try:
+            return super().send(data)
+        finally:
+            if first:
+                _send_timing_point(self.deadline_guard, 'FIRST_SEND_EXIT')
 
     def _fixed_socket(self, address, timeout, source_address):
         _check(address == (HOST, 443) and source_address is None and self.deadline_guard is not None,
@@ -1367,6 +1492,7 @@ class OpenAIPlanTransport:
         self._provider_waiting=False
         self._provider_serial=0
         self._reserved_role_requests = {}
+        self._diagnostic_source_pins = {}
 
     def request_profile(self):
         """Current explicit owner setting; task rounds freeze this exact profile."""
@@ -1402,6 +1528,7 @@ class OpenAIPlanTransport:
     def _source(self):
         identity = self.source_validator()
         _check(type(identity) is dict and identity, 'plan_source_identity_required')
+        self._diagnostic_source_pins = _diagnostic_pins(identity)
         return digest(identity)
 
     def _provider_wait(self,waiting):
@@ -1428,21 +1555,55 @@ class OpenAIPlanTransport:
         require_external_owner(self.project,'HTTP')
         return _FixedHTTPSConnection()
 
-    def _send(self, connection, *, method, path, grant, deadline_guard, body=None, dispatch_state=None, role_request=None):
+    def _send(self, connection, *, method, path, grant, deadline_guard, body=None, dispatch_state=None, role_request=None, diagnostic=None):
         _check(connection.host == HOST and connection.port == 443, 'plan_connection_fixed_origin')
         if method != 'POST':
             _check(method == 'GET' and path == MODELS_PATH and body is None, 'plan_metadata_fixed_endpoint')
         else:
             _check(path == RESPONSES_PATH, 'plan_fixed_endpoint')
+        _transport_substage(diagnostic, 'EXTERNAL_BOUNDARY')
         # Complete DNS/TCP/TLS first. Grant applicability and the final entity
         # must be checked at actual dispatch, not before connection setup.
         from .ordinary_rehearsal import RehearsalAuth
         from config.application_profile_gate import require_external_owner,validate_rehearsal_context
         if type(self.auth) is RehearsalAuth:validate_rehearsal_context(self.project,self.auth.context)
         else:require_external_owner(self.project,'HTTP')
+        # Prepare the first full guard before opening this role's connection.
+        # The second full guard still runs after TLS and the final callback.
+        if method == 'POST':
+            _transport_substage(diagnostic, 'POST_GUARD')
+            validate_final_request(method=method, host=connection.host, path=path, body=body, profile=self.request_profile())
+            from .controller import RoleRequest
+            from .dynamic_roles import DynamicRoleRequest
+            _check(type(role_request) in (RoleRequest, DynamicRoleRequest), 'plan_runtime_role_request_required')
+            output_schema=_json(role_request.schema_bytes)
+            _send_timing_point(deadline_guard, 'PREPARE_GUARD_ENTER')
+            try:
+                post_guard=role_request.validate(sender=self, role=role_request.role, context=role_request.context,
+                    output_schema=output_schema, body=body)
+            finally:
+                _send_timing_point(deadline_guard, 'PREPARE_GUARD_EXIT')
+            self._guard_observed('BEFORE_POST',role_request,body,post_guard)
+        _transport_substage(diagnostic, 'CONNECT')
         self._provider_wait(True)
-        try:connection.connect()
-        finally:self._provider_wait(False)
+        connect_error = None
+        _send_timing_point(deadline_guard, 'CONNECT_ENTER')
+        try:
+            connection.connect()
+        except BaseException as error:
+            connect_error = error
+            raise
+        finally:
+            _send_timing_point(deadline_guard, 'CONNECT_EXIT')
+            try:
+                if connect_error is None:
+                    _transport_substage(diagnostic, 'CONNECT_TELEMETRY_EXIT')
+                self._provider_wait(False)
+            except BaseException as secondary:
+                if connect_error is None:
+                    raise
+                _secondary_without_replacement(connect_error, secondary, phase='TERMINAL_OUTPUT')
+        _transport_substage(diagnostic, 'CONNECTED_DEADLINE')
         deadline_guard.bind(connection.sock)
         _check(connection.sock is not None and not deadline_guard.expired.is_set()
             and time.monotonic() < deadline_guard.deadline, 'plan_request_deadline')
@@ -1450,20 +1611,14 @@ class OpenAIPlanTransport:
         _check(type(grant.access_token) is str and grant.access_token and '\r' not in grant.access_token
             and '\n' not in grant.access_token and grant.expires_at > int(time.time()) + 30,
             'plan_current_own_grant_required')
+        _transport_substage(diagnostic, 'GRANT_HEADERS')
         headers = {'Authorization': 'Bearer ' + grant.access_token,
             'Accept': 'text/event-stream' if method == 'POST' else 'application/json',
             'Accept-Encoding': 'identity', 'User-Agent': 'Radik/' + TRANSPORT_VERSION}
         if method == 'POST':
             headers['Content-Type'] = 'application/json'
             headers['Content-Length'] = str(len(body))
-            validate_final_request(method=method, host=connection.host, path=path, body=body, profile=self.request_profile())
-            from .controller import RoleRequest
-            from .dynamic_roles import DynamicRoleRequest
-            _check(type(role_request) in (RoleRequest, DynamicRoleRequest), 'plan_runtime_role_request_required')
-            output_schema=_json(role_request.schema_bytes)
-            post_guard=role_request.validate(sender=self, role=role_request.role, context=role_request.context,
-                output_schema=output_schema, body=body)
-            self._guard_observed('BEFORE_POST',role_request,body,post_guard)
+        _transport_substage(diagnostic, 'POST_FINAL_GUARD')
         self._provider_wait(True)
         _check(connection.sock is not None and not deadline_guard.expired.is_set()
             and time.monotonic() < deadline_guard.deadline, 'plan_request_deadline')
@@ -1472,13 +1627,40 @@ class OpenAIPlanTransport:
         if method == 'POST':
             # Telemetry can call application code. Revalidate the issued request
             # after it, with no callback or serialization before these bytes send.
-            role_request.validate(sender=self, role=role_request.role, context=role_request.context,
-                output_schema=output_schema, body=body)
+            _send_timing_point(deadline_guard, 'DISPATCH_GUARD_ENTER')
+            try:
+                role_request.validate(sender=self, role=role_request.role, context=role_request.context,
+                    output_schema=output_schema, body=body)
+            finally:
+                _send_timing_point(deadline_guard, 'DISPATCH_GUARD_EXIT')
+        # Full validation can consume wall time. Recheck the live boundary after
+        # it, without another callback, cached authority or body serialization.
+        _check(connection.sock is not None and not deadline_guard.expired.is_set()
+            and time.monotonic() < deadline_guard.deadline, 'plan_request_deadline')
+        deadline_guard.apply_remaining_timeout()
+        _check(type(grant.access_token) is str and grant.access_token
+            and '\r' not in grant.access_token and '\n' not in grant.access_token
+            and headers['Authorization'] == 'Bearer ' + grant.access_token
+            and grant.expires_at > int(time.time()) + 30, 'plan_current_own_grant_required')
+        if method == 'POST':
+            _check('chatgpt.tokens.use.direct' in grant.scopes, 'plan_direct_scope_missing')
+        _send_timing_point(deadline_guard, 'DISPATCH_BOUNDARY_ACCEPTED')
         if dispatch_state is not None:
             dispatch_state['post_may_have_started'] = True
-        connection.request(method, path, body=body, headers=headers)
+        _transport_substage(diagnostic, 'REQUEST_SEND')
+        _send_timing_point(deadline_guard, 'REQUEST_ENTER')
+        try:
+            connection.request(method, path, body=body, headers=headers)
+        finally:
+            _send_timing_point(deadline_guard, 'REQUEST_EXIT')
+        _transport_substage(diagnostic, 'RESPONSE_DEADLINE')
         deadline_guard.apply_remaining_timeout()
-        return connection.getresponse()
+        _transport_substage(diagnostic, 'RESPONSE_HEADERS')
+        _send_timing_point(deadline_guard, 'GETRESPONSE_ENTER')
+        try:
+            return connection.getresponse()
+        finally:
+            _send_timing_point(deadline_guard, 'GETRESPONSE_EXIT')
 
     def _http_status(self, response, *, provider_code='UNKNOWN_PROVIDER_ERROR'):
         if response.status != 200:
@@ -1608,6 +1790,7 @@ class OpenAIPlanTransport:
         profile = self.request_profile()
         _check(id(role_request) not in self._reserved_role_requests, 'plan_role_request_already_reserved')
         source_sha = self._source()
+        diagnostic_pins = dict(self._diagnostic_source_pins)
         fixed_schema = _closed_schema(role, context, output_schema)
         body = build_request_body(role=role, context=context, output_schema=fixed_schema, profile=profile)
         _check(type(max_output_bytes) is int and 1 <= max_output_bytes <= 65536, 'plan_output_byte_limit')
@@ -1657,33 +1840,43 @@ class OpenAIPlanTransport:
             'provider_output_token_cap': 'UNKNOWN_UNSUPPORTED_BY_PLAN_HTTP_ROUTE',
             'cancellation_scope': 'CLOSING_CLIENT_STREAM_DOES_NOT_PROVE_SERVER_CANCELLATION'}
         dispatch_state = {'post_may_have_started': False}
+        diagnostic = {'transport_substage': 'RESERVATION_PERSIST'}
         terminal, usage, outcome = False, 'UNKNOWN', 'UNKNOWN'
         response, deadline_guard = None, None
         primary_error = None
         try:
             self._persist('reserved_' + attempt_id.split(':')[-1] + '.json', evidence)
+            _transport_substage(diagnostic, 'DEADLINE_SETUP')
             deadline_guard = _Deadline(connection, REQUEST_SECONDS)
+            evidence['send_timing'] = deadline_guard.send_timing
             response = self._send(connection, method='POST', path=RESPONSES_PATH, grant=current,
-                deadline_guard=deadline_guard, body=body, dispatch_state=dispatch_state, role_request=role_request)
+                deadline_guard=deadline_guard, body=body, dispatch_state=dispatch_state, role_request=role_request, diagnostic=diagnostic)
+            _transport_substage(diagnostic, 'HTTP_METADATA')
             self._prepare_http_response(response, expected_media='text/event-stream', deadline_guard=deadline_guard,
                 metadata=evidence['http_response'], observation_name='http_' + attempt_id.split(':')[-1] + '.json',
                 source_identity_sha256=source_sha, reservation_id=attempt_id, request_profile=wire)
             deadline = deadline_guard.deadline
+            _transport_substage(diagnostic, 'SSE_PARSE')
             complete = consume_sse(_sse_lines(response, deadline_guard, evidence['stream_body']),
                 deadline=deadline, max_output_bytes=max_output_bytes, clock=time.monotonic,
                 diagnostic=evidence['completed_output'], event_diagnostic=evidence['stream_event'], profile=profile)
-            self._provider_wait(False)
-            evidence['stream_body'].update(state='READ_STOPPED', parser_outcome='COMPLETED_SSE', termination='BOUND_SSE_COMPLETED')
+            # Retain the parser's terminal facts before any local telemetry callback.
             terminal, usage, outcome = True, complete.usage, 'FAILED'
+            evidence['stream_body'].update(state='READ_STOPPED', parser_outcome='COMPLETED_SSE', termination='BOUND_SSE_COMPLETED')
+            _transport_substage(diagnostic, 'RESPONSE_BINDING')
             evidence.update(response_id=complete.response_id, event_count=complete.event_count,
                 stream_bytes=complete.stream_bytes, output_item_count=complete.output_item_count,
                 returned_model=complete.model, returned_effort=complete.effort, returned_service_tier=complete.service_tier)
             evidence['stream_event'] = bind_stream_event(evidence['stream_event'], reservation_id=attempt_id,
                 source_identity_sha256=source_sha, context_sha256=context_sha, body_sha256=wire['body_sha256'],
                 response_id=complete.response_id) or unobserved_stream_event()
+            _transport_substage(diagnostic, 'PROVIDER_WAIT_EXIT')
+            self._provider_wait(False)
+            _transport_substage(diagnostic, 'JSON_PARSE')
             evidence['completed_output']['product_stage'] = 'JSON'
             evidence['completed_output']['product_validator'] = 'JSON_PARSER'
             value = _json(complete.text)
+            _transport_substage(diagnostic, 'SCHEMA_VALIDATE')
             evidence['completed_output']['product_stage'] = 'SCHEMA'
             evidence['completed_output']['product_validator'] = 'JSON_SCHEMA_DRAFT_2020_12'
             try:
@@ -1711,6 +1904,7 @@ class OpenAIPlanTransport:
                     for part in path[:16]]
                 raise PlanTransportError('plan_completed_proposal_schema_invalid', terminal_observed=True,
                     outcome='FAILED', usage=usage) from None
+            _transport_substage(diagnostic, 'OBSERVATION_BUILD')
             observation = ProposalObservation(value=value, context_sha256=context_sha,
                 response_id=complete.response_id, reservation_id=attempt_id, requested_model=profile['model'],
                 resolved_model='UNKNOWN', served_model=complete.model, requested_effort=profile['effort'],
@@ -1719,10 +1913,13 @@ class OpenAIPlanTransport:
                 wire_body_sha256=wire['body_sha256'], transport_version=TRANSPORT_VERSION,
                 catalog_receipt_sha256=catalog_sha)
             self._completed_role_requests[id(role_request)] = (role_request, observation, canonical(asdict(observation)), body)
+            _transport_substage(diagnostic, 'SEMANTIC_EMISSION')
             evidence['completed_output']['product_stage'] = 'SEMANTIC_EMISSION'
             evidence['completed_output']['product_validator'] = 'SEMANTIC_ROLE_REQUEST'
             role_request.emit(sender=self, observation=observation, body=body)
+            _transport_substage(diagnostic, 'EMISSION_GUARD')
             self._guard_observed('ON_EMISSION',role_request,body)
+            _transport_substage(diagnostic, 'ACCEPTED_OBSERVATION')
             evidence['completed_output'].update(product_stage='ACCEPTED', role_product_accepted=True)
             outcome = 'COMPLETED'
             evidence['proposal_observation'] = asdict(observation)
@@ -1730,6 +1927,10 @@ class OpenAIPlanTransport:
             return observation
         except PlanTransportError as error:
             primary_error = error
+            failure = _transport_failure(error, project=self.project, pins=diagnostic_pins,
+                source_sha=source_sha, stage=diagnostic['transport_substage'],
+                terminal=terminal or error.terminal_observed, category='CURATED_REFUSAL')
+            evidence['transport_failure'] = error.transport_failure = failure
             if evidence['completed_output']['product_stage'] not in ('NOT_STARTED', 'ACCEPTED'):
                 evidence['completed_output']['product_error_code'] = error.code
                 evidence['completed_output']['product_rule'] = error.code
@@ -1763,15 +1964,23 @@ class OpenAIPlanTransport:
                 returned_service_tier=error.returned_service_tier if error.returned_service_tier != 'UNKNOWN' else evidence.get('returned_service_tier', 'UNKNOWN'))
             raise
         except Exception as local_error:
-            evidence['error_code'] = 'plan_dispatch_or_stream_uncertain'
-            error = PlanTransportError('plan_dispatch_or_stream_uncertain')
+            failure = _transport_failure(local_error, project=self.project, pins=diagnostic_pins,
+                source_sha=source_sha, stage=diagnostic['transport_substage'], terminal=terminal,
+                category='POSTTERMINAL_LOCAL' if terminal else 'PRETERMINAL_UNCERTAIN')
+            code = 'plan_completed_local_product_failed' if terminal else 'plan_dispatch_or_stream_uncertain'
+            evidence['error_code'] = code
+            error = PlanTransportError(code, terminal_observed=terminal,
+                outcome='FAILED' if terminal else 'UNKNOWN', usage=usage if terminal else None)
             primary_error = error
+            try:
+                transfer_secondary_diagnostics(local_error, error)
+            except BaseException:
+                # Secondary transfer cannot replace the transport cause.
+                pass
+            evidence['transport_failure'] = error.transport_failure = failure
             if evidence['completed_output']['product_stage'] not in ('NOT_STARTED', 'ACCEPTED'):
-                code = local_error.args[0] if isinstance(local_error, ValueError) and local_error.args else None
-                evidence['completed_output']['product_error_code'] = (code if type(code) is str
-                    and re.fullmatch(r'(?:plan|semantic)_[a-z0-9_]{1,96}', code)
-                    else 'plan_local_product_validation_failed')
-                evidence['completed_output']['product_rule'] = evidence['completed_output']['product_error_code']
+                evidence['completed_output']['product_error_code'] = failure['original_code']
+                evidence['completed_output']['product_rule'] = failure['original_code']
             error.completed_output = json.loads(canonical(evidence['completed_output']))
             error.http_response = json.loads(canonical(evidence['http_response']))
             error.http_status = evidence['http_response']['status']
@@ -1779,10 +1988,51 @@ class OpenAIPlanTransport:
             error.stream_body = json.loads(canonical(evidence['stream_body']))
             error.stream_event = project_stream_event(evidence['stream_event']) or unobserved_stream_event()
             raise error from None
+        except BaseException as error:
+            primary_error = error
+            failure = _transport_failure(error, project=self.project, pins=diagnostic_pins,
+                source_sha=source_sha, stage=diagnostic['transport_substage'], terminal=terminal,
+                category='POSTTERMINAL_LOCAL' if terminal else 'PRETERMINAL_UNCERTAIN')
+            evidence['transport_failure'] = failure
+            try:
+                error.transport_failure = failure
+            except BaseException:
+                pass
+            raise
         finally:
-            self._provider_wait(False)
-            evidence['client_http_closed'] = _close_http(response, connection)
-            evidence['deadline_watchdog_finished'] = deadline_guard.finish() if deadline_guard is not None else True
+            _send_timing_point(deadline_guard, 'CLEANUP_ENTER')
+            cleanup_error = None
+
+            def cleanup_failure(error, phase, stage):
+                nonlocal primary_error, cleanup_error
+                if primary_error is None:
+                    primary_error = cleanup_error = error
+                    failure = _transport_failure(error, project=self.project, pins=diagnostic_pins,
+                        source_sha=source_sha, stage=stage, terminal=terminal,
+                        category='POSTTERMINAL_LOCAL' if terminal else 'PRETERMINAL_UNCERTAIN')
+                    evidence['transport_failure'] = failure
+                    evidence['error_code'] = failure['original_code']
+                    try:
+                        error.transport_failure = failure
+                    except BaseException:
+                        pass
+                else:
+                    _secondary_without_replacement(primary_error, error, phase=phase)
+
+            for key, stage, phase, finalize in (
+                    (None, 'PROVIDER_WAIT_CLEANUP', 'TERMINAL_OUTPUT', lambda: self._provider_wait(False)),
+                    ('client_http_closed', 'HTTP_CLOSE', 'CONNECTED_SETUP', lambda: _close_http(response, connection)),
+                    ('deadline_watchdog_finished', 'DEADLINE_FINISH', 'CONNECTED_SETUP',
+                        lambda: deadline_guard.finish() if deadline_guard is not None else True)):
+                try:
+                    value = finalize()
+                    if key is not None:
+                        evidence[key] = value
+                except BaseException as secondary:
+                    if key is not None:
+                        evidence[key] = False
+                    cleanup_failure(secondary, phase, stage)
+            _send_timing_point(deadline_guard, 'CLEANUP_EXIT')
             evidence['request_deadline_expired'] = deadline_guard.expired.is_set() if deadline_guard is not None else False
             evidence.update(outcome=outcome, usage=usage, terminal_observed=terminal,
                 dispatch_may_have_started=dispatch_state['post_may_have_started'], wall_seconds=time.monotonic() - started,
@@ -1794,15 +2044,20 @@ class OpenAIPlanTransport:
                     'returned_model': evidence.get('returned_model', 'UNKNOWN'),
                     'returned_effort': evidence.get('returned_effort', 'UNKNOWN'),
                     'returned_service_tier': evidence.get('returned_service_tier', 'UNKNOWN')}
-            for phase, finalize in (
-                    ('ROLE_BUDGET_WRITE', lambda: self.budget.finish(attempt_id, outcome=outcome, usage=usage, telemetry=telemetry)),
-                    ('ROLE_OBSERVATION_WRITE', lambda: self._persist('result_' + attempt_id.split(':')[-1] + '.json', evidence))):
+            for phase, stage, finalize in (
+                    ('ROLE_BUDGET_WRITE', 'BUDGET_FINISH', lambda: self.budget.finish(attempt_id, outcome=outcome, usage=usage, telemetry=telemetry)),
+                    ('ROLE_OBSERVATION_WRITE', 'RESULT_PERSIST', lambda: self._persist('result_' + attempt_id.split(':')[-1] + '.json', evidence))):
+                if primary_error is not None:
+                    try:
+                        evidence['failure_observation'] = project_error(primary_error)
+                    except BaseException as projection_error:
+                        _secondary_without_replacement(primary_error, projection_error, phase=phase)
                 try:
                     finalize()
-                except Exception as secondary:
-                    if primary_error is None:
-                        raise
-                    record_secondary(primary_error, secondary, phase=phase, step='UNKNOWN')
+                except BaseException as secondary:
+                    cleanup_failure(secondary, phase, stage)
+            if cleanup_error is not None:
+                raise cleanup_error
 
     def close(self):
         """No retained socket, child process, tool dispatcher, or grant revocation."""

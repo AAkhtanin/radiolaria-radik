@@ -1,0 +1,158 @@
+{
+  "author": "/root/stage05_g3_contract",
+  "candidate_pin_count": 182,
+  "changed_files": [
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/after/app/ordinary_entry.py",
+        "sha256": "68d4a8742bbba6e889c05d52874114a0c8dae6512702384ba0879bc113db418e",
+        "size_bytes": 28287
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/after/app/ordinary_entry.py",
+        "sha256": "5f3d3dcc76e12471184d8f57754882c36e48b287191175a8fceaad22ca5f927d",
+        "size_bytes": 28287
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/app__ordinary_entry.py.diff",
+        "sha256": "56925bbf488f63b55ce01fd2e3ad5923cc22feff81cbf4b2e16a67b246b83d24",
+        "size_bytes": 1341
+      },
+      "logical": "app/ordinary_entry.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/after/app/qualified_experience_scenario.py",
+        "sha256": "4b45793c8e491f3bbf4bf92c4e910ac5658b60bd6c48425c13af07be6cbb1500",
+        "size_bytes": 24990
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/after/app/qualified_experience_scenario.py",
+        "sha256": "381ce1d49e5c3e032774400d4c5f8caf946e3ab6cecf2b930dd60d00938d0e20",
+        "size_bytes": 24990
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/app__qualified_experience_scenario.py.diff",
+        "sha256": "1106983daf35566a95269955d7d1b7d0b1c9da0fb9551b281cc114a517da5a15",
+        "size_bytes": 568
+      },
+      "logical": "app/qualified_experience_scenario.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/after/config/application_profile_gate.py",
+        "sha256": "0e812c08ff61d1b1449db6d7c4465f58c3b5ce1d0f6765f39cb92285650acd2c",
+        "size_bytes": 15504
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/after/config/application_profile_gate.py",
+        "sha256": "0ba5e6c1e650e4f473f70bc427c1444fc8cfeef9a19219abb33509da54125be0",
+        "size_bytes": 15504
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/config__application_profile_gate.py.diff",
+        "sha256": "b54863cde00334973e33f20ac9261aac62d99a9c0723969fbef85b2d184d47cf",
+        "size_bytes": 774
+      },
+      "logical": "config/application_profile_gate.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/after/review/transport/radik_owner_start.py",
+        "sha256": "af2beceff210dee670cacc35f2a7acf21efe1962062569f6474cf9d0bb3418e3",
+        "size_bytes": 143867
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/after/review/transport/radik_owner_start.py",
+        "sha256": "584dae7967f48562efb0fb1e43d9369f3e64579ecf57acc0d9f9a5c750bf9cd5",
+        "size_bytes": 143867
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/review__transport__radik_owner_start.py.diff",
+        "sha256": "ef48783303db060b34df484020239698c164d30797d347ec4a9a2130892761f9",
+        "size_bytes": 864
+      },
+      "logical": "review/transport/radik_owner_start.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/activate_profile.py",
+        "sha256": "3fcf7b4c6a7940565fcd195c3fb036d34d340b64e28eea7821ccc0775415efb0",
+        "size_bytes": 20291
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/activate_profile.py",
+        "sha256": "4ec26c1af5f6c7abfd1e62c78dde816633c6f9c0caf7dc1a4c3bc5837e39d89f",
+        "size_bytes": 20291
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/activate_profile.py.diff",
+        "sha256": "7efccca0d70d2ec02ae83c2ca10a03e947b3944614c703b72367d3627e86aca4",
+        "size_bytes": 543
+      },
+      "logical": "review/stage05_qualified_experience_passage/v09/integration/activate_profile.py"
+    },
+    {
+      "after_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+        "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+        "size_bytes": 72894
+      },
+      "before_ref": {
+        "path": "review/stage05_qualified_experience_passage/v07/integration/owner_terminal.py",
+        "sha256": "1c63b459c822df3bfe217a509373b85425ba296aa3258e4b8cb4692d8f0465d2",
+        "size_bytes": 72894
+      },
+      "change": "Exact candidate-prefix rebase only",
+      "diff_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/diffs/owner_terminal.py.diff",
+        "sha256": "a4660b2854ba592b140524734a0f1dc28652fc0edb57538a759906a5300b2567",
+        "size_bytes": 585
+      },
+      "logical": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py"
+    }
+  ],
+  "exact_old_c146_validator_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/after/app/stage05_disposition.py",
+    "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a",
+    "size_bytes": 23992
+  },
+  "exact_transport_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/after/app/openai_plan_transport.py",
+    "sha256": "68d18d3d9607b6fd094f1bde767e5566ce12fd876eb885718eb5f2c9f953c05d",
+    "size_bytes": 123966
+  },
+  "historical_inventory_entry_count": 594,
+  "historical_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/historical_source_inventory.json",
+    "sha256": "2377ac51d8525d4c27a80ae3c09d6f39d027b767c004e69ac6f78687a2455a4d",
+    "size_bytes": 171152
+  },
+  "install_alias_count": 58,
+  "metadata_draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/profile_metadata_draft.json",
+    "sha256": "3242202125278738bdda526b10513bd1543bdffbaeab8297580a19c281302012",
+    "size_bytes": 79348
+  },
+  "optimization_applied": false,
+  "predecessor_snapshot_rebase_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/predecessor_install_state.json",
+    "sha256": "ed94e5afd3632382b99a61e212005170cfc60a496d920577fa3ed199966871d3",
+    "size_bytes": 43142
+  },
+  "prior_manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/ordinary_profile_manifest.json",
+    "sha256": "8cc18943d310117ad057df58e8c13aaf0c60dcaec47f798dabf2bd4cf94077bc",
+    "size_bytes": 76014
+  },
+  "production_changed": false,
+  "schema": "radik.stage05.source_prefix_rebase_proposal.v09",
+  "scope": "Only candidate-prefix rebasing from immutable v07 into fresh v09. Existing53-row predecessor and all historical mappings stay unchanged. Future focused/owner metadata is independently created only after supported actual review.",
+  "source_modules_executed": false,
+  "status": "SOURCE_PROPOSAL_ONLY_NOT_EXECUTED"
+}

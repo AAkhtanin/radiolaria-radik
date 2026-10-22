@@ -1,0 +1,168 @@
+{
+  "additional_basis_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_requirements_matrix.json",
+      "sha256": "2a72bd223134f686279bac3f095d5466025fb350f044da3011d48ab1ac28bd04",
+      "size_bytes": 47697
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/prior_full_matrix_evidence_selection.json",
+      "sha256": "083b17e6b4c7f2e8593ea33a94ab63d7d6b82c021c67bcb31808154901452b1d",
+      "size_bytes": 14677
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/mutable_state_preservation.json",
+      "sha256": "14082b17c76c581a67f535c5c76da72f1171c5a0c844cea47e69d43c2fc656a0",
+      "size_bytes": 9388
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_new_witness_inventory.json",
+      "sha256": "b840c46a0a3b925c849a1d59704d8c56ee51a4c7c87060c76a18467129948ffb",
+      "size_bytes": 90064
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/documentation_basis/claims_evidence_before.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    }
+  ],
+  "checks": {
+    "accounting": {
+      "attempts_after": 59,
+      "attempts_before": 53,
+      "child_exit_code": 0,
+      "child_process_cpu_ns": 829888680000,
+      "child_reaped": true,
+      "historical_UNKNOWN_outcomes_preserved": 5,
+      "historical_task_rows_preserved": 14,
+      "measures_kept_distinct": true,
+      "native_accounted_ns": 741370821832,
+      "new_COMPLETED_roles": 6,
+      "new_COMPLETED_tasks": 2,
+      "no_external_terminal_transcript_claim": true,
+      "no_primary_or_secondary_failure_or_signals": true,
+      "wall_ns": 885656256625
+    },
+    "causality": {
+      "all_PURE_candidate_and_packet_ids_null": true,
+      "controlled_native_Boolean_negative_separated_from_accepted_model_tasks": true,
+      "legitimate_dynamic_work_guard_skip_retained": "audit0: SKIPPED_GUARD_FALSE/work_guard_false",
+      "prospective_claim_precedes_event": true,
+      "seven_new_G3_PURE_invocations_distinguished_from_ordinary_Work": true,
+      "three_current_consumer_pairs_plus_one_observation": true,
+      "unrelated_task_real_current_consumer_and_no_foreign_prior": true
+    },
+    "claims_addendum": {
+      "Stage04_acceptance_preserved": true,
+      "changed_directions": [
+        "DEFER-S5-FEEDBACK",
+        "DEFER-S5-TEMPORAL-CONFLICT",
+        "DEFER-S5-LESSON-CONSUMER",
+        "DEFER-S5-FINITE-STRATEGY"
+      ],
+      "historical_status_and_target_stage_fields_match": true,
+      "original_dossier_equals_preserved_bytes": true,
+      "preserved_direction_identities": 21,
+      "unchanged_other_statuses": 17
+    },
+    "closure": {
+      "all_ten_original_requirements_covered": true,
+      "prior_partial_and_failure_verdicts_unchanged": true,
+      "scope_matches_independent_aggregate": true,
+      "uncovered_original_requirements": []
+    },
+    "delivery_scope": {
+      "history_optimization_unapplied": true,
+      "new_witness_file_count": 106,
+      "no_new_owner_command": true,
+      "no_publication_or_Stage06_start": true,
+      "public_mutable_state_snapshots": 16,
+      "runtime_unchanged_during_review_passage": true
+    },
+    "model_boundary": {
+      "http_retries": 0,
+      "ledger_served_model": "UNKNOWN",
+      "no_backend_or_OS_sandbox_overclaim": true,
+      "requested_effort": "high",
+      "requested_model": "gpt-6.1-sol",
+      "resolved_backend_identity": "UNKNOWN",
+      "returned_metadata_matches_six": true,
+      "tools_empty": true,
+      "wire_service_tier": "default"
+    },
+    "retained_controls": {
+      "G4_aged_restriction_unscorable_separate_prior_evidence": true,
+      "G4_allocation": "4/3->3/4",
+      "exact_prior_raw_leaf_count": 28,
+      "native_units_each": 9,
+      "no_speedup_or_new_math_claim": true,
+      "prior_stopped_run_not_reclassified": true,
+      "selected_outputs_consumed_each": 7,
+      "unchanged_native_mappings": 88,
+      "unchanged_relevant_application_consumers": 3
+    },
+    "source_revision": {
+      "actual_revision_change": "1->2",
+      "after_300_second_max_age": true,
+      "before_native_dispatch": true,
+      "before_original_TTL_and_Work_expiry": true,
+      "first_refusal": "dynamic_current_sources_changed",
+      "history_Work_preserved_and_no_TTL_renewal": true,
+      "later_CURRENT_freshness_not_claimed": true
+    }
+  },
+  "exact_closure_addendum_reference_count_verified": 8,
+  "findings": [],
+  "independent_basis_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_matrix_independent_acceptance.json",
+      "sha256": "87e97be01f6a7a98030d117f7e8e85bd21ba4cd40ad729792dde51aed2d50821",
+      "size_bytes": 21658
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_independent_acceptance.json",
+      "sha256": "2761954a6200b6e7f4cebd81d9780982c6ea9005d620b7450364500414f8d34d",
+      "size_bytes": 17443
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_owner_accounting_review.json",
+      "sha256": "8f5add371df1794c7316279e2411b2fec660899c316f3c52bebfcabd67386917",
+      "size_bytes": 3967
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_source_model_ledger_boundary_review.json",
+      "sha256": "56541a2511b8104276a2910ee60a36ce471c313bcb817ab5877b34488bc8efa4",
+      "size_bytes": 21592
+    }
+  ],
+  "review_limits": [
+    "This is a narrow prose/data consistency review. It performs no new application import, native/model run, state transition, ACK, activation or source mutation.",
+    "The reviewer authored the requirements mapping and earlier G4 adapter. Executable and actual acceptance comes from the separate pinned independent reviews; this prose check grants no new source acceptance.",
+    "Archive construction and manifest/SHA256 readback remain a separate packaging action. Delivery wording must be used only with the successful final archive verification; this record does not claim that packaging has already run."
+  ],
+  "reviewed_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+      "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+      "size_bytes": 4045
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/README.md",
+      "sha256": "392a22cc80d9928d3bf35a6bf6e0028395e457f72f3daf1a788d6255fd9eb1ef",
+      "size_bytes": 8718
+    },
+    {
+      "path": "/Users/admin/Downloads/Radik/stage05_v09_actual_acceptance_v10/OWNER_REPORT_RU.md",
+      "sha256": "1c20e1aacaf6757fe48da043676fd50afdae69fd1daf57e2b9993f3a6648dfdb",
+      "size_bytes": 9251
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.report_closure_peer_review.v10",
+  "status": "PASS_EXACT_CLOSURE_ADDENDUM_AND_REPORT_SCOPE"
+}

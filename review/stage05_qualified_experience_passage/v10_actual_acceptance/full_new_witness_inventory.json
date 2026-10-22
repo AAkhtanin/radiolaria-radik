@@ -1,0 +1,1746 @@
+{
+  "application_import_or_execution": false,
+  "author": "/root/stage05_g3_contract",
+  "canonical_record_receipt_observations": [
+    {
+      "canonical_content_sha256": "8d718b501b0ae441f81b7544c0c7abcd4ad8831d3b5447c361c28319dbf63f79",
+      "raw_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7d270e0166835d5b2de73c829489209a5bd6e16592bf737f438c8f17492d81f0.json",
+        "sha256": "482a429c1646bb1d011c553fd7399dbf22480ced5efb24f1c3b561a933c628a3",
+        "size_bytes": 9499
+      },
+      "receipt_pointer": "/body/controller_snapshots/radik-task:583e159e57c440ab8c80264b3bdc67cb/memory_events/2"
+    },
+    {
+      "canonical_content_sha256": "6482f3083265f5deb52f8285f30f2f25beff52ff57364a770cda21961563d284",
+      "raw_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d178abc7a5bd237fed220241be75dc34d4912de08ed87e5240caa6c4c2604799.json",
+        "sha256": "d007a25f1a2f8da4fe5639263282d3e1ff856426d8824cbb569b9c3e50173465",
+        "size_bytes": 9251
+      },
+      "receipt_pointer": "/body/controller_snapshots/radik-task:beb0598e65524a89995a95e1effa27c5/memory_events/2"
+    }
+  ],
+  "file_count": 106,
+  "files": [
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_b6e0bca8d7464d829b9975d5774f4d3f.json",
+        "sha256": "3a736b7b24b27d3fd5ccde13cf13bcc90348d58df21b2eab34894f2c999d78ea",
+        "size_bytes": 2677
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/catalog_b6e0bca8d7464d829b9975d5774f4d3f.json",
+        "sha256": "3a736b7b24b27d3fd5ccde13cf13bcc90348d58df21b2eab34894f2c999d78ea",
+        "size_bytes": 2677
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_f9a2df09cd6543eea84a133cf6bab21c.json",
+        "sha256": "2890ece9dab401332b4296bbe1177b74cc88ae294de609353d901ba0825ba6a7",
+        "size_bytes": 2677
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/catalog_f9a2df09cd6543eea84a133cf6bab21c.json",
+        "sha256": "2890ece9dab401332b4296bbe1177b74cc88ae294de609353d901ba0825ba6a7",
+        "size_bytes": 2677
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_http_352484b209c64555b316b13aa3ede9c6.json",
+        "sha256": "938a592e44e7c8b8ffa61d87a22ffad0040c920b4bc86e6db51a519d87eaef5b",
+        "size_bytes": 1367
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/catalog_http_352484b209c64555b316b13aa3ede9c6.json",
+        "sha256": "938a592e44e7c8b8ffa61d87a22ffad0040c920b4bc86e6db51a519d87eaef5b",
+        "size_bytes": 1367
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/catalog_http_8e486b4b556245229b3738ac36c94937.json",
+        "sha256": "938a592e44e7c8b8ffa61d87a22ffad0040c920b4bc86e6db51a519d87eaef5b",
+        "size_bytes": 1367
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/catalog_http_8e486b4b556245229b3738ac36c94937.json",
+        "sha256": "938a592e44e7c8b8ffa61d87a22ffad0040c920b4bc86e6db51a519d87eaef5b",
+        "size_bytes": 1367
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "63ea91790c139a2de4a52ef948e9662eb7312afd653efa89ab3f2ccbb24b72b9",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "63ea91790c139a2de4a52ef948e9662eb7312afd653efa89ab3f2ccbb24b72b9",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "be8749da8c1e25b158b0243866451b910083284f1816308d4c094bab491520e6",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "be8749da8c1e25b158b0243866451b910083284f1816308d4c094bab491520e6",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "45d0b8d5a04abcb45ee471e80b5e7044911d1acdae261246947abc965a4bfa5e",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "45d0b8d5a04abcb45ee471e80b5e7044911d1acdae261246947abc965a4bfa5e",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "49611cd9083b306ea927a1af6b92c7d1aced0bf7f0d85d1c0e7ffd9a05a5d9a0",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "49611cd9083b306ea927a1af6b92c7d1aced0bf7f0d85d1c0e7ffd9a05a5d9a0",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1c4e01c6d859957e6f1c825042082eb58afe5ff481697e73d3c64c032613f6c5",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1c4e01c6d859957e6f1c825042082eb58afe5ff481697e73d3c64c032613f6c5",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/http_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "83734e1cf7ad824059f2b1ecbbfe9d65662b0f7a6ee5fa5b56d9b69cfc38f748",
+        "size_bytes": 1374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/http_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "83734e1cf7ad824059f2b1ecbbfe9d65662b0f7a6ee5fa5b56d9b69cfc38f748",
+        "size_bytes": 1374
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "0d27fbfc8d3d0a752bd0e672e90262e797e3b220a18ad5531cd78e928e0a0c4d",
+        "size_bytes": 14569
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "0d27fbfc8d3d0a752bd0e672e90262e797e3b220a18ad5531cd78e928e0a0c4d",
+        "size_bytes": 14569
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "846aa032d6062bf4d2200e9dc723454196931f55563808b82f4e1da311aa6024",
+        "size_bytes": 8285
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "846aa032d6062bf4d2200e9dc723454196931f55563808b82f4e1da311aa6024",
+        "size_bytes": 8285
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "d118d094b608fe46e007dc791a90563dcae5c60b9f2d010c171d518a1dbe4084",
+        "size_bytes": 15107
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "d118d094b608fe46e007dc791a90563dcae5c60b9f2d010c171d518a1dbe4084",
+        "size_bytes": 15107
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "a8cbddacf2e7ace45005191dd9334be529a1dc7258c4a62890633ef5b3c33dba",
+        "size_bytes": 8712
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "a8cbddacf2e7ace45005191dd9334be529a1dc7258c4a62890633ef5b3c33dba",
+        "size_bytes": 8712
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "13aebeb80f21d828438a4f8c101363d301e6f617ac33c9ee98a2330add4782e1",
+        "size_bytes": 21352
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "13aebeb80f21d828438a4f8c101363d301e6f617ac33c9ee98a2330add4782e1",
+        "size_bytes": 21352
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/reserved_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "ebd129364075435de0fc7e3e102fdb6da16684ce243dc46599feca4d60eadf44",
+        "size_bytes": 17954
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/reserved_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "ebd129364075435de0fc7e3e102fdb6da16684ce243dc46599feca4d60eadf44",
+        "size_bytes": 17954
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "6d735d0f8fec12b0e1010a00a73f6906427b2ba694d158de65b0118d2769588f",
+        "size_bytes": 26959
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_30b9be60285b4f1680c49a9053ad7083.json",
+        "sha256": "6d735d0f8fec12b0e1010a00a73f6906427b2ba694d158de65b0118d2769588f",
+        "size_bytes": 26959
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "a7a4398e5f7d87fa9e193dec5f15a0d68e13bf3a3f0f0d7a39f7ccc3881f1a2e",
+        "size_bytes": 20256
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_8e7c48c5c7d34c519325648c22bf3eb1.json",
+        "sha256": "a7a4398e5f7d87fa9e193dec5f15a0d68e13bf3a3f0f0d7a39f7ccc3881f1a2e",
+        "size_bytes": 20256
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "fb86a73e64e4e155c317405edd263b912ccf0947c7de9fbd2adf268c27a66345",
+        "size_bytes": 28346
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_a49d00ce3d494959ad1cbd31ab6066bf.json",
+        "sha256": "fb86a73e64e4e155c317405edd263b912ccf0947c7de9fbd2adf268c27a66345",
+        "size_bytes": 28346
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "5d9aa06ac92afcea34a53dbed650b26ae0b3a23539416cb14395d9b0bf0c28da",
+        "size_bytes": 20777
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_a669ae2ac57b4bcb852a9abb4c24aaca.json",
+        "sha256": "5d9aa06ac92afcea34a53dbed650b26ae0b3a23539416cb14395d9b0bf0c28da",
+        "size_bytes": 20777
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1ef4f187e4d131b1291cedccb64e5d1b63cbcd5db86fe3e324c04da3e9704c15",
+        "size_bytes": 33580
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_b967573277c94836af5c2664b5976af8.json",
+        "sha256": "1ef4f187e4d131b1291cedccb64e5d1b63cbcd5db86fe3e324c04da3e9704c15",
+        "size_bytes": 33580
+      }
+    },
+    {
+      "groups": [
+        "six_roles_public_transport_and_two_catalog_refreshes"
+      ],
+      "original_ref": {
+        "path": "review/direct_plan_passage/transport_observations/1792697856211960000/result_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "8a6447905deeca50c2c533280b8a16b9c3ac0914242c27838e49647361db832f",
+        "size_bytes": 30092
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/direct_plan_passage/transport_observations/1792697856211960000/result_eb896360926d4d24b908bd6d7c52914d.json",
+        "sha256": "8a6447905deeca50c2c533280b8a16b9c3ac0914242c27838e49647361db832f",
+        "size_bytes": 30092
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/installation_receipt.json",
+        "sha256": "879741199d706d58f25b90ca64d55f37b55135f6ac43d984aa5ef89a14dfaaf2",
+        "size_bytes": 1443
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/installation_receipt.json",
+        "sha256": "879741199d706d58f25b90ca64d55f37b55135f6ac43d984aa5ef89a14dfaaf2",
+        "size_bytes": 1443
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/launch.json",
+        "sha256": "367166936843621c8b2fb8df6a383c6927a0a5d4690acd913a45a8eeb566b0ae",
+        "size_bytes": 2700
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/launch.json",
+        "sha256": "367166936843621c8b2fb8df6a383c6927a0a5d4690acd913a45a8eeb566b0ae",
+        "size_bytes": 2700
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/child_stdout.raw",
+        "sha256": "b84790f12b458e0b46af9ef701a4c212783e0be2cef7e483292508f936d9c7fc",
+        "size_bytes": 49350
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/child_stdout.raw",
+        "sha256": "b84790f12b458e0b46af9ef701a4c212783e0be2cef7e483292508f936d9c7fc",
+        "size_bytes": 49350
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/launch.json",
+        "sha256": "b2781d774d4f210f76d9e8459fa6f10db2b977feb8b5aebb771ccf088141b08f",
+        "size_bytes": 2749
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/launch.json",
+        "sha256": "b2781d774d4f210f76d9e8459fa6f10db2b977feb8b5aebb771ccf088141b08f",
+        "size_bytes": 2749
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/receipt.json",
+        "sha256": "51a3c348d717dec25a5965fa35ac6a189792263556193df079a5ff0e1463aef2",
+        "size_bytes": 6466
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/receipt.json",
+        "sha256": "51a3c348d717dec25a5965fa35ac6a189792263556193df079a5ff0e1463aef2",
+        "size_bytes": 6466
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/receipt.json",
+        "sha256": "7081b1e522b69f97d8623279078a9557af5c086a6a2aa25268a34ed7545e465e",
+        "size_bytes": 9392
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/receipt.json",
+        "sha256": "7081b1e522b69f97d8623279078a9557af5c086a6a2aa25268a34ed7545e465e",
+        "size_bytes": 9392
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/reservation_outcome.json",
+        "sha256": "b5153e81774f619094149011b406db50970f6d86128a392040546c3abb60406b",
+        "size_bytes": 1338
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/reservation_outcome.json",
+        "sha256": "b5153e81774f619094149011b406db50970f6d86128a392040546c3abb60406b",
+        "size_bytes": 1338
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/scenario_result.json",
+        "sha256": "23929df3f41508b34a0578e2359faaeffed56f26d803f51e2ce9fd4d1d52a0a9",
+        "size_bytes": 10127
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/scenario_result.json",
+        "sha256": "23929df3f41508b34a0578e2359faaeffed56f26d803f51e2ce9fd4d1d52a0a9",
+        "size_bytes": 10127
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/step_01_EXPERIENCE.json",
+        "sha256": "9ffb96d3ea65545fdf5c99f2e02234bebc148c3d1759220ca300f0f94ef20614",
+        "size_bytes": 345
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/step_01_EXPERIENCE.json",
+        "sha256": "9ffb96d3ea65545fdf5c99f2e02234bebc148c3d1759220ca300f0f94ef20614",
+        "size_bytes": 345
+      }
+    },
+    {
+      "groups": [
+        "owner_run"
+      ],
+      "original_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/step_02_EXIT.json",
+        "sha256": "abc60894a3ada859733d2104df7e6f2c1d7c5d19259cf37fda44bbcff3490a57",
+        "size_bytes": 334
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/step_02_EXIT.json",
+        "sha256": "abc60894a3ada859733d2104df7e6f2c1d7c5d19259cf37fda44bbcff3490a57",
+        "size_bytes": 334
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round"
+      ],
+      "original_ref": {
+        "path": "state/normal_operations/9956fc42fb8e4198a7f8d8984ceddf90.json",
+        "sha256": "523d97c0acbd2406ddfd6a563ccb532107e15fa6e5aa3634f799682425d34d66",
+        "size_bytes": 1365
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_operations/9956fc42fb8e4198a7f8d8984ceddf90.json",
+        "sha256": "523d97c0acbd2406ddfd6a563ccb532107e15fa6e5aa3634f799682425d34d66",
+        "size_bytes": 1365
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round_closure"
+      ],
+      "original_ref": {
+        "path": "state/normal_operations/9956fc42fb8e4198a7f8d8984ceddf90.json.closed",
+        "sha256": "fe7308682f79834ee17d8cbad3128c6ca3420cd6fc0c644225eeb342f51f6100",
+        "size_bytes": 435
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_operations/9956fc42fb8e4198a7f8d8984ceddf90.json.closed",
+        "sha256": "fe7308682f79834ee17d8cbad3128c6ca3420cd6fc0c644225eeb342f51f6100",
+        "size_bytes": 435
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round"
+      ],
+      "original_ref": {
+        "path": "state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "427e6118e3b9508ddc1fa659cd149b430f419617f6a93ca4f68f1698748c7db9",
+        "size_bytes": 1207
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "427e6118e3b9508ddc1fa659cd149b430f419617f6a93ca4f68f1698748c7db9",
+        "size_bytes": 1207
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round_closure"
+      ],
+      "original_ref": {
+        "path": "state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json.closed",
+        "sha256": "65e88a9fd2a53d35bb229a75dd4b90eea678b17e65cd5f35edf896ceaec55dc7",
+        "size_bytes": 340
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_rounds/1424d02ea61d4d1bbdbba57d1e051492.json.closed",
+        "sha256": "65e88a9fd2a53d35bb229a75dd4b90eea678b17e65cd5f35edf896ceaec55dc7",
+        "size_bytes": 340
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round"
+      ],
+      "original_ref": {
+        "path": "state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "78d3e9caf28abc97edae646de0c602521089c8f23988f68bfc28ac3c3d8a563a",
+        "size_bytes": 1206
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "78d3e9caf28abc97edae646de0c602521089c8f23988f68bfc28ac3c3d8a563a",
+        "size_bytes": 1206
+      }
+    },
+    {
+      "groups": [
+        "operation_and_round_closure"
+      ],
+      "original_ref": {
+        "path": "state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json.closed",
+        "sha256": "72684eff70064f68b1504b0bf815d7e59aac1de9052560f747c6df6b2832c113",
+        "size_bytes": 340
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_rounds/a534a1822bcf45ac82b8ec4cf1ba42e2.json.closed",
+        "sha256": "72684eff70064f68b1504b0bf815d7e59aac1de9052560f747c6df6b2832c113",
+        "size_bytes": 340
+      }
+    },
+    {
+      "groups": [
+        "new_explicit_owner_disposition"
+      ],
+      "original_ref": {
+        "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json",
+        "sha256": "f95f82c82d9f642a13bbd6ad46bd63e33b581ddc5fed49119f1425f6c055100e",
+        "size_bytes": 1757
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json",
+        "sha256": "f95f82c82d9f642a13bbd6ad46bd63e33b581ddc5fed49119f1425f6c055100e",
+        "size_bytes": 1757
+      }
+    },
+    {
+      "groups": [
+        "new_successor_two_slot_records"
+      ],
+      "original_ref": {
+        "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "b7a92e3e4204235b959686c801952275f2f1151c14f531329849b26690b5e725",
+        "size_bytes": 775
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/1424d02ea61d4d1bbdbba57d1e051492.json",
+        "sha256": "b7a92e3e4204235b959686c801952275f2f1151c14f531329849b26690b5e725",
+        "size_bytes": 775
+      }
+    },
+    {
+      "groups": [
+        "new_successor_two_slot_records"
+      ],
+      "original_ref": {
+        "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "a4a16693a84bb03c0ed7a738cea91aa4ec116a3083bd1254cbf3ab30cb76b7d3",
+        "size_bytes": 775
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/a534a1822bcf45ac82b8ec4cf1ba42e2.json",
+        "sha256": "a4a16693a84bb03c0ed7a738cea91aa4ec116a3083bd1254cbf3ab30cb76b7d3",
+        "size_bytes": 775
+      }
+    },
+    {
+      "groups": [
+        "new_successor_two_slot_records"
+      ],
+      "original_ref": {
+        "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/alder_cold.json",
+        "sha256": "457a98d09aeee89b0abf98ae1ada19d173573eaf91b89186a4bc95154deaefe7",
+        "size_bytes": 184
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/alder_cold.json",
+        "sha256": "457a98d09aeee89b0abf98ae1ada19d173573eaf91b89186a4bc95154deaefe7",
+        "size_bytes": 184
+      }
+    },
+    {
+      "groups": [
+        "new_successor_two_slot_records"
+      ],
+      "original_ref": {
+        "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/rowan_cold.json",
+        "sha256": "2def807a5bf285f86f3dfd5bb30c2d3adafee82c37323e9271765afafbd4f440",
+        "size_bytes": 184
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/rowan_cold.json",
+        "sha256": "2def807a5bf285f86f3dfd5bb30c2d3adafee82c37323e9271765afafbd4f440",
+        "size_bytes": 184
+      }
+    },
+    {
+      "groups": [
+        "taskstore_accepted_output"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/output/583e159e57c440ab8c80264b3bdc67cb-0f91faf652a5eb54428d2d2d73cb990e9e45bc5b2d0fc6ed6ae97bcc890e02e1.json",
+        "sha256": "0f91faf652a5eb54428d2d2d73cb990e9e45bc5b2d0fc6ed6ae97bcc890e02e1",
+        "size_bytes": 40860
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/output/583e159e57c440ab8c80264b3bdc67cb-0f91faf652a5eb54428d2d2d73cb990e9e45bc5b2d0fc6ed6ae97bcc890e02e1.json",
+        "sha256": "0f91faf652a5eb54428d2d2d73cb990e9e45bc5b2d0fc6ed6ae97bcc890e02e1",
+        "size_bytes": 40860
+      }
+    },
+    {
+      "groups": [
+        "taskstore_accepted_output"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/output/beb0598e65524a89995a95e1effa27c5-167ad8bd1f73fd4012b7555a1adaf5d8ffa6c32217e0dcf6065f6005a8229dd8.json",
+        "sha256": "167ad8bd1f73fd4012b7555a1adaf5d8ffa6c32217e0dcf6065f6005a8229dd8",
+        "size_bytes": 34774
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/output/beb0598e65524a89995a95e1effa27c5-167ad8bd1f73fd4012b7555a1adaf5d8ffa6c32217e0dcf6065f6005a8229dd8.json",
+        "sha256": "167ad8bd1f73fd4012b7555a1adaf5d8ffa6c32217e0dcf6065f6005a8229dd8",
+        "size_bytes": 34774
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_5bd6f4b2b2cd7cb49d2a442d4a3d229188f7a135f6eb48403f36c751e9200464.json",
+        "sha256": "5bd6f4b2b2cd7cb49d2a442d4a3d229188f7a135f6eb48403f36c751e9200464",
+        "size_bytes": 523098
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_5bd6f4b2b2cd7cb49d2a442d4a3d229188f7a135f6eb48403f36c751e9200464.json",
+        "sha256": "5bd6f4b2b2cd7cb49d2a442d4a3d229188f7a135f6eb48403f36c751e9200464",
+        "size_bytes": 523098
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_9a82f5973ae96457517c308edcc194782565de05dd13a6af7b0214ae2f5b7933.json",
+        "sha256": "9a82f5973ae96457517c308edcc194782565de05dd13a6af7b0214ae2f5b7933",
+        "size_bytes": 338008
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_9a82f5973ae96457517c308edcc194782565de05dd13a6af7b0214ae2f5b7933.json",
+        "sha256": "9a82f5973ae96457517c308edcc194782565de05dd13a6af7b0214ae2f5b7933",
+        "size_bytes": 338008
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_ecb8635a9be908fd07cf25b53307b2343162bc8f8c208c4751b98a385b0fbc47.json",
+        "sha256": "ecb8635a9be908fd07cf25b53307b2343162bc8f8c208c4751b98a385b0fbc47",
+        "size_bytes": 517659
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_console_command_ecb8635a9be908fd07cf25b53307b2343162bc8f8c208c4751b98a385b0fbc47.json",
+        "sha256": "ecb8635a9be908fd07cf25b53307b2343162bc8f8c208c4751b98a385b0fbc47",
+        "size_bytes": 517659
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_entry_result_8b1ce0008a73600d9caba0ff48a4b80d5a9dacae89a5ed10b7a5da334a3866fb.json",
+        "sha256": "8b1ce0008a73600d9caba0ff48a4b80d5a9dacae89a5ed10b7a5da334a3866fb",
+        "size_bytes": 2371
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_entry_result_8b1ce0008a73600d9caba0ff48a4b80d5a9dacae89a5ed10b7a5da334a3866fb.json",
+        "sha256": "8b1ce0008a73600d9caba0ff48a4b80d5a9dacae89a5ed10b7a5da334a3866fb",
+        "size_bytes": 2371
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_loader_schema_callback_origins_5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84.json",
+        "sha256": "5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84",
+        "size_bytes": 878404
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_loader_schema_callback_origins_5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84.json",
+        "sha256": "5ea311864647a2d19e7848a2c56db006ebd3f29da89229f09a4cb25e1e10ae84",
+        "size_bytes": 878404
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_operation_closed_02ef27b9267eac510bcbe2af4f786d274d9219cb54df758f73e4fb6dca4f6f51.json",
+        "sha256": "02ef27b9267eac510bcbe2af4f786d274d9219cb54df758f73e4fb6dca4f6f51",
+        "size_bytes": 257
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_operation_closed_02ef27b9267eac510bcbe2af4f786d274d9219cb54df758f73e4fb6dca4f6f51.json",
+        "sha256": "02ef27b9267eac510bcbe2af4f786d274d9219cb54df758f73e4fb6dca4f6f51",
+        "size_bytes": 257
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_source_history_boundary_49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac.json",
+        "sha256": "49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac",
+        "size_bytes": 122720
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/ordinary_source_history_boundary_49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac.json",
+        "sha256": "49f1740234759e8252a4c4566933cd1d9fff4a5481fc66037d3474e36de5e7ac",
+        "size_bytes": 122720
+      }
+    },
+    {
+      "groups": [
+        "ordinary_entry_and_callback_boundaries"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/stage05_explicit_owner_disposition_069b28eecc8dec333d7850aed970dfb2aacdff26814638e24376ca4f9d4a539a.json",
+        "sha256": "069b28eecc8dec333d7850aed970dfb2aacdff26814638e24376ca4f9d4a539a",
+        "size_bytes": 493
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/p28_entry/56753f4e14d64107afce877e/stage05_explicit_owner_disposition_069b28eecc8dec333d7850aed970dfb2aacdff26814638e24376ca4f9d4a539a.json",
+        "sha256": "069b28eecc8dec333d7850aed970dfb2aacdff26814638e24376ca4f9d4a539a",
+        "size_bytes": 493
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/causal_chain_verified_de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d.json",
+        "sha256": "de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d",
+        "size_bytes": 818
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/causal_chain_verified_de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d.json",
+        "sha256": "de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d",
+        "size_bytes": 818
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/cold_current_consumer_175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf.json",
+        "sha256": "175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf",
+        "size_bytes": 144404
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/cold_current_consumer_175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf.json",
+        "sha256": "175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf",
+        "size_bytes": 144404
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/completed_result_0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd.json",
+        "sha256": "0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd",
+        "size_bytes": 8885
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/completed_result_0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd.json",
+        "sha256": "0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd",
+        "size_bytes": 8885
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/ordinary_accepted_result_efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad.json",
+        "sha256": "efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad",
+        "size_bytes": 41615
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/ordinary_accepted_result_efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad.json",
+        "sha256": "efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad",
+        "size_bytes": 41615
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_08e2daf987a94fd758f9fdbc57427130513b75308464cc6afc5f732c55773cd3.json",
+        "sha256": "08e2daf987a94fd758f9fdbc57427130513b75308464cc6afc5f732c55773cd3",
+        "size_bytes": 4647
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_08e2daf987a94fd758f9fdbc57427130513b75308464cc6afc5f732c55773cd3.json",
+        "sha256": "08e2daf987a94fd758f9fdbc57427130513b75308464cc6afc5f732c55773cd3",
+        "size_bytes": 4647
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_4767f86f78afa2ca542e530c2bca303c1948e681d9cfa45dad4e6e032dc2fd41.json",
+        "sha256": "4767f86f78afa2ca542e530c2bca303c1948e681d9cfa45dad4e6e032dc2fd41",
+        "size_bytes": 7242
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_4767f86f78afa2ca542e530c2bca303c1948e681d9cfa45dad4e6e032dc2fd41.json",
+        "sha256": "4767f86f78afa2ca542e530c2bca303c1948e681d9cfa45dad4e6e032dc2fd41",
+        "size_bytes": 7242
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_4f214dce14040922de2b6a91d4fa50b050456987a4a7cbc928d21c09724b4024.json",
+        "sha256": "4f214dce14040922de2b6a91d4fa50b050456987a4a7cbc928d21c09724b4024",
+        "size_bytes": 3785
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_4f214dce14040922de2b6a91d4fa50b050456987a4a7cbc928d21c09724b4024.json",
+        "sha256": "4f214dce14040922de2b6a91d4fa50b050456987a4a7cbc928d21c09724b4024",
+        "size_bytes": 3785
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_737565f8b918757f101d9331d39d19e54bcb67dfb186856393fa31f97edd5137.json",
+        "sha256": "737565f8b918757f101d9331d39d19e54bcb67dfb186856393fa31f97edd5137",
+        "size_bytes": 8015
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_737565f8b918757f101d9331d39d19e54bcb67dfb186856393fa31f97edd5137.json",
+        "sha256": "737565f8b918757f101d9331d39d19e54bcb67dfb186856393fa31f97edd5137",
+        "size_bytes": 8015
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_857f0c825081acbb699b5ff023f5beab7e951ee390e4e2e1619e57fb35d5a2d2.json",
+        "sha256": "857f0c825081acbb699b5ff023f5beab7e951ee390e4e2e1619e57fb35d5a2d2",
+        "size_bytes": 5090
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_857f0c825081acbb699b5ff023f5beab7e951ee390e4e2e1619e57fb35d5a2d2.json",
+        "sha256": "857f0c825081acbb699b5ff023f5beab7e951ee390e4e2e1619e57fb35d5a2d2",
+        "size_bytes": 5090
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_97ad4c16a84a71cbf65b9741a850465b879f4a7fb2a3961f13b9d0dfd747adc8.json",
+        "sha256": "97ad4c16a84a71cbf65b9741a850465b879f4a7fb2a3961f13b9d0dfd747adc8",
+        "size_bytes": 8499
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_97ad4c16a84a71cbf65b9741a850465b879f4a7fb2a3961f13b9d0dfd747adc8.json",
+        "sha256": "97ad4c16a84a71cbf65b9741a850465b879f4a7fb2a3961f13b9d0dfd747adc8",
+        "size_bytes": 8499
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_a92add859dfb1d105e7043b2eb1a6527579114827cf7611f3a10b55960bf71ee.json",
+        "sha256": "a92add859dfb1d105e7043b2eb1a6527579114827cf7611f3a10b55960bf71ee",
+        "size_bytes": 7630
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_a92add859dfb1d105e7043b2eb1a6527579114827cf7611f3a10b55960bf71ee.json",
+        "sha256": "a92add859dfb1d105e7043b2eb1a6527579114827cf7611f3a10b55960bf71ee",
+        "size_bytes": 7630
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_b3834ec13ba8b131e6148688524ca4005cc37f2566f272b2767d935293fddafc.json",
+        "sha256": "b3834ec13ba8b131e6148688524ca4005cc37f2566f272b2767d935293fddafc",
+        "size_bytes": 5545
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_b3834ec13ba8b131e6148688524ca4005cc37f2566f272b2767d935293fddafc.json",
+        "sha256": "b3834ec13ba8b131e6148688524ca4005cc37f2566f272b2767d935293fddafc",
+        "size_bytes": 5545
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_cdc9d1f4dda2d7d98111d89b2e6caa540c5d9d035cfe85906ecf5d5f97dd0bec.json",
+        "sha256": "cdc9d1f4dda2d7d98111d89b2e6caa540c5d9d035cfe85906ecf5d5f97dd0bec",
+        "size_bytes": 4174
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_cdc9d1f4dda2d7d98111d89b2e6caa540c5d9d035cfe85906ecf5d5f97dd0bec.json",
+        "sha256": "cdc9d1f4dda2d7d98111d89b2e6caa540c5d9d035cfe85906ecf5d5f97dd0bec",
+        "size_bytes": 4174
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_e2c28d39f8020fa27b459629c95879e2ead5cecdba6d14d05e8754631b19a4f4.json",
+        "sha256": "e2c28d39f8020fa27b459629c95879e2ead5cecdba6d14d05e8754631b19a4f4",
+        "size_bytes": 6784
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_e2c28d39f8020fa27b459629c95879e2ead5cecdba6d14d05e8754631b19a4f4.json",
+        "sha256": "e2c28d39f8020fa27b459629c95879e2ead5cecdba6d14d05e8754631b19a4f4",
+        "size_bytes": 6784
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_e3a154e3c1015fdfaa2bff3019806dfd030721cb2f04eb5876806701e07599af.json",
+        "sha256": "e3a154e3c1015fdfaa2bff3019806dfd030721cb2f04eb5876806701e07599af",
+        "size_bytes": 5929
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_e3a154e3c1015fdfaa2bff3019806dfd030721cb2f04eb5876806701e07599af.json",
+        "sha256": "e3a154e3c1015fdfaa2bff3019806dfd030721cb2f04eb5876806701e07599af",
+        "size_bytes": 5929
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_fd59fceca7647f0af421e5ad4a710866de5e9e280044236bcd34d5770cbb029a.json",
+        "sha256": "fd59fceca7647f0af421e5ad4a710866de5e9e280044236bcd34d5770cbb029a",
+        "size_bytes": 6390
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/partial_result_fd59fceca7647f0af421e5ad4a710866de5e9e280044236bcd34d5770cbb029a.json",
+        "sha256": "fd59fceca7647f0af421e5ad4a710866de5e9e280044236bcd34d5770cbb029a",
+        "size_bytes": 6390
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/prospective_scenario_acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43.json",
+        "sha256": "acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43",
+        "size_bytes": 6815
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/prospective_scenario_acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43.json",
+        "sha256": "acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43",
+        "size_bytes": 6815
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_current_consumer_00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342.json",
+        "sha256": "00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342",
+        "size_bytes": 193193
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_current_consumer_00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342.json",
+        "sha256": "00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342",
+        "size_bytes": 193193
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+        "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+        "size_bytes": 64968
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+        "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+        "size_bytes": 64968
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_after_0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6.json",
+        "sha256": "0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6",
+        "size_bytes": 1951
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_after_0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6.json",
+        "sha256": "0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6",
+        "size_bytes": 1951
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_before_39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b.json",
+        "sha256": "39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b",
+        "size_bytes": 34212
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_before_39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b.json",
+        "sha256": "39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b",
+        "size_bytes": 34212
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_stale_binding_refused_aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67.json",
+        "sha256": "aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67",
+        "size_bytes": 66632
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_stale_binding_refused_aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67.json",
+        "sha256": "aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67",
+        "size_bytes": 66632
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_accepted_result_e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f.json",
+        "sha256": "e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f",
+        "size_bytes": 35294
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_accepted_result_e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f.json",
+        "sha256": "e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f",
+        "size_bytes": 35294
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_current_consumer_0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34.json",
+        "sha256": "0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34",
+        "size_bytes": 144436
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_current_consumer_0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34.json",
+        "sha256": "0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34",
+        "size_bytes": 144436
+      }
+    },
+    {
+      "groups": [
+        "scenario_checkpoints_and_all_partial_results"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_prospective_task_76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42.json",
+        "sha256": "76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42",
+        "size_bytes": 2553
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_prospective_task_76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42.json",
+        "sha256": "76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42",
+        "size_bytes": 2553
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/accepted_dynamic_result_e95f74c346fbb31a84ed8a747cdf34e1aa6c2a81b564c00c082b0f8a5cda166a.json",
+        "sha256": "e95f74c346fbb31a84ed8a747cdf34e1aa6c2a81b564c00c082b0f8a5cda166a",
+        "size_bytes": 40948
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/accepted_dynamic_result_e95f74c346fbb31a84ed8a747cdf34e1aa6c2a81b564c00c082b0f8a5cda166a.json",
+        "sha256": "e95f74c346fbb31a84ed8a747cdf34e1aa6c2a81b564c00c082b0f8a5cda166a",
+        "size_bytes": 40948
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_intake_root_63663982c8df59277cd5152afd2395dabbfd4c721a409570078ffc935a24f907.json",
+        "sha256": "63663982c8df59277cd5152afd2395dabbfd4c721a409570078ffc935a24f907",
+        "size_bytes": 14746
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_intake_root_63663982c8df59277cd5152afd2395dabbfd4c721a409570078ffc935a24f907.json",
+        "sha256": "63663982c8df59277cd5152afd2395dabbfd4c721a409570078ffc935a24f907",
+        "size_bytes": 14746
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_native_work_2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938.json",
+        "sha256": "2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938",
+        "size_bytes": 858935
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_native_work_2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938.json",
+        "sha256": "2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938",
+        "size_bytes": 858935
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_source_family_493180175da46a8bee45656670d1dd0dc133577f2c138afdee949b44f6d4fd5c.json",
+        "sha256": "493180175da46a8bee45656670d1dd0dc133577f2c138afdee949b44f6d4fd5c",
+        "size_bytes": 58085
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_source_family_493180175da46a8bee45656670d1dd0dc133577f2c138afdee949b44f6d4fd5c.json",
+        "sha256": "493180175da46a8bee45656670d1dd0dc133577f2c138afdee949b44f6d4fd5c",
+        "size_bytes": 58085
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/accepted_dynamic_result_17bb819b62ee32be7d14fc10d8b653866450ed55abd4f53d5095abb18be7b763.json",
+        "sha256": "17bb819b62ee32be7d14fc10d8b653866450ed55abd4f53d5095abb18be7b763",
+        "size_bytes": 34862
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/accepted_dynamic_result_17bb819b62ee32be7d14fc10d8b653866450ed55abd4f53d5095abb18be7b763.json",
+        "sha256": "17bb819b62ee32be7d14fc10d8b653866450ed55abd4f53d5095abb18be7b763",
+        "size_bytes": 34862
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_intake_root_222c7125f2b9ed293e41d8da697f8d9f69774b001cfec5d17b6b2a6658cd7dd8.json",
+        "sha256": "222c7125f2b9ed293e41d8da697f8d9f69774b001cfec5d17b6b2a6658cd7dd8",
+        "size_bytes": 14622
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_intake_root_222c7125f2b9ed293e41d8da697f8d9f69774b001cfec5d17b6b2a6658cd7dd8.json",
+        "sha256": "222c7125f2b9ed293e41d8da697f8d9f69774b001cfec5d17b6b2a6658cd7dd8",
+        "size_bytes": 14622
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_native_work_e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063.json",
+        "sha256": "e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063",
+        "size_bytes": 773145
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_native_work_e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063.json",
+        "sha256": "e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063",
+        "size_bytes": 773145
+      }
+    },
+    {
+      "groups": [
+        "full_task_native_evidence"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_source_family_fbfd53b9b87a69c5fe8989507df8ea4972adf52f96952def2e52bc96bf9e349e.json",
+        "sha256": "fbfd53b9b87a69c5fe8989507df8ea4972adf52f96952def2e52bc96bf9e349e",
+        "size_bytes": 57547
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_source_family_fbfd53b9b87a69c5fe8989507df8ea4972adf52f96952def2e52bc96bf9e349e.json",
+        "sha256": "fbfd53b9b87a69c5fe8989507df8ea4972adf52f96952def2e52bc96bf9e349e",
+        "size_bytes": 57547
+      }
+    },
+    {
+      "groups": [
+        "full_document_memory_payload"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/384e14b5f6a45840f17f494ba97bd4a0c370e9516c37336723832fff7fff3e4b.json",
+        "sha256": "384e14b5f6a45840f17f494ba97bd4a0c370e9516c37336723832fff7fff3e4b",
+        "size_bytes": 41584
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/document_memory/payloads/384e14b5f6a45840f17f494ba97bd4a0c370e9516c37336723832fff7fff3e4b.json",
+        "sha256": "384e14b5f6a45840f17f494ba97bd4a0c370e9516c37336723832fff7fff3e4b",
+        "size_bytes": 41584
+      }
+    },
+    {
+      "groups": [
+        "full_document_memory_payload"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/payloads/d7340f58ccc2b309cc48df56fc3950c29340ba22de9dc404135705a35751d645.json",
+        "sha256": "d7340f58ccc2b309cc48df56fc3950c29340ba22de9dc404135705a35751d645",
+        "size_bytes": 35374
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/document_memory/payloads/d7340f58ccc2b309cc48df56fc3950c29340ba22de9dc404135705a35751d645.json",
+        "sha256": "d7340f58ccc2b309cc48df56fc3950c29340ba22de9dc404135705a35751d645",
+        "size_bytes": 35374
+      }
+    },
+    {
+      "groups": [
+        "full_document_memory_record"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7d270e0166835d5b2de73c829489209a5bd6e16592bf737f438c8f17492d81f0.json",
+        "sha256": "482a429c1646bb1d011c553fd7399dbf22480ced5efb24f1c3b561a933c628a3",
+        "size_bytes": 9499
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_7d270e0166835d5b2de73c829489209a5bd6e16592bf737f438c8f17492d81f0.json",
+        "sha256": "482a429c1646bb1d011c553fd7399dbf22480ced5efb24f1c3b561a933c628a3",
+        "size_bytes": 9499
+      }
+    },
+    {
+      "groups": [
+        "full_document_memory_record"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d178abc7a5bd237fed220241be75dc34d4912de08ed87e5240caa6c4c2604799.json",
+        "sha256": "d007a25f1a2f8da4fe5639263282d3e1ff856426d8824cbb569b9c3e50173465",
+        "size_bytes": 9251
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/document_memory/work/drsmeaning_v01_d178abc7a5bd237fed220241be75dc34d4912de08ed87e5240caa6c4c2604799.json",
+        "sha256": "d007a25f1a2f8da4fe5639263282d3e1ff856426d8824cbb569b9c3e50173465",
+        "size_bytes": 9251
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/HEAD.json",
+        "sha256": "655027400bff5b1edfe6c458d3f696aef58a3ac80cf0980e714e20e8e28c2b77",
+        "size_bytes": 344
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/HEAD.json",
+        "sha256": "655027400bff5b1edfe6c458d3f696aef58a3ac80cf0980e714e20e8e28c2b77",
+        "size_bytes": 344
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/drs/work/drsmeaning_v01_e78cd5824d8e895a2ba837bc94cc2402d2090ffed5a7033d49e793622ea0b4d5.json",
+        "sha256": "e0968f0e17a9b7225211cb90ad00e6e90dae1b3d46e0946c406a46b5380fa657",
+        "size_bytes": 6570
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/drs/work/drsmeaning_v01_e78cd5824d8e895a2ba837bc94cc2402d2090ffed5a7033d49e793622ea0b4d5.json",
+        "sha256": "e0968f0e17a9b7225211cb90ad00e6e90dae1b3d46e0946c406a46b5380fa657",
+        "size_bytes": 6570
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.descriptor.json",
+        "sha256": "c66862c0e7f61a9ef4c96933681936e7776ae53010d8d9eddffb02c57d2d5472",
+        "size_bytes": 18107
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.descriptor.json",
+        "sha256": "c66862c0e7f61a9ef4c96933681936e7776ae53010d8d9eddffb02c57d2d5472",
+        "size_bytes": 18107
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.json",
+        "sha256": "a868d06d7429b07be51e1cd9d5ab1afea23d71637492e54918ebc4dac19174c5",
+        "size_bytes": 24964
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.json",
+        "sha256": "a868d06d7429b07be51e1cd9d5ab1afea23d71637492e54918ebc4dac19174c5",
+        "size_bytes": 24964
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.payload.json",
+        "sha256": "bcb49deb9f046a9c4de00ec5e2987f047e806ad0c075e4524768eda4e29bd667",
+        "size_bytes": 7785
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.payload.json",
+        "sha256": "bcb49deb9f046a9c4de00ec5e2987f047e806ad0c075e4524768eda4e29bd667",
+        "size_bytes": 7785
+      }
+    },
+    {
+      "groups": [
+        "g3_exact_history_snapshot"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/writer.lock",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/writer.lock",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    },
+    {
+      "groups": [
+        "g3_progress"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/progress_0443aaee7910d17db23b405b62368d04db08406e7d77929e03ce163f6758988f.json",
+        "sha256": "0443aaee7910d17db23b405b62368d04db08406e7d77929e03ce163f6758988f",
+        "size_bytes": 480
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/progress_0443aaee7910d17db23b405b62368d04db08406e7d77929e03ce163f6758988f.json",
+        "sha256": "0443aaee7910d17db23b405b62368d04db08406e7d77929e03ce163f6758988f",
+        "size_bytes": 480
+      }
+    },
+    {
+      "groups": [
+        "g3_progress"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/progress_38de0bede3225d6d29088225ff58b652c7fb7c17dc4ce0b6acb0415470a3bc81.json",
+        "sha256": "38de0bede3225d6d29088225ff58b652c7fb7c17dc4ce0b6acb0415470a3bc81",
+        "size_bytes": 571
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/progress_38de0bede3225d6d29088225ff58b652c7fb7c17dc4ce0b6acb0415470a3bc81.json",
+        "sha256": "38de0bede3225d6d29088225ff58b652c7fb7c17dc4ce0b6acb0415470a3bc81",
+        "size_bytes": 571
+      }
+    },
+    {
+      "groups": [
+        "g3_progress"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/progress_7225f4b50437cda45b530f31bbdb63b34117b6110729dcf7e99c32ecb183b1e6.json",
+        "sha256": "7225f4b50437cda45b530f31bbdb63b34117b6110729dcf7e99c32ecb183b1e6",
+        "size_bytes": 580
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/progress_7225f4b50437cda45b530f31bbdb63b34117b6110729dcf7e99c32ecb183b1e6.json",
+        "sha256": "7225f4b50437cda45b530f31bbdb63b34117b6110729dcf7e99c32ecb183b1e6",
+        "size_bytes": 580
+      }
+    },
+    {
+      "groups": [
+        "g3_progress"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/progress_d9f2e3c8e7b3a1a4a0839471a82acec2aaf0ef01bdfcd836c8a0049ae95b36da.json",
+        "sha256": "d9f2e3c8e7b3a1a4a0839471a82acec2aaf0ef01bdfcd836c8a0049ae95b36da",
+        "size_bytes": 571
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/progress_d9f2e3c8e7b3a1a4a0839471a82acec2aaf0ef01bdfcd836c8a0049ae95b36da.json",
+        "sha256": "d9f2e3c8e7b3a1a4a0839471a82acec2aaf0ef01bdfcd836c8a0049ae95b36da",
+        "size_bytes": 571
+      }
+    },
+    {
+      "groups": [
+        "g3_progress"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/progress_db61b84bc1b6956a88c5230f939cda454e405011ed830a31d6ebc3c5717cd606.json",
+        "sha256": "db61b84bc1b6956a88c5230f939cda454e405011ed830a31d6ebc3c5717cd606",
+        "size_bytes": 636
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/progress_db61b84bc1b6956a88c5230f939cda454e405011ed830a31d6ebc3c5717cd606.json",
+        "sha256": "db61b84bc1b6956a88c5230f939cda454e405011ed830a31d6ebc3c5717cd606",
+        "size_bytes": 636
+      }
+    },
+    {
+      "groups": [
+        "g3_prospective_and_observation"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/prospective_eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea.json",
+        "sha256": "eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea",
+        "size_bytes": 1460
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/prospective_eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea.json",
+        "sha256": "eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea",
+        "size_bytes": 1460
+      }
+    },
+    {
+      "groups": [
+        "g3_full_consumer"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/qualified_consumer_1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67.json",
+        "sha256": "1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67",
+        "size_bytes": 193105
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67.json",
+        "sha256": "1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67",
+        "size_bytes": 193105
+      }
+    },
+    {
+      "groups": [
+        "g3_full_consumer"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/qualified_consumer_da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937.json",
+        "sha256": "da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937",
+        "size_bytes": 140401
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937.json",
+        "sha256": "da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937",
+        "size_bytes": 140401
+      }
+    },
+    {
+      "groups": [
+        "g3_full_consumer"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/qualified_consumer_e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a.json",
+        "sha256": "e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a",
+        "size_bytes": 144316
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a.json",
+        "sha256": "e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a",
+        "size_bytes": 144316
+      }
+    },
+    {
+      "groups": [
+        "g3_prospective_and_observation"
+      ],
+      "original_ref": {
+        "path": "workspace/owner_documents/state/qualified_experience/qualified_observation_8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f.json",
+        "sha256": "8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f",
+        "size_bytes": 64880
+      },
+      "original_unchanged_and_copy_exact": true,
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_observation_8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f.json",
+        "sha256": "8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f",
+        "size_bytes": 64880
+      }
+    }
+  ],
+  "mutable_state_snapshots_by": "/root/private_remote_controls",
+  "no_arbitrary_json_reference_graph_crawl": true,
+  "other_forbidden_keys": [],
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "schema": "radik.stage05.owner_actual_full_witness_inventory.v10",
+  "selection_rules": [
+    "Exact closed owner directory; new scenario run_id checkpoints/partials; exact ordinary run_binding finals and source/callback origins.",
+    "Two exact four-leaf task_evidence directories and accepted TaskStore outputs.",
+    "G3 original reports/progress derived from checkpoint bodies using the source-defined canonical filename rule.",
+    "Six raw history_snapshot leaves selected by exact retained hashes; no memory reopened as authority.",
+    "Two document-memory record/payload pairs selected by new task WRITEBACK events; canonical record receipt hashes distinguished from raw file hashes.",
+    "Exact new normal operation/round and selected successor slot namespace; current six-attempt public transport directory."
+  ],
+  "source_or_semantic_acceptance_awarded": false,
+  "status": "FACTUAL_RAW_PRESERVATION_ONLY_REQUIRES_INDEPENDENT_ACCEPTANCE",
+  "subject_field_count": 80,
+  "subject_kinds": {
+    "G34_CURRENT_ROOT_CLAIM": 12,
+    "G34_HISTORY_ROOT_CLAIM": 4,
+    "G34_TYPED_CURRENT_CLAIM": 30,
+    "PUBLISHER_DEFAULT_PUBLIC_NATIVE_CLAIM": 34
+  },
+  "total_bytes": 6186651
+}

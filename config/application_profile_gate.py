@@ -11,14 +11,20 @@ from pathlib import Path
 import stat
 
 REAL_PROJECT=Path('/Users/admin/Projects/RadiolariaRadik')
-PREFIX='review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure'
-PREDECESSOR_MANIFEST='review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json'
-PREDECESSOR_MANIFEST_SHA256='9c2fa1df2d581b4d542dd1aaa9fb65cdcc047dff2a35d14ba92ec39db4cf7c8a'
+PREFIX='review/stage05_qualified_experience_passage/v09/integration'
+PREDECESSOR_MANIFEST='review/stage05_qualified_experience_passage/v05/ordinary_profile_manifest.json'
+STAGE05_V02_MANIFEST='review/stage05_qualified_experience_passage/v02/ordinary_profile_manifest.json'
+STAGE04_MANIFEST='review/g2e_successor_passage/proposals/g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json'
+PREDECESSOR_MANIFEST_SHA256='61937b185e160be1b38e8c35b024951d2ddbd75ed33ebaf96a64beb4835db6ca'
 HISTORICAL_MANIFESTS={
+    STAGE04_MANIFEST:'99fadcd8e2949d63aad1f2796111546447979b19e123e880e3432e5d03ea03dc',
+    'review/g2e_successor_passage/proposals/g2e_no_effects_v30_witness_repair/ordinary_profile_manifest.json':
+        '9c2fa1df2d581b4d542dd1aaa9fb65cdcc047dff2a35d14ba92ec39db4cf7c8a',
     'review/g2e_successor_passage/proposals/g2e_no_effects_v29_g2c_domain_repair/ordinary_profile_manifest.json':
         '7108b29baed71d0d3b25c5877ae3e7f9b56f8f43a68c82bfde27cb757a43d58d',
     'review/g2e_successor_passage/proposals/g2e_no_effects_v28_ordinary_entry_owner_scenario/ordinary_profile_manifest.json':
         '81afd01ed6c87a4639e2b34c8f70c56a0895982c467c270916ce9a956e8e289e',
+    STAGE05_V02_MANIFEST:'783d8a626468ea7369ba63b7530639197856b643f77c0dde3014603c584dee7e',
     PREDECESSOR_MANIFEST:PREDECESSOR_MANIFEST_SHA256}
 UPGRADE=PREFIX+'/predecessor_install_state.json'
 MANIFEST=PREFIX+'/ordinary_profile_manifest.json'
@@ -87,12 +93,12 @@ def rehearsal_context(project,seal_sha256=None):
         'rehearsal_context_shape')
     pin=record['seal_sha256'];require(seal_sha256 is None or pin==seal_sha256,'rehearsal_context_invocation_changed')
     raw=_read(root,REHEARSAL_SEAL);require(_sha(raw)==pin,'rehearsal_seal_changed');seal=json.loads(raw)
-    require(seal.get('schema')=='radik.p28.isolated_rehearsal_seal.v01'and seal.get('reviewer')=='/root/s04_reviewer'
+    require(seal.get('schema')=='radik.p28.isolated_rehearsal_seal.v01'and seal.get('reviewer')=='/root/private_remote_controls'
         and seal.get('owned_copy_root')==str(root)and seal.get('production_root')==str(REAL_PROJECT)
         and seal.get('real_AUTH_provider_native_E_SAVE_allowed')is False and seal.get('production_writes_allowed')is False
         and seal.get('network')=='DENIED','rehearsal_seal_scope')
     source=_reference(root,seal['source_review_ref'])
-    require(source.get('reviewer')=='/root/s04_reviewer'and source.get('source_only_rehearsal_authorized')is True
+    require(source.get('reviewer')=='/root/private_remote_controls'and source.get('source_only_rehearsal_authorized')is True
         and source.get('code_pins')==seal.get('code_pins'),'rehearsal_seal_source')
     require(seal.get('environment_root')==str(REAL_PROJECT),'rehearsal_environment_root')
     return RehearsalContext(root,REAL_PROJECT,pin,_REHEARSAL_KEY)
@@ -126,7 +132,8 @@ def load_profile(project,reference):
         and value['activation_order']=='INSTALL_COMPATIBLE_READER_THEN_ACTIVATE_BEFORE_NEW_ROWS','profile_gate_manifest')
     review=_reference(project,value['source_review_ref']);auth=_reference(project,value['auth_source_review_ref'])
     admission=_reference(project,value['source_admission_ref'])
-    expected_reviewer='/root/s04_reviewer' if reference['path']==MANIFEST else '/root/p20_reviewer'
+    expected_reviewer=('/root/private_remote_controls' if reference['path'] in (MANIFEST,PREDECESSOR_MANIFEST,STAGE05_V02_MANIFEST) else
+        '/root/s04_reviewer' if reference['path']==STAGE04_MANIFEST else '/root/p20_reviewer')
     require(review.get('reviewer')==auth.get('reviewer')==expected_reviewer
         and review.get('status')=='SOURCE_ACCEPTED_FOR_ISOLATED_ORDINARY_REHEARSAL'
         and auth.get('status')=='SOURCE_ACCEPTED_FOR_OWNER_AUTH_PREFLIGHT'
@@ -143,7 +150,7 @@ def load_profile(project,reference):
         'review/transport/radik_owner_start.py','review/transport/direct_plan_gate.py','app/normal_profile.py',
         'app/source_admission.py','app/runtime.py','app/task_budget.py','app/normal_session.py','app/source_successor.py',
         'app/task_store.py','app/budget.py','app/ordinary_rehearsal.py','app/owner_scenario.py'}
-    require(type(pins)is dict and required<=set(pins)and len(pins)<=160,'profile_gate_source_closure')
+    require(type(pins)is dict and required<=set(pins)and len(pins)<=256,'profile_gate_source_closure')
     historical=_reference(project,value['historical_source_inventory_ref'])
     require(historical.get('status')=='VERIFIED_IMMUTABLE_HISTORICAL_SOURCE_INVENTORY'
         and historical.get('reviewer')==expected_reviewer and type(historical.get('files'))is dict,'profile_gate_historical_inventory')
@@ -162,15 +169,18 @@ def preserving_upgrade(project,selected):
         and reference['path']==UPGRADE and selected['manifest']['pins'].get(UPGRADE)==reference['sha256'],
         'profile_gate_upgrade_input_reference')
     value=_reference(project,reference)
-    require(type(value)is dict and value.get('schema')=='radik.p31.preserving_upgrade_predecessor.v01'
-        and value.get('historical_authority_restored')is False,'profile_gate_upgrade_input_shape')
+    require(type(value)is dict and value.get('schema')=='radik.stage05.preserving_stopped_predecessor.v01'
+        and value.get('historical_authority_restored')is False
+        and value.get('expected_console_attempts')==53
+        and value.get('expected_active_attempt_id')=='radik-call:3d5197d2edd747e8b4ec5dd56afcb16a',
+        'profile_gate_upgrade_input_shape')
     predecessor=value.get('predecessor_manifest_ref')
     require(type(predecessor)is dict and set(predecessor)=={'path','sha256','size_bytes'}
         and predecessor['path']==PREDECESSOR_MANIFEST
         and predecessor['sha256']==PREDECESSOR_MANIFEST_SHA256,'profile_gate_upgrade_predecessor_reference')
     old=_reference(project,predecessor)
     require(value.get('predecessor_code_pins')==old.get('pins')
-        and len(old['pins'])==158 and value.get('predecessor_install_files')==old.get('install_files'),
+        and len(old['pins'])==181 and value.get('predecessor_install_files')==old.get('install_files'),
         'profile_gate_upgrade_predecessor_inventory')
     states=value.get('predecessor_state')
     require(type(states)is dict and set(states)=={'activation','install','ledger','tasks'},
@@ -189,20 +199,26 @@ def preserving_upgrade(project,selected):
     return reference,value
 
 
+def validate_owner_focused_review(project,value):
+    """Validate the exact focused producer contract for all production consumers."""
+    focused=_reference(project,value['rehearsal_result_review_ref'])
+    require(focused.get('reviewer')=='/root/private_remote_controls'and focused.get('status')=='PASS_FOCUSED_STAGE05_QUALIFIED_EXPERIENCE_WIRING'
+        and focused.get('all_required_controls_passed')is True and focused.get('owner_execution_authorized')is True
+        and focused.get('code_pins')==value['code_pins'],'profile_gate_focused_wiring_admission')
+    return focused
+
+
 def owner_eligibility(project,selected):
     require(Path(project)==REAL_PROJECT and rehearsal_context(project)is None,'rehearsal_external_action_refused')
     value=json.loads(_read(project,OWNER_ADMISSION))
     require(value.get('schema')=='radik.p28.owner_terminal_admission.v01'
         and value.get('status')=='OWNER_EXECUTION_ADMITTED_AFTER_SOURCE_AND_REHEARSAL'
-        and value.get('owner_execution_authorized')is True and value.get('independent_reviewer')=='/root/s04_reviewer'
+        and value.get('owner_execution_authorized')is True and value.get('independent_reviewer')=='/root/private_remote_controls'
         and value.get('code_pins')==selected['manifest']['pins']
         and value.get('ordinary_profile_manifest_ref',{}).get('path')==MANIFEST
         and value['ordinary_profile_manifest_ref']['sha256']==selected['profile_ref']['sha256']
         and value.get('source_review_ref')==selected['manifest']['source_review_ref'],'profile_gate_owner_admission')
-    focused=_reference(project,value['rehearsal_result_review_ref'])
-    require(focused.get('reviewer')=='/root/s04_reviewer'and focused.get('status')=='PASS_FOCUSED_STAGE04_ORDINARY_CLOSURE_WIRING'
-        and focused.get('all_required_controls_passed')is True and focused.get('owner_execution_authorized')is True
-        and focused.get('code_pins')==value['code_pins'],'profile_gate_focused_wiring_admission')
+    validate_owner_focused_review(project,value)
     return value
 
 

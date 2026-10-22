@@ -983,3 +983,15 @@ def prepare_round(project,ledger,binding,*,owner_operation_id,run_id,operation_a
     validate_round_binding(candidate)
     require(binding['round_id'] not in checked['rounds'],'console_allowance_round_replay')
     return candidate
+
+
+# Stage05 has a distinct fresh-task allowance; legacy ABC validators stay intact.
+_validate_before_stage05_disposition = validate
+
+
+def validate(project, ledger):
+    previous = _validate_before_stage05_disposition(project, ledger)
+    from .stage05_disposition import extend_status
+    previous = extend_status(project, ledger, previous)
+    from .stage05_disposition_successor import extend_status as extend_successor_status
+    return extend_successor_status(project, ledger, previous)

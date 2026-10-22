@@ -1,0 +1,35 @@
+{
+  "adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/build_return.py",
+    "sha256": "a4f5343bf791b5b1db5b34f8f7e8f827130c8072784e3041bcb42dfcb210465d",
+    "size_bytes": 15028
+  },
+  "all_other_bytes_equal": true,
+  "changes": [
+    "BASE v09 to v10_actual_acceptance",
+    "External report root to stage05_v09_actual_acceptance_v10",
+    "Publisher passage key to stage05_v09_actual_acceptance_v10"
+  ],
+  "condition": "One separate exact finite payload/exception/reservation grant is required before packaging.",
+  "diff_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/build_return.py.diff",
+    "sha256": "2a3eb3c5613de3b22d3d625ff02b0fe5c321bf9a36aa4845e69d875a3c0a7813",
+    "size_bytes": 1339
+  },
+  "imports_or_execution": false,
+  "packaging_grant_issued": false,
+  "preimage_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/build_return.py",
+    "sha256": "a947cf1f2337c2ef2f2a7f272e899d8195a634951259e578c00212be53527961",
+    "size_bytes": 15034
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.return_adapter_independent_source_review.v10",
+  "status": "ACCEPTED_SOURCE_ONLY_EXACT_PASSAGE_REBASE",
+  "subject_shapes_scanners_pinchecks_reservation_delivery_logic_unchanged": true
+}

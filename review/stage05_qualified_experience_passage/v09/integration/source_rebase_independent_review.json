@@ -1,0 +1,43 @@
+{
+  "accepted_v06_transport_unchanged": true,
+  "all_182_physical_source_pins_verified": true,
+  "all_58_install_preimages_current": true,
+  "draft_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/profile_metadata_draft.json",
+    "sha256": "3242202125278738bdda526b10513bd1543bdffbaeab8297580a19c281302012",
+    "size_bytes": 79348
+  },
+  "exact_prefix_only_code_changes": 6,
+  "execution_granted": false,
+  "focused_or_owner_admission_issued": false,
+  "historical_entry_count": 594,
+  "historical_inventory_reused_exactly": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/historical_source_inventory.json",
+    "sha256": "2377ac51d8525d4c27a80ae3c09d6f39d027b767c004e69ac6f78687a2455a4d",
+    "size_bytes": 171152
+  },
+  "history_optimization_applied": false,
+  "old_c146_module_unchanged": true,
+  "predecessor_snapshot_path_rebase_only": true,
+  "prior_manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/ordinary_profile_manifest.json",
+    "sha256": "8cc18943d310117ad057df58e8c13aaf0c60dcaec47f798dabf2bd4cf94077bc",
+    "size_bytes": 76014
+  },
+  "prior_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v07/integration/source_integration_independent_review.json",
+    "sha256": "85d2559eef6dbd39f6c1a921115e965c96862ea4ba0ebb049930df33e329486b",
+    "size_bytes": 6152
+  },
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/source_rebase_proposal.json",
+    "sha256": "43acb884b4669af3530406e17436d40363c1ecda108d89989bc1a370f731f665",
+    "size_bytes": 7560
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.integration_source_rebase_review.v09",
+  "scope": "Fresh candidate namespace preserves all v07 source and absent-authority actual evidence. No source guard, import, current-profile, predecessor, successor, budget, transport or effect semantics changed.",
+  "source_findings": [],
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_ISOLATED_WIRING",
+  "unchanged_native_file_count": 88
+}

@@ -1,0 +1,72 @@
+{
+  "claims_addendum_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+    "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+    "size_bytes": 7844
+  },
+  "closure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+    "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+    "size_bytes": 4045
+  },
+  "english_readme_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/README.md",
+    "sha256": "392a22cc80d9928d3bf35a6bf6e0028395e457f72f3daf1a788d6255fd9eb1ef",
+    "size_bytes": 8718
+  },
+  "external_owner_report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage05_v09_actual_acceptance_v10/OWNER_REPORT_RU.md",
+    "sha256": "1c20e1aacaf6757fe48da043676fd50afdae69fd1daf57e2b9993f3a6648dfdb",
+    "size_bytes": 9251
+  },
+  "findings": [],
+  "historical_dossier": {
+    "Stage04_acceptance_unchanged": true,
+    "direction_ids_preserved": 21,
+    "exact_original_bytes_preserved": true,
+    "original_ref": {
+      "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    },
+    "other_statuses_unchanged": 17,
+    "preserved_ref": {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/documentation_basis/claims_evidence_before.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    },
+    "scoped_stage05_dispositions_changed": [
+      "DEFER-S5-FEEDBACK",
+      "DEFER-S5-TEMPORAL-CONFLICT",
+      "DEFER-S5-LESSON-CONSUMER",
+      "DEFER-S5-FINITE-STRATEGY"
+    ]
+  },
+  "independent_accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_owner_accounting_review.json",
+    "sha256": "8f5add371df1794c7316279e2411b2fec660899c316f3c52bebfcabd67386917",
+    "size_bytes": 3967
+  },
+  "independent_actual_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_independent_acceptance.json",
+    "sha256": "2761954a6200b6e7f4cebd81d9780982c6ea9005d620b7450364500414f8d34d",
+    "size_bytes": 17443
+  },
+  "independent_matrix_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_matrix_independent_acceptance.json",
+    "sha256": "87e97be01f6a7a98030d117f7e8e85bd21ba4cd40ad729792dde51aed2d50821",
+    "size_bytes": 21658
+  },
+  "packaging_delivery": "Still subject to exact selection grant and post-build archive readback; the closure decision is independent of packaging.",
+  "reviewed_facts": [
+    "Six actual roles,53 to59 exact ledger prefix, two new completed tasks, five historical UNKNOWN outcomes preserved",
+    "Distinct885.656256625 wall,741.370821832 native-accounted,829.888680000 CPU seconds within admitted caps",
+    "Seven G3 PURE experience receipts, actual cold-to-audit causal chain, unrelated cold consumer and source-first revision refusal",
+    "Retained G4/temporal/restriction/unscorable scope and historical failed-run boundaries",
+    "Exact source/callback/model wire boundary; resolved backend identity UNKNOWN",
+    "No new application/model/native/ACK/owner execution, runtime change, optimization, push or Stage06; one local RETURN only"
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.final_closure_report_review.v10",
+  "status": "ACCEPTED_FACTUAL_SCOPED_CLOSURE_AND_REPORTS"
+}

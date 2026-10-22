@@ -106,7 +106,7 @@ def root_review(candidate_id, material, checks, now, *, transaction_id, predicat
         post_vv_bundle=dict(bundle_id="checks:" + digest(checks), post_vv_passed=passed,
             validated_candidate_ids=[candidate_id] if passed else [], rejected_candidate_ids=[] if passed else [candidate_id],
             required_evidence_refs=[evidence_ref], provided_evidence_refs=[evidence_ref],
-            hard_failure_reasons=[] if passed else ["radik_current_validation_failed"]),
+            hard_failure_reasons=[] if passed else ["candidate_validation_failed"]),
         gt_advisory=dict(advisory_id="radik:gt:" + digest(dict(candidate=candidate_id, checks=checks)),
             candidate_ids=[candidate_id], selected_candidate_id=candidate_id,
             score_micros_by_candidate={candidate_id: 1000000 if passed else 0},

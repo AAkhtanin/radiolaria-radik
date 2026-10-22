@@ -1,0 +1,90 @@
+{
+  "accepted_result_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/installed_reader_result_review.json",
+      "sha256": "2e6551798fa07d7732c82c2d6af31f6f1cdff8062d3dfea7cf0b3ecc59678aad",
+      "size_bytes": 7297
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v01_result_review.json",
+      "sha256": "cdf16776e74e8409da961cb7b58a49f7f68a1efcb124d4c7970d57ad17e264ed",
+      "size_bytes": 4146
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v02_result_review.json",
+      "sha256": "1270403a8e7b6d5993152b20a20141566d28801be5e7328f44dd8b0a5a8f12d6",
+      "size_bytes": 13133
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/actual_review/final_gate_preflight_result_review.json",
+      "sha256": "2ea16be06d49be3d307ee057b2a9d5f211fed2fef41e22feaa093450ca4cf1d5",
+      "size_bytes": 6076
+    }
+  ],
+  "completed_boundaries": {
+    "changed_integration": "Independent typed copied SOURCE installation/current profile, successor current=True approval/prepare/apply, composed old/new dispositions, real53/56 slot validators and three refusal cases passed. Fresh TaskSpec rows and six terminal accounting inputs were explicitly synthetic; tasks ended FAILED with no accepted products.",
+    "failed_setup": "V01 manifest schema assembly defect was preserved, independently accounted and corrected once as data only; no failed-run integration credit.",
+    "final_predicates": "Real production-root read-only gate/Terminal predicates accepted exact final focused/admission/manifest bytes, all182 pins, explicit selectedUNKNOWN and six-attempt remaining scenario.",
+    "installed_reader": "One real installed v05 TurnBudget.for_scope(console,activate=False) constructor and exactly one current_model_settings completed; source/profile/history/settings validated without mutation."
+  },
+  "cumulative_charged_execution_ns": 48187997458,
+  "final_accounting_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/FINAL_GATE_PREFLIGHT_V01.json",
+    "sha256": "2a326f0f26ca58873fe86dfd61c1d9d94eaec2b01766cf7c3ac5310525204d02",
+    "size_bytes": 4195
+  },
+  "final_frozen_metadata_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+      "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+      "size_bytes": 76014
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/owner_admission.json",
+      "sha256": "0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8",
+      "size_bytes": 35626
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/focused_stage05_result_review.json",
+      "sha256": "d977a3d005505354585d92ed47826f275a4506b1a93eb9492e4da8cb8f634642",
+      "size_bytes": 35341
+    }
+  ],
+  "future_command_review_only": true,
+  "future_explicit_owner_handoff_supported": true,
+  "future_role_attempt_limit": 6,
+  "future_scenario": "remaining_only;3primary+3unrelated;noE/SAVE",
+  "limits": [
+    "Reader and table are one instrumented observation, not a statistical bound, current dispatch benchmark, TaskStore benchmark or historical EOF explanation.",
+    "Copied integration diagnostic ACK and synthetic terminal rows are not a production ACK, provider calls, accepted model/native products or a completed owner run.",
+    "No v09 installation or owner command was executed in this passage; existing production53/UNKNOWN and installedv05 remain unchanged.",
+    "Full Stage05 closure remains a future owner observation. Existing scoped v06/v07/v08 evidence and original failures are preserved; no repeated historical campaign."
+  ],
+  "no_additional_execution_needed": true,
+  "optimization_applied": false,
+  "production_unchanged": {
+    "active_unknown_attempt": "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a",
+    "candidate_v09_installed": false,
+    "counted_attempts": 53,
+    "installed_profile": "v05",
+    "new_owner_admission_reservation_created": false,
+    "new_successor_disposition_created": false
+  },
+  "prospective_owner_delivery_precondition_satisfied": true,
+  "reader_analysis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/reader_measurement_analysis.json",
+    "sha256": "d47df75748d9aff4b3e271ed6fbd74f0cfa9f8e8eeeac96adb388f9bc158162a",
+    "size_bytes": 26167
+  },
+  "reader_table_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/reader_measurement_table.md",
+    "sha256": "7692313c8cac0375204ec769c0e4d41fe4e35ad62f21a10b850014e68bcddc28",
+    "size_bytes": 4539
+  },
+  "required_boundary_complete": true,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.final_independent_review.v09",
+  "shared_cap_ns": 120000000000,
+  "status": "PASS_REQUIRED_READER_INTEGRATION_AND_FINAL_METADATA_PREDICATES",
+  "total_closed_invocations": 4
+}

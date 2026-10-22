@@ -1,0 +1,240 @@
+{
+  "absent_paths": [
+    {
+      "absent": true,
+      "path": "state/normal_session_active.json"
+    }
+  ],
+  "file_count": 16,
+  "files": [
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "state/console_model_turns.json",
+        "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+        "size_bytes": 147969
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/console_model_turns.json",
+        "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+        "size_bytes": 147969
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+        "size_bytes": 78191
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/dynamic_tasks.json",
+        "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+        "size_bytes": 78191
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "workspace/owner_documents/state/dynamic_source_revisions.json",
+        "sha256": "ebd69b55b53e50b21690e17d61c4fcc9d504f1cf7af218f29475bbf68194d989",
+        "size_bytes": 3059
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/dynamic_source_revisions.json",
+        "sha256": "ebd69b55b53e50b21690e17d61c4fcc9d504f1cf7af218f29475bbf68194d989",
+        "size_bytes": 3059
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/application_profile.json",
+        "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+        "size_bytes": 245
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/application_profile.json",
+        "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+        "size_bytes": 245
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/application_profile_install.json",
+        "sha256": "a22d96de0013cc7e7d6c8385a5c5fc3a4f73e0c0538e9b501a007e5e7f307e52",
+        "size_bytes": 6944
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/application_profile_install.json",
+        "sha256": "a22d96de0013cc7e7d6c8385a5c5fc3a4f73e0c0538e9b501a007e5e7f307e52",
+        "size_bytes": 6944
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/normal_grant_index.json",
+        "sha256": "2ab50a5b233275a3cdfa1656415ffa13c4ef6bc7d1e5232877ac8f78d6185c84",
+        "size_bytes": 2807
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_grant_index.json",
+        "sha256": "2ab50a5b233275a3cdfa1656415ffa13c4ef6bc7d1e5232877ac8f78d6185c84",
+        "size_bytes": 2807
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/task_model_settings.json",
+        "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+        "size_bytes": 492
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/task_model_settings.json",
+        "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+        "size_bytes": 492
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "state/model_turns.json",
+        "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+        "size_bytes": 34293
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/model_turns.json",
+        "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+        "size_bytes": 34293
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "config/model_policy.json",
+        "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+        "size_bytes": 1173
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/config/model_policy.json",
+        "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+        "size_bytes": 1173
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "config/console_model_policy.json",
+        "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+        "size_bytes": 789
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/config/console_model_policy.json",
+        "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+        "size_bytes": 789
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "config/task_model_policy.json",
+        "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+        "size_bytes": 1281
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/config/task_model_policy.json",
+        "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+        "size_bytes": 1281
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "config/normal_session_policy.json",
+        "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+        "size_bytes": 524
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/config/normal_session_policy.json",
+        "sha256": "4adebadc7930c74c87b6c7ca6664077950b48b9405a73989c588d400e45a71de",
+        "size_bytes": 524
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/console_budget_activation.json",
+        "sha256": "0b6c1f83a9e92c2eaeffa73cee9d90757d9ec701fb69fb72b4ecae0d77ad0cdd",
+        "size_bytes": 2132
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/console_budget_activation.json",
+        "sha256": "0b6c1f83a9e92c2eaeffa73cee9d90757d9ec701fb69fb72b4ecae0d77ad0cdd",
+        "size_bytes": 2132
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 384,
+      "original_ref": {
+        "path": "state/normal_session_transition.json",
+        "sha256": "d04d40d221819061ea4ea65e88cb6536354e1f5cbb2546864713cb3abe29ce42",
+        "size_bytes": 380
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/state/normal_session_transition.json",
+        "sha256": "d04d40d221819061ea4ea65e88cb6536354e1f5cbb2546864713cb3abe29ce42",
+        "size_bytes": 380
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "workspace/owner_documents/input/9aa5ec8ca2aacd118b031d767353d6f1.txt",
+        "sha256": "142e1346555a65f0a690fe9443f4b5e91b8f7eee876f5c732876cb4b3f9c808c",
+        "size_bytes": 514
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/input/9aa5ec8ca2aacd118b031d767353d6f1.txt",
+        "sha256": "142e1346555a65f0a690fe9443f4b5e91b8f7eee876f5c732876cb4b3f9c808c",
+        "size_bytes": 514
+      },
+      "raw_bytes_equal": true
+    },
+    {
+      "mode": 420,
+      "original_ref": {
+        "path": "workspace/owner_documents/input/899c53025f9e7c77498d9977f5919f55.txt",
+        "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+        "size_bytes": 201
+      },
+      "preserved_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/input/899c53025f9e7c77498d9977f5919f55.txt",
+        "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+        "size_bytes": 201
+      },
+      "raw_bytes_equal": true
+    }
+  ],
+  "method": "Raw finite post-closure copies; no application imports or validator execution. Original state unchanged. These copies convey evidence, never authority.",
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.actual_mutable_snapshot_preservation.v10",
+  "total_bytes": 280994
+}

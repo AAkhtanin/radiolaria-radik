@@ -1,0 +1,135 @@
+{
+  "absent_markers_verified_after_closure": [
+    "state/application_profile.json.pending",
+    "state/application_profile_install.json.finish.pending",
+    "state/application_profile_install.json.pending",
+    "state/console_model_turns.json.pending",
+    "state/normal_grant_index.json.pending",
+    "state/normal_session_active.json",
+    "state/normal_session_transition.json.pending",
+    "state/ordinary_rehearsal_context.json",
+    "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json",
+    "state/stage05_owner_scenario_reservations/0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8.json",
+    "workspace/owner_documents/state/dynamic_source_successors.json.pending"
+  ],
+  "accepted_checks": [
+    {
+      "check": "REAL_PRODUCTION_OWNER_ELIGIBILITY",
+      "installed_candidate": false,
+      "passed": true,
+      "profile_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+        "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+        "size_bytes": 76014
+      }
+    },
+    {
+      "check": "REAL_OWNER_LOAD_ADMISSION_WITH_INSTALL_ALIASES",
+      "checked_pin_count": 182,
+      "passed": true
+    },
+    {
+      "acknowledgement_applied": false,
+      "check": "FUTURE_EXPLICIT_ACK_ARGUMENT_AND_SIX_ATTEMPT_SCENARIO",
+      "max_role_attempts": 6,
+      "passed": true,
+      "selected_attempt_id": "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a"
+    }
+  ],
+  "actual_id": "FINAL_GATE_PREFLIGHT_V01",
+  "all_1717_original_input_refs_rehashed_exact": true,
+  "automatic_retry": false,
+  "child_and_tool_exit_code": 0,
+  "child_reaped": true,
+  "completion_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/FINAL_GATE_PREFLIGHT_V01/supervisor/completion.json",
+    "sha256": "9383ad47b0c77c67d0157fe80f64417f74ce1d08e0a2e8870cdd4b6eae4c4640",
+    "size_bytes": 1300
+  },
+  "elapsed_predicate_ns": 99899000,
+  "exact_loaded_code_refs": [
+    {
+      "module": "_radik_v09_final_profile_gate",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/after/config/application_profile_gate.py",
+      "sha256": "0e812c08ff61d1b1449db6d7c4465f58c3b5ce1d0f6765f39cb92285650acd2c",
+      "size_bytes": 15504
+    },
+    {
+      "module": "_radik_v09_final_owner_metadata",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+      "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+      "size_bytes": 72894
+    }
+  ],
+  "final_metadata_remained_unchanged": true,
+  "frozen_metadata_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+      "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+      "size_bytes": 76014
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/owner_admission.json",
+      "sha256": "0811c20084791f8d409f930e2c272fc227de90d63b5eda157ce3c8559eec05b8",
+      "size_bytes": 35626
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/focused_stage05_result_review.json",
+      "sha256": "d977a3d005505354585d92ed47826f275a4506b1a93eb9492e4da8cb8f634642",
+      "size_bytes": 35341
+    }
+  ],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/FINAL_GATE_PREFLIGHT_V01.json",
+    "sha256": "43e18ae903801e3ff0b56f84604c1609dd64b26a5acf7cb1348e7133760715f5",
+    "size_bytes": 3166
+  },
+  "original_input_bytes": 64712345,
+  "owner_execution_performed": false,
+  "peer_closure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/final_gate_preflight_input_closure_peer_review.json",
+    "sha256": "c5954f8e15d7231f89aaeb9c09d4bcd914c5bbde208cb7e5d6162106a2bd58a3",
+    "size_bytes": 21837
+  },
+  "primary_stop": null,
+  "production_state": {
+    "active_unknown_attempt": "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a",
+    "candidate_v09_installed": false,
+    "counted_attempts": 53,
+    "installed_profile": "v05",
+    "new_owner_admission_reservation_created": false,
+    "new_successor_disposition_created": false
+  },
+  "prospective_owner_delivery_precondition_satisfied": true,
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/FINAL_GATE_PREFLIGHT_V01/supervisor/receipt.json",
+    "sha256": "1b259a58c55e1a45ff0539cf4b1a59d0cd603f40bfab6cad301552cd626400b9",
+    "size_bytes": 1278
+  },
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/FINAL_GATE_PREFLIGHT_V01/work/result.json",
+    "sha256": "6b757c34219c43eaebc99df4b74d68fafcd872743da36ee6987523837e8883db",
+    "size_bytes": 340441
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.final_gate_preflight_result_review.v09",
+  "scope": [
+    "Exact full pinned production gate load_profile and owner_eligibility used the real project root and unchanged readers.",
+    "Exact full pinned Terminal load_admission checked all182 aliases/support pins with the real deadline callback; returned admission and manifest equal gate results.",
+    "Explicit selected3d519 argument and exact remaining-only6=3+3 scenario inputs passed as data only.",
+    "Neither production gate.select for v09 nor installation/main/locking/reservation/ACK/round/provider/model/native execution was performed."
+  ],
+  "signals": [],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/final_gate_preflight_independent_source_review.json",
+    "sha256": "b4d69030ef781e1e95b3d7567079783e0bbfa6f5e1e2f337d4fe062a7b53429c",
+    "size_bytes": 4362
+  },
+  "stage05_completion_established": false,
+  "status": "PASS_FINAL_FROZEN_OWNER_METADATA_PREDICATES_READ_ONLY",
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/final_gate_preflight_tool_outcome.json",
+    "sha256": "905eb2ecb395b583a8fc6521a14f383722996070bc938a57b8ec11e1a3b14dbb",
+    "size_bytes": 980
+  }
+}

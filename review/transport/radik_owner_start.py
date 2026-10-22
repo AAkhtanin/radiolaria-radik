@@ -31,7 +31,7 @@ AUTH_SOURCE_FILES = frozenset({
     'review/transport/plan_dependencies.py', 'review/package_direct_plan_return.py',
     'review/transport/owner_failure_report.py', 'app/__init__.py', 'app/plan_auth.py',
     'review/transport/model_scope.py', 'config/console_model_policy.json',
-    'app/task_budget.py', 'config/task_model_policy.json',
+    'app/task_budget.py', 'app/stage05_disposition.py', 'config/task_model_policy.json',
     'app/source_admission.py', 'app/stage04_diagnostics.py', 'app/console_continuation.py',
     'app/normal_session.py', 'config/normal_session_policy.json',
     'config/model_policy.json', 'config/requirements-plan-base.txt', 'config/requirements-plan-auth.txt',
@@ -62,8 +62,7 @@ def _profile_selection():
     require(not (PROJECT/'state/application_profile.json.pending').exists(),'owner_profile_partial_activation')
     if not activation.exists():return None
     selected=json.loads(_read(activation))
-    relative=('review/g2e_successor_passage/proposals/'
-        'g2e_no_effects_v31_stage04_closure/ordinary_profile_manifest.json')
+    relative='review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json'
     require(selected.get('schema')=='radik.application_profile_activation.v01'
         and selected.get('profile_ref',{}).get('path')==relative,'owner_profile_selection')
     manifest_raw=_read(PROJECT/relative)
@@ -71,7 +70,7 @@ def _profile_selection():
     manifest=json.loads(manifest_raw);reference=manifest['source_review_ref'];review_raw=_read(PROJECT/reference['path'])
     require(hashlib.sha256(review_raw).hexdigest()==reference['sha256'],'owner_profile_review_changed')
     review=json.loads(review_raw)
-    require(review.get('reviewer')=='/root/s04_reviewer'
+    require(review.get('reviewer')=='/root/private_remote_controls'
         and review.get('status')=='SOURCE_ACCEPTED_FOR_ISOLATED_ORDINARY_REHEARSAL'
         and review.get('code_pins')==manifest['pins'],'owner_profile_independent_source_required')
     gate_path=PROJECT/'config/application_profile_gate.py'

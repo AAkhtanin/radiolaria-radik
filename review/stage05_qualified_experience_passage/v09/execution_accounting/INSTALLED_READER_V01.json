@@ -1,0 +1,83 @@
+{
+  "actual_id": "INSTALLED_READER_V01",
+  "charge_not_refunded": true,
+  "charged_execution_ns": 11523489916,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "closing_readback_reserve_seconds": 5,
+  "closure_confirmed": true,
+  "completion_elapsed_wall_seconds": 6.523490916,
+  "cumulative_charged_ns": 11523489916,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/child_stdout.raw",
+      "sha256": "88dd5f0bb817016956bdeed446bd5227caec18c54d2d8becce07fb6bc94e3f02",
+      "size_bytes": 238
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/completion.json",
+      "sha256": "45cbe8e3518a6a0b2cbfdea57deb616f0ae742b41762ae1bc92336e70749e4f2",
+      "size_bytes": 694
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/invocation.json",
+      "sha256": "d00b6af2415ddd0c146e7a32e0617d373057d1fb039c618e348184fee502b274",
+      "size_bytes": 384
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/receipt.json",
+      "sha256": "7d5415d7e564de1d30bdabc56c7845e422c41a1b2f23b2096dfde30dedde66d5",
+      "size_bytes": 1264
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/reservation.json",
+      "sha256": "802585fe10b518bee959f81dbd964b6f7588e674ce18efe9d56896ea4d388abd",
+      "size_bytes": 320
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/before.json",
+      "sha256": "584c2c64e37a1a760a433e9464686b2e73f4fe7d755f53305ea05c574476f67f",
+      "size_bytes": 303101
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/reader_outcome.json",
+      "sha256": "9875b40db064ed65b1f505bc28157e3385632c58a5f34de42d4621241cd10221",
+      "size_bytes": 1056
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/work/result.json",
+      "sha256": "3f4ec7faebf5813b13d8f3924e91dc423be4898f97209c2260d8241516a3e4d1",
+      "size_bytes": 1134672
+    }
+  ],
+  "final_tool_outcome_observed": true,
+  "full_readback_verified": true,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INSTALLED_READER_V01.json",
+    "sha256": "d61f8f4d032e96a95d1c5f47a7f5b274cfa24aad9abaf56dc8646e14fd5c3d38",
+    "size_bytes": 3375
+  },
+  "independent_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/actual_review/installed_reader_result_review.json",
+    "sha256": "2e6551798fa07d7732c82c2d6af31f6f1cdff8062d3dfea7cf0b3ecc59678aad",
+    "size_bytes": 7297
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INSTALLED_READER_V01/supervisor/invocation.json",
+    "sha256": "d00b6af2415ddd0c146e7a32e0617d373057d1fb039c618e348184fee502b274",
+    "size_bytes": 384
+  },
+  "prior_charged_ns": 0,
+  "prior_execution_review_refs": [],
+  "reader_retry_allowed": false,
+  "remaining_execution_ns": 108476510084,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_execution_accounting.v01",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/installed_reader_tool_outcome.json",
+    "sha256": "87bd2e2a0c24c0a72d06024cbb59bfe3877e7144fdb68d785aa64154f9793568",
+    "size_bytes": 1117
+  },
+  "total_budget_seconds": 120
+}

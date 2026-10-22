@@ -1,0 +1,683 @@
+{
+  "limitations": [
+    "This mapper authored G4 source earlier. Its source and prior actual acceptance come exclusively from the named independent review; these data checks do not self-accept source.",
+    "The prior owner remains a stopped run. Its independently accepted prefix and controlled time/restriction observations are retained without stronger natural-time or real-world truth claims.",
+    "No application imports, native/model execution, retries, production ACKs, source mutations or publication occurred during this read-only mapping."
+  ],
+  "new_checkpoint_refs": {
+    "causal_chain_verified": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/causal_chain_verified_de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d.json",
+      "sha256": "de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d",
+      "size_bytes": 818
+    },
+    "cold_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/cold_current_consumer_175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf.json",
+      "sha256": "175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf",
+      "size_bytes": 144404
+    },
+    "ordinary_accepted_result": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/ordinary_accepted_result_efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad.json",
+      "sha256": "efd7bd6dba83952fa0fad1363c98bf784a0c3acb200fe801bc7ab98905b356ad",
+      "size_bytes": 41615
+    },
+    "prospective_scenario": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/prospective_scenario_acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43.json",
+      "sha256": "acfa9d0a2dfe057a059f7a931e85caf23dd4963754251053dec207f6329e6c43",
+      "size_bytes": 6815
+    },
+    "qualified_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_current_consumer_00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342.json",
+      "sha256": "00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342",
+      "size_bytes": 193193
+    },
+    "qualified_feedback": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+      "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+      "size_bytes": 64968
+    },
+    "source_revision_after": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_after_0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6.json",
+      "sha256": "0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6",
+      "size_bytes": 1951
+    },
+    "source_revision_before": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_before_39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b.json",
+      "sha256": "39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b",
+      "size_bytes": 34212
+    },
+    "source_revision_stale_binding_refused": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_stale_binding_refused_aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67.json",
+      "sha256": "aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67",
+      "size_bytes": 66632
+    },
+    "unrelated_accepted_result": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_accepted_result_e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f.json",
+      "sha256": "e74a5b9968f1a8ffa092e5d0a2ed7f8543d8037f66a487112299a2f36db65f8f",
+      "size_bytes": 35294
+    },
+    "unrelated_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_current_consumer_0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34.json",
+      "sha256": "0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34",
+      "size_bytes": 144436
+    },
+    "unrelated_prospective_task": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_prospective_task_76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42.json",
+      "sha256": "76daea041daa82ead205eabc9c27f951e50f1a821664fdd31546add39a4a0c42",
+      "size_bytes": 2553
+    }
+  },
+  "new_consumers": [
+    {
+      "actual_output": {
+        "checks": [
+          {
+            "healthy": false,
+            "semantic_ref": "radik:experience_semantic:bec3c8432b1ea30691403b7d5a084179642d1d5b627d3f840269484773c3d665"
+          }
+        ],
+        "input_sha256": "2203cc24d976b88dabb34cbb234a5b25125d3ac66bcf6fe291fbd938df33a906",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "qualified_scope": "Approved raw source markers only; no external truth or model quality claim.",
+        "semantic_refs": [
+          "radik:experience_semantic:bec3c8432b1ea30691403b7d5a084179642d1d5b627d3f840269484773c3d665"
+        ],
+        "stage": "RESULT"
+      },
+      "binding_id": "radik:experience_binding:c258b196f958d44ef6fa9f979bf77573a5f958e2ec75f671ee75e75bae65d909",
+      "current_review": "ACCEPT",
+      "current_root": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+      "current_root_decision": "c94d37cda45c4e9992b6d48e2abd3a02c89ea93243463a632dfb367091a916ea",
+      "current_work_valid_to": 1792699139,
+      "custody_review": "ACCEPT",
+      "custody_root_decision": "eaaedfd15919a37fe5684e449eeb1ff4fd76cf3400a38403cdd4d63401be9fd9",
+      "evaluated_at": 1792698239,
+      "history_disposition": "COLD_OR_NONMATCHING",
+      "history_ref": null,
+      "history_valid_to": 1792699139,
+      "label": "cold",
+      "native_rows": [
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:79890ae54d3af7e61c7d196be108524e6a309822508879430fe37987fa23e78c",
+          "packet_id": null,
+          "result_id": "capability_result:e903a7aa73f56a8e49d0aa623c23e5fb61d46012e6f613fafd00cd7b664f9728",
+          "work_id": "source_check"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:933d7301a4df3ca4a88bc6b00a4786165e485410f1c93a73d13448dc4ec9de53",
+          "packet_id": null,
+          "result_id": "capability_result:c264f1d2c789992da2025f5807d1b792b03335f98d0d1e2c4dfb6184381d1da6",
+          "work_id": "consume_experience"
+        }
+      ],
+      "prior_fp": 0,
+      "scope": {
+        "criterion": "Separate the response commitment, support window, eligibility, holiday exception, unknown telephone charges, required account identifier and attachment limit. Do not infer missing prices.",
+        "goal": "Explain the support conditions of fictional Service Rowan, preserving eligibility, exceptions and unknown charges.",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "profile": "explain",
+        "supplied_candidate_sha256": null,
+        "topic": "stage05_support_evidence"
+      },
+      "selected_operation": "radik.experience.source_verification.v01",
+      "transaction": "transaction:radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "work_result_ref": "work_results:5c5b009f143c446f34ab0e1084a63dd29dbe69b7f563639640c128f814db2322"
+    },
+    {
+      "actual_output": {
+        "checked_source_scope": [
+          {
+            "revision": 1,
+            "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+            "source_ref": "radik:source:9aa5ec8ca2aacd118b031d767353d6f1"
+          }
+        ],
+        "checks": [
+          {
+            "healthy": false,
+            "semantic_ref": "radik:experience_semantic:bec3c8432b1ea30691403b7d5a084179642d1d5b627d3f840269484773c3d665"
+          }
+        ],
+        "finding_count": 1,
+        "findings": [
+          {
+            "end": 263,
+            "quote": "not specified",
+            "revision": 1,
+            "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+            "source_ref": "radik:source:9aa5ec8ca2aacd118b031d767353d6f1",
+            "start": 250
+          }
+        ],
+        "input_sha256": "5007f81ff164031165ad7f4008c7cf678ae8ef887c2b7e6c4164520c040c9d2b",
+        "next_review": "CHECK_UNRESOLVED_SOURCE_CONDITIONS",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "qualified_scope": "Approved raw source markers only; no external truth or model quality claim.",
+        "semantic_refs": [
+          "radik:experience_semantic:bec3c8432b1ea30691403b7d5a084179642d1d5b627d3f840269484773c3d665"
+        ],
+        "stage": "RESULT"
+      },
+      "binding_id": "radik:experience_binding:4a2290080d776e7f90f886999b0fedd23f17ca4d6fa784da2ee3c169de79f45a",
+      "current_review": "ACCEPT",
+      "current_root": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+      "current_root_decision": "9f238b1cc19d9e98eccbbfad60e773fc107e338606dc584d4c1be2fc9dce73ca",
+      "current_work_valid_to": 1792699175,
+      "custody_review": "ACCEPT",
+      "custody_root_decision": "ad39a430e8384c43ccb23f7e234833032042fa6636ea3e9e4eec57fd36bcee26",
+      "evaluated_at": 1792698275,
+      "history_disposition": "QUALIFIED_CURRENT_HISTORY",
+      "history_ref": "7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632",
+      "history_valid_to": 1792699164,
+      "label": "qualified",
+      "native_rows": [
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:effec523e80f013d58fe34efdd7b318785b8ac9cce518b02323f387582c33db6",
+          "packet_id": null,
+          "result_id": "capability_result:4062aaf52c67087350fd0f671826eec177ed02d7445e9b11b74747d4c11c1877",
+          "work_id": "source_check"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:358ae4f0f7942a262d98ae364a94f5b981e7e375015ab0c63a5df0289a55c7cc",
+          "packet_id": null,
+          "result_id": "capability_result:69f1aded060954ff2410f8168d70be60febd16c5ad6aa5a4a7a2c46baa005dd6",
+          "work_id": "consume_experience"
+        }
+      ],
+      "prior_fp": -62500000,
+      "scope": {
+        "criterion": "Separate the response commitment, support window, eligibility, holiday exception, unknown telephone charges, required account identifier and attachment limit. Do not infer missing prices.",
+        "goal": "Explain the support conditions of fictional Service Rowan, preserving eligibility, exceptions and unknown charges.",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "profile": "explain",
+        "supplied_candidate_sha256": null,
+        "topic": "stage05_support_evidence"
+      },
+      "selected_operation": "radik.experience.source_condition_audit.v01",
+      "transaction": "transaction:radik-task:583e159e57c440ab8c80264b3bdc67cb",
+      "work_result_ref": "work_results:f47d9a66b5721f0f5ffe5b925896d0a2c5a7c79a74ae4f773f7c03a65eaeed62"
+    },
+    {
+      "actual_output": {
+        "checks": [
+          {
+            "healthy": true,
+            "semantic_ref": "radik:experience_semantic:f1afe4a5b92ddc8502b1002ad2bec27d92702db724f7f2ae2bba60a72b8478ea"
+          }
+        ],
+        "input_sha256": "9eb599e42b12465adba06c329268169c639f034627a377655cf06d034a76309a",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "qualified_scope": "Approved raw source markers only; no external truth or model quality claim.",
+        "semantic_refs": [
+          "radik:experience_semantic:f1afe4a5b92ddc8502b1002ad2bec27d92702db724f7f2ae2bba60a72b8478ea"
+        ],
+        "stage": "RESULT"
+      },
+      "binding_id": "radik:experience_binding:76e3520810185e8498b9ecd5d03c34bcec335d4f1587eca8176fc7c2ed4087cf",
+      "current_review": "ACCEPT",
+      "current_root": "root:radik:experience:1db7674e9ddbf9c2cecf5d2f",
+      "current_root_decision": "efc09c17a5b55f570e972ef838b4e8480e421f36b00174032cc2f588aedbbe3f",
+      "current_work_valid_to": 1792699567,
+      "custody_review": "ACCEPT",
+      "custody_root_decision": "cf13372cb1a07077026a25d18c99bb87fbdd03436e8e432f10bb32056b5aaf4a",
+      "evaluated_at": 1792698667,
+      "history_disposition": "COLD_OR_NONMATCHING",
+      "history_ref": null,
+      "history_valid_to": 1792699567,
+      "label": "unrelated",
+      "native_rows": [
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:78cb8840cf90c059747da3bc78834be346929ba92e1e1f9bca90b4747b3ff46e",
+          "packet_id": null,
+          "result_id": "capability_result:e6e375bbdac9dfca3922a50b5662bc0572ca228c3b4a689d2c4ef70ea1e58f05",
+          "work_id": "source_check"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+          "invocation_id": "capability_invocation:5cfd662a4b53ad4517c96df4bb748188fa931ca2336f30a9d56de5b90d756cce",
+          "packet_id": null,
+          "result_id": "capability_result:f8c3e34bd4d37844162eed674d4db832154d093e7b4778e2f88147a11b815543",
+          "work_id": "consume_experience"
+        }
+      ],
+      "prior_fp": 0,
+      "scope": {
+        "criterion": "Preserve opening days and hours, the garden weather exception, one-visit ticket scope and separate tour booking.",
+        "goal": "Explain the visiting conditions of fictional Museum Alder.",
+        "predicate": "ABSENCE_OF_EXPLICIT_UNRESOLVED_SOURCE_MARKERS",
+        "profile": "explain",
+        "supplied_candidate_sha256": null,
+        "topic": "stage05_unrelated_museum_visits"
+      },
+      "selected_operation": "radik.experience.source_verification.v01",
+      "transaction": "transaction:radik-task:beb0598e65524a89995a95e1effa27c5",
+      "work_result_ref": "work_results:27233d193dc241ae4054d596c655c81d7ce114317f19c09cfa76a8661d1082f8"
+    }
+  ],
+  "new_feedback": {
+    "clocks": {
+      "capture_wall_ns": "1792698269975116000",
+      "claim_wall_ns": "1792698264835239000",
+      "event_wall_ns": "1792698269975116000",
+      "ingested_utc_seconds": 1792698269,
+      "monotonic_elapsed_ns": 5138908166
+    },
+    "event_id": "4daaa875262c7e1078544dfcf6e3c4e0525c40806a8bc755b64a0580f57b50d0",
+    "expected_fp": 500000000,
+    "interpretation": "Scoped source predicate; not task or model failure.",
+    "native_observation_rows": [
+      {
+        "candidate_id": null,
+        "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "invocation_id": "capability_invocation:f0b3a1d27b74b8043bfdd831fc2696ef83bc90c03075d4f5220ad9e74c365174",
+        "packet_id": null,
+        "result_id": "capability_result:8a4d0d83e59c9a684377e1896e446809d8fd6783d727a09a0d25d88457ef7193",
+        "work_id": "source_check"
+      }
+    ],
+    "observed_fp": 0,
+    "ordinary_model_task_outcome_separate": true,
+    "prior_fp": -62500000,
+    "prospective_ref": {
+      "path": "workspace/owner_documents/state/qualified_experience/prospective_eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea.json",
+      "sha256": "eb09e315a8d9db1ddde92c70e5600a414c2595741b6d5aadff34d1e40a4e85ea",
+      "size_bytes": 1460
+    },
+    "snapshot_id": "7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632",
+    "update_eligibility": "ELIGIBLE",
+    "witness_ref": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+      "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+      "size_bytes": 64968
+    }
+  },
+  "new_revision": {
+    "after_ref": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_after_0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6.json",
+      "sha256": "0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6",
+      "size_bytes": 1951
+    },
+    "after_source_observed_at": 1792698698,
+    "before_ref": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_before_39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b.json",
+      "sha256": "39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b",
+      "size_bytes": 34212
+    },
+    "history_file_refs": [
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/HEAD.json",
+        "sha256": "655027400bff5b1edfe6c458d3f696aef58a3ac80cf0980e714e20e8e28c2b77",
+        "size_bytes": 344
+      },
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/drs/work/drsmeaning_v01_e78cd5824d8e895a2ba837bc94cc2402d2090ffed5a7033d49e793622ea0b4d5.json",
+        "sha256": "e0968f0e17a9b7225211cb90ad00e6e90dae1b3d46e0946c406a46b5380fa657",
+        "size_bytes": 6570
+      },
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.descriptor.json",
+        "sha256": "c66862c0e7f61a9ef4c96933681936e7776ae53010d8d9eddffb02c57d2d5472",
+        "size_bytes": 18107
+      },
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.json",
+        "sha256": "a868d06d7429b07be51e1cd9d5ab1afea23d71637492e54918ebc4dac19174c5",
+        "size_bytes": 24964
+      },
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.payload.json",
+        "sha256": "bcb49deb9f046a9c4de00ec5e2987f047e806ad0c075e4524768eda4e29bd667",
+        "size_bytes": 7785
+      },
+      {
+        "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/writer.lock",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    ],
+    "history_snapshot_identical": true,
+    "history_valid_to": 1792699164,
+    "native_snapshot_identical": true,
+    "new_revision": 2,
+    "new_sha256": "142e1346555a65f0a690fe9443f4b5e91b8f7eee876f5c732876cb4b3f9c808c",
+    "old_binding_id": "radik:experience_binding:4a2290080d776e7f90f886999b0fedd23f17ca4d6fa784da2ee3c169de79f45a",
+    "old_revision": 1,
+    "old_sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+    "refusal_code": "dynamic_current_sources_changed",
+    "refusal_ref": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_stale_binding_refused_aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67.json",
+      "sha256": "aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67",
+      "size_bytes": 66632
+    },
+    "source_id": "radik:source:9aa5ec8ca2aacd118b031d767353d6f1",
+    "timing_limit": "Source-first refusal before original TTL/Work expiry. The 300-second maximum-age interval had elapsed; CURRENT-fresh history at this later boundary is not claimed.",
+    "work_valid_to": 1792699175
+  },
+  "retained_G4": [
+    {
+      "actual_used_input_edges": 8,
+      "allocation_counts": {
+        "qualification": 3,
+        "quotation": 4
+      },
+      "consumed_check_outputs": 7,
+      "custody_root_decision": "fe963a90f4f5d300c9089c7781975be938fae7ceca2bcd41d39cc40b1bc3f1d4",
+      "custody_root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+      "excluded_branch_features": {
+        "cost": 0,
+        "lineage": 1000000000,
+        "prior": 0,
+        "relevance": 1000000000,
+        "uncertainty": 0
+      },
+      "excluded_branch_id": "g4_reference:branch:3bb2701502b676c901a22a10e40d5bc74c7097a80da2175e1ef5cc08b27f197e",
+      "excluded_branch_native_rows": 0,
+      "full_witness_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b.json",
+        "sha256": "ed048e9c312003ac2ded2af3ee997f858786768f2287e1b5c32aa3b2ced1c46b",
+        "size_bytes": 1364699
+      },
+      "label": "cold",
+      "native_rows": [
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:1345e9eebf69b7af27ff53772b5f4a0910f9a66e81e0d9fb1446b96b1e2b11c1",
+          "packet_id": null,
+          "result_id": "capability_result:74b1459bf66895c27a78f996e0aa3489645f0c5ed490cd66d0e93d5f5ac5d172",
+          "work_id": "qualification_1"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:0e7a7a16b045a34bde66b2ade2f372bbbcab379126a9bdcd845eb38237343304",
+          "packet_id": null,
+          "result_id": "capability_result:1bfab23aa4fe4ad29dd5daf839af4b70c151c8ddf58489b52afab227de2309ae",
+          "work_id": "qualification_2"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:7db55dd6283250bfe8569f1b9b34b24807670aff9e7f275e06e7ed372acac0c2",
+          "packet_id": null,
+          "result_id": "capability_result:d62a7a654ebd98c71d91bc7dfda2ac300dee5cd7f9da6893e48721a7c2ad3831",
+          "work_id": "qualification_3"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:d51813e800b48847445d2acd0c3488efeda10fdb4a82f52c158444b2e1d2377f",
+          "packet_id": null,
+          "result_id": "capability_result:5d843e2d1cc5445898125123b6b8520120162b35396e6a74d6c3188870e74727",
+          "work_id": "quotation_1"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:42fe9c0ee9e4652327dcc4c6b029e8bf5289e520c2390096c30ddf62684b2d7c",
+          "packet_id": null,
+          "result_id": "capability_result:5721dc12e9a631cf84db5594336d928cb2ff28e58a5045bf7947e87d256da63c",
+          "work_id": "quotation_2"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:f0b585ec6f6ea166aedee18f2e0276c63df9f30ad74481656a804a0ea52a3972",
+          "packet_id": null,
+          "result_id": "capability_result:29286816986da3e22fd01d0c31036edb4875ffbc8c5673f71d941e077237d5f5",
+          "work_id": "quotation_3"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:ebc668344b4b3b316a40294cac648a96a0b7cd6b6af917210cf852397bb15868",
+          "packet_id": null,
+          "result_id": "capability_result:290216bb1d980ce9837b4e02ad63a351dda404ce4d10234b079f1aae25066514",
+          "work_id": "quotation_4"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:8b025d910d709325bdaf204d4a57111ff947e778c204782e4219d814b9409ed3",
+          "packet_id": null,
+          "result_id": "capability_result:5e869d20cbc52ae57d6967d6645236bb8bb81172e71b9740c2af26c732e761df",
+          "work_id": "final_consumer"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:f7c2a3009dc4639b3ec7aeb38a4517a94a6561f14a01b0c81a92e3d1b0fe510d",
+          "packet_id": null,
+          "result_id": "capability_result:9e1ae4fd332861cee1e374b7903a062f5366eb6db0478687d8e2c485ad9666c0",
+          "work_id": "source_gate"
+        }
+      ],
+      "root_results": [
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "task_root_decision": "3e56eca4d09134e25278d31af42815fcbb2b85785fec8479733557fbd7d76238",
+      "task_root_id": "root:radik:dynamic:69ef1783:026bb5b7:8477887b",
+      "total_installed_and_consumed_units": 9
+    },
+    {
+      "actual_used_input_edges": 8,
+      "allocation_counts": {
+        "qualification": 4,
+        "quotation": 3
+      },
+      "consumed_check_outputs": 7,
+      "custody_root_decision": "504b02ef22c79ccc6a5e81fb9ce5266e370e17b891913cf944048cd24cb61191",
+      "custody_root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba",
+      "excluded_branch_features": {
+        "cost": 0,
+        "lineage": 1000000000,
+        "prior": 0,
+        "relevance": 1000000000,
+        "uncertainty": 0
+      },
+      "excluded_branch_id": "g4_reference:branch:3bb2701502b676c901a22a10e40d5bc74c7097a80da2175e1ef5cc08b27f197e",
+      "excluded_branch_native_rows": 0,
+      "full_witness_ref": {
+        "path": "workspace/owner_documents/review/task_evidence/69ef1783026bb5b78477887b1f4bd4d3c1da78e57fae5d78db74f0868efca019/qualified_allocation_actual_f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42.json",
+        "sha256": "f18316716cbc8a3d40788e0b8c00bff73056e19b095793b78a1a4d9447b2bd42",
+        "size_bytes": 1375688
+      },
+      "label": "qualified",
+      "native_rows": [
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:c387b4648c5ca7fe0434c430cf6f33caeeb2c343aeec975befed5f70371fc2f6",
+          "packet_id": null,
+          "result_id": "capability_result:75ee0340e8cb9d512514189db2f019a014c2eadda7641fa3a2765c618952d77c",
+          "work_id": "qualification_1"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:c71462234e6f69d72cc4350e61b9868b4a38cee307252a848996d65f72a25925",
+          "packet_id": null,
+          "result_id": "capability_result:ece8b64890a55017d9ba2130adf121534cb937d041efbda5a4d1e3c21d1c09dd",
+          "work_id": "qualification_2"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:79671e47532de8eef76619f8eeb474570ac7f126d6ffebc869fcebf1681d8a2e",
+          "packet_id": null,
+          "result_id": "capability_result:8e9a761e8516801ee2d2806efbee7c08ebe29fab48d636d4130b04953ad2ccef",
+          "work_id": "qualification_3"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:4994d687566619d8c99d7b2e7a121fc0f8b32da9243a49ef629bb1eed135341e",
+          "packet_id": null,
+          "result_id": "capability_result:72d68fa3e621dc9e717575d439d95d0b05e58796132f3038cd8761a353857ed5",
+          "work_id": "qualification_4"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:1a88bceb70d944bc623b612f36d07b4af239f338188ba62cdfb7c62d93c08943",
+          "packet_id": null,
+          "result_id": "capability_result:93f00b3fb56453047daf014cfc406b874e14e0bb09aee3dea1493c48ac335384",
+          "work_id": "quotation_1"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:02fa80d1190af7577118e725dec3e8c810daa1c850bbc610909508231ba3c61a",
+          "packet_id": null,
+          "result_id": "capability_result:777c78ec0dd1b075ac8a6593a7efd6b21f71100218830a25384db0f66e273130",
+          "work_id": "quotation_2"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:d5c71de2e87b8dd636135633a7ebf7fc40fa842d55bec33e67d3d9ba2ebc2794",
+          "packet_id": null,
+          "result_id": "capability_result:7b7fbcda060313d40c7eeb09982697479bdbb1f2b5ee592853d0ea4c9637f303",
+          "work_id": "quotation_3"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:772dac57e529480538e9e61e1c10f2022f25f2712f35be9f9d1c152f48ead1bb",
+          "packet_id": null,
+          "result_id": "capability_result:ff9184626cf03121d53cae8c1d20f4f8e258ae7acc0775621ff9b2d73b03a169",
+          "work_id": "final_consumer"
+        },
+        {
+          "candidate_id": null,
+          "implementation_sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+          "invocation_id": "capability_invocation:bb28cafbec47a0a533035304d28be41c9977a63cc33c93d87af5bf4f350100a4",
+          "packet_id": null,
+          "result_id": "capability_result:8868704929bf5eed83a30c2bc6af4639e858470da4587a87fd57ea30ff362905",
+          "work_id": "source_gate"
+        }
+      ],
+      "root_results": [
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "task_root_decision": "ced77d1213a88e8e919247c54454df06428260861af303f4305de50465fda112",
+      "task_root_id": "root:radik:dynamic:69ef1783:026bb5b7:8477887b",
+      "total_installed_and_consumed_units": 9
+    }
+  ],
+  "retained_control_refs": {
+    "aged_current_check": {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/aged_current_check_65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9.json",
+      "sha256": "65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9",
+      "size_bytes": 177540
+    },
+    "cold_allocated_work": {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/cold_allocated_work_34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41.json",
+      "sha256": "34773b8e2e8f38e61ee9159e4eddf6035c8dfabf3ff711be414406fdf2745d41",
+      "size_bytes": 18768
+    },
+    "current_eligibility_controls": {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/current_eligibility_controls_9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad.json",
+      "sha256": "9e8b298c10f978bd8ed8f9412bb6c3ed708e7c33c39105baf924a38497184aad",
+      "size_bytes": 34008
+    },
+    "qualified_allocated_work": {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/qualified_allocated_work_7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b.json",
+      "sha256": "7e4c92374451478e6aa93c8fbd0574f817d601e8df82ef9c48c8323b5b2c781b",
+      "size_bytes": 19468
+    },
+    "unscorable_audit_control": {
+      "path": "workspace/owner_documents/review/stage05/92737b6ba718/unscorable_audit_control_426c50d433c56f0e4481622bd068449210b5b84b635a576668afc8e19b884da6.json",
+      "sha256": "426c50d433c56f0e4481622bd068449210b5b84b635a576668afc8e19b884da6",
+      "size_bytes": 1317
+    }
+  },
+  "retained_prior_acceptance_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/actual_review/actual_074128_independent_partial_acceptance.json",
+    "sha256": "968424c52e942026dc639322c61f86a842b8430c4dd717fc5a8ee2dea8a207fd",
+    "size_bytes": 15425
+  },
+  "retained_restrictions": {
+    "conflict": {
+      "controlled_restriction": {
+        "evidence_ref": "controlled:conflict",
+        "kind": "CONFLICT",
+        "lane": "CONTROLLED_CURRENT_RESTRICTION_NO_EXTERNAL_EVENT_CLAIM",
+        "observed_at": 1792568946
+      },
+      "ordinary_refusal": "experience_current_history_ineligible",
+      "reasons": [
+        "drs_required_evidence_missing",
+        "drs_conflict_blocked"
+      ]
+    },
+    "quarantine": {
+      "controlled_restriction": {
+        "evidence_ref": "controlled:quarantine",
+        "kind": "QUARANTINE",
+        "lane": "CONTROLLED_CURRENT_RESTRICTION_NO_EXTERNAL_EVENT_CLAIM",
+        "observed_at": 1792568946
+      },
+      "ordinary_refusal": "experience_current_history_ineligible",
+      "reasons": [
+        "drs_quarantine_blocked"
+      ]
+    }
+  },
+  "retained_temporal": {
+    "actual_work_evaluated_at": 1792568960,
+    "aged_clock_lane": "EXPLICIT_OFFLINE_CONTROL_TIME_NOT_WALL_TIME_PASSAGE",
+    "aged_current_native_rows": [
+      {
+        "candidate_id": null,
+        "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "invocation_id": "capability_invocation:1a17e00a8f5a2e16efe27777ac22601955b8081ddeb7afd8e3afd37822ca9f29",
+        "packet_id": null,
+        "result_id": "capability_result:3235a2fd99c3988e3fc2af71a57f1eb84365d0176acb96b579add5ee3695cc3a",
+        "work_id": "source_check"
+      },
+      {
+        "candidate_id": null,
+        "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+        "invocation_id": "capability_invocation:c617fd448cf6d4e4b0fd20b5dc262c70935b10b016bd4407f05d84dec043e021",
+        "packet_id": null,
+        "result_id": "capability_result:344e5641002e43e73483a3ead701a828bc242a6fa82d08318b3979e9b224b780",
+        "work_id": "consume_experience"
+      }
+    ],
+    "aged_eligible": false,
+    "aged_history_evaluated_at": 1792569180,
+    "aged_old_history_opened": false,
+    "aged_prior_fp": 0,
+    "expired_opened": false,
+    "expired_reasons": [
+      "drs_time_validity_interval_invalid",
+      "drs_time_ttl_expired",
+      "drs_required_evidence_missing"
+    ],
+    "fresh_eligible": true,
+    "history_unchanged": true,
+    "ttl_extended": false
+  },
+  "retained_unscorable": {
+    "actual_AUTH_or_transport_failure_not_induced": true,
+    "reason": "UNSCORABLE_MODEL_RESPONSE",
+    "unchanged_nonempty_history": true,
+    "update": "NO_UPDATE"
+  },
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.full_matrix_raw_witness_observations.v10",
+  "status": "READ_ONLY_RAW_WITNESS_CHECKS_RECORDED_PENDING_AGGREGATE_REVIEW"
+}

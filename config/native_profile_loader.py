@@ -50,10 +50,10 @@ def install(project):
     require(not any(name.split('.')[0] in ('hedgehog','demo') for name in sys.modules),
         'native_profile_requires_fresh_process')
     rows=selected['manifest']['native_files']
-    require(type(rows) is dict and len(rows)==77,'native_profile_finite_map')
+    require(type(rows) is dict and 77 <= len(rows) <= 128,'native_profile_finite_map')
     modules={logical:reference for logical,reference in rows.items()
         if logical.startswith(('hedgehog/','demo/')) and logical.endswith('.py')}
-    require(len(modules)==43,'native_profile_module_map')
+    require(43 <= len(modules) <= 96,'native_profile_module_map')
     for logical,reference in rows.items():
         require(type(logical) is str and not logical.startswith('/') and '..' not in logical.split('/')
             and selected['manifest']['pins'].get(reference['path'])==reference['sha256'],

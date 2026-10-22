@@ -1,0 +1,278 @@
+{
+  "AUTH_provider_model_native_Work_E_SAVE_calls": 0,
+  "accepted_checks": [
+    "REAL_TYPED_SOURCE_INSTALLATION_AND_CURRENT_PROFILE",
+    "SUCCESSOR_CURRENT_PROFILE_AND_PREPARE",
+    "STALE_SELECTED_PROFILE",
+    "WRONG_CURRENT_PREDECESSOR",
+    "REAL_COPY_ONLY_APPLY_AND_COMPOSED_STATUS",
+    "REPEATED_ROWAN_SLOT",
+    "REAL_COMPOSED_NORMAL_SLOTS_53_56_AND_FINAL_ACCOUNTING"
+  ],
+  "actual_id": "INTEGRATION_V02",
+  "all_1704_production_input_refs_unchanged": true,
+  "all_182_installed_copy_code_pins_exact": true,
+  "candidate_manifest_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+    "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+    "size_bytes": 76014
+  },
+  "child_elapsed_ns": 20201012750,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "copy_final_rows": 59,
+  "fresh_task_count": 2,
+  "fresh_task_outcomes": "FAILED; no accepted result or role product",
+  "full_new_copy_witness_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/DIAGNOSTIC_FIXTURE/launch.json",
+      "sha256": "ce5c1147b984337ddc407af34990336cd83e65ceab318e2e20d0a8756c86bfd6",
+      "size_bytes": 899
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/application_profile.json",
+      "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+      "size_bytes": 245
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/application_profile_install.json",
+      "sha256": "7764a1859ae9535330c629c982d574eede95ef2576d26b32d89ec8b0b74de78e",
+      "size_bytes": 6949
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/console_model_turns.json",
+      "sha256": "c821905e4a22914ca5d034083b08b3087fced21e5156b4de9a14522329185402",
+      "size_bytes": 143765
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_grant_index.json",
+      "sha256": "240abe96bf41f0980bd54eed19e8bc1a341ab7e28bb564ffc9d768f142eb4244",
+      "size_bytes": 2807
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_operations/32878440e77c48058ac62bc5fa79f4a9.json",
+      "sha256": "287dd493dafaa4f8255fd8115979c3102a8dc16554e6962678b1e4f9a0276f62",
+      "size_bytes": 1365
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_operations/32878440e77c48058ac62bc5fa79f4a9.json.closed",
+      "sha256": "398ee694df7e17ee9a0fcd0e0b0f1be11931c01fe60e1853717c7db4f56465af",
+      "size_bytes": 446
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_rounds/781b51a0b89f43298928c51f5216b00a.json",
+      "sha256": "d027857292967557b6a6931f076ca4e0139100ba2e287ae1673c417435e06583",
+      "size_bytes": 1206
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_rounds/781b51a0b89f43298928c51f5216b00a.json.closed",
+      "sha256": "27be8c569cc360c79732ac1a77039dedb34b35cdd680916ab1c4339f70b06575",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_rounds/a19f651b61d64bf78534257dc1c44a37.json",
+      "sha256": "7247a40cf4cb2ad65ee477e49a61754a0e8396467db87344e3f308116e272415",
+      "size_bytes": 1206
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/normal_rounds/a19f651b61d64bf78534257dc1c44a37.json.closed",
+      "sha256": "3183be3d98e193d520b61abb59ad8b71d4efb31aa3f350944eae2d396a75d6dc",
+      "size_bytes": 340
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json",
+      "sha256": "7d9b38a0afe3dd4210c389685b1744e7e9b4eb57270f0922fb4dca1411f0eb8a",
+      "size_bytes": 1710
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/781b51a0b89f43298928c51f5216b00a.json",
+      "sha256": "72d779dd8333a0d8321524626c891812717efec83eb76d83490f7620da8a88ef",
+      "size_bytes": 775
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/a19f651b61d64bf78534257dc1c44a37.json",
+      "sha256": "b51f807fafacea13c8313b6cab3d02e8a80ac6400d8cbf36c7c147c98c8f1619",
+      "size_bytes": 775
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/alder_cold.json",
+      "sha256": "2d93537919c0c9fe3b3b5e8966e0c8a28bbf56ad07f5f45453120030baf63489",
+      "size_bytes": 184
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a/rowan_cold.json",
+      "sha256": "6d61193dfdd531a1c5fae354910f4cbdda4f258eb3e2683f01c24082975848dd",
+      "size_bytes": 184
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/workspace/owner_documents/input/a697ec95c0558e73672e16a7b733498d.txt",
+      "sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+      "size_bytes": 436
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/workspace/owner_documents/input/caed39d197dd66fbec99a0b4e5b96d29.txt",
+      "sha256": "c0a2e63d1a622e2d5e5becb382b69c9838e0f670ad844af3140c6f77a7a6a643",
+      "size_bytes": 201
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V02/ordinary/source_under_test/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "43fa162986a037c689fa8b5b5dccd86f09e1554a5bf0bee68f84f4f9abffaf71",
+      "size_bytes": 76244
+    }
+  ],
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INTEGRATION_V02.json",
+    "sha256": "8e9ce26354036834fe7d3cccf56eef443ec5d93890bca51c3093419b83f13358",
+    "size_bytes": 3318
+  },
+  "limits": [
+    "TaskSpec/source/task rows and owner consent are explicit copy-only inputs.",
+    "Six terminal rows test real ledger/current-round composition; they are not six model calls or accepted products.",
+    "No TaskStore/controller/native Work or complete Stage05 passage was run.",
+    "Final positive gate predicates on frozen focused/owner metadata remain separate before command handoff."
+  ],
+  "loaded_code_rows": 13,
+  "loaded_module_rows": [
+    {
+      "directory": "config",
+      "module": "config",
+      "namespace_only": true
+    },
+    {
+      "module": "config.application_profile_gate",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/after/config/application_profile_gate.py",
+      "sha256": "0e812c08ff61d1b1449db6d7c4465f58c3b5ce1d0f6765f39cb92285650acd2c"
+    },
+    {
+      "module": "_radik_v09_integration_installer",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/activate_profile.py",
+      "sha256": "3fcf7b4c6a7940565fcd195c3fb036d34d340b64e28eea7821ccc0775415efb0"
+    },
+    {
+      "module": "app",
+      "path": "app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76"
+    },
+    {
+      "module": "app.normal_session",
+      "path": "app/normal_session.py",
+      "sha256": "4a0a3433486ac99981492aad1b822987f8733284bfd35c101b4a3b92eba7153a"
+    },
+    {
+      "module": "app.normal_profile",
+      "path": "app/normal_profile.py",
+      "sha256": "80cbf4787c0fcaca52d343cd1556715f94c911480d3bb28e78079d7d9bd84f09"
+    },
+    {
+      "module": "app.console_continuation",
+      "path": "app/console_continuation.py",
+      "sha256": "1497ba1e48bddb9af63387408c2e1ad20d898adcaaf94df72197320e3ff30055"
+    },
+    {
+      "module": "app.stage05_disposition",
+      "path": "app/stage05_disposition.py",
+      "sha256": "eb2ca48f33f732f8e0bd65d729c4715312db3c84353d9876eba4c0544b1eb60a"
+    },
+    {
+      "module": "app.stage05_disposition_successor",
+      "path": "app/stage05_disposition_successor.py",
+      "sha256": "4a620e32f4e105265773d6273fa0a5863bd4c8feb214c0e59969784c900fcbd0"
+    },
+    {
+      "directory": "review",
+      "module": "review",
+      "namespace_only": true
+    },
+    {
+      "directory": "review/transport",
+      "module": "review.transport",
+      "namespace_only": true
+    },
+    {
+      "module": "review.transport.model_scope",
+      "path": "review/transport/model_scope.py",
+      "sha256": "f5435eaa0c91017797290a99fbce34f8543717ecba69ba8ad1d2f28b00aa65c6"
+    },
+    {
+      "module": "app.task_budget",
+      "path": "app/task_budget.py",
+      "sha256": "27262365e64e65e7b3a853e861decc3c1593f51e0252d76154dc2239767f2e3a"
+    },
+    {
+      "module": "app.contracts",
+      "path": "app/contracts.py",
+      "sha256": "7c4d3ec9f4762fe01bebcc398b728a674afe8084e585b59f884e7c1b1906c33b"
+    },
+    {
+      "module": "app.task_spec",
+      "path": "app/task_spec.py",
+      "sha256": "fcf9b56e79f2178e67baf102b93104b360de0ba868d8b64dd2bb65f910844f53"
+    },
+    {
+      "module": "app.source_admission",
+      "path": "app/source_admission.py",
+      "sha256": "77d28991ffda273c13c26096de12ca0e692a8ff1209d3ae17d0f3add137a976c"
+    }
+  ],
+  "namespace_only_rows": 3,
+  "negative_refusals": [
+    {
+      "check": "STALE_SELECTED_PROFILE",
+      "code": "profile_gate_current_profile_required",
+      "result": "REFUSED_AS_REQUIRED"
+    },
+    {
+      "check": "WRONG_CURRENT_PREDECESSOR",
+      "code": "stage05_disposition_current_predecessor",
+      "result": "REFUSED_AS_REQUIRED"
+    },
+    {
+      "check": "REPEATED_ROWAN_SLOT",
+      "code": "stage05_disposition_slot_reuse",
+      "result": "REFUSED_AS_REQUIRED"
+    }
+  ],
+  "no_automatic_retry": true,
+  "old_c146_raw_receipt_exact": true,
+  "old_task_entries_exact": true,
+  "original53_prefix_exact": true,
+  "original_production_rows": 53,
+  "owner_admission_issued": false,
+  "peer_retry_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_v02_retry_peer_source_review.json",
+    "sha256": "50e240cf5ec54673eaf3ae39478c6c70262d5d8c578f2d656b41c58b376c2c91",
+    "size_bytes": 7457
+  },
+  "production_ACK_activation_operation_round_attempt": false,
+  "production_active_unknown": "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a",
+  "production_still_v05": true,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_proposal_v02.json",
+    "sha256": "42b7254c0e892931df008cf7c884c6aeca58fec244451d2fd034c38a06d54bf0",
+    "size_bytes": 1076474
+  },
+  "raw_installer_gate_note": "Installer separately verifies and executes its same pinned raw gate; this is enforced by its source and typed-context checks, not an additional row in the fixture loader list.",
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/work/result.json",
+    "sha256": "4505e18f8370f68a1cc3ec2a9bd87b19e226685c878c2b977bd65e749b5218cd",
+    "size_bytes": 21373
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.integration_actual_review.v09",
+  "slot_start_counts": [
+    53,
+    56
+  ],
+  "source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_independent_source_review_v02.json",
+    "sha256": "c96e3cffbdf6f7c16e16cc3973efb6eb7c51bdc7d664697190fbf2220a3387c9",
+    "size_bytes": 2461
+  },
+  "status": "PASS_REAL_ISOLATED_SUCCESSOR_CURRENT_PROFILE_AND_COMPOSED_SLOTS",
+  "synthetic_accounting_rows": 6,
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_v02_tool_outcome.json",
+    "sha256": "effabd0388cd6d6709f98484c8c6e1f1c995c7d1bfc20356bb92b0c3ab4d08a7",
+    "size_bytes": 1443
+  }
+}

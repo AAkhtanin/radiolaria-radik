@@ -1,0 +1,39 @@
+{
+  "schema": "radik.task_model_policy.v01",
+  "scope": "console",
+  "profile": "stage04_dynamic_information_v01",
+  "max_new_turn_attempts": 1000000,
+  "max_active_requests": 1,
+  "max_attempts_per_round": 3,
+  "max_rounds_per_task": 3,
+  "max_sources": 4,
+  "max_native_items": 12,
+  "max_native_children": 2,
+  "max_native_depth": 2,
+  "max_native_revisions": 2,
+  "automatic_model_retries": 0,
+  "automatic_effect_retries": 0,
+  "native_work_max_model_calls": 0,
+  "native_e_max_provider_calls": 0,
+  "supported_models": {
+    "gpt-6.1-sol": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "initial_settings": {
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "service_tier": "default"
+  },
+  "settings_change": "Explicit owner selection between completed requests and rounds; retain cumulative ledger and all prior settings entries.",
+  "auth_route": "EXISTING_RADIK_CHATGPT_PLAN_ONLY",
+  "request_deadline_seconds": 600,
+  "settings_documentation": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "model_resolution": "Requested and returned labels are recorded separately; backend resolved_model remains UNKNOWN without independent evidence.",
+  "max_native_child_reservations": 20,
+  "max_native_child_budget": 24
+}

@@ -1,0 +1,48 @@
+{
+  "automatic_retry": false,
+  "exact_copy_delta": "Same1702destinations; only manifest.schema and two dependent hash references changed. Input sources rehashed1704 exact files;12module pins unchanged.",
+  "exact_fixture_delta": "Only SELF/PROPOSAL paths and exact INTEGRATION_V02 grant identity; all case bodies, guards, imports, I/O and accounting semantics unchanged.",
+  "failed_actual_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v01_result_review.json",
+    "sha256": "cdf16776e74e8409da961cb7b58a49f7f68a1efcb124d4c7970d57ad17e264ed",
+    "size_bytes": 4146
+  },
+  "focused_owner_metadata_pending": true,
+  "independent_metadata_repair_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/manifest_schema_repair_peer_review.json",
+    "sha256": "f1b1132c9588dac6c2965b7f1bcf75541c3f85951c77f97f93c66122e216a9d3",
+    "size_bytes": 6072
+  },
+  "maximum_further_retries": 0,
+  "prior_full_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_independent_source_review.json",
+    "sha256": "6174fe45c8c735fccd1c5542c686c232a662b13412f4297d9e9e8da5a992ac11",
+    "size_bytes": 6330
+  },
+  "production_application_changed": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_proposal_v02.json",
+    "sha256": "42b7254c0e892931df008cf7c884c6aeca58fec244451d2fd034c38a06d54bf0",
+    "size_bytes": 1076474
+  },
+  "reader_repetition_allowed": false,
+  "repair_proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/manifest_schema_repair_proposal.json",
+    "sha256": "d6ab1c89180a610a1ee68f834dac87e3b8674fa3e8319728bf662be1fd889e31",
+    "size_bytes": 3678
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_v02.py",
+    "sha256": "01c611d4d5be614d2540f72b2237a651e0ec89461f76b75d90b0da6388ff128b",
+    "size_bytes": 24744
+  },
+  "schema": "radik.stage05.integration_controls_source_review.v09",
+  "seal_authorization_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_seal_authorization_v02.json",
+    "sha256": "f27c423c53edbaa8242c3f4b03ac296aed03cb59e882fbccf7f7d55368f8b265",
+    "size_bytes": 31420
+  },
+  "source_findings": [],
+  "status": "SOURCE_ACCEPTED_FOR_ONE_ADDRESSED_METADATA_CORRECTION"
+}

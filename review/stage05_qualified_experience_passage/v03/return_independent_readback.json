@@ -1,0 +1,67 @@
+{
+  "Stage05_accepted": false,
+  "archive_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261021T083928.852630Z.tar.gz",
+    "sha256": "9719c5be005710078f056d3fd3ff9eb51028b8fd6c56ab9672985abfbcc5cddd",
+    "size_bytes": 1049965
+  },
+  "checks": {
+    "all_member_bytes_equal_exact_source_and_manifest": true,
+    "all_members_regular_unique_and_selected": true,
+    "automatic_grant_and_subject_inventory_bytes_exact": true,
+    "basis_and_prior_archive_links_exact": true,
+    "delivered_and_verified": true,
+    "external_and_project_archive_bytes_equal": true,
+    "model_turns": 0,
+    "payload_members": 151,
+    "reservation_consumed_no_reset_or_repack": true,
+    "sidecars_exact": true,
+    "total_members_with_manifest": 152
+  },
+  "checksum_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261021T083928.852630Z.tar.gz.sha256",
+    "sha256": "0878e7a34ebbb648cf2910e520e277f4e59f62c3706f117547b8aac53f4a80eb",
+    "size_bytes": 110
+  },
+  "created_at_utc": "2026-10-21T08:40:41.089448+00:00",
+  "delivery_receipt_ref": {
+    "path": "state/local_operator/RADIK_RETURN_20261021T083928.852630Z.tar.gz.delivery.json",
+    "sha256": "7d6c6c9ea23f93024caf4a6c10aa9267546d0c7adc502d3c577bf8b5f2ae0f96",
+    "size_bytes": 414
+  },
+  "diagnostic_runtime_cases_executed": 0,
+  "manifest_sha256": "5db6dbac2e45b99cbca3965fe0c8374196bf834924abde2f08bf520b5169f7e7",
+  "new_build_or_application_execution_performed_by_reviewer": false,
+  "owner_ready": false,
+  "packaging_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/return_packaging_review.json",
+    "sha256": "d78120d61519786d47c79bddd7966f9029dbcb13a356c3239251125cf1c055d4",
+    "size_bytes": 6816
+  },
+  "project_archive_ref": {
+    "path": "review/returns/RADIK_RETURN_20261021T083928.852630Z.tar.gz",
+    "sha256": "9719c5be005710078f056d3fd3ff9eb51028b8fd6c56ab9672985abfbcc5cddd",
+    "size_bytes": 1049965
+  },
+  "project_checksum_ref": {
+    "path": "review/returns/RADIK_RETURN_20261021T083928.852630Z.tar.gz.sha256",
+    "sha256": "0878e7a34ebbb648cf2910e520e277f4e59f62c3706f117547b8aac53f4a80eb",
+    "size_bytes": 110
+  },
+  "public_push_performed": false,
+  "reservation_ref": {
+    "path": "review/return_verifications/before_owner_fix_source_stage05_actual_074128_transport_repair_v03_build.json",
+    "sha256": "6a14fedc7851fad9934e365d95b43c8e082352bc6dca809cc9c0b1a49764ab3d",
+    "size_bytes": 344
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_independent_readback.v03",
+  "scope": "Final read-only verification of this single immutable RETURN pair. This review is stored after archive creation and is not retroactively inserted into the archive.",
+  "selection_ref": {
+    "path": "review/stage05_qualified_experience_passage/v03/return_selection_final.json",
+    "sha256": "2fcb30581b93259013919f2126f5ed7167b5e315fe182f686830b75e4eeb8df5",
+    "size_bytes": 71399
+  },
+  "source_commit": "d4f9beca27a6a7453e5df045e5fd338e35d558d2",
+  "status": "PASS_INDEPENDENT_COMPLETE_TAR_MANIFEST_AND_DELIVERY_READBACK"
+}

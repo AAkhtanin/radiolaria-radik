@@ -42,6 +42,7 @@ def _sources(project,selected,export):
     from config.application_profile_gate import require,_read
     from hedgehog import work_execution_host_v01 as host
     from app import dynamic_delta_work,dynamic_work,informational_core,native_document
+    from app import qualified_experience_work,qualified_strategy
     from hedgehog.kernel import diagnostic_telemetry_v01 as diagnostic
     manifest=selected['manifest'];native=manifest['native_files'];origins=[]
     for logical,ref in native.items():
@@ -59,7 +60,10 @@ def _sources(project,selected,export):
         if logical.startswith('schemas/'):
             raw=_read(project,ref['path']);schema=json.loads(raw);Draft202012Validator.check_schema(schema)
             resources.append(dict(logical=logical,path=ref['path'],sha256=hashlib.sha256(raw).hexdigest(),schema_id=schema.get('$id'),draft=schema.get('$schema')))
-    require(len(origins)==43 and len(resources)==33 and len(jsonschema_specifications.REGISTRY)>0,'ordinary_native_schema_closure')
+    require(len(origins)==sum(logical.startswith(('hedgehog/','demo/')) and logical.endswith('.py') for logical in native)
+        and len(resources)==sum(logical.startswith('schemas/') for logical in native)
+        and 43<=len(origins)<=160 and 33<=len(resources)<=100
+        and len(jsonschema_specifications.REGISTRY)>0,'ordinary_native_schema_closure')
     # Exercise the actual ordinary module's own __file__-relative schema reader.
     from hedgehog import capability_admission_v01 as capability
     require(Path(capability.__file__).resolve().parents[1]/'schemas/capability_admission_v01.schema.json'==Path(project)/native['schemas/capability_admission_v01.schema.json']['path'],
@@ -69,6 +73,8 @@ def _sources(project,selected,export):
             (dynamic_delta_work,('validate_inputs','validate_outputs','execute')),
             (informational_core,('validate_source_inputs_v26','validate_source_outputs_v26','execute_source_digest_v26')),
             (native_document,('validate_pure_inputs','validate_pure_outputs','execute_extraction','execute_comparison')),
+            (qualified_experience_work,('validate_inputs','validate_outputs','execute_verify','execute_audit')),
+            (qualified_strategy,('validate_inputs','validate_outputs','execute_source','execute_check','execute_consumer')),
             (host,('capture_current_informational_source_v01','validate_current_informational_source_capture_v01')),
             (diagnostic,('diagnostic_span_v01','diagnostic_phase_v01','diagnostic_consumer_v01','diagnostic_progress_v01'))]:
         for name in names:
@@ -133,6 +139,70 @@ def _failure_detail(project,environment,error,boundary):
         source_frames=frames,exception_payload_exported=False)
 
 
+def _operation_timing_name(project, args, manifest, gate, *, inherited_clock):
+    """Select the short clock only for an exactly bound Stage05 launch."""
+    stage05='review/stage05_qualified_experience_passage/v09/integration'
+    launch_name=getattr(args,'owner_supervisor_launch',None)
+    selected=(inherited_clock and not args.owner_scenario and type(launch_name) is str
+        and launch_name.startswith(stage05+'/owner_terminal_runs/'))
+    if not selected:
+        return PREFIX+'/supervisor_timing.py'
+    launch=json.loads(gate._read(project,launch_name))
+    raw=json.dumps(launch,sort_keys=True,separators=(',',':'),ensure_ascii=False,allow_nan=False).encode()
+    gate.require(launch.get('schema') in ('radik.stage05.source_rehearsal_launch.v01',
+        'radik.p28.owner_terminal_launch.v01')
+        and hashlib.sha256(raw).hexdigest()==args.owner_run_binding
+        and launch.get('source_review_ref')==manifest['source_review_ref']
+        and launch.get('process_index')==1 and launch.get('prior_child_receipt_ref') is None
+        and all(launch.get(key)==getattr(args,'owner_'+key) for key in
+            ('operation_started_ns','operation_deadline_ns','operation_started_utc')),
+        'ordinary_stage05_launch_binding')
+    return stage05+'/supervisor_timing.py'
+
+
+def _stage05_owner_disposition(project, args, selected, gate, *, owner_lock_fd,
+        owner_operation_id, run_id, source_identity_sha256, auth_source_identity_sha256):
+    """Consume only the explicit decision in the independently admitted launch."""
+    stage05='review/stage05_qualified_experience_passage/v09/integration'
+    launch_name=getattr(args,'owner_supervisor_launch',None)
+    if not (type(launch_name) is str and launch_name.startswith(stage05+'/owner_terminal_runs/')):
+        return None
+    raw=gate._read(project,launch_name);launch=json.loads(raw)
+    canonical=json.dumps(launch,sort_keys=True,separators=(',',':'),ensure_ascii=False,allow_nan=False).encode()
+    manifest=selected['manifest']
+    profile_identity={key:selected['profile_ref'][key] for key in ('path','sha256')}
+    launch_profile=launch.get('ordinary_profile_manifest_ref')
+    gate.require(launch.get('schema')=='radik.p28.owner_terminal_launch.v01'
+        and hashlib.sha256(canonical).hexdigest()==args.owner_run_binding
+        and launch.get('source_review_ref')==manifest['source_review_ref']
+        and type(launch_profile) is dict and set(launch_profile)=={'path','sha256','size_bytes'}
+        and {key:launch_profile[key] for key in ('path','sha256')}==profile_identity
+        and launch.get('process_index')==1 and launch.get('prior_child_receipt_ref') is None
+        and launch.get('automatic_retry') is False
+        and launch.get('inherited_lock_fd')==owner_lock_fd,
+        'ordinary_stage05_disposition_launch')
+    admission_raw=gate._read(project,stage05+'/owner_admission.json');admission=json.loads(admission_raw)
+    decision=launch.get('selected_unknown_acknowledgement')
+    gate.require(hashlib.sha256(admission_raw).hexdigest()==launch.get('admission_sha256')
+        and admission.get('independent_reviewer')=='/root/private_remote_controls'
+        and admission.get('status')=='OWNER_EXECUTION_ADMITTED_AFTER_SOURCE_AND_REHEARSAL'
+        and admission.get('owner_execution_authorized') is True
+        and admission.get('code_pins')==manifest['pins']
+        and admission.get('ordinary_profile_manifest_ref')==launch_profile
+        and admission.get('source_review_ref')==manifest['source_review_ref']
+        and type(decision) is dict and set(decision)=={'selected_attempt_id','proposal_ref','review_ref'}
+        and decision==admission.get('selected_unknown_acknowledgement')
+        and decision['selected_attempt_id']=='radik-call:3d5197d2edd747e8b4ec5dd56afcb16a',
+        'ordinary_stage05_explicit_unknown_decision')
+    from app import stage05_disposition_successor as stage05_disposition
+    return stage05_disposition.apply(project,decision['proposal_ref'],decision['review_ref'],
+        owner_lock_fd=owner_lock_fd,owner_operation_id=owner_operation_id,run_id=run_id,
+        source_identity_sha256=source_identity_sha256,auth_source_identity_sha256=auth_source_identity_sha256,
+        profile_ref=selected['profile_ref'],owner_confirmed=True,
+        owner_launch_ref=dict(path=launch_name,sha256=hashlib.sha256(raw).hexdigest(),size_bytes=len(raw)),
+        owner_run_binding=args.owner_run_binding)
+
+
 def run(project,args,selected):
     from config import application_profile_gate as gate
     from config.native_profile_loader import install
@@ -142,10 +212,11 @@ def run(project,args,selected):
     gate.require(Path(sys.prefix).absolute()==environment/'.venv-plan'and sys.dont_write_bytecode,'ordinary_selected_interpreter')
     site=environment/('.venv-plan/lib/python'+str(sys.version_info.major)+'.'+str(sys.version_info.minor)+'/site-packages')
     sys.path.insert(0,str(site))
-    timing=_helper(project,manifest,PREFIX+'/supervisor_timing.py','radik_p28_operation_timing')
     inherited_names=('owner_operation_started_ns','owner_operation_deadline_ns',
         'owner_operation_started_utc','owner_run_binding','owner_lock_fd')
     inherited_clock=any(getattr(args,name) is not None for name in inherited_names)
+    timing=_helper(project,manifest,_operation_timing_name(project,args,manifest,gate,
+        inherited_clock=inherited_clock),'radik_selected_operation_timing')
     supervised_console=inherited_clock and not args.owner_scenario
     gate.require(args.rehearsal_action not in ('ordinary_console','ordinary_controls') or supervised_console,
         'ordinary_supervised_owner_binding')
@@ -159,7 +230,7 @@ def run(project,args,selected):
         started=args.owner_operation_started_ns;deadline=args.owner_operation_deadline_ns;started_utc=args.owner_operation_started_utc
         binding=args.owner_run_binding
     else:
-        started=time.monotonic_ns();deadline=started+7800*10**9;started_utc=int(time.time());binding=hashlib.sha256(uuid.uuid4().bytes).hexdigest()
+        started=time.monotonic_ns();deadline=started+timing.LIMITS['operation_seconds']*10**9;started_utc=int(time.time());binding=hashlib.sha256(uuid.uuid4().bytes).hexdigest()
         clocks=timing.validate_operation_clock(started_ns=started,deadline_ns=deadline,started_utc=started_utc)
     writer=timing.EventWriter(started_ns=started,deadline_ns=deadline,run_binding=binding)
     e_state=dict(active=None,count=0)
@@ -245,6 +316,7 @@ def run(project,args,selected):
         operation_id=str(uuid.uuid4());run_id=uuid.uuid4().hex[:12]
         client=make_client(auth,scope='console');client.owner_event_sink=events
         client._ordinary_profile_manifest=manifest
+        client._ordinary_operation_deadline_utc=started_utc+timing.LIMITS['operation_seconds']
         action=args.rehearsal_action if context is not None else'entry'
         if action=='grant_review':
             active=json.loads(gate._read(project,normal_session.ACTIVE));operation_ref=active['operation_ref']
@@ -253,6 +325,12 @@ def run(project,args,selected):
         elif action!='restart_read':
             normal_session.apply_transition(project,owner_lock_fd=fd,source_identity_sha256=digest(source),
                 auth_source_identity_sha256=digest(selected['auth_review']['pins']))
+            boundary='STAGE05_EXPLICIT_OWNER_DISPOSITION'
+            disposition=_stage05_owner_disposition(project,args,selected,gate,owner_lock_fd=fd,
+                owner_operation_id=operation_id,run_id=run_id,source_identity_sha256=digest(source),
+                auth_source_identity_sha256=digest(selected['auth_review']['pins']))
+            if disposition is not None:export('stage05_explicit_owner_disposition',disposition)
+            boundary='NORMAL_OPERATION_OPEN'
             operation_ref=normal_session.open_operation(project,owner_lock_fd=fd,owner_operation_id=operation_id,run_id=run_id,
                 source_review_ref=manifest['source_review_ref'],source_admission_ref=manifest['source_admission_ref'],
                 source_identity_sha256=digest(source),auth_source_identity_sha256=digest(selected['auth_review']['pins']),

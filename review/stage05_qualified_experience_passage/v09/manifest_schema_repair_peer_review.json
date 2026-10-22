@@ -1,0 +1,124 @@
+{
+  "Stage05_acceptance": false,
+  "all_other_json_values_equal": true,
+  "application_calls": 0,
+  "code_pins_and_runtime_auth_admission_refs_unchanged": true,
+  "downstream_static_checks": [
+    "The other15 manifest values are unchanged; exact field set/profile/task path/modes/install order match the source predicate.",
+    "Runtime/code pin maps, SOURCE/AUTH review status and reviewer, AUTH subset/hash and profile-source-admission ref/shape align.",
+    "182 code pins,58 install aliases and identical before-install target set remain; no installer/gate predicate was relaxed.",
+    "Successor proposal binds the corrected raw manifest hash; strict review binds the corrected proposal hash. Historical c146 validation/code remain unchanged."
+  ],
+  "exact_data_changes": [
+    {
+      "after": "radik.application_profile.v02",
+      "before": "radik.stage05.source_integration_metadata_draft.v09",
+      "field": "schema",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json"
+    },
+    {
+      "after": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+      "before": "c57ac4203bf96095752088381d3e862e4284ef29393cf129ceb450766d68829b",
+      "field": "profile_ref.sha256",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_proposal.json"
+    },
+    {
+      "after": "059e9c69e9f9c4a1422b5bdd16ffa00e2ec7cd1637941443d9ca13c5ae0b2091",
+      "before": "c7e685e208168c170e500592600b74945527bd00c369150e00baeeaeed4758f6",
+      "field": "proposal_sha256",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_review.json"
+    }
+  ],
+  "execution_grant_issued": false,
+  "owner_admission": false,
+  "preserved_refs": [
+    {
+      "original": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+        "sha256": "c57ac4203bf96095752088381d3e862e4284ef29393cf129ceb450766d68829b",
+        "size_bytes": 76036
+      },
+      "preserved": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/source_history/before_manifest_schema_repair/ordinary_profile_manifest.json",
+        "sha256": "c57ac4203bf96095752088381d3e862e4284ef29393cf129ceb450766d68829b",
+        "size_bytes": 76036
+      }
+    },
+    {
+      "original": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_proposal.json",
+        "sha256": "c7e685e208168c170e500592600b74945527bd00c369150e00baeeaeed4758f6",
+        "size_bytes": 3658
+      },
+      "preserved": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/source_history/before_manifest_schema_repair/unknown_disposition_proposal.json",
+        "sha256": "c7e685e208168c170e500592600b74945527bd00c369150e00baeeaeed4758f6",
+        "size_bytes": 3658
+      }
+    },
+    {
+      "original": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_review.json",
+        "sha256": "7ecce8d0fffcc47fb580624fbb545f7e76dd709c59d4028c372bfedc7600cc58",
+        "size_bytes": 557
+      },
+      "preserved": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/source_history/before_manifest_schema_repair/unknown_disposition_review.json",
+        "sha256": "7ecce8d0fffcc47fb580624fbb545f7e76dd709c59d4028c372bfedc7600cc58",
+        "size_bytes": 557
+      }
+    }
+  ],
+  "production_mutation": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/manifest_schema_repair_proposal.json",
+    "sha256": "d6ab1c89180a610a1ee68f834dac87e3b8674fa3e8319728bf662be1fd889e31",
+    "size_bytes": 3678
+  },
+  "raw_preserved_preimages_exact": true,
+  "repaired_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/ordinary_profile_manifest.json",
+      "sha256": "219eba9d396ac67e66cedda8ee6c1ec017d69c69c9b73a18f44a3a1b2bd9373a",
+      "size_bytes": 76014
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_proposal.json",
+      "sha256": "059e9c69e9f9c4a1422b5bdd16ffa00e2ec7cd1637941443d9ca13c5ae0b2091",
+      "size_bytes": 3658
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/integration/unknown_disposition_review.json",
+      "sha256": "a6d8fb1f72590773b6c955c76f11542447bb946ad6fd08409c2a7469a3d96dd6",
+      "size_bytes": 557
+    }
+  ],
+  "reviewer": "/root/stage05_g4_contract",
+  "schema": "radik.stage05.manifest_schema_repair_peer_review.v09",
+  "scope_limits": [
+    "Data/source comparison only. No installer, gate, constructor or application module was imported or executed.",
+    "This accepts the exact correction as source evidence, not the retry runner/proposal or actual result. A fresh independently reviewed grant remains required.",
+    "The stopped V01 actual, original metadata, consumed grant and original harness/proposal remain preserved. The correction consumes only the one authorized diagnostic correction opportunity, never an automatic retry."
+  ],
+  "source_predicates": [
+    {
+      "function": "raw_candidate",
+      "predicate": "manifest.schema == radik.application_profile.v02",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/activate_profile.py",
+        "sha256": "3fcf7b4c6a7940565fcd195c3fb036d34d340b64e28eea7821ccc0775415efb0",
+        "size_bytes": 20291
+      }
+    },
+    {
+      "function": "load_profile",
+      "predicate": "Exact16 manifest fields, established schema/profile/modes/order, matching runtime/AUTH/source admission and pin maps",
+      "source_ref": {
+        "path": "review/stage05_qualified_experience_passage/v09/integration/after/config/application_profile_gate.py",
+        "sha256": "0e812c08ff61d1b1449db6d7c4465f58c3b5ce1d0f6765f39cb92285650acd2c",
+        "size_bytes": 15504
+      }
+    }
+  ],
+  "status": "EXACT_DATA_CORRECTION_ACCEPTED_FOR_SEPARATE_RETRY_GRANT_REVIEW"
+}

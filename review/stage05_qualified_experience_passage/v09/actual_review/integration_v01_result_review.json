@@ -1,0 +1,90 @@
+{
+  "actual_id": "INTEGRATION_V01",
+  "all_1702_copied_input_leaves_unchanged": true,
+  "all_1704_production_input_refs_unchanged": true,
+  "changed_boundary_credit": false,
+  "child_exit_code": 1,
+  "child_reaped": true,
+  "current_profile_or_prepare_completed": false,
+  "defect_responsibility": "Independent reviewer metadata serialization; not a production application defect.",
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INTEGRATION_V01.json",
+    "sha256": "d775df667b22a538304ccc436fa852445cc6c304a97a99d5dd2248939c0c59f7",
+    "size_bytes": 2913
+  },
+  "installation_entered": false,
+  "loaded_modules": [
+    {
+      "directory": "config",
+      "module": "config",
+      "namespace_only": true
+    },
+    {
+      "module": "config.application_profile_gate",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/after/config/application_profile_gate.py",
+      "sha256": "0e812c08ff61d1b1449db6d7c4465f58c3b5ce1d0f6765f39cb92285650acd2c"
+    },
+    {
+      "module": "_radik_v09_integration_installer",
+      "path": "review/stage05_qualified_experience_passage/v09/integration/activate_profile.py",
+      "sha256": "3fcf7b4c6a7940565fcd195c3fb036d34d340b64e28eea7821ccc0775415efb0"
+    }
+  ],
+  "observed_manifest_schema": "radik.stage05.source_integration_metadata_draft.v09",
+  "owner_admission": false,
+  "primary_failure": {
+    "code": "profile_install_manifest_shape",
+    "exception_type": "ValueError",
+    "frames": [
+      {
+        "function": "main",
+        "line": 387,
+        "path": "review/stage05_qualified_experience_passage/v09/integration_controls.py"
+      },
+      {
+        "function": "exercise",
+        "line": 197,
+        "path": "review/stage05_qualified_experience_passage/v09/integration_controls.py"
+      },
+      {
+        "function": "_activate_locked",
+        "line": 264,
+        "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v09/integration/activate_profile.py"
+      },
+      {
+        "function": "raw_candidate",
+        "line": 117,
+        "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v09/integration/activate_profile.py"
+      },
+      {
+        "function": "require",
+        "line": 35,
+        "path": "review/stage05_qualified_experience_passage/v09/integration/rehearsal_actual/INTEGRATION_V01/ordinary/source_under_test/review/stage05_qualified_experience_passage/v09/integration/activate_profile.py"
+      }
+    ]
+  },
+  "production_mutations": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_controls_proposal.json",
+    "sha256": "585c39fd1b072514bbaab0cbe33506a31d62477125d50362b88c70660e0cb577",
+    "size_bytes": 1074558
+  },
+  "reader_repetition_authorized": false,
+  "required_manifest_schema": "radik.application_profile.v02",
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/work/result.json",
+    "sha256": "c58da939d49a35a1008d770b4b88ee15a4b3ea20f787119b689541dbbb445806",
+    "size_bytes": 1917
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.integration_actual_review.v09",
+  "scope": "Closed setup-only refusal; exact schema/hash repair may be separately reviewed within the remaining shared120-second passage. No runtime credit inferred.",
+  "signals": [],
+  "source_proven_cause": "Reviewer metadata assembly copied profile_metadata_draft.schema into the final manifest. Real installer raw_candidate line117 requires radik.application_profile.v02 and refused the diagnostic copy before installation.",
+  "status": "STOPPED_DIAGNOSTIC_METADATA_SHAPE_BEFORE_INSTALLATION",
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_v01_tool_outcome.json",
+    "sha256": "06fddef1466ffe8e850404c3b78a67313fc21cb3583df3ff8ca22be3eb991a57",
+    "size_bytes": 923
+  }
+}

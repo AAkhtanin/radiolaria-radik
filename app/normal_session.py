@@ -314,6 +314,14 @@ def open_operation(project, *, owner_lock_fd, owner_operation_id, run_id, source
     _raw, ledger = _json(project, LEDGER)
     historical_ledger(project, ledger)
     require(ledger['active_attempt_id'] is None, 'normal_active_or_unknown')
+    from .stage05_disposition import require_operation
+    require_operation(project, ledger, owner_operation_id=owner_operation_id, run_id=run_id,
+        source_identity_sha256=source_identity_sha256, auth_source_identity_sha256=auth_source_identity_sha256,
+        profile_ref=profile_ref)
+    from .stage05_disposition_successor import require_operation as require_successor_operation
+    require_successor_operation(project, ledger, owner_operation_id=owner_operation_id, run_id=run_id,
+        source_identity_sha256=source_identity_sha256, auth_source_identity_sha256=auth_source_identity_sha256,
+        profile_ref=profile_ref)
     require(all(row.get('owner_operation_id') != owner_operation_id and row.get('run_id') != run_id
         for row in ledger['attempts']), 'normal_operation_replay')
     if _path(project, ACTIVE).exists():
@@ -407,6 +415,10 @@ def prepare_round(project, ledger, binding, *, operation_ref, mode, source_succe
     row = tasks['tasks'][binding['task_id']]
     ordinal = sum(event['kind'] == 'ROUND_STARTED' for event in row['history']) + 1
     require(binding['task_spec_sha256'] == digest(row['spec']), 'normal_round_task')
+    from .stage05_disposition import prepare_round as prepare_stage05_round
+    prepare_stage05_round(project, ledger, binding, operation=operation, mode=mode)
+    from .stage05_disposition_successor import prepare_round as prepare_successor_round
+    prepare_successor_round(project, ledger, binding, operation=operation, mode=mode)
     # The active journal contains one grant at a time, including a zero-call grant.
     active_raw, active = _json(project, ACTIVE)
     require(set(active) == {'schema', 'operation_ref'}, 'normal_round_already_active')
@@ -501,6 +513,12 @@ def validate_round(project, binding, *, task_state=None, before_begin=False, cur
                 'PROCESS_RESTART_INTERRUPTED','ACCEPTED_RESULT_RETAINED_WITH_LATE_FAILURE','CANCELLED')
                 for e in row['history'] if e['sequence']>matches[0]['sequence']),
             'normal_round_dispatch_closed')
+    from .stage05_disposition import validate_round as validate_stage05_round
+    validate_stage05_round(project, binding, operation=operation, task_state=task_state,
+        before_begin=before_begin, current=current)
+    from .stage05_disposition_successor import validate_round as validate_successor_round
+    validate_successor_round(project, binding, operation=operation, task_state=task_state,
+        before_begin=before_begin, current=current)
     return grant
 
 

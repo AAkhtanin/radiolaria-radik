@@ -1,0 +1,80 @@
+{
+  "Stage05_closure": "NOT_ESTABLISHED",
+  "automatic_repack": false,
+  "build_tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/return_build_tool_outcome.json",
+    "sha256": "120f3d6f5e9a093b48b90d03777af99cda27ea6bd42ef84490e8f5ef34806afa",
+    "size_bytes": 1700
+  },
+  "created_at_utc": "2026-10-22T19:25:33.296611+00:00",
+  "delivered_archive_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T192426.669905Z.tar.gz",
+    "sha256": "00b31ea71d69d6c2cf1972169ee1161bdb2225e701ab45a16c122b3d16ca54b7",
+    "size_bytes": 2406376
+  },
+  "delivered_checksum_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T192426.669905Z.tar.gz.sha256",
+    "sha256": "13a9220ca68e1be7c88c9169466afc0a876dea342e3678f76aa785f04e93a99c",
+    "size_bytes": 110
+  },
+  "delivery_receipt_ref": {
+    "path": "state/local_operator/RADIK_RETURN_20261022T192426.669905Z.tar.gz.delivery.json",
+    "sha256": "c8338c2ffe0ac9dfe32a83b8d477e8519263989899453a1f971049f706d0d841",
+    "size_bytes": 414
+  },
+  "manifest_member": {
+    "archive_path": "manifest.json",
+    "sha256": "6c54e53166b766e03960e06539bb4a2987fea6c0dc8a300a71734b3ccb95a13b",
+    "size_bytes": 77273
+  },
+  "new_runtime_acceptance_awarded_by_packaging": false,
+  "owner_command_executed": false,
+  "packaging_grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/return_packaging_review.json",
+    "sha256": "a748c8f82bf9546e4de2a3c80d24025f451ea2ceefd80cbb1c5f00becdc839a1",
+    "size_bytes": 19686
+  },
+  "project_archive_ref": {
+    "path": "review/returns/RADIK_RETURN_20261022T192426.669905Z.tar.gz",
+    "sha256": "00b31ea71d69d6c2cf1972169ee1161bdb2225e701ab45a16c122b3d16ca54b7",
+    "size_bytes": 2406376
+  },
+  "project_checksum_ref": {
+    "path": "review/returns/RADIK_RETURN_20261022T192426.669905Z.tar.gz.sha256",
+    "sha256": "13a9220ca68e1be7c88c9169466afc0a876dea342e3678f76aa785f04e93a99c",
+    "size_bytes": 110
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.return_independent_readback.v09",
+  "scope": "Read-only complete tar/member/manifest/checksum/delivery readback; independent standard-library parsers and hashers only. No extraction, repack, candidate execution, owner invocation or monitoring. This post-build record is outside the immutable archive.",
+  "selection_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/return_selection_final.json",
+    "sha256": "720a04da51819ce3fa8277733c25de373fe67d16fe87410341fa9e2f49377334",
+    "size_bytes": 98952
+  },
+  "single_build_reservation_ref": {
+    "path": "review/return_verifications/before_owner_fix_source_stage05_reader_and_integration_completion_v09_build.json",
+    "sha256": "a1ef25f3fc3e7b94d2ae258cd4c97a83b5de07c733bee3ad06d601c95924eefe",
+    "size_bytes": 347
+  },
+  "status": "PASS_COMPLETE_DELIVERED_ARCHIVE_AND_SELECTED_RAW_BYTES",
+  "verified": {
+    "all_manifest_rows_equal_complete_payload": true,
+    "all_member_names_unique_canonical": true,
+    "all_regular_mode0600_mtime0": true,
+    "all_selected_current_raw_bytes_equal_archived_bytes": true,
+    "archive_compressed_bytes": 2406376,
+    "auto_added_review_members": 1,
+    "both_sidecars_exact": true,
+    "complete_regular_tar_members": 248,
+    "delivery_receipt_sha_matches_closed_tool_output": true,
+    "manifest_basis_prior_archives_and_source_pins_equal_grant_selection": true,
+    "no_live_packager_session": true,
+    "payload_members": 247,
+    "project_and_delivered_archives_identical": true,
+    "publisher_exit_code": 0,
+    "selected_original_payload_bytes": 14322104,
+    "selected_original_payload_members": 246,
+    "single_build_reservation_matches_exact_grant_and_archive": true
+  }
+}

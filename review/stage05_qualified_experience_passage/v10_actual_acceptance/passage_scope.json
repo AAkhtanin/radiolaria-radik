@@ -1,0 +1,26 @@
+{
+  "Stage06_allowed": false,
+  "closure_condition": "Independent evidence covers the full Stage05 matrix; otherwise retain exact uncovered requirements.",
+  "external_owner_report_root": "/Users/admin/Downloads/Radik/stage05_v09_actual_acceptance_v10",
+  "mode": "READ_ONLY_ACTUAL_REVIEW_AND_EVIDENCE_PACKAGING",
+  "new_RETURN_count": 1,
+  "new_evidence_root": "review/stage05_qualified_experience_passage/v10_actual_acceptance",
+  "original_evidence_overwrite_allowed": false,
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "packaging_adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/build_return.py",
+    "sha256": "a4f5343bf791b5b1db5b34f8f7e8f827130c8072784e3041bcb42dfcb210465d",
+    "size_bytes": 15028
+  },
+  "previous_adapter_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/build_return.py",
+    "sha256": "a947cf1f2337c2ef2f2a7f272e899d8195a634951259e578c00212be53527961",
+    "size_bytes": 15034
+  },
+  "push_allowed": false,
+  "runtime_changes_allowed": false,
+  "runtime_imports_or_execution_allowed": false,
+  "scenario_model_E_or_SAVE_calls_allowed": false,
+  "schema": "radik.stage05.actual_acceptance_scope.v10",
+  "source_basis": "Completed v09 with accepted prior scoped G4 and other applicable controls"
+}

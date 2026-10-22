@@ -1,0 +1,83 @@
+{
+  "actual_id": "INTEGRATION_V01",
+  "charge_not_refunded": true,
+  "charged_execution_ns": 5962871917,
+  "child_exit_code": 1,
+  "child_reaped": true,
+  "closing_readback_reserve_seconds": 5,
+  "closure_confirmed": true,
+  "completion_elapsed_wall_seconds": 0.962872792,
+  "cumulative_charged_ns": 17486361833,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/child_stdout.raw",
+      "sha256": "68b4d03b79d924d86d18a67e6ad153286126d1f582a1ecdd3fe538421388b2d9",
+      "size_bytes": 318
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/completion.json",
+      "sha256": "ab0efafffc7f152108b0d79c6a8a195e58748f60fa97801c08ef8bf291f0e88d",
+      "size_bytes": 892
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/invocation.json",
+      "sha256": "50dffe109edd27bfab2aef63538a03db68c6559a04d33cf22089bb8eeb24fe72",
+      "size_bytes": 374
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/receipt.json",
+      "sha256": "392711284866bbbb061f692473dd3814f75331054dd38102bc683a1c759990a7",
+      "size_bytes": 1225
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/reservation.json",
+      "sha256": "fa16bab369aae5f6ef8b729c05f20331dd33e8218c0bf2b261aa0bfbc12b353c",
+      "size_bytes": 524
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/work/reservation.json",
+      "sha256": "0f45b6c5266291a2bed8d6eae9ed8e01ed0731f9d9ce655b277c03b5febf0ce3",
+      "size_bytes": 149
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/work/result.json",
+      "sha256": "c58da939d49a35a1008d770b4b88ee15a4b3ea20f787119b689541dbbb445806",
+      "size_bytes": 1917
+    }
+  ],
+  "final_tool_outcome_observed": true,
+  "full_readback_verified": true,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INTEGRATION_V01.json",
+    "sha256": "d775df667b22a538304ccc436fa852445cc6c304a97a99d5dd2248939c0c59f7",
+    "size_bytes": 2913
+  },
+  "independent_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v01_result_review.json",
+    "sha256": "cdf16776e74e8409da961cb7b58a49f7f68a1efcb124d4c7970d57ad17e264ed",
+    "size_bytes": 4146
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V01/supervisor/invocation.json",
+    "sha256": "50dffe109edd27bfab2aef63538a03db68c6559a04d33cf22089bb8eeb24fe72",
+    "size_bytes": 374
+  },
+  "prior_charged_ns": 11523489916,
+  "prior_execution_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INSTALLED_READER_V01.json",
+      "sha256": "3b2d6910dd9dd6533f57f3b7ba01c6f85d7846c4e4d5c5519e43ddc8c85238b0",
+      "size_bytes": 3687
+    }
+  ],
+  "remaining_execution_ns": 102513638167,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_execution_accounting.v01",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_v01_tool_outcome.json",
+    "sha256": "06fddef1466ffe8e850404c3b78a67313fc21cb3583df3ff8ca22be3eb991a57",
+    "size_bytes": 923
+  },
+  "total_budget_seconds": 120
+}

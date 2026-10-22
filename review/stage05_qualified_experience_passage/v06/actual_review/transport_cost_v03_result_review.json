@@ -1,0 +1,422 @@
+{
+  "Stage05_acceptance": false,
+  "actual_id": "TRANSPORT_COST_V03",
+  "baseline_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/instrumented_baseline/app/openai_plan_transport.py",
+    "sha256": "2b5031a60b98b1bf45f72a1501850df561d903f80b6d8218f377c39b9c75819f",
+    "size_bytes": 122889
+  },
+  "candidate_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/after/app/openai_plan_transport.py",
+    "sha256": "68d18d3d9607b6fd094f1bde767e5566ce12fd876eb885718eb5f2c9f953c05d",
+    "size_bytes": 123966
+  },
+  "closure": {
+    "child_exit_code": 0,
+    "child_pid": 7787,
+    "child_reaped": true,
+    "completion_elapsed_wall_seconds": 9.271221916,
+    "live_session": false,
+    "parent_elapsed_wall_seconds": 9.270927791,
+    "primary_stop": null,
+    "signals": [],
+    "tool_exit_code": 0,
+    "tool_wait_chunks_are_not_a_process_wall_measurement": true
+  },
+  "cumulative_execution_ns": 25454944458,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/child_stdout.raw",
+      "sha256": "d23edff37b4c172257c9f1e56d97af65d9c3135f9a7b47f87e34102efb9ae5e5",
+      "size_bytes": 233
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/completion.json",
+      "sha256": "906b0d4970ab04c13d4ede0c299fe49e5fb99f05f4992ed4bcbb27980ebac215",
+      "size_bytes": 1095
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/final_tool_outcome.json",
+      "sha256": "409cda154c75d77c65df906c271d296eb55057cfcd574a9d91ce931d6be32b28",
+      "size_bytes": 621
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/invocation.json",
+      "sha256": "70e5d18e40ab32a12b07215d792edb3b2c3fc98b61f89ac8c7ae77294a9bc13a",
+      "size_bytes": 380
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/receipt.json",
+      "sha256": "8ad37d7823d8a530103b0ac679ceef8d173128d99d44f208dc35e5e6a41ee840",
+      "size_bytes": 1259
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/supervisor/reservation.json",
+      "sha256": "c17b84c61c92c6f36795c9475d93a143342a48b9cf63fdcb24e5471064e80604",
+      "size_bytes": 723
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_baseline_order.json",
+      "sha256": "942e48cd20ac4c49aeecdc82ebbe6ff9704e4980c9b369e0ac64606139c72ba0",
+      "size_bytes": 3431
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_body_changed.json",
+      "sha256": "dd3a259e7ca02b1b7592d8659b14271880b5b7c0568c3d0ea591cada7cffc9d2",
+      "size_bytes": 2100
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_deadline_during_guard.json",
+      "sha256": "636f56862e4a815bf74b10c399695dcab70c6121e7fa69052867dc69127345e8",
+      "size_bytes": 2265
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_family_changed.json",
+      "sha256": "cc5dc8dd48ddc86743a549200e1886466639e20820329bef8f4baae374305e1b",
+      "size_bytes": 2107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_grant_during_guard.json",
+      "sha256": "e089d5b7105d86cd9ad5fe03b959334acbcd30e0c3e3b4f3313b197e31fb16eb",
+      "size_bytes": 2247
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_policy_changed.json",
+      "sha256": "60a6af9a99c58351420fe746794c789aaa3d3330fbcb5068adbf71f8fd5e0e34",
+      "size_bytes": 2106
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_repaired_order.json",
+      "sha256": "0b88a557a4dd66baa9a0458a01ea2f346af7304ba0726ef667ed2a04bca1dbc7",
+      "size_bytes": 3595
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_scope_changed.json",
+      "sha256": "aec511be160daf549ee6a9482dcd6f77c5843b9bde6fd35693ead2b285ee13f6",
+      "size_bytes": 2110
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/case_source_changed.json",
+      "sha256": "9fcc61624cb61d32e38a0c9f87daaa15dd4d2efc411692bde88fdc85fcd15f7a",
+      "size_bytes": 2107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/fresh_native_witness.json",
+      "sha256": "c2ec1d459752da7ccf62ead6afd15c71011445f64732c6637381ec2414bcda30",
+      "size_bytes": 897115
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/reservation.json",
+      "sha256": "98476649a303e62297f855e8dce2bd712ba1e2aaad192201722e9f4d0ffedfd9",
+      "size_bytes": 224
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/result.json",
+      "sha256": "464c093b7bc5439148f924ab007ec0efaab90fdf93b7edd87df38d4482173b64",
+      "size_bytes": 104993
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/source_under_test/review/task_evidence/04118e96370344c0bfdce365e074f67e78b006e618c626c3abb394dd6fdf3345/dynamic_intake_root_4fb66eced8956f82b04b4ca305b6e6724d3ac60bbd58efa38d905bdfee0df538.json",
+      "sha256": "4fb66eced8956f82b04b4ca305b6e6724d3ac60bbd58efa38d905bdfee0df538",
+      "size_bytes": 14766
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/source_under_test/review/task_evidence/04118e96370344c0bfdce365e074f67e78b006e618c626c3abb394dd6fdf3345/dynamic_native_work_42b137ee5c9240a3df7a11d121e75c0025a1197401138585b38de5823ad2a7f2.json",
+      "sha256": "42b137ee5c9240a3df7a11d121e75c0025a1197401138585b38de5823ad2a7f2",
+      "size_bytes": 857325
+    }
+  ],
+  "finite_integrity": {
+    "all_nine_individual_case_bytes_equal_result_rows": true,
+    "exact_copied_files": 147,
+    "exact_dependency_inventory_files": 230,
+    "exact_loaded_module_records": 137,
+    "exact_protected_original_refs": 219,
+    "exact_source_inventory_refs": 150,
+    "unchanged_absent_markers": [
+      "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json"
+    ]
+  },
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/grants/TRANSPORT_COST_V03.json",
+    "sha256": "081e9486d0979f2f390fd6861d2ba6c1fe43845b3da2b364207f7783b7b86c3b",
+    "size_bytes": 3073
+  },
+  "historical_074128_lost_cause": "UNKNOWN",
+  "measured_chain": {
+    "clock_scope": "Process and calling-thread absolute counters; thread deltas compare identical recorded thread IDs only.",
+    "each_paired_case_full_chain_calls": 2,
+    "measurements": [
+      {
+        "case": "BASELINE_ORDER",
+        "intervals": {
+          "connect_to_first_send": {
+            "monotonic_ns": 745196416,
+            "process_cpu_ns": 745136000,
+            "thread_cpu_ns": 745112667,
+            "thread_id": 8409947520
+          },
+          "dispatch_full_guard": {
+            "monotonic_ns": 374723875,
+            "process_cpu_ns": 374650000,
+            "thread_cpu_ns": 374650709,
+            "thread_id": 8409947520
+          },
+          "getresponse": {
+            "monotonic_ns": 87417,
+            "process_cpu_ns": 107000,
+            "thread_cpu_ns": 69375,
+            "thread_id": 8409947520
+          },
+          "http_watchdog_cleanup": {
+            "monotonic_ns": 51083,
+            "process_cpu_ns": 81000,
+            "thread_cpu_ns": 36584,
+            "thread_id": 8409947520
+          },
+          "preparation_full_guard": {
+            "monotonic_ns": 370162417,
+            "process_cpu_ns": 370174000,
+            "thread_cpu_ns": 370152042,
+            "thread_id": 8409947520
+          },
+          "request": {
+            "monotonic_ns": 118000,
+            "process_cpu_ns": 134000,
+            "thread_cpu_ns": 91292,
+            "thread_id": 8409947520
+          }
+        },
+        "kernel_validation_calls": [
+          {
+            "monotonic_ns": 45245875,
+            "process_cpu_ns": 45246000,
+            "thread_cpu_ns": 45245125
+          },
+          {
+            "monotonic_ns": 45531291,
+            "process_cpu_ns": 45531000,
+            "thread_cpu_ns": 45530667
+          }
+        ]
+      },
+      {
+        "case": "REPAIRED_ORDER",
+        "intervals": {
+          "connect_to_first_send": {
+            "monotonic_ns": 367728791,
+            "process_cpu_ns": 367669000,
+            "thread_cpu_ns": 367631500,
+            "thread_id": 8409947520
+          },
+          "dispatch_full_guard": {
+            "monotonic_ns": 367669042,
+            "process_cpu_ns": 367608000,
+            "thread_cpu_ns": 367572834,
+            "thread_id": 8409947520
+          },
+          "getresponse": {
+            "monotonic_ns": 64000,
+            "process_cpu_ns": 81000,
+            "thread_cpu_ns": 64333,
+            "thread_id": 8409947520
+          },
+          "http_watchdog_cleanup": {
+            "monotonic_ns": 101959,
+            "process_cpu_ns": 142000,
+            "thread_cpu_ns": 50875,
+            "thread_id": 8409947520
+          },
+          "preparation_full_guard": {
+            "monotonic_ns": 371366042,
+            "process_cpu_ns": 371318000,
+            "thread_cpu_ns": 371314625,
+            "thread_id": 8409947520
+          },
+          "request": {
+            "monotonic_ns": 102000,
+            "process_cpu_ns": 119000,
+            "thread_cpu_ns": 86708,
+            "thread_id": 8409947520
+          }
+        },
+        "kernel_validation_calls": [
+          {
+            "monotonic_ns": 45630208,
+            "process_cpu_ns": 45585000,
+            "thread_cpu_ns": 45586209
+          },
+          {
+            "monotonic_ns": 44750750,
+            "process_cpu_ns": 44751000,
+            "thread_cpu_ns": 44748167
+          }
+        ]
+      }
+    ],
+    "method": "Unwrapped exact loaded code observed by sys.monitoring; no validation callback in the timing observer. All96 events bound to exact loaded source. Nested inclusive spans are not added together.",
+    "ordered_functions": [
+      "DynamicRoleRun.validate_request",
+      "DynamicRoleRun.current",
+      "NativeWorkProjection.validate",
+      "DynamicDocumentController.validate_native",
+      "validate_work_program_result_v01"
+    ],
+    "overflow_omitted": 16,
+    "retained_events": 96,
+    "successful_request_returns_containing_complete_nested_chain": 13,
+    "telemetry_BaseException_preserves_primary": true,
+    "timing_bound": 64
+  },
+  "native_witness": {
+    "actual_invocation_result_admission_implementation_and_input_output_validation_bindings_verified": true,
+    "admitted_PURE_callbacks": 12,
+    "artifact_authority_class": "EVIDENCE_ONLY",
+    "artifact_results_and_history_snapshot_equal": true,
+    "completed_PURE_invocations": 3,
+    "effect_requested": false,
+    "embedded_callback_source_records_verified_against_loaded_copied_bytes": 36,
+    "final_output_created": false,
+    "fresh_root_id": "root:radik:dynamic:04118e96:370344c0:bfdce365",
+    "fresh_task_id": "radik-task:9ef4ff4c633864ea9d8b948763da48c0",
+    "full_new_witness_ref": {
+      "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/fresh_native_witness.json",
+      "sha256": "c2ec1d459752da7ccf62ead6afd15c71011445f64732c6637381ec2414bcda30",
+      "size_bytes": 897115
+    },
+    "guard_false_skip": [
+      "audit0"
+    ],
+    "max_model_calls": 0,
+    "permission_created": false,
+    "program_items": 4,
+    "pure_candidate_id_and_packet_id_all_null": true,
+    "raw_task_evidence_refs": [
+      {
+        "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/source_under_test/review/task_evidence/04118e96370344c0bfdce365e074f67e78b006e618c626c3abb394dd6fdf3345/dynamic_intake_root_4fb66eced8956f82b04b4ca305b6e6724d3ac60bbd58efa38d905bdfee0df538.json",
+        "sha256": "4fb66eced8956f82b04b4ca305b6e6724d3ac60bbd58efa38d905bdfee0df538",
+        "size_bytes": 14766
+      },
+      {
+        "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/source_under_test/review/task_evidence/04118e96370344c0bfdce365e074f67e78b006e618c626c3abb394dd6fdf3345/dynamic_native_work_42b137ee5c9240a3df7a11d121e75c0025a1197401138585b38de5823ad2a7f2.json",
+        "sha256": "42b137ee5c9240a3df7a11d121e75c0025a1197401138585b38de5823ad2a7f2",
+        "size_bytes": 857325
+      }
+    ],
+    "revision_id": "work_revision:3f3200306739a2776abc06210faa247639808eebaf3d36864efd0ec6b67eec3f",
+    "root_commit_created": true,
+    "root_decision": "ACCEPT"
+  },
+  "owner_readiness_or_command_granted": false,
+  "paired_EOF_observation": {
+    "FIRST_SEND_definition": "Actual instrumented _FixedHTTPSConnection.send entry, not remote delivery or acknowledgement.",
+    "TLS_and_origin_admission": "EXPLICIT_SYNTHETIC",
+    "baseline_connect_to_first_send_ns": 745196416,
+    "both_expected_primary": "RemoteDisconnected",
+    "each_getresponse_calls": 1,
+    "each_request_calls": 1,
+    "historical_remote_EOF_cause": "UNKNOWN",
+    "peer_half_close_precedes_first_send": true,
+    "real_HTTPConnection_on_AF_UNIX": true,
+    "repaired_connect_to_first_send_ns": 367728791,
+    "same_request_body_bytes": 17029,
+    "same_request_body_sha256": "cc455f07305a799a9e7c7c4b1f3dad40371a99db481c4e28e638774476f73f7b",
+    "successful_provider_delivery_established": false
+  },
+  "post_guard_mutations": {
+    "grant_expired_inside_dispatch_guard_and_prevented_send": true,
+    "watchdog_fired_inside_dispatch_guard_and_prevented_send": true
+  },
+  "production_ACK_applied": false,
+  "proposal_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/transport_cost_controls_proposal.json",
+    "sha256": "96d3d3803883668f87c8c5de8873e48a0e4808fedbed08e80e0dd8cac12d3e0e",
+    "size_bytes": 185250
+  },
+  "provider_model_AUTH_SAVE_E_calls": 0,
+  "result_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/offline_actual/TRANSPORT_COST_V03/work/result.json",
+    "sha256": "464c093b7bc5439148f924ab007ec0efaab90fdf93b7edd87df38d4482173b64",
+    "size_bytes": 104993
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/transport_cost_controls.py",
+    "sha256": "730b6dc9910c7325bf761abe1d7cd82e5a44edad9cbed8c6c28be53c1da113f0",
+    "size_bytes": 31763
+  },
+  "schema": "radik.stage05.transport_cost_actual_review.v06",
+  "scope_limits": [
+    "One fresh Work reused in fixed baseline-then-repaired order; monitoring overhead and warm-cache effects are not separated. No statistical speedup or production latency estimate.",
+    "O/A products and stage2 are manually seeded inert data; no observed production emission/consume predecessor chain or model semantic acceptance.",
+    "Current source reader is a pinned in-memory snapshot; production full source-inventory and normal-operation history revalidation costs are not measured.",
+    "Real four-field TurnBudget check is exercised; production normal-round/ledger/reservation/Auth/provider boundaries are explicit doubles or absent.",
+    "HTTP close/watchdog/peer/timer closure is observed; full propose budget/result finalizers are outside this fixture.",
+    "No historical Host/Root/permission restored and no production ACK/install/owner invocation.",
+    "Fixture guards around0.37s do not explain the historical10.018s broad callback interval. Both intentional EOF cases remain response-delivery failures."
+  ],
+  "seven_before_send_refusals": [
+    {
+      "case": "SOURCE_CHANGED",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "dynamic_role_current_sources",
+      "primary_type": "ValueError",
+      "request_calls": 0
+    },
+    {
+      "case": "BODY_CHANGED",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "dynamic_role_exact_body",
+      "primary_type": "ValueError",
+      "request_calls": 0
+    },
+    {
+      "case": "SCOPE_CHANGED",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "budget_task_request_dependencies",
+      "primary_type": "ValueError",
+      "request_calls": 0
+    },
+    {
+      "case": "FAMILY_CHANGED",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "dynamic_role_family_identity",
+      "primary_type": "ValueError",
+      "request_calls": 0
+    },
+    {
+      "case": "POLICY_CHANGED",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "dynamic_role_current_policy",
+      "primary_type": "ValueError",
+      "request_calls": 0
+    },
+    {
+      "case": "DEADLINE_DURING_GUARD",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "plan_request_deadline",
+      "primary_type": "PlanTransportError",
+      "request_calls": 0
+    },
+    {
+      "case": "GRANT_DURING_GUARD",
+      "dispatch_may_have_started": false,
+      "getresponse_calls": 0,
+      "primary_code": "plan_current_own_grant_required",
+      "primary_type": "PlanTransportError",
+      "request_calls": 0
+    }
+  ],
+  "status": "PASS_FOCUSED_FRESH_NATIVE_TRANSPORT_PATH_WITH_DECLARED_SYNTHETIC_BOUNDARIES",
+  "verified_data_ref": {
+    "path": "review/stage05_qualified_experience_passage/v06/actual_review/transport_cost_v03_verified_data.json",
+    "sha256": "f82df024d549e1fb387ad2e7349145decc20488e2b69560fb20f6d73fe44e69b",
+    "size_bytes": 8088
+  }
+}

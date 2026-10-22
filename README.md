@@ -1,5 +1,15 @@
 # Radik informational task console
 
+<!-- RADIK_STAGE05_PUBLICATION_START -->
+## Stage 5 — experience changes the next check
+
+Stage 5 is accepted within Radik's qualified-experience profile. A prospectively recorded observation changes the next actual source check; a separate museum task receives no support-task lesson; a changed document invalidates the old binding before dispatch. Previously accepted G4 evidence shows finite work redistribution at the same budget. Six fresh role calls completed, all ten requirements are covered, and historical UNKNOWN outcomes remain visible.
+
+[Read the recorded English scenario](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/README.md) · [Audit route](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/AUDIT_LOG.md) · [Read with your AI assistant](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/READ_RADIK_STAGE05.xml) · [Check the evidence](review/stage05_qualified_experience_passage/publication_drafts/stage05_examination_v01/VERIFY.md)
+
+This is scoped experience and current consumption, not model-weight training or universal memory. Stage 4 remains accepted; Stage 6 is not started by this publication.
+<!-- RADIK_STAGE05_PUBLICATION_END -->
+
 <!-- RADIK_STAGE04_PUBLICATION_START -->
 ## Radik — an answer is only the beginning
 
@@ -19,7 +29,7 @@ In the accepted Stage 4 runs, that distinction becomes visible:
 
 [**Explore the application and supported tasks**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/TRY_RADIK.md) · [**Read the audit log**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/AUDIT_LOG.md) · [**Check the evidence**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/VERIFY.md) · [**Read with your AI assistant**](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/READ_RADIK_STAGE04.xml)
 
-**Current preview:** Stage 4 is [accepted](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/WALKER_STAGE04_ACCEPTANCE_20261020.md) for the dynamic informational application profile. The terms are fictional; model calls and native execution are real. Independent-owner exchange and general external actions are later Radik integrations, not features claimed for this preview. Radiolaria's reference scope is documented separately.
+**Stage 4 milestone:** Stage 4 is [accepted](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/WALKER_STAGE04_ACCEPTANCE_20261020.md) for the dynamic informational application profile. The terms are fictional; model calls and native execution are real. Independent-owner exchange and general external actions are later Radik integrations, not features claimed for this preview. Radiolaria's reference scope is documented separately.
 
 The code is here to study, test and develop further. Start with a supported task and an inspectable result. The [reading guide](review/g2e_successor_passage/publication_drafts/stage04_examination_v01/START_HERE.md) explains the route; the records let you challenge it.
 <!-- RADIK_STAGE04_PUBLICATION_END -->

@@ -1,0 +1,88 @@
+{
+  "active_attempt_id": null,
+  "attempts_after": 59,
+  "attempts_before": 53,
+  "boundary_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_source_model_ledger_boundary_review.json",
+    "sha256": "56541a2511b8104276a2910ee60a36ce471c313bcb817ab5877b34488bc8efa4",
+    "size_bytes": 21592
+  },
+  "child_exit_code": 0,
+  "child_process_cpu_ns": 829888680000,
+  "child_reaped": true,
+  "child_receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/receipt.json",
+    "sha256": "51a3c348d717dec25a5965fa35ac6a189792263556193df079a5ff0e1463aef2",
+    "size_bytes": 6466
+  },
+  "cleanup_entries": 0,
+  "event_count": 79,
+  "historical_remote_unknown_outcomes_preserved": true,
+  "launch_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/launch.json",
+    "sha256": "367166936843621c8b2fb8df6a383c6927a0a5d4690acd913a45a8eeb566b0ae",
+    "size_bytes": 2700
+  },
+  "limitations": [
+    "No separate external Terminal transcript was supplied. Acceptance uses exact durable supervisor and child receipts, raw stdout and readbacks.",
+    "Owner-run wall/native/CPU clocks are distinct measurements, not a speed benchmark or historical-timeout explanation.",
+    "Explicit local UNKNOWN disposition releases occupancy; it does not change remote outcome or assert server cancellation."
+  ],
+  "limits": {
+    "cleanup_seconds": 30,
+    "early_checkpoint_seconds": 600,
+    "event_row_bytes": 65536,
+    "event_rows": 8192,
+    "evidence_bytes": 67108864,
+    "input_bytes": 67108864,
+    "input_count": 1024,
+    "interrupt_grace_seconds": 10,
+    "kill_wait_seconds": 5,
+    "native_seconds": 1500,
+    "operation_seconds": 5400,
+    "poll_seconds": 0.05,
+    "receipt_bytes": 4194304,
+    "semantic_idle_seconds": 900,
+    "status_seconds": 30,
+    "stdout_bytes": 33554432,
+    "terminate_grace_seconds": 5
+  },
+  "model_attempt_delta": 6,
+  "monotonic_wall_ns": 885656256625,
+  "native_accounted_ns": 741370821832,
+  "operation_close_ref": {
+    "path": "state/normal_operations/9956fc42fb8e4198a7f8d8984ceddf90.json.closed",
+    "sha256": "fe7308682f79834ee17d8cbad3128c6ca3420cd6fc0c644225eeb342f51f6100",
+    "size_bytes": 435
+  },
+  "owner_explicit_unknown_disposition_ref": {
+    "path": "state/stage05_dispositions/3d5197d2edd747e8b4ec5dd56afcb16a.json",
+    "sha256": "f95f82c82d9f642a13bbd6ad46bd63e33b581ddc5fed49119f1425f6c055100e",
+    "size_bytes": 1757
+  },
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "primary_failure": null,
+  "readbacks_verified": 16,
+  "receipt_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/receipt.json",
+    "sha256": "7081b1e522b69f97d8623279078a9557af5c086a6a2aa25268a34ed7545e465e",
+    "size_bytes": 9392
+  },
+  "reservation_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/reservation_outcome.json",
+    "sha256": "b5153e81774f619094149011b406db50970f6d86128a392040546c3abb60406b",
+    "size_bytes": 1338
+  },
+  "reviewer": "/root/private_remote_controls",
+  "reviewer_application_native_provider_calls": 0,
+  "schema": "radik.stage05.owner_actual_accounting_review.v10",
+  "secondary_failures": [],
+  "signals": [],
+  "status": "PASS_CLOSED_OWNER_OPERATION_ACCOUNTING",
+  "stdout_eof": true,
+  "stdout_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration/owner_terminal_runs/OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313/process_1/child_stdout.raw",
+    "sha256": "b84790f12b458e0b46af9ef701a4c212783e0be2cef7e483292508f936d9c7fc",
+    "size_bytes": 49350
+  }
+}

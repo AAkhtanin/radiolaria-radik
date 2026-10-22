@@ -159,11 +159,15 @@ def main(*, client, save_target=None, interactive=True, stage04_acceptance=False
     from .normal_session import validate_operation
     operation = validate_operation(PROJECT, client.budget._normal_operation) if client.budget._normal_operation is not None else None
     informational_delta = operation is not None and operation['schema']=='radik.normal_operation.v02'
-    operation_deadline = operation['opened_at']+7800 if informational_delta else None
+    operation_deadline = getattr(client, '_ordinary_operation_deadline_utc', None) if informational_delta else None
+    require(not informational_delta or type(operation_deadline) is int
+        and operation['opened_at'] < operation_deadline <= operation['opened_at']+7800,
+        'console_current_operation_deadline')
     legacy=_legacy_material(workspace)
     active_step='INTERACTIVE_TASK'
     command_sequence=0
     last_round_observation=None
+    qualified_experience_result=None
 
     def read_console(prompt_id, prompt, **details):
         """The human and supervised driver consume the same ordinary input."""
@@ -193,6 +197,7 @@ def main(*, client, save_target=None, interactive=True, stage04_acceptance=False
             selected_result=store.result(selected_id) if selected_id is not None else None,
             normal_operation_ref=client.budget._normal_operation,
             round_observation=last_round_observation,
+            qualified_experience_result=qualified_experience_result,
             ledger_before=before,ledger_after=after,
             ledger_before_sha256=digest(before),ledger_after_sha256=digest(after),
             attempt_delta=len(after['attempts'])-len(before['attempts']),
@@ -255,8 +260,10 @@ def main(*, client, save_target=None, interactive=True, stage04_acceptance=False
             print(accepted['content'],flush=True)
             print('Сохранённый материал результата; свежесть, источники и локальный Root проверяются заново при использовании. SAVE не разрешён.',flush=True)
 
-    def run_task(task_id, condition=None, *, require_memory=False, operation_action=None, source_update=False):
+    def run_task(task_id, condition=None, *, require_memory=False, operation_action=None, source_update=False,
+            prepare_continuation=True):
         nonlocal active_step,last_round_observation
+        require(type(prepare_continuation) is bool, 'console_continuation_preparation_flag')
         if native_scenario:active_step=report.get('current_step','INTERACTIVE_TASK')
         from .dynamic_native import DynamicDocumentController, DynamicAcceptedResult
         spec=store.spec(task_id)
@@ -312,7 +319,7 @@ def main(*, client, save_target=None, interactive=True, stage04_acceptance=False
                 return outcome
             accepted=outcome.plain
             store.complete(task_id,accepted)
-            if informational_delta and not source_update and condition is None and controller.memory_origin is None:
+            if prepare_continuation and informational_delta and not source_update and condition is None and controller.memory_origin is None:
                 controller.prepare_source_continuation()
             show_result(task_id)
             last_round_observation['outcome_status']='COMPLETED'
@@ -573,6 +580,18 @@ def main(*, client, save_target=None, interactive=True, stage04_acceptance=False
                 candidate=read_console('candidate','Предложенный ответ для проверки: ').strip() if profile=='verify' else None
                 store.clarify(task_id,{'profile':profile,'criterion':criterion,'supplied_candidate':candidate})
                 print('Уточнение сохранено; задача готова к run.',flush=True)
+            elif command=='experience':
+                require(not argument and informational_delta, 'qualified_experience_ordinary_scope')
+                from .qualified_experience_scenario import run as run_experience
+                prior_step=active_step
+                active_step='STAGE05_EXPERIENCE'
+                try:
+                    qualified_experience_result=run_experience(store=store,run_task=run_task,
+                        controllers=controllers,client=client,operation=operation,
+                        event_sink=client.owner_event_sink)
+                finally:
+                    active_step=prior_step
+                print('Stage 5 scenario completed; independent actual review is required.',flush=True)
             elif command=='run':run_task(selected(argument))
             elif command=='run-memory':run_task(selected(argument),require_memory=True)
             elif command=='continue':

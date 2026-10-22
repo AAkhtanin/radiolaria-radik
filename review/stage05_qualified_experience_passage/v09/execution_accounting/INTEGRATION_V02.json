@@ -1,0 +1,89 @@
+{
+  "actual_id": "INTEGRATION_V02",
+  "charge_not_refunded": true,
+  "charged_execution_ns": 25268708750,
+  "child_exit_code": 0,
+  "child_reaped": true,
+  "closing_readback_reserve_seconds": 5,
+  "closure_confirmed": true,
+  "completion_elapsed_wall_seconds": 20.268710042,
+  "cumulative_charged_ns": 42755070583,
+  "evidence_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/child_stdout.raw",
+      "sha256": "8eb23bd03658dab784fca615fe9bcd8841dbf875233131ae31ea571f158fbfca",
+      "size_bytes": 260
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/completion.json",
+      "sha256": "659c86b002333858500f64b449c38235b89b8c22f262c03ca714714d5a899877",
+      "size_bytes": 1089
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/invocation.json",
+      "sha256": "51c80d3b4c6d03a7d6d31ec09d16e8a62def184302b9c0a71e067bef32b25fb8",
+      "size_bytes": 374
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/receipt.json",
+      "sha256": "345e864326bd33213154cd9ca67b1ef0bf9cb78d541e488bb5632dcb5c323bb3",
+      "size_bytes": 1256
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/reservation.json",
+      "sha256": "7a2e9087aca546a39f33b322689d9adf9169e93a142962abacd86fe273a90576",
+      "size_bytes": 719
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/work/reservation.json",
+      "sha256": "c9cb7541acd797d0fc3040852ede1368ebbf95fa019aa964a3461310f2af8406",
+      "size_bytes": 149
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/work/result.json",
+      "sha256": "4505e18f8370f68a1cc3ec2a9bd87b19e226685c878c2b977bd65e749b5218cd",
+      "size_bytes": 21373
+    }
+  ],
+  "final_tool_outcome_observed": true,
+  "full_readback_verified": true,
+  "further_reader_or_integration_retry_allowed": false,
+  "grant_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/grants/INTEGRATION_V02.json",
+    "sha256": "8e9ce26354036834fe7d3cccf56eef443ec5d93890bca51c3093419b83f13358",
+    "size_bytes": 3318
+  },
+  "independent_result_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/actual_review/integration_v02_result_review.json",
+    "sha256": "1270403a8e7b6d5993152b20a20141566d28801be5e7328f44dd8b0a5a8f12d6",
+    "size_bytes": 13133
+  },
+  "invocation_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/offline_actual/INTEGRATION_V02/supervisor/invocation.json",
+    "sha256": "51c80d3b4c6d03a7d6d31ec09d16e8a62def184302b9c0a71e067bef32b25fb8",
+    "size_bytes": 374
+  },
+  "prior_charged_ns": 17486361833,
+  "prior_execution_review_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INSTALLED_READER_V01.json",
+      "sha256": "3b2d6910dd9dd6533f57f3b7ba01c6f85d7846c4e4d5c5519e43ddc8c85238b0",
+      "size_bytes": 3687
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v09/execution_accounting/INTEGRATION_V01.json",
+      "sha256": "e1a17aa48b3d340d4c48dc7266a44c6996634e4952bf21e19afb719da82f0089",
+      "size_bytes": 3597
+    }
+  ],
+  "remaining_execution_ns": 77244929417,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.offline_execution_accounting.v01",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "tool_outcome_ref": {
+    "path": "review/stage05_qualified_experience_passage/v09/integration_v02_tool_outcome.json",
+    "sha256": "effabd0388cd6d6709f98484c8c6e1f1c995c7d1bfc20356bb92b0c3ab4d08a7",
+    "size_bytes": 1443
+  },
+  "total_budget_seconds": 120
+}

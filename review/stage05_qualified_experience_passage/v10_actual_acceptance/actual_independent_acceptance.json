@@ -1,0 +1,323 @@
+{
+  "Stage05_closure": "PENDING_SEPARATE_FULL_MATRIX_REVIEW",
+  "accepting_current_root_reviews": [
+    {
+      "decision_id": "c94d37cda45c4e9992b6d48e2abd3a02c89ea93243463a632dfb367091a916ea",
+      "label": "cold/current_review",
+      "root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba"
+    },
+    {
+      "decision_id": "eaaedfd15919a37fe5684e449eeb1ff4fd76cf3400a38403cdd4d63401be9fd9",
+      "label": "cold/source_custody_review",
+      "root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba"
+    },
+    {
+      "decision_id": "9f238b1cc19d9e98eccbbfad60e773fc107e338606dc584d4c1be2fc9dce73ca",
+      "label": "qualified/current_review",
+      "root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba"
+    },
+    {
+      "decision_id": "ad39a430e8384c43ccb23f7e234833032042fa6636ea3e9e4eec57fd36bcee26",
+      "label": "qualified/source_custody_review",
+      "root_id": "root:radik:experience:e7d2f0d50ac0c63c184bf8ba"
+    },
+    {
+      "decision_id": "efc09c17a5b55f570e972ef838b4e8480e421f36b00174032cc2f588aedbbe3f",
+      "label": "unrelated/current_review",
+      "root_id": "root:radik:experience:1db7674e9ddbf9c2cecf5d2f"
+    },
+    {
+      "decision_id": "cf13372cb1a07077026a25d18c99bb87fbdd03436e8e432f10bb32056b5aaf4a",
+      "label": "unrelated/source_custody_review",
+      "root_id": "root:radik:experience:1db7674e9ddbf9c2cecf5d2f"
+    }
+  ],
+  "accounting_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_owner_accounting_review.json",
+    "sha256": "8f5add371df1794c7316279e2411b2fec660899c316f3c52bebfcabd67386917",
+    "size_bytes": 3967
+  },
+  "additional_root_reviews_verified": [
+    "cold mandatory current check",
+    "qualified mandatory current check",
+    "unrelated mandatory current check",
+    "feedback actual Work",
+    "feedback recording Root",
+    "current history descent Root"
+  ],
+  "all_six_roles_completed": true,
+  "causal_chain": {
+    "cold_operation": "radik.experience.source_verification.v01",
+    "cold_prior_fp": 0,
+    "history_evaluated_at": 1792698275,
+    "history_ref": "7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632",
+    "history_restores_permission": false,
+    "history_valid_to": 1792699164,
+    "mandatory_current_check_completed": true,
+    "qualified_artifacts": 8,
+    "qualified_operation": "radik.experience.source_condition_audit.v01",
+    "qualified_prior_fp": -62500000,
+    "selected_work_result_ref": "work_results:f47d9a66b5721f0f5ffe5b925896d0a2c5a7c79a74ae4f773f7c03a65eaeed62",
+    "used_edges": 9
+  },
+  "checkpoint_refs": {
+    "causal_chain_verified": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/causal_chain_verified_de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d.json",
+      "sha256": "de077a0c5f8e45b58d5184b3e755621a6d249d4623729a78d39a37616a7ea90d",
+      "size_bytes": 818
+    },
+    "cold_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/cold_current_consumer_175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf.json",
+      "sha256": "175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf",
+      "size_bytes": 144404
+    },
+    "completed_result": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/completed_result_0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd.json",
+      "sha256": "0d9c84618a65bc2c2ebe93de0db48f59ce4b7cd505dd3c35666b1f2671c253cd",
+      "size_bytes": 8885
+    },
+    "qualified_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_current_consumer_00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342.json",
+      "sha256": "00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342",
+      "size_bytes": 193193
+    },
+    "qualified_feedback": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+      "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+      "size_bytes": 64968
+    },
+    "source_revision_after": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_after_0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6.json",
+      "sha256": "0ac4317f3309e55237e2325307c095043aa6199a82358e7c88897da8dcd077f6",
+      "size_bytes": 1951
+    },
+    "source_revision_before": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_before_39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b.json",
+      "sha256": "39b4df643896d82f506c497597d7634f18cb003d18dff00dd1f8c2a8de50289b",
+      "size_bytes": 34212
+    },
+    "source_revision_stale_binding_refused": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/source_revision_stale_binding_refused_aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67.json",
+      "sha256": "aa5922d0f6a42daff6c32121f95bdfc422e6728dfea5adacaf2fcac32785aa67",
+      "size_bytes": 66632
+    },
+    "unrelated_current_consumer": {
+      "path": "workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_current_consumer_0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34.json",
+      "sha256": "0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34",
+      "size_bytes": 144436
+    }
+  },
+  "consumer_factual_mapping_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/consumer_factual_mapping.json",
+    "sha256": "027f8ef7bb92d820829200bf7e2fd5fcda432ebef58975805d16a66938bc3014",
+    "size_bytes": 59131
+  },
+  "dynamic_native_work": [
+    {
+      "admission_count": 12,
+      "admitted_code_sources_verified": {
+        "app.dynamic_delta_work.execute": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_delta_work.validate_inputs": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_delta_work.validate_outputs": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_work.execute_audit": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_business": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_extract": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_gate": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_revision_audit": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_revision_gate": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.validate_inputs": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.validate_outputs": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543"
+      },
+      "completed_rows": 3,
+      "full_program_results_host_events_retained": true,
+      "ref": {
+        "path": "workspace/owner_documents/review/task_evidence/0212b8e6748160410821bf5211f05e7bb80a52b7d412861e68bfae63df8e6860/dynamic_native_work_2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938.json",
+        "sha256": "2280c82b731487c8bf42d555429ffe143b6ef1994ebcd1cfda230d1d3a3f5938",
+        "size_bytes": 858935
+      },
+      "row_statuses": [
+        {
+          "reasons": [],
+          "status": "COMPLETED",
+          "work_id": "extract0"
+        },
+        {
+          "reasons": [],
+          "status": "COMPLETED",
+          "work_id": "gate0"
+        },
+        {
+          "reasons": [
+            "work_guard_false"
+          ],
+          "status": "SKIPPED_GUARD_FALSE",
+          "work_id": "audit0"
+        },
+        {
+          "reasons": [],
+          "status": "COMPLETED",
+          "work_id": "result0"
+        }
+      ]
+    },
+    {
+      "admission_count": 12,
+      "admitted_code_sources_verified": {
+        "app.dynamic_delta_work.execute": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_delta_work.validate_inputs": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_delta_work.validate_outputs": "d51cdfdc56a3d8d80830177a66a19e91f9f7a36315ce10231fa583b6e16e7dd0",
+        "app.dynamic_work.execute_audit": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_business": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_extract": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_gate": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_revision_audit": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.execute_revision_gate": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.validate_inputs": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543",
+        "app.dynamic_work.validate_outputs": "035e90b19f5fea5683123518fa934158d30e41b38f186e8a105948d037879543"
+      },
+      "completed_rows": 1,
+      "full_program_results_host_events_retained": true,
+      "ref": {
+        "path": "workspace/owner_documents/review/task_evidence/8cb83a41869197eb17e7410cc8311215254c0bad346db5694be952ce50f7a657/dynamic_native_work_e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063.json",
+        "sha256": "e1776a3961eed54991a5ce22ad93ad63ef6e7b7ab85cc87292ba81c6b0d22063",
+        "size_bytes": 773145
+      },
+      "row_statuses": [
+        {
+          "reasons": [],
+          "status": "COMPLETED",
+          "work_id": "short0"
+        }
+      ]
+    }
+  ],
+  "effective_model_and_callback_boundary_accepted": true,
+  "findings": [],
+  "full_new_witness_inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_new_witness_inventory.json",
+    "sha256": "b840c46a0a3b925c849a1d59704d8c56ee51a4c7c87060c76a18467129948ffb",
+    "size_bytes": 90064
+  },
+  "history_raw_refs_verified": [
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/HEAD.json",
+      "sha256": "655027400bff5b1edfe6c458d3f696aef58a3ac80cf0980e714e20e8e28c2b77",
+      "size_bytes": 344
+    },
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/drs/work/drsmeaning_v01_e78cd5824d8e895a2ba837bc94cc2402d2090ffed5a7033d49e793622ea0b4d5.json",
+      "sha256": "e0968f0e17a9b7225211cb90ad00e6e90dae1b3d46e0946c406a46b5380fa657",
+      "size_bytes": 6570
+    },
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.descriptor.json",
+      "sha256": "c66862c0e7f61a9ef4c96933681936e7776ae53010d8d9eddffb02c57d2d5472",
+      "size_bytes": 18107
+    },
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.json",
+      "sha256": "a868d06d7429b07be51e1cd9d5ab1afea23d71637492e54918ebc4dac19174c5",
+      "size_bytes": 24964
+    },
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.payload.json",
+      "sha256": "bcb49deb9f046a9c4de00ec5e2987f047e806ad0c075e4524768eda4e29bd667",
+      "size_bytes": 7785
+    },
+    {
+      "path": "workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/writer.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    }
+  ],
+  "method": "Independent full raw JSON and hash comparisons against accepted source/callback identities; no application import or native validator rerun. Author mappings are corroboration, never self-acceptance.",
+  "native_E_SAVE_effects": 0,
+  "new_execution_authorized": false,
+  "new_g3_pure_invocations": [
+    {
+      "admission_id": "capability_admission:b18dee9fc4f9dc704c1059545387d3740a5bfd8fa26dc173855f5453421055cd",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:79890ae54d3af7e61c7d196be108524e6a309822508879430fe37987fa23e78c",
+      "label": "cold/mandatory_check",
+      "work_id": "source_check"
+    },
+    {
+      "admission_id": "capability_admission:b18dee9fc4f9dc704c1059545387d3740a5bfd8fa26dc173855f5453421055cd",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:933d7301a4df3ca4a88bc6b00a4786165e485410f1c93a73d13448dc4ec9de53",
+      "label": "cold/work",
+      "work_id": "consume_experience"
+    },
+    {
+      "admission_id": "capability_admission:b18dee9fc4f9dc704c1059545387d3740a5bfd8fa26dc173855f5453421055cd",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:effec523e80f013d58fe34efdd7b318785b8ac9cce518b02323f387582c33db6",
+      "label": "qualified/mandatory_check",
+      "work_id": "source_check"
+    },
+    {
+      "admission_id": "capability_admission:2db1494236fbbd729fe69819546d7a828a29ed08aa00525f425f0e1ba2e675b5",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:358ae4f0f7942a262d98ae364a94f5b981e7e375015ab0c63a5df0289a55c7cc",
+      "label": "qualified/work",
+      "work_id": "consume_experience"
+    },
+    {
+      "admission_id": "capability_admission:7592a1d060ae0f56857c6c1ae8ec6772b7716e26c4484289544647e7581c9a10",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:78cb8840cf90c059747da3bc78834be346929ba92e1e1f9bca90b4747b3ff46e",
+      "label": "unrelated/mandatory_check",
+      "work_id": "source_check"
+    },
+    {
+      "admission_id": "capability_admission:7592a1d060ae0f56857c6c1ae8ec6772b7716e26c4484289544647e7581c9a10",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:5cfd662a4b53ad4517c96df4bb748188fa931ca2336f30a9d56de5b90d756cce",
+      "label": "unrelated/work",
+      "work_id": "consume_experience"
+    },
+    {
+      "admission_id": "capability_admission:b18dee9fc4f9dc704c1059545387d3740a5bfd8fa26dc173855f5453421055cd",
+      "implementation_sha256": "ef418576e5d8afbe4a6a35bf57f1e41de11f142f9ef76b261561bc997ee5763e",
+      "invocation_id": "capability_invocation:f0b3a1d27b74b8043bfdd831fc2696ef83bc90c03075d4f5220ad9e74c365174",
+      "label": "feedback/actual",
+      "work_id": "source_check"
+    }
+  ],
+  "owner_run": "OWNER_20261022T193718_a1ddecb9dfca459497df65bf1643c313",
+  "raw_matrix_observations_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/full_matrix_raw_witness_observations.json",
+    "sha256": "5fe4b0c532ff89d633972f7d326e020c6e5c05595f61e39a27690fc7a0cd2798",
+    "size_bytes": 35433
+  },
+  "repeated_G4_or_aged_campaign": false,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage05.actual_independent_acceptance.v10",
+  "source_boundary_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/actual_source_model_ledger_boundary_review.json",
+    "sha256": "56541a2511b8104276a2910ee60a36ce471c313bcb817ab5877b34488bc8efa4",
+    "size_bytes": 21592
+  },
+  "source_revision": {
+    "after_revision": 2,
+    "after_sha256": "142e1346555a65f0a690fe9443f4b5e91b8f7eee876f5c732876cb4b3f9c808c",
+    "before_revision": 1,
+    "before_sha256": "33d0986ab52af5b9a9c5d478f1e5160bd729bef282bd4321f074de7a967d8e23",
+    "logical_source": "radik:source:9aa5ec8ca2aacd118b031d767353d6f1",
+    "native_dispatch_reached": false,
+    "old_native_and_history_equal": true,
+    "old_qualified_binding": "radik:experience_binding:4a2290080d776e7f90f886999b0fedd23f17ca4d6fa784da2ee3c169de79f45a",
+    "refusal_code": "dynamic_current_sources_changed",
+    "scope_limit": "Source identity is the first refusal. This does not establish that later age/binding gates would accept; refusal was before original TTL end but after the 300-second max-age.",
+    "stale_prior_reapplied": false
+  },
+  "status": "ACCEPTED_COMPLETED_V09_OWNER_REMAINING_SCOPE",
+  "unrelated": {
+    "distinct_root": "root:radik:experience:1db7674e9ddbf9c2cecf5d2f",
+    "foreign_lesson_prior_prohibition_applied": false,
+    "original_history_bytes_unchanged": true,
+    "prior_fp": 0,
+    "selected_operation": "radik.experience.source_verification.v01",
+    "task_id": "radik-task:beb0598e65524a89995a95e1effa27c5"
+  }
+}

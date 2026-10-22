@@ -1,0 +1,120 @@
+{
+  "adapter_source_review_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/build_return_independent_source_review.json",
+    "sha256": "66f89a0f6722f18bb61ef5aafc582c2288bd0ae9043df5c4ceb3a3dba9ba564e",
+    "size_bytes": 1507
+  },
+  "checks": [
+    "Exact file hash and size, JSON pointer, canonical value hash and parent-object hash",
+    "Existing unchanged adapter closed shape predicates and allowed v10 preserved-source prefix",
+    "No generic subject exception or scanner change; original payload bytes remain exact"
+  ],
+  "entries_verified": 79,
+  "inventory_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/public_native_subject_exceptions.json",
+    "sha256": "8bedf4e195c8fa488fa356d87496c6690cc301bfd25baddd89045b1ecb419077",
+    "size_bytes": 58812
+  },
+  "kinds": {
+    "G34_CURRENT_ROOT_CLAIM": 20,
+    "G34_HISTORY_ROOT_CLAIM": 9,
+    "G34_TYPED_CURRENT_CLAIM": 50
+  },
+  "method": "Independent JSON data predicates only; no adapter/publisher import or execution.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.public_native_subject_inventory_independent_review.v10",
+  "scope": "Final complete selected-payload secret scan, exact used-entry equality and one-use packaging grant remain required.",
+  "status": "ACCEPTED_EXACT_EXISTING_PUBLIC_NATIVE_SHAPES",
+  "whole_file_refs": [
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/cold_current_consumer_175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf.json",
+      "sha256": "175513f2905df226bad4e3cfd749b61c13dffd43f22b1e7566584b36ac74dcaf",
+      "size_bytes": 144404
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_current_consumer_00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342.json",
+      "sha256": "00b064abd29144f07e4e9ae85c93748d5e9c830514d10d1211931915ff58b342",
+      "size_bytes": 193193
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/qualified_feedback_e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea.json",
+      "sha256": "e4d9ce6161924f53704d942ae982d06a45ac26aa727079757bc76f5d594237ea",
+      "size_bytes": 64968
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/82fb90d8a0b7/unrelated_current_consumer_0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34.json",
+      "sha256": "0d4022ffea9ff374fe2a0be220509b9a778fd397264f26f6390b6bd40e18fb34",
+      "size_bytes": 144436
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/aged_current_check_65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9.json",
+      "sha256": "65f14fea257f1d40d3d8608e421d8be7b420be241da98143e90e28af5a3745e9",
+      "size_bytes": 177540
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/review/stage05/92737b6ba718/qualified_feedback_b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0.json",
+      "sha256": "b9ea7db13abe5c978a4f2fd0b3fd4d553f2b1ca567f67a686fe829d2bca453b0",
+      "size_bytes": 64968
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/beeaed7548e7856c2f13134ace88631d353dc73a8236327c239429014c456362/epochs/f6bc5fec7df394581887cef5fc0ba38601cfda9022d54fd7ab5604bb666349fe.descriptor.json",
+      "sha256": "065b0fcdbc8fa5c2827318995dfff12ad9ae13b0c663e6cedcb384b122042d8f",
+      "size_bytes": 18107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/beeaed7548e7856c2f13134ace88631d353dc73a8236327c239429014c456362/epochs/f6bc5fec7df394581887cef5fc0ba38601cfda9022d54fd7ab5604bb666349fe.json",
+      "sha256": "2c9c4d617aabcdfd7073194abc733f8d90168de43e6c659b7299ded70bc186a7",
+      "size_bytes": 24964
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.descriptor.json",
+      "sha256": "c66862c0e7f61a9ef4c96933681936e7776ae53010d8d9eddffb02c57d2d5472",
+      "size_bytes": 18107
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/history/c8d43ac4ed6a8cc01b71adc6bc8512388df96115e558277c1a7ac21ad9fd3078/epochs/7ec57c0507dd2695028afdb2930f08b1cfc9a0a3f74f41c683c599debe4d7632.json",
+      "sha256": "a868d06d7429b07be51e1cd9d5ab1afea23d71637492e54918ebc4dac19174c5",
+      "size_bytes": 24964
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67.json",
+      "sha256": "1c58e9ed14090901ee2055f8a71bc97555835236cde421a54f50b3df5682da67",
+      "size_bytes": 193105
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_7f2a9f0790028edbc2927c501af0ddcb079a3d84b115d366ae6d6d237f53a051.json",
+      "sha256": "7f2a9f0790028edbc2927c501af0ddcb079a3d84b115d366ae6d6d237f53a051",
+      "size_bytes": 193050
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_b3bae4908887b926a1479ce5701d59c8f7ef9f006f066899f756577f654fb91f.json",
+      "sha256": "b3bae4908887b926a1479ce5701d59c8f7ef9f006f066899f756577f654fb91f",
+      "size_bytes": 144261
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_caab02efb6df5bf86cdbe025a5c8a411c2e28de41d34fdb1cff3a0b0b63c0ac9.json",
+      "sha256": "caab02efb6df5bf86cdbe025a5c8a411c2e28de41d34fdb1cff3a0b0b63c0ac9",
+      "size_bytes": 148388
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937.json",
+      "sha256": "da5476cddfd0c13a4f8a0e239790ff368341a5f736f1692d55956b850b713937",
+      "size_bytes": 140401
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_consumer_e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a.json",
+      "sha256": "e95f920e54d2261d060ec21c1c4d4d91305c18296c850f4a9d027bde884f4b7a",
+      "size_bytes": 144316
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_observation_17474ba37adbf40067465a2f6c3835f670eaaf2fd87dcb5a133d7ce6c8ea2302.json",
+      "sha256": "17474ba37adbf40067465a2f6c3835f670eaaf2fd87dcb5a133d7ce6c8ea2302",
+      "size_bytes": 64880
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/original_actual/workspace/owner_documents/state/qualified_experience/qualified_observation_8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f.json",
+      "sha256": "8070477176e5bb5b7204b7e1416fe88042e2dbdfcd515d9019a3e1361ce8467f",
+      "size_bytes": 64880
+    }
+  ]
+}
