@@ -1,0 +1,13 @@
+{
+  "schema": "radik.stage06.preparation_check.v1",
+  "id": "M005",
+  "check": "Narrow intent binding repair source inventory; AST only",
+  "status": "PASS",
+  "elapsed_ns": 2996995167,
+  "code_sha256": "aec290eb62c8a51ab864faf6887767f8fa030e69f23860eec7ac31e1a9bbbb68",
+  "returncode": 0,
+  "stdout": "{\"files\": 1130, \"bytes\": 56278384, \"manifest_sha256\": \"ac0b1cc34745d067307599922ceb15fbae3de6a2ab68fad868d003db92e14f96\", \"manifest_bytes\": 1087327}\n",
+  "stderr": "",
+  "native_calls": 0,
+  "imports_of_candidate": 0
+}

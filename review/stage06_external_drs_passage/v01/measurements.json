@@ -1,0 +1,35 @@
+{
+  "schema": "radik.stage06.measured_owner_limit_basis.v1",
+  "basis_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_02/work/receipt.json",
+    "sha256": "58265308515336594f46c5b813283ceeb2210cbefe246aac519979eb67051fa8",
+    "size_bytes": 28355
+  },
+  "engineering_probe": {
+    "native_work_items": 2,
+    "process_incarnations": 3,
+    "wall_seconds": 2.807743791,
+    "outer_wall_seconds": 2.889270458,
+    "host_work_span_seconds": 0.3901975,
+    "conservative_native_lane_seconds": 5.005100917,
+    "first_source_publication_seconds": 1.411576958,
+    "all_children_reaped": true,
+    "lock_released": true
+  },
+  "future_owner": {
+    "native_work_items": 5,
+    "process_incarnations": 3,
+    "operation_seconds": 120,
+    "cleanup_seconds": 20,
+    "total_outer_wall_bound_seconds": 140,
+    "native_seconds": 180,
+    "early_checkpoint_seconds": 20,
+    "semantic_idle_seconds": 20,
+    "expected_model_calls": 0,
+    "source_ttl_seconds": 300,
+    "status_max_age_seconds": 60,
+    "per_work_original_window_seconds": 60
+  },
+  "interpretation": "Measured engineering probe, not an owner ETA or owner acceptance. The owner route adds baseline and revision-2 Work while retaining the same bounded callbacks, source gate, process/restart topology and cleanup. The 120-second operation ceiling is over 40 times the measured probe wall; the first-semantic-checkpoint ceiling is over 14 times its observed publication time. The native limit conservatively sums full peer lifetimes including waits, and is not the 0.390-second Host Work subtotal. Existing freshness windows are not extended.",
+  "owner_scenario_executed": false
+}

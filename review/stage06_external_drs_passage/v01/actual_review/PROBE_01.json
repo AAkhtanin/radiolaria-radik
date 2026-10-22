@@ -1,0 +1,349 @@
+{
+  "AUTH_provider_model_native_E_SAVE_calls": 0,
+  "Stage06_closed": false,
+  "actual_id": "PROBE_01",
+  "automatic_retry_authorized": false,
+  "completion_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/completion.json",
+    "sha256": "408695954b2cc909bd0f6ac6b40fab2f90dd50f825cceec4793ad3c57c228240",
+    "size_bytes": 673
+  },
+  "evidence_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/child_stdout.raw",
+      "sha256": "40dc110a3ec6529b2e9a74a12987d55c9f04603e3380c56c58eefbd55c2ec0b0",
+      "size_bytes": 1217
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/completion.json",
+      "sha256": "408695954b2cc909bd0f6ac6b40fab2f90dd50f825cceec4793ad3c57c228240",
+      "size_bytes": 673
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/invocation.json",
+      "sha256": "181e1179256acb325f81898f02c6f1a2416b62714391d1cb72498c69a1e4331e",
+      "size_bytes": 352
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/receipt.json",
+      "sha256": "3f8fb526051edf83abc4020982c14b4add666b55453252d857e3fa02bb9d40b4",
+      "size_bytes": 1211
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/reservation.json",
+      "sha256": "42f2aa3fd8825b3a50e4b0a7d895bfb728c0a1e7bcd23de4b0d6fa71602c4b39",
+      "size_bytes": 318
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/tool_outcome.json",
+      "sha256": "d90c2d3c997aa91cef60629b950c1e4d42f662823cc7a2b3d0b428c10533a0db",
+      "size_bytes": 168
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/operation_close.json",
+      "sha256": "423a9fc820828c630b6d19bedac95aafcc8a2bd9925bdb677c9c85de85f2f57c",
+      "size_bytes": 2412
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/bootstrap_1.json",
+      "sha256": "8b62829c88605940e5dbb707c89bacac9dd08ba6e9089c9686372b9f18d20e89",
+      "size_bytes": 2698
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0001_loaded_before_native_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+      "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+      "size_bytes": 59559
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0002_native_enter_b0c12807b61752bf83c238439a2e70d7b170c34c4bfc08e96ca972d4ef894e1a.json",
+      "sha256": "b0c12807b61752bf83c238439a2e70d7b170c34c4bfc08e96ca972d4ef894e1a",
+      "size_bytes": 217
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0003_native_exit_8b8814ff89927e621e3b9f692b9609d8d009eb5ba2c30e0237b20b8c2e7728b2.json",
+      "sha256": "8b8814ff89927e621e3b9f692b9609d8d009eb5ba2c30e0237b20b8c2e7728b2",
+      "size_bytes": 133
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0004_loaded_final_473904919361d258061b30b0e3dec19d79ad273cfcad2bced23dd1624625beb9.json",
+      "sha256": "473904919361d258061b30b0e3dec19d79ad273cfcad2bced23dd1624625beb9",
+      "size_bytes": 61588
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0005_ordinary_entry_closed_4ec0bee2e32f50bf403b7601739b954a4cfec9a0ea902af71d4fb453bd8006fd.json",
+      "sha256": "4ec0bee2e32f50bf403b7601739b954a4cfec9a0ea902af71d4fb453bd8006fd",
+      "size_bytes": 4337
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/scenario.json",
+      "sha256": "3ea84ec1fda3c66d50abf1f8cedd6e47b96e73780315216918fbc89e445d4d04",
+      "size_bytes": 152
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer_1_bootstrap_1.json",
+      "sha256": "b21dd5f802d6ff6a713fffeedc21f766146db789b356c6cc59a09a17de3d3820",
+      "size_bytes": 2699
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer_1_launch.json",
+      "sha256": "3c7501368aba05be8513ceaf7921ace6610ef40ac5597d2278aa50b36810bce5",
+      "size_bytes": 1589
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer_1_public_1.json",
+      "sha256": "f092a04daecb0fbb274317c52110f63578ed3f6018eac9744705c1937845ee99",
+      "size_bytes": 421
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer_1_stderr.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer_1_stdout.raw",
+      "sha256": "76da51d7a94e4931cc833818a35debe5c9aa89c6cae02a3d41f61c42bb711e87",
+      "size_bytes": 3416
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/receipt.json",
+      "sha256": "ea1b3f812e6d8b0f53b28e1121ba7a0bab56f89c524a2750dfa3964bbd79227d",
+      "size_bytes": 15845
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/entry_sessions/session_1/evidence/0001_loaded_before_native_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+      "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+      "size_bytes": 59559
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/entry_sessions/session_1/evidence/0002_loaded_final_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+      "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+      "size_bytes": 59559
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/entry_sessions/session_1/evidence/0003_ordinary_entry_closed_569ea748a27b742669d5bc4965bed9d02be754149904a3ecd0ac18dca0544470.json",
+      "sha256": "569ea748a27b742669d5bc4965bed9d02be754149904a3ecd0ac18dca0544470",
+      "size_bytes": 2526
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/scenario.json",
+      "sha256": "c4814cc8e9189e9442b50db9c5b08a562401941bfaa2a43ae844f4084762b560",
+      "size_bytes": 36
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient_1_launch.json",
+      "sha256": "618087fe32b097a321004a2f69fe841a5978cd95abf460d54a4604a05aca8797",
+      "size_bytes": 1590
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient_1_public_1.json",
+      "sha256": "7dd0ff43a214e1baee8bc69e2f646aeac525b79c3e6983572c4ebd4306524642",
+      "size_bytes": 423
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient_1_stderr.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient_1_stdout.raw",
+      "sha256": "4e34e9e336b4db8ee556a141774b6d5ed30b5b0c6e054dfd7a19aa15abc4a46c",
+      "size_bytes": 1049
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/required_output_availability.json",
+      "sha256": "9766fb64c67ed0de5a8e036e3a525c9de19d2b5b8990deec50d169fa5b88cfef",
+      "size_bytes": 361
+    }
+  ],
+  "exact_diagnosis": "Candidate intent_ref is intent:<task_id>, but semantic proposal trace_refs contains only task_id. The unchanged native _context requires candidate.intent_ref membership and refuses at work_composition_v01.py:206-209 through build_work_program_candidate_v01:299. No Work program was materialized/dispatched and no producer publication, signed disclosure or consumer occurred.",
+  "executed_manifest_ref": {
+    "path": "review/stage06_external_drs_passage/v01/executed_sources/PROBE_01/source_manifest.json",
+    "sha256": "56ff1cbd852bdee3ebf158593a0bdf18312effebac18dec5c3943b146b5daa1e",
+    "size_bytes": 1087243
+  },
+  "final_tool_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/tool_outcome.json",
+    "sha256": "d90c2d3c997aa91cef60629b950c1e4d42f662823cc7a2b3d0b428c10533a0db",
+    "size_bytes": 168
+  },
+  "grant_ref": {
+    "path": "review/stage06_external_drs_passage/v01/grants/PROBE_01.json",
+    "sha256": "f82a4110d5aacd527e4f0febd9080d592cecc24ff12e10424629160a09c09bfa",
+    "size_bytes": 3220
+  },
+  "inner_receipt_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/receipt.json",
+    "sha256": "ea1b3f812e6d8b0f53b28e1121ba7a0bab56f89c524a2750dfa3964bbd79227d",
+    "size_bytes": 15845
+  },
+  "loaded_observations": [
+    {
+      "module_count": 255,
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0001_loaded_before_native_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+        "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+        "size_bytes": 59559
+      }
+    },
+    {
+      "module_count": 264,
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/producer/entry_sessions/session_1/evidence/0004_loaded_final_473904919361d258061b30b0e3dec19d79ad273cfcad2bced23dd1624625beb9.json",
+        "sha256": "473904919361d258061b30b0e3dec19d79ad273cfcad2bced23dd1624625beb9",
+        "size_bytes": 61588
+      }
+    },
+    {
+      "module_count": 255,
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/entry_sessions/session_1/evidence/0001_loaded_before_native_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+        "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+        "size_bytes": 59559
+      }
+    },
+    {
+      "module_count": 255,
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/recipient/entry_sessions/session_1/evidence/0002_loaded_final_bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df.json",
+        "sha256": "bb5ded050bfcd757497ebff378e62225defc3740416f51818439709a90c7e5df",
+        "size_bytes": 59559
+      }
+    }
+  ],
+  "measurement": {
+    "closing_reserve_seconds": 5,
+    "completion_elapsed_wall_seconds": 1.293087041,
+    "conservative_peer_lifetime_sum_ns": 2081872875,
+    "execution_charge_ns": 6293084375,
+    "execution_only_cumulative_ns": 32121564082,
+    "outer_elapsed_wall_seconds": 1.292758833,
+    "prior_charged_ns": 25828479707,
+    "work_wrapper_span_is_successful_Work": false,
+    "work_wrapper_span_ns": 90005375
+  },
+  "next_step": "Separately review exact semantic trace repair and immutable-manifest routing before another cumulative one-use grant. Additional measured mechanical preparation is charged explicitly in the closed accounting record; no earlier evidence changes.",
+  "observed_boundary": [
+    "Both initial peers loaded through the exact ordinary Stage06 branch; module/resource imports completed.",
+    "Producer reached the real native candidate validator and retained its original closed failure plus pinned frames.",
+    "Recipient was waiting for bootstrap; parent interruption is secondary to the producer failure.",
+    "Producer receipt retained work_semantic_binding; recipient retained an interruption receipt, although parent did not parse that final entry after entering cleanup.",
+    "Both peers exited with SIGINT and were reaped; no restarted recipient was launched. Direct child reaped and owned process group disappearance confirmed.",
+    "Own lock released, all 10 protected files unchanged, no semantic milestone credited."
+  ],
+  "outer_receipt_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/supervisor/receipt.json",
+    "sha256": "3f8fb526051edf83abc4020982c14b4add666b55453252d857e3fa02bb9d40b4",
+    "size_bytes": 1211
+  },
+  "owner_scenario_executed": false,
+  "primary": {
+    "code": "work_semantic_binding",
+    "error_class": "ValueError",
+    "frames": [
+      {
+        "function": "_stage06_native_entry",
+        "line": 229,
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/candidate/app/ordinary_entry.py",
+        "sha256": "729c765c4b53857f99f1080cc0292fa95eb7f6432d14cc37d605747db07d99b2"
+      },
+      {
+        "function": "peer",
+        "line": 221,
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/candidate/app/external_drs_probe.py",
+        "sha256": "1473de6d09eb5a27159495db989e2944876edc2f728f888576bb030c12c7469e"
+      },
+      {
+        "function": "source",
+        "line": 62,
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/candidate/app/external_drs_probe.py",
+        "sha256": "1473de6d09eb5a27159495db989e2944876edc2f728f888576bb030c12c7469e"
+      },
+      {
+        "function": "_work",
+        "line": 123,
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/candidate/app/external_drs.py",
+        "sha256": "8614998670e9d7413f8fa5bfe07938ae9364be7d9e9b0414db02b0c52a07201f"
+      },
+      {
+        "function": "perform",
+        "line": 188,
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py",
+        "sha256": "103aa39a97ab014b5f94388912a951623ce7025463c1bd504329a8371b319651"
+      },
+      {
+        "function": "build_work_program_candidate_v01",
+        "line": 299,
+        "path": "/Users/admin/Projects/RadiolariaRadik/source/reference/hedgehog/kernel/work_composition_v01.py",
+        "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+      },
+      {
+        "function": "_require",
+        "line": 138,
+        "path": "/Users/admin/Projects/RadiolariaRadik/source/reference/hedgehog/kernel/work_composition_v01.py",
+        "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0"
+      }
+    ],
+    "phase": "STAGE06_PRODUCER"
+  },
+  "protected_current_raw_refs": [
+    {
+      "path": "state/console_model_turns.json",
+      "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+      "size_bytes": 147969
+    },
+    {
+      "path": "state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "state/application_profile.json",
+      "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+      "size_bytes": 245
+    },
+    {
+      "path": "state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+      "size_bytes": 78191
+    },
+    {
+      "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    }
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.probe_actual_independent_review.v1",
+  "source_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/source_review.json",
+    "sha256": "96651185c074a775b609cd8e8813ef2fe9bb9595ab4507ec7a690fa165597d2f",
+    "size_bytes": 7618
+  },
+  "status": "STOPPED_EXACT_NATIVE_CONTRACT_BINDING_REPAIR_REQUIRED",
+  "successful_native_Work": 0
+}

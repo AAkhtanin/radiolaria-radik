@@ -1,0 +1,65 @@
+{
+  "all_source_refs_rehashed": true,
+  "candidate_execution_by_reviewer": false,
+  "changed_source_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/build_source_inventory.py",
+      "sha256": "aec290eb62c8a51ab864faf6887767f8fa030e69f23860eec7ac31e1a9bbbb68",
+      "size_bytes": 4494
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py",
+      "sha256": "ce8501c2dfb0ac0f5ce72529fd3bb9d855fca565d15eddafa64ee563923d3f2a",
+      "size_bytes": 17166
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/config/launch.py",
+      "sha256": "5baeb4505fda4c59bb0896e2204b84270a137910698cf96fd29fa31f5057b3c6",
+      "size_bytes": 14997
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/review/transport/radik_owner_start.py",
+      "sha256": "1e483d598b84f62e3bfd135d808fbf9b34586ae6f8fcdb0a9c28e0767acf2542",
+      "size_bytes": 148528
+    }
+  ],
+  "closed_failure_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_01.json",
+    "sha256": "b079542574aa2ca91011bb7cd2a8d21bb8d384cf4a6dfab09bf78b40de2d88a6",
+    "size_bytes": 17146
+  },
+  "code_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/source_manifest_PROBE_03.json",
+    "sha256": "5ab7f8c92a944c58075be2db7a3206b90eff9c6ea9d4e111835f63a3bba5a8e6",
+    "size_bytes": 1087327
+  },
+  "previous_source_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/source_review.json",
+    "sha256": "96651185c074a775b609cd8e8813ef2fe9bb9595ab4507ec7a690fa165597d2f",
+    "size_bytes": 7618
+  },
+  "remaining_scope": "One separately granted affected engineering probe through the final ordinary wiring. No owner narrative, owner admission, or Stage06 closure.",
+  "repair_proposal_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/probe_01_semantic_binding_repair_proposal.json",
+      "sha256": "d135b1a8ef251514b2421d7cb6c55735a9560e27797960e7b102bbc48992564e",
+      "size_bytes": 1697
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/versioned_manifest_route_proposal.json",
+      "sha256": "a8fc0cd554313aa5f629c68a45417e6d68cb81988732ba5d12ddcce97967539c",
+      "size_bytes": 1665
+    }
+  ],
+  "review_findings": [
+    "Exact one-line addition binds the existing candidate intent_ref into the advisory proposal trace_refs required by the unmodified native semantic predicate. No guard, budget, Root, currentness or executor is weakened.",
+    "Both pre-import consumers accept only the original manifest name or source_manifest_PROBE_XX.json in the exact owned v01 directory; content hashes, admission and source checks remain mandatory.",
+    "Inventory builder now requires a fresh explicit versioned output; consumed manifests and admissions remain unchanged. It is source preparation, not application runtime.",
+    "All other executed source, fixture scenario, imported dependencies and source/IO contract are unchanged from the accepted initial review."
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.incremental_source_review.v1",
+  "source_inventory_bytes": 56278553,
+  "source_inventory_files": 1130,
+  "status": "SOURCE_ACCEPTED_FOR_BOUNDED_ENGINEERING_PROBE"
+}

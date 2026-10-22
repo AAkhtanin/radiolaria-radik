@@ -1,0 +1,68 @@
+{
+  "schema": "radik.stage06.engineering_budget.v1",
+  "wall_limit_seconds": 900,
+  "probe_limit_seconds_including_cleanup": 300,
+  "cleanup_limit_seconds": 30,
+  "initial_readonly_preparation_charge_seconds": 10,
+  "initial_charge_method": "Conservative reservation for initial uninstrumented read-only shell metadata and hash checks; not claimed as measured runtime. All candidate checks use measured monotonic wall including preparation and cleanup.",
+  "used_seconds": 25.828479706999996,
+  "active_probe": null,
+  "probes": [
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M001",
+      "check": "Finite source inventory and AST-only syntax read",
+      "status": "STOPPED_NO_RETRY",
+      "elapsed_seconds": 7.419981291,
+      "code_sha256": "162b84f037e552e16df963ccf1857287f79edf5a46a016850e1766721d76d064",
+      "primary_failure": {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/test/tokenizedata/bad_coding.py",
+        "exception": "SyntaxError",
+        "reason": "Bundled interpreter negative syntax fixture; not an application dependency"
+      },
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M002",
+      "check": "Finite source inventory and AST-only syntax read",
+      "status": "PASS",
+      "elapsed_ns": 2973140625,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1129, \"bytes\": 56257481, \"manifest_sha256\": \"a01eff3557c753802fd04321dbe1ad35ba39164e76b526e2bd206793c1c9bec9\", \"manifest_bytes\": 1085534}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M003",
+      "check": "Final frozen source inventory and AST-only syntax read",
+      "status": "PASS",
+      "elapsed_ns": 2821420291,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56277273, \"manifest_sha256\": \"c9f4e5eafbba84f1b87ad48127e8af6adaa0002ed5952ae5fc4eedb4ca46fe79\", \"manifest_bytes\": 1087243}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M004",
+      "check": "Final deadline-tail source inventory refresh; AST only",
+      "status": "PASS",
+      "elapsed_ns": 2613937500,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56278079, \"manifest_sha256\": \"56ff1cbd852bdee3ebf158593a0bdf18312effebac18dec5c3943b146b5daa1e\", \"manifest_bytes\": 1087243}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    }
+  ],
+  "model_calls": 0,
+  "owner_scenario_runs": 0
+}

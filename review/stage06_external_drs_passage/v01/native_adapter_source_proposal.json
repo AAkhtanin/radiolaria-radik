@@ -1,0 +1,103 @@
+{
+  "schema": "radik.stage06.native_adapter_source_proposal.v01",
+  "status": "AUTHOR_SOURCE_PROPOSED_NOT_ACCEPTED",
+  "source_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs.py",
+      "sha256": "8614998670e9d7413f8fa5bfe07938ae9364be7d9e9b0414db02b0c52a07201f",
+      "size_bytes": 39226
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py",
+      "sha256": "ce8501c2dfb0ac0f5ce72529fd3bb9d855fca565d15eddafa64ee563923d3f2a",
+      "size_bytes": 17166
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs_probe.py",
+      "sha256": "1473de6d09eb5a27159495db989e2944876edc2f728f888576bb030c12c7469e",
+      "size_bytes": 20127
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/API_MAP.md",
+      "sha256": "fc271fb2d268b9ee4620912265f6bc52e81408a1c2e10827a4c33a37c2f70df4",
+      "size_bytes": 15150
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/GATE5_API_MAP.md",
+      "sha256": "fc271fb2d268b9ee4620912265f6bc52e81408a1c2e10827a4c33a37c2f70df4",
+      "size_bytes": 15150
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/scenario.json",
+      "sha256": "d1c837aa0453395c492b31b455b4616380a0e2246cf7b148da662efdfc63dd82",
+      "size_bytes": 10197
+    }
+  ],
+  "independent_reviewer": "private_remote_controls",
+  "candidate_imports": 0,
+  "candidate_executions": 0,
+  "reference_mutations": 0,
+  "production_mutations": 0,
+  "provider_calls_authorized": 0,
+  "proposed_native_work_calls": {
+    "producer": 2,
+    "recipient_baseline": 1,
+    "recipient_consumer": 2
+  },
+  "control_clock": "Real integer UTC for positives; only explicit expiry negative uses a controlled future time.",
+  "communication": {
+    "peer_signature": "peer(role, read_fd, write_fd, folder, *, session=1, on_event=None, task_selector=<exact selected route>)",
+    "roles": [
+      "producer",
+      "recipient"
+    ],
+    "public_key_message": "PUBLIC_KEYS with public_keys field; no private capability is serialized.",
+    "bootstrap": "session, own_policy, peer_keys, contexts; producer also requester_policy; recipient also forbidden_peer_private_path.",
+    "stdout": "JSON lines PUBLIC_KEYS / READY / SESSION_CLOSED / DONE; on_event(label,value) is supplied by the admitted bootstrap.",
+    "process_sequence": "A stays alive; B1 exits and is reaped before B2 starts. B2 retains only its own historical bytes and receives an independently repinned fresh signer context."
+  },
+  "native_boundary": [
+    "Fixed local ReviewedBodyProfileV01 callbacks; no wire-selected modules.",
+    "Public Gate5 signed pointer/release/status, exact current request nonce and source TTL.",
+    "PublisherBudget reservation precedes disclosure; separate receiver Budget remains durable.",
+    "ImportStore.observe persists authenticated terminal status before ACTIVE refusal.",
+    "Separate current-source revision high-water prevents old source revision rollback.",
+    "One fresh actual-UTC native Host per PURE Work, local current Root before and after; no donor clock1014 or G3/G4 consumer reuse.",
+    "Full source/consumer Work and local Root witnesses retained; recipient never reads producer document or private canary directly."
+  ],
+  "source_findings_addressed": [
+    "A coherent altered pointer reaches signed_content_binding rather than profile-shape rejection.",
+    "Signed REFUSED release is bound to the exact denied request without opening body or manifest.",
+    "Producer re-reads its own source document at STATUS and disclosure gates.",
+    "Private read control expects the actual bootstrap ValueError closed code and records zero bytes.",
+    "Pipe cleanup preserves an already active primary exception.",
+    "Exact selector keyword guards agree with the ordinary entry.",
+    "Engineering implementation is structurally separate from the full owner scenario.",
+    "Direct body-byte mutation reaches body_integrity.",
+    "All Work source reads and final acceptance preserve the original 60-second snapshot deadline.",
+    "API maps now describe Service Rowan support-price clarification."
+  ],
+  "remaining_review": [
+    "Exact executable dependency/resource closure and peer I/O fence.",
+    "Independent source review and one bounded native grant.",
+    "Specific old ACTIVE rollback witness requires original request/status still current; expiry must not be mislabeled.",
+    "Ordinary owner command, final tail and exporter readback remain root-owned integration."
+  ],
+  "engineering_selector": {
+    "selector": "engineering_probe_v01",
+    "implementation": "app.external_drs_probe.peer",
+    "native_work_calls": {
+      "producer": 1,
+      "consumer": 1
+    },
+    "owner_scenario": false,
+    "mechanical_revision_control_creates_authority": false,
+    "receiver_processes": 2
+  },
+  "owner_selector": "external_drs_owner_v01",
+  "addressed_probe_refusal": {
+    "path": "review/stage06_external_drs_passage/v01/probe_01_semantic_binding_repair_proposal.json",
+    "sha256": "d135b1a8ef251514b2421d7cb6c55735a9560e27797960e7b102bbc48992564e",
+    "size_bytes": 1697
+  }
+}

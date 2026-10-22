@@ -1,0 +1,13 @@
+{
+  "schema": "radik.stage06.preparation_check.v1",
+  "id": "M002",
+  "check": "Finite source inventory and AST-only syntax read",
+  "status": "PASS",
+  "elapsed_ns": 2973140625,
+  "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+  "returncode": 0,
+  "stdout": "{\"files\": 1129, \"bytes\": 56257481, \"manifest_sha256\": \"a01eff3557c753802fd04321dbe1ad35ba39164e76b526e2bd206793c1c9bec9\", \"manifest_bytes\": 1085534}\n",
+  "stderr": "",
+  "native_calls": 0,
+  "imports_of_candidate": 0
+}

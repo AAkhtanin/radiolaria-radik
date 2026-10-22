@@ -1,0 +1,73 @@
+{
+  "actual_id": "PROBE_01",
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "completion_rule": "Final tool closure, all peer receipts/native witnesses/loaded callbacks, exact guarded bytes, owned process-group closure and final readback are independently reviewed before any semantic acceptance or further grant.",
+  "expected_native_work_calls": {
+    "producer": 1,
+    "recipient": 1
+  },
+  "expected_peer_incarnations": 3,
+  "fresh_pure_native_work_allowed": true,
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "lock_scope": {
+    "existing_owned_lock_only": true,
+    "file_bytes_must_not_change": true,
+    "path": "review/direct_plan_passage/owner_start.lock"
+  },
+  "network": "DENIED",
+  "outer_limits": {
+    "cleanup_seconds": 30,
+    "final_seconds": 5,
+    "total_seconds": 300,
+    "work_seconds": 265
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_supervisor.py",
+    "sha256": "1dc676e77cba30ba93cc7ad5b0a4394cd0325ed70a975acc08cb544aa815a236",
+    "size_bytes": 18805
+  },
+  "owner_scenario_authorized": false,
+  "preparation_accounting_ref": {
+    "path": "review/stage06_external_drs_passage/v01/preparation_accounting.json",
+    "sha256": "902aa763f4c4b275d8641b43389b52513b18fcc4070a127c1bda0ab6ffa54c0a",
+    "size_bytes": 3156
+  },
+  "prior_charged_ns": 25828479707,
+  "prior_execution_review_refs": [],
+  "probe_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/engineering_admission.json",
+    "sha256": "675787eab834e38bf1175474cd6e2760c79fbf4ec6c57a26e002f766fa60ef69",
+    "size_bytes": 3859
+  },
+  "production_writes_allowed": false,
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "reviewer": "/root/private_remote_controls",
+  "runner_ref": {
+    "path": "review/stage06_external_drs_passage/v01/probe_runner.py",
+    "sha256": "171abdc5bc1046e12c4de383c236cef36561af412740430738e8a443750775c9",
+    "size_bytes": 2279
+  },
+  "schema": "radik.stage06.bounded_engineering_grant.v1",
+  "scope": "One distinct engineering contract probe through the frozen ordinary launcher/native entry/supervisor including the final return/readback/restart/cleanup tail. No OWNER admission or owner story execution.",
+  "source_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/source_manifest.json",
+    "sha256": "56ff1cbd852bdee3ebf158593a0bdf18312effebac18dec5c3943b146b5daa1e",
+    "size_bytes": 1087243
+  },
+  "source_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/source_review.json",
+    "sha256": "96651185c074a775b609cd8e8813ef2fe9bb9595ab4507ec7a690fa165597d2f",
+    "size_bytes": 7618
+  },
+  "total_budget_seconds": 900,
+  "writable_scope": [
+    "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/reservations/675787eab834e38bf1175474cd6e2760c79fbf4ec6c57a26e002f766fa60ef69.json"
+  ]
+}

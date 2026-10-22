@@ -1,0 +1,15 @@
+{
+  "schema": "radik.stage06.preparation_check.v1",
+  "id": "M001",
+  "check": "Finite source inventory and AST-only syntax read",
+  "status": "STOPPED_NO_RETRY",
+  "elapsed_seconds": 7.419981291,
+  "code_sha256": "162b84f037e552e16df963ccf1857287f79edf5a46a016850e1766721d76d064",
+  "primary_failure": {
+    "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/test/tokenizedata/bad_coding.py",
+    "exception": "SyntaxError",
+    "reason": "Bundled interpreter negative syntax fixture; not an application dependency"
+  },
+  "native_calls": 0,
+  "imports_of_candidate": 0
+}

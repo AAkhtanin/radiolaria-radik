@@ -1,0 +1,1 @@
+{"actual_id":"PROBE_02","automatic_retry":false,"grant_path":"review/stage06_external_drs_passage/v01/grants/PROBE_02.json","grant_sha256":"c1aa97cc6d93b72c367890c36739eab6f16e7566b1097999e8313029cece74f8","schema":"radik.stage06.offline_invocation.v01","started_monotonic_ns":7711223149781208,"status":"PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING"}

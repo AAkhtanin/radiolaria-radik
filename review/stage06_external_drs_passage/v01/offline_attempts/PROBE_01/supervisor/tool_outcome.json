@@ -1,0 +1,8 @@
+{
+  "exit_code": 1,
+  "session_id": 25254,
+  "observed": true,
+  "receipt_status": "STOPPED_NO_RETRY",
+  "primary_stop": null,
+  "cumulative_charged_ns": 32121564082
+}

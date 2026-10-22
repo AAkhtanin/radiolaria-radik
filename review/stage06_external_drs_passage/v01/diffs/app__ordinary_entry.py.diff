@@ -1,0 +1,59 @@
+--- before/app/ordinary_entry.py
++++ candidate/app/ordinary_entry.py
+@@ -203,7 +203,56 @@
+         owner_run_binding=args.owner_run_binding)
+ 
+ 
++def _stage06_native_entry(project, args, selected):
++    """Run the explicitly admitted zero-provider operation before legacy AUTH."""
++    from config.stage06_bootstrap import require
++    context = selected.get('stage06')
++    require(type(context) is dict and args.stage06_external_drs is True,
++        'stage06_entry_selection')
++    report = None
++    primary = None
++    try:
++        require(context['role'] == args.stage06_role
++            and context['read_fd'] == args.stage06_read_fd
++            and context['write_fd'] == args.stage06_write_fd
++            and context['session'] == args.stage06_session,
++            'stage06_entry_role_binding')
++        context['assert_current']()
++        # select_stage06 pins the adapter, native closure and I/O before import.
++        if context['task_selector'] == 'external_drs_owner_v01':
++            from app.external_drs import peer
++        elif context['task_selector'] == 'engineering_probe_v01':
++            from app.external_drs_probe import peer
++        else:
++            raise ValueError('stage06_entry_task_selector')
++        context['observe_loaded']('loaded_before_native')
++        report = peer(context['role'], context['read_fd'], context['write_fd'],
++            context['folder'], session=context['session'],
++            on_event=context['on_event'], task_selector=context['task_selector'])
++        context['assert_current']()
++    except BaseException as error:
++        primary = error
++        raise
++    finally:
++        try:
++            context['observe_loaded']('loaded_final')
++        except BaseException as error:
++            if primary is None:
++                primary = error
++        try:
++            context['finish'](report, primary)
++        except BaseException:
++            if primary is None:
++                raise
++            # A secondary persistence failure cannot replace the first cause.
++    if primary is not None:
++        raise primary
++    return 0
++
++
+ def run(project,args,selected):
++    if getattr(args, 'stage06_external_drs', False):
++        return _stage06_native_entry(project, args, selected)
+     from config import application_profile_gate as gate
+     from config.native_profile_loader import install
+     project=Path(project);manifest=selected['manifest'];context=gate.rehearsal_context(project,args.rehearsal_seal_sha256)

@@ -1,0 +1,13 @@
+{
+  "schema": "radik.stage06.preparation_check.v1",
+  "id": "M004",
+  "check": "Final deadline-tail source inventory refresh; AST only",
+  "status": "PASS",
+  "elapsed_ns": 2613937500,
+  "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+  "returncode": 0,
+  "stdout": "{\"files\": 1130, \"bytes\": 56278079, \"manifest_sha256\": \"56ff1cbd852bdee3ebf158593a0bdf18312effebac18dec5c3943b146b5daa1e\", \"manifest_bytes\": 1087243}\n",
+  "stderr": "",
+  "native_calls": 0,
+  "imports_of_candidate": 0
+}

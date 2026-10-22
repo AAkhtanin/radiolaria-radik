@@ -1,0 +1,22 @@
+STAGE06_CHILD_STARTED role=producer session=1 pid=49352
+STAGE06_CHILD_STARTED role=recipient session=1 pid=49353
+STAGE06_CHECKPOINT role=producer session=1 label=loaded_before_native wall_s=1.184 cpu_s=0.861 remaining_s=228.816
+STAGE06_CHECKPOINT role=recipient session=1 label=loaded_before_native wall_s=1.187 cpu_s=0.858 remaining_s=228.813
+STAGE06_CHECKPOINT role=producer session=1 label=native_enter wall_s=1.190 cpu_s=0.864 remaining_s=228.810
+STAGE06_CHECKPOINT role=producer session=1 label=native_exit wall_s=1.376 cpu_s=1.051 remaining_s=228.624
+STAGE06_CHECKPOINT role=producer session=1 label=source_published wall_s=1.411 cpu_s=1.086 remaining_s=228.588
+STAGE06_CHECKPOINT role=recipient session=1 label=native_enter wall_s=1.546 cpu_s=0.948 remaining_s=228.454
+STAGE06_CHECKPOINT role=recipient session=1 label=native_exit wall_s=1.749 cpu_s=1.151 remaining_s=228.251
+STAGE06_CHECKPOINT role=recipient session=1 label=current_consumption wall_s=1.753 cpu_s=1.154 remaining_s=228.247
+STAGE06_CHECKPOINT role=recipient session=1 label=loaded_final wall_s=1.823 cpu_s=1.220 remaining_s=228.177
+STAGE06_CHECKPOINT role=recipient session=1 label=ordinary_entry_closed wall_s=1.824 cpu_s=1.221 remaining_s=228.176
+STAGE06_CHILD_CLOSED role=recipient session=1 pid=49353 exit=0 reaped=true
+STAGE06_CHILD_STARTED role=recipient session=2 pid=49365
+STAGE06_CHECKPOINT role=recipient session=2 label=loaded_before_native wall_s=2.705 cpu_s=0.835 remaining_s=227.295
+STAGE06_CHECKPOINT role=producer session=1 label=loaded_final wall_s=2.764 cpu_s=1.165 remaining_s=227.236
+STAGE06_CHECKPOINT role=producer session=1 label=ordinary_entry_closed wall_s=2.765 cpu_s=1.166 remaining_s=227.235
+STAGE06_CHECKPOINT role=recipient session=2 label=loaded_final wall_s=2.767 cpu_s=0.889 remaining_s=227.233
+STAGE06_CHECKPOINT role=recipient session=2 label=ordinary_entry_closed wall_s=2.767 cpu_s=0.890 remaining_s=227.233
+STAGE06_CHILD_CLOSED role=recipient session=2 pid=49365 exit=0 reaped=true
+STAGE06_CHILD_CLOSED role=producer session=1 pid=49352 exit=0 reaped=true
+ENGINEERING_RETURN {"model_calls": 0, "owner_actual": false, "receipt_ref": {"path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/offline_attempts/PROBE_02/work/receipt.json", "sha256": "58265308515336594f46c5b813283ceeb2210cbefe246aac519979eb67051fa8", "size_bytes": 28355}, "status": "CLOSED"}

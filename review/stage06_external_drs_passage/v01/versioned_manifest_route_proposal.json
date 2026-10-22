@@ -1,0 +1,36 @@
+{
+  "schema": "radik.stage06.versioned_manifest_route_proposal.v1",
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW",
+  "author": "/root/stage05_g4_contract",
+  "files": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/config/launch.py",
+      "sha256": "5baeb4505fda4c59bb0896e2204b84270a137910698cf96fd29fa31f5057b3c6",
+      "size_bytes": 14997,
+      "before_ref": {
+        "path": "review/stage06_external_drs_passage/v01/source_history/before_versioned_manifest_route/config/launch.py",
+        "sha256": "08a2ba3b2cae4e8b0a21e2df22d5e3c3783d9bf21abdb68a96345a1de004ef51",
+        "size_bytes": 14904
+      }
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/review/transport/radik_owner_start.py",
+      "sha256": "1e483d598b84f62e3bfd135d808fbf9b34586ae6f8fcdb0a9c28e0767acf2542",
+      "size_bytes": 148528,
+      "before_ref": {
+        "path": "review/stage06_external_drs_passage/v01/source_history/before_versioned_manifest_route/review/transport/radik_owner_start.py",
+        "sha256": "ac53549d771c49e100040ce3dc10500313f500ace873f31ad076332a08b5124d",
+        "size_bytes": 148452
+      }
+    }
+  ],
+  "scope": "Permit only source_manifest.json or source_manifest_PROBE_XX.json in the same exact v01 directory; preserve SHA/size/admission and source pin checks.",
+  "supervisor_changed": false,
+  "execution_performed": false,
+  "consumed_probe": "PROBE_01 preserved unchanged",
+  "diff_ref": {
+    "path": "review/stage06_external_drs_passage/v01/versioned_manifest_route.diff",
+    "sha256": "d73f10fb082ee027451fc9ebba6c3af62e1f7e95b61064a7d31eb121f3e48078",
+    "size_bytes": 1503
+  }
+}

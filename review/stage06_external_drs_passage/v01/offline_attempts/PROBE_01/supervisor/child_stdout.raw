@@ -1,0 +1,9 @@
+STAGE06_CHILD_STARTED role=producer session=1 pid=49051
+STAGE06_CHILD_STARTED role=recipient session=1 pid=49052
+STAGE06_CHECKPOINT role=recipient session=1 label=loaded_before_native wall_s=1.020 cpu_s=0.808 remaining_s=228.980
+STAGE06_CHECKPOINT role=producer session=1 label=loaded_before_native wall_s=1.022 cpu_s=0.815 remaining_s=228.978
+STAGE06_CHECKPOINT role=producer session=1 label=native_enter wall_s=1.025 cpu_s=0.817 remaining_s=228.975
+STAGE06_CHECKPOINT role=producer session=1 label=native_exit wall_s=1.115 cpu_s=0.904 remaining_s=228.885
+STAGE06_CHECKPOINT role=producer session=1 label=loaded_final wall_s=1.147 cpu_s=0.936 remaining_s=228.853
+PRIMARY_FAILURE phase=STAGE06_PRODUCER code=work_semantic_binding error_class=ValueError source_location=/Users/admin/Projects/RadiolariaRadik/source/reference/hedgehog/kernel/work_composition_v01.py:_require:138
+ENGINEERING_RETURN {"model_calls": 0, "owner_actual": false, "receipt_ref": {"path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/receipt.json", "sha256": "ea1b3f812e6d8b0f53b28e1121ba7a0bab56f89c524a2750dfa3964bbd79227d", "size_bytes": 15845}, "status": "STOPPED_NO_RETRY"}

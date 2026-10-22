@@ -1,0 +1,106 @@
+{
+  "schema": "radik.stage06.author_gate5_api_map.v01",
+  "status": "AUTHOR_SOURCE_DISCOVERY_ONLY",
+  "application_imports": 0,
+  "application_executions": 0,
+  "reference_mutations": 0,
+  "owner_admission": false,
+  "independent_acceptance": false,
+  "map_ref": {
+    "path": "review/stage06_external_drs_passage/v01/GATE5_API_MAP.md",
+    "sha256": "fc271fb2d268b9ee4620912265f6bc52e81408a1c2e10827a4c33a37c2f70df4",
+    "size_bytes": 15150
+  },
+  "source_refs": [
+    {
+      "path": "source/reference/hedgehog/external_drs/gate5_contracts_v01.py",
+      "sha256": "db7602a402f67e7acea8dc4f566568b0a58004451ae95e64c999e553d6a02a8f",
+      "size_bytes": 24167
+    },
+    {
+      "path": "source/reference/hedgehog/external_drs/gate5_body_profile_v01.py",
+      "sha256": "7e434e75d1913a7fab71ebc882fb21640fd33e7324ff035bc376a4b7cd65d89f",
+      "size_bytes": 1720
+    },
+    {
+      "path": "source/reference/hedgehog/external_drs/gate5_exchange_v01.py",
+      "sha256": "dfc22ae7beb39be05e7433bac7ceff9f2704e81c2638d0fe4727b2aa3eb36b07",
+      "size_bytes": 26991
+    },
+    {
+      "path": "source/reference/hedgehog/external_drs/gate5_lifecycle_v01.py",
+      "sha256": "627fa5171fbaad181c2d4e1c5e8047cc3b8b5957601a317049b05c980ae3de6f",
+      "size_bytes": 29240
+    },
+    {
+      "path": "source/reference/hedgehog/external_drs/gate5_native_v01.py",
+      "sha256": "bba423e434d9fb9d5695b649191e9f31a2743b7bbe9327c80c0ce8b34162e3ec",
+      "size_bytes": 20725
+    },
+    {
+      "path": "source/reference/hedgehog/kernel/root_signer_isolation_v01.py",
+      "sha256": "3f4efab32cd972803e61b0877c56d46eead9907611e1a1534b8cf924ba8c22f8",
+      "size_bytes": 31043
+    },
+    {
+      "path": "source/reference/hedgehog/work_execution_host_v01.py",
+      "sha256": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b",
+      "size_bytes": 52262
+    },
+    {
+      "path": "source/reference/demo/run_gate5_lifecycle_v01.py",
+      "sha256": "85d98abc1fa4b64a9d836c501f7bf00af9378e21df5505f12af146ddc9ae4b8c",
+      "size_bytes": 8407
+    },
+    {
+      "path": "source/reference/demo/run_action_packet_portability_v01.py",
+      "sha256": "82be33d8420e4e106203898e709399230f6d7f64d4b8243e94269bec828f88cb",
+      "size_bytes": 59686
+    },
+    {
+      "path": "source/reference/demo/work_composition_mock_capabilities_v01.py",
+      "sha256": "f02da370499fccddf88bb2dbdbd9fe6e2a33fa4143bf205a59770f9f84bb2731",
+      "size_bytes": 29523
+    },
+    {
+      "path": "source/reference/docs/gate5_authoring_kit_v01/example/numeric_work.py",
+      "sha256": "6a2d3156ec759b5a501fcea2f570e06d6d51bff95efe02f9828350c730f23af4",
+      "size_bytes": 3426
+    },
+    {
+      "path": "source/reference/hedgehog/domains/football_pitch_booking/pack_v01/candidate_domain/profile.py",
+      "sha256": "4e3e36c6ba87c7156afdf739c0f86a2965379fe88ac3668b7f76b6f56978d8bc",
+      "size_bytes": 2764
+    },
+    {
+      "path": "source/reference/hedgehog/domains/football_pitch_booking/pack_v01/candidate_domain/publication.py",
+      "sha256": "5df538e6d0c4ddc50cf2f836e23b41da268f147d2ddda1ec518a7468f3b0be61",
+      "size_bytes": 10594
+    },
+    {
+      "path": "source/reference/docs/gate5_lifecycle_restart_checkpoint_v01.md",
+      "sha256": "a1bec6f63ee7c8857c69e080536918d26af6459f28124876294fdc761488f843",
+      "size_bytes": 8812
+    },
+    {
+      "path": "source/reference/docs/gate5_reference_evidence_v01/acceptance_matrix.json",
+      "sha256": "04bedd3790cc0aba71a543e143bfa944cf34fe6c9c0a3683877ab8ffc3fee920",
+      "size_bytes": 82560
+    },
+    {
+      "path": "app/qualified_experience.py",
+      "sha256": "394d4ab78893d2eea20fec3e15327dc45f553ae2aaa8c4e4bead3124ab9aacc1",
+      "size_bytes": 56127
+    },
+    {
+      "path": "app/qualified_strategy.py",
+      "sha256": "c1daaae54eda1fc6dbcd7edb3af5766ce7ce63996d9054bc2879bb573b38a9ac",
+      "size_bytes": 36122
+    },
+    {
+      "path": "app/native_authority.py",
+      "sha256": "396cb73d66212cb7c18f914243f857cdd273a8c01a9735fd8c3104be2af38027",
+      "size_bytes": 40593
+    }
+  ]
+}

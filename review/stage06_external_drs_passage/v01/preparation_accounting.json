@@ -1,0 +1,80 @@
+{
+  "basis_ref": {
+    "path": "review/stage06_external_drs_passage/v01/engineering_budget.json",
+    "sha256": "0fb95f8be6d8d682a5a21290ee883982e46c3e205350725453366c58f8d0f2eb",
+    "size_bytes": 3022
+  },
+  "candidate_imports": 0,
+  "charged_ns": 25828479707,
+  "checks": [
+    {
+      "charged_ns": 7419981291,
+      "executed_source_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M001_build_source_inventory.py",
+        "sha256": "162b84f037e552e16df963ccf1857287f79edf5a46a016850e1766721d76d064",
+        "size_bytes": 4048
+      },
+      "id": "M001",
+      "record_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M001.json",
+        "sha256": "60d59cc36ab8fe8d9318a16f49c99d969839d910166c494120f65cfeae329a2b",
+        "size_bytes": 628
+      },
+      "status": "STOPPED_NO_RETRY"
+    },
+    {
+      "charged_ns": 2973140625,
+      "executed_source_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M002_build_source_inventory.py",
+        "sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+        "size_bytes": 4209
+      },
+      "id": "M002",
+      "record_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M002.json",
+        "sha256": "b72565e17645726ad3e122645699c77137495c91c772db226baa24c17fddfd0a",
+        "size_bytes": 526
+      },
+      "status": "PASS"
+    },
+    {
+      "charged_ns": 2821420291,
+      "executed_source_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M003_build_source_inventory.py",
+        "sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+        "size_bytes": 4209
+      },
+      "id": "M003",
+      "record_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M003.json",
+        "sha256": "5e314f851ad924856e1b48a1fc2f9cd75cabe8361a6fa70fc8f8f013532800a6",
+        "size_bytes": 532
+      },
+      "status": "PASS"
+    },
+    {
+      "charged_ns": 2613937500,
+      "executed_source_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M004_build_source_inventory.py",
+        "sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+        "size_bytes": 4209
+      },
+      "id": "M004",
+      "record_ref": {
+        "path": "review/stage06_external_drs_passage/v01/preparation_checks/M004.json",
+        "sha256": "c74da69fa58438ee2c4a19ecec341240e04c358399b5d0c73ceaf8cedbce72bd",
+        "size_bytes": 532
+      },
+      "status": "PASS"
+    }
+  ],
+  "initial_charge_is_measured": false,
+  "initial_conservative_charge_ns": 10000000000,
+  "interpretation": "M001 failed while AST-reading an interpreter negative syntax fixture. M002/M003/M004 are finite inventory and AST-only revisions. No candidate/native imports or executions are credited. Charges are not refunded.",
+  "model_calls": 0,
+  "native_calls": 0,
+  "owner_scenario_runs": 0,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.preparation_accounting.v1",
+  "status": "CLOSED_PREPARATION_ACCOUNTED"
+}

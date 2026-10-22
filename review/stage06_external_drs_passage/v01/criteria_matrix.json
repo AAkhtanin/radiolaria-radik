@@ -1,0 +1,118 @@
+{
+  "schema": "radik.stage06.criteria_matrix.v1",
+  "stage06_accepted": false,
+  "master_requirement": "DEFER-S6-EXTERNAL-DRS",
+  "all_21_master_rows_preserved": true,
+  "stage05_accepted_basis": "30c2743b44710bfdc2e50cb475d702c15f7099b4",
+  "rows": [
+    {
+      "id": "S6-1",
+      "criterion": "Producer provenance and independent current consumer",
+      "producer": "external_drs.Producer.build",
+      "validator": "Gate5 check_pointer/check_bundle; local Root",
+      "consumer": "external_drs.Recipient.consume",
+      "required_owner_evidence": "source Work, source/publication/disclosure reviews, signed descriptor/body/status, import binding, full consumer Work",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering producer Work -> source/publication/disclosure Root -> signed Gate5 body/status -> local Root -> actual consumer Work accepted; owner identities and full story remain pending."
+    },
+    {
+      "id": "S6-2",
+      "criterion": "Current imported material changes actual Work",
+      "producer": "Producer source Work",
+      "validator": "Recipient currentness and own Root/Host",
+      "consumer": "PURE support consumer",
+      "required_owner_evidence": "baseline and revision-1 actual Work outputs",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering producer price 7 changes actual local consumer output to total 17 from base 10 and one support call. Owner baseline and totals 26/28 remain pending."
+    },
+    {
+      "id": "S6-3",
+      "criterion": "Disclosure refusal prevents body read and consumption",
+      "producer": "PublisherBudget and disclosure Root",
+      "validator": "signed REFUSED request binding; peer I/O fence",
+      "consumer": "recipient refusal record",
+      "required_owner_evidence": "no disclosed body, zero forbidden bytes, no Work from denied request",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering signed REFUSED response has body=None and manifest=None and no denied material consumption. Owner cross-peer private-canary read refusal remains pending."
+    },
+    {
+      "id": "S6-4",
+      "criterion": "New admitted revision is consumed; old history retained",
+      "producer": "Producer revision-2 Work",
+      "validator": "source revision high-water and Gate5 admission",
+      "consumer": "fresh recipient Work",
+      "required_owner_evidence": "revision-2 body/import/Work and retained revision-1 history",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Source implementation reviewed. Owner revision-2 producer/consumer Work and real source revision high-water are unexecuted; no engineering acceptance of that narrative."
+    },
+    {
+      "id": "S6-5",
+      "criterion": "Current status, expiry and restart prevent rollback",
+      "producer": "signed STATUS and persistent ImportStore",
+      "validator": "fresh status; terminal high-water; source revision guard",
+      "consumer": "restarted recipient current-use refusal",
+      "required_owner_evidence": "REVOKED, controlled-clock expiry, reaped B1/fresh B2, old ACTIVE/revision refusals",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering REVOKED, labeled controlled-clock expiry and persisted STATUS rollback refusal after reaped restart accepted. Revision high-water probe is explicitly mechanical; owner actual revision history remains pending."
+    },
+    {
+      "id": "S6-6",
+      "criterion": "Signed bytes, issuer/anchor and scope are enforced",
+      "producer": "current lawful signed descriptors",
+      "validator": "Gate5 validators under independently supplied anchors",
+      "consumer": "local refusal before consumption",
+      "required_owner_evidence": "tamper, anchor, issuer and scope control records",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering altered body bytes, wrong anchor and wrong scope refused. Owner issuer and signature-byte controls remain pending."
+    },
+    {
+      "id": "S6-7",
+      "criterion": "History, accounting and process closure are retained",
+      "producer": "immutable reports and operation reservation",
+      "validator": "live byte guards; shared cleanup deadline",
+      "consumer": "parent final readback and lock release",
+      "required_owner_evidence": "unchanged console59/exam16/UNKNOWN/CLOSED quota, child receipts and all-reaped closure",
+      "status": "OWNER_ACTUAL_PENDING",
+      "engineering_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+        "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+        "size_bytes": 40038
+      },
+      "engineering_evidence_scope": "Engineering preserved all ten live guards, separate identities, historical accepted material and terminal high-water; all three peer incarnations and outer group closed, lock released. Owner operation closure still requires its own actual receipt."
+    }
+  ],
+  "owner_actual_executed": false,
+  "stage07_started": false,
+  "stage08_started": false,
+  "engineering_probe_independently_accepted": true
+}

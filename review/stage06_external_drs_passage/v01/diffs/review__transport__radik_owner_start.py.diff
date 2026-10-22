@@ -1,0 +1,117 @@
+--- before/review/transport/radik_owner_start.py
++++ candidate/review/transport/radik_owner_start.py
+@@ -105,11 +105,63 @@
+     return 2
+ 
+ 
++def _stage06_preimport(args):
++    """Check the finite bootstrap closure without importing application modules."""
++    environment = PROJECT.parents[3]
++    prefix = environment/'review/stage06_external_drs_passage/v01'
++    launch_path = Path(args.stage06_launch)
++    require(launch_path.is_absolute() and launch_path == launch_path.absolute()
++        and any(launch_path.is_relative_to(prefix/name)
++            for name in ('owner_terminal_runs', 'offline_attempts')),
++        'stage06_preimport_launch_path')
++    launch_raw = _read(launch_path)
++    launch = json.loads(launch_raw)
++    reference = launch.get('code_manifest_ref')
++    require(type(reference) is dict and set(reference) == {'path', 'sha256', 'size_bytes'},
++        'stage06_preimport_manifest_ref')
++    manifest_path = Path(reference['path'])
++    require(manifest_path == prefix/'source_manifest.json', 'stage06_preimport_manifest_path')
++    raw = _read(manifest_path)
++    require(len(raw) == reference['size_bytes']
++        and hashlib.sha256(raw).hexdigest() == reference['sha256'],
++        'stage06_preimport_manifest_hash')
++    manifest = json.loads(raw)
++    require(manifest.get('environment_root') == str(environment)
++        and manifest.get('candidate_root') == str(PROJECT)
++        and type(manifest.get('files')) is list, 'stage06_preimport_root_binding')
++    pins = {row['path']: row for row in manifest['files']}
++    require(len(pins) == len(manifest['files']), 'stage06_preimport_duplicate_path')
++    for relative in ('app/__init__.py', 'config/__init__.py',
++            'config/stage06_bootstrap.py', 'app/ordinary_entry.py'):
++        path = PROJECT/relative
++        reference = pins.get(str(path))
++        require(type(reference) is dict, 'stage06_preimport_missing_pin')
++        raw = _read(path)
++        require(len(raw) == reference['size_bytes']
++            and hashlib.sha256(raw).hexdigest() == reference['sha256'],
++            'stage06_preimport_source_hash')
++    return launch
++
++
++def _stage06_failure(args, error):
++    """Emit a bounded bootstrap failure without loading any legacy reporter."""
++    code = error.args[0] if isinstance(error, ValueError) and error.args else ''
++    if type(code) is not str or not re.fullmatch('[A-Za-z0-9_:./-]{1,160}', code):
++        code = 'stage06_native_entry_failure'
++    print(json.dumps(dict(kind='ENTRY_FAILURE', role=getattr(args, 'stage06_role', None),
++        session=getattr(args, 'stage06_session', None), failure=dict(code=code,
++            error_class=type(error).__name__)), sort_keys=True), flush=True)
++    return 2
++
++
+ def _ordinary_profile_main(args,selected):
+     try:
+         from app.ordinary_entry import run
+         return run(PROJECT,args,selected)
+-    except Exception as error:return _early_failure(args,error)
++    except Exception as error:
++        if getattr(args, 'stage06_external_drs', False):
++            return _stage06_failure(args, error)
++        return _early_failure(args,error)
+ 
+ 
+ def bootstrap():
+@@ -1088,6 +1140,13 @@
+     parser.add_argument('--recover-auth',action='store_true')
+     parser.add_argument('--resume-setup',action='store_true')
+     parser.add_argument('--console',action='store_true')
++    parser.add_argument('--stage06-external-drs', action='store_true',
++        help='Run the explicitly admitted native-only external DRS operation.')
++    parser.add_argument('--stage06-launch')
++    parser.add_argument('--stage06-role', choices=('producer', 'recipient'))
++    parser.add_argument('--stage06-read-fd', type=int)
++    parser.add_argument('--stage06-write-fd', type=int)
++    parser.add_argument('--stage06-session', type=int, choices=(1, 2))
+     parser.add_argument('--owner-scenario',action='store_true')
+     parser.add_argument('--owner-operation-started-ns',type=int)
+     parser.add_argument('--owner-operation-deadline-ns',type=int)
+@@ -1109,6 +1168,26 @@
+         help='Явно продолжить завершённую owner operation с проверенным SOURCE и новым окном эффекта.')
+     parser.add_argument('--_lock-fd',type=int,help=argparse.SUPPRESS)
+     _ARGS=parser.parse_args()
++    if _ARGS.stage06_external_drs:
++        require(_ARGS.console and not any((_ARGS.status, _ARGS.recover_auth,
++            _ARGS.resume_setup, _ARGS.owner_scenario, _ARGS.stage04_acceptance,
++            _ARGS.stage04_native_scenario, _ARGS.continue_console_stream,
++            _ARGS.accept_remote_unknown, _ARGS.continue_semantic,
++            _ARGS.rehearsal_seal_sha256, _ARGS._lock_fd is not None)),
++            'stage06_entry_exclusive_mode')
++        require(_ARGS.stage06_launch is not None and _ARGS.stage06_role is not None
++            and _ARGS.stage06_read_fd is not None and _ARGS.stage06_write_fd is not None
++            and _ARGS.stage06_session is not None, 'stage06_entry_arguments')
++        # This explicit candidate route precedes every old profile/AUTH selector.
++        # The admitted parent verifies this bootstrap's bytes before this process.
++        _stage06_preimport(_ARGS)
++        sys.path.insert(0, str(PROJECT))
++        from config.stage06_bootstrap import select_stage06
++        selected = select_stage06(PROJECT, _ARGS)
++        return _ordinary_profile_main(_ARGS, selected)
++    require(all(getattr(_ARGS, name) is None for name in ('stage06_launch',
++        'stage06_role', 'stage06_read_fd', 'stage06_write_fd', 'stage06_session')),
++        'stage06_flags_require_explicit_mode')
+     require(not (_ARGS.status and (_ARGS.recover_auth or _ARGS.resume_setup or _ARGS.console
+                                   or _ARGS.stage04_acceptance or _ARGS.stage04_native_scenario or _ARGS.continue_console_stream
+                                   or _ARGS.accept_remote_unknown or _ARGS.continue_semantic
+@@ -1524,6 +1603,8 @@
+ if __name__=='__main__':
+     try:raise SystemExit(main())
+     except (ValueError,OSError,KeyError) as error:
++        if getattr(globals().get('_ARGS'), 'stage06_external_drs', False):
++            raise SystemExit(_stage06_failure(globals().get('_ARGS'), error))
+         if getattr(globals().get('_ARGS'), 'status',False):
+             print('Radik: readonly status refused; source admission отсутствует или изменилась.',flush=True)
+             raise SystemExit(2)

@@ -1,0 +1,33 @@
+{
+  "schema": "radik.stage06.semantic_binding_repair_proposal.v01",
+  "status": "AUTHOR_SOURCE_PROPOSED_NOT_ACCEPTED",
+  "observed_failure_ref": {
+    "path": "review/stage06_external_drs_passage/v01/offline_attempts/PROBE_01/work/receipt.json",
+    "sha256": "ea1b3f812e6d8b0f53b28e1121ba7a0bab56f89c524a2750dfa3964bbd79227d",
+    "size_bytes": 15845
+  },
+  "preimage_ref": {
+    "path": "review/stage06_external_drs_passage/v01/executed_sources/PROBE_01/candidate/app/external_drs_work.py",
+    "sha256": "103aa39a97ab014b5f94388912a951623ce7025463c1bd504329a8371b319651",
+    "size_bytes": 17146
+  },
+  "postimage_ref": {
+    "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py",
+    "sha256": "ce8501c2dfb0ac0f5ce72529fd3bb9d855fca565d15eddafa64ee563923d3f2a",
+    "size_bytes": 17166
+  },
+  "diff_ref": {
+    "path": "review/stage06_external_drs_passage/v01/probe_01_semantic_binding_repair.diff",
+    "sha256": "74db2cba77cf4e971be64df7a9ca2a07ac3b0215442637aa60358b395c2f91a5",
+    "size_bytes": 1066
+  },
+  "native_contract_ref": {
+    "path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+    "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+    "size_bytes": 89168
+  },
+  "cause": "The public _context predicate at lines206-209 requires candidate.intent_ref in semantic_proposal.trace_refs. The candidate used intent:+task_id while the proposal retained only task_id.",
+  "change": "Retain task_id and add the exact candidate intent reference to semantic proposal trace_refs. No native, BSEP, budget, Root, currentness or execution behavior is weakened.",
+  "candidate_imports": 0,
+  "candidate_executions": 0
+}

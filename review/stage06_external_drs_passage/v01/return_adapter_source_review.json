@@ -1,0 +1,35 @@
+{
+  "candidate_or_publisher_execution": false,
+  "checks": [
+    "Writer source bytes pinned before publisher compilation; only stdlib and the exact publisher are executed.",
+    "Finite whole-file hash/size inventory, owned paths, no symlinks, stable metadata, byte cap and archive collision/suffix guards preserved.",
+    "The public-field inventory is exact file/pointer/value/containing-object bound, must be fully used, and is auto-added exactly once. Raw payload bytes are never rewritten.",
+    "Public nonce exceptions require exact native g51 request/status/release shape and 64 lowercase hexadecimal bytes. They are public anti-replay data, not credentials.",
+    "Public Root subject exceptions require exact normalized claim shape, deterministic runtime/NONE authority, exact confidence and finite Stage06 identity prefixes.",
+    "Empty preparation diagnostic exception allows only an empty stderr field.",
+    "All nonexcepted fields and the excepted values themselves still pass the existing publisher secret-field checker. JSONL has no exception path.",
+    "Publisher reservation, full archive/manifest readback, checksum and external delivery remain unchanged."
+  ],
+  "public_push_authorized": false,
+  "remaining_requirements": [
+    "Exact final payload and full public-field inventory independent review",
+    "One-use packaging grant binding both current writer hashes",
+    "Delivered archive/member/checksum readback"
+  ],
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.return_adapter_source_review.v1",
+  "scope": "Source-only review of one adapter over the unchanged existing publisher; no packaging invocation authorized.",
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_FINITE_RETURN",
+  "writer_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/build_return.py",
+      "sha256": "832bbfaa7a192b7d47e3756fbfb50090bd8b1cc8f65ca3c916c6efd55996da05",
+      "size_bytes": 10023
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ]
+}

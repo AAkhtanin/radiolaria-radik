@@ -1,0 +1,13 @@
+{
+  "schema": "radik.stage06.preparation_check.v1",
+  "id": "M006",
+  "check": "Versioned preimport routing repair inventory; AST only",
+  "status": "PASS",
+  "elapsed_ns": 2973863500,
+  "code_sha256": "aec290eb62c8a51ab864faf6887767f8fa030e69f23860eec7ac31e1a9bbbb68",
+  "returncode": 0,
+  "stdout": "{\"files\": 1130, \"bytes\": 56278553, \"manifest_sha256\": \"5ab7f8c92a944c58075be2db7a3206b90eff9c6ea9d4e111835f63a3bba5a8e6\", \"manifest_bytes\": 1087327}\n",
+  "stderr": "",
+  "native_calls": 0,
+  "imports_of_candidate": 0
+}

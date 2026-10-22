@@ -1,0 +1,56 @@
+{
+  "schema": "radik.stage06.entry_supervision_author_proposal.v1",
+  "status": "SOURCE_PROPOSED_PENDING_INDEPENDENT_REVIEW",
+  "author": "/root/stage05_g4_contract",
+  "files": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "sha256": "68685b24ee71fe69bd189b8e481046333deffaff72c708718c2880f40f2569e8",
+      "size_bytes": 34980
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/supervisor_timing.py",
+      "sha256": "90d3079f6d3b9896d0790071a62a07be17a7c0c1313f3222ad8249364abec902",
+      "size_bytes": 6278
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/ordinary_entry.py",
+      "sha256": "729c765c4b53857f99f1080cc0292fa95eb7f6432d14cc37d605747db07d99b2",
+      "size_bytes": 30330
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/review/transport/radik_owner_start.py",
+      "sha256": "ac53549d771c49e100040ce3dc10500313f500ace873f31ad076332a08b5124d",
+      "size_bytes": 148452
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/config/launch.py",
+      "sha256": "08a2ba3b2cae4e8b0a21e2df22d5e3c3783d9bf21abdb68a96345a1de004ef51",
+      "size_bytes": 14904
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/config/stage06_bootstrap.py",
+      "sha256": "0ca864b77a47bc909d980a69da07f88fdd23e278135884bddf2f032b5f80e775",
+      "size_bytes": 16623
+    }
+  ],
+  "scope": [
+    "Explicit native-only ordinary config launcher to owner launcher to ordinary_entry before legacy AUTH/profile",
+    "Independent producer and recipient processes; recipient1 actual exit/reap before recipient2",
+    "Distinct engineering_probe_v01 and external_drs_owner_v01 dispatch with no fallback",
+    "One immutable fresh reservation; one shared wall deadline and cleanup stop",
+    "Accepted v09 timing/cleanup primitives reused after exact source pin checks",
+    "Full peer lifetime sum bounds native; Host Work intervals separately measured",
+    "Source-pinned loaded-module observations before native and during finalization",
+    "Immutable Stage05 live guards, zero provider calls, no ledger reservation or ACK"
+  ],
+  "future_owner_actual": "NOT_RUN",
+  "application_imports": 0,
+  "execution_performed": false,
+  "source_only_parse": "AST parsing only; no candidate module execution",
+  "remaining_dependencies": [
+    "Independent reviewer exact source/import/I/O acceptance",
+    "G3 exact keyword signature and nested engineering scenario freeze",
+    "Final finite source manifest and one-use bounded engineering admission"
+  ]
+}

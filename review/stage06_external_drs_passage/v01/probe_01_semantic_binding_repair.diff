@@ -1,0 +1,11 @@
+--- review/stage06_external_drs_passage/v01/executed_sources/PROBE_01/candidate/app/external_drs_work.py
++++ review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py
+@@ -178,7 +178,7 @@
+         artifact_type='SemanticArchitectProposal', schema_version='v1', transaction_id='transaction:' + task_id,
+         owner_root_id=root_id, source_component='radik:stage06:deterministic', authority_class='ADVISORY',
+         lifecycle_state='PROPOSED', payload=dict(operation=operation, material=material, source_binding=baseline),
+-        trace_refs=(task_id,), parent_refs=(source.bsep_packet['packet_id'],),
++        trace_refs=(task_id, 'intent:' + task_id), parent_refs=(source.bsep_packet['packet_id'],),
+         time_envelope=dict(pt_created_at=stamp(now), kt_asof=stamp(now), et_observed_at=None,
+             ct_session_anchor=task_id, ttl_seconds=60, freshness_class='static', valid_from=stamp(now), valid_to=stamp(now+60)))
+     literals = tuple(work.WorkInputBindingV01(k, work.WorkLiteralV01(action.build_action_effect_parameter_record_v01(

@@ -1,0 +1,71 @@
+{
+  "schema": "radik.stage06.native_adapter_source_proposal.v01",
+  "status": "AUTHOR_SOURCE_PROPOSED_NOT_ACCEPTED",
+  "source_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs.py",
+      "sha256": "830d3a2f07525e941c46a12d8bd143830cc68be64b0fbc762c0ed29456ed5d9d",
+      "size_bytes": 38525
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/candidate/app/external_drs_work.py",
+      "sha256": "bec008482fc04509da28472ea752798bfadfcc31b35bc7c10e0b851d1c15dd53",
+      "size_bytes": 16869
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/API_MAP.md",
+      "sha256": "8b68b991f6f31b4a44a54ff9a6c9f5da6250418a090a59f0c049a09220a9c5aa",
+      "size_bytes": 13622
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/scenario.json",
+      "sha256": "cc922eb2ba5261fbf87d4797cf51b020ca44906e96072ec5d05840d3dfb0a187",
+      "size_bytes": 5392
+    }
+  ],
+  "independent_reviewer": "private_remote_controls",
+  "candidate_imports": 0,
+  "candidate_executions": 0,
+  "reference_mutations": 0,
+  "production_mutations": 0,
+  "provider_calls_authorized": 0,
+  "proposed_native_work_calls": {
+    "producer": 2,
+    "recipient_baseline": 1,
+    "recipient_consumer": 2
+  },
+  "control_clock": "Real integer UTC for positives; only explicit expiry negative uses a controlled future time.",
+  "communication": {
+    "peer_signature": "peer(role, read_fd, write_fd, folder, *, session=1, on_event=None)",
+    "roles": [
+      "producer",
+      "recipient"
+    ],
+    "public_key_message": "PUBLIC_KEYS with public_keys field; no private capability is serialized.",
+    "bootstrap": "session, own_policy, peer_keys, contexts; producer also requester_policy; recipient also forbidden_peer_private_path.",
+    "stdout": "JSON lines PUBLIC_KEYS / READY / SESSION_CLOSED / DONE; on_event(label,value) is supplied by the admitted bootstrap.",
+    "process_sequence": "A stays alive; B1 exits and is reaped before B2 starts. B2 retains only its own historical bytes and receives an independently repinned fresh signer context."
+  },
+  "native_boundary": [
+    "Fixed local ReviewedBodyProfileV01 callbacks; no wire-selected modules.",
+    "Public Gate5 signed pointer/release/status, exact current request nonce and source TTL.",
+    "PublisherBudget reservation precedes disclosure; separate receiver Budget remains durable.",
+    "ImportStore.observe persists authenticated terminal status before ACTIVE refusal.",
+    "Separate current-source revision high-water prevents old source revision rollback.",
+    "One fresh actual-UTC native Host per PURE Work, local current Root before and after; no donor clock1014 or G3/G4 consumer reuse.",
+    "Full source/consumer Work and local Root witnesses retained; recipient never reads producer document or private canary directly."
+  ],
+  "source_findings_addressed": [
+    "A coherent altered pointer reaches signed_content_binding rather than profile-shape rejection.",
+    "Signed REFUSED release is bound to the exact denied request without opening body or manifest.",
+    "Producer re-reads its own source document at STATUS and disclosure gates.",
+    "Private read control expects the actual bootstrap ValueError closed code and records zero bytes.",
+    "Pipe cleanup preserves an already active primary exception."
+  ],
+  "remaining_review": [
+    "Exact executable dependency/resource closure and peer I/O fence.",
+    "Independent source review and one bounded native grant.",
+    "Specific old ACTIVE rollback witness requires original request/status still current; expiry must not be mislabeled.",
+    "Ordinary owner command, final tail and exporter readback remain root-owned integration."
+  ]
+}

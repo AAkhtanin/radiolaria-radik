@@ -1,0 +1,160 @@
+{
+  "schema": "radik.stage06.prospective_scenario.v01",
+  "title": "Service Rowan support-price clarification",
+  "producer_input": {
+    "revisions": [
+      {
+        "revision": 1,
+        "document": "Service Rowan support terms.\nRevision: 1.\nSupport call price: 3 USD.\nApplies to informational cost clarification only.\n"
+      },
+      {
+        "revision": 2,
+        "document": "Service Rowan support terms.\nRevision: 2.\nSupport call price: 4 USD.\nApplies to informational cost clarification only.\n"
+      }
+    ]
+  },
+  "recipient_input": {
+    "base_price": 20,
+    "support_calls": 2
+  },
+  "public_policy_templates": {
+    "producer": {
+      "source_record_ref": "source:stage06:rowan_support",
+      "source_policy_ref": "policy:stage06:rowan_support",
+      "max_source_age": 300,
+      "max_validity_horizon": 300,
+      "domain": "RADIK_SUPPORT",
+      "currency": "USD",
+      "policy_version": "radik.stage06.publisher.v01",
+      "local_root": "root:radik:rowan_support_owner",
+      "peer_root": "root:radik:external_drs_recipient",
+      "publish_enabled": true,
+      "recipients": [
+        "root:radik:external_drs_recipient"
+      ],
+      "release_uses": [
+        "LOCAL_CONTEXT"
+      ]
+    },
+    "recipient": {
+      "source_record_ref": "source:stage06:rowan_support",
+      "source_policy_ref": "policy:stage06:rowan_support",
+      "max_source_age": 300,
+      "max_validity_horizon": 300,
+      "domain": "RADIK_SUPPORT",
+      "currency": "USD",
+      "policy_version": "radik.stage06.recipient.v01",
+      "peer_root": "root:radik:rowan_support_owner",
+      "local_root": "root:radik:external_drs_recipient",
+      "peer_keys": null,
+      "endpoint": "endpoint:gate5:A",
+      "object_id": "object:stage06:rowan_support",
+      "transport_scope": "owner:stage06:inherited_pipes",
+      "schemas": [
+        "RadikSupportTermsV01"
+      ],
+      "uses": [
+        "LOCAL_CONTEXT",
+        "AUDIT"
+      ],
+      "accept_support_terms": true,
+      "status_max_age": 60
+    }
+  },
+  "contexts": {
+    "task:stage06:revision1": {
+      "requester": "root:radik:external_drs_recipient",
+      "object_id": "object:stage06:rowan_support",
+      "source_revision": 1,
+      "uses": [
+        "LOCAL_CONTEXT"
+      ],
+      "purpose": "STAGE06_REVISION1",
+      "owner_epoch": "radik.stage06.prospective.v01"
+    },
+    "task:stage06:revision2": {
+      "requester": "root:radik:external_drs_recipient",
+      "object_id": "object:stage06:rowan_support",
+      "source_revision": 2,
+      "uses": [
+        "LOCAL_CONTEXT"
+      ],
+      "purpose": "STAGE06_REVISION2",
+      "owner_epoch": "radik.stage06.prospective.v01"
+    },
+    "task:stage06:denied": {
+      "requester": "root:radik:external_drs_recipient",
+      "object_id": "object:stage06:rowan_support",
+      "source_revision": 1,
+      "uses": [
+        "AUDIT"
+      ],
+      "purpose": "STAGE06_DENIED",
+      "owner_epoch": "radik.stage06.prospective.v01"
+    },
+    "task:stage06:restart": {
+      "requester": "root:radik:external_drs_recipient",
+      "object_id": "object:stage06:rowan_support",
+      "source_revision": 2,
+      "uses": [
+        "LOCAL_CONTEXT"
+      ],
+      "purpose": "STAGE06_RESTART",
+      "owner_epoch": "radik.stage06.prospective.v01"
+    }
+  },
+  "trust_bootstrap": {
+    "origin": "OWNER_SUPERVISOR_OUT_OF_BAND_PUBLIC_KEYS",
+    "recipient_peer_keys_field": "Replace the sole null peer_keys field with the observed producer public key set before either body is received.",
+    "producer_peer_keys": "Fresh separately observed recipient public key set for each session.",
+    "private_keys": "Generated and held only inside the corresponding peer process; never serialized."
+  },
+  "observer_expectations": {
+    "baseline": {
+      "state": "NEEDS_SUPPORT_PRICE",
+      "total_price": null
+    },
+    "revision1": {
+      "total_price": 26,
+      "support_cost": 6,
+      "source_revision": 1
+    },
+    "revision2": {
+      "total_price": 28,
+      "support_cost": 8,
+      "source_revision": 2
+    },
+    "provider_calls": 0,
+    "producer_work_calls": 2,
+    "recipient_work_calls": 3,
+    "receiver_sessions": 2,
+    "refusal_codes": {
+      "disclosure": "REFUSED",
+      "altered_signed_pointer": "signed_content_binding",
+      "altered_signature": "signature_invalid",
+      "wrong_anchor": "signature_invalid",
+      "wrong_issuer": "publisher_identity",
+      "wrong_scope": "schema_scope",
+      "expiry": "source_not_current",
+      "revoked": "status_not_active",
+      "restart_revision": "stage06_source_revision_rollback",
+      "restart_status": "status_rollback"
+    }
+  },
+  "isolation": {
+    "producer_receives_only": "producer_input",
+    "recipient_receives_only": "recipient_input",
+    "prospective_master_file_readable_by_peers": false,
+    "shared_executable_code_contains_foreign_price_or_expected_total": false,
+    "body_available_to_recipient_only_via_admitted_signed_exchange": true,
+    "peer_private_probe": "An attempted read of the producer private canary path must be denied by the launcher before reading any byte or hash."
+  },
+  "timing": {
+    "source_ttl_seconds": 300,
+    "request_and_status_seconds": 60,
+    "positive_clock": "ACTUAL_INTEGER_UTC",
+    "expiry_control": "CONTROLLED_FUTURE_NEGATIVE_ONLY",
+    "new_source_or_status_required_after_expiry": true
+  },
+  "status": "PROSPECTIVE_NOT_EXECUTED"
+}

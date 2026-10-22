@@ -1,0 +1,23 @@
+{
+  "schema": "radik.stage06.command_mechanical_check.v1",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+    "--admission-sha256",
+    "dc50144b24f9241b6ec1a2dad8bdce5a659243e15f54e0d5b6c3dc6af586781a"
+  ],
+  "shlex_roundtrip": true,
+  "owner_command_executed": false,
+  "owner_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_admission.json",
+    "sha256": "dc50144b24f9241b6ec1a2dad8bdce5a659243e15f54e0d5b6c3dc6af586781a",
+    "size_bytes": 4206
+  },
+  "command_sha256": "ec30bf22c9142486f8339df1fb4de19503a0e1071eb5104ddecd00e096de1a81",
+  "owner_admission_reservation_absent": true,
+  "expected_model_calls": 0,
+  "elapsed_ns": 689291
+}
