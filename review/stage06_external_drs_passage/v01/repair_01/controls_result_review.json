@@ -1,0 +1,850 @@
+{
+  "Stage06_closed": false,
+  "cases": [
+    {
+      "all_children_reaped": true,
+      "case": 1,
+      "code": "STAGE06_OPERATION_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": null,
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "1fc7cd466a0815e89409939fc70a12643eb859bb2bcfa6081a5ac0b127924861",
+          "size_bytes": 3036
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "36d49a0cb6021d4364f53c2d230927de103d1e5d6052d51d49705f82c1c51a3b",
+          "size_bytes": 1520
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "669d39ef90ff1c7036b2108a27a0d0f4bb87bb7f62314a124495d0891b911b5e",
+          "size_bytes": 1751
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "a969565f070f314a26e4e219f2570ba288adea4f5fcaea3f3114c4770056b9c5",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "796c42f9d8bd2211de46fc5fea246f9101eecbc23287afa761fb559b9ab006d3",
+          "size_bytes": 5866
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "2d5c72f74f7aa54ba94d20173c6920a4230b0d9ed20cb0e67a06463f16f79ff5",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "f783f731c29f865407c081a471d9989208341d1277414697fa79d330fedfdcf1",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/terminal.txt",
+          "sha256": "daaad1711749eb4b52eea6cc828b030d64bb2cf01e4b4311800b0d8ec6f5fce2",
+          "size_bytes": 346
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "796c42f9d8bd2211de46fc5fea246f9101eecbc23287afa761fb559b9ab006d3",
+        "size_bytes": 5866
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_OPERATION_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 2,
+      "code": "STAGE06_NATIVE_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": null,
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "c48e5e0028c5358d1ba20e9535dab962f0bcaa5665326d56aa44560a1aef6eea",
+          "size_bytes": 3027
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "46f8dd50b9355fe2bbb4c7f9837fd831da6a21471d893ed776922a6fb9134c1b",
+          "size_bytes": 1514
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "1abe146c771cdb6a27d111aff2e9e70725c0799dc9099b479fb6c1dc37679b45",
+          "size_bytes": 1748
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "9a792744128a2fd0761d9d037a42d2e476cdd220fc38d644663474edd2bbcae2",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "8e29289377d7e78c1d0c29d0b28a3e6c844f0b779e79001a7fc039dcdedb4ef4",
+          "size_bytes": 5861
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "d7d2098e88c766a3dbb5a3d2868467ee67706331d6e442c0fd463738931439f2",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "7cd5439f0a35bf174333658c20a5c18da085ebf18edbecfc43408dc027895492",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/terminal.txt",
+          "sha256": "736ee4ff585eba748ba73d07e4115ea570ed2d07b5d7db10de38882a76f10d35",
+          "size_bytes": 340
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "8e29289377d7e78c1d0c29d0b28a3e6c844f0b779e79001a7fc039dcdedb4ef4",
+        "size_bytes": 5861
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_NATIVE_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 3,
+      "code": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": null,
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "6525603c5aeaad7928e9eb3ad5293e1f142b348b72effb28855c911408cfc8d0",
+          "size_bytes": 3063
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "5c82c609429c90be6d1f222e3d2eea21a163f7581dabd5205c8b5000191a5f18",
+          "size_bytes": 1538
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "3091a58eb98232e9cb468b3eb093b4ff9ee5909d22b944270016fa420bb26f69",
+          "size_bytes": 1760
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "c0b72b95dce2d479a8977d8dbcbcaf944f1fa3fa02fce4fc041a383e1d4faaae",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "d2dbbd91175bfeecfcf688cc3f8bf0f4eadd614bf561071581253b0f91266352",
+          "size_bytes": 5905
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "37e8b3eadfcd7797b9bd0d693e951a33e89f8c25482af056f21051e7c1b34242",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "e3fb8022147b52a3c3f284b6fd65228563de3bcd0f289ac0efcdcdf7ca2f7931",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/terminal.txt",
+          "sha256": "bf856110764cc8bbed951beab809d2c80d75f2c09dfc4a66cf1890aaa256420d",
+          "size_bytes": 364
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "d2dbbd91175bfeecfcf688cc3f8bf0f4eadd614bf561071581253b0f91266352",
+        "size_bytes": 5905
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 4,
+      "code": "STAGE06_SEMANTIC_IDLE_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": null,
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "033a748f49d0aca60f7e6c7e2ddfd2034db5f362aa3db40f0d5503fc410fb1eb",
+          "size_bytes": 3048
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "fe5e3ddd7c8dd3977ee0b9ca4784bdcbd3b58fe99453ed30ebbf7df650ead18a",
+          "size_bytes": 1528
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "88558c2c83316ac5c4478138bda114e1a6603dc3657ba21c26ce8fbddc3d4c02",
+          "size_bytes": 1755
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "12d3e6d845da0a06eafd629dccf2d34e5769118f089ffdebabc53d25533a8cf3",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "89093feafbd59380261085f510d6b55a6e3032667a337799b0a3a003a9522187",
+          "size_bytes": 5914
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "578f98625fca67744fe0b065fb1a8a200c9072657ea02ba6f630418580aa37f4",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "e295d2a2cbef1644c2c8e2be0a17ae2a5245ac43db887cf625610aea686930aa",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/terminal.txt",
+          "sha256": "71643052d01906ceb111515cb82ca95dab4b790cf5747e1af5194be302965714",
+          "size_bytes": 354
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "89093feafbd59380261085f510d6b55a6e3032667a337799b0a3a003a9522187",
+        "size_bytes": 5914
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_SEMANTIC_IDLE_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 5,
+      "code": "STAGE06_OPERATION_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": "write",
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "bd213fa4e517987cb4d9a95e74c158fd062eab93b9526f81a052a42f7189e492",
+          "size_bytes": 4147
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "cce1157e5765e8049ee4e6722e0f3fc28b38bae6f791e71e1afed63ff20c8b13",
+          "size_bytes": 1751
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "acd12f15732451ec7a54796d3836e1a14e430ea18812b09e5c2a6274d8fd4a90",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "fd06b674be9f61ba9cd3450b9c941997083597c4bbebb9ff3f88549ecc9541fc",
+          "size_bytes": 6674
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "9e4a174d8bdf9450b3dfc47b39fae8dff8ce3ac56bebf2a6c45de9fd6185b938",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "dec2a501d7fea3bfed5776df8b9be965c0e62349c1166eb8509c21d13eeb7840",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/terminal.txt",
+          "sha256": "1de1858b373f6300c0bdbf0dab247b70391e719b30c0f0459bc0a64f98215d31",
+          "size_bytes": 346
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "fd06b674be9f61ba9cd3450b9c941997083597c4bbebb9ff3f88549ecc9541fc",
+        "size_bytes": 6674
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_PRIMARY_FAILURE_PERSISTENCE",
+          "stage06_primary_failure_persistence_failed"
+        ],
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "stage06_child_cleanup"
+        ],
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_OPERATION_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 6,
+      "code": "STAGE06_OPERATION_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": "readback",
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "7893e78991cba1ee014c11bd752469621a6ae8eccb4dd66976868a2ff06b6acf",
+          "size_bytes": 3608
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "49e4eaa1e6674f5469eaa7b8acc3639208b00f429f272800cd5a71a535988e82",
+          "size_bytes": 1520
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "d56acd924965c87d44adbc0db9e99caaf61d0a582cde421fa15d4b7bd8d25c9f",
+          "size_bytes": 1751
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "cdec58dafaad49e6cee471f65594103e76bcf8abba1f129c849da7a3ad421440",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "7b99792a706247228bfb03556356ac8c82a3b55c4806e8c7a206849598850884",
+          "size_bytes": 6135
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "dc52706b0871b4db22c7b407bb7995ae61319b0d55f987da7741dc69f4804bb4",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "1ee28dd1d3b7c533eda186161ad54b3192b19a37e14a5893cd8c0b5419013614",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/terminal.txt",
+          "sha256": "b9f3ada1cd3d3d4c3704f4fb9200d04331394a9e3517a06869d116e93953d8b8",
+          "size_bytes": 346
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "7b99792a706247228bfb03556356ac8c82a3b55c4806e8c7a206849598850884",
+        "size_bytes": 6135
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_PRIMARY_FAILURE_PERSISTENCE",
+          "stage06_primary_failure_readback"
+        ],
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_OPERATION_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 7,
+      "code": "STAGE06_OPERATION_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": "timeout",
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "38ab4cdd8becf9eee357152e126e913a7e5580aa485b52937ab0b996a8ab0a09",
+          "size_bytes": 4045
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "637a39cbdeeb62e13f16c621dee5303b8c188fa0e6e2717ed512f5049bc34235",
+          "size_bytes": 1751
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "7a0d93cb36cc4e0e46eb0a22daea7aaee2760192d7a9177c4202eab092b95c50",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "3c99efeeb6cfe378eaab61a17df48644edfe09f970634120338ea03e7dd3a30b",
+          "size_bytes": 6584
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "c8a7179dfb2fb9506e73741ff628024ad5c98f64526f46db6abcb17c6e70a5d8",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "b1ba3e79659270317c615f9e61c4072ebc8f21c0e3961476afa2b8cddc97fcb7",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/terminal.txt",
+          "sha256": "ad0c033991eb17fb10ba5e5a37c2b1d13601a7268b4efdb155c61ee454d94acd",
+          "size_bytes": 346
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "3c99efeeb6cfe378eaab61a17df48644edfe09f970634120338ea03e7dd3a30b",
+        "size_bytes": 6584
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_PRIMARY_FAILURE_PERSISTENCE",
+          "stage06_primary_failure_persistence_timeout"
+        ],
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_OPERATION_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    },
+    {
+      "all_children_reaped": true,
+      "case": 8,
+      "code": "STAGE06_OPERATION_LIMIT",
+      "exact_first_cause_and_saved_stop": true,
+      "fault": "secondary",
+      "full_raw_evidence_refs": [
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/control.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/finalization_failure.json",
+          "sha256": "2c7663762af9f56215cbfec1432e1c844dd1a67e49787b4c5bdaed4f79f845d7",
+          "size_bytes": 3357
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/first_failure.json",
+          "sha256": "464e19331d07170a2f24347ff28186d61433f170ffe158f27249794a6a879b55",
+          "size_bytes": 1520
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/operation_close.json",
+          "sha256": "5926f718048828c11f83f4bc6a8e08f97256c29a73c6f28f96988addd72d1e17",
+          "size_bytes": 1751
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/producer/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/producer_1_launch.json",
+          "sha256": "639e5f172895cafc0131e89f0fc2b51b5620aef485e1b2ce46e2a74ffc4e1887",
+          "size_bytes": 1549
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/producer_1_stderr.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/producer_1_stdout.raw",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_bytes": 0
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/receipt.json",
+          "sha256": "216aded3af8c3530afc9de6fc3b0602bc809be394b9b205396cdaeedfb72fb8b",
+          "size_bytes": 6187
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/recipient/scenario.json",
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "size_bytes": 3
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/required_output_availability.json",
+          "sha256": "bde04f48a806ad0a7236993582b36ca58fb7f1c75efb3ae97cd62c159b5d8da4",
+          "size_bytes": 441
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/reservations/0000000000000000000000000000000000000000000000000000000000000000.json",
+          "sha256": "19337041722d7b1a1612a90fa3bd3c6ad96976b5abe2be794068da9c43fc5d8d",
+          "size_bytes": 1055
+        },
+        {
+          "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/terminal.txt",
+          "sha256": "f65d64a8b71588a1fb7b68920b72f3d80680d589911b4affdb234c442c3e9f19",
+          "size_bytes": 346
+        }
+      ],
+      "lock_released": true,
+      "one_journal_attempt": true,
+      "precleanup_order_confirmed": true,
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "216aded3af8c3530afc9de6fc3b0602bc809be394b9b205396cdaeedfb72fb8b",
+        "size_bytes": 6187
+      },
+      "secondary_rows": [
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "stage06_child_cleanup"
+        ],
+        [
+          "STAGE06_OWNER_TERMINAL",
+          "STAGE06_OPERATION_LIMIT"
+        ]
+      ],
+      "status": "ACCEPTED"
+    }
+  ],
+  "inner_elapsed_ns": 1287292208,
+  "limitations": [
+    "Synthetic clock states trigger four real due_reason branches; disposable children run stdlib sleep only. The admission loader is explicitly substituted and owner main is not called.",
+    "The retained event order and successful control assertions demonstrate two fsync calls and explicit readback before cleanup in the successful journal cases. Write/readback/timer errors and cleanup errors remain secondary.",
+    "The forced expired clocks also produce finalization_failure records after immutable receipts; all preserve the original primary and stop. Later secondary arrays need not equal the earlier immutable receipt.",
+    "SIGALRM restored in all eight successful control assertions; the one-second timeout control completed in 1.097919416 seconds including teardown. No hard bound is claimed for uninterruptible kernel I/O.",
+    "Native PROBE_02 acceptance is retained without repetition. Full owner scenario remains pending."
+  ],
+  "model_calls": 0,
+  "native_Work_calls": 0,
+  "outer_elapsed_ns": 1341037333,
+  "outer_exit_code": 0,
+  "owned_process_group_closed": true,
+  "owner_scenario_runs": 0,
+  "preserved_old_evidence_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/preservation.json",
+    "sha256": "c6ee06b1a9741a2748c10de556d2e6677e0097139326943b451cff6642c07e6e",
+    "size_bytes": 2104
+  },
+  "preserved_old_refs_verified": 6,
+  "protected_baseline_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/console_model_turns.json",
+      "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+      "size_bytes": 147969
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/application_profile.json",
+      "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+      "size_bytes": 245
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+      "size_bytes": 78191
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    }
+  ],
+  "protected_baseline_unchanged": true,
+  "result_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_run_01/result.json",
+    "sha256": "48c3f03992e4a6ccea7b27da2f49f654c645368f52a01fe9c0d0170fdff80469",
+    "size_bytes": 15686
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.supervisor_repair_control_result_review.v1",
+  "source_refs": [
+    {
+      "name": "controls",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/stdlib_controls.py",
+      "sha256": "c255a4231897862415e8f17c86b441f1619dc6bd77a5e84006fa4f7abd79e65e",
+      "size_bytes": 12185
+    },
+    {
+      "name": "owner",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "sha256": "e32972ad19af2f6f16b5917fc97994213688e73404cb57a1df986b63b54c92ae",
+      "size_bytes": 39507
+    },
+    {
+      "name": "adapter",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/supervisor_timing.py",
+      "sha256": "90d3079f6d3b9896d0790071a62a07be17a7c0c1313f3222ad8249364abec902",
+      "size_bytes": 6278
+    },
+    {
+      "name": "timing",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/supervisor_timing.py",
+      "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+      "size_bytes": 16726
+    },
+    {
+      "name": "legacy",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+      "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+      "size_bytes": 72894
+    }
+  ],
+  "source_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_source_review.json",
+    "sha256": "fb934ac6ed4d6132541767fddb9097907dfab4e12762dd65513d30681ea8bfa7",
+    "size_bytes": 7066
+  },
+  "status": "ACCEPTED_EIGHT_ISOLATED_STDLIB_CONTROLS",
+  "tool_outcome_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_tool_outcome.json",
+    "sha256": "5357a1f4d566f6ce79aae428181fdeb479bbc0b8398e7a98fb7e6486c03343ee",
+    "size_bytes": 735
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "radik.stage06.supervisor_repair_tool_outcome.v1",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/stdlib_controls.py",
+    "--review-sha256",
+    "fb934ac6ed4d6132541767fddb9097907dfab4e12762dd65513d30681ea8bfa7"
+  ],
+  "review_sha256": "fb934ac6ed4d6132541767fddb9097907dfab4e12762dd65513d30681ea8bfa7",
+  "elapsed_ns": 1341037333,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout_text": "{\"status\": \"PASS\", \"cases\": 8, \"elapsed_ns\": 1287292208}\n",
+  "stderr_text": "",
+  "child_reaped": true,
+  "process_group_closed": true,
+  "automatic_retry": false
+}

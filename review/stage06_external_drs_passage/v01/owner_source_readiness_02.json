@@ -1,0 +1,151 @@
+{
+  "Stage06_closed": false,
+  "Stage07_or_Stage08_authorized": false,
+  "actual_pending": [
+    "Owner baseline without a foreign answer and full 26 then 28 output sequence.",
+    "Actual second source revision publication and current consumption, followed by real source-revision rollback refusal.",
+    "Owner cross-peer private-canary refusal and exact issuer/signature mutation lanes.",
+    "Complete owner consumer witnesses and final owner operation closure."
+  ],
+  "automatic_retry": false,
+  "code_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/source_manifest_PROBE_04.json",
+    "sha256": "94cfa415a9487379ba1ca644fca4baf3b3136adb6aabdd36bb0ee5e2e06a279a",
+    "size_bytes": 1087778
+  },
+  "contract_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/contract_review_preparation.json",
+    "sha256": "03fca504966efa14b52c8eebe24133c3f51fe3ab70df6f5990b9f88304156290",
+    "size_bytes": 6534
+  },
+  "effective_model_boundary": {
+    "AUTH_provider_PATH_entered": false,
+    "expected_model_calls": 0,
+    "explicit_finite_selector": "external_drs_owner_v01",
+    "native_Work_provider_calls": 0,
+    "ordinary_entry_branch_precedes_legacy_PlanAuth": true
+  },
+  "engineering_accounting_ref": {
+    "path": "review/stage06_external_drs_passage/v01/execution_accounting/PROBE_02.json",
+    "sha256": "9372c9e2f9024893ef3f1ec97a9d71484bed7f1df1b05c92c455d54cbcfc5cdd",
+    "size_bytes": 28499
+  },
+  "engineering_may_execute_owner_command": false,
+  "engineering_result_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+    "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+    "size_bytes": 40038
+  },
+  "fixed_admission_basename": "owner_admission_02.json",
+  "interpreter_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "lifecycle_scope": {
+    "local_authority": "Foreign signed body remains evidence; current local policy, native Root and fresh Host decide the consumer.",
+    "positive_clocks": "Actual UTC only; original Work 60-second window and STATUS 60-second maximum are not extended by operation limits.",
+    "restart": "Fresh recipient process and signer capability after confirmed previous reap, persistent owned high-water state; old JSON never restores authority.",
+    "signed_disclosure": "Finite owned tasks, separately pinned local policy, publisher budget, source Root provenance, independently bootstrapped public trust anchors."
+  },
+  "limits": {
+    "cleanup_seconds": 20,
+    "early_checkpoint_seconds": 20,
+    "interrupt_grace_seconds": 10,
+    "kill_wait_seconds": 5,
+    "model_wait_seconds": 600,
+    "native_seconds": 180,
+    "operation_seconds": 120,
+    "semantic_idle_seconds": 20,
+    "terminate_grace_seconds": 5
+  },
+  "maximum_operation_plus_cleanup_seconds": 140,
+  "owner_task": {
+    "expected_informational_totals": [
+      26,
+      28
+    ],
+    "native_Work_calls_planned": 5,
+    "owner_scenario_executed": false,
+    "producer_revision1_price": 3,
+    "producer_revision2_price": 4,
+    "recipient_base_price": 20,
+    "recipient_support_calls": 2,
+    "same_native_callbacks_as_successful_engineering": true
+  },
+  "preserved_baseline_ref": {
+    "path": "review/stage06_external_drs_passage/v01/preserved_baseline.json",
+    "sha256": "8b109c4c8b5e338c0a53c106391bb4c3823df43ecf20968ee27134af3705650a",
+    "size_bytes": 2161
+  },
+  "production_mutation_allowed": false,
+  "repair_scope": {
+    "actual_controls": "Eight isolated stdlib cases passed. The repaired owner main/admission entry was not executed; fixed basename/parser and downstream reference binding were source reviewed.",
+    "durable_first_failure": "One exclusive 65536-byte-capped journal and explicit readback before cleanup; original primary and saved stop precede persistence; persistence/cleanup errors remain secondary.",
+    "exact_limit_codes_preserved": [
+      "STAGE06_OPERATION_LIMIT",
+      "STAGE06_NATIVE_LIMIT",
+      "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+      "STAGE06_SEMANTIC_IDLE_LIMIT"
+    ],
+    "full_owner_pending": true,
+    "limits_unchanged": true,
+    "persistence_deadline": "At most one second and no later than the already saved cleanup end; scoped SIGALRM restored. Uninterruptible kernel I/O is not claimed hard-bounded.",
+    "unchanged_native_acceptance": "Accepted PROBE_02 native code and callbacks are unchanged; its successful native result is retained without replay."
+  },
+  "reviewer": "/root/private_remote_controls",
+  "scenario_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/scenario.json",
+    "sha256": "d1c837aa0453395c492b31b455b4616380a0e2246cf7b148da662efdfc63dd82",
+    "size_bytes": 10197
+  },
+  "schema": "radik.stage06.owner_source_readiness_review.v1",
+  "scope": "One future owner-launched ordinary native-only external-DRS operation through the exact candidate launcher, ordinary entry and repaired supervisor. This review authorizes preparation of the command, not execution by the engineering agents.",
+  "source_contract_findings": [],
+  "source_file_count": 1130,
+  "source_review_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/source_review.json",
+      "sha256": "96651185c074a775b609cd8e8813ef2fe9bb9595ab4507ec7a690fa165597d2f",
+      "size_bytes": 7618
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/source_review_PROBE_02.json",
+      "sha256": "3868c98043a8b6858fd33ca30f16c79e852ff86ffc36ded9ac244bcccaadee96",
+      "size_bytes": 3329
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/repair_01/controls_source_review.json",
+      "sha256": "fb934ac6ed4d6132541767fddb9097907dfab4e12762dd65513d30681ea8bfa7",
+      "size_bytes": 7066
+    }
+  ],
+  "status": "OWNER_COMMAND_SOURCE_READY_NOT_EXECUTED",
+  "superseded_prospective_admission_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_admission.json",
+    "sha256": "dc50144b24f9241b6ec1a2dad8bdce5a659243e15f54e0d5b6c3dc6af586781a",
+    "size_bytes": 4206
+  },
+  "superseded_prospective_readiness_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_source_readiness.json",
+    "sha256": "d2ac08cd96f997f90a1f4b71a778a27fd527e87d9e3d5c299cd661fd5f56c043",
+    "size_bytes": 5271
+  },
+  "supervisor_repair_accounting_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/execution_accounting.json",
+    "sha256": "2cd14461702df2b76366a0a1788eead4445ceac8b1e30bddc82e1d84ebbf1a42",
+    "size_bytes": 1509
+  },
+  "supervisor_repair_result_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_result_review.json",
+    "sha256": "1d31ca7b5f4cbb6fa324279eb2b4ca4496d829a3e27f76dcfebc39205a6ef98f",
+    "size_bytes": 42166
+  },
+  "timing_basis": {
+    "conservative_sum_peer_wall_seconds": 5.005100917,
+    "interpretation": "Caps are finite planning margins over a two-Work probe with a real restart, not a measured five-Work owner duration or an ETA. The full owner operation may fail honestly on its source/status/window or semantic-progress limits; no renewal or retry is authorized.",
+    "measured_engineering_inner_wall_seconds": 2.807743791,
+    "measured_engineering_outer_wall_seconds": 2.889270458,
+    "observed_two_Work_spans_seconds": 0.3901975
+  }
+}

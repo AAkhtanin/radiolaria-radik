@@ -1,0 +1,43 @@
+{
+  "schema": "radik.stage06.supervisor_repair_preservation.v1",
+  "files": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "sha256": "0a6015759020b6262cb9dfe659ecc5a65a4a0c62c7ed4b954e5862c9b1cf4219",
+      "size_bytes": 36071,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/owner_terminal.py"
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/supervisor_timing.py",
+      "sha256": "90d3079f6d3b9896d0790071a62a07be17a7c0c1313f3222ad8249364abec902",
+      "size_bytes": 6278,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/supervisor_timing.py"
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/owner_admission.json",
+      "sha256": "dc50144b24f9241b6ec1a2dad8bdce5a659243e15f54e0d5b6c3dc6af586781a",
+      "size_bytes": 4206,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/owner_admission.json"
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/owner_source_readiness.json",
+      "sha256": "d2ac08cd96f997f90a1f4b71a778a27fd527e87d9e3d5c299cd661fd5f56c043",
+      "size_bytes": 5271,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/owner_source_readiness.json"
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/engineering_budget.json",
+      "sha256": "ac6ea6ebd61f79aec6162cf408d939b3b1f5e7db4cd2e95927dccd69ee3ae764",
+      "size_bytes": 4924,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/engineering_budget.json"
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/source_manifest_PROBE_03.json",
+      "sha256": "5ab7f8c92a944c58075be2db7a3206b90eff9c6ea9d4e111835f63a3bba5a8e6",
+      "size_bytes": 1087327,
+      "preserved_path": "review/stage06_external_drs_passage/v01/repair_01/before/source_manifest_PROBE_03.json"
+    }
+  ],
+  "prior_return_sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+  "prior_commit": "98dd2466b3906a58241ff7dc8de5b94bccb88bd8"
+}

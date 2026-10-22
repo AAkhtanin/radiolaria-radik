@@ -1,0 +1,478 @@
+{
+  "schema": "radik.stage06.supervisor_repair_controls.v1",
+  "status": "PASS",
+  "reviewed_sources": [
+    {
+      "name": "controls",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/stdlib_controls.py",
+      "sha256": "c255a4231897862415e8f17c86b441f1619dc6bd77a5e84006fa4f7abd79e65e",
+      "size_bytes": 12185
+    },
+    {
+      "name": "owner",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "sha256": "e32972ad19af2f6f16b5917fc97994213688e73404cb57a1df986b63b54c92ae",
+      "size_bytes": 39507
+    },
+    {
+      "name": "adapter",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/supervisor_timing.py",
+      "sha256": "90d3079f6d3b9896d0790071a62a07be17a7c0c1313f3222ad8249364abec902",
+      "size_bytes": 6278
+    },
+    {
+      "name": "timing",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/supervisor_timing.py",
+      "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+      "size_bytes": 16726
+    },
+    {
+      "name": "legacy",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+      "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+      "size_bytes": 72894
+    }
+  ],
+  "cases": [
+    {
+      "code": "STAGE06_OPERATION_LIMIT",
+      "fault": null,
+      "status": "PASS",
+      "elapsed_ns": 9737084,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "first_failure_explicit_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_1/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "796c42f9d8bd2211de46fc5fea246f9101eecbc23287afa761fb559b9ab006d3",
+        "size_bytes": 5866
+      },
+      "child_pids": [
+        51179
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011295901541,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011295901541,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011295901541,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011295901541,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011295901541,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_NATIVE_LIMIT",
+      "fault": null,
+      "status": "PASS",
+      "elapsed_ns": 6858459,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "first_failure_explicit_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_2/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "8e29289377d7e78c1d0c29d0b28a3e6c844f0b779e79001a7fc039dcdedb4ef4",
+        "size_bytes": 5861
+      },
+      "child_pids": [
+        51180
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_NATIVE_LIMIT",
+          "stop_ns": 7714011319732208,
+          "stop_reason": "STAGE06_NATIVE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_NATIVE_LIMIT",
+          "stop_ns": 7714011319732208,
+          "stop_reason": "STAGE06_NATIVE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_NATIVE_LIMIT",
+          "stop_ns": 7714011319732208,
+          "stop_reason": "STAGE06_NATIVE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_NATIVE_LIMIT",
+          "stop_ns": 7714011319732208,
+          "stop_reason": "STAGE06_NATIVE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_NATIVE_LIMIT",
+          "stop_ns": 7714011319732208,
+          "stop_reason": "STAGE06_NATIVE_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+      "fault": null,
+      "status": "PASS",
+      "elapsed_ns": 6627792,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "first_failure_explicit_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_3/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "d2dbbd91175bfeecfcf688cc3f8bf0f4eadd614bf561071581253b0f91266352",
+        "size_bytes": 5905
+      },
+      "child_pids": [
+        51182
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+          "stop_ns": 7714011341644583,
+          "stop_reason": "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        },
+        {
+          "requested": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+          "stop_ns": 7714011341644583,
+          "stop_reason": "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        },
+        {
+          "requested": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+          "stop_ns": 7714011341644583,
+          "stop_reason": "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        },
+        {
+          "requested": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+          "stop_ns": 7714011341644583,
+          "stop_reason": "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        },
+        {
+          "requested": "STAGE06_EARLY_CHECKPOINT_TIMEOUT",
+          "stop_ns": 7714011341644583,
+          "stop_reason": "STAGE06_EARLY_CHECKPOINT_TIMEOUT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_SEMANTIC_IDLE_LIMIT",
+      "fault": null,
+      "status": "PASS",
+      "elapsed_ns": 6303541,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "first_failure_explicit_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_4/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "89093feafbd59380261085f510d6b55a6e3032667a337799b0a3a003a9522187",
+        "size_bytes": 5914
+      },
+      "child_pids": [
+        51183
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_SEMANTIC_IDLE_LIMIT",
+          "stop_ns": 7714011361696458,
+          "stop_reason": "STAGE06_SEMANTIC_IDLE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_SEMANTIC_IDLE_LIMIT",
+          "stop_ns": 7714011361696458,
+          "stop_reason": "STAGE06_SEMANTIC_IDLE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_SEMANTIC_IDLE_LIMIT",
+          "stop_ns": 7714011361696458,
+          "stop_reason": "STAGE06_SEMANTIC_IDLE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_SEMANTIC_IDLE_LIMIT",
+          "stop_ns": 7714011361696458,
+          "stop_reason": "STAGE06_SEMANTIC_IDLE_LIMIT"
+        },
+        {
+          "requested": "STAGE06_SEMANTIC_IDLE_LIMIT",
+          "stop_ns": 7714011361696458,
+          "stop_reason": "STAGE06_SEMANTIC_IDLE_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_OPERATION_LIMIT",
+      "fault": "write",
+      "status": "PASS",
+      "elapsed_ns": 6024958,
+      "events": [
+        "first_failure_write_started",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_5/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "fd06b674be9f61ba9cd3450b9c941997083597c4bbebb9ff3f88549ecc9541fc",
+        "size_bytes": 6674
+      },
+      "child_pids": [
+        51184
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "stage06_child_cleanup",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011382044125,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_OPERATION_LIMIT",
+      "fault": "readback",
+      "status": "PASS",
+      "elapsed_ns": 5999791,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_6/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "7b99792a706247228bfb03556356ac8c82a3b55c4806e8c7a206849598850884",
+        "size_bytes": 6135
+      },
+      "child_pids": [
+        51188
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011401237000,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011401237000,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011401237000,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011401237000,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011401237000,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_OPERATION_LIMIT",
+      "fault": "timeout",
+      "status": "PASS",
+      "elapsed_ns": 1097919416,
+      "events": [
+        "first_failure_write_started",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_7/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "3c99efeeb6cfe378eaab61a17df48644edfe09f970634120338ea03e7dd3a30b",
+        "size_bytes": 6584
+      },
+      "child_pids": [
+        51193
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011422454333,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011422454333,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011422454333,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011422454333,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714011422454333,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    },
+    {
+      "code": "STAGE06_OPERATION_LIMIT",
+      "fault": "secondary",
+      "status": "PASS",
+      "elapsed_ns": 10362583,
+      "events": [
+        "first_failure_write_started",
+        "first_failure_fsync",
+        "first_failure_fsync",
+        "durable_put_readback_completed",
+        "first_failure_explicit_readback_completed",
+        "cleanup_started",
+        "child_reaped_by_cleanup"
+      ],
+      "receipt_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01/CASE_8/stage06/offline_attempts/CONTROL/work/receipt.json",
+        "sha256": "216aded3af8c3530afc9de6fc3b0602bc809be394b9b205396cdaeedfb72fb8b",
+        "size_bytes": 6187
+      },
+      "child_pids": [
+        51212
+      ],
+      "children_reaped": true,
+      "stop_history": [
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "stage06_child_cleanup",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        },
+        {
+          "requested": "STAGE06_OPERATION_LIMIT",
+          "stop_ns": 7714012554155083,
+          "stop_reason": "STAGE06_OPERATION_LIMIT"
+        }
+      ],
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_scenario_runs": 0
+    }
+  ],
+  "elapsed_ns": 1287292208,
+  "synthetic_clock_states": true,
+  "actual_supervisor_failure_and_cleanup": true,
+  "actual_stdlib_children_only": true,
+  "owner_entry_called": false,
+  "native_Work_calls": 0,
+  "model_calls": 0
+}

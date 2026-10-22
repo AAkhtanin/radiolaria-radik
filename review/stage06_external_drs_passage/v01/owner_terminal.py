@@ -17,6 +17,7 @@ import os
 from pathlib import Path
 import re
 import selectors
+import signal
 import stat
 import subprocess
 import sys
@@ -33,6 +34,14 @@ _SOURCE_PINS = {}
 _FAILURE_CODES = frozenset()
 STATIC_FAILURE_CODES = frozenset(('stage06_', 'stage06_admission_already_reserved', 'stage06_bootstrap_child_closed', 'stage06_child_cleanup', 'stage06_child_closed_before_expected_message', 'stage06_child_entry_failed', 'stage06_child_final_receipt_missing', 'stage06_child_nonzero_exit', 'stage06_child_return_integrity', 'stage06_event', 'stage06_failure', 'stage06_owner_admission_hash', 'stage06_restart_fresh_process_and_key', 'stage06_restart_requires_actual_reap', 'stage06_supervision_failure', 'stage06_template_anchor_not_dynamic', 'stage06_terminal_admission_identity', 'stage06_terminal_bootstrap_bound', 'stage06_terminal_bootstrap_short_write', 'stage06_terminal_deadline', 'stage06_terminal_entry_receipt', 'stage06_terminal_event_binding', 'stage06_terminal_event_clock', 'stage06_terminal_event_label', 'stage06_terminal_event_readback_scope', 'stage06_terminal_failure_frame_binding', 'stage06_terminal_failure_frames', 'stage06_terminal_failure_projection', 'stage06_terminal_finite_limits', 'stage06_terminal_fresh_run', 'stage06_terminal_independent_admission', 'stage06_terminal_interpreter_path', 'stage06_terminal_line_buffer_bound', 'stage06_terminal_lock_identity', 'stage06_terminal_manifest', 'stage06_terminal_module_path', 'stage06_terminal_native_span', 'stage06_terminal_peer_report_binding', 'stage06_terminal_peer_report_path', 'stage06_terminal_public_keys_once', 'stage06_terminal_public_message', 'stage06_terminal_public_message_bound', 'stage06_terminal_public_session', 'stage06_terminal_reference_changed', 'stage06_terminal_reference_path', 'stage06_terminal_reference_regular', 'stage06_terminal_reference_shape', 'stage06_terminal_reference_symlink', 'stage06_terminal_scenario_ref', 'stage06_terminal_self_pin', 'stage06_terminal_source_inventory', 'stage06_terminal_source_missing', 'stage06_terminal_stdout_line_bound', 'stage06_terminal_stdout_shape', 'stage06_terminal_stream_bound', 'stage06_terminal_stream_short_write'))
 PUBLIC_KINDS = frozenset(('PUBLIC_KEYS', 'READY', 'SESSION_CLOSED', 'DONE', 'ENTRY_FAILURE'))
+STATIC_FAILURE_CODES |= frozenset((
+    'STAGE06_OPERATION_LIMIT', 'STAGE06_NATIVE_LIMIT',
+    'STAGE06_EARLY_CHECKPOINT_TIMEOUT', 'STAGE06_SEMANTIC_IDLE_LIMIT',
+    'stage06_primary_failure_persistence_failed',
+    'stage06_primary_failure_persistence_timeout',
+    'stage06_primary_failure_timer_unavailable',
+    'stage06_primary_failure_readback',
+))
 
 
 def require(value, code):
@@ -107,6 +116,42 @@ def load_module(path, expected):
     module.__file__ = str(path)
     exec(compile(raw, str(path), 'exec'), module.__dict__)
     return module
+
+
+def persist_first_failure(receipt, clock, run, put, *, cleanup_started):
+    """One exclusive 64-KiB journal attempt within the original cleanup clock.
+
+    SIGALRM interrupts ordinary blocking filesystem calls after at most one
+    second. An uninterruptible kernel I/O stall is not a hard wall guarantee.
+    The saved stop and cleanup deadline are never renewed by this attempt.
+    """
+    deadline = min(clock.cleanup.end_ns(), time.monotonic_ns()+10**9)
+    require(signal.getitimer(signal.ITIMER_REAL) == (0.0, 0.0),
+        'stage06_primary_failure_timer_unavailable')
+    previous = signal.getsignal(signal.SIGALRM)
+
+    def expired(signum, frame):
+        raise ValueError('stage06_primary_failure_persistence_timeout')
+
+    signal.signal(signal.SIGALRM, expired)
+    try:
+        remaining = (deadline-time.monotonic_ns())/1e9
+        require(remaining > 0, 'stage06_primary_failure_persistence_timeout')
+        signal.setitimer(signal.ITIMER_REAL, remaining)
+        value = dict(schema='radik.stage06.first_failure.v1',
+            operation_id=receipt['operation_id'], admission_ref=receipt['admission_ref'],
+            primary_failure=receipt['primary_failure'], status='STOPPED_NO_RETRY',
+            stop_ns=clock.stop_ns, stop_reason=clock.stop_reason,
+            cleanup_deadline_ns=clock.cleanup.end_ns(), cleanup_started=cleanup_started,
+            automatic_retry=False)
+        ref = put(run/'first_failure.json', value, cap=65536)
+        require(json.loads(read_ref(ref, cap=65536)) == value,
+            'stage06_primary_failure_readback')
+        require(time.monotonic_ns() < deadline, 'stage06_primary_failure_persistence_timeout')
+        return ref
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous)
 
 
 def load_admission(admission_ref, *, mode):
@@ -203,6 +248,7 @@ def supervise(admission, *, admission_ref, run_directory, mode, started_ns, star
     reservation_path = None
     streams = []
     last_status_ns = started_ns
+    cleanup_started = False
 
     def put(path, value, cap=4194304):
         return _absolute(legacy.put(path, value, cap=cap))
@@ -212,11 +258,27 @@ def supervise(admission, *, admission_ref, run_directory, mode, started_ns, star
         receipt['status'] = 'STOPPED_NO_RETRY'
         if receipt['primary_failure'] is None:
             receipt['primary_failure'] = value
+            clock.stop(value['code'])
+            try:
+                receipt['first_failure_ref'] = persist_first_failure(
+                    receipt, clock, run, put, cleanup_started=cleanup_started)
+                receipt['first_failure_persistence'] = 'DURABLE_READBACK_VERIFIED'
+            except BaseException as persistence_error:
+                detail = safe_failure(persistence_error, phase='STAGE06_PRIMARY_FAILURE_PERSISTENCE')
+                if detail['code'] not in ('stage06_primary_failure_persistence_timeout',
+                        'stage06_primary_failure_timer_unavailable', 'stage06_primary_failure_readback'):
+                    detail['code'] = 'stage06_primary_failure_persistence_failed'
+                receipt['secondary_failures'].append(detail)
+                receipt['first_failure_persistence'] = 'FAILED_NO_RETRY'
             frames = value.get('frames', [])
             last = frames[-1] if frames else None
             location = (last['path']+':'+last['function']+':'+str(last['line'])) if last else 'UNAVAILABLE'
-            print('PRIMARY_FAILURE phase='+value['phase']+' code='+value['code']+
-                ' error_class='+value['error_class']+' source_location='+location, flush=True)
+            try:
+                print('PRIMARY_FAILURE phase='+value['phase']+' code='+value['code']+
+                    ' error_class='+value['error_class']+' source_location='+location, flush=True)
+            except BaseException as output_error:
+                receipt['secondary_failures'].append(safe_failure(output_error,
+                    phase='STAGE06_PRIMARY_FAILURE_OUTPUT'))
         elif value != receipt['primary_failure'] and value not in receipt['secondary_failures']:
             receipt['secondary_failures'].append(value)
         clock.stop(value['code'])
@@ -500,6 +562,7 @@ def supervise(admission, *, admission_ref, run_directory, mode, started_ns, star
     except BaseException as error:
         failure(error)
     finally:
+        cleanup_started = True
         live = [state for state in children if state['child'].poll() is None]
         if live:
             stop = clock.stop((receipt['primary_failure'] or {}).get('code','stage06_child_cleanup'))
@@ -604,8 +667,10 @@ def build_bootstrap(scenario, session, a_keys, b_keys, producer_folder):
 def main():
     parser = argparse.ArgumentParser(description='Finite ordinary native external-DRS owner operation.')
     parser.add_argument('--admission-sha256', required=True)
+    parser.add_argument('--admission-file', choices=('owner_admission.json', 'owner_admission_02.json'),
+        default='owner_admission.json')
     args = parser.parse_args()
-    admission_ref = reference(BASE/'owner_admission.json')
+    admission_ref = reference(BASE/args.admission_file)
     require(admission_ref['sha256'] == args.admission_sha256, 'stage06_owner_admission_hash')
     admission, _, _, _, _, _ = load_admission(admission_ref, mode='owner')
     name = 'OWNER_'+time.strftime('%Y%m%dT%H%M%S',time.gmtime())+'_'+uuid.uuid4().hex

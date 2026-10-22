@@ -1,0 +1,3 @@
+STAGE06_CHILD_STARTED role=producer session=1 pid=51193
+PRIMARY_FAILURE phase=STAGE06_OWNER_TERMINAL code=STAGE06_OPERATION_LIMIT error_class=ValueError source_location=/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py:require:49
+STAGE06_FINAL_PERSISTENCE_FAILED primary_code=STAGE06_OPERATION_LIMIT

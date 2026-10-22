@@ -1,0 +1,33 @@
+{
+  "automatic_retry": false,
+  "budget_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/engineering_budget.json",
+    "sha256": "2d6947ab18a64f88a7f5f48313526dddc0358986a338945bfdab7a5ec3de661a",
+    "size_bytes": 1537
+  },
+  "child_reaped": true,
+  "control_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_result_review.json",
+    "sha256": "1d31ca7b5f4cbb6fa324279eb2b4ca4496d829a3e27f76dcfebc39205a6ef98f",
+    "size_bytes": 42166
+  },
+  "controls_inner_elapsed_ns": 1287292208,
+  "controls_outer_elapsed_ns": 1341037333,
+  "cumulative_used_and_reserved_ns": 177497419582,
+  "final_tool_return_observed": true,
+  "model_calls": 0,
+  "native_Work_calls": 0,
+  "new_finalization_reserve_ns": 60000000000,
+  "new_measured_checks_ns": 1515728000,
+  "new_readonly_reserve_ns": 10000000000,
+  "no_reset_or_refund": true,
+  "owned_process_group_closed": true,
+  "owner_scenario_runs": 0,
+  "prior_conservative_charged_ns": 105981691582,
+  "remaining_unreserved_ns": 722502580418,
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.supervisor_repair_execution_accounting.v1",
+  "scope": "The inner control duration is contained in the outer duration and is not added again. Final documentation/commit/selection/packaging/readback is covered by the separately reserved 60 seconds; subsequent mechanical durations must be recorded within that reserve.",
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "total_limit_ns": 900000000000
+}

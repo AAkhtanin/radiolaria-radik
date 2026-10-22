@@ -1,0 +1,45 @@
+{
+  "schema": "radik.stage06.supervisor_repair_budget.v1",
+  "total_limit_seconds": 900,
+  "prior_conservative_charged_seconds": 105.981691582,
+  "prior_charge_includes_full_60_second_finalization_reserve": true,
+  "initial_readonly_preparation_reserve_seconds": 10,
+  "checks": [
+    {
+      "id": "R01_PREPARATION",
+      "kind": "AST_ONLY_AND_FINITE_MANIFEST_PIN_REFRESH",
+      "elapsed_ns": 173047042,
+      "status": "PASS",
+      "changed_source_rows": [
+        {
+          "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+          "before_sha256": "0a6015759020b6262cb9dfe659ecc5a65a4a0c62c7ed4b954e5862c9b1cf4219",
+          "after_sha256": "e32972ad19af2f6f16b5917fc97994213688e73404cb57a1df986b63b54c92ae"
+        }
+      ],
+      "source_rows": 1130,
+      "native_Work_calls": 0,
+      "model_calls": 0
+    },
+    {
+      "id": "R02_RETURN_ADAPTER_AST_PREPARATION",
+      "elapsed_ns": 1643625,
+      "status": "PASS",
+      "native_Work_calls": 0,
+      "model_calls": 0
+    },
+    {
+      "id": "R03_STDLIB_CONTROLS",
+      "elapsed_ns": 1341037333,
+      "exit_code": 0,
+      "process_group_closed": true
+    }
+  ],
+  "new_finalization_reserve_seconds": 60,
+  "initial_used_and_reserved_seconds": 175.981691582,
+  "owner_scenario_runs": 0,
+  "native_Work_calls": 0,
+  "model_calls": 0,
+  "explanation": "Continuation of the same 900-second budget; unused historical reserve conservatively charged, never reset.",
+  "used_and_reserved_seconds": 177.497419582
+}

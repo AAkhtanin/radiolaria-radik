@@ -1,0 +1,33 @@
+{
+  "schema": "radik.stage06.supervisor_repair_command_check.v1",
+  "status": "PASS_STATIC_NOT_EXECUTED",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+    "--admission-file",
+    "owner_admission_02.json",
+    "--admission-sha256",
+    "3d6d8fac08eaba3b747f70351ffd87ad8b5b1e64c96354f788a80640415e9fb0"
+  ],
+  "command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage06_external_drs_repair_01/OWNER_COMMAND.txt",
+    "sha256": "6cead7e4fb0dda2193400c012d63b25af3801348c4889589ec95951439ea0858",
+    "size_bytes": 290
+  },
+  "admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_admission_02.json",
+    "sha256": "3d6d8fac08eaba3b747f70351ffd87ad8b5b1e64c96354f788a80640415e9fb0",
+    "size_bytes": 4729
+  },
+  "source_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/source_manifest_PROBE_04.json",
+    "sha256": "94cfa415a9487379ba1ca644fca4baf3b3136adb6aabdd36bb0ee5e2e06a279a",
+    "size_bytes": 1087778
+  },
+  "owner_scenario_executed": false,
+  "reservation_absent": true,
+  "elapsed_ns": 1209709
+}

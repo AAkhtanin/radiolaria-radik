@@ -1,0 +1,16 @@
+{
+  "id": "R01_PREPARATION",
+  "kind": "AST_ONLY_AND_FINITE_MANIFEST_PIN_REFRESH",
+  "elapsed_ns": 173047042,
+  "status": "PASS",
+  "changed_source_rows": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "before_sha256": "0a6015759020b6262cb9dfe659ecc5a65a4a0c62c7ed4b954e5862c9b1cf4219",
+      "after_sha256": "e32972ad19af2f6f16b5917fc97994213688e73404cb57a1df986b63b54c92ae"
+    }
+  ],
+  "source_rows": 1130,
+  "native_Work_calls": 0,
+  "model_calls": 0
+}

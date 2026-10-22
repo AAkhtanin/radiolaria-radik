@@ -1,0 +1,135 @@
+{
+  "Stage06_closed": false,
+  "accepted_delta": [
+    "Add four exact limit codes and four exact journal diagnostic codes; retain finite membership checks.",
+    "Save original primary and clock.stop before persistence; attempt one exclusive journal of at most 65536 bytes through accepted durable put and explicit pinned readback.",
+    "Use a scoped SIGALRM at min(original saved cleanup end, now plus one second), cancel it and restore the previous handler. An already active interval timer is refused without replacing it.",
+    "On journal write/readback/timeout, append a dedicated secondary without recursion or retry. Printing failure also cannot prevent mandatory teardown. Later errors cannot change primary or stop_ns.",
+    "Allow only the fixed old/new admission basenames; old admission, readiness, budget and consumed manifest remain preserved."
+  ],
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "automatic_retry": false,
+  "budget_scope": {
+    "central_accounting_owner": "/root",
+    "initial_new_readonly_reserve_seconds": 10,
+    "measured_manifest_preparation_ns": 173047042,
+    "new_finalization_reserve_seconds": 60,
+    "no_budget_reset_or_refund": true,
+    "prior_conservative_charge_seconds": 105.981691582,
+    "source_only_packaging_preparation_ns": 1643625,
+    "total_shared_seconds": 900
+  },
+  "confirmed_old_defects": [
+    "Four OperationClock due_reason codes were absent from both static and manifest failure allowlists and were replaced by stage06_supervision_failure.",
+    "The first failure was retained only in memory/stdout before child cleanup; durable final receipt came afterward."
+  ],
+  "control_scope": {
+    "admission_loader": "Explicit in-memory substitute; owner main and actual admission/launcher paths are not called.",
+    "cases": 8,
+    "four_real_due_reason_branches": true,
+    "late_finalization": "Forced expired clocks can add a later secondary after the immutable receipt. Controls correctly check exact primary/stop/reap on the retained receipt and finalization_failure artifact without requiring stale full-object equality.",
+    "max_total_disposable_children": 8,
+    "module_scope": "Exactly the five pinned sources; imported modules are stdlib only. No candidate app/native import, AUTH, provider, model, owner scenario or PROBE_02 repeat.",
+    "one_disposable_stdlib_sleep_child_per_case": true,
+    "persistence_controls": [
+      "successful fsync and readback before first cleanup action",
+      "write failure",
+      "readback failure",
+      "one-second timer interruption",
+      "later cleanup secondary"
+    ],
+    "project_and_lock": "Only isolated fresh per-case folders/lock below repair_01/controls_run_01.",
+    "real_supervisor_failure_finally_and_cleanup": true,
+    "synthetic_clock_states": true
+  },
+  "interpreter_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "io_scope": {
+    "network_allowed": false,
+    "private_or_credentials_reads_allowed": false,
+    "production_writes_allowed": false,
+    "reads": "Five pinned source files, stdlib/interpreter modules and the fresh control outputs.",
+    "writes": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/controls_run_01"
+  },
+  "limitations": [
+    "SIGALRM can interrupt ordinary userspace/blocking system calls; an uninterruptible kernel I/O stall is not claimed to be hard-bounded.",
+    "Controls use synthetic deadline state and stdlib children. They prove the repaired supervisor branches, not native semantics or a new owner actual.",
+    "New owner readiness/admission requires independent result acceptance of this exact run."
+  ],
+  "model_calls": 0,
+  "native_Work_calls": 0,
+  "new_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/source_manifest_PROBE_04.json",
+    "sha256": "94cfa415a9487379ba1ca644fca4baf3b3136adb6aabdd36bb0ee5e2e06a279a",
+    "size_bytes": 1087778
+  },
+  "outer_enforcement": {
+    "kill_and_reap_seconds": 5,
+    "owned_process_group": true,
+    "run_timeout_seconds": 30,
+    "start_new_session": true,
+    "timeout_action": "Kill the owned control process group and reap; never start another invocation under this grant.",
+    "total_max_seconds": 35
+  },
+  "owner_scenario_runs": 0,
+  "preparation_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/preparation_result.json",
+    "sha256": "58691f4cd1f068b245cbabae0a72c04d0e1856cca6566fb684eda7346d6890d8",
+    "size_bytes": 537
+  },
+  "preservation_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/preservation.json",
+    "sha256": "c6ee06b1a9741a2748c10de556d2e6677e0097139326943b451cff6642c07e6e",
+    "size_bytes": 2104
+  },
+  "prior_accepted_native_result_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+    "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+    "size_bytes": 40038
+  },
+  "reviewer": "/root/private_remote_controls",
+  "runtime_diff_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/owner_terminal.diff",
+    "sha256": "692b0dd6644ebbd99731ca31941b2b9b62fda9472c0818e0c4b6ae5001b13fe3",
+    "size_bytes": 8029
+  },
+  "schema": "radik.stage06.supervisor_repair_control_source_review.v1",
+  "source_findings": [],
+  "source_refs": [
+    {
+      "name": "controls",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/repair_01/stdlib_controls.py",
+      "sha256": "c255a4231897862415e8f17c86b441f1619dc6bd77a5e84006fa4f7abd79e65e",
+      "size_bytes": 12185
+    },
+    {
+      "name": "owner",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/owner_terminal.py",
+      "sha256": "e32972ad19af2f6f16b5917fc97994213688e73404cb57a1df986b63b54c92ae",
+      "size_bytes": 39507
+    },
+    {
+      "name": "adapter",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/supervisor_timing.py",
+      "sha256": "90d3079f6d3b9896d0790071a62a07be17a7c0c1313f3222ad8249364abec902",
+      "size_bytes": 6278
+    },
+    {
+      "name": "timing",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/supervisor_timing.py",
+      "sha256": "2f793adecf280708d585b4ee5e3bb751056f1679e3e18b056fb521d73098d3af",
+      "size_bytes": 16726
+    },
+    {
+      "name": "legacy",
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v09/integration/owner_terminal.py",
+      "sha256": "81a0834702f6469d5794e5ee0b7b571381ef3a5366982d7757920789d7df1fb1",
+      "size_bytes": 72894
+    }
+  ],
+  "status": "ACCEPTED_FOR_ONE_ISOLATED_STDLIB_CONTROL_RUN"
+}

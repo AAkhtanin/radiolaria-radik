@@ -1,0 +1,40 @@
+{
+  "Stage06_closed": false,
+  "all_other_AST_exact": true,
+  "before_ref": {
+    "path": "review/stage06_external_drs_passage/v01/build_return.py",
+    "sha256": "832bbfaa7a192b7d47e3756fbfb50090bd8b1cc8f65ca3c916c6efd55996da05",
+    "size_bytes": 10023
+  },
+  "delta": [
+    "BASE changes to repair_01.",
+    "External report root changes to stage06_external_drs_repair_01.",
+    "Publisher reservation key changes to stage06_external_drs_supervisor_repair_01."
+  ],
+  "exception_shapes_and_scanning_unchanged": true,
+  "execution_or_packaging_grant": false,
+  "owner_scenario_executed": false,
+  "prior_source_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/return_adapter_source_review.json",
+    "sha256": "c8259f1b627088251ae9f669be6fe0a46a5b5eae0b0b0d4a77187110bdc1a938",
+    "size_bytes": 2145
+  },
+  "publisher_unchanged": true,
+  "remaining_requirements": "Exact finite selection, public-field inventory including an empty one if appropriate, external command/report review, fresh reservation, then one separate packaging grant and full delivered readback.",
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.repair_return_adapter_source_review.v1",
+  "source_only": true,
+  "status": "SOURCE_ACCEPTED_FOR_SEPARATELY_GRANTED_FINITE_RETURN",
+  "writer_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/repair_01/build_return.py",
+      "sha256": "999a59dcda13abf6f56d01bffd220d681d6efedfeb73de74e2042d6b3d65c38d",
+      "size_bytes": 10056
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ]
+}

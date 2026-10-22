@@ -1,0 +1,112 @@
+{
+  "schema": "radik.stage06.engineering_budget.v1",
+  "wall_limit_seconds": 900,
+  "probe_limit_seconds_including_cleanup": 300,
+  "cleanup_limit_seconds": 30,
+  "initial_readonly_preparation_charge_seconds": 10,
+  "initial_charge_method": "Conservative reservation for initial uninstrumented read-only shell metadata and hash checks; not claimed as measured runtime. All candidate checks use measured monotonic wall including preparation and cleanup.",
+  "used_seconds": 45.981691582,
+  "active_probe": null,
+  "probes": [
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M001",
+      "check": "Finite source inventory and AST-only syntax read",
+      "status": "STOPPED_NO_RETRY",
+      "elapsed_seconds": 7.419981291,
+      "code_sha256": "162b84f037e552e16df963ccf1857287f79edf5a46a016850e1766721d76d064",
+      "primary_failure": {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/test/tokenizedata/bad_coding.py",
+        "exception": "SyntaxError",
+        "reason": "Bundled interpreter negative syntax fixture; not an application dependency"
+      },
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M002",
+      "check": "Finite source inventory and AST-only syntax read",
+      "status": "PASS",
+      "elapsed_ns": 2973140625,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1129, \"bytes\": 56257481, \"manifest_sha256\": \"a01eff3557c753802fd04321dbe1ad35ba39164e76b526e2bd206793c1c9bec9\", \"manifest_bytes\": 1085534}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M003",
+      "check": "Final frozen source inventory and AST-only syntax read",
+      "status": "PASS",
+      "elapsed_ns": 2821420291,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56277273, \"manifest_sha256\": \"c9f4e5eafbba84f1b87ad48127e8af6adaa0002ed5952ae5fc4eedb4ca46fe79\", \"manifest_bytes\": 1087243}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M004",
+      "check": "Final deadline-tail source inventory refresh; AST only",
+      "status": "PASS",
+      "elapsed_ns": 2613937500,
+      "code_sha256": "42d61d0f9dd4d614e8a3f4d0f088393546b2faacf07301be4cb281d0ef926582",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56278079, \"manifest_sha256\": \"56ff1cbd852bdee3ebf158593a0bdf18312effebac18dec5c3943b146b5daa1e\", \"manifest_bytes\": 1087243}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "id": "PROBE_01",
+      "status": "STOPPED_NO_RETRY",
+      "charged_ns": 6293084375,
+      "elapsed_seconds": 1.293087041,
+      "primary_failure": "work_semantic_binding",
+      "child_reaped": true
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M005",
+      "check": "Narrow intent binding repair source inventory; AST only",
+      "status": "PASS",
+      "elapsed_ns": 2996995167,
+      "code_sha256": "aec290eb62c8a51ab864faf6887767f8fa030e69f23860eec7ac31e1a9bbbb68",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56278384, \"manifest_sha256\": \"ac0b1cc34745d067307599922ceb15fbae3de6a2ab68fad868d003db92e14f96\", \"manifest_bytes\": 1087327}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "schema": "radik.stage06.preparation_check.v1",
+      "id": "M006",
+      "check": "Versioned preimport routing repair inventory; AST only",
+      "status": "PASS",
+      "elapsed_ns": 2973863500,
+      "code_sha256": "aec290eb62c8a51ab864faf6887767f8fa030e69f23860eec7ac31e1a9bbbb68",
+      "returncode": 0,
+      "stdout": "{\"files\": 1130, \"bytes\": 56278553, \"manifest_sha256\": \"5ab7f8c92a944c58075be2db7a3206b90eff9c6ea9d4e111835f63a3bba5a8e6\", \"manifest_bytes\": 1087327}\n",
+      "stderr": "",
+      "native_calls": 0,
+      "imports_of_candidate": 0
+    },
+    {
+      "id": "PROBE_02",
+      "status": "CHILD_RETURNED_REQUIRES_INDEPENDENT_REVIEW",
+      "charged_ns": 7889268833,
+      "elapsed_seconds": 2.889270458,
+      "child_reaped": true
+    }
+  ],
+  "model_calls": 0,
+  "owner_scenario_runs": 0,
+  "finalization_reservation_seconds": 60,
+  "maximum_used_and_reserved_seconds": 105.981691582,
+  "finalization_scope": "Finite documentation/selection controls, local candidate commit metadata, existing return exporter (delivery wait at most 30 seconds), full archive readback; no additional native or owner scenario."
+}
