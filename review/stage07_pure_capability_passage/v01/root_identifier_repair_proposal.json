@@ -1,0 +1,103 @@
+{
+  "first_failure_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/first_failure.json",
+    "sha256": "64fe5e61dde8aa93a5cc383f2a1bf3bd6151f55e0970fd5de5e835d7430a9543",
+    "size_bytes": 1601
+  },
+  "mapping": {
+    "all_ids_pattern_argument": "The suffix contains letters only. The fixed prefix has no credential markers or passport label and its stage07 digits are immediately followed by a colon, so neither long numeric sequences nor the IBAN alphanumeric tail can cross it.",
+    "codomain": "abcdefghijklmnop",
+    "domain": "0123456789abcdef",
+    "injectivity": "All 16 input symbols have distinct output symbols. Fixed-length symbolwise concatenation has a unique inverse, so unequal invocation IDs cannot acquire the same Root suffix.",
+    "rule": "The ith hexadecimal symbol maps to the ith letter. Each 32-symbol invocation ID maps to exactly 32 letters.",
+    "unchanged_identity": "Original invocation_id remains byte-exact in scenario, task IDs and report; only its Root namespace representation changes."
+  },
+  "observed_cause": "PROBE_01 owning_local_root_id passed reference syntax but its 32-character UUID suffix matched the frozen case-insensitive IBAN detector. The authority-envelope root-evidence guard consequently refused before DRS reservation or write.",
+  "preparation_elapsed_ns_before_record_write": 8176666,
+  "reference_ref": {
+    "path": "source/reference/hedgehog/drs_semantic_address_v01.py",
+    "sha256": "9b0cae8c7d5f02cec8d3df573d7107b7b4b013b3e7416480e871b833aa6e2e20",
+    "size_bytes": 57213
+  },
+  "runtime_semantics_claimed": false,
+  "scenario_checks": [
+    {
+      "after": {
+        "reference_syntax_valid": true,
+        "sensitive_pattern_matches": {
+          "_AUTHENTICATION_HEADER": false,
+          "_CARD_NUMBER": false,
+          "_IBAN": false,
+          "_KEY_VALUE_SECRET": false,
+          "_PASSPORT": false,
+          "_PRIVATE_KEY": false
+        }
+      },
+      "after_root_id": "root:radik:stage07:plcfhgejeppkeadbigoieebnkhafaafe",
+      "before": {
+        "reference_syntax_valid": true,
+        "sensitive_pattern_matches": {
+          "_AUTHENTICATION_HEADER": false,
+          "_CARD_NUMBER": false,
+          "_IBAN": true,
+          "_KEY_VALUE_SECRET": false,
+          "_PASSPORT": false,
+          "_PRIVATE_KEY": false
+        }
+      },
+      "before_root_id": "root:radik:stage07:fb2576494ffa403186e8441da7050054",
+      "original_invocation_id": "fb2576494ffa403186e8441da7050054",
+      "scenario_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/engineering_scenario.json",
+        "sha256": "a5379714c12e67526a8ca6530ff7e456ebee49604337587be4a56fcdb741f5f7",
+        "size_bytes": 846
+      }
+    },
+    {
+      "after": {
+        "reference_syntax_valid": true,
+        "sensitive_pattern_matches": {
+          "_AUTHENTICATION_HEADER": false,
+          "_CARD_NUMBER": false,
+          "_IBAN": false,
+          "_KEY_VALUE_SECRET": false,
+          "_PASSPORT": false,
+          "_PRIVATE_KEY": false
+        }
+      },
+      "after_root_id": "root:radik:stage07:fppnklehongfebamjbkojcaoecpenjlm",
+      "before": {
+        "reference_syntax_valid": true,
+        "sensitive_pattern_matches": {
+          "_AUTHENTICATION_HEADER": false,
+          "_CARD_NUMBER": false,
+          "_IBAN": false,
+          "_KEY_VALUE_SECRET": false,
+          "_PASSPORT": false,
+          "_PRIVATE_KEY": false
+        }
+      },
+      "before_root_id": "root:radik:stage07:5ffdab47ed65410c91ae920e42f4d9bc",
+      "original_invocation_id": "5ffdab47ed65410c91ae920e42f4d9bc",
+      "scenario_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_scenario.json",
+        "sha256": "d3babe7b675baf4bb20114318fecd1455fc5dccb85337df3b98ac621bd7a107b",
+        "size_bytes": 846
+      }
+    }
+  ],
+  "schema": "radik.stage07.root_identifier_repair_proposal.v1",
+  "scope": "Application-owned Root identifier representation only; immutable native writer, validators, authority and historical evidence unchanged.",
+  "source_after": {
+    "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+    "sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+    "size_bytes": 22505
+  },
+  "source_before": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_01/candidate/app/pure_capability.py",
+    "sha256": "8f74cb065af95e668f3333fbb43628e294ff0fc21cbbe611d46bf64d9f3e03ff",
+    "size_bytes": 22344
+  },
+  "static_scope": "Extracted literal regular expressions and scenario data only; no reference or candidate module imports, no native calls, no worker executions.",
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW"
+}

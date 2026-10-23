@@ -1,0 +1,59 @@
+{
+  "candidate_application_source_changed": false,
+  "current_files": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/README.md",
+      "sha256": "a690720c858b88c6e94479ead1f70639db1a65fc0ce05447a9866e398eefe599",
+      "size_bytes": 5986
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/READ_RADIK_STAGE07.xml",
+      "sha256": "8396018e1b1b30c2ebe0f092df206874627b657a1c82eb8d4903a1a889680e1e",
+      "size_bytes": 25595
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/AUDIT_LOG.md",
+      "sha256": "72b71b1b43a6727c937daa09dcaa7f0cfc19b1cc735b613faad6dfb60e2b3955",
+      "size_bytes": 4652
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/claims_evidence.json",
+      "sha256": "702c6c5642320d4dea5e584d40248bb38e002003e654b0cf00889e38e4fd86ab",
+      "size_bytes": 19160
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_claims_addendum.json",
+      "sha256": "b2e7da535fb7482a8a4b2d69746ff5190565bd6a98d3de99c82721dfd957f00a",
+      "size_bytes": 17554
+    },
+    {
+      "path": "README.md",
+      "sha256": "fd61a47c5b085bf1d8d2f3c2d0e3ebdde20b79bbd1b04026d41f2f13295eab61",
+      "size_bytes": 12192
+    },
+    {
+      "path": "docs/stand_coverage.md",
+      "sha256": "6a7e043303be21ce01c1c3acd1bc57ff5553bb6b2a75df6f25a22d1275ce0b21",
+      "size_bytes": 12129
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/worker_result_index.json",
+      "sha256": "b988ecafa9bda25eb566d5de4af3f6436697c13737b115aab60f95a75f7dd212",
+      "size_bytes": 4460
+    }
+  ],
+  "independent_decision_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json",
+    "sha256": "513e4750a8db7592a71185fc5dd32848f1282607b82d0276d6c8cefbcbc31285",
+    "size_bytes": 3638
+  },
+  "preparation_elapsed_ns": 4441041,
+  "prepared_by": "/root",
+  "retained_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_basis/readback.json",
+    "sha256": "44e1164b2b0b57e3a3504327ede3dae31ee4ad3873a582aff7fe241ebac3713d",
+    "size_bytes": 1280
+  },
+  "root_changes": "Append-only Stage07 acceptance navigation and current finite U3 disposition; all original bytes remain prefixes.",
+  "schema": "radik.stage07.documentation_changes.v1"
+}

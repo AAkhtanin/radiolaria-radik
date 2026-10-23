@@ -1,0 +1,103 @@
+{
+  "schema": "radik.stage07.owner_command_source_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_OWNER_COMMAND_SOURCE_READY_NOT_EXECUTED",
+  "code_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "source_acceptance_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/reviewer_binding_source_acceptance_01.json",
+      "sha256": "d96fe47c549817a07f5a164a96f3932aa7bb905d7390f47b10066d0e3f213252",
+      "size_bytes": 3805
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_inventory_source_acceptance_01.json",
+      "sha256": "e1190a93968c021eef2f3ad144bed6e8fd956bb84264ccda49958ee1f9a35ce5",
+      "size_bytes": 3519
+    }
+  ],
+  "actual_review_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+      "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+      "size_bytes": 13491
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+      "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+      "size_bytes": 15014
+    }
+  ],
+  "source_route_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "sha256": "de5c081df971c68cc94532db2914eecc0e230e05cb63be3c3cd673a7fcf777ca",
+      "size_bytes": 39730
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/supervisor_timing.py",
+      "sha256": "e1fb5cb10f61cec1640329bdf9c706e256d873beb923149545758186c84c16e1",
+      "size_bytes": 6278
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/launch.py",
+      "sha256": "395aae557c498284951e0a3b6899bd50d9be45d3c5c8074ca9ef9f2411a2f07b",
+      "size_bytes": 14789
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "sha256": "a690d920233e66c067568e76a99cfe181dd518b19ff2a75dcc9ce28a2210d57a",
+      "size_bytes": 14855
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/ordinary_entry.py",
+      "sha256": "62d49ecf521d3508fc8aa6bf6a8fb1791d10b1578889f5e2f367a83a79fd13e1",
+      "size_bytes": 29566
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "sha256": "2e0192512e81fd7b88449a868fb17a7104b8952102d15c31ee5e1395eb0ae3a7",
+      "size_bytes": 21633
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_expiry.py",
+      "sha256": "cf30f0696e31e02a861226d20b34ff77587669d759482d80ae66b0720732b68f",
+      "size_bytes": 10601
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_scenario.json",
+      "sha256": "d3babe7b675baf4bb20114318fecd1455fc5dccb85337df3b98ac621bd7a107b",
+      "size_bytes": 846
+    }
+  ],
+  "preflight_source_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/preflight_owner_command.py",
+    "sha256": "b75cc2b9bde441149d353b180be97b7026f0914a38a412d1c6d37b454bcde12f",
+    "size_bytes": 7164
+  },
+  "source_route": [
+    "Exact one-use admission and source inventory; owner selector only and zero model boundary.",
+    "Fixed owner lock, finite original deadline, exclusive reservation, child launch with pinned pre-import bootstrap and inherited lock descriptor.",
+    "Normal cold/warm causal capability path, fresh Root descent and native worker consumer witnesses preserved under original independent review.",
+    "Shared repaired expiry helper with newly accepted native positive and expired negative; ordinary report selection remains owner-specific.",
+    "Exact loaded source observations and native result joins; genuine current zero-worker finalizer accepted; seven historical workers independently matched to request/PID/stdout/stderr/native reap witnesses.",
+    "Current final receipt, child reap, owner process-group closure source branch, live guards, lock release, operation-close write/readback and nonrenewing failure cleanup reviewed."
+  ],
+  "scope": "Future single owner command preparation only; no invocation, reservation, models, owner scenario, push or Stage08.",
+  "runtime_limitations": [
+    "No complete fresh owner scenario or complete cold/warm aggregate PASS is claimed.",
+    "Owner-specific new-session/group branch is source-reviewed; engineering focus exercised the shared ordinary entry/finalization and outer group closure."
+  ],
+  "limits_basis": "Preserved PROBE_02 outer prefix about 6.381 seconds plus new focused successful tail about 1.389 seconds. Operation 60 s, conservative native 45 s, early/idle 20 s and one cleanup 20 s give finite measured margins. Existing worker-local limits are unchanged; parent wall/native deadlines remain decisive.",
+  "preflight_required_before_delivery": true,
+  "candidate_imports_by_reviewer": 0,
+  "native_calls_by_reviewer": 0
+}

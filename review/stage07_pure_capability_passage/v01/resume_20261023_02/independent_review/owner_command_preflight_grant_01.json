@@ -1,0 +1,65 @@
+{
+  "schema": "radik.stage07.zero_child_owner_preflight_grant.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_FOR_ONE_ZERO_CHILD_OWNER_COMMAND_PREFLIGHT",
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "source_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/preflight_owner_command.py",
+    "sha256": "b75cc2b9bde441149d353b180be97b7026f0914a38a412d1c6d37b454bcde12f",
+    "size_bytes": 7164
+  },
+  "interpreter_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "owner_terminal_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+    "sha256": "de5c081df971c68cc94532db2914eecc0e230e05cb63be3c3cd673a7fcf777ca",
+    "size_bytes": 39730
+  },
+  "owner_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "owner_source_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_source_review_01.json",
+    "sha256": "7ae28edcaf5356e6a46602388450c52a3978da5b6f73ae5db2193073fdeaa9a6",
+    "size_bytes": 6037
+  },
+  "future_owner_argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+    "--admission-file",
+    "owner_admission.json",
+    "--admission-sha256",
+    "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f"
+  ],
+  "owner_execution_allowed": false,
+  "candidate_application_imports_allowed": false,
+  "child_processes_allowed": false,
+  "native_Work_allowed": false,
+  "model_calls_allowed": false,
+  "network_allowed": false,
+  "allowed_output_directory": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual",
+  "max_wall_seconds": 30,
+  "accounting_prior_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/execution_accounting/FOCUSED_EXPIRY_TAIL_01.json",
+    "sha256": "04e1918d0dec6d60af7607c59ece7258c6b8e20428ac973d1b3cc5659e491860",
+    "size_bytes": 12348
+  },
+  "cumulative_charged_ns_before": 81165843668,
+  "charge_measured_wrapper_execution_additively": true,
+  "refusal_controls": 7,
+  "source_review": "Pinned stdlib-only source; exec exact owner module without main; load_admission imports only pinned accepted stdlib supervisor primitives. No supervise call, no reservation or owner run mutation. Audit rejects network/process and writes outside fresh preflight output. Source script and module pins checked before compile."
+}

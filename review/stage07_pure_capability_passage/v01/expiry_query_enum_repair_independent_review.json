@@ -1,0 +1,44 @@
+{
+  "schema": "radik.stage07.expiry_enum_repair_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_SOURCE_ONLY_TARGETED_ENUM_AND_EXPIRY_ASSERTION_REPAIR",
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/expiry_query_enum_repair_proposal.json",
+    "sha256": "6e12bdcfab6f9be512b5216a22671a60ffb63e9d1f1af5fcd416c2fd556662d8",
+    "size_bytes": 3382
+  },
+  "source_before_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/pure_capability.py",
+    "sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+    "size_bytes": 22505
+  },
+  "source_after_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+    "sha256": "588ec68a3e83dec846cb72e43b40b149e74e0d785c126991e9464902df114ddd",
+    "size_bytes": 23304
+  },
+  "native_ref": {
+    "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+    "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+    "size_bytes": 157202
+  },
+  "actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+    "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+    "size_bytes": 13491
+  },
+  "retention_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/retention.json",
+    "sha256": "1b0adaf3c16303bc122ef161c75cc3487aeb26c24059a2b7e7fe0a9171c8ae21",
+    "size_bytes": 7296
+  },
+  "findings": [
+    "Only final future-query construction/assertion block changes; all prefix, suffix, other16 retained executable/source inputs and native dependencies unchanged.",
+    "Retains CURRENT_DECISION and its required INJECTED_CURRENT_DECISION_TIME; changes only as_of/evaluation_time to2001.",
+    "Specific validity/TTL and derivative required TIME_FITNESS evidence failures are asserted in native order; other scope/policy/provenance/authority/conflict/permission gates must remain true. Original record equality remains required.",
+    "Evaluator-only future lane: no expired Host retrieval/admission or backward clock; no native enum/predicate changes.",
+    "Fresh full engineering run is justified to check actual current Host/resources/source/PID finalization; no replay of old records as current authority."
+  ],
+  "execution_granted": false,
+  "mechanical_elapsed_ns_before_write": 21080125
+}

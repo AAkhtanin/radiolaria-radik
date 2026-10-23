@@ -1,0 +1,29 @@
+{
+  "actual_checkout_recovery_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/local_checkout_recovery.json",
+    "sha256": "f517b644aeee2ab3c6bad21a28f59ce7a2b4fb66285732024329c9f017e42797",
+    "size_bytes": 2781
+  },
+  "additional_charge_ns": 10000000000,
+  "basis": "Separate conservative10s for necessary isolated checkout recovery after disappearance of temporary Git checkout. Exact public parent was fetched with credential helper disabled and no remote writes. No owned source overlay or submodule initialization occurred. Source/application modules were not executed.",
+  "effective_cumulative_charged_ns": 74777270459,
+  "effective_remaining_ns": 825222729541,
+  "execution_granted": false,
+  "measured_checkout_recovery_ns": 7916888375,
+  "prior_accounting_changed": false,
+  "prior_recovery_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/recovery_budget_acceptance_01.json",
+    "sha256": "39deab7ab2dd4d7083fe377b8afbefd0a466e0823501cee971cc6f90cea9e39c",
+    "size_bytes": 2127
+  },
+  "refund_or_reset": false,
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "schema": "radik.stage07.checkout_recovery_budget_independent_review.v1",
+  "status": "ACCEPTED_ADDITIVE_CONSERVATIVE_CHECKOUT_PREPARATION_ACCOUNTING",
+  "total_budget_ns": 900000000000
+}

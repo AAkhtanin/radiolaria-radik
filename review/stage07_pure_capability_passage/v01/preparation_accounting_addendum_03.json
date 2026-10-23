@@ -1,0 +1,70 @@
+{
+  "schema": "radik.stage07.preparation_accounting_addendum.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ADDITIVE_MEASURED_PREPARATION_WITHIN_ORIGINAL_RESERVED_ENVELOPE",
+  "original_preparation_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting.json",
+    "sha256": "d2e8ad2d9ea6228a170029969db067e4228b601ec8cd461a3423475ef542b53d",
+    "size_bytes": 2160
+  },
+  "original_charge_unchanged_ns": 15000000000,
+  "measured_entries": [
+    {
+      "name": "initial_measured_preparation",
+      "elapsed_ns": 9338995833
+    },
+    {
+      "name": "initial_final_source_readback",
+      "elapsed_ns": 245611334
+    },
+    {
+      "name": "executed_source_retention",
+      "elapsed_ns": 26456167
+    },
+    {
+      "name": "Root_identifier_repair_preparation",
+      "elapsed_ns": 8854458
+    },
+    {
+      "name": "repair_review_and_inventory_grant",
+      "elapsed_ns": 15000833
+    },
+    {
+      "name": "INVENTORY_03",
+      "elapsed_ns": 2654208292
+    },
+    {
+      "name": "final_manifest_all1176_readback",
+      "elapsed_ns": 93224333
+    },
+    {
+      "name": "packaging_source_AST_proposal",
+      "elapsed_ns": 7480834
+    }
+  ],
+  "cumulative_measured_preparation_ns": 12389832084,
+  "remaining_original_preparation_envelope_ns": 2610167916,
+  "inventory_outcome_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_checks/INVENTORY_03/tool_outcome.json",
+    "sha256": "c9bacb9b2e713e30dee0ae2a3321ce389357c72a21c6721de9a0f63fb078ba1b",
+    "size_bytes": 873
+  },
+  "inventory_grant_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/inventory_preparation_source_review_03.json",
+    "sha256": "9f5d342059183a801ce978f9cc7c98a7e15b3e9fbc601a118f6efe0b3d22ffee",
+    "size_bytes": 5085
+  },
+  "repair_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/root_identifier_repair_independent_review.json",
+    "sha256": "811a2abbcadb019026736dae0c869195504b390ddd5f2392f87bb7d9ea24ec0d",
+    "size_bytes": 2375
+  },
+  "closed_execution_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_01.json",
+    "sha256": "c961545303a73ce4d8f89334f06ee43846c963a20780912769764d32e217531c",
+    "size_bytes": 14658
+  },
+  "cumulative_charged_ns_unchanged": 23396184834,
+  "basis": "All additional measured source preparation is additive within the already charged15s preparation envelope; no refund, reset, changed initial base or consumption of the separate execution closing reserve. Remaining serialization is covered only up to that original envelope. Any excess requires explicit new accounting.",
+  "native_execution": false
+}

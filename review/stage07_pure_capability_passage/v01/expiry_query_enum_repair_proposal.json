@@ -1,0 +1,74 @@
+{
+  "actual_first_failure": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/first_failure.json",
+    "sha256": "30224921acb4bbebcfd5ba8680e91ebe349ca35e296b2119d9ba7ebdc12137a5",
+    "size_bytes": 1388
+  },
+  "analysis_enum_rejected_as_repair": "INJECTED_ANALYSIS_TIME is valid for TREND_ANALYSIS and MEMORY_CONTEXT_ONLY, not CURRENT_DECISION. Using it here would fail source_mapping_passed and could falsely satisfy a generic negative assertion.",
+  "cause": "The application supplied an undeclared native evaluation_time_source enum value. Public query construction refused before the future eligibility evaluation.",
+  "execution_performed": false,
+  "minimal_fix": "Retain the original INJECTED_CURRENT_DECISION_TIME from the actual warm CURRENT_DECISION query. Change only as_of/evaluation_time to the prospectively declared controlled future tick2001.",
+  "native_mode_sources": {
+    "_B2_EVALUATION_TIME_SOURCE_BY_MODE_V01": [
+      [
+        "CURRENT_DECISION",
+        "INJECTED_CURRENT_DECISION_TIME"
+      ],
+      [
+        "DIRECT_REUSE_CANDIDATE",
+        "INJECTED_CURRENT_DECISION_TIME"
+      ],
+      [
+        "HISTORICAL_AS_OF",
+        "RECORDED_HISTORICAL_AS_OF_TIME"
+      ],
+      [
+        "AUDIT_REPLAY",
+        "RECORDED_AUDIT_REPLAY_TIME"
+      ],
+      [
+        "TREND_ANALYSIS",
+        "INJECTED_ANALYSIS_TIME"
+      ],
+      [
+        "MEMORY_CONTEXT_ONLY",
+        "INJECTED_ANALYSIS_TIME"
+      ]
+    ],
+    "_EVALUATION_TIME_SOURCES": [
+      "INJECTED_CURRENT_DECISION_TIME",
+      "RECORDED_HISTORICAL_AS_OF_TIME",
+      "RECORDED_AUDIT_REPLAY_TIME",
+      "INJECTED_ANALYSIS_TIME"
+    ]
+  },
+  "preparation_elapsed_ns_before_record_write": 15541708,
+  "reference": {
+    "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+    "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+    "size_bytes": 157202
+  },
+  "remaining_route": "Existing final checkpoints/current source checks, aggregate report persistence and seven-worker observer finalization remain unchanged and require separately admitted actual execution.",
+  "schema": "radik.stage07.expiry_query_enum_repair_proposal.v1",
+  "scope": "Evaluator-only controlled future observation. No retrieval/admission or expired Host execution in this control; original memory bytes, native APIs, source timestamps and validity remain unchanged.",
+  "source_after": {
+    "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+    "sha256": "588ec68a3e83dec846cb72e43b40b149e74e0d785c126991e9464902df114ddd",
+    "size_bytes": 23304
+  },
+  "source_before": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/pure_capability.py",
+    "sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+    "size_bytes": 22505
+  },
+  "specific_observation_required": {
+    "derivative_failure": "Required TIME_FITNESS evidence and requested TTL/VALIDITY axes fail because the record expired; all non-temporal scope/policy/provenance/authority/conflict/permission gates must remain true.",
+    "query_state": "BLOCKED_BY_TIME",
+    "reason_codes": [
+      "drs_time_validity_interval_invalid",
+      "drs_time_ttl_expired",
+      "drs_required_evidence_missing"
+    ]
+  },
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW"
+}

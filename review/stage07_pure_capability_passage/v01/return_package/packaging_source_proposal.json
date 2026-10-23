@@ -1,0 +1,48 @@
+{
+  "schema": "radik.stage07.return_adapter_source_proposal.v1",
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW",
+  "author": "/root/stage05_g4_contract",
+  "writer_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "e0bf7ed02e73994fea7e5d5020fb3c5674116df06175992af876e25c75ef8b1b",
+    "size_bytes": 10466
+  },
+  "preparation_utility_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py",
+    "sha256": "3d3037e66027186db0cd161494b62e928c6ca795477db7fdd835fa9f39fd42b5",
+    "size_bytes": 6952
+  },
+  "preimage_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/before/build_return_stage06_shape.py",
+    "sha256": "5e4e5e70c24d588108efe686a59c2d1e4782df06a44225491e489b3366d64776",
+    "size_bytes": 10047
+  },
+  "diff_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/public_field_shape.diff",
+    "sha256": "eecbd679100c9ee4f7c35211ea28ab469ac0f15e063891664f9bd27ac4e977f2",
+    "size_bytes": 5029
+  },
+  "closed_shape_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/closed_probe_01_field_shapes.json",
+    "sha256": "3375675a927114fb42678abc4dc7c7a080dc1d291048d0b9704467da984b77a0",
+    "size_bytes": 5641
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "scope": [
+    "Exact selected file hash/size, JSON pointer, canonical value hash and containing-object hash remain mandatory.",
+    "Root claim exact deterministic shape and normalized-claims location; archive shelf, DRS address, and finite Stage07 task/Root identifiers only.",
+    "Only empty native PureWorkerResult stderr byte projection is admitted; nonempty diagnostics remain refused.",
+    "Unused Gate5 nonce exception removed. Existing publisher, reservations, checksum and archive rules unchanged.",
+    "Preparation utility operates on an explicitly hashed finite selection; extracts only five pinned adapter data functions and publisher SECRET_KEYS literal, never imports publisher/application.",
+    "Final actual selection and public-field inventory require separate sole-reviewer approval before packaging."
+  ],
+  "application_imports": 0,
+  "publisher_imports": 0,
+  "packaging_invocations": 0,
+  "preparation_utility_invocations": 0,
+  "source_ast_and_proposal_wall_ns": 7480834
+}

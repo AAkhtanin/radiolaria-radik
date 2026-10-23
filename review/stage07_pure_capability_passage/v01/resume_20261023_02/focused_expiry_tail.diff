@@ -1,0 +1,105 @@
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/candidate/app/pure_capability.py
++++ review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py
+@@ -13,6 +13,7 @@
+ 
+ from hedgehog.drs import LocalDRS
+ from app import pure_capability_work as native
++from app import pure_capability_expiry as expiry
+ 
+ SCHEMA = 'radik.stage07.pure_capability_scenario.v01'
+ SELECTORS = ('pure_capability_owner_v01', 'pure_capability_probe_v01')
+@@ -102,6 +103,9 @@
+ 
+ def run(project, *, folder, scenario, task_selector, on_event, observe_loaded):
+     """Execute only this admitted invocation; no prior authority or demo import."""
++    if task_selector == expiry.FOCUS_SELECTOR:
++        return expiry.run_focused(project, folder=folder, scenario=scenario, task_selector=task_selector,
++            on_event=on_event, observe_loaded=observe_loaded, save_record=save)
+     started, cpu_started, utc_started = time.monotonic_ns(), time.process_time_ns(), time.time_ns()
+     folder = Path(folder)
+     native.require(type(scenario) is dict and set(scenario) == {'schema', 'task_selector', 'invocation_id',
+@@ -323,30 +327,7 @@
+         and not disabled['host'].pure_guest_evidence, 'stage07_optional_bypass')
+     checkpoint('optional_disabled_refused', dict(reason=optional_reason, task=native.task_witness(disabled),
+         generation_attempted=False, admission_attempted=False, guest_work_attempted=False))
+-    # A separate monotonically later query refuses the unchanged original record.
+-    # This is an explicitly controlled eligibility observation, not Host revival.
+-    original_memory = native.canonical(record)
+-    kwargs = {f.name: getattr(retrieval.query, f.name) for f in fields(retrieval.query)
+-        if f.name not in ('query_id', 'temporal_query_version')}
+-    expired_query = native.memory.resolution.build_drs_temporal_query_v01(**(kwargs | {
+-        'as_of': 2001, 'evaluation_time': 2001}))
+-    expired = native.memory.resolution.evaluate_drs_candidate_v01(semantic_address=record.meaning.semantic_address,
+-        query=expired_query, meaning_record=record.meaning)
+-    native.require(expired_query.evaluation_time_source == 'INJECTED_CURRENT_DECISION_TIME'
+-        and expired.query_state == 'BLOCKED_BY_TIME' and not expired.eligible_for_ranking
+-        and not expired.validity_interval_passed and not expired.ttl_freshness_passed
+-        and not expired.temporal_hard_gate_passed and not expired.required_time_axes_passed
+-        and not expired.required_evidence_passed
+-        and expired.reason_codes == ('drs_time_validity_interval_invalid', 'drs_time_ttl_expired',
+-            'drs_required_evidence_missing')
+-        and all(getattr(expired, name) for name in ('scope_passed', 'lifecycle_passed', 'policy_compatible',
+-            'schema_compatible', 'provenance_passed', 'authority_envelope_passed', 'forbidden_changes_passed',
+-            'conflict_passed', 'quarantine_passed', 'deadend_passed', 'action_intent_passed',
+-            'g2a_action_history_passed', 'permission_boundary_passed'))
+-        and native.canonical(record) == original_memory, 'stage07_expired_memory_control')
+-    checkpoint('controlled_expiry', dict(scope='CONTROLLED_FUTURE_QUERY_NO_HOST_TIME_RESET',
+-        interpretation='INELIGIBLE_FOR_RANKING_RETRIEVAL_AND_ADMISSION_NOT_ATTEMPTED_IN_THIS_CONTROL',
+-        query=expired_query, evaluation=expired, unchanged_record_sha256=hashlib.sha256(original_memory).hexdigest()))
++    expiry.assert_expired_memory(record, retrieval.query, checkpoint)
+ 
+     checkpoint('controls_completed', dict(refusals=observations, optional_reason=optional_reason,
+         optional_task=native.task_witness(disabled), positive_neighbor=control_final['label']))
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/owner_terminal.py
++++ review/stage07_pure_capability_passage/v01/owner_terminal.py
+@@ -189,8 +189,9 @@
+     require(admission.get('schema') == 'radik.stage07.owner_admission.v1'
+         and current_reviewer_matches(admission, read_ref, BASE/'reviewer_binding.json')
+         and admission.get('status') == expected and admission.get('mode') == mode
+-        and admission.get('task_selector') == ('pure_capability_owner_v01' if mode == 'owner'
+-            else 'pure_capability_probe_v01')
++        and ((mode == 'owner' and admission.get('task_selector') == 'pure_capability_owner_v01')
++            or (mode == 'engineering' and admission.get('task_selector') in
++                ('pure_capability_probe_v01', 'pure_capability_expiry_tail_v01')))
+         and admission.get('expected_model_calls') == 0
+         and admission.get('approved_owner_invocations') == (1 if mode == 'owner' else 0),
+         'stage07_terminal_independent_admission')
+@@ -535,7 +536,9 @@
+             pump()
+         report = app['final_entry']['value']['report']
+         expected = ('PASS_STAGE07_PURE_CAPABILITY_OWNER' if mode == 'owner'
+-            else 'PASS_STAGE07_PURE_CAPABILITY_PROBE')
++            else 'PASS_STAGE07_FOCUSED_EXPIRY_TAIL'
++                if admission['task_selector'] == 'pure_capability_expiry_tail_v01'
++                else 'PASS_STAGE07_PURE_CAPABILITY_PROBE')
+         require(type(report) is dict and report.get('status') == expected
+             and report.get('task_selector') == admission['task_selector'],
+             'stage07_terminal_report_binding')
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/candidate/config/stage07_bootstrap.py
++++ review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py
+@@ -73,7 +73,10 @@
+     require(hashlib.sha256(raw).hexdigest()==pins[str(helper)]['sha256'],'stage07_io_preimport_pin')
+     from config import stage07_io as io
+     admission_ref=launch['admission_ref'];admission=json.loads(io.read_ref(admission_ref))
+-    mode=launch['mode'];selector='pure_capability_owner_v01' if mode=='owner' else 'pure_capability_probe_v01'
++    mode=launch['mode'];selector=admission['task_selector']
++    require((mode=='owner' and selector=='pure_capability_owner_v01')
++        or (mode=='engineering' and selector in ('pure_capability_probe_v01',
++            'pure_capability_expiry_tail_v01')),'stage07_finite_task_selector')
+     require(mode in ('owner','engineering') and admission['mode']==mode
+         and admission['schema']=='radik.stage07.owner_admission.v1'
+         and current_reviewer_matches(admission, io.read_ref, environment/PREFIX/'reviewer_binding.json')
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/build_source_inventory.py
++++ review/stage07_pure_capability_passage/v01/build_source_inventory.py
+@@ -53,8 +53,10 @@
+     tree(PLATFORM/'lib/python3.14', 'platform', suffixes={'.py', '.so', '.json'})
+     for path in BASE.glob('*.py'):
+         add(path, 'supervisor', False)
+-    for name in ('owner_scenario.json', 'engineering_scenario.json'):
++    for name in ('owner_scenario.json', 'engineering_scenario.json', 'focused_expiry_tail_scenario.json'):
+         if (BASE/name).exists(): add(BASE/name, 'parent_only', False)
++    for name in ('memory_written.json', 'warm_admitted.json'):
++        add(BASE/'offline_attempts/PROBE_02/work/application/witnesses'/name, 'focused_historical_evidence')
+     for name in ('owner_terminal.py', 'supervisor_timing.py'):
+         add(PROJECT/'review/stage05_qualified_experience_passage/v09/integration'/name, 'accepted_supervisor', False)
+     files, directories, codes = [], set(), set()

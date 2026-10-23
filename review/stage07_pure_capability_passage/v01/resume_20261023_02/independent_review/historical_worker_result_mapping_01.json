@@ -1,0 +1,139 @@
+{
+  "schema": "radik.stage07.historical_worker_result_mapping.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "status": "VERIFIED_HISTORICAL_RAW_MAPPING_NOT_REEXECUTED",
+  "actual_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+    "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+    "size_bytes": 15014
+  },
+  "rows": [
+    {
+      "native_span_id": "control_positive_admission",
+      "job_id": "119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6_intent.json",
+        "sha256": "2e88c40815dd875896ab93aad657a3dd25c756d65e124c8b0efffefc4e19994c",
+        "size_bytes": 1115
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/control_positive_return.json",
+        "sha256": "2f78d5cbe48d2b44dc752f7cfdbdbe15d1e6a07aab73ac2143ee4bd7f00bb206",
+        "size_bytes": 80093
+      },
+      "json_pointer": "/attempt/worker_result",
+      "stdout_sha256": "f0198f633aac2337743892ade4304e183319bd292ca158e6a5fb3c233e0bead5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "warm_full_retrieval_admission",
+      "job_id": "18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57_intent.json",
+        "sha256": "64a470d519e7845a437bff0f3d628c53eb2a879acece6cba49688fdcdc4aeb2b",
+        "size_bytes": 1118
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json",
+        "sha256": "f680fb7e28d63e8e8482bf72f82589e284428675e3b7fdd015252f79d504d8ce",
+        "size_bytes": 115919
+      },
+      "json_pointer": "/attempt/worker_result",
+      "stdout_sha256": "f0198f633aac2337743892ade4304e183319bd292ca158e6a5fb3c233e0bead5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "cold_full_admission",
+      "job_id": "5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999_intent.json",
+        "sha256": "f2112d72a3f9b72d2a513c58c765af6ca5b6b16a585dace001e22bd824b45144",
+        "size_bytes": 1108
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/cold_admission_return.json",
+        "sha256": "ebd874af0ba0d8943c39912db6983bc27464629e7bdc5c274b01e6f5802c0d7f",
+        "size_bytes": 80081
+      },
+      "json_pointer": "/attempt/worker_result",
+      "stdout_sha256": "f0198f633aac2337743892ade4304e183319bd292ca158e6a5fb3c233e0bead5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "warm_continuation",
+      "job_id": "61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf_intent.json",
+        "sha256": "76e5350636059251511b32a72b63403f16d4b892a6a42ce4f5e4bafc73526421",
+        "size_bytes": 1106
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_consumed.json",
+        "sha256": "bd500dd19072ec9fb3d513cf3b8781b6f27af607d48e74975ee5319b9ebbc6cf",
+        "size_bytes": 493500
+      },
+      "json_pointer": "/task/pure_guest_evidence/0/worker_result",
+      "stdout_sha256": "8ece6f71f381e39c404d96084bb7a1e8fa6078cc958e089aa398e9f05f2e6f4d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "controls_continuation",
+      "job_id": "66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2_intent.json",
+        "sha256": "d8c9d612a5ee1b2f481e32bc37311bfecacef507a32e72bf8f01d49e24b42ddc",
+        "size_bytes": 1110
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/controls_consumed.json",
+        "sha256": "dc60a32dde30fb7c12f3ce956331061f8669b922ff4a53d685552b1e813323d1",
+        "size_bytes": 507375
+      },
+      "json_pointer": "/task/pure_guest_evidence/0/worker_result",
+      "stdout_sha256": "668102d2c6201d6c145950b74f6b63ba8613ebbde4fe8826b3dcfcba0f834b5f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "control_wrong_oracle",
+      "job_id": "6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af_intent.json",
+        "sha256": "bcca5e215d87fd40f57755927a20ed72fb70464c78aadf069173d5de0f93efab",
+        "size_bytes": 1109
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/control_oracle_return.json",
+        "sha256": "609df4827582a995195bec6765c9b7a0f646acc1def5515a2c617ae342550acd",
+        "size_bytes": 10134
+      },
+      "json_pointer": "/attempt/worker_result",
+      "stdout_sha256": "04a563e9d0f0ed7aeb25d3d7225536c42b1c752c43b0c244c7d7dea7588da0d0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    },
+    {
+      "native_span_id": "cold_continuation",
+      "job_id": "9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd",
+      "intent_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd_intent.json",
+        "sha256": "d488ce51a8f25f51cab1970273640a4a6206458c1a1f37b697595d2973a5fdb0",
+        "size_bytes": 1106
+      },
+      "native_result_witness_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/cold_consumed.json",
+        "sha256": "14eaf176c6e68b54d8380ab1ee24dee335e5ae842b86768b2c5a63f17e1ccf64",
+        "size_bytes": 496655
+      },
+      "json_pointer": "/task/pure_guest_evidence/0/worker_result",
+      "stdout_sha256": "8ccfae06a15523cfa46b750b133ed4197a007c5b5e7005be09addfe4eeef92de",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "process_reaped": true
+    }
+  ],
+  "findings": "Each historical native span is matched to its own causal witness and exact JSON pointer, including identical admission outputs in distinct spans. No new worker or runtime finalizer invocation; earlier source/raw verification is retained."
+}

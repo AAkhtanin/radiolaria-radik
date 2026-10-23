@@ -1,0 +1,30 @@
+{
+  "author": "/root",
+  "basis_actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+    "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+    "size_bytes": 13491
+  },
+  "cold_warm_native_reexecutions_after_reboot": 0,
+  "completed_applicable_evidence_retained": [
+    "Cold real need, deterministic generation, full admission and same-task consumer",
+    "Warm need-based retrieval, fresh admission and same-task consumer with zero generation",
+    "Seven negative controls and positive neighbors",
+    "Optional-disabled refusal",
+    "Seven native workers reaped and stopped operation closure"
+  ],
+  "console_attempts": 59,
+  "exam_attempts": 16,
+  "historical_UNKNOWN_count": 5,
+  "independent_acceptance": false,
+  "missing_actual_evidence": [
+    "Controlled expiry at2001 after repaired enum/assertions",
+    "Successful aggregate report and final current-source/worker/receipt closure",
+    "Runtime observations for changed current reviewer gates"
+  ],
+  "old_handling_completion_ref_failure": "Resolved read-only schema access, verified original completion; not application failure",
+  "overall_stage07_accepted": false,
+  "provider_model_AUTH_E_SAVE_calls_after_reboot": 0,
+  "save_quota_state": "CLOSED",
+  "schema": "radik.stage07.recovery_coverage_addendum.v1"
+}

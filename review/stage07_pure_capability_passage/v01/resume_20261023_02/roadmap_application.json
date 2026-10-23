@@ -1,0 +1,14 @@
+{
+  "Stage08_or_future_environment_executed": false,
+  "after_sha256": "191dcd1be31941660fb1cc67b6f78a05f47603d518974e6339d836591253daae",
+  "author": "/root",
+  "before_sha256": "c77d935a05be51b316d6e41dd65dd17a7d5d3bf88a68bf68e516db68fd71c403",
+  "exact_previous_prefix_preserved": true,
+  "existing_statuses_changed": false,
+  "master_directions": 21,
+  "path": "docs/stand_coverage.md",
+  "preparation_elapsed_ns": 1013167,
+  "retained_before_path": "review/stage07_pure_capability_passage/v01/before/docs/stand_coverage.md",
+  "schema": "radik.stage07.roadmap_append_application.v1",
+  "source_only_document_change": true
+}

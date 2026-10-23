@@ -1,0 +1,51 @@
+{
+  "all_1176_manifest_sources_rehashed": true,
+  "all_five_reviewer_validators_AST_identical": true,
+  "all_other_source_native_dependency_pins_exact": true,
+  "author": "/root",
+  "candidate_application_code_executed": false,
+  "changed_manifest_source_files": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "previous_sha256": "c0439d6794ee3ba9e305a5ccc0ade6b1a55c48a99ebb37c9d42cdf8500228945",
+      "sha256": "4d5cffff227b02e1639eef0eee16c61940e632711d3060ea74712453f52a5916",
+      "size_bytes": 14678
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+      "previous_sha256": "d8f04651bb44c26c1abbb258c06dcb702784d9c617f4dfc6f851edafdda17a4e",
+      "sha256": "2df5f473df75578d4db20515d26638f6d07ae649a6c3e4868e1d5faf04e72516",
+      "size_bytes": 22086
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "previous_sha256": "34ec5c2c4b83e99c61e33d7bd41f62390e0389163a859441d82493918088cf45",
+      "sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+      "size_bytes": 39475
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/probe_runner.py",
+      "previous_sha256": "091e6d9356f4ca25e223337f6ddc75db4c86de4c58a5ddcb5fac765eed9862da",
+      "sha256": "5a3757ab2fd655008a8c3dbbf117adcf645589fe7b4ef491f04c572cc7e735bd",
+      "size_bytes": 3460
+    }
+  ],
+  "changed_packaging_adapter_outside_runtime_manifest": true,
+  "current_grant_gates_use_fixed_path_hash_bound_designation": true,
+  "dynamic_identity_negative_controls_executed": false,
+  "future_accounting_requires_current_reviewer_binding": true,
+  "historical_PROBE_01_PROBE_02_authorship_preserved": true,
+  "inventory_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_REVIEWER_BINDING_01.json",
+    "sha256": "2825226cdd9a7170a260cfb6824e44930760aaa5c1fce82af07063b53a8ebb20",
+    "size_bytes": 1108749
+  },
+  "manifest_file_count": 1176,
+  "preparation_elapsed_ns": 2982544333,
+  "prior_inventory_sha256": "4a7ba22fc1dab9490527e39bb15a82780750838abdf9e1f9dd833f8a190c4100",
+  "reviewer_binding_missing_intentionally": true,
+  "schema": "radik.stage07.reviewer_binding_static_preflight.v1",
+  "source_inventory_status": "AUTHOR_PREPARED_NOT_ACCEPTED",
+  "source_status_scope_one_use_and_model_guards_retained": true,
+  "status": "AUTHOR_STATIC_CHECKS_ONLY_PENDING_INDEPENDENT_REVIEW"
+}

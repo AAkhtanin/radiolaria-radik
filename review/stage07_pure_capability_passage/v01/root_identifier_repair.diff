@@ -1,0 +1,13 @@
+--- PROBE_01/pure_capability.py
++++ candidate/app/pure_capability.py
+@@ -119,7 +119,9 @@
+     store_path.mkdir(parents=True)
+     store = LocalDRS(store_path)
+     witnesses, workers, tasks = {}, [], {}
+-    own_root = 'root:radik:stage07:' + scenario['invocation_id']
++    # A bijective nibble encoding avoids classifying an opaque UUID as financial data.
++    own_root = 'root:radik:stage07:' + scenario['invocation_id'].translate(
++        str.maketrans('0123456789abcdef', 'abcdefghijklmnop'))
+     # The same owned Root scopes LocalDRS; every task receives a new opaque Host.
+     input_dir = folder / 'input'
+     input_dir.mkdir(exist_ok=False)

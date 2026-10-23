@@ -1,0 +1,15 @@
+{
+  "schema": "radik.stage07.roadmap_document_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "status": "ACCEPTED_SOURCE_ONLY_APPEND",
+  "source_path": "/Users/admin/Projects/RadiolariaRadik/docs/stand_coverage.md",
+  "source_sha256": "191dcd1be31941660fb1cc67b6f78a05f47603d518974e6339d836591253daae",
+  "prior_source_path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/before/docs/stand_coverage.md",
+  "prior_source_sha256": "c77d935a05be51b316d6e41dd65dd17a7d5d3bf88a68bf68e516db68fd71c403",
+  "prior_bytes_preserved": true,
+  "existing_direction_statuses_changed": false,
+  "stage07_full_pass_claimed": false,
+  "stage08_execution": false,
+  "independent_findings": "Exact unchanged historical prefix, accepted Stage04-06/21-direction preservation, pending Stage07 criteria pointer and future Stage08/general-environment scope separation. No executable changes or runtime claims.",
+  "candidate_execution_needed": false
+}

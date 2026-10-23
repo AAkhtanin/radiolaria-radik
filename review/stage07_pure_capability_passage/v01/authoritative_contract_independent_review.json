@@ -1,0 +1,303 @@
+{
+  "schema": "radik.stage07.authoritative_contract_independent_review.v1",
+  "reviewer": "private_remote_controls",
+  "status": "SOURCE_CONTRACT_REVIEW_COMPLETE_EXECUTION_NOT_ADMITTED",
+  "scope": "Frozen public U3 contracts, bounded profile interpretation and current protected accounting; no candidate implementation acceptance.",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_tracked_worktree_clean_observed": true,
+  "source_refs": [
+    {
+      "path": "source/reference/specs/current_architecture_lock_v01.md",
+      "sha256": "0e122424aa2cd7f6b3156596f7038d4b46a5d9fc9b4c0962b565730ea5164682",
+      "size_bytes": 33255
+    },
+    {
+      "path": "source/reference/docs/common_action_and_dynamic_composition_contract_v01.md",
+      "sha256": "7f747d14065c11e6194fce94aabcd107693e7d27cd75c5558c37cef0a0a3092d",
+      "size_bytes": 89306
+    },
+    {
+      "path": "source/reference/docs/common_action_and_dynamic_composition_checkpoint_v01.md",
+      "sha256": "fd708a885e0635e9f82bb8baad212f9cbd6db363888a8ae380893a718201e5e9",
+      "size_bytes": 24546
+    },
+    {
+      "path": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "sha256": "1f068c0d1156a312f36a7e55b7cbaf0e3e84503168b3305e10420bd8e3d3cbf0",
+      "size_bytes": 89168
+    },
+    {
+      "path": "source/reference/hedgehog/capability_admission_v01.py",
+      "sha256": "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda",
+      "size_bytes": 18116
+    },
+    {
+      "path": "source/reference/hedgehog/work_execution_host_v01.py",
+      "sha256": "56b7ba85e8612df517d566418fa60a2512bcf9f6707877618a3d846010e6071b",
+      "size_bytes": 52262
+    },
+    {
+      "path": "source/reference/hedgehog/capability_memory_binding_v01.py",
+      "sha256": "6e4f2ca3be12a1e9a93d7b59318d9a6ba90ea6f43bbd9bccc81d8bdefe1b1b79",
+      "size_bytes": 31977
+    },
+    {
+      "path": "source/reference/hedgehog/wasm_pure_worker_v01.py",
+      "sha256": "e9d727f3f971d5429fdffe25b0917548f2e903b63f1922a3bc60f9cb33e6d3ae",
+      "size_bytes": 11394
+    },
+    {
+      "path": "source/reference/demo/run_capability_cold_start_reuse_v01.py",
+      "sha256": "123714d89b7542abdba2c6d79e7a16ce98b5bd92810b032eccab3e82201f56ff",
+      "size_bytes": 19881
+    },
+    {
+      "path": "source/reference/tests/test_capability_admission_v01.py",
+      "sha256": "914aa8d7913ed4e40405cd6a6339e85ada4a7f41840b0e4b1e6e8c311751dda2",
+      "size_bytes": 8306
+    },
+    {
+      "path": "source/reference/tests/test_work_continuation_and_reuse_v01.py",
+      "sha256": "c283d1eb3920076311328a6922257a83672b0bef847e109bedfdcaa3b32d001f",
+      "size_bytes": 35805
+    },
+    {
+      "path": "source/reference/schemas/capability_admission_v01.schema.json",
+      "sha256": "b09ac99cb2e62ffd95098401a5695a0f018d87d4f2e61f9de723f710ac7455e0",
+      "size_bytes": 2711
+    },
+    {
+      "path": "source/reference/schemas/work_composition_v01.schema.json",
+      "sha256": "ac385c7202e39c88890d66fd148c85bfafe35e9c8f79ec9748866be39e6ba6a0",
+      "size_bytes": 14114
+    }
+  ],
+  "public_signatures": [
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1023,
+      "signature": "build_pure_need_permission_v01(program, *, catalogue, source_context, semantic_proposal, work_id, memory_scope, max_generation_attempts=2, max_admissions=3, max_drs_bytes=131072)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1042,
+      "signature": "observe_missing_pure_need_v01(context)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1068,
+      "signature": "validate_current_pure_need_v01(host, *, need)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1075,
+      "signature": "build_pure_missing_trigger_v01(context, *, need, resolution)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1132,
+      "signature": "build_work_historical_output_v01(context, *, revision_id, work_id, output_field)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1246,
+      "signature": "revise_work_program_v01(context, *, previous_revision_id, trigger, items, budget, catalogue, source_context, semantic_proposal)"
+    },
+    {
+      "source": "source/reference/hedgehog/kernel/work_composition_v01.py",
+      "line": 1314,
+      "signature": "advance_work_program_v01(program, *, catalogue, source_context, semantic_proposal, host_map, results=(), review_bindings=(), action_authorizers=None, continuation_context=None)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_admission_v01.py",
+      "line": 203,
+      "signature": "pure_need_oracle_v01(need)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_admission_v01.py",
+      "line": 210,
+      "signature": "pure_source_freeze_v01()"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_admission_v01.py",
+      "line": 219,
+      "signature": "generate_controlled_pure_candidate_v01(host, *, need, expected_revision)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_admission_v01.py",
+      "line": 254,
+      "signature": "admit_pure_candidate_v01(host, *, need, source, source_format, contract_version, expected_revision, fuel=worker.MAX_FUEL, wall_seconds=worker.MAX_WALL)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_admission_v01.py",
+      "line": 290,
+      "signature": "validate_admitted_pure_package_v01(package, *, host, need)"
+    },
+    {
+      "source": "source/reference/hedgehog/work_execution_host_v01.py",
+      "line": 836,
+      "signature": "reserve_pure_need_work_v01(host, *, need, kind, byte_count, expected_revision)"
+    },
+    {
+      "source": "source/reference/hedgehog/work_execution_host_v01.py",
+      "line": 892,
+      "signature": "install_admitted_pure_capability_v01(host, *, package, need, expected_revision)"
+    },
+    {
+      "source": "source/reference/hedgehog/work_execution_host_v01.py",
+      "line": 874,
+      "signature": "inspect_pure_need_resources_v01(host, *, task_id)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_memory_binding_v01.py",
+      "line": 41,
+      "signature": "search_pure_need_v01(store, *, host, need, as_of=None)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_memory_binding_v01.py",
+      "line": 210,
+      "signature": "write_pure_memory_v01(store, *, host, package, proposal)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_memory_binding_v01.py",
+      "line": 282,
+      "signature": "retrieve_pure_memory_v01(store, *, host, need, as_of=None, evaluation_time=None)"
+    },
+    {
+      "source": "source/reference/hedgehog/capability_memory_binding_v01.py",
+      "line": 379,
+      "signature": "validate_pure_memory_retrieval_v01(value, *, host, need)"
+    },
+    {
+      "source": "source/reference/hedgehog/wasm_pure_worker_v01.py",
+      "line": 199,
+      "signature": "run_pure_wasm_worker_v01(source, *, source_format, inputs, fuel=MAX_FUEL, wall_seconds=MAX_WALL)"
+    }
+  ],
+  "basis_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/preserved_baseline.json",
+      "sha256": "88f2cb9139fe12c5337a8b6e09149ad6afe237560c6be8c499b756a2e2170fc0",
+      "size_bytes": 4386
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/historical_accounting_guard.json",
+      "sha256": "7c0a1c3831384d0739d23f549453643b870253f739e293e8e89e4dd2fc28ddb9",
+      "size_bytes": 1368
+    },
+    {
+      "path": "/Users/admin/Downloads/RADIK_STAGE07_U3_START_RU.md",
+      "sha256": "78cf1000dd78237888a47975ec3dfd9adc63e56230057578487e95977d711d99",
+      "size_bytes": 18179
+    },
+    {
+      "path": "/Users/admin/Downloads/RADIK_MASTER_PLAN_RU.txt",
+      "sha256": "8f6073d3027f486dfd45193497920618c7d89c5d708b0152904b346e42d54335",
+      "size_bytes": 38496
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f16ef691c662100c9a07dd74d222a48e9ccf678bb55eca7a3756ab081b4313dd",
+      "size_bytes": 2407
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json",
+      "sha256": "7649c71720758f4994427680e4a6b672464721d2f1169e095814a1836796155b",
+      "size_bytes": 17513
+    }
+  ],
+  "current_guard_readback": {
+    "all_12_pins_exact": true,
+    "console_attempts": 59,
+    "exam_attempts": 16,
+    "active_console": null,
+    "active_exam": null,
+    "historical_UNKNOWN_attempt_ids": [
+      "radik-call:1548d2e6967447c1a718a99676bf8818",
+      "radik-call:0adde1226bdd47f18eb14ca89a1e93ea",
+      "radik-call:72ff1b3723314961b6d5a067d24f9a50",
+      "radik-call:c146081f7b9a4d649f3c7e916189271e",
+      "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a"
+    ],
+    "save_quota": "CLOSED",
+    "save_retry_allowed": false,
+    "state_restored": false
+  },
+  "contract_findings": [
+    {
+      "id": "S7-C01",
+      "finding": "Observe the missing need from an actual current NEEDS_CAPABILITY row with no invocation/result. Permission, source, semantic payload, input and revision must agree; neither a supplied code hash nor fabricated need is the trigger."
+    },
+    {
+      "id": "S7-C02",
+      "finding": "Use the existing deterministic affine producer. Oracle and seven-file source freeze precede candidate construction. Admission performs all 256 trials; exact bytes, oracle, engine/configuration and observed host-owned package origin remain bound."
+    },
+    {
+      "id": "S7-C03",
+      "finding": "All successful generation, admission and DRS reservations advance Host state_revision. Failed admission attempts remain charged; no refunds or reset. Installation needs the current revision, same observed package and current catalogue epoch."
+    },
+    {
+      "id": "S7-C04",
+      "finding": "Same-task continuation must replace only the absent capability, retain any completed predecessor through the public historical-output binding and use actual guest value in a later PURE Work input/output. The reference demo includes mock effects and cannot be run as the Stage07 application."
+    },
+    {
+      "id": "S7-C05",
+      "finding": "Warm discovery is based on mathematical need and scope, with a fresh task/Host, same eligible owning Root identity, actual search/ranking/Root descent and fresh full admission. Serialized packages or old Host authority cannot be restored. Generator count is zero."
+    },
+    {
+      "id": "S7-C06",
+      "finding": "Worker limits are 16384 source bytes, at most 256 inputs, at most100000 fuel per input computation and at most30 seconds per worker including startup/compile/trials. One guest computation also creates a worker. Whole-process resource isolation must not be overstated."
+    },
+    {
+      "id": "S7-C07",
+      "finding": "The worker invokes exact sys.executable -B -m hedgehog.wasm_pure_worker_v01 with inherited environment. Final source review must bind interpreter, startup/.pth code, module/resource paths, Wasmtime48 distribution metadata/native library, isolated writes and nested process cleanup; no runtime monkeypatch of reference/Popen."
+    }
+  ],
+  "controlled_time_scope": {
+    "status": "ADMISSIBLE_ONLY_AS_DECLARED_CONTROLLED_LOGICAL_U3_PROFILE",
+    "source_fact": "Native write_pure_memory_v01 fixes time axes1000, validity1000..2000 and TTL1000; retrieval uses Host evaluation_time and query range1000..3000. No public current-UTC writer parameter exists.",
+    "allowed_profile": "Fresh invocation-owned store and fresh Hosts; fixed logical cold1014 then warm1015, or an equivalently reviewed increasing finite sequence, with independent actual UTC intake/source freshness and nonrenewed operation deadline.",
+    "conditions": [
+      "Declare controlled logical time in admission, scenario, evidence and final owner report.",
+      "Never rewrite record timestamps/TTL, revive old records, restore authority or move time backward to obtain eligibility.",
+      "Retain genuine eligibility/ranking/Root/descent evidence and an explicit controlled ineligible-memory negative.",
+      "No claim of persistent UTC-age eligibility, restart memory freshness or general production-time support."
+    ],
+    "unresolved_general_scope": "Real-UTC persistent memory would require a different approved public contract; it is not established here."
+  },
+  "negative_control_basis": {
+    "source_only_reuse_basis": "Checkpoint R04-R10 and exact frozen tests; no historical test rerun or new runtime credit is claimed by this record. Final source-impact check must verify unchanged native paths and exact dependencies.",
+    "named_controls": [
+      "test_u3_engine_profile_and_actual_refusal_neighbors",
+      "test_u3_actual_worker_deadline_and_standard_positive",
+      "test_u3_admission_oracle_reservations_and_foreign_package",
+      "test_u3_missing_foreign_stale_resolution_and_actual_positive",
+      "test_u3_temporal_and_foreign_root_public_controls",
+      "test_u3_coherent_cache_version_and_wrong_guest_rejected",
+      "test_u3_drs_second_read_is_reserved_before_io",
+      "test_u3_h1_narrowed_revision_exhaustion_and_positive"
+    ],
+    "application_actual_required": [
+      "fresh need and actual cold absence",
+      "cold full admission and causal consumer",
+      "warm real search/descent/new admission and causal consumer",
+      "changed adapter negatives and positive neighbors",
+      "optional disabled explicit refusal/continuation",
+      "final ordinary entry, evidence readback and bounded cleanup tail"
+    ]
+  },
+  "execution_limits": {
+    "total_checks_seconds": 900,
+    "single_probe_including_cleanup_max_seconds": 300,
+    "cleanup_max_seconds": 30,
+    "packaging_measured_separately": true,
+    "owner_actual_allowed": false,
+    "models_AUTH_provider_E_SAVE_allowed": false
+  },
+  "prior_acceptance_policy": "Stage04-06 and unchanged frozen native controls remain scoped prior evidence. Do not rerun prior whole exams. Stage07 closure remains pending future owner actual.",
+  "candidate_execution_granted": false,
+  "owner_admission_granted": false,
+  "application_or_native_imports": 0,
+  "application_or_native_runs": 0,
+  "mechanical_review_elapsed_ns_before_persistence": 29679333
+}

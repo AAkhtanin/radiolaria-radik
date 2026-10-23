@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "original_path": "README.md",
+      "retained_path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_basis/README_before.md",
+      "sha256": "902ee5e61bae34f92b7c69aca4da586994d2a69a5dcaefc6d835467e2b6d4dc6",
+      "size_bytes": 11179
+    },
+    {
+      "original_path": "docs/stand_coverage.md",
+      "retained_path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_basis/stand_coverage_before.md",
+      "sha256": "191dcd1be31941660fb1cc67b6f78a05f47603d518974e6339d836591253daae",
+      "size_bytes": 10821
+    },
+    {
+      "original_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json",
+      "retained_path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_basis/stage06_claims_addendum_before.json",
+      "sha256": "7649c71720758f4994427680e4a6b672464721d2f1169e095814a1836796155b",
+      "size_bytes": 17513
+    }
+  ],
+  "preparation_elapsed_ns": 881916,
+  "prepared_by": "/root",
+  "schema": "radik.stage07.documentation_basis.v1",
+  "scope": "Preserved originals before a scoped current-acceptance navigation addition; prior observations and all21 direction identities remain historical evidence."
+}

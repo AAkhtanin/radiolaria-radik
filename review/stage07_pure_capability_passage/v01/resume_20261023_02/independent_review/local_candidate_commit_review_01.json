@@ -1,0 +1,22 @@
+{
+  "schema": "radik.stage07.local_candidate_commit_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "status": "ACCEPTED_LOCAL_SOURCE_SNAPSHOT_NO_PUSH",
+  "commit_record_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/local_candidate_commit.json",
+    "sha256": "e1fa3e9758576d7601e8f96da513371bb085883679c4f87703c5e525e6666a45",
+    "size_bytes": 108523
+  },
+  "commit": "a2e2a6224670d940d36a2c081b5b6f444110b8e3",
+  "parent": "5f14be1abaa466bc3fb0019727a75829fd63eb4a",
+  "branch": "stage07-pure-capability",
+  "snapshot_blob_count": 426,
+  "all_committed_bytes_match_owned_sources": true,
+  "checkout_clean": true,
+  "reference_gitlink": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "candidate_execution_location_unchanged": true,
+  "review_elapsed_ns": 295966334,
+  "accounting": "Measured commit preparation 4.525389750 s is covered by the already charged recovery preparation 20 s: previously recorded root recovery 6.774546875 s plus inventory 3.253535 s plus this commit total 14.553471625 s, leaving 5.446528375 s within that conservative charge for recorded small AST/readback/reviewer bookkeeping. Checkout recovery 7.916888375 s remains separately charged 10 s; no charge reset or refund. Packaging measurement stays separate.",
+  "remote_write_performed": false,
+  "limits": "Local reviewable snapshot only; not an activated checkout or owner execution. Later package-only records are not claimed as committed."
+}

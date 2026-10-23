@@ -1,0 +1,1 @@
+{"actual_id":"PROBE_02","automatic_retry":false,"grant_path":"review/stage07_pure_capability_passage/v01/grants/PROBE_02.json","grant_sha256":"753340a812183448abb57204a379e3ebfb454e4d4f9884c8cd32247cf7b29faa","schema":"radik.stage07.offline_invocation.v01","started_monotonic_ns":7749774272085375,"status":"PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING"}

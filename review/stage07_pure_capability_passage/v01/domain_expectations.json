@@ -1,0 +1,27 @@
+{
+  "schema": "radik.stage07.independent_domain_expectations.v1",
+  "method": "Arithmetic from the approved source code, independently stated before runtime execution; actual acceptance must additionally prove guest-to-consumer bindings.",
+  "rule": "encoded=(source_code*3+7)%256; shelf label is derived by the current label consumer",
+  "owner": {
+    "cold_input": 37,
+    "cold_encoded": 118,
+    "warm_input": 58,
+    "warm_encoded": 181
+  },
+  "engineering": {
+    "cold_input": 41,
+    "cold_encoded": 130,
+    "warm_input": 62,
+    "warm_encoded": 193
+  },
+  "control_positive": {
+    "input": 11,
+    "encoded": 40
+  },
+  "optional_disabled": {
+    "input": 5,
+    "encoded_if_permitted": 22,
+    "expected_execution": "REFUSED_NO_GUEST_NO_LABEL"
+  },
+  "not_a_runtime_substitute": true
+}

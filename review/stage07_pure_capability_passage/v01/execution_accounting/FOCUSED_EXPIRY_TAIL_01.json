@@ -1,0 +1,235 @@
+{
+  "schema": "radik.stage07.offline_execution_accounting.v01",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "CLOSED_EXECUTION_ACCOUNTED",
+  "actual_id": "FOCUSED_EXPIRY_TAIL_01",
+  "total_budget_seconds": 900,
+  "prior_execution_review_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_01.json",
+      "sha256": "c961545303a73ce4d8f89334f06ee43846c963a20780912769764d32e217531c",
+      "size_bytes": 14658
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_02.json",
+      "sha256": "78d196f776397aeacfb5bb85fbb2739765ec180f1f7a5bc66565b55b2d077b66",
+      "size_bytes": 37066
+    }
+  ],
+  "prior_charged_ns": 44777270459,
+  "charged_execution_ns": 36388573209,
+  "cumulative_charged_ns": 81165843668,
+  "remaining_budget_ns": 818834156332,
+  "original_completion_charge_ns": 6388573209,
+  "measured_outer_completion_wall_seconds": 1.388574292,
+  "closing_readback_reserve_seconds": 5,
+  "additional_preparation_charge_ns_carried_once": 30000000000,
+  "additional_preparation_accounting_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/recovery_budget_acceptance_01.json",
+      "sha256": "39deab7ab2dd4d7083fe377b8afbefd0a466e0823501cee971cc6f90cea9e39c",
+      "size_bytes": 2127
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/checkout_budget_acceptance_01.json",
+      "sha256": "9322cd05405844c0db3b58519b1dae460fd1c95b2165c7216c171176d2c62e5b",
+      "size_bytes": 1620
+    }
+  ],
+  "accounting_basis": "Historical 44.777270459 s remains frozen. Carry accepted recovery 20 s and checkout 10 s exactly once, plus actual focused outer charge 6.388573209 s including closing reserve. Original outer completion remains immutable and provisional; no budget reset, refund, duplicate preparation charge or owner execution.",
+  "closure_confirmed": true,
+  "full_readback_verified": true,
+  "final_tool_outcome_observed": true,
+  "invocation_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/invocation.json",
+    "sha256": "7ecf8323cc5907e45234877c090f7edeade597c9bb8682e49bb1ac333af8f223",
+    "size_bytes": 380
+  },
+  "grant_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/grants/FOCUSED_EXPIRY_TAIL_01.json",
+    "sha256": "1b909ba16a9b16519e46c49cd003f1fbfad4079bffa194ed708b4c8c1c1cc8e1",
+    "size_bytes": 4352
+  },
+  "completion_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/completion.json",
+    "sha256": "cfde4809fde810005aeadcf0a42ab90022fa71f95bf06f983e21d8c874b0f72a",
+    "size_bytes": 1068
+  },
+  "evidence_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/child_stdout.raw",
+      "sha256": "e9650c348b3d1d1d73f10728664aa535b7522d6a9b2181247f12af893f5ae342",
+      "size_bytes": 1874
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/completion.json",
+      "sha256": "cfde4809fde810005aeadcf0a42ab90022fa71f95bf06f983e21d8c874b0f72a",
+      "size_bytes": 1068
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/invocation.json",
+      "sha256": "7ecf8323cc5907e45234877c090f7edeade597c9bb8682e49bb1ac333af8f223",
+      "size_bytes": 380
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/receipt.json",
+      "sha256": "a0a90c2bca5567189cce90745b85846a90ea2a329031b0a430776ebfef609e53",
+      "size_bytes": 1354
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/reservation.json",
+      "sha256": "28233365312c211ec29ba7113d8d8ccd30fc00cef403e2b245bb2242d32a3389",
+      "size_bytes": 693
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/tool_outcome.json",
+      "sha256": "a61a46d032008d5ea18868f72295fb3bfc0ed0bc1751e6c0002ad88dfc1092b6",
+      "size_bytes": 954
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/tool_return.raw",
+      "sha256": "2a326cff31158919aeecb3c3e3cef537400c3d6f81956c7bf6c33954da12635f",
+      "size_bytes": 656
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0001_loaded_before_native.json",
+      "sha256": "8036a81ef7600496ceed974cd2792dacf08defa799660725ab7669f069865c6d",
+      "size_bytes": 66296
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0002_historical_inputs_read.json",
+      "sha256": "c89f2381c549d00caee1d435acc469f44b018460a3b4bdfcb2c12060d39e4af4",
+      "size_bytes": 361
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0003_focused_native_callbacks.json",
+      "sha256": "8a8867d88b677fc041a9b41d7512420cf197f4dfcac9809c689d0489d46db368",
+      "size_bytes": 366
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0004_native_enter.json",
+      "sha256": "d7bce2825703a8550bd95188dbe13a8bca24af630cd88063ee0a706d70c89b20",
+      "size_bytes": 92
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0005_focused_temporal_positive.json",
+      "sha256": "f2aae5a41f3949c00e41dadf7a0d027cb7e2edb8e8b838b9fa7d151d42cbd9d3",
+      "size_bytes": 367
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0006_controlled_expiry.json",
+      "sha256": "32a705cbb94b3f8c8d4c69906691e43d15a4b589772916a9b910bee8aff339d8",
+      "size_bytes": 359
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0007_native_exit.json",
+      "sha256": "b94d3c23342197c4b468ed032230c47d2e4fc6817e3e77f7f5c542c55277437e",
+      "size_bytes": 100
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0008_focused_after_native.json",
+      "sha256": "8036a81ef7600496ceed974cd2792dacf08defa799660725ab7669f069865c6d",
+      "size_bytes": 66296
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0009_focused_tail_ready.json",
+      "sha256": "05453edbdd7113d6042cd39c5a292e00071724b10f69399b45b8e129e3c240bd",
+      "size_bytes": 360
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0010_loaded_final.json",
+      "sha256": "8036a81ef7600496ceed974cd2792dacf08defa799660725ab7669f069865c6d",
+      "size_bytes": 66296
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0011_worker_observation_complete.json",
+      "sha256": "fefe3c85a3cf341c7cc8e064eeab59d0ee63bf7067c2c7bc58783b947aff2608",
+      "size_bytes": 31
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/entry_sessions/session_1/evidence/0012_ordinary_entry_closed.json",
+      "sha256": "d5ee98b642b13f0f6e7c427804cfedceb606e7b689f127a44d20464fc2c2a97d",
+      "size_bytes": 7690
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/result.json",
+      "sha256": "f5e5c9d82acc2fb58c0482af68fdd20f8c3df4eeb8381eed1d75ea194ee6303e",
+      "size_bytes": 2711
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/scenario.json",
+      "sha256": "cc7182cee71b122ce769f233adb5260fa8152e4bf0ffc97c19feafaa8d8a87e5",
+      "size_bytes": 739
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/witnesses/controlled_expiry.json",
+      "sha256": "9acd525cc3861df41155256ee2e0bff591cb1d2e46804fb9393b4369099e89f1",
+      "size_bytes": 2883
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/witnesses/focused_native_callbacks.json",
+      "sha256": "8dffc1d2c29884b21033e5c9e55c36bd345b93919c63b9a3e4755acb00b0e815",
+      "size_bytes": 2786
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/witnesses/focused_tail_ready.json",
+      "sha256": "92b39ddd5dd441458809aac4a0f93f49e22420cf8cb1a2493c9504f5670b2409",
+      "size_bytes": 63
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/witnesses/focused_temporal_positive.json",
+      "sha256": "4e43d55e4a9eac49b9d36880733ca58980a8af808a0c9398d354912598f53f05",
+      "size_bytes": 2626
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/witnesses/historical_inputs_read.json",
+      "sha256": "a9f110b32f83c331c1cac220525048887f2d72e052c49931e0a26643fe6daf3e",
+      "size_bytes": 650
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application_1_launch.json",
+      "sha256": "41b7e74c42418362942637feabcc63aac9d46f5f666cb12c02f3f06eb4292019",
+      "size_bytes": 1457
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application_1_stderr.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application_1_stdout.raw",
+      "sha256": "f805718e548edcadc204e107d83ed26e0cbb100bc58bb0be651fe35702d7e565",
+      "size_bytes": 6646
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/operation_close.json",
+      "sha256": "ec5720db60044929ba7bf6b2b076625ead56ecf567432897757ef0f65911989a",
+      "size_bytes": 714
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/receipt.json",
+      "sha256": "3996c12ec40aee51f288a81c540ae43897a5cb2a81fe6c724e388e91116b33a5",
+      "size_bytes": 18709
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/required_output_availability.json",
+      "sha256": "32440b12739056c044a1743aa9d346dda1e7a6e33df8197e12865f922d51abaa",
+      "size_bytes": 241
+    }
+  ],
+  "actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+    "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+    "size_bytes": 15014
+  },
+  "outcome": "FOCUSED_EXPIRY_AND_ORDINARY_FINALIZATION_ACCEPTED; inherited cold/warm accepted; full owner scenario not executed",
+  "candidate_imports_by_reviewer": 0,
+  "native_calls_by_reviewer": 0,
+  "owner_actual": false,
+  "new_retry_granted": false
+}

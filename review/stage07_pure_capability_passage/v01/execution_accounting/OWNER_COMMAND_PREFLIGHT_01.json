@@ -1,0 +1,34 @@
+{
+  "schema": "radik.stage07.preparation_execution_accounting.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "CLOSED_PREPARATION_EXECUTION_ACCOUNTED",
+  "actual_id": "OWNER_COMMAND_PREFLIGHT_01",
+  "total_budget_seconds": 900,
+  "prior_accounting_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/execution_accounting/FOCUSED_EXPIRY_TAIL_01.json",
+    "sha256": "04e1918d0dec6d60af7607c59ece7258c6b8e20428ac973d1b3cc5659e491860",
+    "size_bytes": 12348
+  },
+  "prior_charged_ns": 81165843668,
+  "charged_execution_ns": 217188750,
+  "cumulative_charged_ns": 81383032418,
+  "remaining_budget_ns": 818616967582,
+  "tool_outcome_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/tool_outcome.json",
+    "sha256": "53dd3cc04a9957d4234dfd37c928324f763d5270353365e6046b19086a444254",
+    "size_bytes": 1048
+  },
+  "actual_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_preflight_actual_review_01.json",
+    "sha256": "c3a34d25bd69cd9ee6412252a2e82a35d0bb44d3726a675dcb1771da2884607d",
+    "size_bytes": 5842
+  },
+  "accounting_basis": "Add the complete measured preflight wrapper elapsed 0.217188750 seconds once to the accepted cumulative 81.165843668 seconds. Source/expiry review bookkeeping remains within the already charged conservative preparation reserve. No reboot reset, refund, repeated semantic probe or owner actual.",
+  "owner_actual": false,
+  "packaging_measured_separately": true
+}

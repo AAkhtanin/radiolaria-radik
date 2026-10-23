@@ -1,0 +1,80 @@
+--- before/build_return_stage06_shape.py
++++ build_return.py
+@@ -8,6 +8,7 @@
+ import json
+ import os
+ from pathlib import Path
++import re
+ import stat
+ import types
+ 
+@@ -60,29 +61,37 @@
+         ensure_ascii=False, allow_nan=False).encode('utf-8')
+ 
+ 
+-def _public_field_shape(parent, key, kind):
+-    """Exact public wire/current-Root fields, never authentication credentials."""
++def _public_field_shape(parent, key, kind, pointer):
++    """Exact deterministic Root claims and empty native diagnostics only."""
+     if kind == 'EMPTY_PREPARATION_DIAGNOSTIC':
+         require(key == 'stderr' and parent[key] == '', 'return_public_empty_diagnostic')
+         return
+-    if kind == 'GATE5_PUBLIC_REQUEST_NONCE':
+-        fields = {
+-            'g51.request.v01': {'version','request_id','op','requester','publisher','task_ref','request_revision','pointer_ref','trust_profile_hash','use_class','object_id','allowed_size','nonce','deadline','issued_at','subject_request_ref','owner_transport_scope'},
+-            'g51.status.v01': {'version','entry','requested_pointer_hash','requester','subject_request_ref','request_revision','nonce','checked_at','valid_until'},
+-            'g51.release.v01': {'version','state','request_ref','request_revision','pointer_ref','manifest_ref','body_hash','recipient','use_class','nonce','deadline','release_review_ref'},
+-        }
+-        value = parent[key]
+-        require(key == 'nonce' and set(parent) == fields.get(parent.get('version'))
+-            and type(value) is str and len(value) == 64
+-            and all(char in '0123456789abcdef' for char in value), 'return_public_gate5_nonce')
++    if kind == 'STAGE07_EMPTY_NATIVE_WORKER_STDERR':
++        fields = {'configuration_sha256','elapsed_seconds','engine_version','measured_fuel',
++            'phase','process_reaped','profile_version','reason','return_code','status',
++            'stderr','stdout','trials','wasm'}
++        require(key == 'stderr' and set(parent) == fields
++            and parent['engine_version'] == '48.0.0'
++            and parent['profile_version'] == 'pure-i32-closed-v01'
++            and parent['status'] in ('SUCCEEDED','REFUSED')
++            and parent[key] == {'encoding':'base64','bytes':'','sha256':digest(b''),'size_bytes':0},
++            'return_public_empty_worker_diagnostic')
+         return
+     require(kind == 'STAGE07_CURRENT_ROOT_CLAIM' and key == 'subject', 'return_public_field_kind')
+     fields = {'claim_id','subject','predicate','object_or_value','time_envelope_ref',
+         'provenance_refs','evidence_refs','confidence_micros','source_role','source_mode','authority_class'}
+     require(set(parent) == fields and parent['source_role'] == 'deterministic_runtime'
+         and parent['source_mode'] == 'DETERMINISTIC' and parent['authority_class'] == 'NONE'
+-        and parent['confidence_micros'] == 1000000 and type(parent[key]) is str
+-        and parent[key].startswith(('stage07:', 'task:stage07:', 'source:stage07:', 'root:radik:stage07:')),
++        and type(parent['confidence_micros']) is int and parent['confidence_micros'] == 1000000
++        and type(parent[key]) is str
++        and (parent[key] == 'radik:archive_shelf'
++            or re.fullmatch(r'drsaddr_v01:[0-9a-f]{64}', parent[key]) is not None
++            or re.fullmatch(r'task:radik:stage07:[0-9a-f]{32}:(cold|warm|controls|disabled)', parent[key]) is not None
++            or re.fullmatch(r'root:radik:stage07:([0-9a-f]{32}|[a-p]{32})', parent[key]) is not None)
++        and re.search(r'/root_review_packet/synthesis_proposal/normalized_claims/[0-9]+/subject$', pointer) is not None
++        and all(type(parent[name]) is str and parent[name] for name in ('claim_id','predicate','time_envelope_ref'))
++        and all(type(parent[name]) is list and all(type(item) is str for item in parent[name])
++            for name in ('provenance_refs','evidence_refs')),
+         'return_public_stage07_claim')
+ 
+ 
+@@ -96,7 +105,7 @@
+     for entry in value['entries']:
+         ref, pointer = entry['file_ref'], entry['json_pointer']
+         require(ref['path'].startswith(BASE + '/') and ref['path'].endswith('.json')
+-            and pointer.startswith('/') and pointer.rsplit('/',1)[-1] in ('subject','nonce','stderr'),
++            and pointer.startswith('/') and pointer.rsplit('/',1)[-1] in ('subject','stderr'),
+             'return_public_field_scope')
+         identity = ref['path'], pointer
+         require(identity not in entries, 'return_public_field_duplicate')
+@@ -121,7 +130,7 @@
+                 continue
+             require(source_ref == entry['file_ref'] and digest(canonical(child)) == entry['value_sha256']
+                 and digest(canonical(item)) == entry['containing_object_sha256'], 'return_public_field_exact_binding')
+-            _public_field_shape(item, key, entry['kind'])
++            _public_field_shape(item, key, entry['kind'], pointer)
+             publisher._no_secrets(walk(child, path+(key,), depth+1))
+             used.add(identity)
+         return result

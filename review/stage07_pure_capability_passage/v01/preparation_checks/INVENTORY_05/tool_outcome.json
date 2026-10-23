@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "source_manifest_PROBE_05.json"
+  ],
+  "automatic_retry": false,
+  "candidate_imports": 0,
+  "elapsed_ns": 3253535000,
+  "exit_code": 0,
+  "manifest_file_count": 1180,
+  "model_calls": 0,
+  "native_calls": 0,
+  "output_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "owner_runs": 0,
+  "reaped": true,
+  "reviewer_grant_sha256": "62bacd55ff2040481a8c66c12dd14d41c664916b691ecbc1c94e470a9a0f96e8",
+  "schema": "radik.stage07.inventory_preparation_outcome.v1",
+  "timed_out": false
+}

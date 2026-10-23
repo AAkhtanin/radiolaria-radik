@@ -1,0 +1,18 @@
+{
+  "assigned_at_utc": "2026-10-23T09:53:25.704662+00:00",
+  "assigned_by": "/root under explicit owner delegation",
+  "assignment_basis": "The owner explicitly canceled the external-reviewer wait and authorized appointment of one new independent reviewer who is not an author of the checked changes. Root appointed the named new reviewer under that instruction.",
+  "execution_granted": false,
+  "historical_reviews_keep_original_authors": true,
+  "owner_actual_allowed": false,
+  "preparation_elapsed_ns": 427458,
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "schema": "radik.stage07.reviewer_binding.v1",
+  "scope": "STAGE07_V01",
+  "source_acceptance_awarded": false,
+  "source_authors": [
+    "/root",
+    "/root/stage05_g4_contract"
+  ],
+  "status": "OWNER_DESIGNATED_CURRENT_REVIEWER"
+}

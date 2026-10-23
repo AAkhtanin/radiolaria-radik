@@ -1,0 +1,266 @@
+{
+  "schema": "radik.stage07.independent_focused_actual_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "status": "ACCEPTED_FOCUSED_EXPIRY_AND_ORDINARY_FINALIZATION",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "actual_id": "FOCUSED_EXPIRY_TAIL_01",
+  "grant_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/grants/FOCUSED_EXPIRY_TAIL_01.json",
+    "sha256": "1b909ba16a9b16519e46c49cd003f1fbfad4079bffa194ed708b4c8c1c1cc8e1",
+    "size_bytes": 4352
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_inventory_source_acceptance_01.json",
+    "sha256": "e1190a93968c021eef2f3ad144bed6e8fd956bb84264ccda49958ee1f9a35ce5",
+    "size_bytes": 3519
+  },
+  "code_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "completion_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/completion.json",
+    "sha256": "cfde4809fde810005aeadcf0a42ab90022fa71f95bf06f983e21d8c874b0f72a",
+    "size_bytes": 1068
+  },
+  "outer_receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/receipt.json",
+    "sha256": "a0a90c2bca5567189cce90745b85846a90ea2a329031b0a430776ebfef609e53",
+    "size_bytes": 1354
+  },
+  "inner_receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/receipt.json",
+    "sha256": "3996c12ec40aee51f288a81c540ae43897a5cb2a81fe6c724e388e91116b33a5",
+    "size_bytes": 18709
+  },
+  "result_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/application/result.json",
+    "sha256": "f5e5c9d82acc2fb58c0482af68fdd20f8c3df4eeb8381eed1d75ea194ee6303e",
+    "size_bytes": 2711
+  },
+  "tool_outcome_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/tool_outcome.json",
+    "sha256": "a61a46d032008d5ea18868f72295fb3bfc0ed0bc1751e6c0002ad88dfc1092b6",
+    "size_bytes": 954
+  },
+  "verified_new_embedded_reference_count": 32,
+  "verified_source_files": 1180,
+  "loaded_module_counts_before_final": [
+    250,
+    250
+  ],
+  "live_guard_count": 12,
+  "actual_application_pid": 5142,
+  "current_native_workers": 0,
+  "actual_Work_dispatches": 0,
+  "model_calls": 0,
+  "AUTH_calls": 0,
+  "E_calls": 0,
+  "SAVE_calls": 0,
+  "owner_execution": false,
+  "full_semantic_scenario_pass": false,
+  "historical_worker_join_records": [
+    {
+      "job_id": "119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6",
+      "pid": 66206,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6_intent.json",
+        "sha256": "2e88c40815dd875896ab93aad657a3dd25c756d65e124c8b0efffefc4e19994c",
+        "size_bytes": 1115
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6_started.json",
+        "sha256": "c76f5c2026c80828ade15b7059eec835829dc3e6cc2ac90b8ba366169f4ddaf8",
+        "size_bytes": 14306
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6_closed.json",
+        "sha256": "ae86ec60aab317ee014505d8f177d6db88797becc472bf89b311d48d835fcbef",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json",
+        "sha256": "f680fb7e28d63e8e8482bf72f82589e284428675e3b7fdd015252f79d504d8ce",
+        "size_bytes": 115919
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57",
+      "pid": 66203,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57_intent.json",
+        "sha256": "64a470d519e7845a437bff0f3d628c53eb2a879acece6cba49688fdcdc4aeb2b",
+        "size_bytes": 1118
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57_started.json",
+        "sha256": "f46ccf740dc5ad4357c0850bf71618dde736c56d0e8c23566a1b8fd452e7323c",
+        "size_bytes": 14310
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57_closed.json",
+        "sha256": "e72b444ac59714fffea86e576f4deb4d33f8139ab1b2e5f30d2da076d66950f4",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json",
+        "sha256": "f680fb7e28d63e8e8482bf72f82589e284428675e3b7fdd015252f79d504d8ce",
+        "size_bytes": 115919
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999",
+      "pid": 66198,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999_intent.json",
+        "sha256": "f2112d72a3f9b72d2a513c58c765af6ca5b6b16a585dace001e22bd824b45144",
+        "size_bytes": 1108
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999_started.json",
+        "sha256": "ee68da1f0a3b87ff6db87415dc6c99c9c86ff6dd5a7ba2ad2f4b44c8660fdfa0",
+        "size_bytes": 14299
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999_closed.json",
+        "sha256": "a2b2c527fee3aa37826179e644050ad8b147f84017cbba6aaa8ee188da71265b",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json",
+        "sha256": "f680fb7e28d63e8e8482bf72f82589e284428675e3b7fdd015252f79d504d8ce",
+        "size_bytes": 115919
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf",
+      "pid": 66204,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf_intent.json",
+        "sha256": "76e5350636059251511b32a72b63403f16d4b892a6a42ce4f5e4bafc73526421",
+        "size_bytes": 1106
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf_started.json",
+        "sha256": "f8317e63fd76d6cf7828fd19799a5735f1c92b77fb62aebda4f2b720db45ad7b",
+        "size_bytes": 14296
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf_closed.json",
+        "sha256": "1b9490a2087d8f555ece2ee4937b9b27fd013d1c8729500a43317cd30836d2d0",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_consumed.json",
+        "sha256": "bd500dd19072ec9fb3d513cf3b8781b6f27af607d48e74975ee5319b9ebbc6cf",
+        "size_bytes": 493500
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2",
+      "pid": 66209,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2_intent.json",
+        "sha256": "d8c9d612a5ee1b2f481e32bc37311bfecacef507a32e72bf8f01d49e24b42ddc",
+        "size_bytes": 1110
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2_started.json",
+        "sha256": "9f22059e4541f47db932a4fce6f0dc61ea265212037991edbf73cc3725f2ac9e",
+        "size_bytes": 14300
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2_closed.json",
+        "sha256": "e7ed61b24fddd76dc09e840bac021e0300b0c69615f331f3d3c9c233138bcb4d",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/controls_consumed.json",
+        "sha256": "dc60a32dde30fb7c12f3ce956331061f8669b922ff4a53d685552b1e813323d1",
+        "size_bytes": 507375
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af",
+      "pid": 66205,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af_intent.json",
+        "sha256": "bcca5e215d87fd40f57755927a20ed72fb70464c78aadf069173d5de0f93efab",
+        "size_bytes": 1109
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af_started.json",
+        "sha256": "816b574ade5dd83d7af31f0d9175a4e3d6504ee58b410a2a6cebd981f1a2012d",
+        "size_bytes": 14300
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af_closed.json",
+        "sha256": "9eb09d540642e3ea6da5b77d87e0589a01c0869eb96bb8bc62d56a000bf11ee0",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/control_refusals.json",
+        "sha256": "7af8997b464e8dec09fe6193fe919a32a2850f5acc3af8e7f02fc831785fde75",
+        "size_bytes": 14525
+      },
+      "native_result_process_reaped": true
+    },
+    {
+      "job_id": "9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd",
+      "pid": 66201,
+      "historical_parent_pid": 66187,
+      "intent_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd_intent.json",
+        "sha256": "d488ce51a8f25f51cab1970273640a4a6206458c1a1f37b697595d2973a5fdb0",
+        "size_bytes": 1106
+      },
+      "started_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd_started.json",
+        "sha256": "d0a3e550f2a25c71edea36461c0d60cc0d69fd1d715999505faff66e8383766c",
+        "size_bytes": 14296
+      },
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd_closed.json",
+        "sha256": "29a94c713f5d25e70ecbeb32fb28feb263ed2e1a5906cba0bd8ff46edb57b005",
+        "size_bytes": 45394
+      },
+      "native_result_witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/cold_consumed.json",
+        "sha256": "14eaf176c6e68b54d8380ab1ee24dee335e5ae842b86768b2c5a63f17e1ccf64",
+        "size_bytes": 496655
+      },
+      "native_result_process_reaped": true
+    }
+  ],
+  "historical_join_verification": "Raw historical request, PID-parent, started reference, stdout/stderr and actual native result checks; nonempty finalizer source unchanged. Not a fresh seven-worker join or PID substitution.",
+  "findings": [
+    "The historical query at logical time 1015 remains eligible and exactly matches its accepted raw evaluation.",
+    "The identical repaired expiry helper evaluates logical time 2001 with INJECTED_CURRENT_DECISION_TIME and refuses expired validity/TTL without mutating typed historical evidence.",
+    "Eight loaded public callbacks were observed with verified code and exact pinned sources; no capability admission or Host authority was reconstructed.",
+    "Actual zero-worker ordinary finalization, source observations, final entry receipt, child reap, outer process-group closure and lock release completed with no primary or secondary error.",
+    "Preserved PROBE_02 full consumer witnesses remain accepted under their original reviewer. Its failed aggregate status is unchanged."
+  ],
+  "limitations": [
+    "No new cold/warm, native Work, Wasm or full owner scenario was executed.",
+    "Future owner source readiness combines preserved accepted semantic witnesses, exact shared expiry repair and actual focused finalization; it is not a full Stage07 runtime PASS."
+  ],
+  "candidate_imports_by_reviewer": 0,
+  "native_calls_by_reviewer": 0,
+  "review_readback_elapsed_ns": 121040708
+}

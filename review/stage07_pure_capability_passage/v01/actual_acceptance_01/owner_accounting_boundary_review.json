@@ -1,0 +1,226 @@
+{
+  "schema": "radik.stage07.owner_accounting_boundary_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_DISTINCT_ENGINEERING_OWNER_AND_PACKAGING_ACCOUNTING",
+  "actual_id": "OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86",
+  "receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/receipt.json",
+    "sha256": "54b22d7d4fd7d8b8e06ae0c036ee545f0ea3f6d35975e7fad8a7ca3a689226db",
+    "size_bytes": 78033
+  },
+  "facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "previous_engineering_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/OWNER_COMMAND_PREFLIGHT_01.json",
+    "sha256": "d4d3b118c9b709fe11a1ca09f1e99524935717d14135a7072b839e695d0551da",
+    "size_bytes": 1935
+  },
+  "original_engineering_budget_seconds": 900,
+  "previous_engineering_charged_ns": 81383032418,
+  "previous_engineering_remaining_ns": 818616967582,
+  "owner_actual_separate_from_preparation_budget": true,
+  "owner_actual": {
+    "owner_wall_ns": 6465176458,
+    "owner_conservative_native_upper_bound_ns": 6098543042,
+    "observed_Host_Work_span_ns": 4929103460,
+    "application_wall_ns": 5226072750,
+    "application_cpu_ns": 2451218000
+  },
+  "owner_limits": {
+    "operation_seconds": 60,
+    "native_seconds": 45,
+    "cleanup_seconds": 20
+  },
+  "cleanup_entries": 0,
+  "cleanup_deadline_renewed": false,
+  "workers": [
+    {
+      "native_span_id": "cold_full_admission",
+      "worker_pid": 7340,
+      "observed_worker_wall_ns": 266667125,
+      "observed_worker_cpu_ns": 370928000,
+      "parent_native_result_elapsed_seconds": 0.4206193339996389,
+      "measured_fuel": 2048,
+      "trial_count": 256,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/db4993e0393875ae561cc3749c6fcd80b10007a72bce518aad493e144110efe4_closed.json",
+        "sha256": "988051534335aa0e68b10bca68915babc1c8ea6df645336aa21fa9337299768f",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "cold_continuation",
+      "worker_pid": 7346,
+      "observed_worker_wall_ns": 227588292,
+      "observed_worker_cpu_ns": 362759000,
+      "parent_native_result_elapsed_seconds": 0.3931689999999435,
+      "measured_fuel": 8,
+      "trial_count": 1,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/9e7a7e678a9f84599ca2c9fbdfd71b769e843c79d4462482fb156ea26d4d9fea_closed.json",
+        "sha256": "5e827014721617fba25f5a2d4cf04573bbb1a48beb1a84ff2d39a3ceeca9c5bc",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "warm_full_retrieval_admission",
+      "worker_pid": 7348,
+      "observed_worker_wall_ns": 236299958,
+      "observed_worker_cpu_ns": 368345000,
+      "parent_native_result_elapsed_seconds": 0.4051948340002127,
+      "measured_fuel": 2048,
+      "trial_count": 256,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/e653e03862d044de4989102c26c4a0fd6d5babd71eb28d199506cbf960ea6c1f_closed.json",
+        "sha256": "84f59b7be12ddbc2c8a5b8e2e13758ed13294e9cee96671d894b2ce834c371ef",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "warm_continuation",
+      "worker_pid": 7349,
+      "observed_worker_wall_ns": 228541459,
+      "observed_worker_cpu_ns": 363433000,
+      "parent_native_result_elapsed_seconds": 0.39295591700010846,
+      "measured_fuel": 8,
+      "trial_count": 1,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/559c95a5a5ec8375c6783b512a57670142b9f72b4550416cd1af4ed5f982fb0e_closed.json",
+        "sha256": "544df31f695e30bf129fe581e7c43350f198890ca3c5fb6a465124ea593b0ba3",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "control_wrong_oracle",
+      "worker_pid": 7350,
+      "observed_worker_wall_ns": 235842208,
+      "observed_worker_cpu_ns": 368228000,
+      "parent_native_result_elapsed_seconds": 0.3926294999992024,
+      "measured_fuel": 512,
+      "trial_count": 256,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/af42dac167dc479966ff710cef2aa7d266d9d7b9cee7fff75f48a9ef67dde6d4_closed.json",
+        "sha256": "25b6d0464e54ba59e47ad8a53ea1d1f0017e80ca5680d4afed7eb500d9c497f5",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "control_positive_admission",
+      "worker_pid": 7351,
+      "observed_worker_wall_ns": 239002250,
+      "observed_worker_cpu_ns": 371720000,
+      "parent_native_result_elapsed_seconds": 0.404498541999601,
+      "measured_fuel": 2048,
+      "trial_count": 256,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/2081b9247948cd37f957ee09ff1eb40639049201272e25636961f180dba15f2f_closed.json",
+        "sha256": "cb15b4316261330766e94a3fc398ee4659f2f5c00d7fd5f6deb461d63d292c29",
+        "size_bytes": 45436
+      }
+    },
+    {
+      "native_span_id": "controls_continuation",
+      "worker_pid": 7352,
+      "observed_worker_wall_ns": 229701209,
+      "observed_worker_cpu_ns": 364789000,
+      "parent_native_result_elapsed_seconds": 0.40470962499966845,
+      "measured_fuel": 8,
+      "trial_count": 1,
+      "closed_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/worker_records/76efa5ae3ab3abc5d53e19e97f31b026ab5290faf7b58d9e0edeac07776054f0_closed.json",
+        "sha256": "1149b56eab9ceebdcf95031f7e7ac2f8977d7a82b7ef403ce1331990e298a343",
+        "size_bytes": 45436
+      }
+    }
+  ],
+  "sum_observed_worker_wall_ns": 1663642501,
+  "sum_observed_worker_cpu_ns": 2570202000,
+  "resources": {
+    "cold": {
+      "admission_attempts": 1,
+      "drs_bytes": 9063,
+      "generation_attempts": 1,
+      "guest_calls": 1,
+      "measured_drs_bytes": 7202,
+      "measured_fuel": 2048,
+      "measured_guest_fuel": 8,
+      "reserved_fuel": 25600000,
+      "reserved_guest_fuel": 100000,
+      "reserved_trials": 256
+    },
+    "controls": {
+      "admission_attempts": 3,
+      "drs_bytes": 0,
+      "generation_attempts": 1,
+      "guest_calls": 1,
+      "measured_drs_bytes": 0,
+      "measured_fuel": 2560,
+      "measured_guest_fuel": 8,
+      "reserved_fuel": 76800000,
+      "reserved_guest_fuel": 100000,
+      "reserved_trials": 768
+    },
+    "warm": {
+      "admission_attempts": 1,
+      "drs_bytes": 12960,
+      "generation_attempts": 0,
+      "guest_calls": 1,
+      "measured_drs_bytes": 12960,
+      "measured_fuel": 2048,
+      "measured_guest_fuel": 8,
+      "reserved_fuel": 25600000,
+      "reserved_guest_fuel": 100000,
+      "reserved_trials": 256
+    }
+  },
+  "aggregate_resources": {
+    "generation_attempts": 2,
+    "reserved_admission_attempts": 5,
+    "actual_admission_worker_runs": 4,
+    "successful_native_admissions": 3,
+    "guest_calls": 3,
+    "reserved_oracle_trials": 1280,
+    "actual_oracle_trials": 1024,
+    "actual_guest_trials": 3,
+    "measured_admission_fuel": 6656,
+    "measured_guest_fuel": 24,
+    "measured_total_fuel": 6680,
+    "reserved_admission_fuel": 128000000,
+    "reserved_guest_fuel": 300000,
+    "reserved_drs_bytes": 22023,
+    "measured_drs_bytes": 20162
+  },
+  "interpretation": [
+    "Owner operation wall6.465176458s, parent conservative native upper bound6.098543042s and observed Host Work spans4.929103460s are distinct clocks; do not add overlapping durations.",
+    "Application wall5.226072750s and CPU2.451218000s exclude a claim of whole-tree CPU. Seven worker records separately observe wall1.663642501s and CPU2.570202000s in aggregate.",
+    "Five admission reservations include the wrong-contract attempt that reserves budget before refusal. Four admission workers ran; three full admissions succeeded and the wrong-oracle worker was refused after its256-input validation.",
+    "Reserved admission fuel128000000 and guest fuel300000 are limits, not measured use. Measured admission fuel6656 plus guest fuel24 equals6680.",
+    "DRS charged/reserved bytes22023 differ from measured bytes20162. Cold write reserves9063bytes and observes7202payload-plus-recordbytes; warm observes12960bytes under its budget.",
+    "Original engineering budget is not reset by owner execution or acceptance. Owner used its separately source-admitted one-use operation; later acceptance packaging is measured separately."
+  ],
+  "protected_state": {
+    "live_guard_count": 12,
+    "all_exact_guard_bytes_preserved": true,
+    "console_attempts": 59,
+    "console_completed": 54,
+    "console_unknown": 5,
+    "legacy_attempts": 16,
+    "legacy_completed": 11,
+    "legacy_unknown": 5,
+    "distinct_unknown_attempt_ids": 10,
+    "quota_status": "CLOSED",
+    "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+    "reference_clean": true
+  },
+  "owner_reservation_consumed_preserved": true,
+  "model_provider_AUTH_E_SAVE_calls": 0,
+  "new_execution_or_retry_authorized": false
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "radik.stage07.final_return_actual_acceptance.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "FINAL_RETURN_DELIVERED_AND_VERIFIED_OWNER_COMMAND_SOURCE_READY",
+  "archive_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T103328.951337Z.tar.gz",
+    "sha256": "1b38f81d63f7b881482179bf4351af7da35626a540c8b2768a82302c0b4234cc",
+    "size_bytes": 4506375
+  },
+  "checksum_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T103328.951337Z.tar.gz.sha256",
+    "sha256": "5230023357a37759b39ef4ccfc87a43371a940a188d45ee1409645d7cde6414e",
+    "size_bytes": 110
+  },
+  "local_archive_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/returns/RADIK_RETURN_20261023T103328.951337Z.tar.gz",
+    "sha256": "1b38f81d63f7b881482179bf4351af7da35626a540c8b2768a82302c0b4234cc",
+    "size_bytes": 4506375
+  },
+  "publisher_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_packaging_review.json",
+    "sha256": "c56ae54ba7e346b75c95128bafed1f1bfb580c43ae55efecdbcbc895be951fe4",
+    "size_bytes": 6882
+  },
+  "publisher_tool_outcome_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/publisher_execution_01/tool_outcome.json",
+    "sha256": "890e921f08d2951de10cc9036d0fa05dd53507858e80ee52006b8bc436748d37",
+    "size_bytes": 739
+  },
+  "reservation_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/return_verifications/before_owner_fix_source_stage07_pure_capability_v01_build.json",
+    "sha256": "6511bbb233aa5efd32b40a53405cb4ac3cff31e4afd72235f6dcdf69d9b96faf",
+    "size_bytes": 329
+  },
+  "local_readback_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/return_verifications/before_owner_fix_source_20261023T103328.951337Z/local_readback.json",
+    "sha256": "91520e5686523d40737650ae7d0f1154b68899cd01adc43b3db4325d77cc9ba3",
+    "size_bytes": 707
+  },
+  "delivery_readback_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/return_verifications/before_owner_fix_source_20261023T103328.951337Z/delivery_readback.json",
+    "sha256": "ea350e7714598b45d49b145536ca476cc3f16fa5f745e1e2c5ecb7434254bcd3",
+    "size_bytes": 1105
+  },
+  "delivery_receipt_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/state/local_operator/RADIK_RETURN_20261023T103328.951337Z.tar.gz.delivery.json",
+    "sha256": "b6625759ccff743d8ef9ba954c079303e6700fbec22c301f17c00ba99463ef84",
+    "size_bytes": 414
+  },
+  "verified_payload_files": 724,
+  "verified_tar_members": 725,
+  "exact_selection_and_autoadded_payloads_verified": true,
+  "original_handoff_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T093324.935252Z_STAGE07_REVIEW_HANDOFF.tar.gz",
+    "sha256": "3f8e2c9e4e81589babeaba64391d60e84254c08a13eed505112478c1990abb52",
+    "size_bytes": 3669155
+  },
+  "runtime_source_files_rehashed": 1180,
+  "live_guards_preserved": 12,
+  "reference_commit_clean": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "local_candidate_commit_clean": "a2e2a6224670d940d36a2c081b5b6f444110b8e3",
+  "owner_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "owner_preflight_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_preflight_actual_review_01.json",
+    "sha256": "c3a34d25bd69cd9ee6412252a2e82a35d0bb44d3726a675dcb1771da2884607d",
+    "size_bytes": 5842
+  },
+  "owner_reservation_absent": true,
+  "owner_runs_absent": true,
+  "owner_lock_available_and_unchanged": true,
+  "engineering_accounting_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/execution_accounting/OWNER_COMMAND_PREFLIGHT_01.json",
+    "sha256": "d4d3b118c9b709fe11a1ca09f1e99524935717d14135a7072b839e695d0551da",
+    "size_bytes": 1935
+  },
+  "engineering_charged_ns": 81383032418,
+  "engineering_remaining_ns": 818616967582,
+  "packaging_metered_accounting_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/measured_packaging_accounting.json",
+    "sha256": "ceaee52bf1239d06360e4ed362b67b549ee204defa8ffcf287de01d5bb595c0a",
+    "size_bytes": 3616
+  },
+  "packaging_metered_execution_ns": 3718028251,
+  "packaging_additional_conservative_preparation_review_allowance_ns": 10000000000,
+  "packaging_accounted_total_ns": 13718028251,
+  "packaging_accounting_scope": "Separate from original engineering budget. Exact metered selection preparations, two failed and one successful public inventories and one publisher including standard delivery total 3.718028251 s. Additional conservative 10 s covers small source-only diagnostics, packaging helper preparation/bookkeeping and independent full readback; not a claim of measured editorial or model reasoning time.",
+  "this_final_readback_elapsed_ns": 3755015708,
+  "delivery_context": "Existing standard local operator delivered the pair automatically. Its OWNER_TERMINAL receipt label is not evidence of a Stage07 owner scenario. No copy-helper invocation or extra archive/repack occurred.",
+  "archive_build_count": 1,
+  "copy_helper_executions": 0,
+  "owner_actual_executed": false,
+  "full_stage07_owner_acceptance": false,
+  "model_provider_AUTH_E_SAVE_calls": 0,
+  "push_or_stage08": false,
+  "remaining_preparation_items": [],
+  "remaining_future_items": [
+    "One explicit future owner operation and independent review of that actual; no owner runtime PASS asserted."
+  ],
+  "finding": "Preparation, current independent source/expiry/finalization/preflight review and exactly one verified final RETURN are complete. Original evidence, identities, reservations, UNKNOWN history, live guards and handoff archive remain unchanged. The exact accepted owner command is ready for delivery; it was not run."
+}

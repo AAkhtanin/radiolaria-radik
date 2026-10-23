@@ -1,0 +1,25 @@
+{
+  "current_matching_rows": [],
+  "historical_pid_pgid_values": [
+    65130,
+    65131,
+    65132,
+    65145,
+    66185,
+    66187,
+    66198,
+    66201,
+    66203,
+    66204,
+    66205,
+    66206,
+    66209
+  ],
+  "method": "ps pid/ppid/pgid/comm only; no command arguments or environment read",
+  "observed_at_utc": "2026-10-23T09:43:37.010522+00:00",
+  "pid_reuse_is_not_original_process_identity": true,
+  "preparation_elapsed_ns": 34047541,
+  "processes_terminated": 0,
+  "schema": "radik.stage07.recovery_process_check.v1",
+  "signals_sent": 0
+}

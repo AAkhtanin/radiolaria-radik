@@ -1,0 +1,98 @@
+{
+  "schema": "radik.stage07.independent_owner_preflight_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_EXACT_OWNER_COMMAND_READY_NOT_EXECUTED",
+  "source_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_source_review_01.json",
+    "sha256": "7ae28edcaf5356e6a46602388450c52a3978da5b6f73ae5db2193073fdeaa9a6",
+    "size_bytes": 6037
+  },
+  "grant_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_preflight_grant_01.json",
+    "sha256": "709a0b670c6c0db747e8ae450bcd4cff13cdca686e6b75ddb2b0fa2c640e66e8",
+    "size_bytes": 3338
+  },
+  "actual_result_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/result.json",
+    "sha256": "f24189218b4b306ea9a54c5b7eeb59f957c3558ad4b88e57d99dafb984661706",
+    "size_bytes": 4680
+  },
+  "tool_outcome_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/tool_outcome.json",
+    "sha256": "53dd3cc04a9957d4234dfd37c928324f763d5270353365e6046b19086a444254",
+    "size_bytes": 1048
+  },
+  "evidence_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/focus_in_owner_mode.json",
+      "sha256": "926a081155d1b0c4082fff36740c32fda8adf57820ffed6b4e33eec5de3b38eb",
+      "size_bytes": 4868
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/missing_binding.json",
+      "sha256": "5ed33312b40a96213c18146c6cdc28a568c4e8b127eb0c53f5a8bddf9dfb2835",
+      "size_bytes": 4607
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/owner_count_zero.json",
+      "sha256": "bfd27638ce13c408c5ad20e8b95b1b0f16d0fe886552a9e18ce97681b9748093",
+      "size_bytes": 4862
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/result.json",
+      "sha256": "f24189218b4b306ea9a54c5b7eeb59f957c3558ad4b88e57d99dafb984661706",
+      "size_bytes": 4680
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/retired_reviewer.json",
+      "sha256": "de1dc222c2a1f016ccceeb9c57de8e998c7f15142ef89d0caa469f576eb9e69c",
+      "size_bytes": 4860
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/source_author.json",
+      "sha256": "9928b83fb280d1cde20dd34a5db7e8ab1fc43547dff6dd9fccd6394178544dd1",
+      "size_bytes": 4836
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/tool_outcome.json",
+      "sha256": "53dd3cc04a9957d4234dfd37c928324f763d5270353365e6046b19086a444254",
+      "size_bytes": 1048
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/tool_return.raw",
+      "sha256": "9502e5a1cde887d3d2318b80eec1e15c7ce051142455b89d2096691aa05af63b",
+      "size_bytes": 343
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/wrong_binding_hash.json",
+      "sha256": "4d9478093d629225bcda60d978cf83ee703e6403ea409b983c6d06e2640fc921",
+      "size_bytes": 4862
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/wrong_binding_path.json",
+      "sha256": "403b275c503db1799d248f95d5c96805f745cf4c0999d558e7ad7dcc2f55301d",
+      "size_bytes": 4861
+    }
+  ],
+  "positive_exact_admission_load": true,
+  "exact_refusal_controls": 7,
+  "live_guards_preserved": 12,
+  "owner_reservation_absent": true,
+  "owner_actual_absent": true,
+  "command": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python -I -S -B /Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py --admission-file owner_admission.json --admission-sha256 db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+  "command_sha256": "b1d886a000a47b007ca4329cf808051ef480bac236d47f78cf888fd8046933a6",
+  "owner_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "candidate_application_imports": 0,
+  "native_Work_calls": 0,
+  "model_calls": 0,
+  "findings": "All seven negative inputs differ only in the designated rejection field. Exact source/admission/interpreter/binding refs and raw tool output rehashed. Single stdlib supervisor preflight exited 0 with no child or owner operation. Whole future route source and inherited actual/focused-tail evidence reviewed; this is source readiness, not an observed owner result."
+}

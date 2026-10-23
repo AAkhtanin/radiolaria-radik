@@ -1,0 +1,44 @@
+{
+  "application_source_changed": false,
+  "attempt_elapsed_ns": 301570083,
+  "engineering_budget_reset": false,
+  "gate_changed": false,
+  "omitted_payload_files": [
+    {
+      "archive_path": "project/source/reference/schemas/fractal_runtime_v02.schema.json",
+      "path": "source/reference/schemas/fractal_runtime_v02.schema.json",
+      "sha256": "95f81f4122e021d4cba1bd43e6ec8d337ccdb36af058e96ea1e7e3f2f6283df5",
+      "size_bytes": 402521
+    },
+    {
+      "archive_path": "project/source/reference/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "path": "source/reference/schemas/outcome_feedback_g34_predictive_v01.schema.json",
+      "sha256": "cb92d9429dd96efbda062dbe9507df18453402e481a8135c87841f9ac9fd6668",
+      "size_bytes": 31692
+    },
+    {
+      "archive_path": "project/source/reference/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "path": "source/reference/schemas/outcome_feedback_g35_sources_v01.schema.json",
+      "sha256": "9272dd580aa7514a4e807aaec28abfccf415d250159d4648d8329cfee2375e1b",
+      "size_bytes": 357296
+    },
+    {
+      "archive_path": "project/source/reference/schemas/outcome_feedback_v01.schema.json",
+      "path": "source/reference/schemas/outcome_feedback_v01.schema.json",
+      "sha256": "e89426aabdc36f62997a15b26e04fe6a1e07e046dcf609977a221ba337bcf26e",
+      "size_bytes": 32082
+    },
+    {
+      "archive_path": "project/source/reference/schemas/semantic_work_v01.schema.json",
+      "path": "source/reference/schemas/semantic_work_v01.schema.json",
+      "sha256": "eeb1969866aa00a9144912e56574afe2a93e47a3906974db83eaabdc3507a0e4",
+      "size_bytes": 13903
+    }
+  ],
+  "prepared_by": "/root",
+  "preserved_attempt": "return_package/public_inventory_execution_01",
+  "prior_selection_sha256": "b1bac60371be64d3d9fd479491e7373286ca271716a6e2597ca92f0d33d0e61e",
+  "publisher_invoked": false,
+  "reason": "The unchanged closed publisher rejects public JSON schema property definitions named subject outside the exact Stage07 observation scope. Omit redundant frozen schema bodies from this payload without changing any source, schema or gate. Exact schema pins remain in accepted source inventories; immutable public reference remains available at its accepted commit. All Stage07 actual consumer evidence remains selected.",
+  "schema": "radik.stage07.packaging_selection_adjustment.v1"
+}

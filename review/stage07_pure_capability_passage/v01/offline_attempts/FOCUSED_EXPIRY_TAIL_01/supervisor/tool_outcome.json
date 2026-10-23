@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+    "--grant",
+    "review/stage07_pure_capability_passage/v01/grants/FOCUSED_EXPIRY_TAIL_01.json",
+    "--sha256",
+    "1b909ba16a9b16519e46c49cd003f1fbfad4079bffa194ed708b4c8c1c1cc8e1"
+  ],
+  "automatic_retry": false,
+  "elapsed_ns": 1423127208,
+  "exit_code": 0,
+  "final_tool_return_observed": true,
+  "grant_sha256": "1b909ba16a9b16519e46c49cd003f1fbfad4079bffa194ed708b4c8c1c1cc8e1",
+  "outer_process_reaped": true,
+  "schema": "radik.stage07.offline_tool_outcome.v1",
+  "tool_output_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/supervisor/tool_return.raw",
+    "sha256": "2a326cff31158919aeecb3c3e3cef537400c3d6f81956c7bf6c33954da12635f",
+    "size_bytes": 656
+  }
+}

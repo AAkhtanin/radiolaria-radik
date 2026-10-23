@@ -1,0 +1,15 @@
+STAGE07_CHILD_STARTED role=application session=1 pid=5142
+STAGE07_CHECKPOINT role=application session=1 label=loaded_before_native wall_s=1.091 cpu_s=0.816 remaining_s=43.908
+STAGE07_CHECKPOINT role=application session=1 label=historical_inputs_read wall_s=1.093 cpu_s=0.818 remaining_s=43.907
+STAGE07_CHECKPOINT role=application session=1 label=focused_native_callbacks wall_s=1.163 cpu_s=0.886 remaining_s=43.837
+STAGE07_CHECKPOINT role=application session=1 label=native_enter wall_s=1.164 cpu_s=0.887 remaining_s=43.836
+STAGE07_CHECKPOINT role=application session=1 label=focused_temporal_positive wall_s=1.166 cpu_s=0.889 remaining_s=43.834
+STAGE07_CHECKPOINT role=application session=1 label=controlled_expiry wall_s=1.167 cpu_s=0.891 remaining_s=43.832
+STAGE07_CHECKPOINT role=application session=1 label=native_exit wall_s=1.168 cpu_s=0.891 remaining_s=43.832
+STAGE07_CHECKPOINT role=application session=1 label=focused_after_native wall_s=1.204 cpu_s=0.927 remaining_s=43.796
+STAGE07_CHECKPOINT role=application session=1 label=focused_tail_ready wall_s=1.205 cpu_s=0.928 remaining_s=43.795
+STAGE07_CHECKPOINT role=application session=1 label=loaded_final wall_s=1.241 cpu_s=0.964 remaining_s=43.759
+STAGE07_CHECKPOINT role=application session=1 label=worker_observation_complete wall_s=1.242 cpu_s=0.965 remaining_s=43.758
+STAGE07_CHECKPOINT role=application session=1 label=ordinary_entry_closed wall_s=1.243 cpu_s=0.965 remaining_s=43.757
+STAGE07_CHILD_CLOSED role=application session=1 pid=5142 exit=0 reaped=true
+ENGINEERING_RETURN {"model_calls": 0, "owner_actual": false, "receipt_ref": {"path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/FOCUSED_EXPIRY_TAIL_01/work/receipt.json", "sha256": "3996c12ec40aee51f288a81c540ae43897a5cb2a81fe6c724e388e91116b33a5", "size_bytes": 18709}, "status": "CLOSED"}

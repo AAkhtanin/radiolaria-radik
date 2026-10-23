@@ -1,5 +1,14 @@
 # Radik informational task console
 
+<!-- RADIK_STAGE07_ACTUAL_ACCEPTANCE_START -->
+## Accepted Stage07 finite PURE U3 integration
+
+Stage07 is independently accepted for all seven criteria in its controlled finite PURE U3 profile. The completed cold task 37 produces 118 and label SHELF-07-BIN-06; a fresh warm task 58 readmits the discovered capability with generation 0 and produces 181 and label SHELF-11-BIN-05.
+
+Read the [Stage07 dossier](review/stage07_pure_capability_passage/v01/actual_acceptance_01/README.md), [machine acceptance](review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json), [audit route](review/stage07_pure_capability_passage/v01/actual_acceptance_01/AUDIT_LOG.md) and [LLM reader](review/stage07_pure_capability_passage/v01/actual_acceptance_01/READ_RADIK_STAGE07.xml). The owner operation is complete and its admission consumed. Stage04-06 scopes remain accepted. Stage08, full minimal-stand conformance, open-ended authoring and cross-invocation UTC memory remain outside the accepted finite profile. Earlier stage sections below retain their historical wording.
+<!-- RADIK_STAGE07_ACTUAL_ACCEPTANCE_END -->
+
+
 <!-- RADIK_STAGE06_PUBLICATION_START -->
 ## Stage 6: current evidence across two local peers
 

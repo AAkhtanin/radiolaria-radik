@@ -1,0 +1,54 @@
+# Full stand relation coverage
+
+The two-document controlled passage is an intermediate slice. Evidence below is
+scoped to actual producers, validations and consumers. Current source/offline
+reviews in `review/canonical_semantic_passage` and `review/jwt_audience_passage`
+retain their original identities. The curator accepted actual AUTH093853 in its
+AUTH-only scope; its current local binding, live C and console admission remain
+separate. No FULL_STAND_READY claim is made.
+
+| Mechanism | Required relation | Actual producer | Validation | Consumer | Evidence | Remaining gap / next work |
+| --- | --- | --- | --- | --- | --- | --- |
+| Three semantic roles | Actual route → causal bounded context → author candidate → separate exact review | Configured Orchestrator/Architect/Critic Responses transport | Owned stage/receipt identity, distinct closed schemas, current source/time/policy | Controller and checked native semantic artifact | Controlled complete request/response/role events; real provider pending | Current grant applicability/catalog and designated-model observations followed by independent C |
+| AVF and local Root | Allowed vector/mask plus exact route acceptance before author request | Native AVF and independent local Root adapter | Exact scope/product/producer, accepted Root, relational native validators | Native route/rationale/BSEP then Architect projection | PRE_ARCHITECT_BSEP and full native family | Wider domain vectors, masks and independent Root topologies |
+| BSEP membrane | Genuine predecessor and native relational packet bound to same author wire | Native public context/rationale builders plus closed application projection | Packet+route+proposal+rationale, execution binding, immutable full body at reservation/send | Actual Architect; candidate and Critic consumed by typed Work | Controlled actual _send and stage negatives | Actual paid role observation still absent; passage cannot certify external truth |
+| Typed Work/Host | Approved semantic candidate → current materializer → admitted execution → retained result | WorkProgramCandidateV01 and PURE extract/compare/memory capabilities | Inputs include selected-source proof and semantic witness, exact output and Root checks | WorkProgram advance, comparison and accepted-output consumers | Full cold3/warm1/delta2 native evidence | Broader Work composition; no retired PlanGraph/Needle executor route |
+| Internal DRS | Accepted result → persisted bytes → fresh eligibility/descent → actual reuse | v02 owned memory writeback and native DRS records | Source/policy/schema/TTL, TemporalQuery, fresh Root and one-artifact descent | One actual memory consumer with deterministic adaptation | Saved/readback/eligibility/descent/consumer events | Delta → DRS writeback is incomplete: update does not call remember for the new accepted result; hops 4–5 remain. Wider qualified local knowledge and conflict/history scenarios remain |
+| External DRS | Separate sources/Roots → validated cross-boundary retrieval → explicit local acceptance | Not connected in this slice | No cross-Root current witness | None yet | Explicit coverage gap | Implement external transport, independent Roots, policy/time/source validation and consumer; no SuperRoot |
+| Time in the Loop | Time envelope/current evaluation → applicability at decision/use | Intake times, fixed semantic lifetime, native information/DRS clocks | Current TTL/validity and monotone runtime; dispatch recheck | Role request, memory consumer, information/effect continuation | Currentness negatives and typed temporal bodies | Broader PT/KT/ET/CT history, quantization and clock behavior across domains |
+| Historical memory | Historical provenance preserved; current eligibility cannot restore permission | Original records plus explicit new v02 records | Historical closed reader; current v02 rejects missing causal witness | Current selected material only after fresh descent | Legacy-memory refusal is a source guard, not a separate observed refusal; v02 warm actual consumer is observed | Broader lineage/conflict/supersession; no retroactive record migration |
+| GT | Qualified advisory/evaluation evidence → bounded decision input | Existing scoped source/artifact checks and advisory-shaped carriers | Existing local validated scope only | Relevant local checks | Native artifact witnesses, historical evidence | No complete GT evaluator connected; implement producer/evaluator/consumer relations |
+| Qualified experience / mathematics | Observed experience → qualification → current applicability → actual reuse | Not connected as a qualified experience subsystem | No current complete witness | None yet | Explicit coverage gap | Integrate accepted current experience/mathematical contracts and real consumers |
+| U1 | Universal Work composition includes applicable epistemic/validation relations; mandatory review is one required relation when declared | Scoped PURE Work and information/Root adapters; no WorkReviewObligation in this profile | Exact local relations are exercised; complete U1 conformance and mandatory review are not established | Current scoped Work consumers; no mandatory-review consumer here | Scoped native Work witnesses and absence of required_work_review | Broader U1 composition and an actual required-review producer/handler/consumer remain; D alone proves neither |
+| D | Explicit E_BASELINE_CONTROL is consumed by a declared retained-baseline/E continuation purpose | Native D information control under continuation_enabled | Exact source family, control_purpose and result binding | Native E plan/retention and checked app-owned delta mapping | Typed D/E baseline witness in the scoped continuation profile | This is not evidence for all U1 obligations or mandatory WorkReviewObligation; ordinary informational comparison has no ceremonial D |
+| U2 | Same-task revision keeps original Work origin while fresh delta witness informs revised inputs | Native revise_work_program_v01, policy candidate and actual prior result | Original intent/BSEP/semantic refs, cumulative budgets, changed/preserved mapping | Revised Work; unchanged sibling output actually consumed | Delta family, native E/D return and revised compare evidence | Broader triggers/compositions; changed-source map remains reviewed app adapter |
+| U3 | Task-derived missing PURE capability → authoring/admission → same-task consumption → qualified DRS reuse | Not implemented as a current complete U3 chain | Existing retained continuation checks do not establish capability authoring/admission | No complete U3 consumer chain in this slice | Explicit source coverage gap; typed continuation evidence has its own narrower purpose | Implement the missing-capability producer, author/admission boundary, same-task consumer and DRS reuse relation |
+| U4 | Integrated universality conformance across the applicable complete producer/validation/consumer relations | Scoped adapters exercise parts of the stand; no complete universality producer chain | No integrated U4 conformance witness | No complete U4 consumer chain in this slice | Historical SAVE and current scoped native evidence have narrower purposes | Integrated universality conformance remains; SAVE admission alone does not establish U4 |
+| Post V&V | Actual Work/output evidence → independent checked local result → accepted material | Native result artifact and local Root | Exact source/proposal/Work outputs and Root binding | Document result, memory writeback and prospective SAVE | Full actual controlled native result witnesses | Wider post-validation and independent live behavior assessment |
+| Effects | Current accepted output/permission → packet lifecycle → protected effect | Existing save adapter with native authority/Host/Firewall | Fresh consent/source/policy and max-one quota, actual readback | Owned writer and output reader | Historical SAVE evidence; controlled passage no SAVE | Actual corrected live effect deferred; auth never creates effect authority |
+| Audit/replay | Immutable observations plus operation/source identities → honest continuation/review | Finite evidence writer, owner journals, durable ledger, existing return exporter | Exact pins, hashes, manifest/readback; no credentials; no restored authority | Independent reviewer and continuation | Source/offline return and actual old failure preserved | Broader lawful replay and deployment composition; logs alone are not execution authority |
+| Auth recovery | Actual verified grant or guarded refusal → terminal current checkpoint/report | Existing PlanAuth and narrow owner recovery | Audience repair preserves signature/audience checks; independent A14 source closure | AUTH-only continuation and one stdlib archive/checksum | AUTH093853 accepted by curator; original failed token representation remains NOT_OBSERVED; 25 signed offline observations retain their own identity | Bind actual AUTH/source/operation/publication locally and check current reuse/refresh; delivery errors never imply another auth attempt |
+| Live and console | Corrected source + actual AUTH/catalog → bounded live → C → separate console admission | Existing owner runner, live profile and console candidate | Independent B/C and console gates | Later two-document user workspace | Current source/offline evidence; live NOT_RUN | First actual live still pending; free intent/server/general stand remain work |
+
+
+## Accepted stage map and deferred development decision
+
+The historical slice above retains its original observations. The accepted
+Stage06 map in
+`review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json`
+preserves all 21 master directions and the accepted Stage04-06 scopes. Stage07
+is a separate, pending integration of the existing finite U3 capability path;
+its criteria and actual statuses are recorded in
+`review/stage07_pure_capability_passage/v01/criteria_matrix.json`. Source
+preparation does not close Stage07 or change any of the 21 accepted statuses.
+
+Stage08 remains the connected examination of the full minimal stand, including
+current permitted SAVE and its boundaries. It is not a replacement Testflix
+project. After Stage08, the owner intends a separate general mode for multiple
+Radik instances with independent Roots, state, keys and policies, ordinary task
+input in each console, external DRS and contract-bound adapters. Testflix with
+client/provider/bank/device roles, followed by other services, are future
+scenarios of that general environment. This passage does not implement that
+environment, its UI, payment adapters or another synthetic demonstration.
+Every new service still requires an explicit contract, adapter and local
+admission; a role description creates no financial or other effect authority.

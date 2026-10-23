@@ -1,0 +1,102 @@
+{
+  "schema": "radik.stage07.actual_documentation_independent_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_EXACT_ACTUAL_CLOSURE_DOCUMENTATION",
+  "documentation_change_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_changes.json",
+    "sha256": "51701014c8e1b7be729265c56afdc1468cce1e34289886670139504b1597bb74",
+    "size_bytes": 2477
+  },
+  "document_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/README.md",
+      "sha256": "a690720c858b88c6e94479ead1f70639db1a65fc0ce05447a9866e398eefe599",
+      "size_bytes": 5986
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/READ_RADIK_STAGE07.xml",
+      "sha256": "8396018e1b1b30c2ebe0f092df206874627b657a1c82eb8d4903a1a889680e1e",
+      "size_bytes": 25595
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/AUDIT_LOG.md",
+      "sha256": "72b71b1b43a6727c937daa09dcaa7f0cfc19b1cc735b613faad6dfb60e2b3955",
+      "size_bytes": 4652
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/claims_evidence.json",
+      "sha256": "702c6c5642320d4dea5e584d40248bb38e002003e654b0cf00889e38e4fd86ab",
+      "size_bytes": 19160
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_claims_addendum.json",
+      "sha256": "b2e7da535fb7482a8a4b2d69746ff5190565bd6a98d3de99c82721dfd957f00a",
+      "size_bytes": 17554
+    },
+    {
+      "path": "README.md",
+      "sha256": "fd61a47c5b085bf1d8d2f3c2d0e3ebdde20b79bbd1b04026d41f2f13295eab61",
+      "size_bytes": 12192
+    },
+    {
+      "path": "docs/stand_coverage.md",
+      "sha256": "6a7e043303be21ce01c1c3acd1bc57ff5553bb6b2a75df6f25a22d1275ce0b21",
+      "size_bytes": 12129
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/worker_result_index.json",
+      "sha256": "b988ecafa9bda25eb566d5de4af3f6436697c13737b115aab60f95a75f7dd212",
+      "size_bytes": 4460
+    }
+  ],
+  "worker_result_index_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/worker_result_index.json",
+    "sha256": "b988ecafa9bda25eb566d5de4af3f6436697c13737b115aab60f95a75f7dd212",
+    "size_bytes": 4460
+  },
+  "external_owner_report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage07_actual_acceptance_01/OWNER_ACTUAL_REPORT_RU.md",
+    "sha256": "b6049cfb20fe217a6c1ddc0bc7ac6a9a27f41a7b45478a15faa1d028956d3621",
+    "size_bytes": 6552
+  },
+  "formal_acceptance_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json",
+    "sha256": "513e4750a8db7592a71185fc5dd32848f1282607b82d0276d6c8cefbcbc31285",
+    "size_bytes": 3638
+  },
+  "facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "newest_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/actual_acceptance_preparation_accounting.json",
+    "sha256": "6818d997f73445a65052a572fd89be2c83c8679e6c631e5d4d37749227cb6d96",
+    "size_bytes": 2860
+  },
+  "xml_evidence_references_verified": 30,
+  "original_root_document_prefixes_preserved": true,
+  "master_direction_count": 21,
+  "changed_direction_ids": [
+    "DEFER-S7-PURE-CAPABILITY"
+  ],
+  "unchanged_effective_direction_statuses": 20,
+  "findings": [
+    "English README/XML/audit/claims index accurately derive scoped acceptance from the named independent raw-owner review; no new runtime permission or duplicate verdict.",
+    "Cold/warm/control values, causal result links, seven worker index pointers, seven criteria and six supplemental closure references resolve to exact original evidence.",
+    "Same content-derived IDs are distinguished from a fresh warm Host/need/admission operation; controlled logical time and invocation-local memory limitations remain explicit.",
+    "Five reserved admissions, four validation workers, three successes, tenPUREWorkdispatches, fuel and DRS reserved/measured differences are accurately separated.",
+    "Both protected ledgers retain fiveUNKNOWN each, ten distinct IDs; no rewritten history, quota or reservations.",
+    "Original root README/coverage bytes remain exact prefixes; all21 direction identities, requirements and unrelated statuses remain. Only finite Stage07 status and its acceptance reference are added.",
+    "Final engineering accounting includes additive10s preparation, total91.383032418s/remaining808.616967582s; owner actual and packaging remain separate."
+  ],
+  "candidate_source_changed": false,
+  "new_scenario_or_native_execution_required": false,
+  "owner_admission_consumed": true,
+  "push_release_Stage08_authorized": false
+}

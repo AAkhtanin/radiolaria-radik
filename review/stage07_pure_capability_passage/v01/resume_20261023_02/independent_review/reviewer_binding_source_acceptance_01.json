@@ -1,0 +1,63 @@
+{
+  "candidate_execution_granted": false,
+  "candidate_imports": 0,
+  "findings": [
+    "Only current reviewer predicates and future-accounting reviewer selection change; imports and all existing mode/status/source/interpreter/one-use/reservation/network/model/deadline rules are unchanged.",
+    "All five current reviewer validators have identical ASTs and require the exact fixed-path binding through existing hash/size/symlink-safe readers. Current source authors and retired prior identity are refused; no cryptographic authentication claim is made.",
+    "The owner explicitly authorized one newly independent reviewer. The recorded identifier matches this active reviewer, who authored none of the application/runner changes.",
+    "Historical preparation and PROBE_01/PROBE_02 preserve original authors and exact bytes. Future closed accounting needs current identity binding; prior grants are not reusable.",
+    "The same repaired source can be admitted for focused exact-AST identity and expiry/finalization research checks only after their harness/source/inputs/I-O are independently reviewed. No broad current runtime admission follows from this record.",
+    "All1176 inventory file pins and12 live guards re-read exact;173 historical evidence references exact. Existing expiry repair changes only the evaluator source enum and precise temporal assertions; it still lacks an actual2001 observation.",
+    "No reviewer_binding record is treated as kernel authority, model scope, effect permission, or evidence that a review happened. This separate signed-by-identifier record supplies the actual review conclusion."
+  ],
+  "mechanical_review_elapsed_ns": 231230042,
+  "native_calls": 0,
+  "owner_command_ready": false,
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "runtime_semantic_PASS": false,
+  "schema": "radik.stage07.reviewer_binding_independent_review.v1",
+  "source_author_acceptance": false,
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_REVIEWER_BINDING_01.json",
+    "sha256": "2825226cdd9a7170a260cfb6824e44930760aaa5c1fce82af07063b53a8ebb20",
+    "size_bytes": 1108749
+  },
+  "source_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/reviewer_binding_source_proposal.json",
+    "sha256": "5eb92348a5342c5fc15bddd2828f311e7db900afaabb9eda37e584bf2a13d61e",
+    "size_bytes": 3720
+  },
+  "source_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/probe_runner.py",
+      "sha256": "5a3757ab2fd655008a8c3dbbf117adcf645589fe7b4ef491f04c572cc7e735bd",
+      "size_bytes": 3460
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+      "sha256": "2df5f473df75578d4db20515d26638f6d07ae649a6c3e4868e1d5faf04e72516",
+      "size_bytes": 22086
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+      "size_bytes": 39475
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "sha256": "4d5cffff227b02e1639eef0eee16c61940e632711d3060ea74712453f52a5916",
+      "size_bytes": 14678
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+      "sha256": "ef5deecf66480181cc2c70dcd70b9162c79d6e52e34ec7bd8425f20b4753ccf5",
+      "size_bytes": 11648
+    }
+  ],
+  "status": "ACCEPTED_EXACT_SOURCE_FOR_SEPARATELY_ADMITTED_FOCUSED_CHECKS"
+}

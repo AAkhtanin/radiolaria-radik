@@ -1,0 +1,53 @@
+{
+  "actual_execution_performed": false,
+  "author": "/root",
+  "expected_Work_generation_admission_retrieval_Wasm_model_calls": 0,
+  "expected_native_temporal_evaluations": 2,
+  "files": [
+    {
+      "before_path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/candidate/app/pure_capability.py",
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "sha256": "2e0192512e81fd7b88449a868fb17a7104b8952102d15c31ee5e1395eb0ae3a7",
+      "size_bytes": 21633
+    },
+    {
+      "before_path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/owner_terminal.py",
+      "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "sha256": "de5c081df971c68cc94532db2914eecc0e230e05cb63be3c3cd673a7fcf777ca",
+      "size_bytes": 39730
+    },
+    {
+      "before_path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/candidate/config/stage07_bootstrap.py",
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "sha256": "a690d920233e66c067568e76a99cfe181dd518b19ff2a75dcc9ce28a2210d57a",
+      "size_bytes": 14855
+    },
+    {
+      "before_path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focus_before/build_source_inventory.py",
+      "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+      "sha256": "76e0f17ad3bcbcc1dfc8a66c60e1235f8d82f74dd478b4a046d97b90dd2dd997",
+      "size_bytes": 6044
+    },
+    {
+      "new_file": true,
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_expiry.py",
+      "sha256": "cf30f0696e31e02a861226d20b34ff77587669d759482d80ae66b0720732b68f",
+      "size_bytes": 10601
+    },
+    {
+      "new_file": true,
+      "path": "review/stage07_pure_capability_passage/v01/focused_expiry_tail_scenario.json",
+      "sha256": "1636ea20e41983ba94accc8f7361b356a8aa5e307d71456d4e19d532b582a37f",
+      "size_bytes": 833
+    }
+  ],
+  "full_semantic_scenario_pass": false,
+  "new_engineering_selector": "pure_capability_expiry_tail_v01",
+  "new_result_status": "PASS_STAGE07_FOCUSED_EXPIRY_TAIL",
+  "owner_selector_unchanged": true,
+  "preparation_elapsed_ns": 18282042,
+  "schema": "radik.stage07.focused_expiry_tail_source_proposal.v1",
+  "shared_expiry_semantics": "Original repaired enum/assertion block extracted to common helper; normal route passes original record/query, focus passes public typed evidence-only reconstruction. No timestamp mutation or Host authority restoration.",
+  "source_inventory_preparation_pending_independent_grant": true,
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW"
+}

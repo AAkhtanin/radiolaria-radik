@@ -1,0 +1,16 @@
+{
+  "schema": "radik.stage07.return_adapter_preparation.v1",
+  "accepted_basis_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/build_return.py",
+    "sha256": "d33a277a2e107b63b23c65d728c85664b1b8e439164ee99c941806cf136b7eb1"
+  },
+  "candidate_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "5e4e5e70c24d588108efe686a59c2d1e4782df06a44225491e489b3366d64776",
+    "size_bytes": 10047
+  },
+  "scope": "Stage07 names/paths and closed claim prefix only; existing publisher unchanged. Any later new exact public-field shape requires separate final source review.",
+  "execution_granted": false,
+  "publisher_executed": false,
+  "AST_preparation_elapsed_ns": 1986917
+}

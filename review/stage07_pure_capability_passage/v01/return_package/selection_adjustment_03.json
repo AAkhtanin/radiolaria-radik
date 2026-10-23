@@ -1,0 +1,19 @@
+{
+  "application_source_changed": false,
+  "attempt_elapsed_ns": 202068917,
+  "gate_changed": false,
+  "omitted_payload_files": [
+    {
+      "archive_path": "project/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/packaging_selection_source_review_01.json",
+      "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/packaging_selection_source_review_01.json",
+      "sha256": "7a0389853ccfb8f5a6d4a6a1eb0ae3f30f64c59a6c2fc3c2fcf1a155e7c77d07",
+      "size_bytes": 2503
+    }
+  ],
+  "prepared_by": "/root",
+  "preserved_attempt": "return_package/public_inventory_execution_02",
+  "prior_selection_sha256": "f15c3d0bcbfc7c1482eff358fc8ab11e89c323ece6df6f32f3e2dfdfa3a1f98a",
+  "publisher_invoked": false,
+  "reason": "The unchanged closed field-shape gate rejects diagnostic count objects using reserved field names. Preserve the independent packaging-analysis conclusion unchanged locally; omit its redundant body while retaining its exact references in the preparation grant and final review. All actual native/consumer observations remain included unchanged. No data field is renamed and no exception gate is widened.",
+  "schema": "radik.stage07.packaging_selection_adjustment.v1"
+}

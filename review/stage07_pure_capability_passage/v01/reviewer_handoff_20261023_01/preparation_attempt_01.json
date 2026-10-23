@@ -1,0 +1,14 @@
+{
+  "application_imports": 0,
+  "cause": "PROBE_01 accounting references its completion through evidence_refs rather than a top-level completion_ref.",
+  "failure": "KeyError: completion_ref",
+  "native_calls": 0,
+  "repair": "Read the recorded optional top-level reference when present and verify each actual completion file independently. No prior accounting changed.",
+  "runtime_retry": false,
+  "status": "STOPPED_READ_ONLY_HANDOFF_PREPARATION",
+  "tool_exit_code": 1,
+  "tool_reported_wall_seconds": 0.106424333,
+  "writes_before_failure": [
+    "reviewer_handoff_20261023_01 directory only"
+  ]
+}

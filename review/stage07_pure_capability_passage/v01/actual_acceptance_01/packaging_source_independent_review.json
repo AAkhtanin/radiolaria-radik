@@ -1,0 +1,46 @@
+{
+  "schema": "radik.stage07.actual_packaging_source_independent_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_SOURCE_ONLY_PENDING_EXACT_SELECTION_AND_ONE_USE_GRANTS",
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/packaging_source_proposal.json",
+    "sha256": "42ed036df8eb53a29f376ae6f0d81fa2add42a543e817a5726f8218acfd34a4b",
+    "size_bytes": 1781
+  },
+  "adapter_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py",
+    "sha256": "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+    "size_bytes": 11699
+  },
+  "inventory_helper_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/prepare_public_inventory.py",
+    "sha256": "401ff7bf9428a4f2775b2a3e77801c5c3c74ec33b6681cdf6823146a245ee57b",
+    "size_bytes": 6959
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "accepted_adapter_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "ef5deecf66480181cc2c70dcd70b9162c79d6e52e34ec7bd8425f20b4753ccf5",
+    "size_bytes": 11648
+  },
+  "findings": [
+    "Exact mechanical path changes and distinct actual-acceptance reservation key only. No other bytes changed from independently accepted adapter/helper.",
+    "Fixed current reviewer binding remains at v01; authors/retired reviewer refusal, finite selection, exact bytes, existing field shapes and secret scanner are unchanged.",
+    "New external owner report root and autoadded review/inventory paths isolate this owner-actual closure from the already delivered preparation RETURN. Prior key/reservation/archive remain immutable.",
+    "Existing publisher source, exclusive build reservation, full tar readback, atomic sidecar and standard delivery mechanism remain unchanged.",
+    "No application/native import or execution; exact final source/evidence selection and shape inventory still require separate review and one-use grants."
+  ],
+  "execution_granted": false,
+  "application_or_native_imports": 0,
+  "publisher_imports": 0,
+  "source_author_acceptance": false
+}

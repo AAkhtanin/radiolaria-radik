@@ -1,0 +1,57 @@
+{
+  "schema": "radik.stage07.actual_acceptance_preparation_accounting.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_ADDITIVE_CONSERVATIVE_FINAL_PREPARATION_CHARGE",
+  "original_engineering_budget_ns": 900000000000,
+  "prior_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/OWNER_COMMAND_PREFLIGHT_01.json",
+    "sha256": "d4d3b118c9b709fe11a1ca09f1e99524935717d14135a7072b839e695d0551da",
+    "size_bytes": 1935
+  },
+  "prior_charged_ns": 81383032418,
+  "additional_final_acceptance_preparation_charge_ns": 10000000000,
+  "cumulative_engineering_charged_ns": 91383032418,
+  "remaining_engineering_budget_ns": 808616967582,
+  "measured_readback_components": [
+    {
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+        "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+        "size_bytes": 75275
+      },
+      "elapsed_ns": 3933021542
+    },
+    {
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/raw_owner_inventory.json",
+        "sha256": "93588ed58753e65f52b6d750050245a1be9f0fda4cb1775dcd72e7c7ad2c08e0",
+        "size_bytes": 40915
+      },
+      "elapsed_ns": 10092709
+    },
+    {
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_basis/readback.json",
+        "sha256": "44e1164b2b0b57e3a3504327ede3dae31ee4ad3873a582aff7fe241ebac3713d",
+        "size_bytes": 1280
+      },
+      "elapsed_ns": 881916
+    }
+  ],
+  "accounting_basis": "Conservatively count this final source/data acceptance preparation against the same original900s engineering budget, even though it invokes no application/native/probe. The additive10s includes measured independent raw/source readback, root inventory/basis reads and small read-only structural inspection/bookkeeping/documentation closure. It is an allowance charge, not measured elapsed/model reasoning time. No reset/refund or old record edit.",
+  "owner_actual_wall_ns": 6465176458,
+  "owner_actual_accounted_separately_under_consumed_owner_admission": true,
+  "owner_accounting_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2f997e1147817dbb1c8aaa7a598278960f4d7fd475f6a7a58fba58abda7c1dc8",
+    "size_bytes": 10312
+  },
+  "packaging_accounted_separately": true,
+  "new_application_native_or_probe_executions": 0,
+  "new_model_calls": 0
+}

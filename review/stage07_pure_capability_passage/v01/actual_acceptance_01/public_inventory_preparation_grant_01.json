@@ -1,0 +1,70 @@
+{
+  "schema": "radik.stage07.actual_public_inventory_preparation_grant.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_FOR_ONE_SOURCE_ONLY_PUBLIC_FIELD_INVENTORY",
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/prepare_public_inventory.py",
+    "sha256": "401ff7bf9428a4f2775b2a3e77801c5c3c74ec33b6681cdf6823146a245ee57b",
+    "size_bytes": 6959
+  },
+  "selection_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/return_selection_02.json",
+    "sha256": "aee51d31c9ae024182e4fe86a0b5d29eb6dbbf5ac757eb4bbc65dfe445719491",
+    "size_bytes": 338781
+  },
+  "adapter_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py",
+    "sha256": "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+    "size_bytes": 11699
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/packaging_source_independent_review.json",
+    "sha256": "ddb7f5d7e7e1131e655dc060f894b4059d87e9dcfd653fcfcce0c9715fac43ce",
+    "size_bytes": 2582
+  },
+  "documentation_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_independent_review.json",
+    "sha256": "4ed5504f3b859c8be5db512e97a30421df07f0a5383b6b3e85a3f4ac368eff60",
+    "size_bytes": 5204
+  },
+  "output_name": "public_field_inventory_01.json",
+  "max_wall_seconds": 30,
+  "exact_selection_review": {
+    "selected_files": 872,
+    "selected_bytes": 31754839,
+    "all124_owner_raw_files_retained": true,
+    "all_previous_rows_unchanged": true,
+    "all_shapes_prevalidated": true,
+    "public_observation_shapes": [
+      {
+        "kind": "STAGE07_CURRENT_ROOT_CLAIM",
+        "count": 21
+      },
+      {
+        "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+        "count": 37
+      }
+    ],
+    "prior_archives_unchanged": true,
+    "source_only_readback_elapsed_ns": 305403916
+  },
+  "application_imports_allowed": false,
+  "publisher_imports_allowed": false,
+  "publisher_execution_allowed": false,
+  "owner_execution_allowed": false,
+  "network_allowed": false,
+  "automatic_retry": false,
+  "packaging_accounting_separate": true
+}

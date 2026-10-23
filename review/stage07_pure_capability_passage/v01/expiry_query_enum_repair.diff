@@ -1,0 +1,25 @@
+--- PROBE_02/pure_capability.py
++++ candidate/app/pure_capability.py
+@@ -329,10 +329,20 @@
+     kwargs = {f.name: getattr(retrieval.query, f.name) for f in fields(retrieval.query)
+         if f.name not in ('query_id', 'temporal_query_version')}
+     expired_query = native.memory.resolution.build_drs_temporal_query_v01(**(kwargs | {
+-        'as_of': 2001, 'evaluation_time': 2001, 'evaluation_time_source': 'EXPLICIT_CONTROLLED_FUTURE_EXPIRY'}))
++        'as_of': 2001, 'evaluation_time': 2001}))
+     expired = native.memory.resolution.evaluate_drs_candidate_v01(semantic_address=record.meaning.semantic_address,
+         query=expired_query, meaning_record=record.meaning)
+-    native.require(not expired.eligible_for_ranking and expired.reason_codes
++    native.require(expired_query.evaluation_time_source == 'INJECTED_CURRENT_DECISION_TIME'
++        and expired.query_state == 'BLOCKED_BY_TIME' and not expired.eligible_for_ranking
++        and not expired.validity_interval_passed and not expired.ttl_freshness_passed
++        and not expired.temporal_hard_gate_passed and not expired.required_time_axes_passed
++        and not expired.required_evidence_passed
++        and expired.reason_codes == ('drs_time_validity_interval_invalid', 'drs_time_ttl_expired',
++            'drs_required_evidence_missing')
++        and all(getattr(expired, name) for name in ('scope_passed', 'lifecycle_passed', 'policy_compatible',
++            'schema_compatible', 'provenance_passed', 'authority_envelope_passed', 'forbidden_changes_passed',
++            'conflict_passed', 'quarantine_passed', 'deadend_passed', 'action_intent_passed',
++            'g2a_action_history_passed', 'permission_boundary_passed'))
+         and native.canonical(record) == original_memory, 'stage07_expired_memory_control')
+     checkpoint('controlled_expiry', dict(scope='CONTROLLED_FUTURE_QUERY_NO_HOST_TIME_RESET',
+         interpretation='INELIGIBLE_FOR_RANKING_RETRIEVAL_AND_ADMISSION_NOT_ATTEMPTED_IN_THIS_CONTROL',

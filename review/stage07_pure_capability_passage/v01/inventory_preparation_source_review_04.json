@@ -1,0 +1,94 @@
+{
+  "schema": "radik.stage07.inventory_preparation_source_review.v1",
+  "reviewer": "private_remote_controls",
+  "status": "ACCEPTED_FOR_ONE_STDLIB_INVENTORY_PREPARATION",
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "sha256": "a6c1925eb6834e8d43dee9170e48e38e4a3080b0c988e187936a1628c72491d9",
+    "size_bytes": 5835
+  },
+  "runner_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/runner_source_proposal_v02.json",
+    "sha256": "ebc35ba3d485d418393d210861135cf6600dd93190096f5db28ea1cb5e681ace",
+    "size_bytes": 5503
+  },
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "interpreter_resolved_path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "source_manifest_PROBE_04.json"
+  ],
+  "output_path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_04.json",
+  "reads": "Exact declared candidate, reference hedgehog/schemas and three demo source files, installed dependency packages/Wasmtime dist-info, platform stdlib excluding platform test trees, owned requirements lock and two accepted supervisor source files; source/data only.",
+  "writes": "Only the new exclusive manifest path. Parent may retain preparation stdout/outcome and accounting under this Stage07 scope.",
+  "source_findings": [
+    "Only stdlib imports; AST parsing does not import or run parsed candidate/reference code.",
+    "No subprocess/network/state/ref mutation.",
+    "Rejects existing output, source symlinks/nonregular files, .pth surface or undeclared startup files.",
+    "Metadata inventory itself is evidence; it does not grant application execution or certify complete runtime import closure.",
+    "Require readback of output bytes and exact source hash before invoking; preserve stopped preparation without retry."
+  ],
+  "maximum_total_seconds_including_cleanup": 30,
+  "maximum_cleanup_seconds": 5,
+  "automatic_retry": false,
+  "candidate_imports_allowed": false,
+  "native_Work_allowed": false,
+  "owner_AUTH_provider_model_E_SAVE_allowed": false,
+  "budget_total_seconds": 900,
+  "charge_measured_preparation_and_cleanup": true,
+  "prior_budget_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting.json",
+    "sha256": "d2e8ad2d9ea6228a170029969db067e4228b601ec8cd461a3423475ef542b53d",
+    "size_bytes": 2160
+  },
+  "mechanical_review_elapsed_ns_before_write": 21799833,
+  "previous_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/inventory_preparation_source_review_03.json",
+    "sha256": "9f5d342059183a801ce978f9cc7c98a7e15b3e9fbc601a118f6efe0b3d22ffee",
+    "size_bytes": 5085
+  },
+  "core_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "sha256": "588ec68a3e83dec846cb72e43b40b149e74e0d785c126991e9464902df114ddd",
+      "size_bytes": 23304
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_work.py",
+      "sha256": "6be8d40932fdc1c6d6b228b5ff60ddc8ff35fa767a66605f47523c1ab2d92f62",
+      "size_bytes": 22452
+    }
+  ],
+  "previous_preparation_outcome_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_checks/INVENTORY_03/tool_outcome.json",
+    "sha256": "c9bacb9b2e713e30dee0ae2a3321ce389357c72a21c6721de9a0f63fb078ba1b",
+    "size_bytes": 873
+  },
+  "purpose": "One fresh stdlib inventory after independently accepted final expiry enum/assertion repair. No candidate/application/native execution in this grant; preserve all prior versions and failed actuals.",
+  "source_repair_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/expiry_query_enum_repair_independent_review.json",
+    "sha256": "225b4783402c517762ea3a8b853374b18cddd38b89abe62a1a7f948cba82dfb8",
+    "size_bytes": 2488
+  },
+  "source_repair_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/expiry_query_enum_repair_proposal.json",
+    "sha256": "6e12bdcfab6f9be512b5216a22671a60ffb63e9d1f1af5fcd416c2fd556662d8",
+    "size_bytes": 3382
+  },
+  "closed_execution_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_02.json",
+    "sha256": "78d196f776397aeacfb5bb85fbb2739765ec180f1f7a5bc66565b55b2d077b66",
+    "size_bytes": 37066
+  },
+  "accounting_requirement": "Record measured repair/retention/inventory/readback preparation additively within the explicit10s post-PROBE02 preparation reserve in frozen execution_accounting/PROBE_02.json. Initial15s preparation charge and historical completions remain immutable; excess requires new explicit accounting."
+}

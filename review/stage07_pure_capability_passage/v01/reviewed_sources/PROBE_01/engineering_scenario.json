@@ -1,0 +1,24 @@
+{
+  "schema": "radik.stage07.pure_capability_scenario.v01",
+  "task_selector": "pure_capability_probe_v01",
+  "invocation_id": "fb2576494ffa403186e8441da7050054",
+  "sources": {
+    "cold": {
+      "document": "Archive shelf request.\nSource code: 41.\nRevision: 1.\nUse: informational shelf label only.\n",
+      "revision": 1
+    },
+    "warm": {
+      "document": "Archive shelf request.\nSource code: 62.\nRevision: 1.\nUse: informational shelf label only.\n",
+      "revision": 1
+    },
+    "controls": {
+      "document": "Archive shelf request.\nSource code: 11.\nRevision: 1.\nUse: informational shelf label only.\n",
+      "revision": 1
+    },
+    "disabled": {
+      "document": "Archive shelf request.\nSource code: 5.\nRevision: 1.\nUse: informational shelf label only.\n",
+      "revision": 1
+    }
+  },
+  "work_wall_seconds": 240
+}

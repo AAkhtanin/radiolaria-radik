@@ -1,0 +1,61 @@
+{
+  "accounting_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/recovery_budget_acceptance_01.json",
+    "sha256": "39deab7ab2dd4d7083fe377b8afbefd0a466e0823501cee971cc6f90cea9e39c",
+    "size_bytes": 2127
+  },
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "source_manifest_PROBE_05.json"
+  ],
+  "automatic_retry": false,
+  "budget_total_seconds": 900,
+  "candidate_imports_allowed": false,
+  "charge_measured_preparation_and_cleanup": true,
+  "expected_manifest_files": 1180,
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "maximum_cleanup_seconds": 5,
+  "maximum_total_seconds_including_cleanup": 30,
+  "native_Work_allowed": false,
+  "output_path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+  "owner_AUTH_provider_model_E_SAVE_allowed": false,
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focused_expiry_tail_source_proposal.json",
+    "sha256": "ecfda552cb0b7495476ee7ad8b663021686dd5f55b7805f3924ec98da7e766d9",
+    "size_bytes": 2715
+  },
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "scenario_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/focused_expiry_tail_scenario.json",
+    "sha256": "1636ea20e41983ba94accc8f7361b356a8aa5e307d71456d4e19d532b582a37f",
+    "size_bytes": 833
+  },
+  "schema": "radik.stage07.inventory_preparation_source_review.v1",
+  "scope": "One stdlib-only source inventory preparation. No candidate/native execution. Preserve all prior inventory versions and stopped evidence. Output is evidence requiring readback/current-source admission.",
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "sha256": "76e0f17ad3bcbcc1dfc8a66c60e1235f8d82f74dd478b4a046d97b90dd2dd997",
+    "size_bytes": 6044
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_source_review_01.json",
+    "sha256": "ffae904dbcdaa58a2f425ed2d8a89c55b3f12fcc168e3102cbf2fdc945fb806a",
+    "size_bytes": 4511
+  },
+  "status": "ACCEPTED_FOR_ONE_STDLIB_INVENTORY_PREPARATION"
+}

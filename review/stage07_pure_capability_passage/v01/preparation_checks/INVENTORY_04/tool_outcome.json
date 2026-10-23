@@ -1,0 +1,28 @@
+{
+  "schema": "radik.stage07.inventory_preparation_outcome.v1",
+  "source_review_sha256": "c97e71e817569885fad0234a334b799b28b753aa2ba82fdae2a62fa1c3e258df",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "source_manifest_PROBE_04.json"
+  ],
+  "elapsed_ns": 2694422208,
+  "exit_code": 0,
+  "timed_out": false,
+  "reaped": true,
+  "automatic_retry": false,
+  "candidate_imports": 0,
+  "native_calls": 0,
+  "model_calls": 0,
+  "owner_runs": 0,
+  "accounting_envelope": "Additional conservative10-second preparation reserve in execution_accounting/PROBE_02.json; not a reset.",
+  "output_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_04.json",
+    "sha256": "4a7ba22fc1dab9490527e39bb15a82780750838abdf9e1f9dd833f8a190c4100",
+    "size_bytes": 1108699
+  },
+  "manifest_file_count": 1176
+}

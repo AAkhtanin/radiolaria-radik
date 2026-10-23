@@ -1,0 +1,110 @@
+{
+  "schema": "radik.stage07.reviewed_source_retention.v01",
+  "source_manifest_sha256": "516984d047e39166e4ad736e1f10b6e63d7d9a9b7519cf1dccb943ad9e3f1adc",
+  "files": [
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/build_source_inventory.py",
+      "sha256": "a6c1925eb6834e8d43dee9170e48e38e4a3080b0c988e187936a1628c72491d9",
+      "size_bytes": 5835
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/__init__.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "size_bytes": 85
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/ordinary_entry.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/ordinary_entry.py",
+      "sha256": "62d49ecf521d3508fc8aa6bf6a8fb1791d10b1578889f5e2f367a83a79fd13e1",
+      "size_bytes": 29566
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/pure_capability.py",
+      "sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+      "size_bytes": 22505
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_work.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/app/pure_capability_work.py",
+      "sha256": "6be8d40932fdc1c6d6b228b5ff60ddc8ff35fa767a66605f47523c1ab2d92f62",
+      "size_bytes": 22452
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/__init__.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/launch.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/config/launch.py",
+      "sha256": "395aae557c498284951e0a3b6899bd50d9be45d3c5c8074ca9ef9f2411a2f07b",
+      "size_bytes": 14789
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/config/stage07_bootstrap.py",
+      "sha256": "c0439d6794ee3ba9e305a5ccc0ade6b1a55c48a99ebb37c9d42cdf8500228945",
+      "size_bytes": 13482
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/stage07_io.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/config/stage07_io.py",
+      "sha256": "90d4cd4e262b0f8f35a60e254dfdb6efebb60d68ee5d4ac63e90fff659b25880",
+      "size_bytes": 5648
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/worker_bootstrap/sitecustomize.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/config/worker_bootstrap/sitecustomize.py",
+      "sha256": "9b96eddb2045094918367b8231622d5c8d6e35081c4e45a6ecd4f90bb07fc499",
+      "size_bytes": 8715
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/review/transport/radik_owner_start.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/candidate/review/transport/radik_owner_start.py",
+      "sha256": "e7fbf0d0caf529ec7b6a0dda452d9471c207198761e2f7dc1a7307322a435b6c",
+      "size_bytes": 148303
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/engineering_scenario.json",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/engineering_scenario.json",
+      "sha256": "a5379714c12e67526a8ca6530ff7e456ebee49604337587be4a56fcdb741f5f7",
+      "size_bytes": 846
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/offline_supervisor.py",
+      "sha256": "d8f04651bb44c26c1abbb258c06dcb702784d9c617f4dfc6f851edafdda17a4e",
+      "size_bytes": 20649
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_scenario.json",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/owner_scenario.json",
+      "sha256": "d3babe7b675baf4bb20114318fecd1455fc5dccb85337df3b98ac621bd7a107b",
+      "size_bytes": 846
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/owner_terminal.py",
+      "sha256": "34ec5c2c4b83e99c61e33d7bd41f62390e0389163a859441d82493918088cf45",
+      "size_bytes": 38302
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/probe_runner.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/probe_runner.py",
+      "sha256": "091e6d9356f4ca25e223337f6ddc75db4c86de4c58a5ddcb5fac765eed9862da",
+      "size_bytes": 2282
+    },
+    {
+      "source": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/supervisor_timing.py",
+      "retained": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_02/supervisor_timing.py",
+      "sha256": "e1fb5cb10f61cec1640329bdf9c706e256d873beb923149545758186c84c16e1",
+      "size_bytes": 6278
+    }
+  ],
+  "elapsed_ns": 28331416,
+  "purpose": "Exact tested source retained before targeted temporal-query repair; complete original PROBE_02 evidence remains unchanged."
+}

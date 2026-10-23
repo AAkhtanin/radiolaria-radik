@@ -1,0 +1,1 @@
+{"actual_id":"FOCUSED_EXPIRY_TAIL_01","automatic_retry":false,"grant_path":"review/stage07_pure_capability_passage/v01/grants/FOCUSED_EXPIRY_TAIL_01.json","grant_sha256":"1b909ba16a9b16519e46c49cd003f1fbfad4079bffa194ed708b4c8c1c1cc8e1","schema":"radik.stage07.offline_invocation.v01","started_monotonic_ns":2620900781666,"status":"PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING"}

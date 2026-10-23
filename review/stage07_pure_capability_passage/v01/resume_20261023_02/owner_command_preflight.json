@@ -1,0 +1,139 @@
+{
+  "author": "/root",
+  "command_emitted": false,
+  "command_executed": false,
+  "engineering_scenario_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/engineering_scenario.json",
+    "sha256": "a5379714c12e67526a8ca6530ff7e456ebee49604337587be4a56fcdb741f5f7",
+    "size_bytes": 846
+  },
+  "imports_unchanged_in_identity_patch": [
+    "review/stage07_pure_capability_passage/v01/probe_runner.py",
+    "review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+    "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+    "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+    "review/stage07_pure_capability_passage/v01/return_package/build_return.py"
+  ],
+  "missing_required_records": [
+    "Owner-designated reviewer binding",
+    "Independent current source acceptance",
+    "Reconciled preparation accounting acceptance",
+    "Scoped fresh engineering grant and actual result for missing/affected evidence",
+    "Independent final actual acceptance",
+    "Exact owner admission and complete command-tail acceptance",
+    "Final finite RETURN selection/public-field acceptance and packaging grant"
+  ],
+  "new_Runtime_PASS_claimed": false,
+  "owner_actual_executed": false,
+  "owner_scenario_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_scenario.json",
+    "sha256": "d3babe7b675baf4bb20114318fecd1455fc5dccb85337df3b98ac621bd7a107b",
+    "size_bytes": 846
+  },
+  "preparation_elapsed_ns": 97986875,
+  "prior_runtime_evidence_reused_as_material_not_current_authority": true,
+  "prospective_interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "route": [
+    {
+      "end_line": 676,
+      "function": "main",
+      "line": 661,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+        "sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+        "size_bytes": 39475
+      }
+    },
+    {
+      "end_line": 236,
+      "function": "load_admission",
+      "line": 184,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+        "sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+        "size_bytes": 39475
+      }
+    },
+    {
+      "end_line": 658,
+      "function": "supervise",
+      "line": 246,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+        "sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+        "size_bytes": 39475
+      }
+    },
+    {
+      "end_line": 143,
+      "function": "_stage07_launch",
+      "line": 100,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/config/launch.py",
+        "sha256": "395aae557c498284951e0a3b6899bd50d9be45d3c5c8074ca9ef9f2411a2f07b",
+        "size_bytes": 14789
+      }
+    },
+    {
+      "end_line": 1598,
+      "function": "main",
+      "line": 1137,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/review/transport/radik_owner_start.py",
+        "sha256": "e7fbf0d0caf529ec7b6a0dda452d9471c207198761e2f7dc1a7307322a435b6c",
+        "size_bytes": 148303
+      }
+    },
+    {
+      "end_line": 214,
+      "function": "select_stage07",
+      "line": 57,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+        "sha256": "4d5cffff227b02e1639eef0eee16c61940e632711d3060ea74712453f52a5916",
+        "size_bytes": 14678
+      }
+    },
+    {
+      "end_line": 231,
+      "function": "_stage07_native_entry",
+      "line": 206,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/app/ordinary_entry.py",
+        "sha256": "62d49ecf521d3508fc8aa6bf6a8fb1791d10b1578889f5e2f367a83a79fd13e1",
+        "size_bytes": 29566
+      }
+    },
+    {
+      "end_line": 372,
+      "function": "run",
+      "line": 103,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+        "sha256": "588ec68a3e83dec846cb72e43b40b149e74e0d785c126991e9464902df114ddd",
+        "size_bytes": 23304
+      }
+    },
+    {
+      "end_line": 211,
+      "function": "finish",
+      "line": 192,
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+        "sha256": "4d5cffff227b02e1639eef0eee16c61940e632711d3060ea74712453f52a5916",
+        "size_bytes": 14678
+      }
+    }
+  ],
+  "runtime_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_REVIEWER_BINDING_01.json",
+    "sha256": "2825226cdd9a7170a260cfb6824e44930760aaa5c1fce82af07063b53a8ebb20",
+    "size_bytes": 1108749
+  },
+  "schema": "radik.stage07.owner_command_static_preflight.v1",
+  "status": "SOURCE_ROUTE_INSPECTED_EXECUTION_AND_FINAL_ADMISSION_PENDING"
+}

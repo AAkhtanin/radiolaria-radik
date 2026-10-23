@@ -1,0 +1,53 @@
+{
+  "schema": "radik.stage07.engineering_budget.v1",
+  "limit_seconds": 900,
+  "single_probe_max_seconds": 300,
+  "cleanup_max_seconds": 30,
+  "packaging_accounted_separately": true,
+  "execution_entries": [
+    {
+      "id": "PREPARE_BASELINE_01",
+      "kind": "stdlib_readonly_preparation_and_local_branch",
+      "elapsed_ns": 3542483709,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "PREPARE_MATRIX_ROADMAP_01",
+      "kind": "stdlib_document_preparation",
+      "elapsed_ns": 1335958,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "CONTRACT_REVIEW_PREPARATION_01",
+      "kind": "independent_stdlib_hash_AST_record_preparation",
+      "elapsed_ns": 30023291,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "RETURN_ADAPTER_PREPARATION_01",
+      "kind": "stdlib_packaging_source_preparation",
+      "elapsed_ns": 1986917,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "PREPARE_SCENARIOS_01",
+      "kind": "stdlib_finite_fixture_preparation",
+      "elapsed_ns": 566500,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    }
+  ],
+  "used_ns": 3576396375,
+  "reserved_ns": 0,
+  "remaining_ns": 896423603625,
+  "no_folder_resets": true
+}

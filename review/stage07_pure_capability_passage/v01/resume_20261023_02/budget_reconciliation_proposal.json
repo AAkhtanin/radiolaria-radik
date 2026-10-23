@@ -1,0 +1,65 @@
+{
+  "additional_recovery_preparation_charge_ns": 20000000000,
+  "author": "/root",
+  "budget_reset": false,
+  "charge_basis": "Additional conservative20s, not measured native time. Covers the recorded recovery/source/AST preparation, remaining bounded readback/serialization, and small previously unmetered read-only discovery. Original15s preparation, both closed execution charges and existing10s reserve remain charged without refund. Any overrun needs additive accounting before execution.",
+  "conservative_cumulative_with_additional_charge_ns": 64777270459,
+  "conservative_remaining_ns": 835222729541,
+  "existing_post_PROBE_02_preparation_reserve_ns_in_that_charge": 10000000000,
+  "independent_acceptance": false,
+  "integration_requirement": "Reviewer must carry this additional charge into effective accounting before granting any remaining work. If represented in the next independently closed execution accounting as a separately named preparation component, reserve it before dispatch and preserve the original completion bytes. Do not fabricate an invocation or edit prior closed records.",
+  "last_independently_closed_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_02.json",
+    "sha256": "78d196f776397aeacfb5bb85fbb2739765ec180f1f7a5bc66565b55b2d077b66",
+    "size_bytes": 37066
+  },
+  "last_independently_closed_cumulative_ns": 44777270459,
+  "measured_recovery_preparation_entries": [
+    {
+      "elapsed_ns": 3638293000,
+      "ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/recovery_readback.json",
+        "sha256": "9eabfade30990b573bb00da3f4baf9e1795d9bdd06a3f8f04e3c9fb9849574df",
+        "size_bytes": 5193
+      }
+    },
+    {
+      "elapsed_ns": 34047541,
+      "ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/process_check.json",
+        "sha256": "a26c7f20d86374db0a35195018050c50d23cde979423f48d76864678dc308bf6",
+        "size_bytes": 553
+      }
+    },
+    {
+      "elapsed_ns": 21675126,
+      "ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/reviewer_binding_source_proposal.json",
+        "sha256": "5eb92348a5342c5fc15bddd2828f311e7db900afaabb9eda37e584bf2a13d61e",
+        "size_bytes": 3720
+      }
+    },
+    {
+      "elapsed_ns": 2982544333,
+      "ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/static_preflight.json",
+        "sha256": "9a297e258158697439fc7e73d8b01ee6a88e7a9bc210c60ab891161e7b037437",
+        "size_bytes": 2640
+      }
+    },
+    {
+      "elapsed_ns": 97986875,
+      "ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight.json",
+        "sha256": "6aa5a2ebf589078f686dbfe631966550ead1f9fd3d842d3b2f3aa1c8ec403faf",
+        "size_bytes": 5063
+      }
+    }
+  ],
+  "measured_recovery_preparation_ns": 6774546875,
+  "new_application_native_or_owner_attempts": 0,
+  "packaging_accounted_separately": true,
+  "schema": "radik.stage07.recovery_budget_reconciliation_proposal.v1",
+  "status": "AUTHOR_CONSERVATIVE_ACCOUNTING_PENDING_INDEPENDENT_REVIEW",
+  "total_budget_ns": 900000000000
+}

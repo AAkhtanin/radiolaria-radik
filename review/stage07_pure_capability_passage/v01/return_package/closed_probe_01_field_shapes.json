@@ -1,0 +1,110 @@
+{
+  "schema": "radik.stage07.closed_public_field_shape_basis.v1",
+  "status": "DRAFT_REQUIRES_INDEPENDENT_REVIEW",
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "entries": [
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_root.json",
+        "sha256": "09b6a26fec40e54c8946a4e250ab237b6ba5f66360ab9beaafe548fcaef8e6f5",
+        "size_bytes": 13809
+      },
+      "json_pointer": "/1/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "kind": "STAGE07_CURRENT_ROOT_CLAIM",
+      "value_sha256": "8db935788288f3f568b73362d022c180bf19e5f5ed3ba398fe8a675e3a17dbfb",
+      "containing_object_sha256": "91de0568a2249674b828030243ede1ce63d6044ae837d3bf43cf3fd61092a362"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_admission_return.json",
+        "sha256": "10883072509a428a0b38f0306e979d49a1d29a657c6e9db7bd1572cdfe245d81",
+        "size_bytes": 80079
+      },
+      "json_pointer": "/attempt/worker_result/stderr",
+      "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+      "value_sha256": "c341a13d09b0d00ac023f56ae6be117fb7b9c9bb42577de3e890ebfc64f45c01",
+      "containing_object_sha256": "d6f8da47f470bd813e3524027a289c14ef54a868b48bee6cf8aae58dc099235b"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_admission_return.json",
+        "sha256": "10883072509a428a0b38f0306e979d49a1d29a657c6e9db7bd1572cdfe245d81",
+        "size_bytes": 80079
+      },
+      "json_pointer": "/package/attempt/worker_result/stderr",
+      "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+      "value_sha256": "c341a13d09b0d00ac023f56ae6be117fb7b9c9bb42577de3e890ebfc64f45c01",
+      "containing_object_sha256": "d6f8da47f470bd813e3524027a289c14ef54a868b48bee6cf8aae58dc099235b"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_consumed.json",
+        "sha256": "f8f582290d24d4c3f731b27feeef171b9b761b9334c43419690aa023242256a4",
+        "size_bytes": 496656
+      },
+      "json_pointer": "/continuation/final_root/1/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "kind": "STAGE07_CURRENT_ROOT_CLAIM",
+      "value_sha256": "8db935788288f3f568b73362d022c180bf19e5f5ed3ba398fe8a675e3a17dbfb",
+      "containing_object_sha256": "7a0368caa773a30d80edef8282c724e8922bbe6ffa731e21a6477c50e250f526"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_consumed.json",
+        "sha256": "f8f582290d24d4c3f731b27feeef171b9b761b9334c43419690aa023242256a4",
+        "size_bytes": 496656
+      },
+      "json_pointer": "/continuation/pre_install_root/1/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "kind": "STAGE07_CURRENT_ROOT_CLAIM",
+      "value_sha256": "8db935788288f3f568b73362d022c180bf19e5f5ed3ba398fe8a675e3a17dbfb",
+      "containing_object_sha256": "f4562c475c73f7dab70725a111d5f12c0581fc0df4126fd7f9e550c1bbfc31b6"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_consumed.json",
+        "sha256": "f8f582290d24d4c3f731b27feeef171b9b761b9334c43419690aa023242256a4",
+        "size_bytes": 496656
+      },
+      "json_pointer": "/task/admission_attempts/0/worker_result/stderr",
+      "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+      "value_sha256": "c341a13d09b0d00ac023f56ae6be117fb7b9c9bb42577de3e890ebfc64f45c01",
+      "containing_object_sha256": "d6f8da47f470bd813e3524027a289c14ef54a868b48bee6cf8aae58dc099235b"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_consumed.json",
+        "sha256": "f8f582290d24d4c3f731b27feeef171b9b761b9334c43419690aa023242256a4",
+        "size_bytes": 496656
+      },
+      "json_pointer": "/task/pure_guest_evidence/0/worker_result/stderr",
+      "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+      "value_sha256": "c341a13d09b0d00ac023f56ae6be117fb7b9c9bb42577de3e890ebfc64f45c01",
+      "containing_object_sha256": "d354ce2167a981b33f9a18edd3e5bebbcf84e531e4d69dd226757c5422060953"
+    }
+  ],
+  "actual_sources": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_root.json",
+      "sha256": "09b6a26fec40e54c8946a4e250ab237b6ba5f66360ab9beaafe548fcaef8e6f5",
+      "size_bytes": 13809
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_admission_return.json",
+      "sha256": "10883072509a428a0b38f0306e979d49a1d29a657c6e9db7bd1572cdfe245d81",
+      "size_bytes": 80079
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/application/witnesses/cold_consumed.json",
+      "sha256": "f8f582290d24d4c3f731b27feeef171b9b761b9334c43419690aa023242256a4",
+      "size_bytes": 496656
+    }
+  ],
+  "scope": "Closed PROBE_01 raw JSON fields only; not a packaging selection or grant.",
+  "root_claim_count": 3,
+  "empty_worker_stderr_count": 4,
+  "application_imports": 0,
+  "publisher_imports": 0
+}

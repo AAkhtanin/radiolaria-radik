@@ -1,0 +1,128 @@
+{
+  "schema": "radik.stage07.criteria_matrix.v1",
+  "profile": "CONTROLLED_FINITE_PURE_U3_APPLICATION_INTEGRATION",
+  "Stage07_closed": false,
+  "owner_actual_executed": false,
+  "requirements": [
+    {
+      "id": "S7-1",
+      "criterion": "Actual missing need in an ordinary application task",
+      "producer": "Approved raw source intake and actual PURE baseline Work",
+      "validator": "Current source, task/revision/Root and native missing-need observation; requested capability absent from the admitted catalogue and no eligible cold need-based DRS candidate",
+      "consumer": "Blocked missing work and downstream consumer become the actual request for finite capability",
+      "expected_witnesses": [
+        "cold_source",
+        "cold_initial_work",
+        "cold_need",
+        "cold_empty_search"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "S7-2",
+      "criterion": "Cold controlled generation and full independent admission",
+      "producer": "Existing CONTROLLED_DETERMINISTIC affine-u8 producer",
+      "validator": "Frozen common source and all256 mathematical oracle outputs; real Wasmtime48 worker; exact source/current revision/Root/Host installation",
+      "consumer": "Admitted native guest capability installed in the declared Host only",
+      "expected_witnesses": [
+        "common_freeze",
+        "cold_generation",
+        "cold_admission",
+        "cold_installation",
+        "worker_observations"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "S7-3",
+      "criterion": "Same-task continuation and causal consumption",
+      "producer": "Actual admitted Wasm guest output",
+      "validator": "Native trigger/revise/advance and retained completed baseline; exact input/result field bindings",
+      "consumer": "New label Work in the same task consumes the actual guest output and changes the label",
+      "expected_witnesses": [
+        "cold_trigger",
+        "cold_revision",
+        "cold_guest",
+        "cold_consumer",
+        "baseline_not_replayed"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "S7-4",
+      "criterion": "Warm need-based discovery and independent readmission",
+      "producer": "Fresh task and Host with the same owning Root identity; current need search in LocalDRS",
+      "validator": "Temporal eligibility/ranking, fresh Root-reviewed descent and retrieval, full new256-input admission",
+      "consumer": "Warm same-task guest and label consumer with zero generation calls",
+      "expected_witnesses": [
+        "warm_source",
+        "warm_search",
+        "warm_descent",
+        "warm_readmission",
+        "warm_guest",
+        "warm_consumer",
+        "warm_generation_zero"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "S7-5",
+      "criterion": "Applicable refusals with correct positive neighbors",
+      "producer": "Bounded declared mutations or unavailable resources",
+      "validator": "Wrong bytes/version/oracle, foreign admission, stale revision, ineligible memory and exhausted budget retain exact native refusals",
+      "consumer": "No prohibited guest/downstream execution; fresh valid neighbor completes",
+      "expected_witnesses": [
+        "controls",
+        "positive_neighbors",
+        "no_forbidden_execution"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED",
+      "ineligible_memory_control_scope": "Actual public temporal evaluation at logical2001 rejects ranking of unchanged memory. Retrieval/admission are not attempted in this negative lane; the unchanged frozen native controls and actual warm retrieval positive remain distinct evidence."
+    },
+    {
+      "id": "S7-6",
+      "criterion": "Optional capability unavailable or disabled",
+      "producer": "Existing finite availability/admission policy under declared optional input",
+      "validator": "Current Root/Work permission and existing refusal semantics",
+      "consumer": "Explicit contract refusal or permitted continuation, with no hidden fallback",
+      "expected_witnesses": [
+        "optional_unavailable",
+        "optional_positive_neighbor"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "S7-7",
+      "criterion": "Separate accounting, evidence and complete closure",
+      "producer": "Observed native generation/admission/DRS/guest processes and evidence writers",
+      "validator": "Exact loaded bytes, measured fuel/wall/CPU/DRS bytes, zero model/provider, persistent first cause and bounded cleanup",
+      "consumer": "Receipt/readback, children closed, lock released, historical guards unchanged",
+      "expected_witnesses": [
+        "resources",
+        "partial_checkpoints",
+        "primary_failure",
+        "operation_close",
+        "ledger_guards"
+      ],
+      "engineering_status": "NOT_EXECUTED",
+      "owner_actual_status": "NOT_EXECUTED"
+    }
+  ],
+  "temporal_scope": {
+    "kind": "CONTROLLED_NATIVE_U3_LOGICAL_DOMAIN",
+    "cold": 1014,
+    "warm": 1015,
+    "store": "Fresh invocation-owned LocalDRS; no prior-run record import",
+    "independent_actual_UTC_guards": "Raw intake/source freshness and nonrenewed operation deadlines",
+    "timestamp_rebasing_allowed": false,
+    "UTC_age_or_cross_run_memory_claim": false
+  },
+  "model_provider_AUTH_E_generic_SAVE_calls_allowed": 0,
+  "runtime_profile_expansion": false
+}

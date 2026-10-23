@@ -29,3 +29,34 @@ separate. No FULL_STAND_READY claim is made.
 | Audit/replay | Immutable observations plus operation/source identities → honest continuation/review | Finite evidence writer, owner journals, durable ledger, existing return exporter | Exact pins, hashes, manifest/readback; no credentials; no restored authority | Independent reviewer and continuation | Source/offline return and actual old failure preserved | Broader lawful replay and deployment composition; logs alone are not execution authority |
 | Auth recovery | Actual verified grant or guarded refusal → terminal current checkpoint/report | Existing PlanAuth and narrow owner recovery | Audience repair preserves signature/audience checks; independent A14 source closure | AUTH-only continuation and one stdlib archive/checksum | AUTH093853 accepted by curator; original failed token representation remains NOT_OBSERVED; 25 signed offline observations retain their own identity | Bind actual AUTH/source/operation/publication locally and check current reuse/refresh; delivery errors never imply another auth attempt |
 | Live and console | Corrected source + actual AUTH/catalog → bounded live → C → separate console admission | Existing owner runner, live profile and console candidate | Independent B/C and console gates | Later two-document user workspace | Current source/offline evidence; live NOT_RUN | First actual live still pending; free intent/server/general stand remain work |
+
+
+## Accepted stage map and deferred development decision
+
+The historical slice above retains its original observations. The accepted
+Stage06 map in
+`review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json`
+preserves all 21 master directions and the accepted Stage04-06 scopes. Stage07
+is a separate, pending integration of the existing finite U3 capability path;
+its criteria and actual statuses are recorded in
+`review/stage07_pure_capability_passage/v01/criteria_matrix.json`. Source
+preparation does not close Stage07 or change any of the 21 accepted statuses.
+
+Stage08 remains the connected examination of the full minimal stand, including
+current permitted SAVE and its boundaries. It is not a replacement Testflix
+project. After Stage08, the owner intends a separate general mode for multiple
+Radik instances with independent Roots, state, keys and policies, ordinary task
+input in each console, external DRS and contract-bound adapters. Testflix with
+client/provider/bank/device roles, followed by other services, are future
+scenarios of that general environment. This passage does not implement that
+environment, its UI, payment adapters or another synthetic demonstration.
+Every new service still requires an explicit contract, adapter and local
+admission; a role description creates no financial or other effect authority.
+
+## Stage07 actual scoped acceptance
+
+The completed owner actual OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86 is independently accepted for all seven controlled finite PURE U3 criteria. The historical slice table and pending-preparation statements above retain their original context. For the current finite U3 disposition, read `review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json` and its exact producer/validator/consumer evidence.
+
+Cold 37 yields guest 118 and actual label SHELF-07-BIN-06. A fresh warm task/Host discovers invocation-local memory, passes current Root descent and a new full native admission operation with generation 0, then consumes 181 into SHELF-11-BIN-05. Optional-disabled and controlled logical expiry retain their exact refusal boundaries. This acceptance makes no cross-invocation UTC-memory or open-ended authoring claim.
+
+`stage07_claims_addendum.json` in that dossier retains all 21 master direction identities and requirements, changing only DEFER-S7-PURE-CAPABILITY to its accepted controlled finite profile. Other 20 effective statuses and Stage04-06 acceptance remain unchanged. Stage08 and the future general multi-instance decision above remain deferred; no new execution, effect, push or release follows from this record.

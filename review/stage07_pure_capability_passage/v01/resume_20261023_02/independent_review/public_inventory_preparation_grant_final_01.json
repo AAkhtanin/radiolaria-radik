@@ -1,0 +1,46 @@
+{
+  "schema": "radik.stage07.public_inventory_preparation_grant.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_FOR_ONE_SOURCE_ONLY_PUBLIC_FIELD_INVENTORY",
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py",
+    "sha256": "3d3037e66027186db0cd161494b62e928c6ca795477db7fdd835fa9f39fd42b5",
+    "size_bytes": 6952
+  },
+  "selection_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/final_selection.json",
+    "sha256": "b1bac60371be64d3d9fd479491e7373286ca271716a6e2597ca92f0d33d0e61e",
+    "size_bytes": 257342
+  },
+  "adapter_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "ef5deecf66480181cc2c70dcd70b9162c79d6e52e34ec7bd8425f20b4753ccf5",
+    "size_bytes": 11648
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/packaging_selection_source_review_01.json",
+    "sha256": "7a0389853ccfb8f5a6d4a6a1eb0ae3f30f64c59a6c2fc3c2fcf1a155e7c77d07",
+    "size_bytes": 2503
+  },
+  "output_name": "public_field_inventory_final.json",
+  "max_wall_seconds": 30,
+  "application_imports_allowed": false,
+  "publisher_imports_allowed": false,
+  "publisher_execution_allowed": false,
+  "copy_execution_allowed": false,
+  "owner_execution_allowed": false,
+  "network_allowed": false,
+  "packaging_accounting_separate": true
+}

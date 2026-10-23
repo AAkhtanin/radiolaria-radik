@@ -1,0 +1,56 @@
+{
+  "candidate_imports_by_reviewer": 0,
+  "effective_model_boundary": "Both application and supervisor explicit focused selector. No model/provider/AUTH/E/SAVE path; audit fence denies network and undeclared processes. No hidden fallback.",
+  "focused_source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_source_review_01.json",
+    "sha256": "ffae904dbcdaa58a2f425ed2d8a89c55b3f12fcc168e3102cbf2fdc945fb806a",
+    "size_bytes": 4511
+  },
+  "full_cold_warm_probe_allowed": false,
+  "identity_source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/reviewer_binding_source_acceptance_01.json",
+    "sha256": "d96fe47c549817a07f5a164a96f3932aa7bb905d7390f47b10066d0e3f213252",
+    "size_bytes": 3805
+  },
+  "inventory_outcome_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_checks/INVENTORY_05/tool_outcome.json",
+    "sha256": "8916756c742a29fb721c3c129218463d3e586a9937a64c84394a826e02d5eadc",
+    "size_bytes": 874
+  },
+  "mechanical_review_elapsed_ns": 83296250,
+  "native_calls_by_reviewer": 0,
+  "owner_execution_allowed": false,
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "schema": "radik.stage07.focused_inventory_independent_source_review.v1",
+  "scope": "One focused native temporal evaluator operation over pinned historical data, through actual current ordinary launch/admission/source/report/finalization/receipt/cleanup route. Zero current Host, Work, generation, admission, retrieval and Wasm workers. No complete semantic scenario PASS.",
+  "source_inventory_accepted": true,
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "status": "ACCEPTED_EXACT_SOURCE_FOR_ONE_FOCUSED_EXPIRY_TAIL_PROBE",
+  "verification": {
+    "added_paths": [
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_expiry.py",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/focused_expiry_tail_scenario.json",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/memory_written.json",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json"
+    ],
+    "all1180_file_pins_exact": true,
+    "all12_live_guards_exact": true,
+    "changed_paths": [
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py"
+    ],
+    "native_and_installed_dependencies_unchanged": true,
+    "startup_absent_and_pth_exact": true
+  }
+}

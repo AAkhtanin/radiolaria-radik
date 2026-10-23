@@ -1,0 +1,55 @@
+{
+  "schema": "radik.stage07.offline_execution_grant.v01",
+  "actual_id": "PROBE_01",
+  "reviewer": "/root/private_remote_controls",
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "network": "DENIED",
+  "production_writes_allowed": false,
+  "real_AUTH_provider_native_E_SAVE_allowed": false,
+  "automatic_retry": false,
+  "total_budget_seconds": 900,
+  "prior_charged_ns": 15000000000,
+  "prior_execution_review_refs": [],
+  "runner_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/probe_runner.py",
+    "sha256": "091e6d9356f4ca25e223337f6ddc75db4c86de4c58a5ddcb5fac765eed9862da",
+    "size_bytes": 2282
+  },
+  "outer_supervisor_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+    "sha256": "d8f04651bb44c26c1abbb258c06dcb702784d9c617f4dfc6f851edafdda17a4e",
+    "size_bytes": 20649
+  },
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "preparation_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting.json",
+    "sha256": "d2e8ad2d9ea6228a170029969db067e4228b601ec8cd461a3423475ef542b53d",
+    "size_bytes": 2160
+  },
+  "probe_admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/engineering_admission.json",
+    "sha256": "5d13753dea96a9599673541ccd0a211ee4af997cf0707b6965ecccd4aa036b02",
+    "size_bytes": 5084
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_independent_review.json",
+    "sha256": "e5c383a26566dea07447ec7a9936189d40599d4140a23f08dd6abf331e42b253",
+    "size_bytes": 7493
+  },
+  "outer_limits": {
+    "total_seconds": 295,
+    "work_seconds": 260,
+    "cleanup_seconds": 30,
+    "final_seconds": 5
+  },
+  "fresh_pure_native_work_allowed": true,
+  "owner_actual_allowed": false,
+  "expected_model_calls": 0,
+  "maximum_total_probe_and_closing_readback_seconds": 300,
+  "scope": "Exactly one native engineering probe; preserve final tool return, full stdout/partial evidence and all worker/loaded-source/reap records; no automatic retry or live actual inspection before final tool closure."
+}

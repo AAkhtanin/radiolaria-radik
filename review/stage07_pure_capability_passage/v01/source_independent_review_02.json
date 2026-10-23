@@ -1,0 +1,48 @@
+{
+  "schema": "radik.stage07.source_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_EXACT_SOURCE_FOR_ONE_ADDRESSED_ENGINEERING_PROBE",
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_03.json",
+    "sha256": "516984d047e39166e4ad736e1f10b6e63d7d9a9b7519cf1dccb943ad9e3f1adc",
+    "size_bytes": 1108699
+  },
+  "inherited_source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_independent_review.json",
+    "sha256": "e5c383a26566dea07447ec7a9936189d40599d4140a23f08dd6abf331e42b253",
+    "size_bytes": 7493
+  },
+  "targeted_repair_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/root_identifier_repair_independent_review.json",
+    "sha256": "811a2abbcadb019026736dae0c869195504b390ddd5f2392f87bb7d9ea24ec0d",
+    "size_bytes": 2375
+  },
+  "consumed_source_retention_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_01/retention.json",
+    "sha256": "bc1895580c5a37aba9b78b32519fe9f43d7a7f63bd90313743a65a1a43583d3a",
+    "size_bytes": 7291
+  },
+  "closed_actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_01_independent_review.json",
+    "sha256": "2f49cdc00108c12e8760a46d20cf7f35316ca8661d86cb068efbd4702d2c71a0",
+    "size_bytes": 24350
+  },
+  "preparation_addendum_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting_addendum_03.json",
+    "sha256": "831edb644e6fd7ae5f3c0f877f39f7afb5b6f705c51fc24907c69c8439d70850",
+    "size_bytes": 2704
+  },
+  "verification": {
+    "all1176_current_file_pins_exact": true,
+    "current_total_bytes": 81986929,
+    "inventory_pathset_unchanged": true,
+    "all_manifest_values_except_one_file_pin_unchanged": true,
+    "only_changed_source": "candidate/app/pure_capability.py",
+    "new_source_sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+    "all12_live_guards_exact": true,
+    "no_native_or_dependency_delta": true,
+    "no_candidate_imports_by_reviewer": true
+  },
+  "scope": "Fresh invocation-local engineering cold/warm/control/disabled chain through the unchanged final ordinary supervisor and native worker. Historical partial cold evidence remains separate. No owner execution, provider/model/AUTH/E or generic SAVE; controlled logical U3 time with independent current UTC/source/deadline guards.",
+  "pending": "Actual acceptance still requires full new receipt, causal consumers, native/Wasmtime loaded witnesses, negative results and closure; expiry lane remains evaluator-only, retrieval/admission not attempted in that negative."
+}

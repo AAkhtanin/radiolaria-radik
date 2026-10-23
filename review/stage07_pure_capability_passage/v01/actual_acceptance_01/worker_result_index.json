@@ -1,0 +1,83 @@
+{
+  "checked_facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "entries": [
+    {
+      "canonical_value_sha256": "acdfbfc7a3ff3406e2651ef811f6f0c02de635d8fa803bbad164d3927e41c92d",
+      "json_pointer": "/workers/0/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 0
+    },
+    {
+      "canonical_value_sha256": "fa2f479bb66ba5d0f28091f706a4735395a0b8ec09888160a895d9c735003435",
+      "json_pointer": "/workers/1/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 1
+    },
+    {
+      "canonical_value_sha256": "66c890a09641c9594bb74821ca3da527f96a32fee1f2ce7eaba99ed8efbd08e2",
+      "json_pointer": "/workers/2/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 2
+    },
+    {
+      "canonical_value_sha256": "900e21a0ec3011a0987094ee2ce64a2bed294cbbe400fdae9d7643af1ef68577",
+      "json_pointer": "/workers/3/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 3
+    },
+    {
+      "canonical_value_sha256": "2bb11af527e65f24e66d6f46d3e6fed7e750c8d338499a6fe06201a9d94385df",
+      "json_pointer": "/workers/4/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 4
+    },
+    {
+      "canonical_value_sha256": "2a008a732eb0a24c1efd84e1eeb8852f2ee7e01435cf23a6ac967674f69f7adf",
+      "json_pointer": "/workers/5/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 5
+    },
+    {
+      "canonical_value_sha256": "5d312105169f3882a667cc5a57f3f426c2bcb838b1d2bd2e4a10e678ccb69eec",
+      "json_pointer": "/workers/6/actual_native_result",
+      "source_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      "worker_index": 6
+    }
+  ],
+  "preparation_elapsed_ns": 1361583,
+  "prepared_by": "/root",
+  "schema": "radik.stage07.worker_result_pointer_index.v1",
+  "scope": "Exact read-only JSON pointers into the already accepted worker-observation bytes. No independent semantic acceptance or new execution."
+}

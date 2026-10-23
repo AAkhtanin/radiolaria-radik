@@ -1,0 +1,114 @@
+{
+  "schema": "radik.stage07.source_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "SOURCE_ACCEPTED_FOR_BOUNDED_ENGINEERING_PROBE",
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_02.json",
+    "sha256": "6315b1ab83f734ba62545eda80c27fb9ac5211491f25e86a1aa842e0c7e2f0dc",
+    "size_bytes": 1108699
+  },
+  "runner_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/runner_source_proposal_v02.json",
+    "sha256": "ebc35ba3d485d418393d210861135cf6600dd93190096f5db28ea1cb5e681ace",
+    "size_bytes": 5503
+  },
+  "contract_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/authoritative_contract_independent_review.json",
+    "sha256": "8934ba4ff976e220cf17e6e6ef4604d0e1e2e498309b1d9c31ee7a03a1b4f30c",
+    "size_bytes": 14398
+  },
+  "core_source_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "sha256": "8f74cb065af95e668f3333fbb43628e294ff0fc21cbbe611d46bf64d9f3e03ff",
+      "size_bytes": 22344
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_work.py",
+      "sha256": "6be8d40932fdc1c6d6b228b5ff60ddc8ff35fa767a66605f47523c1ab2d92f62",
+      "size_bytes": 22452
+    }
+  ],
+  "scenario_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/engineering_scenario.json",
+      "sha256": "a5379714c12e67526a8ca6530ff7e456ebee49604337587be4a56fcdb741f5f7",
+      "size_bytes": 846
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/owner_scenario.json",
+      "sha256": "d3babe7b675baf4bb20114318fecd1455fc5dccb85337df3b98ac621bd7a107b",
+      "size_bytes": 846
+    }
+  ],
+  "domain_expectations_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/domain_expectations.json",
+    "sha256": "25a58103d37031a58c328a5ccaea96e4db9f61d0b8ea6d3b0db760cce79b185a",
+    "size_bytes": 798
+  },
+  "criteria_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/criteria_matrix.json",
+    "sha256": "22ad6637cae954c16744ce00f5eb8430a0abd816a35bcabdd145af3215b846cf",
+    "size_bytes": 5671
+  },
+  "pin_readback": {
+    "files": 1176,
+    "bytes": 81986768,
+    "all_files_exact": true,
+    "native_reference_contracts_unchanged": true,
+    "live_guards_exact": 12,
+    "startup_pth_count": 0,
+    "startup_absent_markers_exact": true,
+    "wasmtime_record_entries_checked": 43,
+    "wasmtime_version": "48.0.0",
+    "wasmtime_library_ref": {
+      "classification": "dependency",
+      "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/wasmtime/darwin-aarch64/_libwasmtime.dylib",
+      "sha256": "81caa6df3259bd0b36a0d11d40e4db5250978dc3773feeae893d7f3639a611d3",
+      "size_bytes": 25187344
+    },
+    "wasmtime_metadata_ref": {
+      "classification": "dependency_metadata",
+      "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/lib/python3.14/site-packages/wasmtime-48.0.0.dist-info/METADATA",
+      "sha256": "928283e8400323155ec2c6affb3be30c8d913669556f3acf4a79eb199c03ba32",
+      "size_bytes": 5074
+    }
+  },
+  "findings": [
+    "Ordinary config launch and owner-start route pin candidate bytes before imports, choose explicit Stage07 branch before old profile/AUTH and invoke the real application entry. No model implementation or hidden fallback is selected.",
+    "Actual baseline PURE Work provides the missing need input. Permission/source/current revision checks use frozen public APIs. All-PURE same-task revision consumes exact retained historical baseline, dispatches real guest, and the label Work consumes its output/result-artifact field. Completed predecessor dispatch is not repeated.",
+    "Cold producer uses the exact native mathematical oracle/source freeze. Warm uses a fresh Host/task with same owned Root scope, actual need search, temporal ranking, Root descent and full new admission with no generation.",
+    "Logical clocks1014..1017 and separate2001 evaluator are explicitly controlled. Raw source bytes/revision and a single actual-UTC/monotonic window are reread at native boundaries. Store is fresh and invocation-owned; no timestamp rewriting, historical authority reconstruction or UTC-persistent-memory claim.",
+    "Negative controls exercise wrong oracle, contract version, package bytes, foreign Host admission, stale Host revision, admission/DRS budget, and disabled permission. Each completed refusal is durably retained before the next operation. Ineligible-memory negative is exactly public evaluator/ranking refusal; retrieval/admission not attempted there, with actual warm positive separately retained.",
+    "Worker executor/source/argv are unchanged. Native requests are limited to exact observed public callsite, finite input/source/fuel bounds, owned temporary directory and reviewed environment. Startup observer uses an independent read descriptor, exact intent/launch/request binding, source pin checks and a no-network/no-child fence. Normal site startup has no .pth/user-site surface. Successful worker requires actual __main__, Wasmtime library and metadata origins; missing observer fails closed.",
+    "Loaded-source observation and actual native callbacks/admissions are mandatory retained actual evidence; this source review alone establishes no runtime result. Wasmtime binary trust is exact installed RECORD/hash/profile admission, not a proof of arbitrary native-binary internals or OS-level same-UID isolation.",
+    "Native refusal code and nullable original error class survive parent projection. Later observer failures are separate and do not append a replacement terminal over an existing native REFUSED result.",
+    "Repaired supervisor preserves four exact limit codes and persists bounded first-cause journal/readback before cleanup. Mandatory cleanup shares saved stop/deadline. Engineering outer owns group including native workers and enforces its own absolute limit; owner mode owns the application group. Actual worker wait evidence is distinct from forced group-closure evidence.",
+    "Ordinary entry final loaded-source check, worker/native result hash correspondence, complete receipt, guard readback, process reap, lock and final deadline tail are source-reviewed. Owner actual remains forbidden in engineering."
+  ],
+  "expected_engineering_scope": {
+    "tasks": 4,
+    "pure_Work_dispatches_if_success": 10,
+    "native_worker_processes_if_success": 7,
+    "full_worker_256_trial_runs_if_success": 4,
+    "guest_worker_single_trial_runs_if_success": 3,
+    "cold_generation": 1,
+    "warm_generation": 0,
+    "control_generation": 1,
+    "admission_reservations_if_success": 5,
+    "model_AUTH_provider_E_generic_SAVE": 0
+  },
+  "addressed_findings": [
+    "nullable native error class cannot replace first cause",
+    "exact worker launch bytes bound to parent intent",
+    "observer failure cannot overwrite original native refusal terminal",
+    "each negative retained immediately"
+  ],
+  "historical_control_reuse": "Only dependency-pinned native controls from the frozen U3 checkpoint; no prior full kernel/E campaign is repeated or reaccepted. Changed application and process boundary require the granted actual.",
+  "owner_command_ready": false,
+  "owner_actual_executed": false,
+  "Stage07_closed": false,
+  "candidate_imports_by_reviewer": 0,
+  "runtime_execution_by_reviewer": 0,
+  "mechanical_pin_check_elapsed_ns_before_write": 243469334
+}

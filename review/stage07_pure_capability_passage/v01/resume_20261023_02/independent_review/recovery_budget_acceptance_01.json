@@ -1,0 +1,33 @@
+{
+  "additional_recovery_preparation_charge_ns": 20000000000,
+  "charge_scope": "Conservative20s envelope for recovery/discovery/source/AST/review/readback preparation; not measured native time. Existing15s preparation and10s post-PROBE02 reserve stay charged. Root must add measured focused-check work and any overrun separately before further dispatch.",
+  "effective_cumulative_charged_ns": 64777270459,
+  "effective_remaining_ns": 835222729541,
+  "execution_granted": false,
+  "last_closed_cumulative_ns": 44777270459,
+  "last_closed_execution_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/execution_accounting/PROBE_02.json",
+    "sha256": "78d196f776397aeacfb5bb85fbb2739765ec180f1f7a5bc66565b55b2d077b66",
+    "size_bytes": 37066
+  },
+  "new_runtime_invocations": 0,
+  "old_accounting_rewritten": false,
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/budget_reconciliation_proposal.json",
+    "sha256": "703a88581be69c0817609af2bc763d5a24f69289c93b667fd8e0257865439136",
+    "size_bytes": 3221
+  },
+  "recorded_measured_recovery_preparation_ns": 6774546875,
+  "refund_or_reset": false,
+  "representation": "This additive review is authoritative engineering accounting for the remaining passage. Any later execution grant must explicitly reference it and bound original consumed charge plus this20s plus the new maximum. If next closed execution-accounting row carries this20s component, identify it separately and keep original completion bytes unchanged. Do not fabricate an execution entry or rewrite previous charge.",
+  "review_mechanical_elapsed_ns": 231230042,
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "schema": "radik.stage07.recovery_budget_independent_review.v1",
+  "status": "ACCEPTED_ADDITIVE_CONSERVATIVE_PREPARATION_ACCOUNTING",
+  "total_budget_ns": 900000000000
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "radik.stage07.owner_actual_independent_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_OWNER_ACTUAL_CONTROLLED_FINITE_PURE_U3",
+  "actual_id": "OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86",
+  "operation_id": "d9486b85ef24438cb5e9be4bc825b2ec",
+  "receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/receipt.json",
+    "sha256": "54b22d7d4fd7d8b8e06ae0c036ee545f0ea3f6d35975e7fad8a7ca3a689226db",
+    "size_bytes": 78033
+  },
+  "facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "source_admission_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "source_inventory_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "criteria": [
+    {
+      "id": "S7-1",
+      "criterion": "Actual missing need in an ordinary task",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_need_observed.json",
+          "sha256": "a950e861a6be4f7bf6aaf4e27713a2ee3cf15dd34450dd7aefe9d2e801cc8f67",
+          "size_bytes": 313419
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_search.json",
+          "sha256": "d52092836ada888cdbabe4ec5157cd26d1b10e158e1657002ebd34a691d1fa14",
+          "size_bytes": 2834
+        }
+      ],
+      "judgment": "Raw current cold source37 produced baseline output37 through admitted PURE Work. The missing affine capability had no invocation/result and its dependent label was blocked. Need and permission bind task/revision/topology; catalogue lacks that capability and need-based DRS search is empty."
+    },
+    {
+      "id": "S7-2",
+      "criterion": "Controlled finite producer and full native admission",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_root.json",
+          "sha256": "49a09f2dcde4514f7acad93f42d87cabf32229f6952e6b661d00d1590096cf7f",
+          "size_bytes": 13850
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_generated.json",
+          "sha256": "f5a9cae211f5fca3bd9941616961d06e567b94fdd55fe56b8b15eba2856f9317",
+          "size_bytes": 3058
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_admission_return.json",
+          "sha256": "ea01c93960ad1a229b8005a3a2cd50bc5713778e0689d13369ed67af6a2ac4a8",
+          "size_bytes": 80079
+        }
+      ],
+      "judgment": "Current Root accepts the bounded generation decision. Exactly one controlled generation yields pinned135-byteWAT and the independently checked256-value oracle(3*x+7)%256. Actual native worker tests all256 inputs, returns2048fuel and is reaped; full admission consumes that exact source/result."
+    },
+    {
+      "id": "S7-3",
+      "criterion": "Causal same-task guest and downstream consumer",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json",
+          "sha256": "e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5",
+          "size_bytes": 496901
+        }
+      ],
+      "judgment": "Original baseline is not replayed. Its exact historical result feeds the installed native guest; guest output118 feeds the label consumer by actual result ID and consumed field. Consumer produces SHELF-07-BIN-06. Same task, new revision, accepted preinstall/final Root, three actual PURE dispatches."
+    },
+    {
+      "id": "S7-4",
+      "criterion": "Qualified DRS reuse under fresh eligibility and admission",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/memory_written.json",
+          "sha256": "a3b9d13bd4106da9260df644366aaf14367cc27374a1c208fa96139850c13a82",
+          "size_bytes": 23471
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_need_observed.json",
+          "sha256": "9d6d94768df08f35a2f93e616621b49c6298757e97099b82a35d4133786a2ec9",
+          "size_bytes": 313419
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_admitted.json",
+          "sha256": "20a5ec24ea9b65534471b813a897f04e9757801aa464bf87abf1a890fbe85385",
+          "size_bytes": 115919
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json",
+          "sha256": "35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430",
+          "size_bytes": 493746
+        }
+      ],
+      "judgment": "Fresh warm task/Host has missing need58. Need search finds one reviewed candidate, direct reuse is forbidden, temporal eligibility1015 passes, current Root approves one-artifact descent of exact1444-bytepayload. A fresh256-input native admission operation consumes those bytes with generation0; actual guest181 causally produces SHELF-11-BIN-05. Public content-derived package/admission IDs intentionally match cold; fresh admission is evidenced by new worker, task/need, host construction and private origin enforcement, not ID inequality."
+    },
+    {
+      "id": "S7-5",
+      "criterion": "Exact negative controls and valid positive neighbor",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_refusals.json",
+          "sha256": "3bdb624306b7f3f9b36f88d5a2297cac22a3b599259d3915ae00e9adb4d493f7",
+          "size_bytes": 14524
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_oracle_return.json",
+          "sha256": "485c94da27143c0add5585f29836e9143c43a994a71234d2a91d7fe6f572313f",
+          "size_bytes": 10133
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_positive_return.json",
+          "sha256": "3ef1bb8054e71a507f3012db9b49084f07a62a1241230244a6dd0fc937a181eb",
+          "size_bytes": 80089
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json",
+          "sha256": "babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e",
+          "size_bytes": 507618
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controlled_expiry.json",
+          "sha256": "cab47cfb7ed62abf177274e84e01219076a7cfca8ba70f7dfc829a23848d685a",
+          "size_bytes": 2883
+        }
+      ],
+      "judgment": "Seven declared refusals have exact native reasons and no prohibited installed guest/consumer Work. The wrong-oracle lane legitimately runs its validation worker then refuses admission; wrong version still consumes its admission reservation. Valid neighbor11\u219240\u2192SHELF-02-BIN-08 completes. Unchanged memory at2001 is BLOCKED_BY_TIME with validity/TTL/evidence reasons; no negative-lane retrieval/admission or permission restoration."
+    },
+    {
+      "id": "S7-6",
+      "criterion": "Optional capability unavailable or disabled",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/disabled_need_observed.json",
+          "sha256": "b97b1cd1c983f3f24e8a8b8e54ad04744324254fe4f591252297cf9669d56c4a",
+          "size_bytes": 312366
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/optional_disabled_refused.json",
+          "sha256": "4da985130a2519e1de40a5dc726d5e972dab1624dfda5308600e16714c146dee",
+          "size_bytes": 312500
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_completed.json",
+          "sha256": "dbdcf5acd3a0902245e1ebb5d2ae1b431b4372d344759dfe282cc89abe215c6c",
+          "size_bytes": 327005
+        }
+      ],
+      "judgment": "Disabled task performs only its baseline Work and refuses pure_task_permission_absent. It performs no generation, admission or guest Work; positive enabled neighbor is retained. No fallback or invented permission."
+    },
+    {
+      "id": "S7-7",
+      "criterion": "Resource accounting, exact loaded code and complete closure",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json",
+          "sha256": "e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5",
+          "size_bytes": 496901
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json",
+          "sha256": "35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430",
+          "size_bytes": 493746
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json",
+          "sha256": "babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e",
+          "size_bytes": 507618
+        }
+      ],
+      "judgment": "Actual10PUREdispatches and7workers matched to original request/PID-parent/started/closed/raw-native-result witnesses. Exact loaded module and callback hashes match1180source pins. Receipt/operation-close confirm owner group closed, app/worker reap and lock release without failure;12liveguards, reference, model histories, UNKNOWN and CLOSED SAVE quota preserved."
+    }
+  ],
+  "criteria_passed": 7,
+  "criteria_total": 7,
+  "full_current_seven_worker_finalization_observed": true,
+  "independence": "Acting reviewer is the owner-designated independent reviewer and did not author application or runner changes. Old reviews and authors remain unchanged.",
+  "inherited_controls": {
+    "basis_ref": {
+      "path": "review/stage07_pure_capability_passage/v01/authoritative_contract_independent_review.json",
+      "sha256": "8934ba4ff976e220cf17e6e6ef4604d0e1e2e498309b1d9c31ee7a03a1b4f30c",
+      "size_bytes": 14398
+    },
+    "prior_actual_review_ref": {
+      "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+      "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+      "size_bytes": 13491
+    },
+    "policy": "Use applicable accepted frozen native contract/ABI/sandbox controls only where dependencies are unchanged. Current seven refusals, optional refusal, expiry, positive consumers and all current worker/finalizer witnesses were reviewed from this owner actual. Historical source campaigns were not rerun."
+  },
+  "limitations": [
+    "Acceptance is the controlled finite PURE U3 integration for affine-u8-v01 and the supplied deterministic archive tasks.",
+    "Time/DRS uses a fresh invocation-local store and controlled logical domain1014-1017 with expiry2001; no cross-run UTC-persistent capability-memory claim.",
+    "No open-ended model authoring, arbitrary code authority, full stand, Stage08, external service, AUTH, provider/model, E, SAVE or action-effect acceptance.",
+    "Identical public content IDs do not restore Host authority; current host-origin and new256-input admission relations are required."
+  ],
+  "owner_admission_consumed": true,
+  "automatic_repeat_authorized": false,
+  "application_imports_by_reviewer": 0,
+  "native_Work_Wasm_calls_by_reviewer": 0,
+  "probe_executions_by_reviewer": 0
+}

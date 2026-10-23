@@ -1,0 +1,13 @@
+{
+  "author": "/root",
+  "execution_performed": false,
+  "preparation_elapsed_ns": 1006292,
+  "schema": "radik.stage07.owner_preflight_source_proposal.v1",
+  "scope": "One exact load_admission positive and seven rejection controls; source pinned before loading. No supervise/main/owner call. Audit hook prohibits process creation/network and writes outside one fresh test folder.",
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/preflight_owner_command.py",
+    "sha256": "b75cc2b9bde441149d353b180be97b7026f0914a38a412d1c6d37b454bcde12f",
+    "size_bytes": 7164
+  },
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW"
+}

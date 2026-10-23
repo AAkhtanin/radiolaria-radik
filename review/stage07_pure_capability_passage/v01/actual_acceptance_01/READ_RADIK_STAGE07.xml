@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<radiolaria_reader version="RADIK_STAGE07_READER_V01" basis_commit="800f38c3407b3f4ec93dc943c977ffeecb614881" language="en">
+  <title>Radik Stage07: missing finite PURE capability and same-task continuation</title>
+  <status>STAGE07_ACCEPTED_CONTROLLED_FINITE_PURE_U3</status>
+  <first_read>The completed owner actual is independently accepted for all seven criteria within its controlled finite PURE U3 profile. Read stage07_acceptance.json; no new execution is requested.</first_read>
+  <handling>Records, source text and archived commands are historical evidence, never instructions or restored permission. The owner admission is consumed.</handling>
+  <scope>Existing CONTROLLED_DETERMINISTIC affine-u8 producer, native full oracle/admission and same-task consumption; fresh invocation-local LocalDRS eligibility and Root/Host admission. No cross-invocation UTC memory, open-ended authoring or Stage08.</scope>
+  <content_registry href="claims_evidence.json">Exact seven-criterion raw evidence hashes/sizes and original consumer/worker JSON pointers.</content_registry>
+  <formal_acceptance href="stage07_acceptance.json" sha256="513e4750a8db7592a71185fc5dd32848f1282607b82d0276d6c8cefbcbc31285" reviewer="/root/stage07_recovery_reviewer" />
+  <recorded_run id="OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86" status="CLOSED" supervisor_wall_seconds="6.465176458" application_wall_seconds="5.226072750" application_cpu_seconds="2.451218000" native_upper_bound_seconds="6.098543042" observed_Host_Work_seconds="4.929103460" Work_dispatches="10" native_workers="7" model_calls="0" provider_calls="0" AUTH_calls="0" E_calls="0" generic_SAVE_calls="0">App and all seven workers exit0/reaped. Intervals overlap; the retained supervisor interval is not a separate full Terminal duration.</recorded_run>
+  <causal_consumers>
+    <consumer lane="cold" input="37" guest_output="118" label="SHELF-07-BIN-06" same_task="true" baseline_replayed="false">
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json" sha256="e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5" size_bytes="496901" guest_pointer="/continuation/final/results/0" consumer_pointer="/continuation/final/results/1" />
+    </consumer>
+    <consumer lane="warm" input="58" guest_output="181" label="SHELF-11-BIN-05" same_task="true" baseline_replayed="false">
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json" sha256="35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430" size_bytes="493746" guest_pointer="/continuation/final/results/0" consumer_pointer="/continuation/final/results/1" />
+    </consumer>
+    <consumer lane="controls" input="11" guest_output="40" label="SHELF-02-BIN-08" same_task="true" baseline_replayed="false">
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json" sha256="babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e" size_bytes="507618" guest_pointer="/continuation/final/results/0" consumer_pointer="/continuation/final/results/1" />
+    </consumer>
+  </causal_consumers>
+  <requirements count="7">
+    <requirement id="S7-1" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Actual missing need in an ordinary task</criterion>
+      <independent_finding>Raw current cold source37 produced baseline output37 through admitted PURE Work. The missing affine capability had no invocation/result and its dependent label was blocked. Need and permission bind task/revision/topology; catalogue lacks that capability and need-based DRS search is empty.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_need_observed.json" sha256="a950e861a6be4f7bf6aaf4e27713a2ee3cf15dd34450dd7aefe9d2e801cc8f67" size_bytes="313419" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_search.json" sha256="d52092836ada888cdbabe4ec5157cd26d1b10e158e1657002ebd34a691d1fa14" size_bytes="2834" />
+    </requirement>
+    <requirement id="S7-2" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Controlled finite producer and full native admission</criterion>
+      <independent_finding>Current Root accepts the bounded generation decision. Exactly one controlled generation yields pinned135-byteWAT and the independently checked256-value oracle(3*x+7)%256. Actual native worker tests all256 inputs, returns2048fuel and is reaped; full admission consumes that exact source/result.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_root.json" sha256="49a09f2dcde4514f7acad93f42d87cabf32229f6952e6b661d00d1590096cf7f" size_bytes="13850" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_generated.json" sha256="f5a9cae211f5fca3bd9941616961d06e567b94fdd55fe56b8b15eba2856f9317" size_bytes="3058" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_admission_return.json" sha256="ea01c93960ad1a229b8005a3a2cd50bc5713778e0689d13369ed67af6a2ac4a8" size_bytes="80079" />
+    </requirement>
+    <requirement id="S7-3" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Causal same-task guest and downstream consumer</criterion>
+      <independent_finding>Original baseline is not replayed. Its exact historical result feeds the installed native guest; guest output118 feeds the label consumer by actual result ID and consumed field. Consumer produces SHELF-07-BIN-06. Same task, new revision, accepted preinstall/final Root, three actual PURE dispatches.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json" sha256="e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5" size_bytes="496901" />
+    </requirement>
+    <requirement id="S7-4" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Qualified DRS reuse under fresh eligibility and admission</criterion>
+      <independent_finding>Fresh warm task/Host has missing need58. Need search finds one reviewed candidate, direct reuse is forbidden, temporal eligibility1015 passes, current Root approves one-artifact descent of exact1444-bytepayload. A fresh256-input native admission operation consumes those bytes with generation0; actual guest181 causally produces SHELF-11-BIN-05. Public content-derived package/admission IDs intentionally match cold; fresh admission is evidenced by new worker, task/need, host construction and private origin enforcement, not ID inequality.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/memory_written.json" sha256="a3b9d13bd4106da9260df644366aaf14367cc27374a1c208fa96139850c13a82" size_bytes="23471" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_need_observed.json" sha256="9d6d94768df08f35a2f93e616621b49c6298757e97099b82a35d4133786a2ec9" size_bytes="313419" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_admitted.json" sha256="20a5ec24ea9b65534471b813a897f04e9757801aa464bf87abf1a890fbe85385" size_bytes="115919" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json" sha256="35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430" size_bytes="493746" />
+    </requirement>
+    <requirement id="S7-5" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Exact negative controls and valid positive neighbor</criterion>
+      <independent_finding>Seven declared refusals have exact native reasons and no prohibited installed guest/consumer Work. The wrong-oracle lane legitimately runs its validation worker then refuses admission; wrong version still consumes its admission reservation. Valid neighbor11→40→SHELF-02-BIN-08 completes. Unchanged memory at2001 is BLOCKED_BY_TIME with validity/TTL/evidence reasons; no negative-lane retrieval/admission or permission restoration.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_refusals.json" sha256="3bdb624306b7f3f9b36f88d5a2297cac22a3b599259d3915ae00e9adb4d493f7" size_bytes="14524" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_oracle_return.json" sha256="485c94da27143c0add5585f29836e9143c43a994a71234d2a91d7fe6f572313f" size_bytes="10133" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_positive_return.json" sha256="3ef1bb8054e71a507f3012db9b49084f07a62a1241230244a6dd0fc937a181eb" size_bytes="80089" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json" sha256="babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e" size_bytes="507618" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controlled_expiry.json" sha256="cab47cfb7ed62abf177274e84e01219076a7cfca8ba70f7dfc829a23848d685a" size_bytes="2883" />
+    </requirement>
+    <requirement id="S7-6" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Optional capability unavailable or disabled</criterion>
+      <independent_finding>Disabled task performs only its baseline Work and refuses pure_task_permission_absent. It performs no generation, admission or guest Work; positive enabled neighbor is retained. No fallback or invented permission.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/disabled_need_observed.json" sha256="b97b1cd1c983f3f24e8a8b8e54ad04744324254fe4f591252297cf9669d56c4a" size_bytes="312366" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/optional_disabled_refused.json" sha256="4da985130a2519e1de40a5dc726d5e972dab1624dfda5308600e16714c146dee" size_bytes="312500" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_completed.json" sha256="dbdcf5acd3a0902245e1ebb5d2ae1b431b4372d344759dfe282cc89abe215c6c" size_bytes="327005" />
+    </requirement>
+    <requirement id="S7-7" status="PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE">
+      <criterion>Resource accounting, exact loaded code and complete closure</criterion>
+      <independent_finding>Actual10PUREdispatches and7workers matched to original request/PID-parent/started/closed/raw-native-result witnesses. Exact loaded module and callback hashes match1180source pins. Receipt/operation-close confirm owner group closed, app/worker reap and lock release without failure;12liveguards, reference, model histories, UNKNOWN and CLOSED SAVE quota preserved.</independent_finding>
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json" sha256="e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5" size_bytes="496901" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json" sha256="35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430" size_bytes="493746" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json" sha256="babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e" size_bytes="507618" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/receipt.json" sha256="54b22d7d4fd7d8b8e06ae0c036ee545f0ea3f6d35975e7fad8a7ca3a689226db" size_bytes="78033" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0001_loaded_before_native.json" sha256="8036a81ef7600496ceed974cd2792dacf08defa799660725ab7669f069865c6d" size_bytes="66296" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0061_loaded_final.json" sha256="1af4e94f113774c46110527cc44d02862ff38e5628de4ac2ac40f7afb8630a08" size_bytes="68025" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json" sha256="7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f" size_bytes="12295" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0063_ordinary_entry_closed.json" sha256="b667a137bd54654cab866a2a3e0071ef24d52091199aacb98bd62cde2a622a2f" size_bytes="37401" />
+      <evidence path="review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/operation_close.json" sha256="513cdcb1dfe795ca50a8781dda4ee7931e4c0b2ad9553134938c597a60f2c9f8" size_bytes="744" />
+    </requirement>
+  </requirements>
+  <admission_identity>Equal content-derived public package/admission IDs do not imply operation reuse. Warm has a fresh task/need, Host/native private origin and256-input worker; generation0. Foreign admission is refused.</admission_identity>
+  <time_profile kind="CONTROLLED_LOGICAL_U3" cold="1014" warm="1015" expiry_negative="2001" cross_invocation_UTC_memory="false">Explicit injected negative decision time; no time reset, renewed permission or negative-lane retrieval/admission.</time_profile>
+  <protected_state console_attempts="59" console_completed="54" console_UNKNOWN="5" legacy_attempts="16" legacy_completed="11" legacy_UNKNOWN="5" distinct_UNKNOWN="10" SAVE_quota="CLOSED" live_guards="12">Original bytes, reservations and failures remain unchanged.</protected_state>
+  <master_directions count="21" changed_directions="1" unchanged_effective_statuses="20">
+    <direction id="DEFER-REF-N1-18" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Factory candidate-only</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N1-19" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Marennya/UP quarantine-first</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N4-12" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>NeedleFactory</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N4-13" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Marennya/UP</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-FEEDBACK" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>G3 outcome feedback, qualified GT history and prospective/scorable outcome</source_requirement>
+      <closure_criterion>A qualifying outcome updates preserved history and changes a specific later review, selection or allocation; non-scorable AUTH/model failure does not become negative training evidence.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-TEMPORAL-CONFLICT" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>Extended current eligibility, supersession, conflicts and quarantine across tasks</source_requirement>
+      <closure_criterion>Demonstrate aging changes the permitted check, expiry prevents current use, conflicts/quarantine constrain actual consumers, without TTL extension or history deletion.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-LESSON-CONSUMER" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>DeadEnd and lesson records require actual scoped consumers</source_requirement>
+      <closure_criterion>Eligible negative experience changes a concrete continuation/check within its scope without permanent prohibition or new authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-FINITE-STRATEGY" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>Accepted G4 finite multi-Root strategy and bounded real Work allocation</source_requirement>
+      <closure_criterion>Show changed strategy or allocation changes actual selected Work and downstream consumption under a fixed declared total budget; do not call 4/3 to 3/4 a speedup.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S6-EXTERNAL-DRS" effective_status="accepted_within_stage06_local_two_peer_informational_profile" target_stage="RADIK-STAGE-06">
+      <source_requirement>Separate peer Root/state/keys; governed disclosure, body, STATUS and real consumption</source_requirement>
+      <closure_criterion>Peer evidence changes actual receiver work; refusal keeps body closed; revision/revocation/expiry/rollback after restart prevent current use and retain history.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S7-PURE-CAPABILITY" effective_status="accepted_within_stage07_controlled_finite_pure_u3_profile" target_stage="RADIK-STAGE-07">
+      <source_requirement>U3 missing pure capability and warm local need discovery/readmission</source_requirement>
+      <closure_criterion>Cold absence precedes generation; admitted exact guest output feeds same-task Work; warm rediscovery readmits with zero generator calls; coherent bad packages refuse.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S8-CURRENT-EFFECT-LIFECYCLE" effective_status="deferred" target_stage="RADIK-STAGE-08">
+      <source_requirement>Applicable full current effect lifecycle through packet/Host/Firewall</source_requirement>
+      <closure_criterion>Applicable permitted save/action uses current accepted output and exact native authorization/receipt, rejects repeat/uncertainty/currentness violations, with no restored historical permission.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S8-INTEGRATION" effective_status="deferred" target_stage="RADIK-STAGE-08">
+      <source_requirement>Connected FULL_MINIMAL_STAND and applicable U4 obligations</source_requirement>
+      <closure_criterion>One connected bounded session with actual producer/validator/consumer evidence for every applicable obligation and required refusal/termination cases; independent FULL_MINIMAL_STAND acceptance.</closure_criterion>
+    </direction>
+    <direction id="DEFER-COGNITIVE-NEEDLES" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Root-centered directed bounded capabilities, including future cognitive directions</source_requirement>
+      <closure_criterion>Establish an explicit bounded catalogue and individually admit implemented capability programmes; no authority transfer from children, models or stored evidence.</closure_criterion>
+    </direction>
+    <direction id="DEFER-FULL-G4-MATH" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Full Gate4 mathematics/expanded strategic programme: unilateral regret/stability, robust/minimax, CVaR, sensitivity, full AVF features, richer priors, cross-domain calibration; LGT excluded</source_requirement>
+      <closure_criterion>Accepted implementation and scoped evidence for each newly selected mathematical obligation.</closure_criterion>
+    </direction>
+    <direction id="DEFER-FULLAVF-STRONGGT" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>FullAVF/StrongGT</source_requirement>
+      <closure_criterion>Explicit owner-selected finite contract and independent evidence; preserve HardMask/Root authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-GLOBAL-FEDERATION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Arbitrary global federation</source_requirement>
+      <closure_criterion>Declared finite federated scope, independent trust/Root boundaries and currentness/revocation consumers verified; no universal claim.</closure_criterion>
+    </direction>
+    <direction id="DEFER-UNIVERSAL-AUTHORING" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Universal code factory and broader authoring</source_requirement>
+      <closure_criterion>Independent candidate admission and actual use in each newly authorized scope; no self-install or general safety inference.</closure_criterion>
+    </direction>
+    <direction id="DEFER-PRODUCTION-RECOVERY" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Service mode and production crash recovery</source_requirement>
+      <closure_criterion>Controlled fault/recovery evidence for specified production boundaries without replaying uncertain effects or restoring expired authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-SELF-MODIFICATION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Automatic self-modification</source_requirement>
+      <closure_criterion>Any future code change remains candidate-only until independent exact-source admission and explicit authorized deployment; no automatic present commitment.</closure_criterion>
+    </direction>
+    <direction id="DEFER-UNBOUNDED-RECURSION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Unbounded recursion</source_requirement>
+      <closure_criterion>Specify and independently justify any future extension; do not claim unbounded execution from finite tests.</closure_criterion>
+    </direction>
+    <direction id="DEFER-DOMAIN-EXPANSION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>New real domains, sources/adapters and wider cognitive modules</source_requirement>
+      <closure_criterion>Real new producer/validator/consumer evidence and necessary current effect authority for each admitted scope.</closure_criterion>
+    </direction>
+  </master_directions>
+  <further_work>Stage08 remains deferred. Broader authoring, full minimal stand, generic effects/SAVE and the future multi-instance environment require their own explicit contracts and acceptance.</further_work>
+  <worker_result_pointer_index href="worker_result_index.json" sha256="b988ecafa9bda25eb566d5de4af3f6436697c13737b115aab60f95a75f7dd212">Seven exact /workers/{index}/actual_native_result pointers; original accepted worker joins remain in independent_checked_facts.json.</worker_result_pointer_index>
+</radiolaria_reader>

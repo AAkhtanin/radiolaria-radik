@@ -1,0 +1,16 @@
+{
+  "omitted_payload_files": [
+    {
+      "archive_path": "project/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/public_inventory_preparation_grant_final_02.json",
+      "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/public_inventory_preparation_grant_final_02.json",
+      "sha256": "43851a1b6e0daa0f009af89914bf171283d1cff22177fa2a8627208d5837df64",
+      "size_bytes": 4676
+    }
+  ],
+  "prepared_by": "/root",
+  "prior_selection_executed": false,
+  "prior_selection_sha256": "9b605abefbbe30d7488994953c2e660142651e37c67acbbbc5d48d009a011b28",
+  "publisher_invoked": false,
+  "reason": "Independent prevalidation found the same reserved-name diagnostic counters embedded in the consumed second preparation grant. Preserve that grant unchanged locally and its exact identity in the failed-attempt record; omit only its redundant payload body. Selection03 was never executed. All32 actual public-field instances passed the exact existing shape checks. No source, actual evidence, gate or authority is changed.",
+  "schema": "radik.stage07.packaging_selection_adjustment.v1"
+}

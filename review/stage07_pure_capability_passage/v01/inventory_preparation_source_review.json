@@ -1,0 +1,55 @@
+{
+  "schema": "radik.stage07.inventory_preparation_source_review.v1",
+  "reviewer": "private_remote_controls",
+  "status": "ACCEPTED_FOR_ONE_STDLIB_INVENTORY_PREPARATION",
+  "approved_executor": "/root",
+  "approved_invocations": 1,
+  "source_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "sha256": "a6c1925eb6834e8d43dee9170e48e38e4a3080b0c988e187936a1628c72491d9",
+    "size_bytes": 5835
+  },
+  "runner_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/runner_source_proposal.json",
+    "sha256": "651c3c85f21768900203ee3b9da7135ff9689bd46b543f383ee3c1bd4e999156",
+    "size_bytes": 4060
+  },
+  "interpreter_ref": {
+    "path": ".venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "interpreter_resolved_path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+  "argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+    "source_manifest_PROBE_01.json"
+  ],
+  "output_path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_01.json",
+  "reads": "Exact declared candidate, reference hedgehog/schemas and three demo source files, installed dependency packages/Wasmtime dist-info, platform stdlib excluding platform test trees, owned requirements lock and two accepted supervisor source files; source/data only.",
+  "writes": "Only the new exclusive manifest path. Parent may retain preparation stdout/outcome and accounting under this Stage07 scope.",
+  "source_findings": [
+    "Only stdlib imports; AST parsing does not import or run parsed candidate/reference code.",
+    "No subprocess/network/state/ref mutation.",
+    "Rejects existing output, source symlinks/nonregular files, .pth surface or undeclared startup files.",
+    "Metadata inventory itself is evidence; it does not grant application execution or certify complete runtime import closure.",
+    "Require readback of output bytes and exact source hash before invoking; preserve stopped preparation without retry."
+  ],
+  "maximum_total_seconds_including_cleanup": 30,
+  "maximum_cleanup_seconds": 5,
+  "automatic_retry": false,
+  "candidate_imports_allowed": false,
+  "native_Work_allowed": false,
+  "owner_AUTH_provider_model_E_SAVE_allowed": false,
+  "budget_total_seconds": 900,
+  "charge_measured_preparation_and_cleanup": true,
+  "prior_budget_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/engineering_budget.json",
+    "sha256": "3476533aab8bc09ed786d3cf9259775e015a230bdcffd4f85a0aa82dd05b3854",
+    "size_bytes": 1389
+  },
+  "mechanical_review_elapsed_ns_before_write": 831958
+}

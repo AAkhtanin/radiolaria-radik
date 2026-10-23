@@ -1,0 +1,27 @@
+{
+  "automatic_retry": false,
+  "command": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/actual_acceptance_01/prepare_public_inventory.py",
+    "--selection",
+    "review/stage07_pure_capability_passage/v01/actual_acceptance_01/return_selection_02.json",
+    "--selection-sha256",
+    "aee51d31c9ae024182e4fe86a0b5d29eb6dbbf5ac757eb4bbc65dfe445719491",
+    "--adapter-sha256",
+    "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+    "--publisher-sha256",
+    "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "--output-name",
+    "public_field_inventory_01.json"
+  ],
+  "elapsed_wall_ns": 304538084,
+  "exit_code": 0,
+  "grant_sha256": "19077ea8c08a6a27a5829dc247decfe0df095cf6f99214743952681352aeb7f7",
+  "packaging_accounting_separate": true,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_size_bytes": 0,
+  "stdout_sha256": "5c36d505fd3aff41b14f61d681191ea1dbf4815471fc66aeb6ce52d8d64cb511"
+}

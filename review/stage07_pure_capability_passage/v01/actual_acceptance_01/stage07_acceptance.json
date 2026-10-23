@@ -1,0 +1,82 @@
+{
+  "schema": "radik.stage07.scoped_acceptance.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "STAGE07_ACCEPTED_CONTROLLED_FINITE_PURE_U3",
+  "Stage07_closed_in_declared_scope": true,
+  "scope": "Existing finite PURE U3 mechanism integrated through the ordinary application: real missing need, deterministic bounded producer, full native admission, causal same-task guest/consumer, qualified invocation-local DRS reuse under fresh Root/Host admission, refusals and bounded closure.",
+  "actual_id": "OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86",
+  "operation_id": "d9486b85ef24438cb5e9be4bc825b2ec",
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_05.json",
+    "sha256": "d6bb038ee16d2768ee4edd03d0a4839b03689271c1b2a4004b8779ce7c9c2e2f",
+    "size_bytes": 1111749
+  },
+  "owner_admission_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "owner_receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/receipt.json",
+    "sha256": "54b22d7d4fd7d8b8e06ae0c036ee545f0ea3f6d35975e7fad8a7ca3a689226db",
+    "size_bytes": 78033
+  },
+  "independent_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "ee3eb63b6d50d0e04d7150732d7cadba3e2670fe6cd9fb60ec2c30e332d359c0",
+    "size_bytes": 14196
+  },
+  "checked_facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "accounting_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2f997e1147817dbb1c8aaa7a598278960f4d7fd475f6a7a58fba58abda7c1dc8",
+    "size_bytes": 10312
+  },
+  "criteria_passed": 7,
+  "criteria_total": 7,
+  "actual_pure_Work_dispatches": 10,
+  "actual_native_workers": 7,
+  "cold_result": {
+    "input_value": 37,
+    "encoded_value": 118,
+    "label": "SHELF-07-BIN-06"
+  },
+  "warm_result": {
+    "input_value": 58,
+    "encoded_value": 181,
+    "label": "SHELF-11-BIN-05",
+    "generation_attempts": 0,
+    "fresh_native_admission_operation": true
+  },
+  "positive_control_result": {
+    "input_value": 11,
+    "encoded_value": 40,
+    "label": "SHELF-02-BIN-08"
+  },
+  "owner_admission_consumed": true,
+  "owner_command_repeat_allowed": false,
+  "current_reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "reference_immutable": true,
+  "prior_conclusions_and_authors_preserved": true,
+  "remaining_stage07_runtime_acceptance_items": [],
+  "outside_scope": [
+    "Full minimal-stand examination/Stage08",
+    "Open-ended or provider/model-generated capability authoring",
+    "Cross-invocation UTC-persistent capability memory",
+    "AUTH/provider/model/full E/SAVE/effects or general multi-instance environment"
+  ],
+  "model_provider_AUTH_E_SAVE_calls": 0,
+  "Stage08_executed": false,
+  "push_authorized": false,
+  "packaging_grants_execution_authority": false,
+  "actual_closure_return_pending": true
+}

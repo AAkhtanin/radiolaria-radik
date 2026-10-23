@@ -1,0 +1,33 @@
+{
+  "schema": "radik.stage07.historical_accounting_guard.v1",
+  "console_attempts": 59,
+  "historical_UNKNOWN_attempt_ids": [
+    "radik-call:1548d2e6967447c1a718a99676bf8818",
+    "radik-call:0adde1226bdd47f18eb14ca89a1e93ea",
+    "radik-call:72ff1b3723314961b6d5a067d24f9a50",
+    "radik-call:c146081f7b9a4d649f3c7e916189271e",
+    "radik-call:3d5197d2edd747e8b4ec5dd56afcb16a"
+  ],
+  "active_attempt_id": null,
+  "quota_final_record": {
+    "at": 1792075846,
+    "details": {
+      "grant_revoked": true,
+      "receipt": {
+        "executor_starts": 1,
+        "packet_id": "acp_v02:831bd9717a284df0a207e9a3ee842016c1f129c9042ab3eec3c18129fe571032",
+        "readback_sha256": "023f429406fb6a14c9aa103a6797be90cf2e0edc4035cdbf0f398d86fd93c464",
+        "receipt_id": "effect_receipt_v01:271c27c7f21f4585ac9e2b89231a5f621091a3b1f262d7771cacd20933d3315e",
+        "receipt_sha256": "84b632ad75dece12cb58335392f74f591b19debc7d528d827c4e9de83e657527"
+      },
+      "retry_allowed": false
+    },
+    "previous_sha256": "71b7de5cb2e449d7fff0e0a0371c23dae225f6668cb0eef68793c1265e17785c",
+    "record_sha256": "782c0db7383f976db24b66597e91a0f311d19f5786efb1a13efe1477778e38d3",
+    "sequence": 2,
+    "state": "CLOSED",
+    "version": "radik.single_save_quota.v01"
+  },
+  "raw_ledger_and_quota_pins": "preserved_baseline.json",
+  "restoration_or_counter_reset": false
+}

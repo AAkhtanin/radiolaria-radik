@@ -1,0 +1,39 @@
+{
+  "accepted_adapter_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "ef5deecf66480181cc2c70dcd70b9162c79d6e52e34ec7bd8425f20b4753ccf5",
+    "size_bytes": 11648
+  },
+  "accepted_inventory_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py",
+    "sha256": "3d3037e66027186db0cd161494b62e928c6ca795477db7fdd835fa9f39fd42b5",
+    "size_bytes": 6952
+  },
+  "candidate_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py",
+      "sha256": "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+      "size_bytes": 11699
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/prepare_public_inventory.py",
+      "sha256": "401ff7bf9428a4f2775b2a3e77801c5c3c74ec33b6681cdf6823146a245ee57b",
+      "size_bytes": 6959
+    }
+  ],
+  "diff_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/packaging_paths.diff",
+    "sha256": "dbe02c4b314211e8f47bd5be2423e04c6eaf8f85f6edd4325fc1ca6dc06545bf",
+    "size_bytes": 3151
+  },
+  "execution_granted": false,
+  "preparation_elapsed_ns": 1873250,
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "schema": "radik.stage07.actual_packaging_source_proposal.v1",
+  "scope": "Path and unique actual acceptance reservation key changes only. Existing reviewer binding, field shapes, secret scanner, source readers, one-use gate, publisher and delivery behavior are unchanged. No application imports or execution.",
+  "source_author": "/root"
+}

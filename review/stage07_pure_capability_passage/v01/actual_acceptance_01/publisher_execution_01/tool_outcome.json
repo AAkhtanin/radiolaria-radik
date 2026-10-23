@@ -1,0 +1,19 @@
+{
+  "automatic_retry": false,
+  "command": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py",
+    "--review-sha256",
+    "799d4fed97fc0d5dd88f2c68e39e3fa207bb6daaa564e9a5816ea1779b539ad5"
+  ],
+  "elapsed_wall_ns": 3643934375,
+  "exit_code": 0,
+  "grant_sha256": "799d4fed97fc0d5dd88f2c68e39e3fa207bb6daaa564e9a5816ea1779b539ad5",
+  "packaging_accounting_separate": true,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_size_bytes": 0,
+  "stdout_sha256": "c2db6b6a54b378119a049acd08c7e22ce1485b40361baf550c951da4fde9dd59"
+}

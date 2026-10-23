@@ -1,0 +1,39 @@
+{
+  "schema": "radik.stage07.root_identifier_repair_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_SOURCE_ONLY_MINIMAL_ROOT_IDENTIFIER_REPAIR",
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/root_identifier_repair_proposal.json",
+    "sha256": "2976af1454a227c4a45fa4f0875c80e217a1cf3c6474f2f4cefbd587a103c826",
+    "size_bytes": 4764
+  },
+  "source_before_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_01/candidate/app/pure_capability.py",
+    "sha256": "8f74cb065af95e668f3333fbb43628e294ff0fc21cbbe611d46bf64d9f3e03ff",
+    "size_bytes": 22344
+  },
+  "source_after_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+    "sha256": "0937eef04ffad002b5842cef694627a524e415e148cc2b84a03fa7bfdadcc842",
+    "size_bytes": 22505
+  },
+  "actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_01_independent_review.json",
+    "sha256": "2f49cdc00108c12e8760a46d20cf7f35316ca8661d86cb068efbd4702d2c71a0",
+    "size_bytes": 24350
+  },
+  "retention_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/reviewed_sources/PROBE_01/retention.json",
+    "sha256": "bc1895580c5a37aba9b78b32519fe9f43d7a7f63bd90313743a65a1a43583d3a",
+    "size_bytes": 7291
+  },
+  "findings": [
+    "Exact delta is one Root namespace expression plus its explanatory comment; all other source bytes are unchanged.",
+    "The16-symbol hexadecimal-to-letter mapping is bijective, preserving32-symbol identity uniqueness and same-Root cold/warm scope. Original invocation ID remains unchanged elsewhere.",
+    "Both frozen scenarios pass the unchanged literal reference/secret-pattern data checks; the actual prior suffix matches IBAN, the new alphabetic suffix does not. No reference predicate, kernel, time, permission, budget or authority changes.",
+    "All17 retained executed-source bytes match their manifest pins; the other16 current sources are unchanged.",
+    "A fresh probe is required for the new Root and memory chain; previous cold evidence is partial, not restored authority."
+  ],
+  "scope": "Read-only source/AST/literal-pattern comparison, no application/native imports or execution; no runtime retry granted by this record.",
+  "review_elapsed_ns_before_write": 13657000
+}

@@ -1,0 +1,306 @@
+{
+  "schema": "radik.stage07.probe_actual_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "actual_id": "PROBE_02",
+  "status": "CLOSED_STOPPED_WITH_ACCEPTED_COLD_WARM_CONTROLS_PARTIAL",
+  "overall_pass": false,
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_independent_review_02.json",
+    "sha256": "d72939c300e87684af10eb8558328e82c2d2c01ccfcb279a44c81eccecf5fe7b",
+    "size_bytes": 2694
+  },
+  "source_manifest_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_manifest_PROBE_03.json",
+    "sha256": "516984d047e39166e4ad736e1f10b6e63d7d9a9b7519cf1dccb943ad9e3f1adc",
+    "size_bytes": 1108699
+  },
+  "tool_outcome_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/supervisor/tool_outcome.json",
+    "sha256": "4d1d93da1af63bce5acb0a8103c0a93f0055c851822ed94542544430e6f8faf6",
+    "size_bytes": 1125
+  },
+  "outer_receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/supervisor/receipt.json",
+    "sha256": "ed178195f6c84dfef67d2fcf3a676f3dc50e62555f5ce3c42f625bcb80a47277",
+    "size_bytes": 1307
+  },
+  "inner_receipt_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/receipt.json",
+    "sha256": "2270bda37b33c3876c5b45bbf59810af57c574e01dea76987af1d9e909be43f5",
+    "size_bytes": 55989
+  },
+  "first_failure_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/first_failure.json",
+    "sha256": "30224921acb4bbebcfd5ba8680e91ebe349ca35e296b2119d9ba7ebdc12137a5",
+    "size_bytes": 1388
+  },
+  "accepted_causal_consumers": {
+    "cold": {
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/cold_consumed.json",
+        "sha256": "14eaf176c6e68b54d8380ab1ee24dee335e5ae842b86768b2c5a63f17e1ccf64",
+        "size_bytes": 496655
+      },
+      "task_id": "task:radik:stage07:fb2576494ffa403186e8441da7050054:cold",
+      "source_input": 41,
+      "encoded_output": 130,
+      "label": "SHELF-08-BIN-02",
+      "baseline_result_id": "capability_result:c28fd77e453e24b3f808a7cc33616b9de361249db32f8b7c0c59075c9bdc13e7",
+      "guest_result_id": "capability_result:2234c93a9a73b46e1cf08adcb564b8868a4b97a1a05e747355a56b3bfa63897e",
+      "consumer_invocation_id": "capability_invocation:18d13bfe13019ab99df23b9cf464e5156fa5fef46a570ae2002c34c6c3be1e8d",
+      "two_full_histories_and_both_causal_fields_checked": true,
+      "baseline_not_replayed": true,
+      "resources": {
+        "admission_attempts": 1,
+        "drs_bytes": 0,
+        "generation_attempts": 1,
+        "guest_calls": 1,
+        "measured_drs_bytes": 0,
+        "measured_fuel": 2048,
+        "measured_guest_fuel": 8,
+        "reserved_fuel": 25600000,
+        "reserved_guest_fuel": 100000,
+        "reserved_trials": 256
+      }
+    },
+    "warm": {
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_consumed.json",
+        "sha256": "bd500dd19072ec9fb3d513cf3b8781b6f27af607d48e74975ee5319b9ebbc6cf",
+        "size_bytes": 493500
+      },
+      "task_id": "task:radik:stage07:fb2576494ffa403186e8441da7050054:warm",
+      "source_input": 62,
+      "encoded_output": 193,
+      "label": "SHELF-12-BIN-01",
+      "baseline_result_id": "capability_result:31d84708d59517822822e94e86f7c868770fb1018a56291ab14000c1ac6ec7bc",
+      "guest_result_id": "capability_result:59cd8fc9fe79fbd58281d1d4618a2bbe5f75acf02afb3fce983b7cf09e6b7179",
+      "consumer_invocation_id": "capability_invocation:104d482ffd8ffaee1b27cd94265d0d384e3ae78bf52d78a7ce7eaa83025e8a34",
+      "two_full_histories_and_both_causal_fields_checked": true,
+      "baseline_not_replayed": true,
+      "resources": {
+        "admission_attempts": 1,
+        "drs_bytes": 12960,
+        "generation_attempts": 0,
+        "guest_calls": 1,
+        "measured_drs_bytes": 12960,
+        "measured_fuel": 2048,
+        "measured_guest_fuel": 8,
+        "reserved_fuel": 25600000,
+        "reserved_guest_fuel": 100000,
+        "reserved_trials": 256
+      }
+    },
+    "controls": {
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/controls_consumed.json",
+        "sha256": "dc60a32dde30fb7c12f3ce956331061f8669b922ff4a53d685552b1e813323d1",
+        "size_bytes": 507375
+      },
+      "task_id": "task:radik:stage07:fb2576494ffa403186e8441da7050054:controls",
+      "source_input": 11,
+      "encoded_output": 40,
+      "label": "SHELF-02-BIN-08",
+      "baseline_result_id": "capability_result:b033ac0ae1233de240bf19023079270784f759355e5db2ec36ba612f440f0439",
+      "guest_result_id": "capability_result:68d61f39b12a0291f357c8014927131bc43ee043d7e1b2730878729ddafe983a",
+      "consumer_invocation_id": "capability_invocation:8712b695e54d73fc6f17c2c520e9deb853c6c1d292379b1cad7cedd6e6737bad",
+      "two_full_histories_and_both_causal_fields_checked": true,
+      "baseline_not_replayed": true,
+      "resources": {
+        "admission_attempts": 3,
+        "drs_bytes": 0,
+        "generation_attempts": 1,
+        "guest_calls": 1,
+        "measured_drs_bytes": 0,
+        "measured_fuel": 2560,
+        "measured_guest_fuel": 8,
+        "reserved_fuel": 76800000,
+        "reserved_guest_fuel": 100000,
+        "reserved_trials": 768
+      }
+    }
+  },
+  "native_callback_source_hashes": [
+    "6be8d40932fdc1c6d6b228b5ff60ddc8ff35fa767a66605f47523c1ab2d92f62",
+    "2261347c11f7535522653f0a2e301bed69cbbc5e0ef737bc4a37d2b9954b0cda"
+  ],
+  "actual_PURE_Work_dispatches": 10,
+  "actual_native_workers": [
+    {
+      "span": "control_positive_admission",
+      "pid": 66206,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 256,
+      "measured_fuel": 2048,
+      "native_wall_seconds": 0.41769383288919926,
+      "worker_cpu_ns": 385975000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/119cbae5bc693fe965f72cb9f27f3bcfed340a294950e8cc169b95bcc0a410b6_closed.json",
+        "sha256": "ae86ec60aab317ee014505d8f177d6db88797becc472bf89b311d48d835fcbef",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "warm_full_retrieval_admission",
+      "pid": 66203,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 256,
+      "measured_fuel": 2048,
+      "native_wall_seconds": 0.4035795833915472,
+      "worker_cpu_ns": 378337000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/18021434e4d0b355a45e42312e559d7b8dac9619af5ef5464a606db705f04b57_closed.json",
+        "sha256": "e72b444ac59714fffea86e576f4deb4d33f8139ab1b2e5f30d2da076d66950f4",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "cold_full_admission",
+      "pid": 66198,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 256,
+      "measured_fuel": 2048,
+      "native_wall_seconds": 0.41810404136776924,
+      "worker_cpu_ns": 386172000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/5c09abfa432fa5f3856d75a44487fbd3f082506a091b7589bf8ea545a84c5999_closed.json",
+        "sha256": "a2b2c527fee3aa37826179e644050ad8b147f84017cbba6aaa8ee188da71265b",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "warm_continuation",
+      "pid": 66204,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 1,
+      "measured_fuel": 8,
+      "native_wall_seconds": 0.38179574999958277,
+      "worker_cpu_ns": 359146000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/61b5abfa94e01d2f5577dd1a3bc3ff0515ec75ec29485e918215a436f03839cf_closed.json",
+        "sha256": "1b9490a2087d8f555ece2ee4937b9b27fd013d1c8729500a43317cd30836d2d0",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "controls_continuation",
+      "pid": 66209,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 1,
+      "measured_fuel": 8,
+      "native_wall_seconds": 0.40326929092407227,
+      "worker_cpu_ns": 372144000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/66cb93206eb3d4046dee5b3e60d987ac6dd8ac12685eadc91176e070329ca8c2_closed.json",
+        "sha256": "e7ed61b24fddd76dc09e840bac021e0300b0c69615f331f3d3c9c233138bcb4d",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "control_wrong_oracle",
+      "pid": 66205,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 256,
+      "measured_fuel": 512,
+      "native_wall_seconds": 0.39135916717350483,
+      "worker_cpu_ns": 370563000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/6c2c009ff51b369807a4af4395b4a9ac76584da5d9681fc1bf368c63c11c27af_closed.json",
+        "sha256": "9eb09d540642e3ea6da5b77d87e0589a01c0869eb96bb8bc62d56a000bf11ee0",
+        "size_bytes": 45394
+      }
+    },
+    {
+      "span": "cold_continuation",
+      "pid": 66201,
+      "actual_native_reaped": true,
+      "native_exit_code": 0,
+      "input_count": 1,
+      "measured_fuel": 8,
+      "native_wall_seconds": 0.391461999155581,
+      "worker_cpu_ns": 363985000,
+      "closed_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/worker_records/9b3f9b53db22e5ec898a15c347329f572c7f8a296b819bcf05238e93c9436dbd_closed.json",
+        "sha256": "29a94c713f5d25e70ecbeb32fb28feb263ed2e1a5906cba0bd8ff46edb57b005",
+        "size_bytes": 45394
+      }
+    }
+  ],
+  "memory": {
+    "write_ref": {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/memory_written.json",
+      "sha256": "cf4cc3781afe264c060df66ae0cded7e419844408006ddeae16d5a0605687cad",
+      "size_bytes": 23471
+    },
+    "retrieval_ref": {
+      "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/warm_admitted.json",
+      "sha256": "f680fb7e28d63e8e8482bf72f82589e284428675e3b7fdd015252f79d504d8ce",
+      "size_bytes": 115919
+    },
+    "meaning_record_payload_equal": true,
+    "current_Root_ACCEPT": true,
+    "eligible_at1015": true,
+    "full256_trial_fresh_admission": true,
+    "warm_generation_attempts": 0,
+    "permission_restored": false
+  },
+  "accepted_negative_controls": {
+    "drs_budget": "pure_drs_budget",
+    "wrong_oracle": "pure_oracle_mismatch",
+    "wrong_version": "pure_admission_contract_version",
+    "admission_budget": "pure_admission_exhausted",
+    "wrong_bytes": "pure_package_byte_drift",
+    "foreign_admission": "pure_foreign_admission",
+    "stale_host_revision": "pure_stale_host_revision"
+  },
+  "negative_witness_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/control_refusals.json",
+    "sha256": "7af8997b464e8dec09fe6193fe919a32a2850f5acc3af8e7f02fc831785fde75",
+    "size_bytes": 14525
+  },
+  "optional_disabled_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/work/application/witnesses/optional_disabled_refused.json",
+    "sha256": "f8f30409636a29a09295bedfa3fd1b0af20d482e609659901588437085e6cf8e",
+    "size_bytes": 312377
+  },
+  "primary_failure": {
+    "code": "drs_evaluation_time_source_invalid",
+    "classification": "APPLICATION_CLOSED_ENUM_BINDING_DEFECT",
+    "native_ref": {
+      "path": "source/reference/hedgehog/drs_memory_resolution_v01.py",
+      "sha256": "698a34262d4442dba1474a1a137ca19057c27d2d20595a9f82e848c3816579d8",
+      "size_bytes": 157202
+    },
+    "cause": "Undeclared source enum; query construction stopped before expiry evaluation. CURRENT_DECISION requires retained INJECTED_CURRENT_DECISION_TIME."
+  },
+  "pending": [
+    "Controlled expiry evaluation not reached.",
+    "Successful aggregate report and current-operation bootstrap/supervisor final worker join/readback tail not reached.",
+    "No complete engineering or owner PASS."
+  ],
+  "next_scope": "A fresh bounded engineering invocation after narrow enum/assertion repair is justified for the actual current Host/source/resource/PID tail; no replayed Host or fabricated final report.",
+  "closure": {
+    "first_cause_durable_before_cleanup": true,
+    "first_cause_preserved": true,
+    "secondary_failures": 0,
+    "seven_workers_native_reaped": true,
+    "application_exit_code": -2,
+    "application_and_outer_group_closed": true,
+    "lock_released": true,
+    "all12_live_guards_exact": true,
+    "model_AUTH_provider_E_generic_SAVE_calls": 0
+  },
+  "measurement": {
+    "inner_wall_ns": 6288183667,
+    "conservative_native_upper_ns": 5941230666,
+    "observed_native_span_ns": 4910093248
+  },
+  "scope": "Raw public evidence/hash readback only; controlled logical U3 profile and application fence, no native/crypto reexecution, UTC persistent-memory or OS isolation claim.",
+  "review_mechanical_elapsed_ns_before_write": 45087458
+}

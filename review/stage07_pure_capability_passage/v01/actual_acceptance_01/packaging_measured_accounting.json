@@ -1,0 +1,72 @@
+{
+  "accounted_packaging_total_ns": 14133873126,
+  "accounting_scope": "Current actual-closure packaging only. Exact measured path preparation, two unexecuted selection preparations, one successful inventory and one publisher invocation including standard delivery. Separate conservative10-second allowance covers read-only shape scans, bookkeeping and independent full archive/readback; no editorial/model reasoning duration is claimed measured.",
+  "additional_conservative_source_only_review_bookkeeping_allowance_ns": 10000000000,
+  "archive_build_count": 1,
+  "components": [
+    {
+      "elapsed_wall_ns": 1873250,
+      "kind": "MECHANICAL_PACKAGING_PATH_PREPARATION",
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/packaging_source_proposal.json",
+        "sha256": "42ed036df8eb53a29f376ae6f0d81fa2add42a543e817a5726f8218acfd34a4b",
+        "size_bytes": 1781
+      }
+    },
+    {
+      "elapsed_wall_ns": 182285917,
+      "kind": "FINITE_SELECTION_PREPARATION",
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/return_selection_01.json",
+        "sha256": "6745dd7967ced8b65e00d6bfc99020a1d93f3144a9916dca97fa37d00f4a4826",
+        "size_bytes": 337616
+      }
+    },
+    {
+      "elapsed_wall_ns": 1241500,
+      "kind": "FINITE_SELECTION_PREPARATION",
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/return_selection_02.json",
+        "sha256": "aee51d31c9ae024182e4fe86a0b5d29eb6dbbf5ac757eb4bbc65dfe445719491",
+        "size_bytes": 338781
+      }
+    },
+    {
+      "elapsed_wall_ns": 304538084,
+      "exit_code": 0,
+      "kind": "PUBLIC_FIELD_INVENTORY",
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/public_inventory_execution_01/tool_outcome.json",
+        "sha256": "3225c5fbf52472431265029389c14977c50910bb47195d04db4cf0ba34f42149",
+        "size_bytes": 1127
+      }
+    },
+    {
+      "elapsed_wall_ns": 3643934375,
+      "exit_code": 0,
+      "kind": "EXISTING_PUBLISHER_WITH_STANDARD_DELIVERY",
+      "record_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/publisher_execution_01/tool_outcome.json",
+        "sha256": "47f84adb6343db3f0f255d058f04c12f2094d623d83cbe35f4b49b1d04351094",
+        "size_bytes": 745
+      }
+    }
+  ],
+  "engineering_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/actual_acceptance_preparation_accounting.json",
+    "sha256": "6818d997f73445a65052a572fd89be2c83c8679e6c631e5d4d37749227cb6d96",
+    "size_bytes": 2860
+  },
+  "engineering_cumulative_charged_ns": 91383032418,
+  "engineering_remaining_ns": 808616967582,
+  "exact_metered_total_wall_ns": 4133873126,
+  "inventory_execution_count": 1,
+  "new_scenario_native_Work_Wasm_model_executions": 0,
+  "owner_operation_accounted_separately": true,
+  "owner_wall_ns": 6465176458,
+  "prepared_by": "/root",
+  "prior_preparation_packaging_accounted_ns": 13718028251,
+  "prior_preparation_packaging_unchanged": true,
+  "schema": "radik.stage07.actual_closure_packaging_accounting.v1",
+  "source_author_independent_acceptance": false
+}

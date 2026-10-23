@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 140, in <module>
+    main()
+    ~~~~^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 117, in main
+    walk(json.loads(raw), reference)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 106, in walk
+    walk(child, reference, path + (key,), depth + 1)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 106, in walk
+    walk(child, reference, path + (key,), depth + 1)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 106, in walk
+    walk(child, reference, path + (key,), depth + 1)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 91, in walk
+    require(reference['path'].startswith(BASE + '/')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        and reference['path'].endswith('.json'), 'inventory_exception_file_scope')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 26, in require
+    raise ValueError(code)
+ValueError: inventory_exception_file_scope

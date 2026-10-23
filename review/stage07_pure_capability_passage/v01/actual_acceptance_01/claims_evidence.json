@@ -1,0 +1,312 @@
+{
+  "accounting_boundary_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2f997e1147817dbb1c8aaa7a598278960f4d7fd475f6a7a58fba58abda7c1dc8",
+    "size_bytes": 10312
+  },
+  "archived_commands_are_historical": true,
+  "causal_consumer_refs": [
+    {
+      "actual_pure_Work_dispatches": 3,
+      "baseline_replayed": false,
+      "baseline_result_id": "capability_result:fa847c58cfc5113f065f2422fa111b54dd023b0c2e9330c2d595fadb805e155d",
+      "consumer_invocation_id": "capability_invocation:6a52d7090d7688b8156094694c35593fe88c07adb4a58e62d50408635102c747",
+      "consumer_json_pointer": "/continuation/final/results/1",
+      "consumer_result_id": "capability_result:3c6f233289434bab79a25f0680959a165f91caf41c24de95663623e739a98c9d",
+      "encoded_value": 118,
+      "guest_json_pointer": "/continuation/final/results/0",
+      "guest_result_id": "capability_result:832d1f13365985f2af2f954b00b47514d02557b3c05a31eb708e3c7d7ea52a0e",
+      "label_value": "SHELF-07-BIN-06",
+      "native_admission_id": "capability_admission:3ff9c878093754d6e2d27f5eb65b5c28620c9b029802e3dbe6775e044e25b232",
+      "native_package_id": "pure_package:05394db97fd547382cadde9a54e903581a3135a275f234ae186425c05f89d470",
+      "same_task": true,
+      "source_value": 37,
+      "task": "cold",
+      "task_id": "task:radik:stage07:5ffdab47ed65410c91ae920e42f4d9bc:cold",
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json",
+        "sha256": "e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5",
+        "size_bytes": 496901
+      }
+    },
+    {
+      "actual_pure_Work_dispatches": 3,
+      "baseline_replayed": false,
+      "baseline_result_id": "capability_result:ed52604f31adaab67c0a136c031cb92d6a8c713a238b7148abac2ad7f70c0ddd",
+      "consumer_invocation_id": "capability_invocation:e0542a2f626464413ee5f2926b7b8317e0050636e7f1fec31b6e3b968264efd6",
+      "consumer_json_pointer": "/continuation/final/results/1",
+      "consumer_result_id": "capability_result:7b185851d33219782b6a4ba653c87433efb4425cc2243986874a427a926774ef",
+      "encoded_value": 181,
+      "guest_json_pointer": "/continuation/final/results/0",
+      "guest_result_id": "capability_result:f818ccc45372bdd4c977d1fe824308be34a384c5b7a951c07d8485b51bb5d704",
+      "label_value": "SHELF-11-BIN-05",
+      "native_admission_id": "capability_admission:3ff9c878093754d6e2d27f5eb65b5c28620c9b029802e3dbe6775e044e25b232",
+      "native_package_id": "pure_package:05394db97fd547382cadde9a54e903581a3135a275f234ae186425c05f89d470",
+      "same_task": true,
+      "source_value": 58,
+      "task": "warm",
+      "task_id": "task:radik:stage07:5ffdab47ed65410c91ae920e42f4d9bc:warm",
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json",
+        "sha256": "35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430",
+        "size_bytes": 493746
+      }
+    },
+    {
+      "actual_pure_Work_dispatches": 3,
+      "baseline_replayed": false,
+      "baseline_result_id": "capability_result:e8666caf7fccd8d4da64f7aa122be566d2b4ecb0d962b4b5d0d17a4a5b15024d",
+      "consumer_invocation_id": "capability_invocation:ce7f33f847f324a06549d96d0b9193abe14b70dd3aa8db5332069f516b7f2bb7",
+      "consumer_json_pointer": "/continuation/final/results/1",
+      "consumer_result_id": "capability_result:34a76554d55f35d09b2ecd372805b388cfecfc1166ca685a73d750c5f7431d49",
+      "encoded_value": 40,
+      "guest_json_pointer": "/continuation/final/results/0",
+      "guest_result_id": "capability_result:454cf54031fd333078d6ac8e0533ff67983dec2ae6bbfebaa8783a13e93312b6",
+      "label_value": "SHELF-02-BIN-08",
+      "native_admission_id": "capability_admission:3ff9c878093754d6e2d27f5eb65b5c28620c9b029802e3dbe6775e044e25b232",
+      "native_package_id": "pure_package:05394db97fd547382cadde9a54e903581a3135a275f234ae186425c05f89d470",
+      "same_task": true,
+      "source_value": 11,
+      "task": "controls",
+      "task_id": "task:radik:stage07:5ffdab47ed65410c91ae920e42f4d9bc:controls",
+      "witness_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json",
+        "sha256": "babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e",
+        "size_bytes": 507618
+      }
+    }
+  ],
+  "checked_facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "criteria": [
+    {
+      "criterion": "Actual missing need in an ordinary task",
+      "id": "S7-1",
+      "judgment": "Raw current cold source37 produced baseline output37 through admitted PURE Work. The missing affine capability had no invocation/result and its dependent label was blocked. Need and permission bind task/revision/topology; catalogue lacks that capability and need-based DRS search is empty.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_need_observed.json",
+          "sha256": "a950e861a6be4f7bf6aaf4e27713a2ee3cf15dd34450dd7aefe9d2e801cc8f67",
+          "size_bytes": 313419
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_search.json",
+          "sha256": "d52092836ada888cdbabe4ec5157cd26d1b10e158e1657002ebd34a691d1fa14",
+          "size_bytes": 2834
+        }
+      ]
+    },
+    {
+      "criterion": "Controlled finite producer and full native admission",
+      "id": "S7-2",
+      "judgment": "Current Root accepts the bounded generation decision. Exactly one controlled generation yields pinned135-byteWAT and the independently checked256-value oracle(3*x+7)%256. Actual native worker tests all256 inputs, returns2048fuel and is reaped; full admission consumes that exact source/result.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_root.json",
+          "sha256": "49a09f2dcde4514f7acad93f42d87cabf32229f6952e6b661d00d1590096cf7f",
+          "size_bytes": 13850
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_generated.json",
+          "sha256": "f5a9cae211f5fca3bd9941616961d06e567b94fdd55fe56b8b15eba2856f9317",
+          "size_bytes": 3058
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_admission_return.json",
+          "sha256": "ea01c93960ad1a229b8005a3a2cd50bc5713778e0689d13369ed67af6a2ac4a8",
+          "size_bytes": 80079
+        }
+      ]
+    },
+    {
+      "criterion": "Causal same-task guest and downstream consumer",
+      "id": "S7-3",
+      "judgment": "Original baseline is not replayed. Its exact historical result feeds the installed native guest; guest output118 feeds the label consumer by actual result ID and consumed field. Consumer produces SHELF-07-BIN-06. Same task, new revision, accepted preinstall/final Root, three actual PURE dispatches.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json",
+          "sha256": "e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5",
+          "size_bytes": 496901
+        }
+      ]
+    },
+    {
+      "criterion": "Qualified DRS reuse under fresh eligibility and admission",
+      "id": "S7-4",
+      "judgment": "Fresh warm task/Host has missing need58. Need search finds one reviewed candidate, direct reuse is forbidden, temporal eligibility1015 passes, current Root approves one-artifact descent of exact1444-bytepayload. A fresh256-input native admission operation consumes those bytes with generation0; actual guest181 causally produces SHELF-11-BIN-05. Public content-derived package/admission IDs intentionally match cold; fresh admission is evidenced by new worker, task/need, host construction and private origin enforcement, not ID inequality.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/memory_written.json",
+          "sha256": "a3b9d13bd4106da9260df644366aaf14367cc27374a1c208fa96139850c13a82",
+          "size_bytes": 23471
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_need_observed.json",
+          "sha256": "9d6d94768df08f35a2f93e616621b49c6298757e97099b82a35d4133786a2ec9",
+          "size_bytes": 313419
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_admitted.json",
+          "sha256": "20a5ec24ea9b65534471b813a897f04e9757801aa464bf87abf1a890fbe85385",
+          "size_bytes": 115919
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json",
+          "sha256": "35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430",
+          "size_bytes": 493746
+        }
+      ]
+    },
+    {
+      "criterion": "Exact negative controls and valid positive neighbor",
+      "id": "S7-5",
+      "judgment": "Seven declared refusals have exact native reasons and no prohibited installed guest/consumer Work. The wrong-oracle lane legitimately runs its validation worker then refuses admission; wrong version still consumes its admission reservation. Valid neighbor11\u219240\u2192SHELF-02-BIN-08 completes. Unchanged memory at2001 is BLOCKED_BY_TIME with validity/TTL/evidence reasons; no negative-lane retrieval/admission or permission restoration.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_refusals.json",
+          "sha256": "3bdb624306b7f3f9b36f88d5a2297cac22a3b599259d3915ae00e9adb4d493f7",
+          "size_bytes": 14524
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_oracle_return.json",
+          "sha256": "485c94da27143c0add5585f29836e9143c43a994a71234d2a91d7fe6f572313f",
+          "size_bytes": 10133
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/control_positive_return.json",
+          "sha256": "3ef1bb8054e71a507f3012db9b49084f07a62a1241230244a6dd0fc937a181eb",
+          "size_bytes": 80089
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json",
+          "sha256": "babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e",
+          "size_bytes": 507618
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controlled_expiry.json",
+          "sha256": "cab47cfb7ed62abf177274e84e01219076a7cfca8ba70f7dfc829a23848d685a",
+          "size_bytes": 2883
+        }
+      ]
+    },
+    {
+      "criterion": "Optional capability unavailable or disabled",
+      "id": "S7-6",
+      "judgment": "Disabled task performs only its baseline Work and refuses pure_task_permission_absent. It performs no generation, admission or guest Work; positive enabled neighbor is retained. No fallback or invented permission.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/disabled_need_observed.json",
+          "sha256": "b97b1cd1c983f3f24e8a8b8e54ad04744324254fe4f591252297cf9669d56c4a",
+          "size_bytes": 312366
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/optional_disabled_refused.json",
+          "sha256": "4da985130a2519e1de40a5dc726d5e972dab1624dfda5308600e16714c146dee",
+          "size_bytes": 312500
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_completed.json",
+          "sha256": "dbdcf5acd3a0902245e1ebb5d2ae1b431b4372d344759dfe282cc89abe215c6c",
+          "size_bytes": 327005
+        }
+      ]
+    },
+    {
+      "criterion": "Resource accounting, exact loaded code and complete closure",
+      "id": "S7-7",
+      "judgment": "Actual10PUREdispatches and7workers matched to original request/PID-parent/started/closed/raw-native-result witnesses. Exact loaded module and callback hashes match1180source pins. Receipt/operation-close confirm owner group closed, app/worker reap and lock release without failure;12liveguards, reference, model histories, UNKNOWN and CLOSED SAVE quota preserved.",
+      "status": "PASS_ACTUAL_IN_DECLARED_FINITE_SCOPE",
+      "witness_refs": [
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/cold_consumed.json",
+          "sha256": "e8ea422457c3bbe5f045a1729ee228b293ab7ca3c5d9b6f6a03a78bd667ed9a5",
+          "size_bytes": 496901
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/warm_consumed.json",
+          "sha256": "35573769397d3cb090a703535a7c369c70165ae384a21e3e50b18fe342a33430",
+          "size_bytes": 493746
+        },
+        {
+          "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/witnesses/controls_consumed.json",
+          "sha256": "babd55addbafec0afd43abf9be43756fccf9595b466e6ea9a5818e8f0841618e",
+          "size_bytes": 507618
+        }
+      ]
+    }
+  ],
+  "criteria_supplemental_raw_evidence": {
+    "S7-7": [
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/receipt.json",
+        "sha256": "54b22d7d4fd7d8b8e06ae0c036ee545f0ea3f6d35975e7fad8a7ca3a689226db",
+        "size_bytes": 78033
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0001_loaded_before_native.json",
+        "sha256": "8036a81ef7600496ceed974cd2792dacf08defa799660725ab7669f069865c6d",
+        "size_bytes": 66296
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0061_loaded_final.json",
+        "sha256": "1af4e94f113774c46110527cc44d02862ff38e5628de4ac2ac40f7afb8630a08",
+        "size_bytes": 68025
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0062_worker_observation_complete.json",
+        "sha256": "7cd8423a8c7a753bd2b616df4af384aac3e09354f6bb152d686b6470216ed38f",
+        "size_bytes": 12295
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/application/entry_sessions/session_1/evidence/0063_ordinary_entry_closed.json",
+        "sha256": "b667a137bd54654cab866a2a3e0071ef24d52091199aacb98bd62cde2a622a2f",
+        "size_bytes": 37401
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal_runs/OWNER_20261023T104305_9fa1f87271b54e309919f5f52d4fca86/operation_close.json",
+        "sha256": "513cdcb1dfe795ca50a8781dda4ee7931e4c0b2ad9553134938c597a60f2c9f8",
+        "size_bytes": 744
+      }
+    ]
+  },
+  "formal_acceptance_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json",
+    "sha256": "513e4750a8db7592a71185fc5dd32848f1282607b82d0276d6c8cefbcbc31285",
+    "size_bytes": 3638
+  },
+  "independent_acceptance_awarded_by_index": false,
+  "independent_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "ee3eb63b6d50d0e04d7150732d7cadba3e2670fe6cd9fb60ec2c30e332d359c0",
+    "size_bytes": 14196
+  },
+  "master_directions_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_claims_addendum.json",
+    "sha256": "b2e7da535fb7482a8a4b2d69746ff5190565bd6a98d3de99c82721dfd957f00a",
+    "size_bytes": 17554
+  },
+  "prepared_by": "/root",
+  "raw_owner_file_count": 124,
+  "raw_owner_inventory_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/raw_owner_inventory.json",
+    "sha256": "93588ed58753e65f52b6d750050245a1be9f0fda4cb1775dcd72e7c7ad2c08e0",
+    "size_bytes": 40915
+  },
+  "requirements_count": 7,
+  "schema": "radik.stage07.claims_evidence.v1",
+  "status": "STAGE07_ACCEPTED_CONTROLLED_FINITE_PURE_U3",
+  "worker_result_pointer_index_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/worker_result_index.json",
+    "sha256": "b988ecafa9bda25eb566d5de4af3f6436697c13737b115aab60f95a75f7dd212",
+    "size_bytes": 4460
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "radik.stage07.owner_admission.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "SOURCE_ACCEPTED_FOR_BOUNDED_ENGINEERING_PROBE",
+  "mode": "engineering",
+  "task_selector": "pure_capability_probe_v01",
+  "approved_owner_invocations": 0,
+  "approved_engineering_invocations": 1,
+  "expected_model_calls": 0,
+  "code_manifest_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/source_manifest_PROBE_03.json",
+    "sha256": "516984d047e39166e4ad736e1f10b6e63d7d9a9b7519cf1dccb943ad9e3f1adc",
+    "size_bytes": 1108699
+  },
+  "scenario_refs": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/engineering_scenario.json",
+      "sha256": "a5379714c12e67526a8ca6530ff7e456ebee49604337587be4a56fcdb741f5f7",
+      "size_bytes": 846
+    }
+  ],
+  "interpreter_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "sha256": "2477b47fa3ae65b9574eb18a15edb364e96948eaa1875ad3f1c80d780efc9c12",
+    "size_bytes": 52448
+  },
+  "live_guards": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/console_model_turns.json",
+      "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+      "size_bytes": 147969
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/application_profile.json",
+      "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+      "size_bytes": 245
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+      "size_bytes": 78191
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+      "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+      "size_bytes": 2726
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json",
+      "sha256": "7649c71720758f4994427680e4a6b672464721d2f1169e095814a1836796155b",
+      "size_bytes": 17513
+    }
+  ],
+  "limits": {
+    "operation_seconds": 270,
+    "native_seconds": 240,
+    "cleanup_seconds": 20,
+    "interrupt_grace_seconds": 10,
+    "terminate_grace_seconds": 5,
+    "kill_wait_seconds": 5,
+    "early_checkpoint_seconds": 90,
+    "semantic_idle_seconds": 90
+  },
+  "source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/source_independent_review_02.json",
+    "sha256": "d72939c300e87684af10eb8558328e82c2d2c01ccfcb279a44c81eccecf5fe7b",
+    "size_bytes": 2694
+  },
+  "preparation_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting.json",
+    "sha256": "d2e8ad2d9ea6228a170029969db067e4228b601ec8cd461a3423475ef542b53d",
+    "size_bytes": 2160
+  },
+  "profile": "CONTROLLED_FINITE_PURE_U3_APPLICATION_INTEGRATION",
+  "fresh_pure_native_work_allowed": true,
+  "AUTH_provider_models_E_generic_SAVE_allowed": false,
+  "automatic_retry": false,
+  "scope": "One engineering scenario through final ordinary entry/supervisor and seven unchanged native workers, four tasks and bounded public negative controls. No owner scenario execution or historical authority restoration.",
+  "temporal_profile": "Fresh invocation-owned CONTROLLED_LOGICAL_U3; actual UTC source/deadline guards separate; no UTC-persistent-memory claim.",
+  "preparation_addendum_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/preparation_accounting_addendum_03.json",
+    "sha256": "831edb644e6fd7ae5f3c0f877f39f7afb5b6f705c51fc24907c69c8439d70850",
+    "size_bytes": 2704
+  },
+  "prior_closed_actual_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_01_independent_review.json",
+    "sha256": "2f49cdc00108c12e8760a46d20cf7f35316ca8661d86cb068efbd4702d2c71a0",
+    "size_bytes": 24350
+  },
+  "actual_id": "PROBE_02"
+}

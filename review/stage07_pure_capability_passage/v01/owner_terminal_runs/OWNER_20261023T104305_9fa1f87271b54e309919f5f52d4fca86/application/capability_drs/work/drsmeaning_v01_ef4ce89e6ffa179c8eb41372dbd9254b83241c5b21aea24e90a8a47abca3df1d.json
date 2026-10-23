@@ -1,0 +1,148 @@
+{
+  "content": {
+    "contract_version": "affine-u8-v01",
+    "drs_hit_is_authority": false,
+    "drs_record_is_truth": false,
+    "drs_reuse_candidate_is_action_permission": false,
+    "meaning": {
+      "artifact_pointers": [
+        {
+          "access_policy_id": "memory:radik:stage07:archive_shelf",
+          "allowed_use_classes": [
+            "OPEN_ONE_ARTIFACT"
+          ],
+          "byte_length": 1444,
+          "content_sha256": "377cf518b6ca720b90e7bfd893f804ab14bdc49bd3332fec534a35df6b307b28",
+          "creates_authority": false,
+          "creates_permission": false,
+          "forbidden_use_classes": [
+            "ACTION_EXECUTION"
+          ],
+          "media_type": "application/json",
+          "object_reference": "artifact:pure_affine_source_v01",
+          "payload_read_permitted": true,
+          "pointer_id": "drsart_v01:c15d031033d4a15bf5d565824d718c6a4ee913035f95913ea8a0ebd13f5f454b",
+          "pointer_version": "v0.1",
+          "sensitivity_class": "INTERNAL",
+          "storage_class": "LOCAL_DOCUMENT",
+          "summary_read_permitted": true
+        }
+      ],
+      "authority_envelope": {
+        "action_permission_present": false,
+        "authority_class": "ROOT_ACCEPTED_CONTEXT",
+        "authority_envelope_id": "drsauth_v01:e3fdab3a128d7d9fe8e324bba66485adb7d31c24482b20acdae79bb7de3f7134",
+        "authority_envelope_version": "v0.1",
+        "authority_scope_fingerprint": "58e168c66af8e1a879ae763f3b42a98de74ec799b0a6821d2ee240840a457361",
+        "creates_authority": false,
+        "creates_permission": false,
+        "owning_local_root_id": "root:radik:stage07:fppnklehongfebamjbkojcaoecpenjlm",
+        "recording_component": "pure_memory",
+        "root_acceptance_state": "ACCEPTED_CONTEXT",
+        "source_root_decision_hash": "fdba1bd6b8d9798ec05ff8a7b836f48793b03091f49322b0b2715b3c697af016",
+        "source_root_decision_id": "2fcceb08e3360dc966cb1a45d42cb9646ccfe595f56192386c53b71a686de8c0",
+        "source_root_decision_input_id": "20094b8722cd4cb7ca0fcc3f4e4dfbbe4eb2aba854a474e85da1e59d53cea34c"
+      },
+      "conflict_hints": [],
+      "content_fingerprint": "377cf518b6ca720b90e7bfd893f804ab14bdc49bd3332fec534a35df6b307b28",
+      "creates_authority": false,
+      "creates_permission": false,
+      "lineage_edges": [],
+      "local_reference_kernel_scope": "LOCAL_REFERENCE_KERNEL",
+      "meaning_record_id": "drsmeaning_v01:ef4ce89e6ffa179c8eb41372dbd9254b83241c5b21aea24e90a8a47abca3df1d",
+      "meaning_record_version": "v0.1",
+      "memory_pointers": [],
+      "persistent_lifecycle_state": "ACTIVE",
+      "policy_version": "pure_memory_v01",
+      "predecessor_record_id": null,
+      "recording_component": "pure_memory",
+      "resonance_reason": "same mathematical need",
+      "reuse_policy_class": "CONTEXT_ONLY",
+      "risk_hints": [],
+      "safe_summary": "Finite integer affine source; independent readmission required.",
+      "schema_versions": [
+        "pure_source_v01"
+      ],
+      "semantic_address": {
+        "address_profile_version": "v0.1",
+        "domain": "pure_integer",
+        "intent_class": "context_lookup",
+        "meaning_schema_id": "pure_source",
+        "meaning_schema_version": "v01",
+        "namespace": "local_pure",
+        "semantic_address_id": "drsaddr_v01:6560c9e1a5ff679d81df4e41e9d1e087fd575e7463c15ea7005bb9c940a7bb0f",
+        "subject_class": "affine_u8"
+      },
+      "semantic_tags": [
+        "integer",
+        "affine",
+        "u8"
+      ],
+      "source_reference_ids": [
+        "drsart_v01:c15d031033d4a15bf5d565824d718c6a4ee913035f95913ea8a0ebd13f5f454b"
+      ],
+      "supersession_reason": null,
+      "time_envelope": {
+        "ct_context_anchor": 1000,
+        "et_observed_at": 1000,
+        "freshness_policy_id": "pure_fresh_v01",
+        "kt_as_of": 1000,
+        "pt_created_at": 1000,
+        "source_observed_at": 1000,
+        "source_reported_at": 1000,
+        "system_ingested_at": 1000,
+        "system_verified_at": 1000,
+        "time_envelope_id": "drstime_v01:b778aa6c740ba965146d6b081cd7fcbcf3a4b6cf2fba8e694a2d415bb0d82168",
+        "time_envelope_version": "v0.1",
+        "ttl_seconds": 1000,
+        "valid_from": 1000,
+        "valid_to": 2000
+      }
+    },
+    "memory_scope": "memory:radik:stage07:archive_shelf",
+    "multiplier": 3,
+    "offset": 7,
+    "owning_root_id": "root:radik:stage07:fppnklehongfebamjbkojcaoecpenjlm",
+    "payload_ref": "artifact:pure_affine_source_v01",
+    "payload_sha256": "377cf518b6ca720b90e7bfd893f804ab14bdc49bd3332fec534a35df6b307b28",
+    "profile_version": "pure-i32-closed-v01",
+    "semantic_keys": [
+      "integer",
+      "affine",
+      "u8"
+    ]
+  },
+  "domain": "pure_integer",
+  "layer": "work",
+  "provenance": {
+    "created_by": "pure_memory",
+    "request_id": "task:radik:stage07:5ffdab47ed65410c91ae920e42f4d9bc:cold",
+    "trace_refs": [
+      {
+        "kind": "local_drs_resolver",
+        "trace_id": "trace:drsmeaning_v01:ef4ce89e6ffa179c8eb41372dbd9254b83241c5b21aea24e90a8a47abca3df1d"
+      }
+    ]
+  },
+  "record_id": "drsmeaning_v01:ef4ce89e6ffa179c8eb41372dbd9254b83241c5b21aea24e90a8a47abca3df1d",
+  "source_refs": [
+    {
+      "ref": "pure_missing_observation:b486256eb6153595fcf82c78430a701b97af191003a84d487f2099bf6ea1849d"
+    }
+  ],
+  "status": "active",
+  "time_envelope": {
+    "kt_asof": "1970-01-01T00:16:40+00:00",
+    "pt_created_at": "1970-01-01T00:16:40+00:00",
+    "ttl_seconds": 1000,
+    "valid_from": "1970-01-01T00:16:40+00:00",
+    "valid_to": "1970-01-01T00:33:20+00:00"
+  },
+  "trace_refs": [
+    {
+      "kind": "local_drs_resolver",
+      "trace_id": "trace:drsmeaning_v01:ef4ce89e6ffa179c8eb41372dbd9254b83241c5b21aea24e90a8a47abca3df1d"
+    }
+  ],
+  "type": "pure_source"
+}

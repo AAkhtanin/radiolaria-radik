@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 140, in <module>
+    main()
+    ~~~~^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 117, in main
+    walk(json.loads(raw), reference)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 106, in walk
+    walk(child, reference, path + (key,), depth + 1)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py", line 100, in walk
+    namespace['_public_field_shape'](value, key, kind, pointer)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/build_return.py", line 73, in _public_field_shape
+    require(key == 'stderr' and set(parent) == fields
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        and parent['engine_version'] == '48.0.0'
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        and parent[key] == {'encoding':'base64','bytes':'','sha256':digest(b''),'size_bytes':0},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'return_public_empty_worker_diagnostic')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/return_package/build_return.py", line 24, in require
+    raise ValueError(code)
+ValueError: return_public_empty_worker_diagnostic

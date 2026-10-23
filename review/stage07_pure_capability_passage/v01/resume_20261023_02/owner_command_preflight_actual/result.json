@@ -1,0 +1,101 @@
+{
+  "admission_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_admission.json",
+    "sha256": "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+    "size_bytes": 4862
+  },
+  "application_imports": 0,
+  "child_processes": 0,
+  "command": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python -I -S -B /Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py --admission-file owner_admission.json --admission-sha256 db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+  "command_sha256": "b1d886a000a47b007ca4329cf808051ef480bac236d47f78cf888fd8046933a6",
+  "controls": [
+    {
+      "control": "source_author",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/source_author.json",
+        "sha256": "9928b83fb280d1cde20dd34a5db7e8ab1fc43547dff6dd9fccd6394178544dd1",
+        "size_bytes": 4836
+      }
+    },
+    {
+      "control": "retired_reviewer",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/retired_reviewer.json",
+        "sha256": "de1dc222c2a1f016ccceeb9c57de8e998c7f15142ef89d0caa469f576eb9e69c",
+        "size_bytes": 4860
+      }
+    },
+    {
+      "control": "missing_binding",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/missing_binding.json",
+        "sha256": "5ed33312b40a96213c18146c6cdc28a568c4e8b127eb0c53f5a8bddf9dfb2835",
+        "size_bytes": 4607
+      }
+    },
+    {
+      "control": "wrong_binding_path",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/wrong_binding_path.json",
+        "sha256": "403b275c503db1799d248f95d5c96805f745cf4c0999d558e7ad7dcc2f55301d",
+        "size_bytes": 4861
+      }
+    },
+    {
+      "control": "wrong_binding_hash",
+      "exact_refusal": "stage07_terminal_reference_changed",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/wrong_binding_hash.json",
+        "sha256": "4d9478093d629225bcda60d978cf83ee703e6403ea409b983c6d06e2640fc921",
+        "size_bytes": 4862
+      }
+    },
+    {
+      "control": "focus_in_owner_mode",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/focus_in_owner_mode.json",
+        "sha256": "926a081155d1b0c4082fff36740c32fda8adf57820ffed6b4e33eec5de3b38eb",
+        "size_bytes": 4868
+      }
+    },
+    {
+      "control": "owner_count_zero",
+      "exact_refusal": "stage07_terminal_independent_admission",
+      "input_ref": {
+        "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/owner_command_preflight_actual/owner_count_zero.json",
+        "sha256": "bfd27638ce13c408c5ad20e8b95b1b0f16d0fe886552a9e18ce97681b9748093",
+        "size_bytes": 4862
+      }
+    }
+  ],
+  "elapsed_ns": 178844958,
+  "future_owner_argv": [
+    "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python",
+    "-I",
+    "-S",
+    "-B",
+    "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+    "--admission-file",
+    "owner_admission.json",
+    "--admission-sha256",
+    "db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f"
+  ],
+  "model_calls": 0,
+  "native_Work_calls": 0,
+  "owner_execution_performed": false,
+  "owner_runs_unchanged": true,
+  "positive_load_admission_passed": true,
+  "reservations_unchanged": true,
+  "schema": "radik.stage07.owner_command_preflight_result.v1",
+  "source_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py",
+    "sha256": "de5c081df971c68cc94532db2914eecc0e230e05cb63be3c3cd673a7fcf777ca",
+    "size_bytes": 39730
+  },
+  "status": "PREFLIGHT_PASSED_OWNER_NOT_EXECUTED"
+}

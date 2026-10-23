@@ -1,0 +1,126 @@
+{
+  "schema": "radik.stage07.actual_return_packaging_review.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "ACCEPTED_FOR_ONE_LOCAL_SOURCE_ACTUAL_RETURN",
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "public_push_authorized": false,
+  "automatic_retry": false,
+  "writer_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py",
+      "sha256": "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+      "size_bytes": 11699
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ],
+  "code_source_pins": {
+    "review/stage07_pure_capability_passage/v01/actual_acceptance_01/build_return.py": "a787aafca23795d8739360ba5d64824fe44e3415c2aa9b997a5a6e59605a382c",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e"
+  },
+  "selection_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/return_selection_02.json",
+    "sha256": "aee51d31c9ae024182e4fe86a0b5d29eb6dbbf5ac757eb4bbc65dfe445719491",
+    "size_bytes": 338781
+  },
+  "public_field_inventory_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/public_field_inventory_01.json",
+    "sha256": "ee32718a788f41ded40b3e7a412ed85a6a418eb9b80e98bba96f9b66742acf5b",
+    "size_bytes": 32749
+  },
+  "inventory_execution_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/public_inventory_execution_01/tool_outcome.json",
+    "sha256": "3225c5fbf52472431265029389c14977c50910bb47195d04db4cf0ba34f42149",
+    "size_bytes": 1127
+  },
+  "inventory_source_grant_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/public_inventory_preparation_grant_01.json",
+    "sha256": "19077ea8c08a6a27a5829dc247decfe0df095cf6f99214743952681352aeb7f7",
+    "size_bytes": 2752
+  },
+  "packaging_source_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/packaging_source_independent_review.json",
+    "sha256": "ddb7f5d7e7e1131e655dc060f894b4059d87e9dcfd653fcfcce0c9715fac43ce",
+    "size_bytes": 2582
+  },
+  "documentation_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/documentation_independent_review.json",
+    "sha256": "4ed5504f3b859c8be5db512e97a30421df07f0a5383b6b3e85a3f4ac368eff60",
+    "size_bytes": 5204
+  },
+  "formal_actual_acceptance_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/stage07_acceptance.json",
+    "sha256": "513e4750a8db7592a71185fc5dd32848f1282607b82d0276d6c8cefbcbc31285",
+    "size_bytes": 3638
+  },
+  "independent_raw_actual_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "ee3eb63b6d50d0e04d7150732d7cadba3e2670fe6cd9fb60ec2c30e332d359c0",
+    "size_bytes": 14196
+  },
+  "checked_facts_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "e804af9a7e2bad9afdbd8b2b09d64d3956ceaa0a4c066d80f886cc61812bc5c4",
+    "size_bytes": 75275
+  },
+  "owner_accounting_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2f997e1147817dbb1c8aaa7a598278960f4d7fd475f6a7a58fba58abda7c1dc8",
+    "size_bytes": 10312
+  },
+  "current_engineering_accounting_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/actual_acceptance_01/actual_acceptance_preparation_accounting.json",
+    "sha256": "6818d997f73445a65052a572fd89be2c83c8679e6c631e5d4d37749227cb6d96",
+    "size_bytes": 2860
+  },
+  "expected_selected_files": 872,
+  "expected_payload_files": 874,
+  "expected_tar_members_including_manifest": 875,
+  "finite_payload_review": {
+    "all_raw_source_hashes_and_sizes_exact": true,
+    "all_exception_file_pointer_value_parent_bindings_verified": true,
+    "all_exception_shapes_match_reviewed_writer": true,
+    "exact_public_observation_exceptions": 58,
+    "exception_counts": [
+      {
+        "kind": "STAGE07_CURRENT_ROOT_CLAIM",
+        "count": 21
+      },
+      {
+        "kind": "STAGE07_EMPTY_NATIVE_WORKER_STDERR",
+        "count": 37
+      }
+    ],
+    "archive_names_unique_and_safe": true,
+    "all124_owner_raw_files_preserved": true,
+    "full_historical_and_current_consumer_witnesses_preserved": true,
+    "raw_payload_bytes_unmodified": true,
+    "private_state_credentials_or_runtime_environment_bytes_included": false,
+    "unknown_reserved_fields": 0
+  },
+  "old_archives_and_preparation_reservation_unchanged": true,
+  "original_handoff_sha256": "3f8e2c9e4e81589babeaba64391d60e84254c08a13eed505112478c1990abb52",
+  "preparation_return_sha256": "1b38f81d63f7b881482179bf4351af7da35626a540c8b2768a82302c0b4234cc",
+  "new_build_key": "stage07_pure_capability_actual_acceptance_01",
+  "publisher_review": "Exactly unchanged standard publisher c94aafcd. Adapter path/newkey isolation only; permanent one-use reservation, exclusive archive, complete tar readback, atomic checksum and standard honest delivery remain. Previous handoff and preparation RETURN are immutable. This packaging grants no new runtime authority.",
+  "acceptance_scope": "Stage07 already accepted independently for seven controlled finite PURE U3 criteria under the exact owner actual. Packaging preserves that scoped decision and does not expand it.",
+  "owner_admission_consumed": true,
+  "repeat_owner_operation_authorized": false,
+  "application_native_Work_Wasm_model_execution_authorized": false,
+  "push_release_Stage08_authorized": false,
+  "packaging_wall_limit_seconds": 60,
+  "packaging_accounting_separate": true,
+  "engineering_cumulative_charged_ns": 91383032418,
+  "engineering_remaining_ns": 808616967582,
+  "owner_actual_wall_ns": 6465176458,
+  "owner_actual_accounted_separately": true
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "radik.stage07.exec_tool_outcome.v1",
+  "actual_id": "PROBE_02",
+  "final_tool_outcome_observed": true,
+  "automatic_retry": false,
+  "tool_returns": [
+    {
+      "chunk_id": "eed41d",
+      "wall_time_seconds": 1.00234975,
+      "session_id": 89096,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "chunk_id": "98a56c",
+      "wall_time_seconds": 0.000015708,
+      "exit_code": 1,
+      "original_token_count": 151,
+      "output": "OFFLINE_CONTROL_RETURN {\"child_exit_code\": 1, \"child_reaped\": true, \"completion_ref\": {\"path\": \"review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/supervisor/completion.json\", \"sha256\": \"f63d4a354ed853f2d9c745b8787396a6b8a38564219577e11d98d9a8df6bd59c\", \"size_bytes\": 860}, \"cumulative_charged_ns\": 34777270459, \"primary_stop\": null, \"receipt_ref\": {\"path\": \"review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_02/supervisor/receipt.json\", \"sha256\": \"ed178195f6c84dfef67d2fcf3a676f3dc50e62555f5ce3c42f625bcb80a47277\", \"size_bytes\": 1307}, \"status\": \"STOPPED_NO_RETRY\"}\n"
+    }
+  ]
+}

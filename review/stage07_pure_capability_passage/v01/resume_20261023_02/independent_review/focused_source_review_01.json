@@ -1,0 +1,69 @@
+{
+  "actual_owner_run": false,
+  "candidate_application_imports_by_reviewer": 0,
+  "execution_granted": false,
+  "findings": [
+    "Engineering-only finite selector and distinct result status route through unchanged ordinary launch and entry; owner selector/status are unchanged. No full semantic PASS is synthesized.",
+    "Shared expiry helper is AST-identical to the repaired normal block after replacing only retrieval.query with its query parameter; original entire normal record immutability check remains.",
+    "Two exact historical raw witnesses are reread as evidence. Public typed builders roundtrip their meaning/query exactly; no private loader, Host reconstruction, LocalDRS write/retrieval, new Root authority, Work, generation, admission, Wasm or provider path occurs.",
+    "Native source observer checks loaded module/callable and compiled code equality for itself plus seven public builders/evaluator; outputs identify source bytes before actual temporal evaluation. No capability admission is created.",
+    "1015 positive must match the actual prior evaluation exactly;2001 must satisfy specific temporal failures and retain all non-temporal gates. Original raw witnesses are reread unchanged after evaluation.",
+    "Current worker_results is honestly empty. The actual ordinary finish, source observation, final guards, report write/readback, parent process join and lock cleanup remain real current operations. Historical seven-worker coverage remains separately accepted material.",
+    "New source inventory reads only existing finite source/dependency/platform closure plus one new helper, two pinned historical inputs and one focused scenario; writes only one fresh inventory. All path restrictions and stdlib-only import behavior remain.",
+    "Both preimport launch gates restrict inventory names to PROBE/OWNER numbered forms. Use source_manifest_PROBE_05.json; no launcher weakening is required.",
+    "Primary exception remains primary when native_exit observation fails. All existing deadline and no-retry boundaries remain."
+  ],
+  "inherited_identity_review_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/reviewer_binding_source_acceptance_01.json",
+    "sha256": "d96fe47c549817a07f5a164a96f3932aa7bb905d7390f47b10066d0e3f213252",
+    "size_bytes": 3805
+  },
+  "mechanical_review_elapsed_ns": 7048333,
+  "native_execution_by_reviewer": 0,
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/focused_expiry_tail_source_proposal.json",
+    "sha256": "ecfda552cb0b7495476ee7ad8b663021686dd5f55b7805f3924ec98da7e766d9",
+    "size_bytes": 2715
+  },
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "schema": "radik.stage07.focused_expiry_tail_independent_source_review.v1",
+  "shared_expiry_AST_equivalent_to_accepted_repaired_block": true,
+  "source_refs": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability.py",
+      "sha256": "2e0192512e81fd7b88449a868fb17a7104b8952102d15c31ee5e1395eb0ae3a7",
+      "size_bytes": 21633
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "sha256": "de5c081df971c68cc94532db2914eecc0e230e05cb63be3c3cd673a7fcf777ca",
+      "size_bytes": 39730
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "sha256": "a690d920233e66c067568e76a99cfe181dd518b19ff2a75dcc9ce28a2210d57a",
+      "size_bytes": 14855
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+      "sha256": "76e0f17ad3bcbcc1dfc8a66c60e1235f8d82f74dd478b4a046d97b90dd2dd997",
+      "size_bytes": 6044
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/pure_capability_expiry.py",
+      "sha256": "cf30f0696e31e02a861226d20b34ff77587669d759482d80ae66b0720732b68f",
+      "size_bytes": 10601
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/focused_expiry_tail_scenario.json",
+      "sha256": "1636ea20e41983ba94accc8f7361b356a8aa5e307d71456d4e19d532b582a37f",
+      "size_bytes": 833
+    }
+  ],
+  "status": "ACCEPTED_SOURCE_PENDING_EXACT_INVENTORY_AND_EXECUTION_GRANT"
+}

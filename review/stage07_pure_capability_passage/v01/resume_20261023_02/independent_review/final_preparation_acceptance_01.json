@@ -1,0 +1,71 @@
+{
+  "schema": "radik.stage07.final_preparation_acceptance.v1",
+  "reviewer": "/root/stage07_recovery_reviewer",
+  "reviewer_binding_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/reviewer_binding.json",
+    "sha256": "a5b74db52e880d099154a234a4dd1a1bba192546a105508d45b6c8ae65407eb2",
+    "size_bytes": 800
+  },
+  "status": "OWNER_COMMAND_SOURCE_READY_PREFLIGHT_ACCEPTED_NOT_EXECUTED",
+  "owner_command_preflight_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_preflight_actual_review_01.json",
+    "sha256": "c3a34d25bd69cd9ee6412252a2e82a35d0bb44d3726a675dcb1771da2884607d",
+    "size_bytes": 5842
+  },
+  "owner_source_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/owner_command_source_review_01.json",
+    "sha256": "7ae28edcaf5356e6a46602388450c52a3978da5b6f73ae5db2193073fdeaa9a6",
+    "size_bytes": 6037
+  },
+  "focused_actual_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+    "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+    "size_bytes": 15014
+  },
+  "inherited_actual_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+    "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+    "size_bytes": 13491
+  },
+  "final_accounting_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/execution_accounting/OWNER_COMMAND_PREFLIGHT_01.json",
+    "sha256": "d4d3b118c9b709fe11a1ca09f1e99524935717d14135a7072b839e695d0551da",
+    "size_bytes": 1935
+  },
+  "roadmap_document_review_ref": {
+    "path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/roadmap_document_review_01.json",
+    "sha256": "5437df5441fcdfe00f3797a688353221101bc5e79ad955cbbb94d1471bcc0c1a",
+    "size_bytes": 979
+  },
+  "closed_preparation_items": [
+    "Current independent reviewer exact-byte binding and source admission.",
+    "Preserved applicable cold/warm/native consumer and control witnesses under original author.",
+    "Shared native expiry positive/negative with raw input immutability.",
+    "Genuine ordinary finalization, loaded code, child reap and lock closure in bounded focused run.",
+    "Full future owner route source review and exact zero-child admission/refusal preflight.",
+    "Cumulative original 900-second budget reconciled without reset."
+  ],
+  "open_items": [
+    "Final local RETURN selection, public-field inventory, publisher execution and independent archive/readback verification.",
+    "Future explicit owner actual remains unexecuted; Stage07 owner runtime acceptance is not asserted."
+  ],
+  "claims": [
+    "No repeat of accepted cold/warm or native Work/Wasm was performed during recovery.",
+    "No AUTH, provider/model calls, full E, SAVE, push or Stage08.",
+    "No restored Host authority or historical permission.",
+    "Original reviewer identities and failed PROBE01/02 terminal statuses remain unchanged."
+  ],
+  "command": "/Users/admin/Projects/RadiolariaRadik/.venv-plan/bin/python -I -S -B /Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/owner_terminal.py --admission-file owner_admission.json --admission-sha256 db8c9f292dc69c5e9bb4bb10fb20c3d75aaa06c63deb8afde79b11913af5514f",
+  "limits": {
+    "operation_seconds": 60,
+    "native_seconds": 45,
+    "cleanup_seconds": 20,
+    "interrupt_grace_seconds": 10,
+    "terminate_grace_seconds": 5,
+    "kill_wait_seconds": 5,
+    "early_checkpoint_seconds": 20,
+    "semantic_idle_seconds": 20
+  },
+  "full_stage07_owner_pass": false,
+  "package_acceptance_pending": true
+}

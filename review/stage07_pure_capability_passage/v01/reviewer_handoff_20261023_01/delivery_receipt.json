@@ -1,0 +1,14 @@
+{
+  "archive_path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T093324.935252Z_STAGE07_REVIEW_HANDOFF.tar.gz",
+  "delivery_elapsed_ns": 7149959,
+  "destination_readback_verified": true,
+  "exclusive_creation": true,
+  "independent_acceptance": false,
+  "packaging_accounted_separately": true,
+  "prior_archive_overwritten": false,
+  "reviewer_channel_delivery": false,
+  "schema": "radik.stage07.review_handoff_delivery.v1",
+  "sha256": "3f8e2c9e4e81589babeaba64391d60e84254c08a13eed505112478c1990abb52",
+  "sha256_path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T093324.935252Z_STAGE07_REVIEW_HANDOFF.tar.gz.sha256",
+  "size_bytes": 3669155
+}

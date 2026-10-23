@@ -1,0 +1,11 @@
+{
+  "schema": "radik.stage07.mutable_budget_history_binding.v1",
+  "reason": "The running cumulative budget is updated after each charged preparation; the prior exact grant-bound bytes are retained separately.",
+  "original_path": "review/stage07_pure_capability_passage/v01/engineering_budget.json",
+  "historical_sha256": "3476533aab8bc09ed786d3cf9259775e015a230bdcffd4f85a0aa82dd05b3854",
+  "retained_path": "review/stage07_pure_capability_passage/v01/preparation_checks/INVENTORY_01/prior_budget.json",
+  "byte_exact_digest_verified": true,
+  "budget_reset": false,
+  "native_calls": 0,
+  "retention_method": "Reconstructed the exact preceding budget serialization by removing only the three appended post-grant charges, then verified its SHA256 against the already frozen grant before writing the retained copy. No historical observation was inferred."
+}

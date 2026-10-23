@@ -1,0 +1,73 @@
+{
+  "author": "/root",
+  "candidate_application_imports": 0,
+  "executable_source_run": false,
+  "identity_boundary": "New grants require the exact fixed-path reviewer_binding.json reference and a named reviewer distinct from known source authors and the retired reviewer. The owner must designate that identity; no designation is created by this proposal. Local hash binding is not cryptographic authentication.",
+  "owner_designation_record_created": false,
+  "preparation_elapsed_ns": 21675126,
+  "preserved_checks": [
+    "Current grant schema/status/mode/one-use/profile and zero-provider restrictions",
+    "Exact source/import/dependency pins",
+    "Historical preparation and PROBE accounting retain original reviewer checks",
+    "Original reservations/receipts and no-retry checks",
+    "Existing publisher implementation unchanged"
+  ],
+  "prior_reviews_changed": false,
+  "reviewer_identity_assigned": false,
+  "schema": "radik.stage07.reviewer_binding_source_proposal.v1",
+  "source_files": [
+    {
+      "after_sha256": "5a3757ab2fd655008a8c3dbbf117adcf645589fe7b4ef491f04c572cc7e735bd",
+      "after_size_bytes": 3460,
+      "before_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/before/probe_runner.py",
+        "sha256": "091e6d9356f4ca25e223337f6ddc75db4c86de4c58a5ddcb5fac765eed9862da",
+        "size_bytes": 2282
+      },
+      "path": "review/stage07_pure_capability_passage/v01/probe_runner.py"
+    },
+    {
+      "after_sha256": "2df5f473df75578d4db20515d26638f6d07ae649a6c3e4868e1d5faf04e72516",
+      "after_size_bytes": 22086,
+      "before_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/before/offline_supervisor.py",
+        "sha256": "d8f04651bb44c26c1abbb258c06dcb702784d9c617f4dfc6f851edafdda17a4e",
+        "size_bytes": 20649
+      },
+      "path": "review/stage07_pure_capability_passage/v01/offline_supervisor.py"
+    },
+    {
+      "after_sha256": "77610ee1c4d611e71e4774e96069a026310826ce80196b6edc33d850ef411a12",
+      "after_size_bytes": 39475,
+      "before_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/before/owner_terminal.py",
+        "sha256": "34ec5c2c4b83e99c61e33d7bd41f62390e0389163a859441d82493918088cf45",
+        "size_bytes": 38302
+      },
+      "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py"
+    },
+    {
+      "after_sha256": "4d5cffff227b02e1639eef0eee16c61940e632711d3060ea74712453f52a5916",
+      "after_size_bytes": 14678,
+      "before_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/before/candidate/config/stage07_bootstrap.py",
+        "sha256": "c0439d6794ee3ba9e305a5ccc0ade6b1a55c48a99ebb37c9d42cdf8500228945",
+        "size_bytes": 13482
+      },
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py"
+    },
+    {
+      "after_sha256": "ef5deecf66480181cc2c70dcd70b9162c79d6e52e34ec7bd8425f20b4753ccf5",
+      "after_size_bytes": 11648,
+      "before_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/before/return_package/build_return.py",
+        "sha256": "e0bf7ed02e73994fea7e5d5020fb3c5674116df06175992af876e25c75ef8b1b",
+        "size_bytes": 10466
+      },
+      "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py"
+    }
+  ],
+  "source_manifest_regenerated": false,
+  "status": "SOURCE_ONLY_PENDING_EXTERNAL_REVIEW",
+  "successor_accounting_rule": "Only historical PROBE_01 and PROBE_02 retain the prior named reviewer check. Later closed accounting requires the current owner-designated reviewer binding. Initial preparation remains immutable."
+}

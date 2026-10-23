@@ -1,0 +1,184 @@
+{
+  "Stage07_closed": false,
+  "current_independent_conclusion_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/final_preparation_acceptance_01.json",
+    "sha256": "214e16d0be7ee309d430c603dc1f56587ee03f534f4f5fc74dcaab30b5f026f7",
+    "size_bytes": 4068
+  },
+  "fresh_focus_actual_Work_dispatches": 0,
+  "fresh_focus_native_workers": 0,
+  "full_fresh_semantic_PASS_claimed": false,
+  "historical_workers_rechecked_without_reexecution": 7,
+  "independent_acceptance_awarded_by_summary": false,
+  "model_provider_AUTH_E_generic_SAVE_calls_allowed": 0,
+  "owner_actual_executed": false,
+  "profile": "CONTROLLED_FINITE_PURE_U3_APPLICATION_INTEGRATION",
+  "requirements": [
+    {
+      "consumer": "Blocked missing work and downstream consumer become the actual request for finite capability",
+      "criterion": "Actual missing need in an ordinary application task",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "cold_source",
+        "cold_initial_work",
+        "cold_need",
+        "cold_empty_search"
+      ],
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-1",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Approved raw source intake and actual PURE baseline Work",
+      "validator": "Current source, task/revision/Root and native missing-need observation; requested capability absent from the admitted catalogue and no eligible cold need-based DRS candidate"
+    },
+    {
+      "consumer": "Admitted native guest capability installed in the declared Host only",
+      "criterion": "Cold controlled generation and full independent admission",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "common_freeze",
+        "cold_generation",
+        "cold_admission",
+        "cold_installation",
+        "worker_observations"
+      ],
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-2",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Existing CONTROLLED_DETERMINISTIC affine-u8 producer",
+      "validator": "Frozen common source and all256 mathematical oracle outputs; real Wasmtime48 worker; exact source/current revision/Root/Host installation"
+    },
+    {
+      "consumer": "New label Work in the same task consumes the actual guest output and changes the label",
+      "criterion": "Same-task continuation and causal consumption",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "cold_trigger",
+        "cold_revision",
+        "cold_guest",
+        "cold_consumer",
+        "baseline_not_replayed"
+      ],
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-3",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Actual admitted Wasm guest output",
+      "validator": "Native trigger/revise/advance and retained completed baseline; exact input/result field bindings"
+    },
+    {
+      "consumer": "Warm same-task guest and label consumer with zero generation calls",
+      "criterion": "Warm need-based discovery and independent readmission",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "warm_source",
+        "warm_search",
+        "warm_descent",
+        "warm_readmission",
+        "warm_guest",
+        "warm_consumer",
+        "warm_generation_zero"
+      ],
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-4",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Fresh task and Host with the same owning Root identity; current need search in LocalDRS",
+      "validator": "Temporal eligibility/ranking, fresh Root-reviewed descent and retrieval, full new256-input admission"
+    },
+    {
+      "consumer": "No prohibited guest/downstream execution; fresh valid neighbor completes",
+      "criterion": "Applicable refusals with correct positive neighbors",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "controls",
+        "positive_neighbors",
+        "no_forbidden_execution"
+      ],
+      "focused_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+        "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+        "size_bytes": 15014
+      },
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-5",
+      "ineligible_memory_control_scope": "Actual public temporal evaluation at logical2001 rejects ranking of unchanged memory. Retrieval/admission are not attempted in this negative lane; the unchanged frozen native controls and actual warm retrieval positive remain distinct evidence.",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Bounded declared mutations or unavailable resources",
+      "validator": "Wrong bytes/version/oracle, foreign admission, stale revision, ineligible memory and exhausted budget retain exact native refusals"
+    },
+    {
+      "consumer": "Explicit contract refusal or permitted continuation, with no hidden fallback",
+      "criterion": "Optional capability unavailable or disabled",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "optional_unavailable",
+        "optional_positive_neighbor"
+      ],
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-6",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Existing finite availability/admission policy under declared optional input",
+      "validator": "Current Root/Work permission and existing refusal semantics"
+    },
+    {
+      "consumer": "Receipt/readback, children closed, lock released, historical guards unchanged",
+      "criterion": "Separate accounting, evidence and complete closure",
+      "engineering_status": "SCOPED_EVIDENCE_ACCEPTED_FOR_OWNER_SOURCE_READINESS",
+      "expected_witnesses": [
+        "resources",
+        "partial_checkpoints",
+        "primary_failure",
+        "operation_close",
+        "ledger_guards"
+      ],
+      "focused_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/resume_20261023_02/independent_review/focused_actual_review_01.json",
+        "sha256": "5266793ec152e0d3fdec4b674dbf8b39b1c8870e8e2a7fe4175427283db5b6b8",
+        "size_bytes": 15014
+      },
+      "historical_actual_review_ref": {
+        "path": "review/stage07_pure_capability_passage/v01/actual_review/PROBE_02_independent_review.json",
+        "sha256": "19a863f3dd53d4f4951218c52c243c229d7f38cf1492d6f0ed1c55fe671dda45",
+        "size_bytes": 13491
+      },
+      "id": "S7-7",
+      "owner_actual_status": "NOT_EXECUTED",
+      "producer": "Observed native generation/admission/DRS/guest processes and evidence writers",
+      "validator": "Exact loaded bytes, measured fuel/wall/CPU/DRS bytes, zero model/provider, persistent first cause and bounded cleanup"
+    }
+  ],
+  "runtime_profile_expansion": false,
+  "schema": "radik.stage07.criteria_source_readiness_summary.v1",
+  "summary_author": "/root",
+  "temporal_scope": {
+    "UTC_age_or_cross_run_memory_claim": false,
+    "cold": 1014,
+    "independent_actual_UTC_guards": "Raw intake/source freshness and nonrenewed operation deadlines",
+    "kind": "CONTROLLED_NATIVE_U3_LOGICAL_DOMAIN",
+    "store": "Fresh invocation-owned LocalDRS; no prior-run record import",
+    "timestamp_rebasing_allowed": false,
+    "warm": 1015
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema": "radik.stage07.runner_source_proposal.v1",
+  "status": "SOURCE_ONLY_PENDING_INDEPENDENT_REVIEW",
+  "author": "/root/stage05_g4_contract",
+  "files": [
+    {
+      "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+      "sha256": "34ec5c2c4b83e99c61e33d7bd41f62390e0389163a859441d82493918088cf45",
+      "size_bytes": 38302
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/supervisor_timing.py",
+      "sha256": "e1fb5cb10f61cec1640329bdf9c706e256d873beb923149545758186c84c16e1",
+      "size_bytes": 6278
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/offline_supervisor.py",
+      "sha256": "d8f04651bb44c26c1abbb258c06dcb702784d9c617f4dfc6f851edafdda17a4e",
+      "size_bytes": 20649
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/probe_runner.py",
+      "sha256": "091e6d9356f4ca25e223337f6ddc75db4c86de4c58a5ddcb5fac765eed9862da",
+      "size_bytes": 2282
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/build_source_inventory.py",
+      "sha256": "a6c1925eb6834e8d43dee9170e48e38e4a3080b0c988e187936a1628c72491d9",
+      "size_bytes": 5835
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/launch.py",
+      "sha256": "395aae557c498284951e0a3b6899bd50d9be45d3c5c8074ca9ef9f2411a2f07b",
+      "size_bytes": 14789
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py",
+      "sha256": "c0439d6794ee3ba9e305a5ccc0ade6b1a55c48a99ebb37c9d42cdf8500228945",
+      "size_bytes": 13482
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/stage07_io.py",
+      "sha256": "90d4cd4e262b0f8f35a60e254dfdb6efebb60d68ee5d4ac63e90fff659b25880",
+      "size_bytes": 5648
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/config/worker_bootstrap/sitecustomize.py",
+      "sha256": "9b96eddb2045094918367b8231622d5c8d6e35081c4e45a6ecd4f90bb07fc499",
+      "size_bytes": 8715
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/__init__.py",
+      "sha256": "82c5060447b21d1a62b62d82e98655ffdc4963c700eca249a758a6b6c9b68e76",
+      "size_bytes": 85
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/app/ordinary_entry.py",
+      "sha256": "62d49ecf521d3508fc8aa6bf6a8fb1791d10b1578889f5e2f367a83a79fd13e1",
+      "size_bytes": 29566
+    },
+    {
+      "path": "review/stage07_pure_capability_passage/v01/candidate/review/transport/radik_owner_start.py",
+      "sha256": "e7fbf0d0caf529ec7b6a0dda452d9471c207198761e2f7dc1a7307322a435b6c",
+      "size_bytes": 148303
+    }
+  ],
+  "execution_performed": false,
+  "candidate_imports": 0,
+  "actual_owner": "NOT_RUN",
+  "source_basis": "Latest fixed Stage06 supervisor with durable first cause before cleanup and exact stop codes; beforeimages preserved.",
+  "scope": [
+    "One application process through existing ordinary launch chain",
+    "Distinct owner and engineering task selector and source scenario",
+    "Native worker argv/source unchanged, no executor or Popen monkeypatch",
+    "Finite startup observer pins before native and Wasmtime imports, records PID/request/loaded bytes",
+    "Seven exact native worker result summaries matched in invocation order to observed workers",
+    "One cleanup deadline; engineering outer completes only original remaining interval",
+    "Owner-only application process group; native actual wait proves normal worker reap; forced closure never fabricates wait evidence",
+    "Live Stage04/05/06 guards preserved, zero AUTH/provider/model/native E/generic SAVE"
+  ],
+  "known_platform": "Existing macOS Python3.14.5 and Wasmtime48.0.0; F_GETPATH follows installed public header.",
+  "source_ast_parse_wall_ns": 8895583,
+  "previous_proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/runner_source_proposal.json",
+    "sha256": "651c3c85f21768900203ee3b9da7135ff9689bd46b543f383ee3c1bd4e999156",
+    "size_bytes": 4060
+  },
+  "review_delta": {
+    "changed_files": [
+      {
+        "path": "review/stage07_pure_capability_passage/v01/owner_terminal.py",
+        "previous_sha256": "82e4c3d2a433f11f6d05469e7b13927b67fb24dc73fa2961694e6c1c99dde024",
+        "sha256": "34ec5c2c4b83e99c61e33d7bd41f62390e0389163a859441d82493918088cf45",
+        "size_bytes": 38302
+      },
+      {
+        "path": "review/stage07_pure_capability_passage/v01/candidate/config/worker_bootstrap/sitecustomize.py",
+        "previous_sha256": "688fcc39929a9f684fd04212990164dd9954a535c34d4f983a551a2db5dde915",
+        "sha256": "9b96eddb2045094918367b8231622d5c8d6e35081c4e45a6ecd4f90bb07fc499",
+        "size_bytes": 8715
+      }
+    ],
+    "changes": [
+      "Preserve nullable native error_class and render bare native reasons without inventing an exception class.",
+      "Bind worker launch bytes to the exact parent intent launch SHA256/size and reread.",
+      "Require observed Wasmtime origin for successful native output; retain a genuinely early native refusal without inventing a library observation.",
+      "Persist any later observer refusal separately and preserve an existing native REFUSED terminal and exit."
+    ],
+    "source_only": true
+  }
+}

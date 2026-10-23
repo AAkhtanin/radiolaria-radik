@@ -1,0 +1,48 @@
+{
+  "schema": "radik.stage07.packaging_source_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_SOURCE_ONLY_PENDING_EXACT_SELECTION_AND_ONE_USE_GRANTS",
+  "proposal_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/packaging_source_proposal.json",
+    "sha256": "c12e875fec5c9722b34da40866bc6bd33ab8123ad3144afea86d507ed74ead88",
+    "size_bytes": 2519
+  },
+  "writer_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/build_return.py",
+    "sha256": "e0bf7ed02e73994fea7e5d5020fb3c5674116df06175992af876e25c75ef8b1b",
+    "size_bytes": 10466
+  },
+  "preparation_utility_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/prepare_public_inventory.py",
+    "sha256": "3d3037e66027186db0cd161494b62e928c6ca795477db7fdd835fa9f39fd42b5",
+    "size_bytes": 6952
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "accepted_stage06_adapter_ref": {
+    "path": "review/stage06_external_drs_passage/v01/build_return.py",
+    "sha256": "832bbfaa7a192b7d47e3756fbfb50090bd8b1cc8f65ca3c916c6efd55996da05",
+    "size_bytes": 10023
+  },
+  "closed_shape_basis_ref": {
+    "path": "review/stage07_pure_capability_passage/v01/return_package/closed_probe_01_field_shapes.json",
+    "sha256": "3375675a927114fb42678abc4dc7c7a080dc1d291048d0b9704467da984b77a0",
+    "size_bytes": 5641
+  },
+  "findings": [
+    "Publisher exactc94aafcd bytes unchanged; reservation/archive/sidecar/delivery implementation inherited unchanged.",
+    "Stage07 namespace/routes and three public-field functions are the complete adapter changes. Unused Gate5 nonce allowance removed.",
+    "Native stderr exception admits only exact empty bytes projection in full PureWorkerResult shape; nonempty bytes are refused.",
+    "Root subject exception is limited to deterministic normalized claims, declared public shelf/DRS/task/Root identifiers and exact native fieldset. Each later file/pointer/value/parent binding still requires independent finite selection approval.",
+    "All seven closedPROBE_01 field bindings rehashed and compared with raw public actual; no application or publisher imported.",
+    "Preparation utility pins finite selection, adapter and publisher, extracts only five reviewed packaging functions and SECRET_KEYS literal, caps depth/count/bytes, reads regular nonsymlink owned sources, writes one fresh inventory and readbacks. It does not invoke publisher or application.",
+    "JSONL exceptions are not supported; such selected data must pass unchanged generic scan. Duplicate source routes require a separate reviewed inventory design, not implicit acceptance."
+  ],
+  "execution_granted": false,
+  "application_imports": 0,
+  "publisher_imports": 0,
+  "mechanical_elapsed_ns_before_write": 13790291
+}

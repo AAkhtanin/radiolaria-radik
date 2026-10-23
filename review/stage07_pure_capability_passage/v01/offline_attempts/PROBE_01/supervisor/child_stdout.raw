@@ -1,0 +1,21 @@
+STAGE07_CHILD_STARTED role=application session=1 pid=65131
+STAGE07_CHECKPOINT role=application session=1 label=loaded_before_native wall_s=1.050 cpu_s=0.694 remaining_s=268.950
+STAGE07_CHECKPOINT role=application session=1 label=stage07_before_native wall_s=1.084 cpu_s=0.728 remaining_s=268.916
+STAGE07_CHECKPOINT role=application session=1 label=native_enter wall_s=1.084 cpu_s=0.728 remaining_s=268.916
+STAGE07_CHECKPOINT role=application session=1 label=native_exit wall_s=1.286 cpu_s=0.929 remaining_s=268.714
+STAGE07_CHECKPOINT role=application session=1 label=cold_need_observed wall_s=1.293 cpu_s=0.935 remaining_s=268.707
+STAGE07_CHECKPOINT role=application session=1 label=cold_search wall_s=1.302 cpu_s=0.944 remaining_s=268.698
+STAGE07_CHECKPOINT role=application session=1 label=cold_root wall_s=1.313 cpu_s=0.955 remaining_s=268.687
+STAGE07_CHECKPOINT role=application session=1 label=cold_generated wall_s=1.322 cpu_s=0.965 remaining_s=268.678
+STAGE07_CHECKPOINT role=application session=1 label=native_enter wall_s=1.323 cpu_s=0.965 remaining_s=268.677
+STAGE07_CHECKPOINT role=application session=1 label=worker_launch_prepared wall_s=1.333 cpu_s=0.975 remaining_s=268.667
+STAGE07_CHECKPOINT role=application session=1 label=native_exit wall_s=2.394 cpu_s=1.007 remaining_s=267.606
+STAGE07_CHECKPOINT role=application session=1 label=cold_admission_return wall_s=2.396 cpu_s=1.009 remaining_s=267.604
+STAGE07_CHECKPOINT role=application session=1 label=cold_admitted wall_s=2.396 cpu_s=1.009 remaining_s=267.604
+STAGE07_CHECKPOINT role=application session=1 label=native_enter wall_s=2.397 cpu_s=1.010 remaining_s=267.603
+STAGE07_CHECKPOINT role=application session=1 label=worker_launch_prepared wall_s=2.711 cpu_s=1.323 remaining_s=267.289
+STAGE07_CHECKPOINT role=application session=1 label=native_exit wall_s=3.258 cpu_s=1.474 remaining_s=266.741
+STAGE07_CHECKPOINT role=application session=1 label=cold_consumed wall_s=3.273 cpu_s=1.488 remaining_s=266.727
+STAGE07_CHECKPOINT role=application session=1 label=loaded_final wall_s=3.324 cpu_s=1.539 remaining_s=266.676
+PRIMARY_FAILURE phase=STAGE07_APPLICATION code=drs_root_evidence_invalid error_class=ValueError source_location=/Users/admin/Projects/RadiolariaRadik/source/reference/hedgehog/drs_semantic_address_v01.py:build_drs_authority_envelope_v01:1370
+ENGINEERING_RETURN {"model_calls": 0, "owner_actual": false, "receipt_ref": {"path": "/Users/admin/Projects/RadiolariaRadik/review/stage07_pure_capability_passage/v01/offline_attempts/PROBE_01/work/receipt.json", "sha256": "b27d4ce3aa87d9c1b362f447bd1fc5c90df6ead16f68a4abc4ef01ab65e6a98f", "size_bytes": 23441}, "status": "STOPPED_NO_RETRY"}

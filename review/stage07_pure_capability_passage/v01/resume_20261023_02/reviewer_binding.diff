@@ -1,0 +1,217 @@
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/before/probe_runner.py
++++ review/stage07_pure_capability_passage/v01/probe_runner.py
+@@ -22,6 +22,29 @@
+     return raw
+ 
+ 
++def current_reviewer_matches(record, read_reference, binding_path):
++    """Bind current grants to the owner's exact reviewer designation.
++
++    This is a pinned local record boundary, not a cryptographic identity proof.
++    Historical reviews keep their original author and are checked separately.
++    """
++    reference = record.get('reviewer_binding_ref')
++    if type(reference) is not dict or reference.get('path') != str(binding_path):
++        return False
++    binding = json.loads(read_reference(reference))
++    reviewer = binding.get('reviewer')
++    return (binding.get('schema') == 'radik.stage07.reviewer_binding.v1'
++        and binding.get('status') == 'OWNER_DESIGNATED_CURRENT_REVIEWER'
++        and binding.get('scope') == 'STAGE07_V01'
++        and binding.get('source_authors') == ['/root', '/root/stage05_g4_contract']
++        and type(reviewer) is str and 1 <= len(reviewer) <= 160
++        and reviewer.isascii()
++        and all(char.isalnum() or char in '/_-.@:' for char in reviewer)
++        and reviewer not in binding['source_authors']
++        and reviewer != '/root/private_remote_controls'
++        and record.get('reviewer') == reviewer)
++
++
+ def main():
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--grant', required=True)
+@@ -30,7 +53,7 @@
+     raw = (PROJECT/args.grant).read_bytes()
+     if hashlib.sha256(raw).hexdigest() != args.sha256: raise ValueError('stage07_probe_grant_changed')
+     grant = json.loads(raw)
+-    if grant['reviewer'] != '/root/private_remote_controls' or grant['approved_executor'] != '/root':
++    if not current_reviewer_matches(grant, exact, BASE/'reviewer_binding.json') or grant['approved_executor'] != '/root':
+         raise ValueError('stage07_probe_independent_grant')
+     admission_ref = grant['probe_admission_ref']
+     admission = json.loads(exact(admission_ref))
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/before/offline_supervisor.py
++++ review/stage07_pure_capability_passage/v01/offline_supervisor.py
+@@ -91,6 +91,29 @@
+     return dict(path=path.relative_to(PROJECT).as_posix(), sha256=digest(raw), size_bytes=len(raw))
+ 
+ 
++def current_reviewer_matches(record, read_reference, binding_path):
++    """Bind current grants to the owner's exact reviewer designation.
++
++    This is a pinned local record boundary, not a cryptographic identity proof.
++    Historical reviews keep their original author and are checked separately.
++    """
++    reference = record.get('reviewer_binding_ref')
++    if type(reference) is not dict or reference.get('path') != str(binding_path):
++        return False
++    binding = json.loads(read_reference(reference))
++    reviewer = binding.get('reviewer')
++    return (binding.get('schema') == 'radik.stage07.reviewer_binding.v1'
++        and binding.get('status') == 'OWNER_DESIGNATED_CURRENT_REVIEWER'
++        and binding.get('scope') == 'STAGE07_V01'
++        and binding.get('source_authors') == ['/root', '/root/stage05_g4_contract']
++        and type(reviewer) is str and 1 <= len(reviewer) <= 160
++        and reviewer.isascii()
++        and all(char.isalnum() or char in '/_-.@:' for char in reviewer)
++        and reviewer not in binding['source_authors']
++        and reviewer != '/root/private_remote_controls'
++        and record.get('reviewer') == reviewer)
++
++
+ def main():
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--grant', required=True)
+@@ -114,7 +137,7 @@
+         status='PREPARATION_ENTERED_REQUIRES_CLOSED_ACCOUNTING'))
+     grant_raw = exact(dict(path=args.grant, sha256=args.sha256))
+     grant = json.loads(grant_raw)
+-    require(grant['reviewer'] == '/root/private_remote_controls'
++    require(current_reviewer_matches(grant, exact, PROJECT/BASE/'reviewer_binding.json')
+         and grant['approved_executor'] == '/root' and grant['approved_invocation_count'] == 1
+         and grant['network'] == 'DENIED'
+         and grant['production_writes_allowed'] is False
+@@ -152,7 +175,11 @@
+         identity = previous['actual_id']
+         require(identity not in prior_ids and identity != actual
+             and previous['schema'] == 'radik.stage07.offline_execution_accounting.v01'
+-            and previous['reviewer'] == '/root/private_remote_controls'
++            and ((identity in ('PROBE_01', 'PROBE_02')
++                    and previous['reviewer'] == '/root/private_remote_controls')
++                or (identity not in ('PROBE_01', 'PROBE_02')
++                    and current_reviewer_matches(previous, exact,
++                        PROJECT/BASE/'reviewer_binding.json')))
+             and previous['status'] == 'CLOSED_EXECUTION_ACCOUNTED'
+             and previous['total_budget_seconds'] == TOTAL_SECONDS
+             and previous['prior_execution_review_refs'] == prior_refs[:len(prior_ids)]
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/before/owner_terminal.py
++++ review/stage07_pure_capability_passage/v01/owner_terminal.py
+@@ -158,13 +158,36 @@
+         signal.signal(signal.SIGALRM, previous)
+ 
+ 
++def current_reviewer_matches(record, read_reference, binding_path):
++    """Bind current grants to the owner's exact reviewer designation.
++
++    This is a pinned local record boundary, not a cryptographic identity proof.
++    Historical reviews keep their original author and are checked separately.
++    """
++    reference = record.get('reviewer_binding_ref')
++    if type(reference) is not dict or reference.get('path') != str(binding_path):
++        return False
++    binding = json.loads(read_reference(reference))
++    reviewer = binding.get('reviewer')
++    return (binding.get('schema') == 'radik.stage07.reviewer_binding.v1'
++        and binding.get('status') == 'OWNER_DESIGNATED_CURRENT_REVIEWER'
++        and binding.get('scope') == 'STAGE07_V01'
++        and binding.get('source_authors') == ['/root', '/root/stage05_g4_contract']
++        and type(reviewer) is str and 1 <= len(reviewer) <= 160
++        and reviewer.isascii()
++        and all(char.isalnum() or char in '/_-.@:' for char in reviewer)
++        and reviewer not in binding['source_authors']
++        and reviewer != '/root/private_remote_controls'
++        and record.get('reviewer') == reviewer)
++
++
+ def load_admission(admission_ref, *, mode):
+     global _SOURCE_PINS, _FAILURE_CODES
+     admission = json.loads(read_ref(admission_ref, cap=8388608))
+     expected = ('OWNER_COMMAND_SOURCE_READY_NOT_EXECUTED' if mode == 'owner'
+         else 'SOURCE_ACCEPTED_FOR_BOUNDED_ENGINEERING_PROBE')
+     require(admission.get('schema') == 'radik.stage07.owner_admission.v1'
+-        and admission.get('reviewer') == '/root/private_remote_controls'
++        and current_reviewer_matches(admission, read_ref, BASE/'reviewer_binding.json')
+         and admission.get('status') == expected and admission.get('mode') == mode
+         and admission.get('task_selector') == ('pure_capability_owner_v01' if mode == 'owner'
+             else 'pure_capability_probe_v01')
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/before/candidate/config/stage07_bootstrap.py
++++ review/stage07_pure_capability_passage/v01/candidate/config/stage07_bootstrap.py
+@@ -29,6 +29,29 @@
+             function=trace.tb_frame.f_code.co_name,line=trace.tb_lineno))
+         trace=trace.tb_next
+     return dict(code=code,error_class=type(error).__name__,frames=rows[-24:])
++
++
++def current_reviewer_matches(record, read_reference, binding_path):
++    """Bind current grants to the owner's exact reviewer designation.
++
++    This is a pinned local record boundary, not a cryptographic identity proof.
++    Historical reviews keep their original author and are checked separately.
++    """
++    reference = record.get('reviewer_binding_ref')
++    if type(reference) is not dict or reference.get('path') != str(binding_path):
++        return False
++    binding = json.loads(read_reference(reference))
++    reviewer = binding.get('reviewer')
++    return (binding.get('schema') == 'radik.stage07.reviewer_binding.v1'
++        and binding.get('status') == 'OWNER_DESIGNATED_CURRENT_REVIEWER'
++        and binding.get('scope') == 'STAGE07_V01'
++        and binding.get('source_authors') == ['/root', '/root/stage05_g4_contract']
++        and type(reviewer) is str and 1 <= len(reviewer) <= 160
++        and reviewer.isascii()
++        and all(char.isalnum() or char in '/_-.@:' for char in reviewer)
++        and reviewer not in binding['source_authors']
++        and reviewer != '/root/private_remote_controls'
++        and record.get('reviewer') == reviewer)
+ 
+ 
+ def select_stage07(project,args):
+@@ -53,7 +76,7 @@
+     mode=launch['mode'];selector='pure_capability_owner_v01' if mode=='owner' else 'pure_capability_probe_v01'
+     require(mode in ('owner','engineering') and admission['mode']==mode
+         and admission['schema']=='radik.stage07.owner_admission.v1'
+-        and admission['reviewer']=='/root/private_remote_controls'
++        and current_reviewer_matches(admission, io.read_ref, environment/PREFIX/'reviewer_binding.json')
+         and admission['status']==('OWNER_COMMAND_SOURCE_READY_NOT_EXECUTED' if mode=='owner'
+             else 'SOURCE_ACCEPTED_FOR_BOUNDED_ENGINEERING_PROBE')
+         and admission['task_selector']==launch['task_selector']==selector
+--- review/stage07_pure_capability_passage/v01/resume_20261023_02/before/return_package/build_return.py
++++ review/stage07_pure_capability_passage/v01/return_package/build_return.py
+@@ -137,6 +137,29 @@
+     publisher._no_secrets(walk(value))
+ 
+ 
++def current_reviewer_matches(record, read_reference, binding_path):
++    """Bind current grants to the owner's exact reviewer designation.
++
++    This is a pinned local record boundary, not a cryptographic identity proof.
++    Historical reviews keep their original author and are checked separately.
++    """
++    reference = record.get('reviewer_binding_ref')
++    if type(reference) is not dict or reference.get('path') != str(binding_path):
++        return False
++    binding = json.loads(read_reference(reference))
++    reviewer = binding.get('reviewer')
++    return (binding.get('schema') == 'radik.stage07.reviewer_binding.v1'
++        and binding.get('status') == 'OWNER_DESIGNATED_CURRENT_REVIEWER'
++        and binding.get('scope') == 'STAGE07_V01'
++        and binding.get('source_authors') == ['/root', '/root/stage05_g4_contract']
++        and type(reviewer) is str and 1 <= len(reviewer) <= 160
++        and reviewer.isascii()
++        and all(char.isalnum() or char in '/_-.@:' for char in reviewer)
++        and reviewer not in binding['source_authors']
++        and reviewer != '/root/private_remote_controls'
++        and record.get('reviewer') == reviewer)
++
++
+ def main():
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--review-sha256', required=True)
+@@ -145,7 +168,7 @@
+     review_raw = review_path.read_bytes()
+     require(digest(review_raw) == args.review_sha256, 'return_packaging_review_changed')
+     review = json.loads(review_raw)
+-    require(review['reviewer'] == '/root/private_remote_controls'
++    require(current_reviewer_matches(review, exact, PROJECT/BASE/'reviewer_binding.json')
+         and review['status'] == 'ACCEPTED_FOR_ONE_LOCAL_SOURCE_ACTUAL_RETURN'
+         and review['approved_executor'] == '/root'
+         and review['approved_invocation_count'] == 1

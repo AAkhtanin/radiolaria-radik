@@ -1,0 +1,93 @@
+{
+  "schema": "radik.stage07.engineering_budget.v1",
+  "limit_seconds": 900,
+  "single_probe_max_seconds": 300,
+  "cleanup_max_seconds": 30,
+  "packaging_accounted_separately": true,
+  "execution_entries": [
+    {
+      "id": "PREPARE_BASELINE_01",
+      "kind": "stdlib_readonly_preparation_and_local_branch",
+      "elapsed_ns": 3542483709,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "PREPARE_MATRIX_ROADMAP_01",
+      "kind": "stdlib_document_preparation",
+      "elapsed_ns": 1335958,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "CONTRACT_REVIEW_PREPARATION_01",
+      "kind": "independent_stdlib_hash_AST_record_preparation",
+      "elapsed_ns": 30023291,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "RETURN_ADAPTER_PREPARATION_01",
+      "kind": "stdlib_packaging_source_preparation",
+      "elapsed_ns": 1986917,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "PREPARE_SCENARIOS_01",
+      "kind": "stdlib_finite_fixture_preparation",
+      "elapsed_ns": 566500,
+      "native_Work_calls": 0,
+      "model_calls": 0,
+      "owner_runs": 0
+    },
+    {
+      "id": "RUNNER_AST_PREPARATION_01",
+      "kind": "author_stdlib_AST_preparation",
+      "elapsed_ns": 30298333
+    },
+    {
+      "id": "INVENTORY_REVIEW_PREPARATION_01",
+      "kind": "independent_review_serialization",
+      "elapsed_ns": 1084000
+    },
+    {
+      "id": "INVENTORY_PREPARATION_01",
+      "kind": "isolated_stdlib_inventory_preparation",
+      "elapsed_ns": 2794246875
+    },
+    {
+      "id": "SOURCE_RETENTION_01",
+      "kind": "stdlib_hash_and_copy",
+      "elapsed_ns": 28510042
+    },
+    {
+      "id": "RUNNER_AST_PREPARATION_02",
+      "kind": "author_stdlib_AST",
+      "elapsed_ns": 8895583
+    },
+    {
+      "id": "WASMTIME_RECORD_REVIEW_01",
+      "kind": "independent_readonly_dependency_hashes",
+      "elapsed_ns": 30836958
+    },
+    {
+      "id": "INVENTORY_REVIEW_PREPARATION_02",
+      "kind": "independent_review_hash_and_record",
+      "elapsed_ns": 4575000
+    },
+    {
+      "id": "INVENTORY_PREPARATION_02",
+      "kind": "isolated_stdlib_inventory",
+      "elapsed_ns": 2864152667
+    }
+  ],
+  "used_ns": 9338995833,
+  "reserved_ns": 0,
+  "remaining_ns": 890661004167,
+  "no_folder_resets": true
+}
