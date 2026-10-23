@@ -1,0 +1,89 @@
+{
+  "Stage06_closed": false,
+  "all_closed_public_PROBE_01_and_PROBE_02_evidence_selected": true,
+  "all_tar_members_regular_safe_unique": true,
+  "application_native_model_or_owner_execution_performed": false,
+  "archive_ref": {
+    "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+    "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+    "size_bytes": 1815439
+  },
+  "autoadded_review_and_inventory_exact": true,
+  "checksum_refs": [
+    {
+      "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+      "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+      "size_bytes": 110
+    },
+    {
+      "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+      "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+      "size_bytes": 110
+    }
+  ],
+  "complete_selected_source_byte_equality": true,
+  "delivery_receipt_ref": {
+    "path": "state/local_operator/RADIK_RETURN_20261022T223923.010819Z.tar.gz.delivery.json",
+    "sha256": "e9a97e6c13825a30e1d35e2bd3da17390735300a06a8ea0740a73b44ccf52da3",
+    "size_bytes": 414
+  },
+  "delivery_receipt_scope": "The local artifact-copy service records OWNER_TERMINAL launch context; this is archive delivery evidence, not execution of the Stage06 owner scenario.",
+  "final_boundary": "One verified return delivered. Engineering acceptance remains scoped to the reviewed probe. Full owner actual and independent review are still required for Stage06 closure.",
+  "local_archive_ref": {
+    "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+    "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+    "size_bytes": 1815439
+  },
+  "manifest_sha256": "e40da454759fb41c189047d485be7f299fcb4fc821fd9354b38c928ef940dabc",
+  "manifest_size_bytes": 55567,
+  "manifest_writer_basis_and_prior_refs_exact": true,
+  "measurement_scope": "Monotonic duration from the start of this data-only final readback through all archive/source/receipt/guard assertions, before serializing this separate review. Covered by the already reserved 60-second finalization allowance; not an additional runtime probe.",
+  "observed_at_utc": "2026-10-22T22:42:41.156559+00:00",
+  "owner_admission_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_admission.json",
+    "sha256": "dc50144b24f9241b6ec1a2dad8bdce5a659243e15f54e0d5b6c3dc6af586781a",
+    "size_bytes": 4206
+  },
+  "owner_admission_reservation_absent": true,
+  "owner_command_exact_and_unexecuted": true,
+  "owner_command_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage06_external_drs_v01/OWNER_COMMAND.txt",
+    "sha256": "ec30bf22c9142486f8339df1fb4de19503a0e1071eb5104ddecd00e096de1a81",
+    "size_bytes": 249
+  },
+  "packaging_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/return_packaging_review.json",
+    "sha256": "7e919a72aac2648f6311f7d4ff9f2c17f47f81429d868d0b5090b2cc505a3989",
+    "size_bytes": 6508
+  },
+  "payload_bytes": 9594717,
+  "payload_files": 254,
+  "prior_archive_pair_unchanged": true,
+  "protected_live_files_unchanged": 10,
+  "public_field_inventory_ref": {
+    "path": "review/stage06_external_drs_passage/v01/public_field_inventory.json",
+    "sha256": "f4cff098d888703718c5ed4474f4be3f4c2d13b6aa0cfed8f43bc219ff8988d1",
+    "size_bytes": 33925
+  },
+  "readback_measured_ns": 76941125,
+  "rebuild_performed": false,
+  "reservation_ref": {
+    "path": "review/return_verifications/before_owner_fix_source_stage06_external_drs_v01_build.json",
+    "sha256": "c0aef377b0be25ded3aafc525499c566f4c116ba4ebffdb00675e2e46195de1e",
+    "size_bytes": 326
+  },
+  "reviewer": "/root/private_remote_controls",
+  "schema": "radik.stage06.independent_return_readback.v1",
+  "selection_ref": {
+    "path": "review/stage06_external_drs_passage/v01/return_selection.json",
+    "sha256": "6d3b305f7be90afa8accca182c8b1c2776386405e2c671bc7cd12994127ce139",
+    "size_bytes": 93262
+  },
+  "status": "PASS_DELIVERED_ARCHIVE_FULL_READBACK",
+  "tar_members_including_manifest": 255,
+  "tool_outcome_ref": {
+    "path": "review/stage06_external_drs_passage/v01/return_build_tool_outcome.json",
+    "sha256": "749e126b7dab6031e1de4e636cf1856a9975f27c6dcca47613bfa3de76e1e883",
+    "size_bytes": 2953
+  }
+}

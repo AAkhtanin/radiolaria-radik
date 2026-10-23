@@ -1,0 +1,117 @@
+{
+  "schema": "radik.stage06.owner_actual_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_STAGE06_LOCAL_TWO_PEER_INFORMATIONAL_PROFILE",
+  "Stage06_approved_profile_accepted": true,
+  "owner_run": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5",
+  "owner_receipt_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/receipt.json",
+    "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+    "size_bytes": 768780
+  },
+  "checked_facts_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "5d290d5e3f192b78d4b199760d56af3ae48d9ac04cf29164056036e222506fc5",
+    "size_bytes": 45959
+  },
+  "accounting_boundary_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1",
+    "size_bytes": 8653
+  },
+  "admission_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_admission_02.json",
+    "sha256": "3d6d8fac08eaba3b747f70351ffd87ad8b5b1e64c96354f788a80640415e9fb0",
+    "size_bytes": 4729
+  },
+  "source_readiness_ref": {
+    "path": "review/stage06_external_drs_passage/v01/owner_source_readiness_02.json",
+    "sha256": "a7fcf33037055e3d77c173dca2a6a23584f4c6fed8703efec3a1d619d4ba2f25",
+    "size_bytes": 7493
+  },
+  "source_manifest_ref": {
+    "path": "review/stage06_external_drs_passage/v01/source_manifest_PROBE_04.json",
+    "sha256": "94cfa415a9487379ba1ca644fca4baf3b3136adb6aabdd36bb0ee5e2e06a279a",
+    "size_bytes": 1087778
+  },
+  "prior_engineering_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_review/PROBE_02.json",
+    "sha256": "46d292a024af3d7f62726762532e0f7bb84f8a6ef9a0c2bef09c58643a4955f3",
+    "size_bytes": 40038
+  },
+  "supervisor_repair_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/repair_01/controls_result_review.json",
+    "sha256": "1d31ca7b5f4cbb6fa324279eb2b4ca4496d829a3e27f76dcfebc39205a6ef98f",
+    "size_bytes": 42166
+  },
+  "frozen_criteria_basis_ref": {
+    "path": "review/stage06_external_drs_passage/v01/criteria_matrix.json",
+    "sha256": "7e2c663df4d1d6eae4f97a461027144055be329c550692c400ffb27318ccd471",
+    "size_bytes": 6665
+  },
+  "criteria": [
+    {
+      "id": "S6-1",
+      "criterion": "Producer provenance and independent current consumer",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Two actual producer PURE Work results flow through producer source/publication/disclosure Roots, signed Gate5 evidence, independently bootstrapped recipient trust, current local Root and full consumer Work."
+    },
+    {
+      "id": "S6-2",
+      "criterion": "Current imported material changes actual Work",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Actual baseline lacks support price; revision 1 price 3 yields 20 + 2*3 = 26 and revision 2 price 4 yields 28 in distinct admitted native invocations."
+    },
+    {
+      "id": "S6-3",
+      "criterion": "Disclosure refusal prevents body read and consumption",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Signed request-bound REFUSED has no body/manifest and no consumption. The separate peer-private read attempt is refused before bytes/hash, under the admitted application fence."
+    },
+    {
+      "id": "S6-4",
+      "criterion": "New admitted revision is consumed; old history retained",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Revision 2 has fresh producer and consumer Work plus lineage and high-water 2. Both complete historical accepted-result records remain byte-equal across the recipient restart."
+    },
+    {
+      "id": "S6-5",
+      "criterion": "Current status, expiry and restart prevent rollback",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Actual signed REVOKED and persisted terminal/source high-waters survive a reaped recipient and fresh signer/process. Old ACTIVE/revision and labeled controlled future expiry are refused before new Work."
+    },
+    {
+      "id": "S6-6",
+      "criterion": "Signed bytes, issuer/anchor and scope are enforced",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Altered pointer/signature/body, wrong anchor/issuer/scope each retain exact refusal reason, blocked Root and unchanged Work count; public send/receive pairs and actual positive artifact bindings agree."
+    },
+    {
+      "id": "S6-7",
+      "criterion": "History, accounting and process closure are retained",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Historical resolver exposes two candidates requiring Root review and no direct reuse/permission/network. Three incarnations exit 0 and are reaped, lock released, zero model/AUTH/E/SAVE and ten historical guards exact."
+    }
+  ],
+  "uncovered_approved_criteria": [],
+  "master_direction": "DEFER-S6-EXTERNAL-DRS",
+  "permitted_scoped_status": "accepted_within_stage06_local_two_peer_informational_profile",
+  "master_21_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+    "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+    "size_bytes": 7844
+  },
+  "other_20_directions_and_Stage04_Stage05_acceptance_must_remain_unchanged": true,
+  "limits": [
+    "Acceptance is limited to the approved local two-peer informational profile and seven frozen Stage06 criteria.",
+    "Controlled future expiry is a labeled negative lane, not a naturally elapsed expiry observation.",
+    "The review checks retained accepted cryptographic/native evidence and source identities without rerunning cryptography or validators.",
+    "Application-level peer I/O isolation is not OS sandboxing against malicious same-UID code.",
+    "No arbitrary remote federation, global production DRS, Stage07/U3, general SAVE/effect permission or model capability is accepted.",
+    "No new owner command, retry, source mutation, activation, model or native execution is authorized by this review.",
+    "Owner timing is the saved supervisor measurement, not an independently captured full Terminal wall duration."
+  ],
+  "owner_actual_not_executed_by_reviewer": true,
+  "private_bytes_read": false,
+  "old_evidence_and_admissions_mutated": false
+}

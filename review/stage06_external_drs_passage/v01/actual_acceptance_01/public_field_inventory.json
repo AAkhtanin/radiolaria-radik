@@ -1,0 +1,2573 @@
+{
+  "schema": "radik.stage06.exact_public_fields.v1",
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "entries": [
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "8c23a1a77426d7e7b449d9398e507a1b42963dd35600928fcd6a47a090283a63",
+        "size_bytes": 21470
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "8c23a1a77426d7e7b449d9398e507a1b42963dd35600928fcd6a47a090283a63",
+        "size_bytes": 21470
+      },
+      "json_pointer": "/response/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "8c23a1a77426d7e7b449d9398e507a1b42963dd35600928fcd6a47a090283a63",
+        "size_bytes": 21470
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "e0151ae8dc241ab49671b98a74b7aea73f2246b1a356e5c9edeb20dc52f90021",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "5c14ff0cdbb12703ffc7a49dff34bbbb00785535fed247b35e61d5e39087a286",
+        "size_bytes": 22705
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "5c14ff0cdbb12703ffc7a49dff34bbbb00785535fed247b35e61d5e39087a286",
+        "size_bytes": 22705
+      },
+      "json_pointer": "/response/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "5c14ff0cdbb12703ffc7a49dff34bbbb00785535fed247b35e61d5e39087a286",
+        "size_bytes": 22705
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "64e69fd0fcecbaabe1dd7fd41fe0f7ea741bab24d7115c9c6ce328bb4b92632b",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "b9a9e4e42b34d044cef8aa23c362741edc5a0fbd452d71af5f9d160739fdd15f",
+        "size_bytes": 18921
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "b9a9e4e42b34d044cef8aa23c362741edc5a0fbd452d71af5f9d160739fdd15f",
+        "size_bytes": 18921
+      },
+      "json_pointer": "/response/release/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "c2ed4c31228188c71b72dcade62d9aa6e501c8acf14c5bfaa18c7277465c8d3a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "b9a9e4e42b34d044cef8aa23c362741edc5a0fbd452d71af5f9d160739fdd15f",
+        "size_bytes": 18921
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "73cc70c68f0caab28518ff97f1a49f3767c154cc1c4e3dd7aa967fe17484d8dc",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/native_work.json",
+        "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+        "size_bytes": 108451
+      },
+      "json_pointer": "/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "963de9f3219843a1562bcb1eb2f05a69269f73c4abb2a4ac1ffc2dca066d000a",
+      "containing_object_sha256": "7abbf31ac6ef6a8364e88a7189bee2ba023400873f3fc0054d3e00975da27988",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/native_work.json",
+        "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+        "size_bytes": 108451
+      },
+      "json_pointer": "/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "963de9f3219843a1562bcb1eb2f05a69269f73c4abb2a4ac1ffc2dca066d000a",
+      "containing_object_sha256": "9fc120dc5cc188f24209324c7c3f7735c28ec0053d23c0783bf05ccf0d031652",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/publication_review.json",
+        "sha256": "a6c6604abeb5c31e9c77964b2638826fe37acc1968815ef1d96bd40b13eae079",
+        "size_bytes": 15577
+      },
+      "json_pointer": "/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9e260bf32f0e0e5a38825270514f1af3d1c1c874b3bea1c4b3e81b71bfcd261a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/source_review.json",
+        "sha256": "cdd017c2f18653961af3b24c8ad2cf0ec61120b6bef4a3466b4d44ad7c87f311",
+        "size_bytes": 13860
+      },
+      "json_pointer": "/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "8ead8438f007a3b20c27555cd4be7d5cf5e901a7b9f54d2293cb042720c71e71",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/native_work.json",
+        "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+        "size_bytes": 108451
+      },
+      "json_pointer": "/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "04a71d6717460cc42b25ce63212884977df1abc541ab108a63ba1172234fea0b",
+      "containing_object_sha256": "d3caa9ab2bd9a8079c7f82f42bb7fdf6546505c7d39b4c8549f3134db1500ad9",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/native_work.json",
+        "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+        "size_bytes": 108451
+      },
+      "json_pointer": "/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "04a71d6717460cc42b25ce63212884977df1abc541ab108a63ba1172234fea0b",
+      "containing_object_sha256": "1ee70b21ef8adafa3ee27ca492d07504ec9bbfed6fd9bd2991ba153f0b4c9716",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/publication_review.json",
+        "sha256": "1bffb73d1f0e30fd534eaf74b1953b3e871fd1e94d7702ce06bed23a872e9212",
+        "size_bytes": 15657
+      },
+      "json_pointer": "/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "275c4664135ceefbcf267982e13c19e8778f36f4e1734baae770b1ed8c780804",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/source_review.json",
+        "sha256": "fedf1451f77206660cdfc776d51aae0ab41bb38225a0daede9d683ce66e9922e",
+        "size_bytes": 13860
+      },
+      "json_pointer": "/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "d78c2bc6145d445ad4a2a369a4cfbc0e62dd23f1423ea5b9d6e0c8307c1a2f99",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "b93205124d7c9e0e5bdf93e175d2fe725f61421fe5d31083b34b7bd4522137e7",
+      "containing_object_sha256": "3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "fa73aa72245f8d94d1effea62bf52593cf65e47535303ffcdf25c6877b0d9009",
+      "containing_object_sha256": "c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "9b7572cea3dca1e9077682e4ef23ff85b0e71e74a0fee4c99189314b3670d49e",
+      "containing_object_sha256": "214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "c2ed4c31228188c71b72dcade62d9aa6e501c8acf14c5bfaa18c7277465c8d3a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "e238287b7359c37e7e9e624278c5bc634d8c6f09db2103d9c5891925400477c4",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_2/wire_received_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "05d10b98b6b64515d25ec2aca97868f32caecaa1c995096fb9ec6877a16757b1",
+      "containing_object_sha256": "d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "72a4aebe3b01621a84694406c2c8a95e87fa724e5f62d46639e49042343444ac",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "315ac32af7132843b7e7845518946f0286502eb172ac4ace4bae659c6647f4f1",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/2/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f40ac755a4c7a559249b8721d8ab92673b854159e48f254f3381c92d27ad6689",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/3/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "3afa10cf0f2a94d37bc661df79889aba83c57681e8c54c5637b0d96f677577ad",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/4/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2da6246353a1adb9defdb94fba11e60c3aa764c4844782d768caf21030a85278",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/5/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2819a0919a1c6c467062c1829369fb61c01fb5b8d7c0c4b525614105238e7403",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/6/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9fb324b7c5325b313d6c8bb9d5971dbe21e15f15b4526b9495b417674b1f6357",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/controls/7/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "442c8c2d7b7f44bd6d8a0f96de7db200bf143a9265d504e2a957a4246a4c39f9",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/1/final_entry/value/report/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5abf12688f3ad99d91a2f8d2552a709fbe3fb157bc04904d77e7af34ef95269e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "da20b652f8342b43d9c683839f71c5fe4c80cbc17d12a13d40548daceacee49e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "c6a3f68074fd55429b308dc244b4465903cc7b888d1bd9d8d00d04e8796e515c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "json_pointer": "/children/2/final_entry/value/report/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "48db24eaf481d44d002f4636e01eaa79af8566a8ce809a3edfe2cbb3b502bf24",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/baseline/native_work.json",
+        "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+        "size_bytes": 107271
+      },
+      "json_pointer": "/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e2d995ad8564794f5a37ae8b7ae77a547afe34c9df5fcf94e390fe98a3c920a4",
+      "containing_object_sha256": "d3b48bc246c85f9633eb42c1e31186113285c700d9e16855636d348ce1ebd1e8",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/baseline/native_work.json",
+        "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+        "size_bytes": 107271
+      },
+      "json_pointer": "/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e2d995ad8564794f5a37ae8b7ae77a547afe34c9df5fcf94e390fe98a3c920a4",
+      "containing_object_sha256": "4338760d70f88573e90abe75ae5dfe17fa4851ba9f8092470297476ed7c8ea01",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_body_bytes.json",
+        "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+        "size_bytes": 13757
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2819a0919a1c6c467062c1829369fb61c01fb5b8d7c0c4b525614105238e7403",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signature.json",
+        "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+        "size_bytes": 13758
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "315ac32af7132843b7e7845518946f0286502eb172ac4ace4bae659c6647f4f1",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signed_pointer.json",
+        "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+        "size_bytes": 13793
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "72a4aebe3b01621a84694406c2c8a95e87fa724e5f62d46639e49042343444ac",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/expired_source.json",
+        "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+        "size_bytes": 13771
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9fb324b7c5325b313d6c8bb9d5971dbe21e15f15b4526b9495b417674b1f6357",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_active.json",
+        "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+        "size_bytes": 13759
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "c6a3f68074fd55429b308dc244b4465903cc7b888d1bd9d8d00d04e8796e515c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_revision.json",
+        "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+        "size_bytes": 13803
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "da20b652f8342b43d9c683839f71c5fe4c80cbc17d12a13d40548daceacee49e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/revoked_current_use.json",
+        "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+        "size_bytes": 13768
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "442c8c2d7b7f44bd6d8a0f96de7db200bf143a9265d504e2a957a4246a4c39f9",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_anchor.json",
+        "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+        "size_bytes": 13733
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f40ac755a4c7a559249b8721d8ab92673b854159e48f254f3381c92d27ad6689",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_issuer.json",
+        "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+        "size_bytes": 13735
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "3afa10cf0f2a94d37bc661df79889aba83c57681e8c54c5637b0d96f677577ad",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_scope.json",
+        "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+        "size_bytes": 13718
+      },
+      "json_pointer": "/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2da6246353a1adb9defdb94fba11e60c3aa764c4844782d768caf21030a85278",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/disclosure_refusal.json",
+        "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+        "size_bytes": 2788
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/disclosure_refusal.json",
+        "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+        "size_bytes": 2788
+      },
+      "json_pointer": "/response/value/release/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "c2ed4c31228188c71b72dcade62d9aa6e501c8acf14c5bfaa18c7277465c8d3a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "72a4aebe3b01621a84694406c2c8a95e87fa724e5f62d46639e49042343444ac",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "315ac32af7132843b7e7845518946f0286502eb172ac4ace4bae659c6647f4f1",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/2/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f40ac755a4c7a559249b8721d8ab92673b854159e48f254f3381c92d27ad6689",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/3/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "3afa10cf0f2a94d37bc661df79889aba83c57681e8c54c5637b0d96f677577ad",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/4/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2da6246353a1adb9defdb94fba11e60c3aa764c4844782d768caf21030a85278",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/5/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2819a0919a1c6c467062c1829369fb61c01fb5b8d7c0c4b525614105238e7403",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/6/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9fb324b7c5325b313d6c8bb9d5971dbe21e15f15b4526b9495b417674b1f6357",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/controls/7/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "442c8c2d7b7f44bd6d8a0f96de7db200bf143a9265d504e2a957a4246a4c39f9",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "json_pointer": "/report/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5abf12688f3ad99d91a2f8d2552a709fbe3fb157bc04904d77e7af34ef95269e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "da20b652f8342b43d9c683839f71c5fe4c80cbc17d12a13d40548daceacee49e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "c6a3f68074fd55429b308dc244b4465903cc7b888d1bd9d8d00d04e8796e515c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "json_pointer": "/report/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "48db24eaf481d44d002f4636e01eaa79af8566a8ce809a3edfe2cbb3b502bf24",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "json_pointer": "/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "json_pointer": "/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/import_state.json",
+        "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+        "size_bytes": 4450
+      },
+      "json_pointer": "/quarantine/0/envelope/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/import_state.json",
+        "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+        "size_bytes": 4450
+      },
+      "json_pointer": "/quarantine/0/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/pointer_1.json",
+        "sha256": "21742fc5da3300eb46708c60717bf2d40e503d922fd668540d4feb88304d258c",
+        "size_bytes": 23879
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "33e068225f5e429a41d884f251630444e29e132ec365a8f8bd0de425c8f146a3",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/pointer_2.json",
+        "sha256": "b73d6936321909bec2ac85b71af49ff37a8f062b6d43f9e827cb33861dca8958",
+        "size_bytes": 24039
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "27b27019edb1c642215504be5b9627eba36c51cca251d0508e91e05285753f0c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab.json",
+        "sha256": "22e90864a87ae04f065e1c7f0862782f2f266127aac110f764b751ea3184f694",
+        "size_bytes": 14944
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "9b7572cea3dca1e9077682e4ef23ff85b0e71e74a0fee4c99189314b3670d49e",
+      "containing_object_sha256": "214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab.json",
+        "sha256": "22e90864a87ae04f065e1c7f0862782f2f266127aac110f764b751ea3184f694",
+        "size_bytes": 14944
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1a667494f3d04dea1041fd2f8e72fd73bddaacf3593a711749e4813fa09370b",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a.json",
+        "sha256": "76124ad3957bbee3a92e2f09cf57187a53d363fba3a61adc4deb04731286006f",
+        "size_bytes": 14954
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "b93205124d7c9e0e5bdf93e175d2fe725f61421fe5d31083b34b7bd4522137e7",
+      "containing_object_sha256": "3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a.json",
+        "sha256": "76124ad3957bbee3a92e2f09cf57187a53d363fba3a61adc4deb04731286006f",
+        "size_bytes": 14954
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "3feab7466a11f881497580c93a08406ae34f3ffdd7552431df8f878545ac788d",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960.json",
+        "sha256": "a027fd2a185136def77c963a2cba2adea9ebaa7d8f8cd72cb44331b3f8469c8c",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960.json",
+        "sha256": "a027fd2a185136def77c963a2cba2adea9ebaa7d8f8cd72cb44331b3f8469c8c",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f48b8b2e731d0684c2de4a9680c5b8778ae28af025ac5e1c3a2b1dab632d77b6",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902.json",
+        "sha256": "016dc216da3c2bf01d09ff453af36be9dc67a6bde4097505b28e296b25a8834c",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902.json",
+        "sha256": "016dc216da3c2bf01d09ff453af36be9dc67a6bde4097505b28e296b25a8834c",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "6eea76781fb91408fe4bf47ad9ec19045e733552fbf13c48e9181129c4370053",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "d3f43f70121e4813857575495e2dca573ba82f5d32ad91efe02b7309be620259",
+        "size_bytes": 15092
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "d3f43f70121e4813857575495e2dca573ba82f5d32ad91efe02b7309be620259",
+        "size_bytes": 15092
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9afc1df802fb27b9c5d60188cd1f4ee571aae7dda88f4e5d1627bc096e64476e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00.json",
+        "sha256": "548ae45ad877f06dbcabddcdd899c8f762e55eae67855b766da6b9e18d40436b",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00.json",
+        "sha256": "548ae45ad877f06dbcabddcdd899c8f762e55eae67855b766da6b9e18d40436b",
+        "size_bytes": 15238
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "346bebb977bd77bad19fedd2adcb70bbc9b074285b5f1b57117239e1d6512b63",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "577c34490381f901de9935b953cf010bc58b8b8a19fba16b1bc3e7197e389201",
+        "size_bytes": 15092
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "577c34490381f901de9935b953cf010bc58b8b8a19fba16b1bc3e7197e389201",
+        "size_bytes": 15092
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "6c512548bff160961b9e184acaaad15793f4772c6a6d727142fbe3a69f15ecce",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd.json",
+        "sha256": "45965a0ebb2bb778ba3b64d2ff03944f7ef376b326ca2b94a4beb4530370ad44",
+        "size_bytes": 14954
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "fa73aa72245f8d94d1effea62bf52593cf65e47535303ffcdf25c6877b0d9009",
+      "containing_object_sha256": "c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd.json",
+        "sha256": "45965a0ebb2bb778ba3b64d2ff03944f7ef376b326ca2b94a4beb4530370ad44",
+        "size_bytes": 14954
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "29dc829ec0cb7c8e4d38d58ef426992841b4d55786836db52bd0f0afd63c6725",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad.json",
+        "sha256": "955a9ab9f1a4cd6a46eb90a2c8a12a74bbb0a0a9d0d2b8b8806a896d1f1bd884",
+        "size_bytes": 14944
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "05d10b98b6b64515d25ec2aca97868f32caecaa1c995096fb9ec6877a16757b1",
+      "containing_object_sha256": "d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad.json",
+        "sha256": "955a9ab9f1a4cd6a46eb90a2c8a12a74bbb0a0a9d0d2b8b8806a896d1f1bd884",
+        "size_bytes": 14944
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "886b7a48aba0c87b820bac808fd221621833304211d3ae59849b8cb7bbeb7f31",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "908d9e2cfbae55d2f61c01fdee800d94e689394814d17b4464d743ea4a62e10d",
+        "size_bytes": 15070
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "908d9e2cfbae55d2f61c01fdee800d94e689394814d17b4464d743ea4a62e10d",
+        "size_bytes": 15070
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "1923332dc843d88001ed88ee037d818071b5ffc9f910f6c08da2520d9fa98811",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "json_pointer": "/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      },
+      "json_pointer": "/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      },
+      "json_pointer": "/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/native_work.json",
+        "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+        "size_bytes": 111778
+      },
+      "json_pointer": "/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/native_work.json",
+        "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+        "size_bytes": 111778
+      },
+      "json_pointer": "/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "json_pointer": "/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      },
+      "json_pointer": "/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      },
+      "json_pointer": "/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      },
+      "json_pointer": "/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/native_work.json",
+        "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+        "size_bytes": 111778
+      },
+      "json_pointer": "/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/native_work.json",
+        "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+        "size_bytes": 111778
+      },
+      "json_pointer": "/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "c2ed4c31228188c71b72dcade62d9aa6e501c8acf14c5bfaa18c7277465c8d3a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      },
+      "json_pointer": "/value/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "e238287b7359c37e7e9e624278c5bc634d8c6f09db2103d9c5891925400477c4",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "b93205124d7c9e0e5bdf93e175d2fe725f61421fe5d31083b34b7bd4522137e7",
+      "containing_object_sha256": "3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "e6adb1bbb0547f53e8aa06c623aaa909a63a6b465ee00eb2872045e1f7fddd31",
+      "containing_object_sha256": "d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "fa73aa72245f8d94d1effea62bf52593cf65e47535303ffcdf25c6877b0d9009",
+      "containing_object_sha256": "c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "9b7572cea3dca1e9077682e4ef23ff85b0e71e74a0fee4c99189314b3670d49e",
+      "containing_object_sha256": "214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "72a4aebe3b01621a84694406c2c8a95e87fa724e5f62d46639e49042343444ac",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "315ac32af7132843b7e7845518946f0286502eb172ac4ace4bae659c6647f4f1",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/2/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f40ac755a4c7a559249b8721d8ab92673b854159e48f254f3381c92d27ad6689",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/3/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "3afa10cf0f2a94d37bc661df79889aba83c57681e8c54c5637b0d96f677577ad",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/4/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2da6246353a1adb9defdb94fba11e60c3aa764c4844782d768caf21030a85278",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/5/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "2819a0919a1c6c467062c1829369fb61c01fb5b8d7c0c4b525614105238e7403",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/6/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "9fb324b7c5325b313d6c8bb9d5971dbe21e15f15b4526b9495b417674b1f6357",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/controls/7/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "442c8c2d7b7f44bd6d8a0f96de7db200bf143a9265d504e2a957a4246a4c39f9",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "json_pointer": "/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5abf12688f3ad99d91a2f8d2552a709fbe3fb157bc04904d77e7af34ef95269e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2/wire_sent_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      },
+      "json_pointer": "/value/value/nonce",
+      "value_sha256": "05d10b98b6b64515d25ec2aca97868f32caecaa1c995096fb9ec6877a16757b1",
+      "containing_object_sha256": "d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/controls/0/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "da20b652f8342b43d9c683839f71c5fe4c80cbc17d12a13d40548daceacee49e",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/controls/1/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "c6a3f68074fd55429b308dc244b4465903cc7b888d1bd9d8d00d04e8796e515c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5de1928b852bb34744b9c58fe3ccf6d7a4b32c657703cd3d34a2db4bd9e65899",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/request/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "5edd578fbabf18c96a4c1fcf4302e420584ba9a452cdfa4a1053b935bc1de03a",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/import_record/status/value/nonce",
+      "value_sha256": "795a9bffed9e3d7a0fda5175de564d8af1d5a048362137645a04f18f69145baa",
+      "containing_object_sha256": "5edd3690390638ed56e2aeeb97e18a21e9737c9b8df698984bc130ab19a5cde1",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "c121f5bc995e059c2b747597b9b36a5260c5534e04ad94b4f83ed55f720f4d76",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/0/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "e97072db6450c3fa8ebe9f6d23ce01acf24bd1838fd5f72a129e2db8e20d4fa8",
+      "containing_object_sha256": "8f944ed054d26279043e7012a9dd679fa499f9b4e37995b93fc5d7b27991de66",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/bundle/release/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "461606e0c33164b01b4951b254899e07fa7fa86303ab981c2afc9d0db52ba62a",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/request/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "f1959790210f517b8e41ccb15b61d54d3c659b430f845939e1d64e8c51479020",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/import_record/status/value/nonce",
+      "value_sha256": "846dcdfc302a71e4c335a360653c12a53c8db38530d59f9dd139282d95918d4c",
+      "containing_object_sha256": "27ff719f01d4a540bd96131964a084387bad05c1e668621cfdeea023cd5baabb",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/work/final_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "777cc74c67be43788010d5a5c7322fdc7df82fd216845b342997e20c4d61497c",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/records/1/content/result/work/initial_review/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "3b22b170b45c4ecd9788eb55c275d98135af110cbac60a488ed7eea2a19504df",
+      "containing_object_sha256": "0035a86309690aa52a0778d28f9dffe6e42477fee4f7b1e6de4b6c33c7ef3d92",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "json_pointer": "/history/root/inputs/root_review_packet/synthesis_proposal/normalized_claims/0/subject",
+      "value_sha256": "f0467f0e0a5e2a9c0fd20d564baef4ceca91827a850592a59abae987d17722d1",
+      "containing_object_sha256": "48db24eaf481d44d002f4636e01eaa79af8566a8ce809a3edfe2cbb3b502bf24",
+      "kind": "STAGE06_CURRENT_ROOT_CLAIM"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/terminal_observation.json",
+        "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+        "size_bytes": 4422
+      },
+      "json_pointer": "/request/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "8f873a4373abebe3af31472cebeec43da571b81a242149058fe9fbcd319a695b",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    },
+    {
+      "file_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/terminal_observation.json",
+        "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+        "size_bytes": 4422
+      },
+      "json_pointer": "/status/value/nonce",
+      "value_sha256": "cbde5da58730c62340a9613a7db408354966d1d192b58cdb724e7c75f5181004",
+      "containing_object_sha256": "e238287b7359c37e7e9e624278c5bc634d8c6f09db2103d9c5891925400477c4",
+      "kind": "GATE5_PUBLIC_REQUEST_NONCE"
+    }
+  ]
+}

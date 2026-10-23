@@ -1,0 +1,217 @@
+{
+  "Stage04_acceptance_preserved": true,
+  "basis_original_ref": {
+    "path": "review/g2e_successor_passage/publication_drafts/stage04_examination_v01/claims_evidence.json",
+    "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+    "size_bytes": 429010
+  },
+  "basis_preserved_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/documentation_basis/claims_evidence_before.json",
+    "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+    "size_bytes": 429010
+  },
+  "changed_direction_count": 4,
+  "closure_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+    "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+    "size_bytes": 4045
+  },
+  "directions": [
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-18",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-19",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-12",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-13",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FEEDBACK",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-01",
+        "S5-02"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05"
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-TEMPORAL-CONFLICT",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-03",
+        "S5-04",
+        "S5-05"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05"
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-LESSON-CONSUMER",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-06"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05"
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FINITE-STRATEGY",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-07",
+        "S5-08"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S6-EXTERNAL-DRS",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-06"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S7-PURE-CAPABILITY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-07"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-CURRENT-EFFECT-LIFECYCLE",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-INTEGRATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-COGNITIVE-NEEDLES",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULL-G4-MATH",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULLAVF-STRONGGT",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-GLOBAL-FEDERATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNIVERSAL-AUTHORING",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-PRODUCTION-RECOVERY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-SELF-MODIFICATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNBOUNDED-RECURSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-DOMAIN-EXPANSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND"
+    }
+  ],
+  "future_stages_and_other_deferred_work_started": false,
+  "historical_dossier_rewritten": false,
+  "interpretation": "This dated evidence addendum supersedes only the four Stage05 pending dispositions for the accepted bounded profile. All historical source and actual verdicts retain their original bytes and meaning.",
+  "original_direction_count": 21,
+  "original_ids_preserved": true,
+  "publication": "LOCAL_ONLY",
+  "schema": "radik.stage05.claims_evidence_addendum.v10",
+  "status": "FOUR_SCOPED_STAGE05_OBLIGATIONS_ACCEPTED",
+  "unrelated_direction_statuses_unchanged": 17
+}

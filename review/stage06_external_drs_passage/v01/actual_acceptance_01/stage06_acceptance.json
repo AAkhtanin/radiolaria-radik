@@ -1,0 +1,54 @@
+{
+  "schema": "radik.stage06.scoped_acceptance.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_STAGE06_LOCAL_TWO_PEER_INFORMATIONAL_PROFILE",
+  "Stage06_closed_within_approved_profile": true,
+  "master_direction": "DEFER-S6-EXTERNAL-DRS",
+  "criteria_covered": 7,
+  "criteria_required": 7,
+  "uncovered_approved_criteria": [],
+  "actual_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+    "size_bytes": 6578
+  },
+  "facts_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "5d290d5e3f192b78d4b199760d56af3ae48d9ac04cf29164056036e222506fc5",
+    "size_bytes": 45959
+  },
+  "accounting_and_guards_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1",
+    "size_bytes": 8653
+  },
+  "criteria_basis_ref": {
+    "path": "review/stage06_external_drs_passage/v01/criteria_matrix.json",
+    "sha256": "7e2c663df4d1d6eae4f97a461027144055be329c550692c400ffb27318ccd471",
+    "size_bytes": 6665
+  },
+  "master_21_basis_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+    "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+    "size_bytes": 7844
+  },
+  "other_20_effective_statuses_and_Stage04_Stage05_preserved": true,
+  "baseline_then_current_totals": [
+    null,
+    26,
+    28
+  ],
+  "native_Work_items": 5,
+  "model_AUTH_provider_E_generic_SAVE_calls": 0,
+  "consumed_owner_admission_reuse_allowed": false,
+  "new_execution_or_next_stage_authorized": false,
+  "boundaries": [
+    "Acceptance is limited to the approved local two-peer informational profile and seven frozen Stage06 criteria.",
+    "Controlled future expiry is a labeled negative lane, not a naturally elapsed expiry observation.",
+    "The review checks retained accepted cryptographic/native evidence and source identities without rerunning cryptography or validators.",
+    "Application-level peer I/O isolation is not OS sandboxing against malicious same-UID code.",
+    "No arbitrary remote federation, global production DRS, Stage07/U3, general SAVE/effect permission or model capability is accepted.",
+    "No new owner command, retry, source mutation, activation, model or native execution is authorized by this review.",
+    "Owner timing is the saved supervisor measurement, not an independently captured full Terminal wall duration."
+  ]
+}

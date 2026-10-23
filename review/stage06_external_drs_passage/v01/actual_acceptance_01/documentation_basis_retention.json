@@ -1,0 +1,19 @@
+{
+  "schema": "radik.stage06.documentation_basis_retention.v1",
+  "files": [
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "retained_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage05_claims_addendum_before.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    },
+    {
+      "original_path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/documentation_basis/claims_evidence_before.json",
+      "retained_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage04_claims_evidence_before.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    }
+  ],
+  "method": "Exact copies; no historical edits.",
+  "elapsed_ns": 1435084
+}

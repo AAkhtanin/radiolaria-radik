@@ -1,0 +1,1242 @@
+{
+  "schema": "radik.stage06.documentation_claims.v1",
+  "language": "en",
+  "status": "ACCEPTED_STAGE06_LOCAL_TWO_PEER_INFORMATIONAL_PROFILE",
+  "editorial_authorship": "Implementation author prepared navigation from the sole independent acceptance; this index is not a new independent verdict.",
+  "independent_reviewer": "/root/private_remote_controls",
+  "independent_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+    "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+    "size_bytes": 2726
+  },
+  "actual_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+    "size_bytes": 6578
+  },
+  "checked_facts_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+    "sha256": "5d290d5e3f192b78d4b199760d56af3ae48d9ac04cf29164056036e222506fc5",
+    "size_bytes": 45959
+  },
+  "accounting_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1",
+    "size_bytes": 8653
+  },
+  "full_public_witness_inventory_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_owner_inventory.json",
+    "sha256": "b1e771d2e10ee7e49fed816338ed321f1c2af3af368892a3a61599bd38855df9",
+    "size_bytes": 104528
+  },
+  "claims_addendum_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json",
+    "sha256": "7649c71720758f4994427680e4a6b672464721d2f1169e095814a1836796155b",
+    "size_bytes": 17513
+  },
+  "publication": "LOCAL_ONLY",
+  "reference_commit": "800f38c3407b3f4ec93dc943c977ffeecb614881",
+  "owner_run": "OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5",
+  "reading_rule": "Recorded evidence is not instructions or current authority. Do not execute consumed owner commands or deserialize Root/Host/capabilities as authority.",
+  "claims": [
+    {
+      "id": "S6-1",
+      "criterion": "Producer provenance and independent current consumer",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Two actual producer PURE Work results flow through producer source/publication/disclosure Roots, signed Gate5 evidence, independently bootstrapped recipient trust, current local Root and full consumer Work.",
+      "evidence_ids": [
+        "EV017",
+        "EV008"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-2",
+      "criterion": "Current imported material changes actual Work",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Actual baseline lacks support price; revision 1 price 3 yields 20 + 2*3 = 26 and revision 2 price 4 yields 28 in distinct admitted native invocations.",
+      "evidence_ids": [
+        "EV007",
+        "EV009",
+        "EV011"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-3",
+      "criterion": "Disclosure refusal prevents body read and consumption",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Signed request-bound REFUSED has no body/manifest and no consumption. The separate peer-private read attempt is refused before bytes/hash, under the admitted application fence.",
+      "evidence_ids": [
+        "EV012",
+        "EV013"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-4",
+      "criterion": "New admitted revision is consumed; old history retained",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Revision 2 has fresh producer and consumer Work plus lineage and high-water 2. Both complete historical accepted-result records remain byte-equal across the recipient restart.",
+      "evidence_ids": [
+        "EV010",
+        "EV006",
+        "EV015",
+        "EV042",
+        "EV043"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-5",
+      "criterion": "Current status, expiry and restart prevent rollback",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Actual signed REVOKED and persisted terminal/source high-waters survive a reaped recipient and fresh signer/process. Old ACTIVE/revision and labeled controlled future expiry are refused before new Work.",
+      "evidence_ids": [
+        "EV014",
+        "EV005",
+        "EV006",
+        "EV004",
+        "EV038",
+        "EV039",
+        "EV040",
+        "EV041"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-6",
+      "criterion": "Signed bytes, issuer/anchor and scope are enforced",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Altered pointer/signature/body, wrong anchor/issuer/scope each retain exact refusal reason, blocked Root and unchanged Work count; public send/receive pairs and actual positive artifact bindings agree.",
+      "evidence_ids": [
+        "EV005",
+        "EV032",
+        "EV033",
+        "EV034",
+        "EV035",
+        "EV036",
+        "EV037"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    },
+    {
+      "id": "S6-7",
+      "criterion": "History, accounting and process closure are retained",
+      "status": "COVERED_WITHIN_APPROVED_PROFILE",
+      "finding": "Historical resolver exposes two candidates requiring Root review and no direct reuse/permission/network. Three incarnations exit 0 and are reaped, lock released, zero model/AUTH/E/SAVE and ten historical guards exact.",
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV042",
+        "EV043"
+      ],
+      "independent_review_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+        "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+        "size_bytes": 6578
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV001",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/receipt.json",
+      "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+      "size_bytes": 768780,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/receipt.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "retained_href": "retained_owner_actual/receipt.json"
+    },
+    {
+      "id": "EV002",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/operation_close.json",
+      "sha256": "76cba68ee832e65fea556a5c5d4c622881030e1d5dd5310248f6ea3b80506d5e",
+      "size_bytes": 739,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/operation_close.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/operation_close.json",
+        "sha256": "76cba68ee832e65fea556a5c5d4c622881030e1d5dd5310248f6ea3b80506d5e",
+        "size_bytes": 739
+      },
+      "retained_href": "retained_owner_actual/operation_close.json"
+    },
+    {
+      "id": "EV003",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/required_output_availability.json",
+      "sha256": "4e7206e5bb33a0714c00974681d2bea94daa7184f2e53ddad742bd957870ba71",
+      "size_bytes": 449,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/required_output_availability.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/required_output_availability.json",
+        "sha256": "4e7206e5bb33a0714c00974681d2bea94daa7184f2e53ddad742bd957870ba71",
+        "size_bytes": 449
+      },
+      "retained_href": "retained_owner_actual/required_output_availability.json"
+    },
+    {
+      "id": "EV004",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_restart_boundary.json",
+      "sha256": "c8de3e5623e26bf54a0b4a4477876fed3be18ff3b305e3b69840223f3a75be46",
+      "size_bytes": 754,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_restart_boundary.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_restart_boundary.json",
+        "sha256": "c8de3e5623e26bf54a0b4a4477876fed3be18ff3b305e3b69840223f3a75be46",
+        "size_bytes": 754
+      },
+      "retained_href": "retained_owner_actual/recipient_restart_boundary.json"
+    },
+    {
+      "id": "EV005",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1.json",
+      "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+      "size_bytes": 405733,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "retained_href": "retained_owner_actual/recipient/session_1.json"
+    },
+    {
+      "id": "EV006",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_2.json",
+      "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+      "size_bytes": 324012,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_2.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "retained_href": "retained_owner_actual/recipient/session_2.json"
+    },
+    {
+      "id": "EV007",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/baseline/native_work.json",
+      "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+      "size_bytes": 107271,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/baseline/native_work.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/baseline/native_work.json",
+        "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+        "size_bytes": 107271
+      },
+      "retained_href": "retained_owner_actual/recipient/baseline/native_work.json"
+    },
+    {
+      "id": "EV008",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/accepted.json",
+      "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+      "size_bytes": 137944,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/accepted.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "retained_href": "retained_owner_actual/recipient/revision_1/accepted.json"
+    },
+    {
+      "id": "EV009",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/native_work.json",
+      "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+      "size_bytes": 111778,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/native_work.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/native_work.json",
+        "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+        "size_bytes": 111778
+      },
+      "retained_href": "retained_owner_actual/recipient/revision_1/native_work.json"
+    },
+    {
+      "id": "EV010",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/accepted.json",
+      "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+      "size_bytes": 138104,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/accepted.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "retained_href": "retained_owner_actual/recipient/revision_2/accepted.json"
+    },
+    {
+      "id": "EV011",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/native_work.json",
+      "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+      "size_bytes": 111778,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/native_work.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/native_work.json",
+        "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+        "size_bytes": 111778
+      },
+      "retained_href": "retained_owner_actual/recipient/revision_2/native_work.json"
+    },
+    {
+      "id": "EV012",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/disclosure_refusal.json",
+      "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+      "size_bytes": 2788,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/disclosure_refusal.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/disclosure_refusal.json",
+        "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+        "size_bytes": 2788
+      },
+      "retained_href": "retained_owner_actual/recipient/disclosure_refusal.json"
+    },
+    {
+      "id": "EV013",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/peer_private_read_refused.json",
+      "sha256": "a9609959a9f2dbb305b008a817d8820074c16730b23b5cf5b516a5bc3ebdf745",
+      "size_bytes": 125,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/peer_private_read_refused.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/peer_private_read_refused.json",
+        "sha256": "a9609959a9f2dbb305b008a817d8820074c16730b23b5cf5b516a5bc3ebdf745",
+        "size_bytes": 125
+      },
+      "retained_href": "retained_owner_actual/recipient/peer_private_read_refused.json"
+    },
+    {
+      "id": "EV014",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/terminal_observation.json",
+      "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+      "size_bytes": 4422,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/terminal_observation.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/terminal_observation.json",
+        "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+        "size_bytes": 4422
+      },
+      "retained_href": "retained_owner_actual/recipient/terminal_observation.json"
+    },
+    {
+      "id": "EV015",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/current_source_revisions.json",
+      "sha256": "dd455ee6ca65e101cc6b6f1776053891d77852e5870b74de50b55225f60fee4e",
+      "size_bytes": 260,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/current_source_revisions.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/current_source_revisions.json",
+        "sha256": "dd455ee6ca65e101cc6b6f1776053891d77852e5870b74de50b55225f60fee4e",
+        "size_bytes": 260
+      },
+      "retained_href": "retained_owner_actual/recipient/current_source_revisions.json"
+    },
+    {
+      "id": "EV016",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/import_state.json",
+      "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+      "size_bytes": 4450,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/import_state.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/import_state.json",
+        "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+        "size_bytes": 4450
+      },
+      "retained_href": "retained_owner_actual/recipient/import_state.json"
+    },
+    {
+      "id": "EV017",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/native_work.json",
+      "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+      "size_bytes": 108451,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/native_work.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/native_work.json",
+        "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+        "size_bytes": 108451
+      },
+      "retained_href": "retained_owner_actual/producer/revision_1/native_work.json"
+    },
+    {
+      "id": "EV018",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/body.json",
+      "sha256": "f57e25cc501ff8d3639e3e633fc169cc44b7b00aaed18a9bdb2d1d579d821e07",
+      "size_bytes": 1275,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/body.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/body.json",
+        "sha256": "f57e25cc501ff8d3639e3e633fc169cc44b7b00aaed18a9bdb2d1d579d821e07",
+        "size_bytes": 1275
+      },
+      "retained_href": "retained_owner_actual/producer/revision_1/body.json"
+    },
+    {
+      "id": "EV019",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/manifest.json",
+      "sha256": "a97da76878587a6f5913675b8945791d538d2f8958f7fc61847ba1bd7c33f13c",
+      "size_bytes": 542,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/manifest.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/manifest.json",
+        "sha256": "a97da76878587a6f5913675b8945791d538d2f8958f7fc61847ba1bd7c33f13c",
+        "size_bytes": 542
+      },
+      "retained_href": "retained_owner_actual/producer/revision_1/manifest.json"
+    },
+    {
+      "id": "EV020",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/source_review.json",
+      "sha256": "cdd017c2f18653961af3b24c8ad2cf0ec61120b6bef4a3466b4d44ad7c87f311",
+      "size_bytes": 13860,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/source_review.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/source_review.json",
+        "sha256": "cdd017c2f18653961af3b24c8ad2cf0ec61120b6bef4a3466b4d44ad7c87f311",
+        "size_bytes": 13860
+      },
+      "retained_href": "retained_owner_actual/producer/revision_1/source_review.json"
+    },
+    {
+      "id": "EV021",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/publication_review.json",
+      "sha256": "a6c6604abeb5c31e9c77964b2638826fe37acc1968815ef1d96bd40b13eae079",
+      "size_bytes": 15577,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/publication_review.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/publication_review.json",
+        "sha256": "a6c6604abeb5c31e9c77964b2638826fe37acc1968815ef1d96bd40b13eae079",
+        "size_bytes": 15577
+      },
+      "retained_href": "retained_owner_actual/producer/revision_1/publication_review.json"
+    },
+    {
+      "id": "EV022",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/native_work.json",
+      "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+      "size_bytes": 108451,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/native_work.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/native_work.json",
+        "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+        "size_bytes": 108451
+      },
+      "retained_href": "retained_owner_actual/producer/revision_2/native_work.json"
+    },
+    {
+      "id": "EV023",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/body.json",
+      "sha256": "9ef3cfdac9b72140599a83d500c9ac366858be57daeda51d5bbd992719307ea9",
+      "size_bytes": 1355,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/body.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/body.json",
+        "sha256": "9ef3cfdac9b72140599a83d500c9ac366858be57daeda51d5bbd992719307ea9",
+        "size_bytes": 1355
+      },
+      "retained_href": "retained_owner_actual/producer/revision_2/body.json"
+    },
+    {
+      "id": "EV024",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/manifest.json",
+      "sha256": "684934a36e5446ed440d02cfa68f59c3e576787ca34b43d96302b0795ae8a2af",
+      "size_bytes": 542,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/manifest.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/manifest.json",
+        "sha256": "684934a36e5446ed440d02cfa68f59c3e576787ca34b43d96302b0795ae8a2af",
+        "size_bytes": 542
+      },
+      "retained_href": "retained_owner_actual/producer/revision_2/manifest.json"
+    },
+    {
+      "id": "EV025",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/source_review.json",
+      "sha256": "fedf1451f77206660cdfc776d51aae0ab41bb38225a0daede9d683ce66e9922e",
+      "size_bytes": 13860,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/source_review.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/source_review.json",
+        "sha256": "fedf1451f77206660cdfc776d51aae0ab41bb38225a0daede9d683ce66e9922e",
+        "size_bytes": 13860
+      },
+      "retained_href": "retained_owner_actual/producer/revision_2/source_review.json"
+    },
+    {
+      "id": "EV026",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/publication_review.json",
+      "sha256": "1bffb73d1f0e30fd534eaf74b1953b3e871fd1e94d7702ce06bed23a872e9212",
+      "size_bytes": 15657,
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/publication_review.json",
+      "scope": "INDEPENDENTLY_ACCEPTED_PUBLIC_OWNER_RECORD",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/publication_review.json",
+        "sha256": "1bffb73d1f0e30fd534eaf74b1953b3e871fd1e94d7702ce06bed23a872e9212",
+        "size_bytes": 15657
+      },
+      "retained_href": "retained_owner_actual/producer/revision_2/publication_review.json"
+    },
+    {
+      "id": "EV027",
+      "repository_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+      "href": "stage06_acceptance.json",
+      "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+      "size_bytes": 2726,
+      "scope": "INDEPENDENT_ACCEPTANCE_OR_FINITE_PRESERVATION_INDEX"
+    },
+    {
+      "id": "EV028",
+      "repository_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+      "href": "owner_actual_independent_review.json",
+      "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+      "size_bytes": 6578,
+      "scope": "INDEPENDENT_ACCEPTANCE_OR_FINITE_PRESERVATION_INDEX"
+    },
+    {
+      "id": "EV029",
+      "repository_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json",
+      "href": "independent_checked_facts.json",
+      "sha256": "5d290d5e3f192b78d4b199760d56af3ae48d9ac04cf29164056036e222506fc5",
+      "size_bytes": 45959,
+      "scope": "INDEPENDENT_ACCEPTANCE_OR_FINITE_PRESERVATION_INDEX"
+    },
+    {
+      "id": "EV030",
+      "repository_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+      "href": "owner_accounting_boundary_review.json",
+      "sha256": "2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1",
+      "size_bytes": 8653,
+      "scope": "INDEPENDENT_ACCEPTANCE_OR_FINITE_PRESERVATION_INDEX"
+    },
+    {
+      "id": "EV031",
+      "repository_path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_owner_inventory.json",
+      "href": "public_owner_inventory.json",
+      "sha256": "b1e771d2e10ee7e49fed816338ed321f1c2af3af368892a3a61599bd38855df9",
+      "size_bytes": 104528,
+      "scope": "INDEPENDENT_ACCEPTANCE_OR_FINITE_PRESERVATION_INDEX"
+    },
+    {
+      "id": "EV032",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json",
+      "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+      "size_bytes": 13793,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signed_pointer.json",
+        "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+        "size_bytes": 13793
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/altered_signed_pointer.json"
+    },
+    {
+      "id": "EV033",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json",
+      "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+      "size_bytes": 13758,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signature.json",
+        "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+        "size_bytes": 13758
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/altered_signature.json"
+    },
+    {
+      "id": "EV034",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json",
+      "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+      "size_bytes": 13733,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_anchor.json",
+        "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+        "size_bytes": 13733
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/wrong_anchor.json"
+    },
+    {
+      "id": "EV035",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json",
+      "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+      "size_bytes": 13735,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_issuer.json",
+        "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+        "size_bytes": 13735
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/wrong_issuer.json"
+    },
+    {
+      "id": "EV036",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json",
+      "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+      "size_bytes": 13718,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_scope.json",
+        "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+        "size_bytes": 13718
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/wrong_scope.json"
+    },
+    {
+      "id": "EV037",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json",
+      "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+      "size_bytes": 13757,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_body_bytes.json",
+        "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+        "size_bytes": 13757
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/altered_body_bytes.json"
+    },
+    {
+      "id": "EV038",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json",
+      "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+      "size_bytes": 13771,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/expired_source.json",
+        "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+        "size_bytes": 13771
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/expired_source.json"
+    },
+    {
+      "id": "EV039",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json",
+      "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+      "size_bytes": 13768,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/revoked_current_use.json",
+        "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+        "size_bytes": 13768
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/revoked_current_use.json"
+    },
+    {
+      "id": "EV040",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json",
+      "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+      "size_bytes": 13803,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_revision.json",
+        "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+        "size_bytes": 13803
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/restart_old_revision.json"
+    },
+    {
+      "id": "EV041",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json",
+      "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+      "size_bytes": 13759,
+      "scope": "INDEPENDENTLY_CHECKED_CURRENT_REFUSAL",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_active.json",
+        "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+        "size_bytes": 13759
+      },
+      "retained_href": "retained_owner_actual/recipient/controls/restart_old_active.json"
+    },
+    {
+      "id": "EV042",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+      "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+      "size_bytes": 204141,
+      "scope": "COMPLETE_HISTORICAL_ACCEPTED_RESULT",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "retained_href": "retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json"
+    },
+    {
+      "id": "EV043",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+      "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+      "size_bytes": 203951,
+      "scope": "COMPLETE_HISTORICAL_ACCEPTED_RESULT",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "retained_href": "retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json"
+    },
+    {
+      "id": "EV044",
+      "repository_path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/status_state.json",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/status_state.json",
+      "sha256": "741655425a6f1b7dcfe09b3c49057b6c837916460ed36960f46b201aeab0c432",
+      "size_bytes": 793,
+      "scope": "INDEPENDENTLY_CHECKED_PERSISTENT_LIFECYCLE",
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/status_state.json",
+        "sha256": "741655425a6f1b7dcfe09b3c49057b6c837916460ed36960f46b201aeab0c432",
+        "size_bytes": 793
+      },
+      "retained_href": "retained_owner_actual/producer/status_state.json"
+    }
+  ],
+  "refusal_controls": [
+    {
+      "label": "altered_signed_pointer",
+      "expected_and_observed_reason": "signed_content_binding",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json",
+        "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+        "size_bytes": 13793
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV032",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json"
+    },
+    {
+      "label": "altered_signature",
+      "expected_and_observed_reason": "signature_invalid",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json",
+        "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+        "size_bytes": 13758
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV033",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json"
+    },
+    {
+      "label": "wrong_anchor",
+      "expected_and_observed_reason": "signature_invalid",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json",
+        "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+        "size_bytes": 13733
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV034",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json"
+    },
+    {
+      "label": "wrong_issuer",
+      "expected_and_observed_reason": "publisher_identity",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json",
+        "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+        "size_bytes": 13735
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV035",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json"
+    },
+    {
+      "label": "wrong_scope",
+      "expected_and_observed_reason": "schema_scope",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json",
+        "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+        "size_bytes": 13718
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV036",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json"
+    },
+    {
+      "label": "altered_body_bytes",
+      "expected_and_observed_reason": "body_integrity",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json",
+        "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+        "size_bytes": 13757
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV037",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json"
+    },
+    {
+      "label": "expired_source",
+      "expected_and_observed_reason": "source_not_current",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json",
+        "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+        "size_bytes": 13771
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": true,
+      "evidence_id": "EV038",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json"
+    },
+    {
+      "label": "revoked_current_use",
+      "expected_and_observed_reason": "status_not_active",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json",
+        "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+        "size_bytes": 13768
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV039",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json"
+    },
+    {
+      "label": "restart_old_revision",
+      "expected_and_observed_reason": "stage06_source_revision_rollback",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json",
+        "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+        "size_bytes": 13803
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV040",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json"
+    },
+    {
+      "label": "restart_old_active",
+      "expected_and_observed_reason": "status_rollback",
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json",
+        "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+        "size_bytes": 13759
+      },
+      "root_decision": "BLOCKED_FAIL_CLOSED",
+      "permission_effect_final_output_created": false,
+      "revision_Work_count_before": 2,
+      "revision_Work_count_after": 2,
+      "controlled_clock": false,
+      "evidence_id": "EV041",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json"
+    }
+  ],
+  "complete_historical_result_refs": [
+    {
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "evidence_id": "EV042",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json"
+    },
+    {
+      "ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "evidence_id": "EV043",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json"
+    }
+  ],
+  "master_basis": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage04_claims_evidence_before.json",
+      "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+      "size_bytes": 429010
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage05_claims_addendum_before.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    }
+  ],
+  "directions": [
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-18",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Factory candidate-only",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-19",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Marennya/UP quarantine-first",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-12",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "NeedleFactory",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-13",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Marennya/UP",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FEEDBACK",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-01",
+        "S5-02"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "G3 outcome feedback, qualified GT history and prospective/scorable outcome",
+      "dependency": "Accepted G3 profile, prospective expectation and scorable outcome, current Root/HardMask and actual later Work consumer.",
+      "closure_criterion": "A qualifying outcome updates preserved history and changes a specific later review, selection or allocation; non-scorable AUTH/model failure does not become negative training evidence."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-TEMPORAL-CONFLICT",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-03",
+        "S5-04",
+        "S5-05"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "Extended current eligibility, supersession, conflicts and quarantine across tasks",
+      "dependency": "Preserved source lineage, separate clocks, current policy, fresh Root descent.",
+      "closure_criterion": "Demonstrate aging changes the permitted check, expiry prevents current use, conflicts/quarantine constrain actual consumers, without TTL extension or history deletion."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-LESSON-CONSUMER",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-06"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "DeadEnd and lesson records require actual scoped consumers",
+      "dependency": "Current qualified record eligibility and fresh Root review.",
+      "closure_criterion": "Eligible negative experience changes a concrete continuation/check within its scope without permanent prohibition or new authority."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FINITE-STRATEGY",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-07",
+        "S5-08"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "Accepted G4 finite multi-Root strategy and bounded real Work allocation",
+      "dependency": "Applicable G3 experience and separately sovereign owner judgments.",
+      "closure_criterion": "Show changed strategy or allocation changes actual selected Work and downstream consumption under a fixed declared total budget; do not call 4/3 to 3/4 a speedup."
+    },
+    {
+      "effective_status": "accepted_within_stage06_local_two_peer_informational_profile",
+      "historical_status": "deferred",
+      "id": "DEFER-S6-EXTERNAL-DRS",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-06",
+      "source_requirement": "Separate peer Root/state/keys; governed disclosure, body, STATUS and real consumption",
+      "dependency": "Independent trust anchors; existing Gate5 lifecycle/exchange contracts.",
+      "closure_criterion": "Peer evidence changes actual receiver work; refusal keeps body closed; revision/revocation/expiry/rollback after restart prevent current use and retain history.",
+      "prior_effective_status": "deferred",
+      "acceptance_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+        "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+        "size_bytes": 2726
+      },
+      "requirement_ids": [
+        "S6-1",
+        "S6-2",
+        "S6-3",
+        "S6-4",
+        "S6-5",
+        "S6-6",
+        "S6-7"
+      ],
+      "scope": "Only the approved local two-peer informational external-DRS profile, with controlled-clock expiry and application-level isolation limits."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S7-PURE-CAPABILITY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-07",
+      "source_requirement": "U3 missing pure capability and warm local need discovery/readmission",
+      "dependency": "Actual missing need; finite Wasm/pure profile; independent admission/oracle; current task and budgets.",
+      "closure_criterion": "Cold absence precedes generation; admitted exact guest output feeds same-task Work; warm rediscovery readmits with zero generator calls; coherent bad packages refuse."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-CURRENT-EFFECT-LIFECYCLE",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08",
+      "source_requirement": "Applicable full current effect lifecycle through packet/Host/Firewall",
+      "dependency": "New explicit current scoped policy/authorization; current Root and exclusive Firewall; preserve old consumed quota.",
+      "closure_criterion": "Applicable permitted save/action uses current accepted output and exact native authorization/receipt, rejects repeat/uncertainty/currentness violations, with no restored historical permission."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-INTEGRATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08",
+      "source_requirement": "Connected FULL_MINIMAL_STAND and applicable U4 obligations",
+      "dependency": "Accepted Stage05-07 integrations and per-obligation U1-U4 applicability matrix.",
+      "closure_criterion": "One connected bounded session with actual producer/validator/consumer evidence for every applicable obligation and required refusal/termination cases; independent FULL_MINIMAL_STAND acceptance."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-COGNITIVE-NEEDLES",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Root-centered directed bounded capabilities, including future cognitive directions",
+      "dependency": "Current architecture lock; separate finite module contracts and author/checker/admission boundaries.",
+      "closure_criterion": "Establish an explicit bounded catalogue and individually admit implemented capability programmes; no authority transfer from children, models or stored evidence."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULL-G4-MATH",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Full Gate4 mathematics/expanded strategic programme: unilateral regret/stability, robust/minimax, CVaR, sensitivity, full AVF features, richer priors, cross-domain calibration; LGT excluded",
+      "dependency": "Separate reconsideration/scope decision after Gate6 publication, with an explicit finite mathematical contract.",
+      "closure_criterion": "Accepted implementation and scoped evidence for each newly selected mathematical obligation."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULLAVF-STRONGGT",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "FullAVF/StrongGT",
+      "dependency": "Separate post-minimal mathematical/semantic scope, stronger than existing bounded advisory profiles.",
+      "closure_criterion": "Explicit owner-selected finite contract and independent evidence; preserve HardMask/Root authority."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-GLOBAL-FEDERATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Arbitrary global federation",
+      "dependency": "Stage06 local peer integration plus a separate broader federation contract.",
+      "closure_criterion": "Declared finite federated scope, independent trust/Root boundaries and currentness/revocation consumers verified; no universal claim."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNIVERSAL-AUTHORING",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Universal code factory and broader authoring",
+      "dependency": "Stage07 finite admission plus separately bounded new language/domain/resource scopes.",
+      "closure_criterion": "Independent candidate admission and actual use in each newly authorized scope; no self-install or general safety inference."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-PRODUCTION-RECOVERY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Service mode and production crash recovery",
+      "dependency": "Separate lifecycle, durability, uncertain-effect and service-operation contract.",
+      "closure_criterion": "Controlled fault/recovery evidence for specified production boundaries without replaying uncertain effects or restoring expired authority."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-SELF-MODIFICATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Automatic self-modification",
+      "dependency": "Separate explicit transition/admission authority and independently bounded future scope.",
+      "closure_criterion": "Any future code change remains candidate-only until independent exact-source admission and explicit authorized deployment; no automatic present commitment."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNBOUNDED-RECURSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Unbounded recursion",
+      "dependency": "A separate future scope decision, not relaxation of current budgets.",
+      "closure_criterion": "Specify and independently justify any future extension; do not claim unbounded execution from finite tests."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-DOMAIN-EXPANSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "New real domains, sources/adapters and wider cognitive modules",
+      "dependency": "Accepted minimal stand and separate domain/capability/adapter contracts.",
+      "closure_criterion": "Real new producer/validator/consumer evidence and necessary current effect authority for each admitted scope."
+    }
+  ],
+  "original_direction_count": 21,
+  "changed_direction_count": 1,
+  "unchanged_effective_direction_count": 20,
+  "prior_stage04_stage05_acceptance_preserved": true,
+  "stage07_started": false,
+  "U3_started": false,
+  "general_federation_claimed": false,
+  "SAVE_authorization_created": false,
+  "scope": "Bounded local two-peer informational external DRS; distinct processes, Roots and in-memory signer capabilities under independently established public trust anchors. No OS same-UID security guarantee.",
+  "boundaries": [
+    "Acceptance is limited to the approved local two-peer informational profile and seven frozen Stage06 criteria.",
+    "Controlled future expiry is a labeled negative lane, not a naturally elapsed expiry observation.",
+    "The review checks retained accepted cryptographic/native evidence and source identities without rerunning cryptography or validators.",
+    "Application-level peer I/O isolation is not OS sandboxing against malicious same-UID code.",
+    "No arbitrary remote federation, global production DRS, Stage07/U3, general SAVE/effect permission or model capability is accepted.",
+    "No new owner command, retry, source mutation, activation, model or native execution is authorized by this review.",
+    "Owner timing is the saved supervisor measurement, not an independently captured full Terminal wall duration."
+  ],
+  "owner_timing": {
+    "label": "RETAINED_SUPERVISOR_WALL_INTERVAL",
+    "wall_seconds": 3.30756775,
+    "observed_host_work_span_seconds": 0.697641958,
+    "conservative_native_upper_bound_seconds": 5.856892626,
+    "independently_captured_full_Terminal_duration": false,
+    "distinct_overlapping_intervals_not_speedup": true
+  }
+}

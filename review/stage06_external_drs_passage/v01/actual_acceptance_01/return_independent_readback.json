@@ -1,0 +1,208 @@
+{
+  "schema": "radik.stage06.return_independent_readback.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "PASS_COMPLETE_DELIVERED_ARCHIVE_MANIFEST_AND_SELECTED_BYTES",
+  "Stage06_closed_within_approved_profile": true,
+  "semantic_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+    "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+    "size_bytes": 2726
+  },
+  "packaging_grant_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/return_packaging_review.json",
+    "sha256": "27f28ad658f236c0faf2c153519659f715423831343450d1925bcbe782264b7b",
+    "size_bytes": 6715
+  },
+  "selection_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/return_selection.json",
+    "sha256": "4fe598f7ca251eb8695dfca1d5e5d41b9ec94b26349ce219dc2bfd4cbaaf3d7c",
+    "size_bytes": 164759
+  },
+  "public_field_inventory_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_field_inventory.json",
+    "sha256": "57fdd698741bb5ff3da62ea5c7d84fe0ee912d5b81b1adacdaccd206b399ada9",
+    "size_bytes": 152551
+  },
+  "archive_pairs": [
+    {
+      "archive_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T002038.434658Z.tar.gz",
+        "sha256": "b627d024272b26ed38e3472500f34191dbdf4a1c3bfc5d21c0ac5dc2edc89d05",
+        "size_bytes": 1663349
+      },
+      "checksum_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261023T002038.434658Z.tar.gz.sha256",
+        "sha256": "620712e2d8ac3dc42fd5184c2294c03705f9f34e795eb20fb86847269906eb73",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "review/returns/RADIK_RETURN_20261023T002038.434658Z.tar.gz",
+        "sha256": "b627d024272b26ed38e3472500f34191dbdf4a1c3bfc5d21c0ac5dc2edc89d05",
+        "size_bytes": 1663349
+      },
+      "checksum_ref": {
+        "path": "review/returns/RADIK_RETURN_20261023T002038.434658Z.tar.gz.sha256",
+        "sha256": "620712e2d8ac3dc42fd5184c2294c03705f9f34e795eb20fb86847269906eb73",
+        "size_bytes": 110
+      }
+    }
+  ],
+  "archive_SHA256": "b627d024272b26ed38e3472500f34191dbdf4a1c3bfc5d21c0ac5dc2edc89d05",
+  "archive_bytes": 1663349,
+  "payload_files": 376,
+  "tar_members_including_manifest": 377,
+  "all_members_regular_unique_safe_paths": true,
+  "every_payload_matches_frozen_selected_or_automatic_bytes": true,
+  "all_manifest_hashes_and_sizes_exact": true,
+  "manifest_sha256": "60bb4df81be0271381a33246173d119784c0ea36caefc08465191d916f148b06",
+  "manifest_behavior_acceptance": "NOT_AWARDED_BY_PACKAGING",
+  "semantic_acceptance_is_separate_frozen_independent_record": true,
+  "complete_160_public_witnesses_retained_under_both_routes": true,
+  "delivery_receipt_ref": {
+    "path": "state/local_operator/RADIK_RETURN_20261023T002038.434658Z.tar.gz.delivery.json",
+    "sha256": "494a9e32df1b6d07ac2ac75ec6be0aa841a28ffadf2213479067d198ab4beec4",
+    "size_bytes": 414
+  },
+  "reservation_ref": {
+    "path": "review/return_verifications/before_owner_fix_source_stage06_external_drs_actual_acceptance_01_build.json",
+    "sha256": "a9bff9d19a4b673a19dab9c99b4e8411d79df3b2d339c47a4284f34c624c6a58",
+    "size_bytes": 343
+  },
+  "tool_outcome_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/return_build_tool_outcome.json",
+    "sha256": "a5d4e0dedd159aefb8bc6fa3fa9e680cfa4092cfa84e2b821981f1746ddefc2e",
+    "size_bytes": 1995
+  },
+  "publisher_one_invocation_exit_zero_reaped": true,
+  "prior_archive_and_sidecar_refs_unchanged": [
+    {
+      "archive_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+        "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+        "size_bytes": 1815439
+      },
+      "checksum_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+        "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+        "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+        "size_bytes": 1815439
+      },
+      "checksum_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+        "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T232117.421323Z.tar.gz",
+        "sha256": "1a6c09aced5a33d9db9f297f316f0ca4cd60f976bb7bb1988bf7b53af56b8a0f",
+        "size_bytes": 457544
+      },
+      "checksum_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T232117.421323Z.tar.gz.sha256",
+        "sha256": "75505666068355a3fa99860b6991339837c28be44884d838f0e21d24a798652d",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T232117.421323Z.tar.gz",
+        "sha256": "1a6c09aced5a33d9db9f297f316f0ca4cd60f976bb7bb1988bf7b53af56b8a0f",
+        "size_bytes": 457544
+      },
+      "checksum_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T232117.421323Z.tar.gz.sha256",
+        "sha256": "75505666068355a3fa99860b6991339837c28be44884d838f0e21d24a798652d",
+        "size_bytes": 110
+      }
+    }
+  ],
+  "ten_live_guard_refs_unchanged_after_packaging": [
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/console_model_turns.json",
+      "sha256": "cb34e2240a14b4346123172f196690f4799bae4064bb420d4e4bed7fe11227bb",
+      "size_bytes": 147969
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/model_turns.json",
+      "sha256": "70285a6ad3a63cdd6e211ac9749bc84ece1d81efd47983ea5071d9f596a5e7bd",
+      "size_bytes": 34293
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/application_profile.json",
+      "sha256": "d4a8c5d6a1b608e7994091d485031a2d8b11b8cec6b3b545d2dd092e138144a7",
+      "size_bytes": 245
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/live_save_quota/single_save.jsonl",
+      "sha256": "f800259004308573e77167556ecca6ae070a6ae6d228b21f46d6211ae01b8752",
+      "size_bytes": 2865
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/state/task_model_settings.json",
+      "sha256": "706c4c4bd70359227703a9617e522fcaf882c066cb7fa639572cf54b4a98d054",
+      "size_bytes": 492
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/model_policy.json",
+      "sha256": "b9587a72dfd9e74bc3735ec6f8eed79ccf38aaaf0b786bde6eb2570e2d920ca7",
+      "size_bytes": 1173
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/console_model_policy.json",
+      "sha256": "ca76784381e49627a85db0027a3c211d87c417f30a59838eb65ca307257e2e31",
+      "size_bytes": 789
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/config/task_model_policy.json",
+      "sha256": "996fcbdfa1770b4b4d8758e281c6c71ff07e32d8c630ac7f428c653082937e53",
+      "size_bytes": 1281
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/workspace/owner_documents/state/dynamic_tasks.json",
+      "sha256": "128a724ba379c5a97297a859b495ce5179a9db2c11e01a62040d10579a54b9b0",
+      "size_bytes": 78191
+    },
+    {
+      "path": "/Users/admin/Projects/RadiolariaRadik/review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+      "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+      "size_bytes": 7844
+    }
+  ],
+  "writer_refs_unchanged": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/build_return.py",
+      "sha256": "d33a277a2e107b63b23c65d728c85664b1b8e439164ee99c941806cf136b7eb1",
+      "size_bytes": 10065
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ],
+  "measurement": {
+    "independent_full_readback_elapsed_ns": 82705584,
+    "retained_publisher_elapsed_ns": 2625054167,
+    "inventory_preparation_ns": 67102084,
+    "selection_preparation_ns": 218517916,
+    "these_measured_finalization_components_ns": 2993379751,
+    "existing_finalization_reserve_ns": 60000000000,
+    "charged_and_reserved_passage_total_ns": 247556201332,
+    "overall_budget_ns": 900000000000,
+    "reserves_not_measured_execution": true
+  },
+  "new_application_native_model_E_owner_execution": false,
+  "private_file_or_canary_or_key_read": false,
+  "rebuild_or_second_archive_authorized": false,
+  "readback_record_written_after_archive_not_inside_it": true
+}

@@ -1,0 +1,310 @@
+{
+  "schema": "radik.stage06.claims_evidence_addendum.v1",
+  "status": "ONE_SCOPED_STAGE06_OBLIGATION_ACCEPTED",
+  "publication": "LOCAL_ONLY",
+  "closure_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+    "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+    "size_bytes": 2726
+  },
+  "independent_actual_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+    "size_bytes": 6578
+  },
+  "basis_prior_stage05_ref": {
+    "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_claims_addendum.json",
+    "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+    "size_bytes": 7844
+  },
+  "basis_retained_stage05_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage05_claims_addendum_before.json",
+    "sha256": "63254cc36d203e717137943c46886edb46827a304dd0982fdf3c1436612b103d",
+    "size_bytes": 7844
+  },
+  "basis_retained_master_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/documentation_basis/stage04_claims_evidence_before.json",
+    "sha256": "e0c7722ce2e50610aac38276103cb2bc2dd815bbe653cc38d994abfdc05a36d7",
+    "size_bytes": 429010
+  },
+  "original_direction_count": 21,
+  "original_ids_and_requirement_scope_preserved": true,
+  "changed_direction_count": 1,
+  "changed_direction_ids": [
+    "DEFER-S6-EXTERNAL-DRS"
+  ],
+  "unrelated_direction_statuses_unchanged": 20,
+  "Stage04_acceptance_preserved": true,
+  "Stage05_acceptance_preserved": true,
+  "historical_dossier_rewritten": false,
+  "new_execution_or_next_stage_authorized": false,
+  "directions": [
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-18",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Factory candidate-only",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N1-19",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Marennya/UP quarantine-first",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-12",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "NeedleFactory",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-REF-N4-13",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Marennya/UP",
+      "dependency": "Separate owner-approved programme-specific contract, candidate author/checker and independent admission; generic nonpromotion/quarantine controls are not that implementation.",
+      "closure_criterion": "Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FEEDBACK",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-01",
+        "S5-02"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "G3 outcome feedback, qualified GT history and prospective/scorable outcome",
+      "dependency": "Accepted G3 profile, prospective expectation and scorable outcome, current Root/HardMask and actual later Work consumer.",
+      "closure_criterion": "A qualifying outcome updates preserved history and changes a specific later review, selection or allocation; non-scorable AUTH/model failure does not become negative training evidence."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-TEMPORAL-CONFLICT",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-03",
+        "S5-04",
+        "S5-05"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "Extended current eligibility, supersession, conflicts and quarantine across tasks",
+      "dependency": "Preserved source lineage, separate clocks, current policy, fresh Root descent.",
+      "closure_criterion": "Demonstrate aging changes the permitted check, expiry prevents current use, conflicts/quarantine constrain actual consumers, without TTL extension or history deletion."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-LESSON-CONSUMER",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-06"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "DeadEnd and lesson records require actual scoped consumers",
+      "dependency": "Current qualified record eligibility and fresh Root review.",
+      "closure_criterion": "Eligible negative experience changes a concrete continuation/check within its scope without permanent prohibition or new authority."
+    },
+    {
+      "acceptance_ref": {
+        "path": "review/stage05_qualified_experience_passage/v10_actual_acceptance/stage05_acceptance.json",
+        "sha256": "d9c17f56504cf890e3684b58f3d57b24832c273d9e29053129a06f5b3bd01863",
+        "size_bytes": 4045
+      },
+      "effective_status": "accepted_within_stage05_profile",
+      "historical_status": "partial",
+      "id": "DEFER-S5-FINITE-STRATEGY",
+      "requirement_and_scope_preserved": true,
+      "requirement_ids": [
+        "S5-07",
+        "S5-08"
+      ],
+      "scope": "Only the original Radik qualified-experience profile, with the retained controlled-evidence limits.",
+      "target_stage": "RADIK-STAGE-05",
+      "source_requirement": "Accepted G4 finite multi-Root strategy and bounded real Work allocation",
+      "dependency": "Applicable G3 experience and separately sovereign owner judgments.",
+      "closure_criterion": "Show changed strategy or allocation changes actual selected Work and downstream consumption under a fixed declared total budget; do not call 4/3 to 3/4 a speedup."
+    },
+    {
+      "effective_status": "accepted_within_stage06_local_two_peer_informational_profile",
+      "historical_status": "deferred",
+      "id": "DEFER-S6-EXTERNAL-DRS",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-06",
+      "source_requirement": "Separate peer Root/state/keys; governed disclosure, body, STATUS and real consumption",
+      "dependency": "Independent trust anchors; existing Gate5 lifecycle/exchange contracts.",
+      "closure_criterion": "Peer evidence changes actual receiver work; refusal keeps body closed; revision/revocation/expiry/rollback after restart prevent current use and retain history.",
+      "prior_effective_status": "deferred",
+      "acceptance_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+        "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+        "size_bytes": 2726
+      },
+      "requirement_ids": [
+        "S6-1",
+        "S6-2",
+        "S6-3",
+        "S6-4",
+        "S6-5",
+        "S6-6",
+        "S6-7"
+      ],
+      "scope": "Only the approved local two-peer informational external-DRS profile, with controlled-clock expiry and application-level isolation limits."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S7-PURE-CAPABILITY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-07",
+      "source_requirement": "U3 missing pure capability and warm local need discovery/readmission",
+      "dependency": "Actual missing need; finite Wasm/pure profile; independent admission/oracle; current task and budgets.",
+      "closure_criterion": "Cold absence precedes generation; admitted exact guest output feeds same-task Work; warm rediscovery readmits with zero generator calls; coherent bad packages refuse."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-CURRENT-EFFECT-LIFECYCLE",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08",
+      "source_requirement": "Applicable full current effect lifecycle through packet/Host/Firewall",
+      "dependency": "New explicit current scoped policy/authorization; current Root and exclusive Firewall; preserve old consumed quota.",
+      "closure_criterion": "Applicable permitted save/action uses current accepted output and exact native authorization/receipt, rejects repeat/uncertainty/currentness violations, with no restored historical permission."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-S8-INTEGRATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "RADIK-STAGE-08",
+      "source_requirement": "Connected FULL_MINIMAL_STAND and applicable U4 obligations",
+      "dependency": "Accepted Stage05-07 integrations and per-obligation U1-U4 applicability matrix.",
+      "closure_criterion": "One connected bounded session with actual producer/validator/consumer evidence for every applicable obligation and required refusal/termination cases; independent FULL_MINIMAL_STAND acceptance."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-COGNITIVE-NEEDLES",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Root-centered directed bounded capabilities, including future cognitive directions",
+      "dependency": "Current architecture lock; separate finite module contracts and author/checker/admission boundaries.",
+      "closure_criterion": "Establish an explicit bounded catalogue and individually admit implemented capability programmes; no authority transfer from children, models or stored evidence."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULL-G4-MATH",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Full Gate4 mathematics/expanded strategic programme: unilateral regret/stability, robust/minimax, CVaR, sensitivity, full AVF features, richer priors, cross-domain calibration; LGT excluded",
+      "dependency": "Separate reconsideration/scope decision after Gate6 publication, with an explicit finite mathematical contract.",
+      "closure_criterion": "Accepted implementation and scoped evidence for each newly selected mathematical obligation."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-FULLAVF-STRONGGT",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "FullAVF/StrongGT",
+      "dependency": "Separate post-minimal mathematical/semantic scope, stronger than existing bounded advisory profiles.",
+      "closure_criterion": "Explicit owner-selected finite contract and independent evidence; preserve HardMask/Root authority."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-GLOBAL-FEDERATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Arbitrary global federation",
+      "dependency": "Stage06 local peer integration plus a separate broader federation contract.",
+      "closure_criterion": "Declared finite federated scope, independent trust/Root boundaries and currentness/revocation consumers verified; no universal claim."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNIVERSAL-AUTHORING",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Universal code factory and broader authoring",
+      "dependency": "Stage07 finite admission plus separately bounded new language/domain/resource scopes.",
+      "closure_criterion": "Independent candidate admission and actual use in each newly authorized scope; no self-install or general safety inference."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-PRODUCTION-RECOVERY",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Service mode and production crash recovery",
+      "dependency": "Separate lifecycle, durability, uncertain-effect and service-operation contract.",
+      "closure_criterion": "Controlled fault/recovery evidence for specified production boundaries without replaying uncertain effects or restoring expired authority."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-SELF-MODIFICATION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Automatic self-modification",
+      "dependency": "Separate explicit transition/admission authority and independently bounded future scope.",
+      "closure_criterion": "Any future code change remains candidate-only until independent exact-source admission and explicit authorized deployment; no automatic present commitment."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-UNBOUNDED-RECURSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "Unbounded recursion",
+      "dependency": "A separate future scope decision, not relaxation of current budgets.",
+      "closure_criterion": "Specify and independently justify any future extension; do not claim unbounded execution from finite tests."
+    },
+    {
+      "effective_status": "deferred",
+      "historical_status": "deferred",
+      "id": "DEFER-DOMAIN-EXPANSION",
+      "requirement_and_scope_preserved": true,
+      "target_stage": "AFTER_MINIMAL_STAND",
+      "source_requirement": "New real domains, sources/adapters and wider cognitive modules",
+      "dependency": "Accepted minimal stand and separate domain/capability/adapter contracts.",
+      "closure_criterion": "Real new producer/validator/consumer evidence and necessary current effect authority for each admitted scope."
+    }
+  ],
+  "interpretation": "This addendum changes only the Stage06 effective disposition within the independently accepted local two-peer informational profile. Historical source, partial/failure decisions and consumed admissions retain their original meaning. It grants no new execution or effect authority."
+}

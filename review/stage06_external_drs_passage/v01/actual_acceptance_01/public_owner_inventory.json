@@ -1,0 +1,1935 @@
+{
+  "schema": "radik.stage06.owner_public_evidence_inventory.v1",
+  "run": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5",
+  "files": [
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/operation_close.json",
+        "sha256": "76cba68ee832e65fea556a5c5d4c622881030e1d5dd5310248f6ea3b80506d5e",
+        "size_bytes": 739
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/operation_close.json",
+        "sha256": "76cba68ee832e65fea556a5c5d4c622881030e1d5dd5310248f6ea3b80506d5e",
+        "size_bytes": 739
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/bootstrap_1.json",
+        "sha256": "2d721c9e8f559d213f1e551e27c64a9ef3dc359cc20927d24ad70c7664578337",
+        "size_bytes": 2723
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/bootstrap_1.json",
+        "sha256": "2d721c9e8f559d213f1e551e27c64a9ef3dc359cc20927d24ad70c7664578337",
+        "size_bytes": 2723
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/bootstrap_2.json",
+        "sha256": "ff6d98f1494ec82ed9590e3b69d4a99e6dc110dda16b19afcb77b7426b6b120c",
+        "size_bytes": 2723
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/bootstrap_2.json",
+        "sha256": "ff6d98f1494ec82ed9590e3b69d4a99e6dc110dda16b19afcb77b7426b6b120c",
+        "size_bytes": 2723
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0002_native_enter_b56f97d3c5dbd787f83857e12c3a9c070bda6157a115d369c009710f52909e55.json",
+        "sha256": "b56f97d3c5dbd787f83857e12c3a9c070bda6157a115d369c009710f52909e55",
+        "size_bytes": 200
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0002_native_enter_b56f97d3c5dbd787f83857e12c3a9c070bda6157a115d369c009710f52909e55.json",
+        "sha256": "b56f97d3c5dbd787f83857e12c3a9c070bda6157a115d369c009710f52909e55",
+        "size_bytes": 200
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0003_native_exit_25b2a3a018127618f652d8de1e9309a565b50d7b3b99af57f9b7c9a3c85a6dcd.json",
+        "sha256": "25b2a3a018127618f652d8de1e9309a565b50d7b3b99af57f9b7c9a3c85a6dcd",
+        "size_bytes": 233
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0003_native_exit_25b2a3a018127618f652d8de1e9309a565b50d7b3b99af57f9b7c9a3c85a6dcd.json",
+        "sha256": "25b2a3a018127618f652d8de1e9309a565b50d7b3b99af57f9b7c9a3c85a6dcd",
+        "size_bytes": 233
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0004_source_published_dd6f1076047dfc99ebce03da3645e38434ae8b7860e80557567b172b4d9d6b63.json",
+        "sha256": "dd6f1076047dfc99ebce03da3645e38434ae8b7860e80557567b172b4d9d6b63",
+        "size_bytes": 197
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0004_source_published_dd6f1076047dfc99ebce03da3645e38434ae8b7860e80557567b172b4d9d6b63.json",
+        "sha256": "dd6f1076047dfc99ebce03da3645e38434ae8b7860e80557567b172b4d9d6b63",
+        "size_bytes": 197
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0005_native_enter_57cc756d0525a774df1073c8f09425ee838346d72701f0b3662cbe7e27dcb363.json",
+        "sha256": "57cc756d0525a774df1073c8f09425ee838346d72701f0b3662cbe7e27dcb363",
+        "size_bytes": 200
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0005_native_enter_57cc756d0525a774df1073c8f09425ee838346d72701f0b3662cbe7e27dcb363.json",
+        "sha256": "57cc756d0525a774df1073c8f09425ee838346d72701f0b3662cbe7e27dcb363",
+        "size_bytes": 200
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0006_native_exit_44aed716234bc7dc0f879fdd85202720881fb565c54b83d65419b5fdb8cae175.json",
+        "sha256": "44aed716234bc7dc0f879fdd85202720881fb565c54b83d65419b5fdb8cae175",
+        "size_bytes": 233
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0006_native_exit_44aed716234bc7dc0f879fdd85202720881fb565c54b83d65419b5fdb8cae175.json",
+        "sha256": "44aed716234bc7dc0f879fdd85202720881fb565c54b83d65419b5fdb8cae175",
+        "size_bytes": 233
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0007_source_published_71670fcfa685d3e27801303c0bc655012648f8f59162dd9a9007d2fc01d7764a.json",
+        "sha256": "71670fcfa685d3e27801303c0bc655012648f8f59162dd9a9007d2fc01d7764a",
+        "size_bytes": 197
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0007_source_published_71670fcfa685d3e27801303c0bc655012648f8f59162dd9a9007d2fc01d7764a.json",
+        "sha256": "71670fcfa685d3e27801303c0bc655012648f8f59162dd9a9007d2fc01d7764a",
+        "size_bytes": 197
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0008_loaded_final_9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408.json",
+        "sha256": "9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408",
+        "size_bytes": 61581
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0008_loaded_final_9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408.json",
+        "sha256": "9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408",
+        "size_bytes": 61581
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/entry_sessions/session_1/evidence/0009_ordinary_entry_closed_8a56bca1ba2b138ba02223f693fa77bad3dd817ee235a3fad5b6155d44e703ff.json",
+        "sha256": "8a56bca1ba2b138ba02223f693fa77bad3dd817ee235a3fad5b6155d44e703ff",
+        "size_bytes": 4431
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/entry_sessions/session_1/evidence/0009_ordinary_entry_closed_8a56bca1ba2b138ba02223f693fa77bad3dd817ee235a3fad5b6155d44e703ff.json",
+        "sha256": "8a56bca1ba2b138ba02223f693fa77bad3dd817ee235a3fad5b6155d44e703ff",
+        "size_bytes": 4431
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/producer_result.json",
+        "sha256": "6bedff4a4dcf81a8b50720fef2a1bdbbe51c68b9384fbca2acc8f73c240dcf2a",
+        "size_bytes": 5852
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/producer_result.json",
+        "sha256": "6bedff4a4dcf81a8b50720fef2a1bdbbe51c68b9384fbca2acc8f73c240dcf2a",
+        "size_bytes": 5852
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/publisher_budget.json",
+        "sha256": "89a6f9c3dad313d00abdb3df55cd19389b941c10baeb019b0eac223fa6b760c7",
+        "size_bytes": 4603
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/publisher_budget.json",
+        "sha256": "89a6f9c3dad313d00abdb3df55cd19389b941c10baeb019b0eac223fa6b760c7",
+        "size_bytes": 4603
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/releases/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "8c23a1a77426d7e7b449d9398e507a1b42963dd35600928fcd6a47a090283a63",
+        "size_bytes": 21470
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "8c23a1a77426d7e7b449d9398e507a1b42963dd35600928fcd6a47a090283a63",
+        "size_bytes": 21470
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/releases/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "5c14ff0cdbb12703ffc7a49dff34bbbb00785535fed247b35e61d5e39087a286",
+        "size_bytes": 22705
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "5c14ff0cdbb12703ffc7a49dff34bbbb00785535fed247b35e61d5e39087a286",
+        "size_bytes": 22705
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/releases/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "b9a9e4e42b34d044cef8aa23c362741edc5a0fbd452d71af5f9d160739fdd15f",
+        "size_bytes": 18921
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/releases/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "b9a9e4e42b34d044cef8aa23c362741edc5a0fbd452d71af5f9d160739fdd15f",
+        "size_bytes": 18921
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/body.json",
+        "sha256": "f57e25cc501ff8d3639e3e633fc169cc44b7b00aaed18a9bdb2d1d579d821e07",
+        "size_bytes": 1275
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/body.json",
+        "sha256": "f57e25cc501ff8d3639e3e633fc169cc44b7b00aaed18a9bdb2d1d579d821e07",
+        "size_bytes": 1275
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/manifest.json",
+        "sha256": "a97da76878587a6f5913675b8945791d538d2f8958f7fc61847ba1bd7c33f13c",
+        "size_bytes": 542
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/manifest.json",
+        "sha256": "a97da76878587a6f5913675b8945791d538d2f8958f7fc61847ba1bd7c33f13c",
+        "size_bytes": 542
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/native_work.json",
+        "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+        "size_bytes": 108451
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/native_work.json",
+        "sha256": "a894cf4e3c40d258439a8e89142dc29602b156b90ad2784a8aecd42dbfb63aa1",
+        "size_bytes": 108451
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/pointer.json",
+        "sha256": "a35e983ac04bbb6563093b45f5a7d51d9e579925ab13b21340c27935345905f0",
+        "size_bytes": 3011
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/pointer.json",
+        "sha256": "a35e983ac04bbb6563093b45f5a7d51d9e579925ab13b21340c27935345905f0",
+        "size_bytes": 3011
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/publication_review.json",
+        "sha256": "a6c6604abeb5c31e9c77964b2638826fe37acc1968815ef1d96bd40b13eae079",
+        "size_bytes": 15577
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/publication_review.json",
+        "sha256": "a6c6604abeb5c31e9c77964b2638826fe37acc1968815ef1d96bd40b13eae079",
+        "size_bytes": 15577
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_1/source_review.json",
+        "sha256": "cdd017c2f18653961af3b24c8ad2cf0ec61120b6bef4a3466b4d44ad7c87f311",
+        "size_bytes": 13860
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_1/source_review.json",
+        "sha256": "cdd017c2f18653961af3b24c8ad2cf0ec61120b6bef4a3466b4d44ad7c87f311",
+        "size_bytes": 13860
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/body.json",
+        "sha256": "9ef3cfdac9b72140599a83d500c9ac366858be57daeda51d5bbd992719307ea9",
+        "size_bytes": 1355
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/body.json",
+        "sha256": "9ef3cfdac9b72140599a83d500c9ac366858be57daeda51d5bbd992719307ea9",
+        "size_bytes": 1355
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/manifest.json",
+        "sha256": "684934a36e5446ed440d02cfa68f59c3e576787ca34b43d96302b0795ae8a2af",
+        "size_bytes": 542
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/manifest.json",
+        "sha256": "684934a36e5446ed440d02cfa68f59c3e576787ca34b43d96302b0795ae8a2af",
+        "size_bytes": 542
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/native_work.json",
+        "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+        "size_bytes": 108451
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/native_work.json",
+        "sha256": "7017a3f5fc187dfd6d92389144be6e835dfa535d5a3c596228efdc11bd43d440",
+        "size_bytes": 108451
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/pointer.json",
+        "sha256": "c8d395f1b65cadf4c7c2b46e03010d18d1dfad8bf555328d2fbcb72cdc4c4fa1",
+        "size_bytes": 3091
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/pointer.json",
+        "sha256": "c8d395f1b65cadf4c7c2b46e03010d18d1dfad8bf555328d2fbcb72cdc4c4fa1",
+        "size_bytes": 3091
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/publication_review.json",
+        "sha256": "1bffb73d1f0e30fd534eaf74b1953b3e871fd1e94d7702ce06bed23a872e9212",
+        "size_bytes": 15657
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/publication_review.json",
+        "sha256": "1bffb73d1f0e30fd534eaf74b1953b3e871fd1e94d7702ce06bed23a872e9212",
+        "size_bytes": 15657
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/revision_2/source_review.json",
+        "sha256": "fedf1451f77206660cdfc776d51aae0ab41bb38225a0daede9d683ce66e9922e",
+        "size_bytes": 13860
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/revision_2/source_review.json",
+        "sha256": "fedf1451f77206660cdfc776d51aae0ab41bb38225a0daede9d683ce66e9922e",
+        "size_bytes": 13860
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/scenario.json",
+        "sha256": "b4a0812deff06ac400df42b71e1ebec516483f691931e73dc968f7958154a8df",
+        "size_bytes": 320
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/scenario.json",
+        "sha256": "b4a0812deff06ac400df42b71e1ebec516483f691931e73dc968f7958154a8df",
+        "size_bytes": 320
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/counters.json",
+        "sha256": "3f138a3cc75ed16e07556b1ffff8f0d6c344e96cc5031392544d1e385c6607e8",
+        "size_bytes": 65
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/counters.json",
+        "sha256": "3f138a3cc75ed16e07556b1ffff8f0d6c344e96cc5031392544d1e385c6607e8",
+        "size_bytes": 65
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_received_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_received_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_01.json",
+        "sha256": "b537ab4335dccef4d1a5164fa22df7d82dc6df96a64a7475efea59a3163bd549",
+        "size_bytes": 3038
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_01.json",
+        "sha256": "b537ab4335dccef4d1a5164fa22df7d82dc6df96a64a7475efea59a3163bd549",
+        "size_bytes": 3038
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_05.json",
+        "sha256": "e4924e264d58227409c28ec534f9cbc2d52ca7df4bf64c87b820e5c0160a9faf",
+        "size_bytes": 3118
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_05.json",
+        "sha256": "e4924e264d58227409c28ec534f9cbc2d52ca7df4bf64c87b820e5c0160a9faf",
+        "size_bytes": 3118
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_1/wire_sent_09.json",
+        "sha256": "a2c89e7928ccea801f5d371ebbc5571cf38edb88b33c5bafbacaadc381cd0117",
+        "size_bytes": 1209
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_1/wire_sent_09.json",
+        "sha256": "a2c89e7928ccea801f5d371ebbc5571cf38edb88b33c5bafbacaadc381cd0117",
+        "size_bytes": 1209
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_2/counters.json",
+        "sha256": "eabaa25c550a1a1dc93df0468bdc120eab4236d06c9389b0879b01381114bdbf",
+        "size_bytes": 63
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_2/counters.json",
+        "sha256": "eabaa25c550a1a1dc93df0468bdc120eab4236d06c9389b0879b01381114bdbf",
+        "size_bytes": 63
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_2/wire_received_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_2/wire_received_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/session_2/wire_sent_01.json",
+        "sha256": "4300fb1b2f3cbce3bdf61e706f28df4b64ad1f76ef8e22a0e6fa796bb3b5a302",
+        "size_bytes": 1209
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/session_2/wire_sent_01.json",
+        "sha256": "4300fb1b2f3cbce3bdf61e706f28df4b64ad1f76ef8e22a0e6fa796bb3b5a302",
+        "size_bytes": 1209
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer/status_state.json",
+        "sha256": "741655425a6f1b7dcfe09b3c49057b6c837916460ed36960f46b201aeab0c432",
+        "size_bytes": 793
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer/status_state.json",
+        "sha256": "741655425a6f1b7dcfe09b3c49057b6c837916460ed36960f46b201aeab0c432",
+        "size_bytes": 793
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_bootstrap_1.json",
+        "sha256": "4cb6ed36102674112736a15bf0a5b00ac1e93b66e1d6538a20e353725b0149e7",
+        "size_bytes": 2724
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_bootstrap_1.json",
+        "sha256": "4cb6ed36102674112736a15bf0a5b00ac1e93b66e1d6538a20e353725b0149e7",
+        "size_bytes": 2724
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_bootstrap_2.json",
+        "sha256": "d160c867e644710f15de6aebc14e501f0ee88a6f35bcbcd9c4f2e96c661f9cb2",
+        "size_bytes": 2724
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_bootstrap_2.json",
+        "sha256": "d160c867e644710f15de6aebc14e501f0ee88a6f35bcbcd9c4f2e96c661f9cb2",
+        "size_bytes": 2724
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_launch.json",
+        "sha256": "82de57e5e54fdd535bacb274f01c56fa936ba8d0c069623f0c2a90ce5a915dd2",
+        "size_bytes": 1676
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_launch.json",
+        "sha256": "82de57e5e54fdd535bacb274f01c56fa936ba8d0c069623f0c2a90ce5a915dd2",
+        "size_bytes": 1676
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_1.json",
+        "sha256": "c212b45cf43a56556c1ddceac7a74569907393f61091250b8796d7c1a20c9c73",
+        "size_bytes": 409
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_1.json",
+        "sha256": "c212b45cf43a56556c1ddceac7a74569907393f61091250b8796d7c1a20c9c73",
+        "size_bytes": 409
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_2.json",
+        "sha256": "2b633c3d590cecb569b2f13bcd9748c18c141cd6d6f3fc8cca72a3556a03e7ea",
+        "size_bytes": 47
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_2.json",
+        "sha256": "2b633c3d590cecb569b2f13bcd9748c18c141cd6d6f3fc8cca72a3556a03e7ea",
+        "size_bytes": 47
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_3.json",
+        "sha256": "de366f083371e9a7664ee30582f6e14d7755624125b2336d513110bbae9446f4",
+        "size_bytes": 56
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_3.json",
+        "sha256": "de366f083371e9a7664ee30582f6e14d7755624125b2336d513110bbae9446f4",
+        "size_bytes": 56
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_4.json",
+        "sha256": "19b4a3ab715da2ce60b7f7833eca9851fba4821c492512af6a3ec2d30df80aab",
+        "size_bytes": 47
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_4.json",
+        "sha256": "19b4a3ab715da2ce60b7f7833eca9851fba4821c492512af6a3ec2d30df80aab",
+        "size_bytes": 47
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_5.json",
+        "sha256": "1c3bb0d95f6b05bceb6fb4e046e2ea57f9bb26fc76a1a265c2193bf0e6fc3bc9",
+        "size_bytes": 56
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_5.json",
+        "sha256": "1c3bb0d95f6b05bceb6fb4e046e2ea57f9bb26fc76a1a265c2193bf0e6fc3bc9",
+        "size_bytes": 56
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_public_6.json",
+        "sha256": "262c8bbd573a516bd95231222c47c817e0513d6fbb90ab65752dc060888dc6b8",
+        "size_bytes": 372
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_public_6.json",
+        "sha256": "262c8bbd573a516bd95231222c47c817e0513d6fbb90ab65752dc060888dc6b8",
+        "size_bytes": 372
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/producer_1_stdout.raw",
+        "sha256": "d988a5d91082c8f9e23885b2c64fb45127a9c071eda624b0e7ba6eac262ac7a7",
+        "size_bytes": 6782
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/producer_1_stdout.raw",
+        "sha256": "d988a5d91082c8f9e23885b2c64fb45127a9c071eda624b0e7ba6eac262ac7a7",
+        "size_bytes": 6782
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/receipt.json",
+        "sha256": "68efb7eca7ce9b05213550e9dbefe53ad0c380b2aa510a5f4596753553b35d9c",
+        "size_bytes": 768780
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/address_index/work/g5pointer_b634cd03ccc9c3bb3b1359602130bb31c37486edf80de1bd2d10d5f3aa49dc2d.json",
+        "sha256": "bf8eda149fd6c074103f5bbc2bd8dc26bde307787d0b3167efe88aeb2d7346d2",
+        "size_bytes": 5169
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/address_index/work/g5pointer_b634cd03ccc9c3bb3b1359602130bb31c37486edf80de1bd2d10d5f3aa49dc2d.json",
+        "sha256": "bf8eda149fd6c074103f5bbc2bd8dc26bde307787d0b3167efe88aeb2d7346d2",
+        "size_bytes": 5169
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/address_index/work/g5pointer_ba0f48c8c6df4a7e37654548a0ef9e7b4b4e47c21c8a6f81071ac131f8d471bd.json",
+        "sha256": "1c157e4fe5cb59fcd66f24e5b1805f282d0586bf09b0809ff18330f0816591e2",
+        "size_bytes": 5260
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/address_index/work/g5pointer_ba0f48c8c6df4a7e37654548a0ef9e7b4b4e47c21c8a6f81071ac131f8d471bd.json",
+        "sha256": "1c157e4fe5cb59fcd66f24e5b1805f282d0586bf09b0809ff18330f0816591e2",
+        "size_bytes": 5260
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/baseline/native_work.json",
+        "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+        "size_bytes": 107271
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/baseline/native_work.json",
+        "sha256": "c6015e83268d4faefbcce35add2c3bea63e4147a8f9cd2d74366dcbfb0a458e0",
+        "size_bytes": 107271
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/bootstrap_1.json",
+        "sha256": "e569a87933b42e64ed782e3dbee9825bbad6c8e5b6f97fc486de64e0261284af",
+        "size_bytes": 2472
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/bootstrap_1.json",
+        "sha256": "e569a87933b42e64ed782e3dbee9825bbad6c8e5b6f97fc486de64e0261284af",
+        "size_bytes": 2472
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/bootstrap_2.json",
+        "sha256": "25c527be7bf97d992554b18155687873798185459564350106db0aa26307e1b4",
+        "size_bytes": 2472
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/bootstrap_2.json",
+        "sha256": "25c527be7bf97d992554b18155687873798185459564350106db0aa26307e1b4",
+        "size_bytes": 2472
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/budgets/task:stage06:denied.json",
+        "sha256": "4f60710fc08fbb59469f8d0aef3d8d060a8227316267e02a6bb7ca1b43db479d",
+        "size_bytes": 175
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/budgets/task:stage06:denied.json",
+        "sha256": "4f60710fc08fbb59469f8d0aef3d8d060a8227316267e02a6bb7ca1b43db479d",
+        "size_bytes": 175
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/budgets/task:stage06:restart.json",
+        "sha256": "337af3c9d29c1359200c151e89b1abc8b9a8ec3742789176c2fea126d4921b3f",
+        "size_bytes": 253
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/budgets/task:stage06:restart.json",
+        "sha256": "337af3c9d29c1359200c151e89b1abc8b9a8ec3742789176c2fea126d4921b3f",
+        "size_bytes": 253
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/budgets/task:stage06:revision1.json",
+        "sha256": "8b2bff85ba47fc1097eecc98c61ddfc3916d53232017ae1f7613bd5b734b4e1f",
+        "size_bytes": 335
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/budgets/task:stage06:revision1.json",
+        "sha256": "8b2bff85ba47fc1097eecc98c61ddfc3916d53232017ae1f7613bd5b734b4e1f",
+        "size_bytes": 335
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/budgets/task:stage06:revision2.json",
+        "sha256": "9d853099e103695552c4c0125f281039897a41e2e9f2e441bc0b53a0486645f7",
+        "size_bytes": 412
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/budgets/task:stage06:revision2.json",
+        "sha256": "9d853099e103695552c4c0125f281039897a41e2e9f2e441bc0b53a0486645f7",
+        "size_bytes": 412
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json",
+        "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+        "size_bytes": 13757
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_body_bytes.json",
+        "sha256": "f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b",
+        "size_bytes": 13757
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json",
+        "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+        "size_bytes": 13758
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signature.json",
+        "sha256": "22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753",
+        "size_bytes": 13758
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json",
+        "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+        "size_bytes": 13793
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/altered_signed_pointer.json",
+        "sha256": "705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521",
+        "size_bytes": 13793
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json",
+        "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+        "size_bytes": 13771
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/expired_source.json",
+        "sha256": "7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440",
+        "size_bytes": 13771
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json",
+        "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+        "size_bytes": 13759
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_active.json",
+        "sha256": "8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f",
+        "size_bytes": 13759
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json",
+        "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+        "size_bytes": 13803
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/restart_old_revision.json",
+        "sha256": "d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0",
+        "size_bytes": 13803
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json",
+        "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+        "size_bytes": 13768
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/revoked_current_use.json",
+        "sha256": "097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5",
+        "size_bytes": 13768
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json",
+        "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+        "size_bytes": 13733
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_anchor.json",
+        "sha256": "a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc",
+        "size_bytes": 13733
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json",
+        "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+        "size_bytes": 13735
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_issuer.json",
+        "sha256": "e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3",
+        "size_bytes": 13735
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json",
+        "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+        "size_bytes": 13718
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/controls/wrong_scope.json",
+        "sha256": "96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c",
+        "size_bytes": 13718
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/current_source_revisions.json",
+        "sha256": "dd455ee6ca65e101cc6b6f1776053891d77852e5870b74de50b55225f60fee4e",
+        "size_bytes": 260
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/current_source_revisions.json",
+        "sha256": "dd455ee6ca65e101cc6b6f1776053891d77852e5870b74de50b55225f60fee4e",
+        "size_bytes": 260
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/disclosure_refusal.json",
+        "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+        "size_bytes": 2788
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/disclosure_refusal.json",
+        "sha256": "a98918c28ae5802ba59399952c6fccb30e3d700d26e34e55e6a98183ef403dc2",
+        "size_bytes": 2788
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0002_native_enter_4dd90696c36ed091c23952f918318d743d3327e1c408e97d32ec41362d328063.json",
+        "sha256": "4dd90696c36ed091c23952f918318d743d3327e1c408e97d32ec41362d328063",
+        "size_bytes": 193
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0002_native_enter_4dd90696c36ed091c23952f918318d743d3327e1c408e97d32ec41362d328063.json",
+        "sha256": "4dd90696c36ed091c23952f918318d743d3327e1c408e97d32ec41362d328063",
+        "size_bytes": 193
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0003_native_exit_8bb8023476f6cfb7ef606b6822c4c3622bef9ce4246e445fe80acd42e215749e.json",
+        "sha256": "8bb8023476f6cfb7ef606b6822c4c3622bef9ce4246e445fe80acd42e215749e",
+        "size_bytes": 233
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0003_native_exit_8bb8023476f6cfb7ef606b6822c4c3622bef9ce4246e445fe80acd42e215749e.json",
+        "sha256": "8bb8023476f6cfb7ef606b6822c4c3622bef9ce4246e445fe80acd42e215749e",
+        "size_bytes": 233
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0004_native_enter_056e2175a78aeb53789338da33f1c5035d826967e57161470828924190686bc4.json",
+        "sha256": "056e2175a78aeb53789338da33f1c5035d826967e57161470828924190686bc4",
+        "size_bytes": 203
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0004_native_enter_056e2175a78aeb53789338da33f1c5035d826967e57161470828924190686bc4.json",
+        "sha256": "056e2175a78aeb53789338da33f1c5035d826967e57161470828924190686bc4",
+        "size_bytes": 203
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0005_native_exit_3630fc8986dcf65be843dd60d4c884e171627f8f5f74ef4d1ef12feb30ed80ea.json",
+        "sha256": "3630fc8986dcf65be843dd60d4c884e171627f8f5f74ef4d1ef12feb30ed80ea",
+        "size_bytes": 233
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0005_native_exit_3630fc8986dcf65be843dd60d4c884e171627f8f5f74ef4d1ef12feb30ed80ea.json",
+        "sha256": "3630fc8986dcf65be843dd60d4c884e171627f8f5f74ef4d1ef12feb30ed80ea",
+        "size_bytes": 233
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0006_current_consumption_44092c87c9bbc362214c2da021bf05242e264b38fd1ec4d17f8ddaf5eaa9f322.json",
+        "sha256": "44092c87c9bbc362214c2da021bf05242e264b38fd1ec4d17f8ddaf5eaa9f322",
+        "size_bytes": 328
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0006_current_consumption_44092c87c9bbc362214c2da021bf05242e264b38fd1ec4d17f8ddaf5eaa9f322.json",
+        "sha256": "44092c87c9bbc362214c2da021bf05242e264b38fd1ec4d17f8ddaf5eaa9f322",
+        "size_bytes": 328
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0007_native_enter_3cd94d42416b983b219688a611bee7ee7da8bc3a8ee5efc90f99e830fc84f503.json",
+        "sha256": "3cd94d42416b983b219688a611bee7ee7da8bc3a8ee5efc90f99e830fc84f503",
+        "size_bytes": 203
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0007_native_enter_3cd94d42416b983b219688a611bee7ee7da8bc3a8ee5efc90f99e830fc84f503.json",
+        "sha256": "3cd94d42416b983b219688a611bee7ee7da8bc3a8ee5efc90f99e830fc84f503",
+        "size_bytes": 203
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0008_native_exit_7f90cf7aaf0b0013939708578568ba8cfc5e654eca68a23ec536a7f35105dc42.json",
+        "sha256": "7f90cf7aaf0b0013939708578568ba8cfc5e654eca68a23ec536a7f35105dc42",
+        "size_bytes": 233
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0008_native_exit_7f90cf7aaf0b0013939708578568ba8cfc5e654eca68a23ec536a7f35105dc42.json",
+        "sha256": "7f90cf7aaf0b0013939708578568ba8cfc5e654eca68a23ec536a7f35105dc42",
+        "size_bytes": 233
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0009_current_consumption_6a26efff93846aa051c28ca6bc214f37ed24b925753013da18a167170e5c8ef8.json",
+        "sha256": "6a26efff93846aa051c28ca6bc214f37ed24b925753013da18a167170e5c8ef8",
+        "size_bytes": 328
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0009_current_consumption_6a26efff93846aa051c28ca6bc214f37ed24b925753013da18a167170e5c8ef8.json",
+        "sha256": "6a26efff93846aa051c28ca6bc214f37ed24b925753013da18a167170e5c8ef8",
+        "size_bytes": 328
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0010_loaded_final_9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408.json",
+        "sha256": "9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408",
+        "size_bytes": 61581
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0010_loaded_final_9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408.json",
+        "sha256": "9e58104763373c7ecbb1cc847bc5ba268c9456eff396e9edf6e6b9fc1e5e2408",
+        "size_bytes": 61581
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_1/evidence/0011_ordinary_entry_closed_2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb.json",
+        "sha256": "2deae7757cacb10361d1fcd3f2cbf4ce118a8e0e956d80abefa2299a2bd19adb",
+        "size_bytes": 410951
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_2/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0001_loaded_before_native_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_2/evidence/0002_loaded_final_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0002_loaded_final_fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962.json",
+        "sha256": "fd3b5d4b02149f7457d6f724766958b00f4d64c3fc8cb5b8a0212a0f7ede0962",
+        "size_bytes": 59324
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/entry_sessions/session_2/evidence/0003_ordinary_entry_closed_a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16.json",
+        "sha256": "a8bbfda6b2ef91cdd2d1cd4e4a9197feecddcffc5dbb26963e6f37ad2bb8ca16",
+        "size_bytes": 326109
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+        "sha256": "cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500",
+        "size_bytes": 204141
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+        "sha256": "18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4",
+        "size_bytes": 203951
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/import_state.json",
+        "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+        "size_bytes": 4450
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/import_state.json",
+        "sha256": "a2ea416449e359cb9d8544902f09ad16d72cfa583a543aafb3bb0f60329b4ca8",
+        "size_bytes": 4450
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/peer_private_read_refused.json",
+        "sha256": "a9609959a9f2dbb305b008a817d8820074c16730b23b5cf5b516a5bc3ebdf745",
+        "size_bytes": 125
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/peer_private_read_refused.json",
+        "sha256": "a9609959a9f2dbb305b008a817d8820074c16730b23b5cf5b516a5bc3ebdf745",
+        "size_bytes": 125
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/pointer_1.json",
+        "sha256": "21742fc5da3300eb46708c60717bf2d40e503d922fd668540d4feb88304d258c",
+        "size_bytes": 23879
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/pointer_1.json",
+        "sha256": "21742fc5da3300eb46708c60717bf2d40e503d922fd668540d4feb88304d258c",
+        "size_bytes": 23879
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/pointer_2.json",
+        "sha256": "b73d6936321909bec2ac85b71af49ff37a8f062b6d43f9e827cb33861dca8958",
+        "size_bytes": 24039
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/pointer_2.json",
+        "sha256": "b73d6936321909bec2ac85b71af49ff37a8f062b6d43f9e827cb33861dca8958",
+        "size_bytes": 24039
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab.json",
+        "sha256": "22e90864a87ae04f065e1c7f0862782f2f266127aac110f764b751ea3184f694",
+        "size_bytes": 14944
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/214ac0b2f7c6c5c455a90950bd2756750a2fa6af7c4c2b7faaf5157bb0681fab.json",
+        "sha256": "22e90864a87ae04f065e1c7f0862782f2f266127aac110f764b751ea3184f694",
+        "size_bytes": 14944
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a.json",
+        "sha256": "76124ad3957bbee3a92e2f09cf57187a53d363fba3a61adc4deb04731286006f",
+        "size_bytes": 14954
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/3ace9f0982b2aee06d6abd621eba53e38c34c702fd7a645200fdb9c67b8ff82a.json",
+        "sha256": "76124ad3957bbee3a92e2f09cf57187a53d363fba3a61adc4deb04731286006f",
+        "size_bytes": 14954
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960.json",
+        "sha256": "a027fd2a185136def77c963a2cba2adea9ebaa7d8f8cd72cb44331b3f8469c8c",
+        "size_bytes": 15238
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/53551810b1411a3349b72486695eda5bfad1bfc7c5770e6aa1a5a921dc040960.json",
+        "sha256": "a027fd2a185136def77c963a2cba2adea9ebaa7d8f8cd72cb44331b3f8469c8c",
+        "size_bytes": 15238
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902.json",
+        "sha256": "016dc216da3c2bf01d09ff453af36be9dc67a6bde4097505b28e296b25a8834c",
+        "size_bytes": 15238
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/7f227d9d929695532031d93f2076ce108ff6b5e3d198d93cd76bd8d4f3ff1902.json",
+        "sha256": "016dc216da3c2bf01d09ff453af36be9dc67a6bde4097505b28e296b25a8834c",
+        "size_bytes": 15238
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "d3f43f70121e4813857575495e2dca573ba82f5d32ad91efe02b7309be620259",
+        "size_bytes": 15092
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/95f8f5bc6ad870ce520ad9764e3af74171da5e371999f0b5d19a0545b9f02bd3.json",
+        "sha256": "d3f43f70121e4813857575495e2dca573ba82f5d32ad91efe02b7309be620259",
+        "size_bytes": 15092
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00.json",
+        "sha256": "548ae45ad877f06dbcabddcdd899c8f762e55eae67855b766da6b9e18d40436b",
+        "size_bytes": 15238
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/9ba664d2bd5409fead9d387a24fa1e3bbd14c7b84fed9064a1c1546122895c00.json",
+        "sha256": "548ae45ad877f06dbcabddcdd899c8f762e55eae67855b766da6b9e18d40436b",
+        "size_bytes": 15238
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "577c34490381f901de9935b953cf010bc58b8b8a19fba16b1bc3e7197e389201",
+        "size_bytes": 15092
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/a9bbfb22b67a600c910e59573d90ed9be0ca22332b9348d766cc93db23b249f3.json",
+        "sha256": "577c34490381f901de9935b953cf010bc58b8b8a19fba16b1bc3e7197e389201",
+        "size_bytes": 15092
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd.json",
+        "sha256": "45965a0ebb2bb778ba3b64d2ff03944f7ef376b326ca2b94a4beb4530370ad44",
+        "size_bytes": 14954
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/c91c3876369936c815b5f79789a7e46c210bdc5fbad22360d76312f9d53101fd.json",
+        "sha256": "45965a0ebb2bb778ba3b64d2ff03944f7ef376b326ca2b94a4beb4530370ad44",
+        "size_bytes": 14954
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad.json",
+        "sha256": "955a9ab9f1a4cd6a46eb90a2c8a12a74bbb0a0a9d0d2b8b8806a896d1f1bd884",
+        "size_bytes": 14944
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d65029699440c8e0b0fa09d2b678fa8722bc78ea53ba40337533b7fddc7e29ad.json",
+        "sha256": "955a9ab9f1a4cd6a46eb90a2c8a12a74bbb0a0a9d0d2b8b8806a896d1f1bd884",
+        "size_bytes": 14944
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/requests/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "908d9e2cfbae55d2f61c01fdee800d94e689394814d17b4464d743ea4a62e10d",
+        "size_bytes": 15070
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/requests/d6719f6b6ba08b7921cc600d9a75da47df7bac033380f9e74f35095616db2bbd.json",
+        "sha256": "908d9e2cfbae55d2f61c01fdee800d94e689394814d17b4464d743ea4a62e10d",
+        "size_bytes": 15070
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/accepted.json",
+        "sha256": "81534ef7f83961133c54bc092014f5e4cdca1baedca05e98bf3af4367f66c13d",
+        "size_bytes": 137944
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/import.json",
+        "sha256": "ee8b50cb0d19ed17f313d6daea95e6a9777105f5a1d9b5589a067ca9beb0b939",
+        "size_bytes": 25223
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_1/native_work.json",
+        "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+        "size_bytes": 111778
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_1/native_work.json",
+        "sha256": "6a63f7ee9382b2a27e9056c3aaaaea9b5ac36d47581e7c2e90cc71de5a03b608",
+        "size_bytes": 111778
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/accepted.json",
+        "sha256": "36ebdcb14c7e1a3fc2faab2fc41416e6d3dde395d5c3a74b6acca6e5707ee22e",
+        "size_bytes": 138104
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/import.json",
+        "sha256": "8003c428e831cd5453859829274ab2d573cec21aabf2750626edd1a8e51e95ab",
+        "size_bytes": 25383
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/revision_2/native_work.json",
+        "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+        "size_bytes": 111778
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/revision_2/native_work.json",
+        "sha256": "ce51e60aebcbe9de62f476555495a3e7012be1da89125d2142fc28da73ccd97b",
+        "size_bytes": 111778
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/scenario.json",
+        "sha256": "893ace201834c6126de1e90dfc7c13626752d00007bf48f9357a5c5c0034bb8e",
+        "size_bytes": 36
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/scenario.json",
+        "sha256": "893ace201834c6126de1e90dfc7c13626752d00007bf48f9357a5c5c0034bb8e",
+        "size_bytes": 36
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_01.json",
+        "sha256": "b537ab4335dccef4d1a5164fa22df7d82dc6df96a64a7475efea59a3163bd549",
+        "size_bytes": 3038
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_01.json",
+        "sha256": "b537ab4335dccef4d1a5164fa22df7d82dc6df96a64a7475efea59a3163bd549",
+        "size_bytes": 3038
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_02.json",
+        "sha256": "4a8f71dcab51e9bbb285ca77b645b4d6a7eb7e992b0ca185a3bf978c3af38184",
+        "size_bytes": 1822
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_03.json",
+        "sha256": "dcf7031a2b9bcc1395c894c7cff33388095ac3a67a23db7d6dc720ec188ceaa3",
+        "size_bytes": 1916
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_04.json",
+        "sha256": "6564f63bb00dcdcc87dfac1a2b194c4dbc0b5955c5f4b4533f2f9937df54f708",
+        "size_bytes": 3640
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_05.json",
+        "sha256": "e4924e264d58227409c28ec534f9cbc2d52ca7df4bf64c87b820e5c0160a9faf",
+        "size_bytes": 3118
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_05.json",
+        "sha256": "e4924e264d58227409c28ec534f9cbc2d52ca7df4bf64c87b820e5c0160a9faf",
+        "size_bytes": 3118
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_06.json",
+        "sha256": "b59833051e87ac59a11d7d5b4e5d9a15d2bffe36b09da76fa8804aa836519467",
+        "size_bytes": 1916
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_07.json",
+        "sha256": "5c426030cfee6936f3718006591bc9db263a2ca850f5afba81c0625657a13d13",
+        "size_bytes": 3720
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_08.json",
+        "sha256": "66debc2d2fd0540a616cfe77301862de3290eaf820c7ae9d6a252b8aacf3956d",
+        "size_bytes": 1915
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_received_09.json",
+        "sha256": "a2c89e7928ccea801f5d371ebbc5571cf38edb88b33c5bafbacaadc381cd0117",
+        "size_bytes": 1209
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_received_09.json",
+        "sha256": "a2c89e7928ccea801f5d371ebbc5571cf38edb88b33c5bafbacaadc381cd0117",
+        "size_bytes": 1209
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_01.json",
+        "sha256": "6a5c8f729bf45ec2099d42ae114ed0b8bf319b956dc7de30487cb9aab3e4d09f",
+        "size_bytes": 1801
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_02.json",
+        "sha256": "93ad7c54954aaf2e95f2088858cafa3577f9a5980cbad605e51d0da97dbb3be1",
+        "size_bytes": 1859
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_03.json",
+        "sha256": "a457b92bca899c371bde9dfda4a200ed4bab684a6384ab10ca3d6b9f857b2a4b",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_04.json",
+        "sha256": "4a0f640bb13545bf1e55db7cae300d4430db9a18982c5aa0d4a54dacd8dd2d46",
+        "size_bytes": 1870
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_05.json",
+        "sha256": "c3ee5ddcbc53719862b38d71d8651e98d9966d3fa03aa74ba86b4afdda32e6e7",
+        "size_bytes": 1801
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_06.json",
+        "sha256": "f817ffa500e0a2e9fca933a7a87016b0a95e20c6d56e81d454562743b3965b37",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_07.json",
+        "sha256": "1ad67863538d60d1f7c43010b03baf21a984e87424bb38c1f8b02cfeaa68f283",
+        "size_bytes": 1870
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_08.json",
+        "sha256": "b6216abb215d3819fc1aacd64f8f9b1dd8f308f210cc9df009f131e026c5be4b",
+        "size_bytes": 1943
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1/wire_sent_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1/wire_sent_09.json",
+        "sha256": "be4bec514d6a3f178b35e0a1a1e12118990b2651e3902756c5579cd8146075e0",
+        "size_bytes": 1796
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_1.json",
+        "sha256": "52adc5c3b7041be9b0c60d3bfa7d73b32189c4bdb1e97928b6a57a41cb1b8671",
+        "size_bytes": 405733
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_2/wire_received_01.json",
+        "sha256": "4300fb1b2f3cbce3bdf61e706f28df4b64ad1f76ef8e22a0e6fa796bb3b5a302",
+        "size_bytes": 1209
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2/wire_received_01.json",
+        "sha256": "4300fb1b2f3cbce3bdf61e706f28df4b64ad1f76ef8e22a0e6fa796bb3b5a302",
+        "size_bytes": 1209
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_2/wire_sent_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2/wire_sent_01.json",
+        "sha256": "28f20ee50f97b894ab084e411fb32c2ff0ea7302a53f6b500a4a05fe7a438c3d",
+        "size_bytes": 1796
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/session_2.json",
+        "sha256": "c57b9535fab7d39723e14e87fb5ee88844d46f31b489a35a605f32642627992f",
+        "size_bytes": 324012
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/terminal_observation.json",
+        "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+        "size_bytes": 4422
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient/terminal_observation.json",
+        "sha256": "ea2711cbdacc1aa62343a3fc057da16a04b85c905b5b2d54c595bd6f0606231c",
+        "size_bytes": 4422
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_bootstrap_1.json",
+        "sha256": "c24b9d7660ebf59106bc5f1f202476d93dfe6a366f1741d3ac1067ea26e2c314",
+        "size_bytes": 2473
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_bootstrap_1.json",
+        "sha256": "c24b9d7660ebf59106bc5f1f202476d93dfe6a366f1741d3ac1067ea26e2c314",
+        "size_bytes": 2473
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_launch.json",
+        "sha256": "10b8d301a8ad3a271e5bfbec8e6b4f0fb8d0cd40ac8b29d3d7b4e5aceb3ccaaf",
+        "size_bytes": 1677
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_launch.json",
+        "sha256": "10b8d301a8ad3a271e5bfbec8e6b4f0fb8d0cd40ac8b29d3d7b4e5aceb3ccaaf",
+        "size_bytes": 1677
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_public_1.json",
+        "sha256": "484c88ee73f899102715ffc137a611206eeba500394964040c02e6743ec8e891",
+        "size_bytes": 413
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_public_1.json",
+        "sha256": "484c88ee73f899102715ffc137a611206eeba500394964040c02e6743ec8e891",
+        "size_bytes": 413
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_public_2.json",
+        "sha256": "b48fc57be054a714d6e2327e4dfe0639fac7ec5d531c4ba0dc565675f97e487d",
+        "size_bytes": 371
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_public_2.json",
+        "sha256": "b48fc57be054a714d6e2327e4dfe0639fac7ec5d531c4ba0dc565675f97e487d",
+        "size_bytes": 371
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_1_stdout.raw",
+        "sha256": "ae1214d20a1b4b2f5761ba068878d62d2ce41b7dc7cad6583aad0070f34b7f8a",
+        "size_bytes": 7863
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_1_stdout.raw",
+        "sha256": "ae1214d20a1b4b2f5761ba068878d62d2ce41b7dc7cad6583aad0070f34b7f8a",
+        "size_bytes": 7863
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_bootstrap_2.json",
+        "sha256": "a45fe30e0102d3196c32e2da3a27a8caf7d8b7fb1a6a84c7022d7c717fae18c7",
+        "size_bytes": 2473
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_bootstrap_2.json",
+        "sha256": "a45fe30e0102d3196c32e2da3a27a8caf7d8b7fb1a6a84c7022d7c717fae18c7",
+        "size_bytes": 2473
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_launch.json",
+        "sha256": "23069685a2384449eb6f1dce6caeaed9c37f7ff3a3a9e757f4b55ebd56a98ac3",
+        "size_bytes": 1677
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_launch.json",
+        "sha256": "23069685a2384449eb6f1dce6caeaed9c37f7ff3a3a9e757f4b55ebd56a98ac3",
+        "size_bytes": 1677
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_public_1.json",
+        "sha256": "d4616882934341b6c2ef1d4b0237046de7dcde6f963d05967b6436d289df1086",
+        "size_bytes": 413
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_public_1.json",
+        "sha256": "d4616882934341b6c2ef1d4b0237046de7dcde6f963d05967b6436d289df1086",
+        "size_bytes": 413
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_public_2.json",
+        "sha256": "e40f2ee2d51997a1075e3b2acd87b3129f311fdc87b89cc92070d3928979472d",
+        "size_bytes": 371
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_public_2.json",
+        "sha256": "e40f2ee2d51997a1075e3b2acd87b3129f311fdc87b89cc92070d3928979472d",
+        "size_bytes": 371
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_stderr.raw",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_2_stdout.raw",
+        "sha256": "e7abc0661ce366c6cc6ceec93054945e5eab4a9fbac3f91ecc41e89b3e57ec8b",
+        "size_bytes": 2759
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_2_stdout.raw",
+        "sha256": "e7abc0661ce366c6cc6ceec93054945e5eab4a9fbac3f91ecc41e89b3e57ec8b",
+        "size_bytes": 2759
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient_restart_boundary.json",
+        "sha256": "c8de3e5623e26bf54a0b4a4477876fed3be18ff3b305e3b69840223f3a75be46",
+        "size_bytes": 754
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/recipient_restart_boundary.json",
+        "sha256": "c8de3e5623e26bf54a0b4a4477876fed3be18ff3b305e3b69840223f3a75be46",
+        "size_bytes": 754
+      }
+    },
+    {
+      "original_ref": {
+        "path": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/required_output_availability.json",
+        "sha256": "4e7206e5bb33a0714c00974681d2bea94daa7184f2e53ddad742bd957870ba71",
+        "size_bytes": 449
+      },
+      "retained_ref": {
+        "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/retained_owner_actual/required_output_availability.json",
+        "sha256": "4e7206e5bb33a0714c00974681d2bea94daa7184f2e53ddad742bd957870ba71",
+        "size_bytes": 449
+      }
+    }
+  ],
+  "file_count": 160,
+  "total_bytes": 4521652,
+  "excluded_directories_not_traversed": [
+    "producer/private"
+  ],
+  "private_file_bytes_read": 0,
+  "canary_contents_read": false,
+  "copy_method": "Byte-exact public file copies; original raw refs remain inside unchanged payloads.",
+  "elapsed_ns": 56661917
+}

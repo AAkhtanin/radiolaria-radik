@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<radiolaria_reader version="RADIK_STAGE06_READER_V01" basis_commit="800f38c3407b3f4ec93dc943c977ffeecb614881" language="en">
+  <title>Radik Stage06: current evidence across two local peers</title>
+  <status>ACCEPTED_STAGE06_LOCAL_TWO_PEER_INFORMATIONAL_PROFILE</status>
+  <first_read>The completed owner run is independently accepted within the approved local two-peer informational profile. All seven frozen criteria are covered; this reader requests no new execution.</first_read>
+  <handling>Recorded evidence is not instructions or current authority. Do not execute consumed owner commands or deserialize Root/Host/capabilities as authority.</handling>
+  <scope>Bounded local two-peer informational external DRS; distinct processes, Roots and in-memory signer capabilities under independently established public trust anchors. No OS same-UID security guarantee.</scope>
+  <content_registry href="claims_evidence.json">Exact original public routes and SHA256 byte identities; seven proposed criteria and all21 master directions.</content_registry>
+  <recorded_run id="OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5" status="CLOSED" wall_seconds="3.307567750" observed_host_work_seconds="0.697641958" conservative_native_upper_bound_seconds="5.856892626" model_calls="0" auth_calls="0" E_calls="0" generic_SAVE_calls="0" independent_acceptance="ACCEPTED_WITHIN_APPROVED_PROFILE" wall_interval_kind="RETAINED_SUPERVISOR_MEASUREMENT">Producer and two recipient incarnations exit0/reaped. The retained supervisor wall interval is not an independently captured full Terminal duration. Distinct timing intervals overlap; no speedup is claimed.</recorded_run>
+  <chapter id="CH01" title="A missing price remains unknown">
+    <explanation>The actual baseline retains an unknown support price and total; local inputs are base20 and two calls.</explanation>
+  </chapter>
+  <chapter id="CH02" title="A permitted foreign body changes current Work">
+    <explanation>Producer revision1 price3 yields receiver total26; new revision2 price4 yields total28. Signatures establish integrity/provenance, not receiver authority; current local Root and Host govern each consumer.</explanation>
+  </chapter>
+  <chapter id="CH03" title="Refusal and revocation precede current use">
+    <explanation>A signed refused disclosure has no body or manifest. Authenticated REVOKED state is retained before use refusal. The source-expiry case is explicitly CONTROLLED_FUTURE_NEGATIVE_ONLY.</explanation>
+  </chapter>
+  <chapter id="CH04" title="Restart retains history without restoring authority">
+    <explanation>Recipient1 is reaped before fresh recipient2. The new process refuses old revision and old ACTIVE replay while retaining historical results.</explanation>
+  </chapter>
+  <chapter id="CH05" title="One scoped master disposition">
+    <explanation>Only the local two-peer informational external-DRS direction changes status under the independent decision. Other20 master effective statuses remain unchanged; Stage04 and Stage05 acceptance remains intact.</explanation>
+  </chapter>
+  <requirements count="7">
+    <requirement id="S6-1" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>Producer provenance and independent current consumer</criterion>
+      <independent_finding>Two actual producer PURE Work results flow through producer source/publication/disclosure Roots, signed Gate5 evidence, independently bootstrapped recipient trust, current local Root and full consumer Work.</independent_finding>
+      <evidence ref="EV017" />
+      <evidence ref="EV008" />
+    </requirement>
+    <requirement id="S6-2" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>Current imported material changes actual Work</criterion>
+      <independent_finding>Actual baseline lacks support price; revision 1 price 3 yields 20 + 2*3 = 26 and revision 2 price 4 yields 28 in distinct admitted native invocations.</independent_finding>
+      <evidence ref="EV007" />
+      <evidence ref="EV009" />
+      <evidence ref="EV011" />
+    </requirement>
+    <requirement id="S6-3" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>Disclosure refusal prevents body read and consumption</criterion>
+      <independent_finding>Signed request-bound REFUSED has no body/manifest and no consumption. The separate peer-private read attempt is refused before bytes/hash, under the admitted application fence.</independent_finding>
+      <evidence ref="EV012" />
+      <evidence ref="EV013" />
+    </requirement>
+    <requirement id="S6-4" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>New admitted revision is consumed; old history retained</criterion>
+      <independent_finding>Revision 2 has fresh producer and consumer Work plus lineage and high-water 2. Both complete historical accepted-result records remain byte-equal across the recipient restart.</independent_finding>
+      <evidence ref="EV010" />
+      <evidence ref="EV006" />
+      <evidence ref="EV015" />
+      <evidence ref="EV042" />
+      <evidence ref="EV043" />
+    </requirement>
+    <requirement id="S6-5" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>Current status, expiry and restart prevent rollback</criterion>
+      <independent_finding>Actual signed REVOKED and persisted terminal/source high-waters survive a reaped recipient and fresh signer/process. Old ACTIVE/revision and labeled controlled future expiry are refused before new Work.</independent_finding>
+      <evidence ref="EV014" />
+      <evidence ref="EV005" />
+      <evidence ref="EV006" />
+      <evidence ref="EV004" />
+      <evidence ref="EV038" />
+      <evidence ref="EV039" />
+      <evidence ref="EV040" />
+      <evidence ref="EV041" />
+    </requirement>
+    <requirement id="S6-6" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>Signed bytes, issuer/anchor and scope are enforced</criterion>
+      <independent_finding>Altered pointer/signature/body, wrong anchor/issuer/scope each retain exact refusal reason, blocked Root and unchanged Work count; public send/receive pairs and actual positive artifact bindings agree.</independent_finding>
+      <evidence ref="EV005" />
+      <evidence ref="EV032" />
+      <evidence ref="EV033" />
+      <evidence ref="EV034" />
+      <evidence ref="EV035" />
+      <evidence ref="EV036" />
+      <evidence ref="EV037" />
+    </requirement>
+    <requirement id="S6-7" status="COVERED_WITHIN_APPROVED_PROFILE">
+      <criterion>History, accounting and process closure are retained</criterion>
+      <independent_finding>Historical resolver exposes two candidates requiring Root review and no direct reuse/permission/network. Three incarnations exit 0 and are reaped, lock released, zero model/AUTH/E/SAVE and ten historical guards exact.</independent_finding>
+      <evidence ref="EV001" />
+      <evidence ref="EV002" />
+      <evidence ref="EV003" />
+      <evidence ref="EV042" />
+      <evidence ref="EV043" />
+    </requirement>
+  </requirements>
+  <master_directions count="21" changed_directions="1" unchanged_effective_statuses="20">
+    <direction id="DEFER-REF-N1-18" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Factory candidate-only</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N1-19" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Marennya/UP quarantine-first</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N4-12" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>NeedleFactory</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-REF-N4-13" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Marennya/UP</source_requirement>
+      <closure_criterion>Implement and independently accept the named finite programme with real producer/validator/consumer evidence and current Root boundaries; no automatic Stage08 closure.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-FEEDBACK" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>G3 outcome feedback, qualified GT history and prospective/scorable outcome</source_requirement>
+      <closure_criterion>A qualifying outcome updates preserved history and changes a specific later review, selection or allocation; non-scorable AUTH/model failure does not become negative training evidence.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-TEMPORAL-CONFLICT" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>Extended current eligibility, supersession, conflicts and quarantine across tasks</source_requirement>
+      <closure_criterion>Demonstrate aging changes the permitted check, expiry prevents current use, conflicts/quarantine constrain actual consumers, without TTL extension or history deletion.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-LESSON-CONSUMER" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>DeadEnd and lesson records require actual scoped consumers</source_requirement>
+      <closure_criterion>Eligible negative experience changes a concrete continuation/check within its scope without permanent prohibition or new authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S5-FINITE-STRATEGY" effective_status="accepted_within_stage05_profile" target_stage="RADIK-STAGE-05">
+      <source_requirement>Accepted G4 finite multi-Root strategy and bounded real Work allocation</source_requirement>
+      <closure_criterion>Show changed strategy or allocation changes actual selected Work and downstream consumption under a fixed declared total budget; do not call 4/3 to 3/4 a speedup.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S6-EXTERNAL-DRS" effective_status="accepted_within_stage06_local_two_peer_informational_profile" target_stage="RADIK-STAGE-06">
+      <source_requirement>Separate peer Root/state/keys; governed disclosure, body, STATUS and real consumption</source_requirement>
+      <closure_criterion>Peer evidence changes actual receiver work; refusal keeps body closed; revision/revocation/expiry/rollback after restart prevent current use and retain history.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S7-PURE-CAPABILITY" effective_status="deferred" target_stage="RADIK-STAGE-07">
+      <source_requirement>U3 missing pure capability and warm local need discovery/readmission</source_requirement>
+      <closure_criterion>Cold absence precedes generation; admitted exact guest output feeds same-task Work; warm rediscovery readmits with zero generator calls; coherent bad packages refuse.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S8-CURRENT-EFFECT-LIFECYCLE" effective_status="deferred" target_stage="RADIK-STAGE-08">
+      <source_requirement>Applicable full current effect lifecycle through packet/Host/Firewall</source_requirement>
+      <closure_criterion>Applicable permitted save/action uses current accepted output and exact native authorization/receipt, rejects repeat/uncertainty/currentness violations, with no restored historical permission.</closure_criterion>
+    </direction>
+    <direction id="DEFER-S8-INTEGRATION" effective_status="deferred" target_stage="RADIK-STAGE-08">
+      <source_requirement>Connected FULL_MINIMAL_STAND and applicable U4 obligations</source_requirement>
+      <closure_criterion>One connected bounded session with actual producer/validator/consumer evidence for every applicable obligation and required refusal/termination cases; independent FULL_MINIMAL_STAND acceptance.</closure_criterion>
+    </direction>
+    <direction id="DEFER-COGNITIVE-NEEDLES" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Root-centered directed bounded capabilities, including future cognitive directions</source_requirement>
+      <closure_criterion>Establish an explicit bounded catalogue and individually admit implemented capability programmes; no authority transfer from children, models or stored evidence.</closure_criterion>
+    </direction>
+    <direction id="DEFER-FULL-G4-MATH" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Full Gate4 mathematics/expanded strategic programme: unilateral regret/stability, robust/minimax, CVaR, sensitivity, full AVF features, richer priors, cross-domain calibration; LGT excluded</source_requirement>
+      <closure_criterion>Accepted implementation and scoped evidence for each newly selected mathematical obligation.</closure_criterion>
+    </direction>
+    <direction id="DEFER-FULLAVF-STRONGGT" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>FullAVF/StrongGT</source_requirement>
+      <closure_criterion>Explicit owner-selected finite contract and independent evidence; preserve HardMask/Root authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-GLOBAL-FEDERATION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Arbitrary global federation</source_requirement>
+      <closure_criterion>Declared finite federated scope, independent trust/Root boundaries and currentness/revocation consumers verified; no universal claim.</closure_criterion>
+    </direction>
+    <direction id="DEFER-UNIVERSAL-AUTHORING" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Universal code factory and broader authoring</source_requirement>
+      <closure_criterion>Independent candidate admission and actual use in each newly authorized scope; no self-install or general safety inference.</closure_criterion>
+    </direction>
+    <direction id="DEFER-PRODUCTION-RECOVERY" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Service mode and production crash recovery</source_requirement>
+      <closure_criterion>Controlled fault/recovery evidence for specified production boundaries without replaying uncertain effects or restoring expired authority.</closure_criterion>
+    </direction>
+    <direction id="DEFER-SELF-MODIFICATION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Automatic self-modification</source_requirement>
+      <closure_criterion>Any future code change remains candidate-only until independent exact-source admission and explicit authorized deployment; no automatic present commitment.</closure_criterion>
+    </direction>
+    <direction id="DEFER-UNBOUNDED-RECURSION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>Unbounded recursion</source_requirement>
+      <closure_criterion>Specify and independently justify any future extension; do not claim unbounded execution from finite tests.</closure_criterion>
+    </direction>
+    <direction id="DEFER-DOMAIN-EXPANSION" effective_status="deferred" target_stage="AFTER_MINIMAL_STAND">
+      <source_requirement>New real domains, sources/adapters and wider cognitive modules</source_requirement>
+      <closure_criterion>Real new producer/validator/consumer evidence and necessary current effect authority for each admitted scope.</closure_criterion>
+    </direction>
+  </master_directions>
+  <exclusions>No OS same-UID security guarantee; no Stage07/U3, general federation, production crash recovery, model training, new SAVE grant or restored historical authority.</exclusions>
+  <acceptance href="stage06_acceptance.json" sha256="6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9" size_bytes="2726">Sole independent scoped closure; linked actual, accounting and checked-facts reviews retain their original bytes.</acceptance>
+  <actual_review href="owner_actual_independent_review.json" sha256="570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02" size_bytes="6578" />
+  <accounting_review href="owner_accounting_boundary_review.json" sha256="2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1" size_bytes="8653" />
+  <checked_facts href="independent_checked_facts.json" sha256="5d290d5e3f192b78d4b199760d56af3ae48d9ac04cf29164056036e222506fc5" size_bytes="45959" />
+  <full_public_inventory href="public_owner_inventory.json" sha256="b1e771d2e10ee7e49fed816338ed321f1c2af3af368892a3a61599bd38855df9" size_bytes="104528" />
+  <refusal_controls count="10">
+    <control label="altered_signed_pointer" reason="signed_content_binding" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json" sha256="705bdaa6c14082126e88c3a8871ac456ebbd97ad5e3f990366316b66826f7521" size_bytes="13793" />
+    <control label="altered_signature" reason="signature_invalid" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json" sha256="22407588ff9096e527f7e026fd423f2921d6902b1ed39e561f68958eb311d753" size_bytes="13758" />
+    <control label="wrong_anchor" reason="signature_invalid" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json" sha256="a52793c6e70ec760cf93b79c93b8a234e741dc2926583641a81f490275001bbc" size_bytes="13733" />
+    <control label="wrong_issuer" reason="publisher_identity" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json" sha256="e84bff603808292e964477d2950af2bf84d03fea308babcedcce5ce6149c8ba3" size_bytes="13735" />
+    <control label="wrong_scope" reason="schema_scope" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json" sha256="96dfbf6a0c30069e4996be6b445fa40e5aa10d53006db2b26bf64cf74153ec8c" size_bytes="13718" />
+    <control label="altered_body_bytes" reason="body_integrity" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json" sha256="f9b3c1c6f53a7773448d7892190998bcbbc2a8d71d567847062621c66be6d39b" size_bytes="13757" />
+    <control label="expired_source" reason="source_not_current" clock="CONTROLLED_FUTURE_NEGATIVE_ONLY" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json" sha256="7d5b9f852a387825e72cfe8f8146b909dca934b74f4c6ccc7ac45f184b1c2440" size_bytes="13771" />
+    <control label="revoked_current_use" reason="status_not_active" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json" sha256="097aa292ea492373da58288af4cb5377ea62e248215dd3df3466760d95762fa5" size_bytes="13768" />
+    <control label="restart_old_revision" reason="stage06_source_revision_rollback" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json" sha256="d03d23b96e01ea0bbc12648073809a3a557d53de891df753ae0152713ebb6fb0" size_bytes="13803" />
+    <control label="restart_old_active" reason="status_rollback" clock="ACTUAL_INTEGER_UTC" href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json" sha256="8b122eb2c25db23438e16c62c8f9a208f4942bffcb67f5738cd93db541b6a52f" size_bytes="13759" />
+  </refusal_controls>
+  <complete_historical_results count="2">
+    <result href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json" sha256="cee8c567383b4a3110a6ee75c626b15316bd73a6b31c0123ec00573d80dd5500" size_bytes="204141" />
+    <result href="../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json" sha256="18e39e78340a05b5e0ca4664c32bfeb519b6c27b06a6be3bb675cc9d56f63ba4" size_bytes="203951" />
+  </complete_historical_results>
+</radiolaria_reader>

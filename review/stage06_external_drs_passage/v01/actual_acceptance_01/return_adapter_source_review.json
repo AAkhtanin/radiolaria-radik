@@ -1,0 +1,30 @@
+{
+  "schema": "radik.stage06.return_adapter_source_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_EXACT_THREE_CONSTANT_REBASE_SOURCE_ONLY",
+  "adapter_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/build_return.py",
+    "sha256": "d33a277a2e107b63b23c65d728c85664b1b8e439164ee99c941806cf136b7eb1",
+    "size_bytes": 10065
+  },
+  "accepted_preimage_ref": {
+    "path": "review/stage06_external_drs_passage/v01/build_return.py",
+    "sha256": "832bbfaa7a192b7d47e3756fbfb50090bd8b1cc8f65ca3c916c6efd55996da05",
+    "size_bytes": 10023
+  },
+  "publisher_ref": {
+    "path": "review/package_direct_plan_return.py",
+    "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+    "size_bytes": 145066
+  },
+  "changes": [
+    "BASE",
+    "REPORT_ROOT",
+    "fixed publisher key"
+  ],
+  "all_other_source_bytes_identical": true,
+  "public_field_exception_logic_unchanged": true,
+  "no_import_or_execution": true,
+  "packaging_authorized_by_this_record": false,
+  "remaining_requirement": "Separate exact selection, public-field inventory and one-use packaging grant."
+}

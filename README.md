@@ -1,5 +1,15 @@
 # Radik informational task console
 
+<!-- RADIK_STAGE06_PUBLICATION_START -->
+## Stage 6: current evidence across two local peers
+
+Stage 6 is accepted for the bounded local two-peer informational profile: 7 of 7 criteria. A recipient starts without a foreign support price; two signed producer revisions pass fresh local checks and change its own Work result to 26, then 28. Revocation, expiry and restart controls preserve history without restoring authority. The recorded run made zero model calls.
+
+[**Read the recorded story**](review/stage06_external_drs_passage/v01/actual_acceptance_01/README.md) · [Audit route](review/stage06_external_drs_passage/v01/actual_acceptance_01/AUDIT_LOG.md) · [Read with your AI assistant](review/stage06_external_drs_passage/v01/actual_acceptance_01/READ_RADIK_STAGE06.xml) · [Independent acceptance](review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json)
+
+The expiry refusal uses a labeled controlled clock; peer isolation is application-level. Stage 4 and Stage 5 remain accepted. Stage 7 is not started.
+<!-- RADIK_STAGE06_PUBLICATION_END -->
+
 <!-- RADIK_STAGE05_PUBLICATION_START -->
 ## Stage 5: experience changes the next check
 

@@ -1,0 +1,154 @@
+{
+  "schema": "radik.stage06.return_packaging_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_FOR_ONE_LOCAL_SOURCE_ACTUAL_RETURN",
+  "approved_executor": "/root",
+  "approved_invocation_count": 1,
+  "automatic_retry": false,
+  "public_push_authorized": false,
+  "application_or_native_execution_authorized": false,
+  "new_owner_command_or_admission_authorized": false,
+  "Stage06_closed_within_approved_profile": true,
+  "selection_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/return_selection.json",
+    "sha256": "4fe598f7ca251eb8695dfca1d5e5d41b9ec94b26349ce219dc2bfd4cbaaf3d7c",
+    "size_bytes": 164759
+  },
+  "public_field_inventory_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_field_inventory.json",
+    "sha256": "57fdd698741bb5ff3da62ea5c7d84fe0ee912d5b81b1adacdaccd206b399ada9",
+    "size_bytes": 152551
+  },
+  "writer_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/build_return.py",
+      "sha256": "d33a277a2e107b63b23c65d728c85664b1b8e439164ee99c941806cf136b7eb1",
+      "size_bytes": 10065
+    },
+    {
+      "path": "review/package_direct_plan_return.py",
+      "sha256": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e",
+      "size_bytes": 145066
+    }
+  ],
+  "code_source_pins": {
+    "review/stage06_external_drs_passage/v01/actual_acceptance_01/build_return.py": "d33a277a2e107b63b23c65d728c85664b1b8e439164ee99c941806cf136b7eb1",
+    "review/package_direct_plan_return.py": "c94aafcd966692f389c13694059256639f9cf5d2cc2e496407fc38463008066e"
+  },
+  "source_adapter_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/return_adapter_source_review.json",
+    "sha256": "17ba10b05b0047ad6bc328a46167d3c605a2cbe9019f1362152037bb8a5a4ebd",
+    "size_bytes": 1154
+  },
+  "semantic_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+    "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+    "size_bytes": 2726
+  },
+  "actual_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json",
+    "sha256": "570f9fca1a89cf150dc300435d29cfd8ba4b1f4f26a289ce38514cf5046eea02",
+    "size_bytes": 6578
+  },
+  "accounting_boundary_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json",
+    "sha256": "2640c4cc6ee3d763f95683a0f2b4930dc9d7857028a40be2db51f49c6efc70c1",
+    "size_bytes": 8653
+  },
+  "final_documentation_review_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/final_documentation_independent_review.json",
+    "sha256": "41519bea0b06dc850777de097c29f91f0ea63c4d003629d46c84ca08d8597ce1",
+    "size_bytes": 10633
+  },
+  "passage_accounting_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/passage_accounting.json",
+    "sha256": "0fabdd93a06271d29261e07c9069ecb6ef2b8e668b97214b70a9aa5056ef7793",
+    "size_bytes": 1184
+  },
+  "selected_files": 374,
+  "selected_bytes": 11576173,
+  "expected_payload_files": 376,
+  "expected_tar_members_including_manifest": 377,
+  "finite_payload_checks": {
+    "all_source_hashes_sizes_exact": true,
+    "safe_regular_owned_nonsymlink_paths": true,
+    "unique_safe_archive_names": true,
+    "automatic_member_collisions": 0,
+    "both_original_and_retained_routes_for_all_160_public_witnesses": true,
+    "all_final_documentation_links_in_payload": true,
+    "JSON_JSONL_payload_members": 340,
+    "maximum_JSON_depth": 34,
+    "unique_exact_public_field_exceptions": 233,
+    "public_field_kinds": {
+      "GATE5_PUBLIC_REQUEST_NONCE": 108,
+      "STAGE06_CURRENT_ROOT_CLAIM": 125
+    },
+    "raw_forbidden_key_occurrences_covered_in_duplicate_routes": 466,
+    "unclassified_forbidden_keys": 0,
+    "payload_bytes_unfiltered": true,
+    "private_files_or_keys_or_canary_included": false
+  },
+  "prior_archive_pair_refs": [
+    {
+      "archive_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+        "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+        "size_bytes": 1815439
+      },
+      "checksum_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+        "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz",
+        "sha256": "ac70be0341c8d5ae5df9c323d1fa2406fe93272e0c889b1b561f14495282ba3c",
+        "size_bytes": 1815439
+      },
+      "checksum_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T223923.010819Z.tar.gz.sha256",
+        "sha256": "2e35d6ddc541eccbb984bf3ed8bd487c3c061c2759a68f48273d6f6b56ae90ae",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T232117.421323Z.tar.gz",
+        "sha256": "1a6c09aced5a33d9db9f297f316f0ca4cd60f976bb7bb1988bf7b53af56b8a0f",
+        "size_bytes": 457544
+      },
+      "checksum_ref": {
+        "path": "review/returns/RADIK_RETURN_20261022T232117.421323Z.tar.gz.sha256",
+        "sha256": "75505666068355a3fa99860b6991339837c28be44884d838f0e21d24a798652d",
+        "size_bytes": 110
+      }
+    },
+    {
+      "archive_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T232117.421323Z.tar.gz",
+        "sha256": "1a6c09aced5a33d9db9f297f316f0ca4cd60f976bb7bb1988bf7b53af56b8a0f",
+        "size_bytes": 457544
+      },
+      "checksum_ref": {
+        "path": "/Users/admin/Downloads/Radik/RADIK_RETURN_20261022T232117.421323Z.tar.gz.sha256",
+        "sha256": "75505666068355a3fa99860b6991339837c28be44884d838f0e21d24a798652d",
+        "size_bytes": 110
+      }
+    }
+  ],
+  "reservation": {
+    "path": "review/return_verifications/before_owner_fix_source_stage06_external_drs_actual_acceptance_01_build.json",
+    "absent_at_review": true,
+    "retry_or_reset_allowed": false
+  },
+  "budget_boundary": {
+    "total_seconds": 900,
+    "charged_and_reserved_ns": 247556201332,
+    "packaging_and_readback_within_existing_finalization_reserve_seconds": 60,
+    "reserves_are_not_measured_execution": true
+  },
+  "remaining_step": "One existing publisher invocation, then independent full delivered archive/checksum/manifest/selected-byte readback. No rebuild, owner command, application execution or next-stage work.",
+  "finite_review_elapsed_ns_before_write": 248427000
+}

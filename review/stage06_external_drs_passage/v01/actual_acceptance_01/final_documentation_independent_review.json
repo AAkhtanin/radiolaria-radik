@@ -1,0 +1,199 @@
+{
+  "schema": "radik.stage06.final_documentation_independent_review.v1",
+  "reviewer": "/root/private_remote_controls",
+  "status": "ACCEPTED_FACTUAL_NAVIGATION_AND_ONE_SCOPED_MASTER_DELTA",
+  "independent_acceptance_ref": {
+    "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json",
+    "sha256": "6a0d5e11b2954779263e6340afc9b81a8791119ddaa6a7ab13b753b8199a09b9",
+    "size_bytes": 2726
+  },
+  "document_refs": [
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/README.md",
+      "sha256": "2d4ee7bede2906446fdd484a04e577563b6c0793750abc53068cf4b8846e8709",
+      "size_bytes": 4335
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/READ_RADIK_STAGE06.xml",
+      "sha256": "b56f0825f8e7e0a84681aa872d7af2cb52256648fc8397318fcdc7267493ccf3",
+      "size_bytes": 21085
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/AUDIT_LOG.md",
+      "sha256": "43909fec402e75d213616b56c85e5fac8969f687ee46e5322436dd64cf063b49",
+      "size_bytes": 2826
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/claims_evidence.json",
+      "sha256": "94f835e7a91794406f64e22578fdafe43ee5936afde15804da8078943a479e28",
+      "size_bytes": 71194
+    },
+    {
+      "path": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json",
+      "sha256": "7649c71720758f4994427680e4a6b672464721d2f1169e095814a1836796155b",
+      "size_bytes": 17513
+    }
+  ],
+  "external_Russian_report_ref": {
+    "path": "/Users/admin/Downloads/Radik/stage06_actual_acceptance_01/REPORT_RU.md",
+    "sha256": "d70a39fcbb44a3afe62eed4fb0e0c507987477a489de81feff9509459e3da879",
+    "size_bytes": 4340
+  },
+  "seven_criteria_and_findings_exact": true,
+  "evidence_rows_verified": 44,
+  "all_21_original_requirements_dependencies_closure_criteria_exact": true,
+  "effective_status_changes": [
+    "DEFER-S6-EXTERNAL-DRS"
+  ],
+  "other_20_prior_effective_statuses_unchanged": true,
+  "all_other_prior_row_fields_retained": true,
+  "Stage04_Stage05_acceptance_preserved": true,
+  "verified_links": [
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "claims_evidence.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/claims_evidence.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "stage06_acceptance.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "owner_actual_independent_review.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "owner_accounting_boundary_review.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "independent_checked_facts.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "public_owner_inventory.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_owner_inventory.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signed_pointer.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_signature.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_anchor.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_issuer.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/wrong_scope.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/altered_body_bytes.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/expired_source.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/revoked_current_use.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_revision.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/controls/restart_old_active.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_575a89a43ea4bb21c5588a4a7dc64295f62040b7a962bccec4f006666326b458.json"
+    },
+    {
+      "document": "READ_RADIK_STAGE06.xml",
+      "href": "../owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json",
+      "target": "review/stage06_external_drs_passage/v01/owner_terminal_runs/OWNER_20261022T235325_42c64dfc450042aebc319923c968a7a5/recipient/history/work/work_results_83088a353213a7add10c9ae11c622c8ed3e6ac949e3c1fb2b87c8a16893806e4.json"
+    },
+    {
+      "document": "README.md",
+      "href": "READ_RADIK_STAGE06.xml",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/READ_RADIK_STAGE06.xml"
+    },
+    {
+      "document": "README.md",
+      "href": "AUDIT_LOG.md",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/AUDIT_LOG.md"
+    },
+    {
+      "document": "README.md",
+      "href": "claims_evidence.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/claims_evidence.json"
+    },
+    {
+      "document": "README.md",
+      "href": "stage06_acceptance.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_acceptance.json"
+    },
+    {
+      "document": "README.md",
+      "href": "owner_actual_independent_review.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_actual_independent_review.json"
+    },
+    {
+      "document": "README.md",
+      "href": "independent_checked_facts.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/independent_checked_facts.json"
+    },
+    {
+      "document": "README.md",
+      "href": "owner_accounting_boundary_review.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/owner_accounting_boundary_review.json"
+    },
+    {
+      "document": "README.md",
+      "href": "public_owner_inventory.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/public_owner_inventory.json"
+    },
+    {
+      "document": "README.md",
+      "href": "stage06_claims_addendum.json",
+      "target": "review/stage06_external_drs_passage/v01/actual_acceptance_01/stage06_claims_addendum.json"
+    }
+  ],
+  "archive_requirement": "Final selection must include both original and retained public witness routes used by the documentation; they must have equal raw bytes.",
+  "scope_consistency": [
+    "Informational local two-peer profile only",
+    "Controlled future expiry explicitly labeled",
+    "Application/runtime fence is not hostile same-UID OS security",
+    "Zero model/AUTH/provider/E/generic SAVE and unchanged historical ledgers/quota",
+    "Timing is retained supervisor measurement; distinct overlapping intervals are not summed or described as speedup",
+    "Consumed owner admission does not authorize repeat execution; no new command or next-stage grant"
+  ],
+  "no_new_semantic_or_runtime_execution": true,
+  "review_elapsed_ns": 16704584
+}
